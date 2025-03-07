@@ -12,7 +12,6 @@ const footerQuickLinks = [
   {
     display: "Contact us",
     url: "#",
-    // six
   },
 
   {
