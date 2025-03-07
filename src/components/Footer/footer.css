@@ -1,0 +1,38 @@
+.footer {
+  background: rgba(226, 248, 248, 0.664);
+  padding: 20px 0;
+}
+
+.link__list .link__item {
+  background: transparent;
+  font-size: 0.9rem; /* Reduce font size */
+  padding: 5px 0; /* Adjust padding for better spacing */
+}
+
+.link__list a {
+  text-decoration: none;
+  color: #021a10;
+  font-weight: 400;
+  font-size: 1rem; /* Make text smaller */
+}
+
+/* Social Media Links */
+.follows span a {
+  text-decoration: none;
+  font-size: 0.9rem; /* Reduce icon text size */
+}
+
+.follows span {
+  margin-right: 10px; /* Reduce spacing */
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .link__list .link__item {
+    font-size: 0.8rem; /* Even smaller for mobile */
+  }
+
+  .link__list a {
+    font-size: 0.8rem;
+  }
+}

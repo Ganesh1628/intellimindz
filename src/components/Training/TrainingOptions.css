@@ -1,0 +1,45 @@
+.training-container {
+  display: flex;
+  justify-content: center; /* Center the boxes */
+  gap: 70px; /* Reduce gap between boxes */
+  text-align: center;
+  padding: 40px;
+  background: none;
+}
+
+.training-card {
+  flex: 1;
+  max-width: 380px; /* Slightly reduce max-width */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  color: black;
+  background: linear-gradient(to right, #406d57, #3b97ee);
+}
+
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .divider {
+    width: 100px;
+    height: 3px;
+    background: orange;
+    margin: 10px auto;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li, p {
+    color: rgb(0, 0, 0) !important;
+    color: rgb(0, 0, 0);
+    font-size: 22px; /* Increase text size */
+    /* font-style: italic; */
+    line-height: 1.5; /* Improve readability */
+    margin: 8px 0; /* Adjust spacing */
+}
