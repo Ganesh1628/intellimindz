@@ -444,7 +444,7 @@ const Header = () => {
   <p className={`mb-0 d-flex align-items-center gap-2 ${animatePhone ? "animated-phone" : ""}`}>
     <i className="ri-phone-line"></i> +91 9655877577
   </p>
-  <p className="mb-0 d-flex align-items-center gap-2">
+  <p className={`mb-0 d-flex align-items-center gap-2 ${animatePhone ? "animated-phone" : ""}`}>
     <i className="ri-phone-line"></i> +91 9176533933
   </p>
 </div>
