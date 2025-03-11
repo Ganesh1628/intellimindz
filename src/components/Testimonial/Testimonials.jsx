@@ -166,7 +166,7 @@ const Testimonials = () => {
     {
       name: "Anonymous",
       review:
-        "One of the best decisions I made was to learn digital marketing from IntelliMindz. This course by IntelliMindz helped me to start my career in the Digital Marketing field. Now I am having very good exposure to several modules like SEO, PPC, SEM, Content Writing, etc... Here the trainers are well experienced and are ever ready to solve the doubts and teach you. Thanks to Intellimindz and the trainers. Thanks a lot.",
+        "One of the best decisions I made was to learn digital marketing from IntelliMindz. Now I am having very good exposure to several modules like SEO, PPC, SEM, Content Writing, etc... Here the trainers are well experienced and are ever ready to solve the doubts and teach you. Thanks to Intellimindz and the trainers. Thanks a lot.",
     },
     {
       name: "Samson",
