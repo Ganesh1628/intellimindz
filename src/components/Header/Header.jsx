@@ -247,7 +247,7 @@ import whatsappIcon from "../../assests/images/whatsapp.png"; // Import the What
 
 const navLinks = [
   { display: "Home", url: "#" },{},
-  { display: "About", url: "#" },{},
+  { display: "About Us", url: "#" },{},
   { display: "Courses", url: "#", hasDropdown: true },{},
   { display: "Blog", url: "#" },{},
   { display: "Online", url: "#", hasDropdown: true },{},
