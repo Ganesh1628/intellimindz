@@ -60,12 +60,19 @@
 .testimonial-box {
   background: #fff;
   border-radius: 10px;
-  padding: 15px 20px; /* Reduced top padding to move content higher */
+  padding: 15px 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  border: 2px solid #7a7878; /* Add border for the box */
-  height: 105%; /* Ensure all boxes have the same height */
-  margin-top: -30px; /* Move the box higher */
+  border: 2px solid #7a7878;
+  min-height: 100px; /* Ensures a base height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Keeps content aligned */
+}
+
+.row {
+  display: flex;
+  align-items: stretch; /* Ensures all boxes match the tallest one */
 }
 
 .testimonial-box p {
