@@ -79,13 +79,13 @@ const HeroSection = () => {
           <Col lg="3" md="6" sm="6">
             <div className="stats-box">
               <h2>100+</h2>
-              <p>Hands-On Sessions Per Course</p>
+              <p>Hands-On Sessions</p>
             </div>
           </Col>
           <Col lg="3" md="6" sm="6">
             <div className="stats-box">
               <h2>15500+</h2>
-              <p>Successful Career Launches</p>
+              <p>Successful Career</p>
             </div>
           </Col>
         </Row>

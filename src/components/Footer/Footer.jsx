@@ -52,15 +52,9 @@ const Footer = () => {
       <Container>
         <Row>
           <Col lg="3" md="6" className="mb-4">
-            <h2 className="d-flex align-items-center gap-1">
-              {/* <i className="ri-pantone-line"></i> */}
-              <img
-                src={intellimindzLogo} // Use the imported image
-                alt="Intellimindz Logo"
-                className="w-20 intellimindz_img"
-                style={{ height: "90px", width: "auto" }} // Increased height to 40px
-              />
-            </h2>
+          <h1 className="footer__logo">Intelli<span style={{color: "orange"}}>Mindz</span></h1>
+          <h8 className="footer">software Training & Placement</h8>
+            {/* </h2> */}
 
             <div className="follows">
               <p>Intelli Mindz Academy is a leading training institute specialized in providing both Online and Classroom training for software, spoken English, and Competitive Exams.
@@ -113,8 +107,8 @@ const Footer = () => {
             <p>AWS Online Training</p>
             <p>DevOps Online Training</p>
             <p>React Online Course</p>
-            <p>Python Training In Chennai</p>
-            <p>Selenium Training In</p>
+            <p>Python Training</p>
+            <p>Selenium Training</p>
             <ListGroup className="link__list">
               {/* {footerInfoLinks.map((item, index) => (
                 <ListGroupItem key={index} className="border-0 ps-0 link__item">

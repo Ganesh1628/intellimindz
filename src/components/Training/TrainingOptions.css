@@ -1,9 +1,9 @@
 .training-container {
   display: flex;
   justify-content: center; /* Center the boxes */
-  gap: 70px; /* Reduce gap between boxes */
+  gap: 50px; /* Reduce gap between boxes */
   text-align: center;
-  padding: 40px;
+  padding: 100px;
   background: none;
 }
 
