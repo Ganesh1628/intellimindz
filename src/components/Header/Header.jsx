@@ -442,10 +442,10 @@ const Header = () => {
 
             <div className="nav__right d-flex flex-column align-items-start">
   <p className={`mb-0 d-flex align-items-center gap-2 ${animatePhone ? "animated-phone" : ""}`}>
-    <i className="ri-phone-line"></i> +91 9655877577
+    <i className="ri-phone-line"></i> +91 9655877677
   </p>
   <p className={`mb-0 d-flex align-items-center gap-2 ${animatePhone ? "animated-phone" : ""}`}>
-    <i className="ri-phone-line"></i> +91 9176533933
+    <i className="ri-phone-line"></i> +91 9655877577
   </p>
 </div>
 
