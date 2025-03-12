@@ -4,7 +4,7 @@ import HeroSection from "../components/Hero-Section/HeroSection";
 import CompanySection from "../components/Company-section/Company";
 
 // import AboutUs from "../components/About-us/AboutUs";
-import Courses from "../components/Courses-section/Courses";
+// import Courses from "../components/Courses-section/Courses";
 import TrainingOptions from "../components/Training/TrainingOptions";
 import ChooseUs from "../components/Choose-us/ChooseUs";
 // import Features from "../components/Feature-section/Features";
@@ -22,7 +22,7 @@ const Home = () => {
       <CompanySection />
       <TrainingOptions />
       {/* <AboutUs /> */}
-      <Courses />
+      {/* <Courses /> */}
       <ChooseUs />
       {/* <Features /> */}
       {/* <FreeCourse /> */}
