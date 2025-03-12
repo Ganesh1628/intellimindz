@@ -1,6 +1,7 @@
 .footer {
-  background: rgba(226, 248, 248, 0.664);
+  background: rgba(113, 138, 138, 0.664);
   padding: 20px 0;
+  border-radius: 30px 30px 0 0;
 }
 
 .link__list .link__item {
@@ -11,7 +12,7 @@
 
 .link__list a {
   text-decoration: none;
-  color: #021a10;
+  color: #000000;
   font-weight: 400;
   font-size: 1rem; /* Make text smaller */
 }
@@ -19,7 +20,7 @@
 /* Social Media Links */
 .follows span a {
   text-decoration: none;
-  font-size: 0.9rem; /* Reduce icon text size */
+  font-size: 1.6rem; /* Reduce icon text size */
 }
 
 .follows span {

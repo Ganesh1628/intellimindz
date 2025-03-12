@@ -24,25 +24,81 @@
 //   );
 // };
 
-
-
-
-// export default HeroSection;
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Container, Row, Col } from "reactstrap";
+import { FaEnvelope } from "react-icons/fa";
+import MessageIcon from "./MessageIcon"; // Import the Message Icon component
 import "./hero-section.css";
-import { FaEnvelope } from "react-icons/fa"; // Import FontAwesome email icon
 
 const HeroSection = () => {
+  const sectionRef = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setIsVisible(true);
+        }
+      },
+      { threshold: 0.3 }
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
+
+  const useCountUp = (targetNumber, duration, trigger) => {
+    const [count, setCount] = useState(0);
+
+    useEffect(() => {
+      if (!trigger) return;
+
+      let start = 0;
+      const increment = targetNumber / (duration / 50);
+
+      const counter = setInterval(() => {
+        start += increment;
+        if (start >= targetNumber) {
+          setCount(targetNumber);
+          clearInterval(counter);
+        } else {
+          setCount(Math.ceil(start));
+        }
+      }, 50);
+
+      return () => clearInterval(counter);
+    }, [targetNumber, duration, trigger]);
+
+    return count;
+  };
+
+  const courses = useCountUp(150, 2000, isVisible);
+  const tutors = useCountUp(75, 2000, isVisible);
+  const sessions = useCountUp(100, 2000, isVisible);
+  const careers = useCountUp(15500, 3000, isVisible);
+
   return (
-    <section className="hero-section">
+    <section className="hero-section" ref={sectionRef}>
       <Container>
-        {/* ✅ Search Bar & Email Positioned in the Right Orange Space */}
+        {/* Message Box Icon on the Left */}
+        <div className="message-icon-container">
+          <MessageIcon />
+        </div>
+
+        {/* Search Bar & Email */}
         <div className="search-container">
           <input type="text" className="search-input" placeholder="Search courses..." />
           <button className="search-button">Search</button>
-          
-          {/* ✅ Email with Icon */}
+
+          {/* Email with Icon */}
           <div className="email-container">
             <FaEnvelope className="email-icon" />
             <span className="email-text">info@intellimindz.com</span>
@@ -52,38 +108,48 @@ const HeroSection = () => {
         <Row>
           <Col lg="12" md="12">
             <div className="hero__content">
-              <h2 className="mb-4 hero__title">
-                <span className="intellimindz-highlight">Intelli Mindz</span>
-              </h2>
+              <h2 className="hero__title">Intelli Mindz</h2>
+              <p className="hero-subtitle">Transform Your Skills, Transform Your Future</p>
+
+              <div className="feature-list">
+                <div className="feature-item">100+ Courses</div>
+                <div className="feature-item">Hands-on Training</div>
+                <div className="feature-item">Job-Oriented Learning</div>
+                <div className="feature-item">Flexible Time Zones</div>
+                <div className="feature-item">Expert Trainers</div>
+              </div>
               <p className="mb-5">
-              Intelli Mindz Academy is a premier training institute dedicated to providing top-quality Online and Classroom training in software, spoken English, and competitive exam preparation. Our courses are designed with a 100% practical and hands-on approach, ensuring students gain real-world experience. With a portfolio of 100+ courses, we are led by industry experts with over a decade of experience. Each course follows a structured curriculum, giving students a clear learning roadmap. We offer flexible online training across various time zones, catering to learners in the USA, UK, France, Germany, Singapore, Malaysia, Dubai, Saudi Arabia, and beyond. At Intelli Mindz Academy, we focus on both technical skills and practical knowledge, empowering students to confidently step into the job market and secure placements in top multinational companies (MNCs).</p>
+                Intelli Mindz Academy is a premier training institute dedicated to providing top-quality Online and Classroom training in software, spoken English, and competitive exam preparation. Our courses are designed with a 100% practical and hands-on approach, ensuring students gain real-world experience. With a portfolio of 100+ courses, we are led by industry experts with over a decade of experience. Each course follows a structured curriculum, giving students a clear learning roadmap. We offer flexible online training across various time zones, catering to learners in the USA, UK, France, Germany, Singapore, Malaysia, Dubai, Saudi Arabia, and beyond. At Intelli Mindz Academy, we focus on both technical skills and practical knowledge, empowering students to confidently step into the job market and secure placements in top multinational companies (MNCs).
+              </p>
+              <div className="start-course-container">
+                <button className="start-course-btn">Start Course</button>
+              </div>
             </div>
           </Col>
         </Row>
 
-        {/* ✅ Placement Stats Section */}
         <Row className="placement-stats">
           <Col lg="3" md="6" sm="6">
             <div className="stats-box">
-              <h2>150+</h2>
+              <h2>{courses}+</h2>
               <p>Tailor-Made Courses</p>
             </div>
           </Col>
           <Col lg="3" md="6" sm="6">
             <div className="stats-box">
-              <h2>75+</h2>
+              <h2>{tutors}+</h2>
               <p>Expert Real-Time Tutors</p>
             </div>
           </Col>
           <Col lg="3" md="6" sm="6">
             <div className="stats-box">
-              <h2>100+</h2>
+              <h2>{sessions}+</h2>
               <p>Hands-On Sessions</p>
             </div>
           </Col>
           <Col lg="3" md="6" sm="6">
             <div className="stats-box">
-              <h2>15500+</h2>
+              <h2>{careers}+</h2>
               <p>Successful Career</p>
             </div>
           </Col>

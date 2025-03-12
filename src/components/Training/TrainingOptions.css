@@ -1,45 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* General Container */
 .training-container {
-  display: flex;
-  justify-content: center; /* Center the boxes */
-  gap: 50px; /* Reduce gap between boxes */
-  text-align: center;
-  padding: 100px;
-  background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    font-family: "Poppins", sans-serif;
 }
 
+/* Training Mode Title */
+.trainingmode_title {
+    text-align: center;
+    height: 80px;
+    padding-top: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#trainingmode_title_div {
+    border-left: 10px solid rgb(126, 206, 179);
+    border-right: 10px solid rgb(126, 206, 179);
+    background-color: rgb(231, 218, 96);
+    border-radius: 30px;
+    width: 45%;
+    height: 60px;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+
+.trainingmode_title h1 {
+    font-size: 28px;
+    color: black;
+    margin: 0;
+}
+
+/* Training Cards Container */
+.training-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 150%;
+    max-width: 1150px;
+}
+
+/* Individual Training Card */
 .training-card {
-  flex: 1;
-  max-width: 380px; /* Slightly reduce max-width */
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  color: black;
-  background: linear-gradient(to right, #406d57, #3b97ee);
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 15px 6px -6px rgba(41, 41, 41, 0.25);
+    padding: 0; /* Remove padding to align header and content properly */
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Ensure the header and content stay within the card */
+    display: flex;
+    flex-direction: column;
 }
 
-  
-  h2 {
+/* Header Styling */
+.training-header {
+    background-color: #e74c3c; /* Default color, will be overridden by inline styles */
+    padding: 15px;
+    text-align: left;
+}
+
+.training-header h2 {
     font-size: 24px;
     font-weight: bold;
-  }
+    color: white;
+    margin: 0;
+}
 
-  .divider {
-    width: 100px;
-    height: 3px;
-    background: orange;
-    margin: 10px auto;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  ul li, p {
-    color: rgb(0, 0, 0) !important;
-    color: rgb(0, 0, 0);
-    font-size: 22px; /* Increase text size */
-    /* font-style: italic; */
-    line-height: 1.5; /* Improve readability */
-    margin: 8px 0; /* Adjust spacing */
+/* Description Styling */
+.training-content {
+    padding: 20px;
+    padding-right: 100px; /* Add padding to the right to avoid overlapping with the icon */
+    text-align: left;
+    flex-grow: 1; /* Allow the content to grow and push the icon to the bottom */
+}
+
+.training-content p {
+    font-size: 20px;
+    color: #070606;
+    line-height: 2;
+    margin: 0;
+}
+
+/* Icon Styling */
+.training-icon {
+    position: absolute; /* Position the icon absolutely within the card */
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    padding: 20px;
+    text-align: center;
+    z-index: 1; /* Ensure the icon is above the content */
 }

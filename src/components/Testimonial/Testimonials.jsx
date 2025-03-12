@@ -161,27 +161,27 @@ const Testimonials = () => {
     {
       name: "Karthik",
       review:
-        "I’m Karthik and I have attended Devops Online Certification Training from Intellimindz. Devops Training was scheduled and completed as promised and the trainer explained me all concepts clearly from basics. He also provided me with scenarios to practice after completion of every class and it was helpful for me in clearing interviews. I'm now working as a DevOps Consultant. THANK YOU Intellimindz!!!!",
+        "I’m Karthik and I have attended Devops Online Certification Training. Devops Training was scheduled and completed as promised and the trainer explained me.THANK YOU Intellimindz!!!!",
     },
     {
       name: "Anonymous",
       review:
-        "One of the best decisions I made was to learn digital marketing from IntelliMindz. Now I am having very good exposure to several modules like SEO, PPC, SEM, Content Writing, etc... Here the trainers are well experienced and are ever ready to solve the doubts and teach you. Thanks to Intellimindz and the trainers. Thanks a lot.",
+        "One of the best decisions I made was to learn digital marketing from IntelliMindz. Now I am having very good exposure to several modules like SEO, PPC, SEM, Content Writing, etc... Thanks a lot.",
     },
     {
       name: "Samson",
       review:
-        "Myself Samson and I have attended AWS Online Course conducted by Intellimindz. The trainer had deep technical knowledge in AWS and explained all concepts with real-time examples. Classes were interactive and all doubts were cleared. We also had Information Mock Interview after completion of training and also guided me in resume preparation. Now I am confident that I have good experience with AWS tool and will clear AWS Certification. Thank you, Siri.",
+        "Myself Samson and I have attended AWS Online Course conducted by Intellimindz. The trainer had deep technical knowledge in AWS and explained all concepts with real-time examples.",
     },
     {
       name: "Aruna",
       review:
-        "I have done my Informatica training here at Intellimindz. Informatica Online Training was fully hands-on and was helpful. The trainer also had a session on Unix and how to schedule and run a job from a Unix server. Thank you Intellimindz for the great Informatica Training provided.",
+        "I have done my Informatica training here at Intellimindz. Informatica Online Training was fully hands-on and was helpful. The trainer also had a session on Unix and how to schedule.",
     },
     {
       name: "Payithra",
       review:
-        "Good Software development firm for freshers and Well Organized company. They had work in the areas of Database management, Digital Marketing etc..",
+        "Good Software development firm for freshers and Well Organized company. They had work in the areas of Database management, US Digital Marketing, Digital Marketing etc..",
     },
   ];
 

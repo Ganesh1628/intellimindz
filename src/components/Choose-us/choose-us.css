@@ -2,7 +2,7 @@
   background-color: #ffdab9; /* Light orange background */
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(8, 0, 0, 0.1);
   text-align: center;
   margin-top: 20px; /* Move the box higher */
 }
@@ -131,7 +131,7 @@
 .feature-icon {
   font-size: 3rem; /* Increase the size of the icons */
   color: #000000; /* Optional: Change the color of the icons */
-  margin-bottom: 15px; /* Add some spacing below the icons */
+  margin-bottom: 20px; /* Add some spacing below the icons */
 }
 
 /* Transform Effect for Boxes */

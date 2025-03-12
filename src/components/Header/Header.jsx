@@ -246,12 +246,12 @@ import intellimindzLogo from "../../assests/images/intellimindz.png";
 import whatsappIcon from "../../assests/images/whatsapp.png"; // Import the WhatsApp icon
 
 const navLinks = [
-  { display: "Home", url: "#" },{},
-  { display: "About Us", url: "#" },{},
-  { display: "Courses", url: "#", hasDropdown: true },{},
-  { display: "Blog", url: "#" },{},
-  { display: "Online", url: "#", hasDropdown: true },{},
-  { display: "Contact", url: "#" },{},
+  { display: "Home", url: "#" }, {},
+  { display: "About Us", url: "#" }, {},
+  { display: "Courses", url: "#", hasDropdown: true }, {},
+  { display: "Blog", url: "#" }, {},
+  { display: "Online", url: "#", hasDropdown: true }, {},
+  { display: "Contact", url: "#" }, {},
 ];
 
 const onlineOptions = [
@@ -322,8 +322,9 @@ const Header = () => {
                 src={intellimindzLogo}
                 alt="Intellimindz Logo"
                 className="w-100 intellimindz_img"
-                style={{ height: "80px", width: "auto" }}
+                style={{ height: "100px", width: "auto", marginLeft: "-35px" }}
               />
+
             </h2>
           </div>
 
@@ -350,7 +351,7 @@ const Header = () => {
                           {item.display}{" "}
                         </a>
                         {(item.display === "Courses" && isCoursesOpen) ||
-                        (item.display === "Online" && isOnlineOpen) ? (
+                          (item.display === "Online" && isOnlineOpen) ? (
                           <ul
                             className="dropdown-menu"
                             style={{
@@ -390,9 +391,9 @@ const Header = () => {
                                   borderRadius: "50px",
                                   borderBottom:
                                     idx !==
-                                    (item.display === "Courses"
-                                      ? courseOptions.length - 1
-                                      : onlineOptions.length - 1)
+                                      (item.display === "Courses"
+                                        ? courseOptions.length - 1
+                                        : onlineOptions.length - 1)
                                       ? "1px solid #f0f0f0"
                                       : "none",
                                 }}
@@ -441,13 +442,13 @@ const Header = () => {
             </div>
 
             <div className="nav__right d-flex flex-column align-items-start">
-  <p className={`mb-0 d-flex align-items-center gap-2 ${animatePhone ? "animated-phone" : ""}`}>
-    <i className="ri-phone-line"></i> +91 9655877577
-  </p>
-  <p className={`mb-0 d-flex align-items-center gap-2 ${animatePhone ? "animated-phone" : ""}`}>
-    <i className="ri-phone-line"></i> +91 9655877677
-  </p>
-</div>
+              <p className={`mb-0 d-flex align-items-center gap-2 ${animatePhone ? "animated-phone" : ""}`}>
+                <i className="ri-phone-line"></i> +91 9655877677
+              </p>
+              <p className={`mb-0 d-flex align-items-center gap-2 ${animatePhone ? "animated-phone" : ""}`}>
+                <i className="ri-phone-line"></i> +91 9655877577
+              </p>
+            </div>
 
           </div>
 
@@ -460,17 +461,17 @@ const Header = () => {
       </Container>
 
       <div className="whatsapp-icon">
-</div>
-<div className="whatsapp-icon">
-  <a href="https://wa.me/919176533433" target="_blank" rel="noopener noreferrer">
-    <img src={whatsappIcon} alt="WhatsApp" />
-  </a>
-</div>
-<div className="whatsapp-icon">
-  <a href="https://wa.me/919176533933" target="_blank" rel="noopener noreferrer">
-    <img src={whatsappIcon} alt="WhatsApp" />
-  </a>
-</div>
+      </div>
+      <div className="whatsapp-icon">
+        <a href="https://wa.me/919176533433" target="_blank" rel="noopener noreferrer">
+          <img src={whatsappIcon} alt="WhatsApp" />
+        </a>
+      </div>
+      <div className="whatsapp-icon">
+        <a href="https://wa.me/919655877677" target="_blank" rel="noopener noreferrer">
+          <img src={whatsappIcon} alt="WhatsApp" />
+        </a>
+      </div>
     </header>
   );
 };
