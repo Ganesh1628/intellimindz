@@ -8,10 +8,10 @@ import Courses from "../components/Courses-section/Courses";
 import TrainingOptions from "../components/Training/TrainingOptions";
 import ChooseUs from "../components/Choose-us/ChooseUs";
 // import Features from "../components/Feature-section/Features";
-import FreeCourse from "../components/Free-course-section/FreeCourse";
+// import FreeCourse from "../components/Free-course-section/FreeCourse";
 
 import Testimonials from "../components/Testimonial/Testimonials";
-import Newsletter from "../components/Newsletter/Newsletter";
+// import Newsletter from "../components/Newsletter/Newsletter";
 import Footer from "../components/Footer/Footer";
 
 const Home = () => {
