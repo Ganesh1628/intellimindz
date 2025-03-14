@@ -227,3 +227,58 @@
 .whatsapp-icon img:hover {
   transform: scale(1.1); /* Slightly enlarge on hover */
 }
+
+
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  list-style: none;
+  min-width: 220px;
+  display: block;
+}
+
+.dropdown-item {
+  padding: 8px 15px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+}
+
+.dropdown-item:hover {
+  background: #f0f0f0;
+}
+
+.category-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub-dropdown {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  list-style: none;
+  min-width: 150px;
+  display: block;
+}
+
+.sub-item {
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.sub-item:hover {
+  background: lightgray;
+}

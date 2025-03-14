@@ -13,6 +13,7 @@ import ChooseUs from "../components/Choose-us/ChooseUs";
 import Testimonials from "../components/Testimonial/Testimonials";
 // import Newsletter from "../components/Newsletter/Newsletter";
 import Footer from "../components/Footer/Footer";
+// import AboutUs from "../components/About_us/About_us";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       {/* <AboutUs /> */}
       {/* <Courses /> */}
       <ChooseUs />
+      {/* <AboutUs /> */}
       {/* <Features /> */}
       {/* <FreeCourse /> */}
       <Testimonials />

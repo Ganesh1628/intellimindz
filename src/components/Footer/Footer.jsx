@@ -72,15 +72,15 @@ const Footer = () => {
             <p style={{ color: "black" }}>AWS Online Training</p>
             <p style={{ color: "black" }}>DevOps Online Training</p>
             <p style={{ color: "black" }}>React Online Course</p>
-            <p style={{ color: "black" }}>Python Training</p>
-            <p style={{ color: "black" }}>Selenium Training</p>
+            <p style={{ color: "black" }}>Python Training in Chennai</p>
+            <p style={{ color: "black" }}>Selenium Training in Chennai</p>
           </Col>
 
           {/* Contact Information */}
           <Col lg="3" md="6">
             <h4 className="fw-bold" style={{ color: "black" }}>Get in Touch</h4>
-            <p style={{ color: "black" }}>+91 9655877677</p>
-            <p style={{ color: "black" }}>+91 9655877577</p>
+            <p style={{ color: "black" }}>+91 96558 77677</p>
+            <p style={{ color: "black" }}>+91 96558 77577</p>
             <p style={{ color: "black" }}>info@intellimindz.com</p>
           </Col>
         </Row>

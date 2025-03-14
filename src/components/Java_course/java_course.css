@@ -1,0 +1,864 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.Java_container {
+    margin: 0%;
+    margin-top: 80px;
+    padding: 0%;
+    font-family: "Poppins", serif;
+background-color: #F5F5DC;
+}
+
+.Java_heading_section {
+    width: 100%;
+    height: 300px;
+    background-image: url('../../assests/images/Javabanner5.png');
+    background-color: bisque;
+    background-size: cover;
+    /* Ensures the image covers the entire section */
+    background-position: center;
+    display: flex;
+}
+
+.Java_header1 {
+    width: 50%;
+    /* background-color: bisque; */
+    padding-left: 100px;
+    padding-top: 100px;
+    color: white;
+
+}
+
+.Java_header2 {
+    width: 50%;
+    /* background-color: aqua; */
+    padding-top: 60px;
+    padding-left: 300px;
+}
+
+#java_p1 {
+    /* background-color: grey; */
+    width: 210px;
+    height: 70px;
+    padding-top: 12px;
+    padding-left: 18px;
+    border-radius: 25px 0px 25px 0px;
+    color: white;
+    /* border: 1px solid ; */
+}
+
+.Java_star {
+    color: gold;
+    font-size: 17px;
+}
+
+#star5 {
+    position: relative;
+    /* Required for pseudo-element positioning */
+    display: inline-block;
+    /* Ensures the star stays in place */
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    /* Default star color (gray) */
+}
+
+#star5::before {
+    content: "★";
+    position: absolute;
+    top: 0.4px;
+    left: 0.6px;
+    width: 50%;
+    /* Covers only half of the star */
+    overflow: hidden;
+    color: gold;
+    /* Gold color for half */
+    font-size: 17px;
+    /* Must match #star5 for consistent size */
+    white-space: nowrap;
+}
+
+
+
+.Java_Btn1 {
+    background-color: yellow;
+    margin-left: 25px;
+    width: 145px;
+    height: 40px;
+    border-radius: 30px 10px 30px 10px;
+    border: 0px solid;
+    transition: background-color 0.3s ease;
+    /* Smooth transition */
+
+}
+
+.Java_Btn1:hover {
+    background-color: lightsalmon;
+    color: whitesmoke;
+    /* Optional: change text color for better contrast */
+}
+
+.java_list_container1 {
+    background-color: #F5F5DC;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.enroll_section {
+    width: 50%;
+    height: auto;
+    background-color: rgb(119, 168, 21);
+    border-radius: 0px 50px 50px 0px;
+    margin-top: 40px;
+}
+
+.java_list_section {
+    /* background-color: sandybrown; */
+
+    width: 50%;
+    height: auto;
+}
+
+.java_list_sectionbox {
+    /* background: yellow; */
+    height: 300px;
+    width: 610px;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.java_list_sectionbox p {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.enrollbox {
+    width: 400px;
+    height: 500px;
+    background-color: beige;
+    margin-left: 130px;
+    margin-top: 80px;
+}
+
+
+
+.form-box {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 80px;
+    /* box-shadow: grey 0px 0px 30px 2px; */
+    /* border-top: 1px solid grey; */
+    /* border-bottom: 1px solid grey; */
+}
+
+#enroll_h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+#enroll_p {
+    font-size: 13px;
+}
+
+/* Container for the input fields */
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* Space between columns */
+}
+
+/* Each column takes up equal space */
+.column {
+    width: 50%;
+}
+
+/* Input box styling */
+.input-box {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 5px 0;
+
+}
+
+/* Icon styling */
+.input-box i {
+    margin-right: 10px;
+    color: #777;
+}
+
+/* Input field styling */
+.input-box input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    padding: 5px;
+}
+
+/* Button styling */
+.register-btn {
+    width: 100%;
+    background-color: #0a71f0;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+    margin-top: 20px;
+}
+
+/* Button hover effect */
+.register-btn:hover {
+    background-color: #0a438a;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .input-container {
+        flex-direction: column;
+        /* Stack inputs vertically on smaller screens */
+    }
+
+    .column {
+        width: 100%;
+    }
+}
+
+.input_select {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* Styling the select dropdown */
+.input_select select {
+    background: none;
+    border: none;
+    font-size: 14px;
+    /* Increase the size */
+    color: grey;
+    /* Text color */
+    padding: 1px 12px 9px 13px;
+    width: 200px;
+    /* Adjust width */
+    cursor: pointer;
+    outline: none;
+}
+
+/* Remove default arrow and add custom arrow */
+.input_select select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* Optional: Add a custom arrow */
+.input_select::after {
+    content: "▼";
+    /* Unicode down arrow */
+    font-size: 11px;
+    color: grey;
+    position: absolute;
+    right: 20px;
+    pointer-events: none;
+}
+
+/* Hover effect */
+.input_select select:hover {
+    color: #000;
+}
+
+/* Optional: If needed, add underline effect */
+.input_select select {
+    border-bottom: 1px solid #ccc;
+    /* Underline effect */
+}
+
+.imp {
+    color: red;
+}
+
+
+
+
+.radio-group {
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    /* background-color: #72aaf0; */
+}
+
+.radio-group label {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.radio-group input {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#trainingmode {
+    /* background-color: #777; */
+    width: 100%;
+    padding-right: 303px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.label {
+    padding-top: 5px;
+}
+
+#label1 {
+    padding-left: 16px;
+}
+
+#label2 {
+    padding-left: 18px;
+}
+
+
+.java_list_container2 {
+    background-color: #F5F5DC;
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+    margin-top: 0px;
+    /* border: 3px solid black; */
+    padding-bottom: 0x;
+}
+
+.heading_2 {
+    background-color: #3fb88f;
+    width: 70%;
+    height: 90px;
+    text-align: center;
+    border-radius: 60px 100px 100px 0px;
+    margin-top: 130px;
+    margin-left: 20px;
+    padding-top: 4px;
+}
+
+.heading_2 h1 {
+    color: white;
+    margin-top: 25px;
+}
+
+.heading_2_box {
+    display: flex;
+}
+
+.heading_2_list {
+    width: 70%;
+    height: 430px;
+    background-color: #F0E68C;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 30px 200px 0px 50px;
+    border-radius: 30px;
+
+
+}
+
+.heading_2_list p {
+    color: black;
+    line-height: 32px;
+    font-size: 17px;
+}
+
+.heading_2_img {
+    width: 50%;
+    padding-left: 70px;
+    margin-left: 750px;
+    z-index: 3;
+    position: absolute;
+}
+
+.heading_2_img img {
+    width: 500px;
+    height: 500px;
+}
+
+.vdo_container {
+    margin-top: 50px;
+    width: 100%;
+    height: 530px;
+    /* background-color: #66CDAA; */
+    justify-items: center;
+    padding-top: 30px;
+    display: flex;
+    border-radius: 100px;
+}
+
+.vdo_container #vdo_box {
+    background-color: #BDB76B;
+    padding-top: 40px;
+    padding-left: 600px;
+    height: 400px;
+    width: 95%;
+    margin-top: 40px;
+    z-index: 1;
+    border-radius: 0px 50px 50px 0px;
+
+}
+
+.vdo_img {
+    width: 40%;
+    height: 100px;
+    /* background-color: #333; */
+    z-index: 2;
+    position: absolute;
+}
+
+.vdo_img img {
+    width: 500px;
+    height: 500px;
+    /* background-color: white; */
+    margin-left: 0px;
+    /* box-shadow: 0px 0px 100px black; */
+}
+
+.iframe {
+    box-shadow: 0px 0px 30px #696969;
+}
+
+
+
+
+.batch_container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.batch_title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    height: 40px;
+    /* color: white; */
+    /* background-color: #6B8E23; */
+    border-radius: 10px;
+}
+
+.batch-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+    /* background-color: darkcyan; */
+    padding-right: 12px;
+    padding-left: 10px;
+}
+
+.batch-date {
+    font-weight: bold;
+    width: 20%;
+    margin-bottom: 42px;
+    /* background-color: #BDB76B; */
+}
+
+.batch-details {
+    text-align: center;
+    width: 30%;
+    color: #555;
+    font-size: 12px;
+    height: 20px;
+    /* background-color: yellow; */
+    margin-bottom: 40px;
+
+}
+
+.batch-type {
+    color: #808000;
+    font-weight: bold;
+    font-size: 12px;
+    /* background-color: blueviolet; */
+
+}
+
+.batch-time {
+    width: 30%;
+    text-align: right;
+    /* background-color: lightgoldenrodyellow; */
+    /* margin-top: 10px; */
+    height: 70px;
+    text-align: center;
+}
+
+.time {
+    font-weight: bold;
+    /* background-color: yellowgreen; */
+    margin-top: 3px;
+}
+
+.duration {
+    font-size: 14px;
+    color: rgb(59, 59, 59);
+    margin-top: 8px;
+}
+
+.fees-button {
+    background: #1E90FF;
+    color: white;
+    padding: 4px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 37px;
+    margin-right: 20px;
+
+    /* box-shadow: 0px 0px 20px black; */
+}
+
+.fees-button:hover {
+    background: #ff7b00;
+}
+
+/* Request Batch Section */
+.request-batch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.request-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.calendar-icon {
+    width: 40px;
+}
+
+.request-button {
+    background: #1E90FF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 400px;
+}
+
+.request-button:hover {
+    background: #ff7b00;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  .sb_body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind', sans-serif;
+    background: #fff;
+    color: #4d5974;
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .sb_container {
+    margin: 0 auto;
+    padding: 4rem;
+    width: 48rem;
+  }
+  
+  .accordion .accordion-item {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .accordion .accordion-item button[aria-expanded='true'] {
+    border-bottom: 1px solid #03b5d2;
+  }
+  
+  .accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: #7288a2;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  .accordion button:hover,
+  .accordion button:focus {
+    cursor: pointer;
+    color: #03b5d2;
+  }
+  
+  .accordion button:hover::after,
+  .accordion button:focus::after {
+    cursor: pointer;
+    color: #03b5d2;
+    border: 1px solid #03b5d2;
+  }
+  
+  .accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+  }
+  
+  .accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
+  }
+  
+  .accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+  }
+  .accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+  }
+  
+  .accordion button[aria-expanded='true'] {
+    color: #03b5d2;
+  }
+  .accordion button[aria-expanded='true'] .icon::after {
+    width: 0;
+  }
+  .accordion button[aria-expanded='true'] + .accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 2em 0;
+  }
+  
+  
+
+
+
+  
+  /* Questions Box styling */
+  .course-box {
+    background-color: #e0ddca; /* Yellow color */
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align text left, image right */
+    width: 1000px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.course-content {
+    flex: 1;
+    text-align: left;
+}
+
+.course-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #272424;
+    margin-bottom: 11px;
+}
+
+.course-contact {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(248, 226, 24);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.personalized_course_image img {
+    width: 120px; /* Adjust size as needed */
+    height: auto;
+    object-fit: cover;
+    margin-left: 20px; /* Push image to the right */
+}
+
+
+
+
+
+
+
+/* FAQ Section Styling */
+.faq-section {
+    padding: 30px 100px;
+    background-color: #ffffff;
+    margin-top: 40px;
+}
+
+.faq-section h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #fffbfb;
+    margin-bottom: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #2a8af8; /* Yellow background for the header */
+    padding: 15px 20px; /* Padding for the header */
+    border-radius: 40px; /* Rounded corners for the header */
+    display: inline-block; /* Ensure the background only covers the text */
+    margin: 0 290px 40px; /* Center the header and add space below */
+}
+
+.faq-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffee56; /* Yellow background for the box */
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px #292828; /* Shadow for the FAQ box */
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    background-color: #ffffff; /* White background for each question */
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for each question */
+    transition: box-shadow 0.3s ease;
+}
+
+.faq-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.faq-question {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.faq-question:hover {
+    color: #007bff; /* Blue color on hover */
+}
+
+.faq-question::before {
+    content: "▸";
+    margin-right: 10px;
+    color: #007bff;
+    font-size: 24px;
+    transition: transform 0.3s ease;
+}
+
+.faq-item:hover .faq-question::before {
+    transform: rotate(90deg); /* Rotate arrow on hover */
+}
+
+.faq-answer {
+    font-size: 16px;
+    color: #2e2b2b;
+    line-height: 1.6;
+    margin-left: 30px;
+    display: none; /* Hidden by default */
+    background-color: #ffffff; /* White background for the answer */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.faq-item:hover .faq-answer {
+    display: block; /* Show answer on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .faq-section {
+        padding: 30px 15px;
+    }
+
+    .faq-section h2 {
+        font-size: 26px;
+        padding: 10px 15px; /* Adjusted padding for smaller screens */
+    }
+
+    .faq-question {
+        font-size: 18px;
+    }
+
+    .faq-answer {
+        font-size: 14px;
+    }
+
+    .faq-content {
+        padding: 15px;
+    }
+}

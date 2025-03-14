@@ -1,99 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-/* General Container */
 .training-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #f8f6e9; /* Light background */
     padding: 40px 20px;
-    border-radius: 30px;
-    background-color: #ffffff;
-    font-family: "Poppins", sans-serif;
 }
 
-/* Training Mode Title */
-.trainingmode_title {
-    text-align: center;
-    height: 80px;
-    padding-top: 12px;
-    margin-bottom: 20px;
-    width: 100%;
-}
-
-#trainingmode_title_div {
-    border-left: 10px solid rgb(126, 206, 179);
-    border-right: 10px solid rgb(126, 206, 179);
-    background-color: rgb(231, 218, 96);
-    border-radius: 30px;
-    width: 45%;
-    height: 60px;
-    padding-top: 15px;
-    margin: 0 auto;
-}
-
-.trainingmode_title h1 {
-    font-size: 28px;
-    color: black;
-    margin: 0;
-}
-
-/* Training Cards Container */
 .training-cards {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    width: 150%;
-    max-width: 1150px;
+    gap: 0px;
+    width: 90%;
 }
 
-/* Individual Training Card */
 .training-card {
-    background-color: white;
-    border-radius: 30px;
-    box-shadow: 0px 15px 6px -6px rgba(41, 41, 41, 0.25);
-    padding: 0; /* Remove padding to align header and content properly */
-    position: relative;
-    width: 100%;
-    overflow: hidden; /* Ensure the header and content stay within the card */
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 20px;
+    border-radius: 0px 10px 10px 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    margin-top: -20px; /* Overlay effect */
 }
 
-/* Header Styling */
+.training-card:first-child {
+    margin-top: 0; /* Ensure the first card doesn't have a negative margin */
+}
+
+/* Parallelogram Header */
 .training-header {
-    background-color: #e74c3c; /* Default color, will be overridden by inline styles */
-    padding: 15px;
-    text-align: left;
-}
-
-.training-header h2 {
-    font-size: 24px;
-    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: inherit;
     color: white;
-    margin: 0;
-}
-
-/* Description Styling */
-.training-content {
-    padding: 20px;
-    padding-right: 100px; /* Add padding to the right to avoid overlapping with the icon */
-    text-align: left;
-    flex-grow: 1; /* Allow the content to grow and push the icon to the bottom */
-}
-
-.training-content p {
-    font-size: 20px;
-    color: #070606;
-    line-height: 2;
-    margin: 0;
-}
-
-/* Icon Styling */
-.training-icon {
-    position: absolute; /* Position the icon absolutely within the card */
-    bottom: 20px; /* Distance from the bottom */
-    right: 20px; /* Distance from the right */
-    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 25px 40px;  /* Increased padding */
+    transform: skew(-30deg);
     text-align: center;
-    z-index: 1; /* Ensure the icon is above the content */
+    min-width: 150px; /* Increased width for the first red box */
+    height: 100%; /* Extend to cover the down area */
+    display: flex;
+    align-items: center;
+}
+
+.training-header span {
+    display: inline-block;
+    transform: skew(20deg); /* Reverse skew to make text readable */
+}
+
+/* Different colors for each training type */
+.training-card:nth-child(1) .training-header {
+    background: #e74c3c;
+    min-width: 200px; /* Further extend the width of the first red box */
+}
+
+.training-card:nth-child(2) .training-header {
+    background: #34495e;
+}
+
+.training-card:nth-child(3) .training-header {
+    background: #f39c12;
+}
+
+/* Adjust text placement to avoid overlap */
+.training-content {
+    flex: 1;
+    padding: 22px;
+    font-size: 19px;
+    color:  #000000;
+    margin-left: 220px; /* Space to avoid overlapping header */
+}
+
+.training-icon {
+    font-size: 40px;
+    margin-right: 20px;
 }
