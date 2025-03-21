@@ -1,37 +1,10 @@
-// import React from "react";
-// import { Container, Row, Col } from "reactstrap";
-// // import heroImg from "../../assests/images/Computer_background.png"; // Updated image
-// import "./hero-section.css";
-
-// const HeroSection = () => {
-//   return (
-//     <section className="hero-section">
-//       <Container>
-//         <Row>
-//           <Col lg="12" md="12">
-//             <div className="hero__content">
-//               <h2 className="mb-4 hero__title">
-//                 <span className="intellimindz-highlight">Intelli Mindz</span>
-//               </h2>
-//               <p className="mb-5">
-//               Intelli Mindz Academy is a leading training institute specialized in providing both Online and Classroom training for software, spoken English, and Competetive Exams. Our training programs are structured in such a way that trainees will get 100% practical and hands-training. We offer more than 100 courses with real-time experienced trainers who have more than a decade of experience in the respective industry. Courses that we offer are handled in a structured format where students will be provided with a course curriculum before the start of training. We offer online training in various time zones so that it will benefit people located in the USA, UK, France, Germany, Singapore, Malaysia, Dubai, Saudi Arabia, and more.Our training programming will make in strong in both technical and practical areas of the subject and will definitely help you in getting placed in MNC
-//               </p>  
-//             </div>
-//           </Col>
-//         </Row>
-//       </Container>
-//     </section>
-//   );
-// };
-
-
-
-
 import React, { useState, useEffect, useRef } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { FaEnvelope } from "react-icons/fa";
 import MessageIcon from "./MessageIcon"; // Import the Message Icon component
 import "./hero-section.css";
+import { width } from "@mui/system";
+import { color } from "framer-motion";
 
 const HeroSection = () => {
   const sectionRef = useRef(null);
@@ -58,36 +31,6 @@ const HeroSection = () => {
     };
   }, []);
 
-  const useCountUp = (targetNumber, duration, trigger) => {
-    const [count, setCount] = useState(0);
-
-    useEffect(() => {
-      if (!trigger) return;
-
-      let start = 0;
-      const increment = targetNumber / (duration / 50);
-
-      const counter = setInterval(() => {
-        start += increment;
-        if (start >= targetNumber) {
-          setCount(targetNumber);
-          clearInterval(counter);
-        } else {
-          setCount(Math.ceil(start));
-        }
-      }, 50);
-
-      return () => clearInterval(counter);
-    }, [targetNumber, duration, trigger]);
-
-    return count;
-  };
-
-  const courses = useCountUp(150, 2000, isVisible);
-  const tutors = useCountUp(75, 2000, isVisible);
-  const sessions = useCountUp(100, 2000, isVisible);
-  const careers = useCountUp(15500, 3000, isVisible);
-
   return (
     <section className="hero-section" ref={sectionRef}>
       <Container>
@@ -108,52 +51,124 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <Row>
-          <Col lg="12" md="12">
-            <div className="hero__content">
-              <h2 className="hero__title">Intelli Mindz</h2>
-              <p className="hero-subtitle">Transform Your Skills, Transform Your Future</p>
-
-              <div className="feature-list">
-                <div className="feature-item">100+ Courses</div>
-                <div className="feature-item">Hands-on Training</div>
-                <div className="feature-item">Job-Oriented Learning</div>
-                <div className="feature-item">Flexible Time Zones</div>
-                <div className="feature-item">Expert Trainers</div>
-              </div>
-              <p className="mb-5">
-                Intelli Mindz Academy is a premier training institute dedicated to providing top-quality Online and Classroom training in software, spoken English, and competitive exam preparation. Our courses are designed with a 100% practical and hands-on approach, ensuring students gain real-world experience. With a portfolio of 100+ courses, we are led by industry experts with over a decade of experience. Each course follows a structured curriculum, giving students a clear learning roadmap. We offer flexible online training across various time zones, catering to learners in the USA, UK, France, Germany, Singapore, Malaysia, Dubai, Saudi Arabia, and beyond. At Intelli Mindz Academy, we focus on both technical skills and practical knowledge, empowering students to confidently step into the job market and secure placements in top multinational companies (MNCs).
+        {/* Main Content Section */}
+        <Row className="content-section">
+          {/* Left Side - Paragraph */}
+          <Col lg="6" md="12">
+            <div className="header_content" style={{ marginLeft: "-60px" /* Adjust as needed */}}>
+              <h1>
+                Welcome to Intelli
+                <span style={{ color: "orange", fontFamily: "Montserrat, sans-serif" }}>
+                  Mindz
+                </span>
+              </h1>
+            </div>
+            <div className="hero__content" style={{ marginTop: "20px", textAlign: "left" }}> {/* Ensure text alignment */}
+              <p className="mb-10" style={{ width: "620px", textAlign: "left", fontFamily: "Poppins, sans-serif" }}>
+                Intelli Mindz Academy is a premier training institute dedicated to providing top-quality Online and Classroom training in software, spoken English, and competitive exam preparation.
+              </p>
+              <p className="mb-10" style={{ width: "620px", textAlign: "left", fontFamily: "Poppins, sans-serif"}}>
+                Our courses are designed with a 100% practical and hands-on approach, ensuring students gain real-world experience. With a portfolio of 100+ courses, we are led by industry experts with over a decade of experience. Each course follows a structured curriculum, giving students a clear learning roadmap.
+              </p>
+              <p className="mb-10" style={{ width: "620px", textAlign: "left", fontFamily: "Poppins, sans-serif" }}>
+                We offer flexible online training across various time zones, catering to learners in the USA, UK, France, Germany, Singapore, Malaysia, Dubai, Saudi Arabia, and beyond. At Intelli Mindz Academy, we focus on both technical skills and practical knowledge, empowering students to confidently step into the job market and secure placements in top multinational companies (MNCs).
               </p>
               <div className="start-course-container">
                 <button className="start-course-btn">Start Course</button>
               </div>
             </div>
           </Col>
+
+
+          {/* Right Side - Enrollment Form */}
+          <Col lg="6" md="12">
+            {/* <div className="enroll_section"> */}
+            <div className="form-box" style={{ marginTop: "250px"}}>
+              <h2 id="enroll_h2" style={{ fontSize: "27px" }}>Enroll Now</h2>
+              <p id="enroll_p" style={{ color: "black", fontSize: "15px" }}>and We will get back to you soon!</p>
+              <form>
+                <div className="input-container">
+                  <div className="column">
+                    <div className="input-box">
+                      <input type="text" placeholder="Name" />
+                    </div>
+                    <div className="input-box">
+                      <input type="text" placeholder="Phone Number" />
+                    </div>
+                    <div className="input-box">
+                      <input type="email" placeholder="E-Mail" />
+                    </div>
+                  </div>
+
+                  <div className="column">
+                    <div className="input-box">
+                      <input type="text" placeholder="Course" />
+                    </div>
+
+                    <div className="input_select">
+                      <select defaultValue="">
+                        <option value="" disabled>Select Branch *</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Coimbatore">Coimbatore</option>
+                        <option value="Tirupur">Tirupur</option>
+                      </select>
+                    </div>
+
+                    <div className="input_select" style={{ color: "black" }}>
+                      <select defaultValue="">
+                        <option value="" disabled>Select Batch *</option>
+                        <option value="Immediately">Immediately</option>
+                        <option value="In 2 Weeks">In 2 Weeks</option>
+                        <option value="In a Month">In a Month</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="radio-group">
+                  <div id="trainingmode">Training Mode</div>
+                  <label className="label">
+                    <input type="radio" name="preference" value="online" />
+                    Online
+                  </label>
+                  <label className="label">
+                    <input type="radio" name="preference" value="offline" />
+                    Offline
+                  </label>
+                </div>
+                <button type="submit" className="register-btn">
+                  Submit Now
+                </button>
+              </form>
+            </div>
+          </Col>
         </Row>
 
+        {/* Stats Section */}
         <Row className="placement-stats">
           <Col lg="3" md="6" sm="6">
             <div className="stats-box">
-              <h2>{courses}+</h2>
+              <h2>150+</h2>
               <p>Tailor-Made Courses</p>
             </div>
           </Col>
           <Col lg="3" md="6" sm="6">
             <div className="stats-box">
-              <h2>{tutors}+</h2>
+              <h2>75+</h2>
               <p>Expert Real-Time Tutors</p>
             </div>
           </Col>
           <Col lg="3" md="6" sm="6">
             <div className="stats-box">
-              <h2>{sessions}+</h2>
+              <h2>100+</h2>
               <p>Hands-On Sessions</p>
             </div>
           </Col>
           <Col lg="3" md="6" sm="6">
             <div className="stats-box">
-              <h2>{careers}+</h2>
-              <p>Successful Career</p>
+              <h2>15500+</h2>
+              <p>Successful Careers</p>
             </div>
           </Col>
         </Row>

@@ -9,6 +9,7 @@ import "../Footer/footer.css"; // Ensure the correct path
 import { motion } from "framer-motion";
 import whatsappIcon from "../../assests/images/whatsapp.png"; // Import the WhatsApp icon
 
+
 const Java = () => {
     const batchSchedule = [
         { date: "08th MARCH 2025", days: "Sat (Sat-Sun)", type: "WEEKEND BATCH" },

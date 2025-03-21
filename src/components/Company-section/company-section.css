@@ -1,79 +1,71 @@
-/* Trending Section Styles */
-.trending-section {
-    padding: 60px 0; /* Add padding for spacing */
-    background-color: #f8f9fa; /* Light background color */
-  }
-  
-  .trending-title {
-    font-size: 2.5rem; /* Large font size */
-    font-weight: bold; /* Bold text */
-    color: #333; /* Dark text color */
-    margin-bottom: 0; /* Remove default margin */
-  }
-  
-  /* Animation for the words */
-.animated-word {
-    display: inline-block;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeInUp 0.5s ease-out forwards;
-  }
-  
-  /* Delay each word's animation */
-  .animated-word:nth-child(1) {
-    animation-delay: 0.5s;
-  }
-  
-  .animated-word:nth-child(2) {
-    animation-delay: 1s;
-  }
-  
-  /* Keyframes for the animation */
-  @keyframes fadeInUp {
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  /* Styling for the trending section */
-  .trending-section {
-    padding: 50px 0;
-    background-color: #f8f9fa; /* Light background */
-  }
-  
-  .trending-title {
-    font-size: 3rem;
-    font-weight: bold;
-    color: #020000;
-  }
+/* Course Section */
+.courses-section {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+  text-align: center;
+}
 
-  .tech-logo {
-    height: 90px;
-    width: 100px;
-    display: block;
-    margin: 0 auto;
-  }
-  
-  .animated-word {
-    display: inline-block;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeInUp 0.5s ease-out forwards;
-  }
-  
-  .animated-word:nth-child(1) {
-    animation-delay: 0.5s;
-  }
-  
-  .animated-word:nth-child(2) {
-    animation-delay: 1s;
-  }
-  
-  @keyframes fadeInUp {
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
+/* Title Styling */
+.courses-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 20px;
+  /* color: #333; */
+}
+
+.highlight {
+  color: red;
+}
+
+/* Course card container */
+.course-card {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Course box design */
+.course-box {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* Image on top, text below */
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+/* Image inside course box */
+.course-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Course title below the image */
+.course-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  padding: 10px;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+/* ✅ Hover Effect: Moves Only the Image */
+.course-box:hover .course-img {
+  transform: translateY(-5px); /* Moves image up slightly */
+}
+
+/* Optional: Slight box hover effect */
+.course-box:hover {
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+}

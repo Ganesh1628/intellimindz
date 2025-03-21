@@ -6,7 +6,10 @@
   text-align: center;
   margin-top: 20px; /* Move the box higher */
 }
-
+text-center mb-4
+{
+  font-weight: 20px;
+}
 .choose-box h4 {
   color: #ff4500; /* Orange color for the header */
 }
@@ -24,7 +27,7 @@
 }
 
 .choose__content h2 {
-  font-weight: 600;
+  font-weight: 00;
 }
 
 .choose__img {

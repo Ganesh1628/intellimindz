@@ -1,170 +1,65 @@
-.single__course__item {
-  padding: 15px;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* courses.css */
+.slide-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 60px;
+  font-weight: bold;
 }
 
-.course__img img {
-  border-radius: 10px;
+.header {
+  font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
-.enroll a {
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 0.9rem;
-  color: #17bf9e;
+.color1 {
+  color: #0f110f; /* Blue */
+  font-size: 2rem;
+  margin-right: 10px; /* Adjust as needed */
 }
 
-.lesson,
-.students,
-.rating {
-  font-size: 0.9rem;
-  color: #0a2b1e;
-  font-weight: 500;
+.color2 {
+  color: #0f110f; /* Green */
+  font-size: 2rem;
+  margin-right: 10px; /* Adjust as needed */
 }
 
-.lesson i,
-.students i,
-.rating i {
-  font-weight: 400;
+.color3 {
+  color: #f39405; /* Red */
+  font-size: 2rem;
 }
 
-.course__title {
-  line-height: 2rem;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 40px;
 }
 
-.course__top__left h2 {
-  font-weight: 600;
-}
-.course__top__left p {
-  /* background-color: rgba(0, 0, 0, 0.1);  */
-  color: #000000; /* Darker text color */
-  padding: 10px;
-  border-radius: 5px;
-  font-weight: 500;
-  font-size: 22px;
-}
-
-
-.students,
-.duration {
-  font-size: 0.9rem;
-  color: #000000;
-  font-weight: 500;
-}
-
-.students i,
-.duration i {
-  font-weight: 400;
-}
-
-.enroll {
-  text-align: center; /* Centers the Enroll button */
-  margin-top: 10px;
-}
-
-.enroll a {
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 1rem;
-  color: #fff;
-  background-color: #17bf9e;
-  padding: 8px 15px;
-  border-radius: 5px;
-  display: inline-block;
-}
-
-.course-wrapper {
-  position: relative;
+.slide-section {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
-.course-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
+.icon {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #007bff;
 }
 
-.nav-arrow {
-  /* background: rgba(0, 0, 0, 0.7); */
-  border: none;
-  color: rgb(112, 99, 99);
-  font-size: 3rem;
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  padding: 10px 15px;
-  border-radius: 50%;
-  z-index: 10;
-}
-
-.left-arrow {
-  left: -40px;
-}
-
-.right-arrow {
-  right: -40px;
-}
-
-/* .nav-arrow:hover {
-  background: rgba(0, 0, 0, 0.9);
-} */
-
-
-.enroll-btn {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff;
-  background: linear-gradient(90deg, #ff6a00, #ee0979);
-  text-decoration: none;
-  border-radius: 30px;
-  transition: 0.4s ease-in-out;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
-}
-
-/* Glowing animation */
-.enroll-btn::before {
-  content: "";
-  position: absolute;
-  top: -10px;
-  left: -10px;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 105, 180, 0.5);
-  filter: blur(10px);
-  opacity: 0;
-  transition: 0.4s ease-in-out;
-}
-
-.enroll-btn:hover::before {
-  opacity: 1;
-}
-
-.enroll-btn:hover {
-  box-shadow: 0 0 20px rgba(255, 105, 180, 0.8);
-  transform: scale(1.05);
-}
-
-/* Pulsating animation */
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
-  }
-  50% {
-    box-shadow: 0 0 20px rgba(255, 105, 180, 0.8);
-  }
-  100% {
-    box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
-  }
-}
-
-.enroll-btn {
-  animation: pulse 2s infinite alternate;
+h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
 }

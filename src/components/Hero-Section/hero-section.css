@@ -1,8 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap'); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
 
 .hero-section {
   position: relative;
   padding: 80px 0;
+  font-family: 'Montserrat', sans-serif;
   z-index: 2;
   background: 
     linear-gradient(rgba(3, 137, 247, 0.062), rgba(3, 137, 247, 0.644)), /* Stronger orange background */
@@ -26,14 +32,7 @@
   z-index: 2;
 }
 
-/* Start Course Button */
-.start-course-container {
-  text-align: right;
-  margin-top: -50px;
-  margin-bottom: 30px;
-  position: relative;
-  z-index: 2;
-}
+
 
 
 /* Search Input */
@@ -94,9 +93,8 @@
   white-space: nowrap;
 }
 
-/* Hero Content */
 .hero__content {
-  padding-top: 150px; /* Adjust to avoid overlapping */
+  padding-top: 20px; /* Increase this value to move it further down */
 }
 
 .hero__title {
@@ -104,9 +102,17 @@
   font-weight: bold;
 }
 
+.header_content {
+  margin-top: 150px; /* Adjust this value as needed */
+  text-align: center; /* Ensures it's centered */
+  color: #1a1818;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* Add this to your hero-section.css */
 .intellimindz-highlight {
-  font-family: 'YourDesiredFont', sans-serif; /* Replace with your desired font */
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold; 
    /* Adjust as needed */
   color: #4682B4; /* Adjust the color as needed */
@@ -120,11 +126,11 @@ p {
   font-weight: normal;
 }
 
-.mb-5 {
-  font-size: 1.7rem;
+.mb-10 {
+  font-size: 1.3rem;
   line-height: 1.6;
   color: rgb(0, 0, 0);
-  margin-top: 100px;
+  margin-top: 0px;
 }
 
 /* Stats Section */
@@ -137,8 +143,8 @@ p {
 .stats-box {
   text-align: center;
   padding: 20px;
-  background: white;
-  border-radius: 10px;
+  background: rgb(161, 160, 160);
+  border-radius: 14px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
   width: 100%;
@@ -238,7 +244,7 @@ p {
 .placement-stats {
   display: flex;
   justify-content: center;
-  margin-top: 50px; /* Adds space between button and stats */
+  margin-top: -10px; /* Adds space between button and stats */
 }
 
 
@@ -300,7 +306,7 @@ p {
   position: relative;
   padding: 80px 0;
   z-index: 2;
-  background: linear-gradient(rgba(3, 137, 247, 0.137), rgba(14, 61, 100, 0.644));
+  /* background: linear-gradient(rgba(215, 218, 39, 0.459), rgba(170, 148, 26, 0.863)); */
   text-align: center;
   border-radius: 0px 0px 130px 0px;
 }
@@ -328,7 +334,6 @@ p {
 .feature-list {
   display: flex;
   justify-content: center;
-  font-family: 'Playfair Display', serif;
   flex-wrap: wrap;
   gap: 20px;
   margin-bottom: 40px;
@@ -351,7 +356,7 @@ p {
 
 .start-course-container {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .start-course-btn {
@@ -393,4 +398,126 @@ p {
 .message-icon-img {
   width: 50px;
   height: 50px;
+}
+
+
+
+/* Adjusting the position of the form */
+.enroll_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+/* Ensure form fields are interactive */
+.form-box {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  width: 500px;
+  margin-top: 150px;
+  margin-left: 80px;
+  border: 1px solid #464545;
+  position: relative; /* Ensure the form is positioned correctly */
+  z-index: 1; /* Ensure the form is above other elements */
+}
+
+/* Ensure form fields are not disabled */
+.input-box input,
+.input_select select,
+.radio-group input {
+  pointer-events: auto; /* Ensure fields are clickable */
+}
+
+/* Ensure no overlapping elements are blocking the form */
+.enroll_section {
+  position: relative;
+  z-index: 2; /* Ensure the form section is above other elements */
+}
+
+/* Input Fields */
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-box input:focus {
+  border-color: #007bff;
+}
+
+/* Select Dropdown */
+.input_select select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input_select select:focus {
+  border-color: #007bff;
+}
+
+/* Training Mode (Radio Buttons) */
+.radio-group {
+  text-align: left;
+  margin-top: 15px;
+}
+
+#trainingmode {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.radio-group .label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-right: 10px;
+  color: #1f1e1e;
+}
+
+.radio-group input {
+  margin-right: 5px;
+}
+
+/* Submit Button */
+.register-btn {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 15px;
+}
+
+.register-btn:hover {
+  background: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .input-container {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .column {
+    width: 100%;
+  }
+
 }

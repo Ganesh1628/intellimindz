@@ -1,82 +1,65 @@
+/* Training Section */
 .training-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #f8f6e9; /* Light background */
-    padding: 40px 20px;
+    text-align: center;
+    padding: 50px 0;
+    background-color: #e0e0e0;
 }
 
+/* Title Styling */
+.training-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #221e1e;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.highlight {
+    color: red;
+}
+
+/* Card Container */
 .training-cards {
     display: flex;
-    flex-direction: column;
-    gap: 0px;
-    width: 90%;
+    justify-content: center;
+    gap: 37px;
+    flex-wrap: wrap;
 }
 
+/* Training Card */
 .training-card {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     background: white;
+    border-radius: 10px;
     padding: 20px;
-    border-radius: 0px 10px 10px 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-    overflow: hidden;
-    margin-top: -20px; /* Overlay effect */
-}
-
-.training-card:first-child {
-    margin-top: 0; /* Ensure the first card doesn't have a negative margin */
-}
-
-/* Parallelogram Header */
-.training-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: inherit;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 25px 40px;  /* Increased padding */
-    transform: skew(-30deg);
+    width: 270px;
     text-align: center;
-    min-width: 150px; /* Increased width for the first red box */
-    height: 100%; /* Extend to cover the down area */
-    display: flex;
-    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
 
-.training-header span {
-    display: inline-block;
-    transform: skew(20deg); /* Reverse skew to make text readable */
+/* Hover Effect */
+.training-card:hover {
+    transform: translateY(-5px);
 }
 
-/* Different colors for each training type */
-.training-card:nth-child(1) .training-header {
-    background: #e74c3c;
-    min-width: 200px; /* Further extend the width of the first red box */
-}
-
-.training-card:nth-child(2) .training-header {
-    background: #34495e;
-}
-
-.training-card:nth-child(3) .training-header {
-    background: #f39c12;
-}
-
-/* Adjust text placement to avoid overlap */
-.training-content {
-    flex: 1;
-    padding: 22px;
-    font-size: 19px;
-    color:  #000000;
-    margin-left: 220px; /* Space to avoid overlapping header */
-}
-
+/* Training Icon */
 .training-icon {
-    font-size: 40px;
-    margin-right: 20px;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 10px;
+}
+
+/* Training Title */
+.training-header {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #d8bb5d;
+    margin-bottom: 20px;
+}
+
+/* Training Description */
+.training-content {
+    font-size: 1rem;
+    color: #0a0808;
+    line-height: 1.4;
 }

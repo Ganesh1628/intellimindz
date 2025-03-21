@@ -1,0 +1,128 @@
+
+/* FAQ Section Styling */
+.faq-section {
+    padding: 30px 100px;
+    background-color: #cecbcb;
+    margin-top: 40px;
+}
+
+.faq-section h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 20px; /* Padding for the header */
+    border-radius: 40px; /* Rounded corners for the header */
+    display: inline-block; /* Ensure the background only covers the text */
+}
+
+
+.faq-item {
+    margin-bottom: 20px; /* Increase space between FAQ boxes */
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+
+.faq-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.faq-question {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+
+
+.faq-question::before {
+    content: "▸";
+    margin-right: 10px;
+    /* color: #007bff; */
+    font-size: 24px;
+    transition: transform 0.3s ease;
+}
+
+.faq-item:hover .faq-question::before {
+    transform: rotate(90deg); /* Rotate arrow on hover */
+}
+
+.faq-answer {
+    font-size: 16px;
+    color:  #ffffff;
+    line-height: 1.6;
+    margin-left: 30px;
+    display: none; /* Hidden by default */
+    background-color: #ffffff; /* White background for the answer */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.faq-item:hover .faq-answer {
+    display: block; /* Show answer on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .faq-section {
+        padding: 30px 15px;
+    }
+
+    .faq-section h2 {
+        font-size: 26px;
+        padding: 10px 15px; /* Adjusted padding for smaller screens */
+    }
+
+    .faq-question {
+        font-size: 18px;
+    }
+
+    .faq-answer {
+        font-size: 14px;
+    }
+    
+}
+
+
+
+
+
+
+.course-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    width: 85%;
+}
+
+.course-content {
+    flex: 1;
+}
+
+
+.personalized_course_image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.personalized_course_image img {
+    width: 120px; /* Adjust size as needed */
+    height: auto;
+}

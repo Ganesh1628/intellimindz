@@ -1,55 +1,67 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./testimonial.css";
 import { Container, Row, Col } from "reactstrap";
 import { FaStar } from "react-icons/fa"; // Import star icon
 
 const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [rating, setRating] = useState(0.0);
-  const testimonialsPerPage = 3;
+  const [rating, setRating] = useState(0.0); // State for the rating count
+  const testimonialsPerPage = 1;
+  const ratingRef = useRef(null);
+  const [startAnimation, setStartAnimation] = useState(false);
 
   const testimonials = [
     {
-      name: "Karthik",
+      name: "T Chandini",
       review:
-        "I’m Karthik and I have attended Devops Online Certification Training. Devops Training was scheduled and completed as promised and the trainer explained me.THANK YOU Intellimindz!!!!",
+        "Being in Sunnehalf gave me great pleasure and competencies to rediscover my professional state. The trainers here are highly supportive to satisfy the scholars targets; it is their warmness and project to make a student a complete professional. I categorical my gratitude to the entire PILLARS of Sunnehalf for displaying up.",
     },
     {
-      name: "Anonymous",
+      name: "M Yougandhar",
       review:
-        "One of the best decisions I made was to learn digital marketing from IntelliMindz. Now I am having very good exposure to several modules like SEO, PPC, SEM, Content Writing, etc... Thanks a lot.",
-    },
-    {
-      name: "Samson",
-      review:
-        "Myself Samson and I have attended AWS Online Course conducted by Intellimindz. The trainer had deep technical knowledge in AWS and explained all concepts with real-time examples.",
-    },
-    {
-      name: "Aruna",
-      review:
-        "I have done my Informatica training here at Intellimindz. Informatica Online Training was fully hands-on and was helpful. The trainer also had a session on Unix and how to schedule.",
-    },
-    {
-      name: "Payithra",
-      review:
-        "Good Software development firm for freshers and Well Organized company. They had work in the areas of Database management, US Digital Marketing, Digital Marketing etc..",
+        "The Institute imparts enterprise primary coaching on the modern day upbeat technologies which has helped me to pursue my dream within the right path. The placement division works in step with the pursuits of the candidates and pitches in for help throughout placement programs.",
     },
   ];
 
+  // Observe when the component enters the viewport
   useEffect(() => {
-    const interval = setInterval(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setStartAnimation(true);
+        }
+      },
+      { threshold: 0.5 } // Start when 50% of the section is visible
+    );
+
+    if (ratingRef.current) {
+      observer.observe(ratingRef.current);
+    }
+
+    return () => {
+      if (ratingRef.current) {
+        observer.unobserve(ratingRef.current);
+      }
+    };
+  }, []);
+
+  // Rating counting logic (only when animation should start)
+  useEffect(() => {
+    if (!startAnimation) return;
+
+    let interval = setInterval(() => {
       setRating((prevRating) => {
-        if (prevRating < 4.5) {
-          return parseFloat((prevRating + 0.1).toFixed(1));
+        if (prevRating < 4.7) {
+          return parseFloat((prevRating + 0.1).toFixed(1)); // Increment by 0.1 until 4.7
         } else {
-          clearInterval(interval);
-          return 4.5;
+          clearInterval(interval); // Stop the interval when rating reaches 4.7
+          return 4.7;
         }
       });
-    }, 100); // Adjust the interval for faster or slower animation
+    }, 100);
 
-    return () => clearInterval(interval);
-  }, []);
+    return () => clearInterval(interval); // Cleanup interval on unmount
+  }, [startAnimation]);
 
   const handleNext = () => {
     if (currentIndex + testimonialsPerPage < testimonials.length) {
@@ -65,100 +77,84 @@ const Testimonials = () => {
 
   return (
     <section className="testimonials-section">
-      {/* Full-width orange background for the "Students Testimonials" header */}
-      <div className="full-width-header">
-        <Container fluid>
-          <Row>
-            <Col lg="12" className="text-center">
-              <div className="header-box">
-                <h1 className="main-header">Students Testimonials</h1>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-
-      {/* Lower header without background */}
       <Container>
         <Row>
-          <Col lg="12" className="text-center">
-            <h1 className="sub-header">Trusted by Thousands of Students & Tutors</h1>
-          </Col>
-        </Row>
-
-        {/* Rating Section */}
-        <Row className="mt-4">
-          <Col lg="12" className="text-right">
-            <div className="rating-section">
+          {/* Left Side: Header, Rating, and Stars */}
+          <Col lg="6" className="left-section">
+            <div className="header-box">
+              <h1 className="main-header">Trusted by Thousands of Students and Tutors</h1>
+            </div>
+            <div className="rating-section" ref={ratingRef}>
+              {/* Rating Number (4.7) */}
+              <p className="rating-number big-rating">{rating}</p>
+              {/* Stars */}
               <div className="google-stars">
                 {[...Array(5)].map((_, index) => (
                   <FaStar key={index} className="google-star-icon" />
                 ))}
               </div>
-              <p className="rating-text">
-                <span className="rating-number">{rating}</span> 2,394 Ratings Google Reviews
-              </p>
+              {/* Rating Text (500+ Ratings Google Reviews) */}
+              <p className="rating-text">500+ Ratings Google Reviews</p>
+            </div>
+          </Col>
+
+          {/* Right Side: Testimonials */}
+          <Col lg="6" className="right-section">
+            <div className="testimonials-wrapper">
+              {/* Backward Arrow */}
+              {currentIndex > 0 && (
+                <button className="nav-arrow left-arrow" onClick={handlePrev}>
+                  &#10094;
+                </button>
+              )}
+
+              <Row className="mt-5">
+                {testimonials
+                  .slice(currentIndex, currentIndex + testimonialsPerPage)
+                  .map((testimonial, index) => {
+                    const iconSrc =
+                      index === 1
+                        ? require("../../assests/images/anime_feedback.png")
+                        : require("../../assests/images/men_face.png");
+
+                    return (
+                      <Col lg="12" key={index} className="mb-4">
+                        <div className="testimonial-box">
+                          <div className="student__info">
+                            <img
+                              src={iconSrc}
+                              alt="Feedback Icon"
+                              className="feedback-icon"
+                            />
+                          </div>
+                          <p className="testimonial-text">
+                            <span className="quote">“</span>
+                            {testimonial.review}
+                            <span className="quote">”</span>
+                          </p>
+                          <div className="name-rating text-center">
+                            <h6 className="fw-bold">{testimonial.name}</h6>
+                            <div className="star-rating">
+                              {[...Array(5)].map((_, i) => (
+                                <FaStar key={i} className="star-icon" />
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+                      </Col>
+                    );
+                  })}
+              </Row>
+
+              {/* Forward Arrow */}
+              {currentIndex + testimonialsPerPage < testimonials.length && (
+                <button className="nav-arrow right-arrow" onClick={handleNext}>
+                  &#10095;
+                </button>
+              )}
             </div>
           </Col>
         </Row>
-
-        {/* Testimonials Boxes with Arrows */}
-        <div className="testimonials-wrapper">
-          {/* Backward Arrow */}
-          {currentIndex > 0 && (
-            <button className="nav-arrow left-arrow" onClick={handlePrev}>
-              &#10094;
-            </button>
-          )}
-
-          <Row className="mt-5">
-            {testimonials
-              .slice(currentIndex, currentIndex + testimonialsPerPage)
-              .map((testimonial, index) => {
-                // Determine the correct icon based on index
-                const iconSrc =
-                  index === 1 || index === 3
-                    ? require("../../assests/images/anime_feedback.png")
-                    : require("../../assests/images/men_face.png");
-
-                return (
-                  <Col lg="4" md="6" key={index} className="mb-4">
-                    <div className="testimonial-box">
-                      <div className="student__info">
-                        {/* Dynamic Feedback Icon */}
-                        <img
-                          src={iconSrc}
-                          alt="Feedback Icon"
-                          className="feedback-icon"
-                        />
-                        <div className="name-rating">
-                          <h6 className="fw-bold">{testimonial.name}</h6>
-                          {/* Star Rating Below Name */}
-                          <div className="star-rating">
-                            {[...Array(5)].map((_, i) => (
-                              <FaStar key={i} className="star-icon" />
-                            ))}
-                          </div>
-                        </div>
-                      </div>
-                      <p className="testimonial-text">
-                        <span className="quote">“</span>
-                        {testimonial.review}
-                        <span className="quote">”</span>
-                      </p>
-                    </div>
-                  </Col>
-                );
-              })}
-          </Row>
-
-          {/* Forward Arrow */}
-          {currentIndex + testimonialsPerPage < testimonials.length && (
-            <button className="nav-arrow right-arrow" onClick={handleNext}>
-              &#10095;
-            </button>
-          )}
-        </div>
       </Container>
     </section>
   );

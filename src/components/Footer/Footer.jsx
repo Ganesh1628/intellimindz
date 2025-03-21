@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
-
-import "./footer.css";
+import "./footer.css"; // Ensure CSS is imported
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const footerQuickLinks = [
   { display: "Home", url: "#" },
@@ -10,48 +11,47 @@ const footerQuickLinks = [
   { display: "Certification policy", url: "#" },
 ];
 
+const trendingCourses = [
+  "JAVA Training ",
+  "Software Testing Training ",
+  "Selenium Training ",
+  "Python Training ",
+  "Data Science Course ",
+  "Digital Marketing Course ",
+  "DevOps Training ",
+  "German Classes ",
+  "Artificial Intelligence Course ",
+  "AWS Training ",
+  "UI UX Design course ",
+  "Tally course ",
+  "Full Stack Developer course ",
+  "Salesforce Training ",
+  "ReactJS Training ",
+  "CCNA course ",
+  "Ethical Hacking course ",
+  "RPA Training ",
+  "Cyber Security Course ",
+  "IELTS Coaching ",
+  "Graphic Design Courses ",
+  "Spoken English Classes ",
+  "Data Analytics Course ",
+];
+
 const Footer = () => {
   return (
     <footer className="footer">
-      <Container>
+      <Container fluid className="full-width-container">
         <Row>
           {/* Company Info */}
           <Col lg="3" md="6" className="mb-4">
-            <h1 className="footer__logo">
+            <h2 className="footer__logo">
               Intelli<span style={{ color: "orange" }}>Mindz</span>
-            </h1>
-            <p style={{ color: "black" }}>
+            </h2>
+            <ListGroup className="link__list">
               Intelli Mindz Academy is a leading training institute specialized
               in providing both Online and Classroom training for software,
               spoken English, and Competitive Exams.
-            </p>
-            <p className="mb-0" style={{ color: "black" }}>
-              Follow us on social media
-            </p>
-            <div className="follows">
-            <span>
-  <a href="https://facebook.com">
-    <i className="ri-facebook-line" style={{ color: "#eb0000" }}></i>
-  </a>
-</span>
-
-<span>
-  <a href="https://instagram.com">
-    <i className="ri-instagram-line" style={{ color: "#eb0000" }}></i>
-  </a>
-</span>
-
-              <span>
-                <a href="https://linkedin.com">
-                  <i className="ri-linkedin-line" style={{ color: "#eb0000" }}></i>
-                </a>
-              </span>
-              <span>
-                <a href="https://twitter.com">
-                  <i className="ri-twitter-line" style={{ color: "#eb0000" }}></i>
-                </a>
-              </span>
-            </div>
+            </ListGroup>
           </Col>
 
           {/* Quick Links */}
@@ -68,23 +68,82 @@ const Footer = () => {
 
           {/* Training Information */}
           <Col lg="3" md="6" className="mb-4">
-            <h4 className="fw-bold" style={{ color: "black" }}>Training Courses</h4>
-            <p style={{ color: "black" }}>AWS Online Training</p>
-            <p style={{ color: "black" }}>DevOps Online Training</p>
-            <p style={{ color: "black" }}>React Online Course</p>
-            <p style={{ color: "black" }}>Python Training in Chennai</p>
-            <p style={{ color: "black" }}>Selenium Training in Chennai</p>
+            <h4 className="fw-bold" style={{ color: "#000000" }}>Reach Us</h4>
+            <ListGroup className="link__list">
+              <ListGroupItem className="border-0 ps-0 link__item" style={{ color: "#000000" }}>7/15, 2nd Floor</ListGroupItem>
+              <ListGroupItem className="border-0 ps-0 link__item" style={{ color: "#000000" }}>Velachery Rd, Medavakkam</ListGroupItem>
+              <ListGroupItem className="border-0 ps-0 link__item" style={{ color: "#000000" }}>United Colony,</ListGroupItem>
+              <ListGroupItem className="border-0 ps-0 link__item" style={{ color: "#000000" }}>Medavakkam,</ListGroupItem>
+              <ListGroupItem className="border-0 ps-0 link__item" style={{ color: "#000000" }}>Chennai, TN - 600100</ListGroupItem>
+            </ListGroup>
           </Col>
 
           {/* Contact Information */}
-          <Col lg="3" md="6">
-            <h4 className="fw-bold" style={{ color: "black" }}>Get in Touch</h4>
-            <p style={{ color: "black" }}>+91 96558 77677</p>
-            <p style={{ color: "black" }}>+91 96558 77577</p>
-            <p style={{ color: "black" }}>info@intellimindz.com</p>
+          <Col lg="3" md="6" className="mb-4">
+            <h4 className="fw-bold" style={{ color: "#000000" }}>Get in Touch</h4>
+            <ListGroup className="link__list">
+              <ListGroupItem className="border-0 ps-0 link__item" style={{ color: "#000000" }}>📞 +91 96558 77677</ListGroupItem>
+              <ListGroupItem className="border-0 ps-0 link__item" style={{ color: "#000000" }}>📞 +91 96558 77577</ListGroupItem>
+              <ListGroupItem className="border-0 ps-0 link__item">
+                <FontAwesomeIcon icon={faEnvelope} style={{ color: "black", marginRight: "8px" }} />
+                info@intellimindz.com
+              </ListGroupItem>
+            </ListGroup>
+
+
+            <p className="mb-0" style={{ color: "black" }}>
+              Follow us on social media
+            </p>
+            <div className="follows">
+              <span>
+                <a href="https://facebook.com">
+                  <i className="ri-facebook-line" style={{ color: "#3b5998" }}></i>
+                </a>
+              </span>
+              <span>
+                <a href="https://instagram.com">
+                  <i className="ri-instagram-line" style={{ color: "#f81c1c" }}></i>
+                </a>
+              </span>
+              <span>
+                <a href="https://linkedin.com">
+                  <i className="ri-linkedin-line" style={{ color: "#0077b5" }}></i>
+                </a>
+              </span>
+              <span>
+                <a href="https://twitter.com">
+                  <i className="ri-twitter-line" style={{ color: "#1da1f2" }}></i>
+                </a>
+              </span>
+            </div>
+          </Col>
+        </Row>
+
+        {/* Trending Courses Section */}
+        <hr className="trending-divider" /> {/* Added line here */}
+        <Row className="trending-courses-section">
+          <Col>
+            <h4 className="text-center fw-bold" style={{ color: "black" }}>Trending Courses</h4>
+            <div className="trending-courses">
+              {trendingCourses.map((course, index) => (
+                <span key={index} className="trending-course-item">{course} | </span>
+              ))}
+            </div>
+            <div className="text-center">
+              <a href="#" className="read-more" style={{ color: "black", textDecoration: "underline" }}>
+                Read More
+              </a>
+            </div>
           </Col>
         </Row>
       </Container>
+
+      {/* Copyright Section - Sticks to Bottom */}
+      <div className="copyright-section">
+        <p>
+          © Copyrights 2024 @ IntelliMindz IT Trainings
+        </p>
+      </div>
     </footer>
   );
 };

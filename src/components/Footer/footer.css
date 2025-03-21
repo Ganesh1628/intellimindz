@@ -1,26 +1,133 @@
-.footer {
-  background: rgba(113, 138, 138, 0.664);
-  padding: 20px 0;
-  border-radius: 30px 30px 0 0;
+/* Ensure footer spans full width */
+.full-width-container {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%; /* Ensure the container spans the full width */
 }
 
+/* Remove extra spacing between sections */
+.footer .row {
+  margin-bottom: 50px; /* Reduce space between rows */
+}
+
+/* Reduce space between paragraphs inside footer */
+.footer p {
+  margin-bottom: 10px; /* Reduce gap between text lines */
+  line-height: 1.2; /* Reduce line spacing */
+}
+
+/* Adjust column padding */
+.footer .col {
+  padding: 0px 10px; /* Reduce internal column padding */
+}
+
+/* Ensure social media links are properly spaced */
+.follows span {
+  margin-right: 10px; /* Reduce spacing between icons */
+}
+
+/* Quick Links */
 .link__list .link__item {
   background: transparent;
-  font-size: 0.9rem; /* Reduce font size */
-  padding: 5px 0; /* Adjust padding for better spacing */
+  font-size: 0.9rem;
+  padding: 3px 0; /* Reduce padding between links */
+  margin-bottom: 3px; /* Reduce bottom margin */
+}
+
+.link__list{
+  color: #000000;
 }
 
 .link__list a {
   text-decoration: none;
   color: #000000;
   font-weight: 400;
-  font-size: 1rem; /* Make text smaller */
+  font-size: 0.9rem;
+}
+
+.trending-divider {
+  border: none;
+  height: 2.3px;
+  background-color: rgb(0, 0, 0);
+  margin: 20px 0;
+}
+
+/* Training Courses Section */
+.trending-courses-section {
+  background: rgb(245, 119, 17);
+  padding: 10px 0; /* Adjust spacing */
+}
+
+.trending-courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  max-width: 90%;
+  margin: auto;
+  gap: 5px; /* Reduce gap between course items */
+}
+
+.trending-course-item {
+  color: rgb(8, 8, 8);
+  font-size: 14px;
+  margin: 2px; /* Reduce space between courses */
+  white-space: nowrap;
+}
+
+/* Ensure copyright section is at the bottom */
+.copyright-section {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.8rem 0; /* Reduce padding */
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+/* Ensure footer spans full width and removes unnecessary margin */
+.footer {
+  background: rgb(245, 119, 17);
+  padding: 0px 0; /* Adjust spacing */
+  padding-top: 20px;
+  border-radius: 30px 30px 0 0;
+  margin-bottom: 0; /* Ensures no gap */
+}
+
+/* Force footer to stick to the bottom if content is short */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures full viewport height */
+}
+
+.footer {
+  margin-top: auto; /* Pushes footer to the bottom */
+}
+
+.footer__logo{
+  margin-top: 0px; /* Adjust this value as needed */
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.footer-header, 
+.fw-bold {
+  color: black !important;
 }
 
 /* Social Media Links */
 .follows span a {
   text-decoration: none;
-  font-size: 1.6rem; /* Reduce icon text size */
+  font-size: 1.6rem;
 }
 
 .follows span {
@@ -29,11 +136,25 @@
 
 /* Responsive Fix */
 @media (max-width: 768px) {
+  .footer .row {
+    margin-bottom: 3px; /* Further reduce space for smaller screens */
+  }
+
   .link__list .link__item {
-    font-size: 0.8rem; /* Even smaller for mobile */
+    font-size: 0.8rem;
+    padding: 2px 0;
   }
 
   .link__list a {
     font-size: 0.8rem;
+  }
+
+  .trending-course-item {
+    font-size: 12px; /* Adjust for small screens */
+    margin: 2px;
+  }
+
+  .footer p {
+    font-size: 0.9rem; /* Reduce font size for small screens */
   }
 }

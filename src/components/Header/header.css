@@ -218,7 +218,7 @@
 }
 
 .whatsapp-icon img {
-  width: 90px; /* Adjust the size as needed */
+  width: 80px; /* Adjust the size as needed */
   height: auto;
   transition: transform 0.3s ease;
   background: transparent; /* Ensure no background color */
