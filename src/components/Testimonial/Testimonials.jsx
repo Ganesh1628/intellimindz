@@ -12,14 +12,24 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      name: "T Chandini",
+      name: "T.Chandini",
       review:
         "Being in Sunnehalf gave me great pleasure and competencies to rediscover my professional state. The trainers here are highly supportive to satisfy the scholars targets; it is their warmness and project to make a student a complete professional. I categorical my gratitude to the entire PILLARS of Sunnehalf for displaying up.",
     },
     {
-      name: "M Yougandhar",
+      name: "M.Yougandhar",
       review:
         "The Institute imparts enterprise primary coaching on the modern day upbeat technologies which has helped me to pursue my dream within the right path. The placement division works in step with the pursuits of the candidates and pitches in for help throughout placement programs.",
+    },
+    {
+      name: "B.Sudhakar",
+      review:
+        "I completed my Informatica training at IntelliMindz, and the experience was exceptional. The Informatica Online Training was highly practical and hands-on, making it incredibly beneficial. The trainer also conducted an insightful session on Unix, covering job scheduling and execution from a Unix server. Thank you, IntelliMindz, for providing such a comprehensive and well-structured Informatica training!",
+    },
+    {
+      name: "K.chandra",
+      review:
+        "The Informatica Online Training at IntelliMindz was fantastic! The course was well-structured, with real-time examples and hands-on projects. The instructor explained concepts clearly, and the Unix session on job scheduling was extremely useful. Thank you, IntelliMindz, for this amazing learning experience!",
     },
   ];
 

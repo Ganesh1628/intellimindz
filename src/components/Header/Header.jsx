@@ -1,5 +1,3 @@
-
-
 import React, { useRef, useState, useEffect } from "react";
 import { Container } from "reactstrap";
 import { IoMdArrowDropdown } from "react-icons/io";
@@ -14,7 +12,8 @@ const navLinks = [
   { display: "Courses", url: "#", hasDropdown: true }, {},
   { display: "Blog", url: "#" }, {},
   { display: "Online", url: "#", hasDropdown: true }, {},
-  { display: "Contact", url: "#" }, {},
+  // { display: "Contact", url: "#" }, {},
+  { display: "SAP", url: "sap_courses" }, {},
 ];
 
 const onlineOptions = [

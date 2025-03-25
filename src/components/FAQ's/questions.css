@@ -126,3 +126,10 @@
     width: 120px; /* Adjust size as needed */
     height: auto;
 }
+
+.title{
+        margin-left: 350px;
+        color: #222;
+        font-size: 2rem;
+        font-weight: bold;
+}
