@@ -13,7 +13,7 @@ const navLinks = [
   { display: "Blog", url: "#" }, {},
   { display: "Online", url: "#", hasDropdown: true }, {},
   // { display: "Contact", url: "#" }, {},
-  { display: "SAP", url: "sap_courses" }, {},
+  { display: "SAP", url: "/sap_courses" }, {},
 ];
 
 const onlineOptions = [

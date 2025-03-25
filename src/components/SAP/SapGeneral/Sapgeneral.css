@@ -1,0 +1,170 @@
+/* Section styling */
+.sap-section {
+    padding: 50px;
+    background: white;
+  }
+  
+/* Container Styling */
+.sap-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+  
+  /* Left Side: SAP Skills Graphic */
+  .sap-skills {
+    position: relative;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skill-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #f4f4f4;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+  }
+  
+  .large {
+    width: 150px;
+    height: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+  }
+  
+  .small {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border: 3px solid #ddd;
+  }
+  
+  .skill-1 {
+    top: -30px;
+    left: 80px;
+  }
+  
+  .skill-2 {
+    top: 50px;
+    right: -30px;
+  }
+  
+  .skill-3 {
+    bottom: -20px;
+    left: 80px;
+  }
+  
+  /* Connecting Lines */
+  .skill-line {
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background: black;
+  }
+  
+  .skill-line-1 {
+    top: -10px;
+    left: 80px;
+    transform: rotate(20deg);
+  }
+  
+  .skill-line-2 {
+    top: 50px;
+    right: -15px;
+  }
+  
+  .skill-line-3 {
+    bottom: -10px;
+    left: 80px;
+    transform: rotate(-20deg);
+  }
+  
+  /* Icon & Label */
+  .skill-circle img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .skill-label {
+    position: absolute;
+    bottom: -20px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  /* Right Side: SAP Description */
+  .sap-description {
+    width: 50%;
+  }
+  
+/* Right Side: Image */
+.sap-image-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sap-image {
+    width: 100%;
+    max-width: 400px; /* Adjust the size as needed */
+    height: auto;
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+  .sap-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-square {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #8dc63f;
+    margin-right: 8px;
+  }
+  
+  .sap-text {
+    font-size: 16px;
+    color: #2c2c2c;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  /* Button */
+  .question-btn {
+    display: flex;
+    align-items: center;
+    background: #333;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .question-btn:hover {
+    background: #555;
+  }
+  
+  .icon-question {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+  

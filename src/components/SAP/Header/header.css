@@ -1,0 +1,122 @@
+
+/* SAP FICO Section */
+.sap-fico-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #51837c;
+  color: white;
+  padding: 160px 60px;
+  border-radius: 30px 0px 30px 30px ;
+}
+
+.course-info {
+  width: 60%;
+}
+
+.course-info h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.course-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.course-info ul li {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.ratings {
+  font-size: 1.4rem;
+  margin-top: 18px; 
+}
+
+/* Brochure Download Form */
+.brochure-form {
+  width: 35%;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  color: black;
+  text-align: center;
+}
+
+.brochure-form h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.brochure-form input, .brochure-form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.phone-input {
+  display: flex;
+}
+
+.phone-input select {
+  width: 30%;
+}
+
+.phone-input input {
+  width: 70%;
+}
+
+.btn-download {
+  background: #5a2ea6;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Certification Logos */
+.certification-logos {
+  text-align: center;
+  padding: 20px;
+  background: white;
+}
+
+.certification-logos img {
+  width: 200px;
+  margin-top: 10px;
+}
+
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.phone-input {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.input-group select,
+.input-group input {
+  flex: 1;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.radio-group .label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

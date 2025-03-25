@@ -1,0 +1,88 @@
+.fees-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+  }
+  
+  .fees-container {
+    width: 1000px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #007bff;
+  }
+  
+  
+  .fees-title {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(36, 35, 35);
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .batch-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    margin-bottom: -40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .batch-date {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .batch-info {
+    text-align: center;
+  }
+  
+  .batch-type {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .batch-time {
+    text-align: center;
+  }
+  
+  .time {
+    font-weight: bold;
+  }
+  
+  .duration {
+    font-size: 0.85rem;
+    color: #666;
+  }
+  
+  .fees-button, .request-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .fees-button:hover, .request-button:hover {
+    background: #0056b3;
+  }
+  
+  .request-batch {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .request-batch p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #1b1717;
+  }
+  
