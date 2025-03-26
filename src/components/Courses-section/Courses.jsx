@@ -6,14 +6,14 @@ const Slide = () => {
   return (
     <div className="slide-container">
       {/* Centered Title */}
-      <div className="slide-title">
+      <div className="slide-title" style={{ fontFamily: "DM Sans, sans-serif" }}>
         <span className="color1">Our</span>
         <span className="color2">Training</span>
         <span className="color3">Approach</span>
       </div>
 
       {/* Grid Section */}
-      <div className="grid-container">
+      <div className="grid-container" style={{ fontFamily: "DM Sans, sans-serif" }}>
         <div className="slide-section">
           <FaBook className="icon" />
           <h5>Theory</h5>

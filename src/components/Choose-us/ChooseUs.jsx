@@ -10,7 +10,7 @@ const ChooseUs = () => {
       icon: <FaChalkboardTeacher className="feature-icon" />,
       title: "Expert Trainers",
       description:
-        "Our trainers are industry experts who teach you both the theory and real-world skills you need for a successful career.",
+        "Our instructors are seasoned industry professionals who provide in-depth theoretical knowledge and practical skills essential for a thriving career.",
     },
     {
       icon: <FaMoneyBillAlt className="feature-icon" />,
@@ -26,30 +26,27 @@ const ChooseUs = () => {
     },
     {
       icon: <FaBriefcase className="feature-icon" />,
-      title: "Job Placement Assistance",
+      title: "Placement Assistance",
       description:
         "We help you get your dream job with full placement support! Get ready with our aptitude classes and mock interviews designed to kick start your career.",
     },
   ];
 
   return (
-    <section className="choose-us" style={{ backgroundColor: "#f0f0f0", padding: "50px 0" }}>
+    <section className="choose-us" style={{ backgroundColor: "#f0f0f0", padding: "50px 0", fontFamily: "DM Sans, sans-serif" }}>
       <Container>
-        <h2 className="text-center mb-4">Why Choose The Best Software Training Institute?</h2>
+        <h2 className="text-center mb-4" style={{ fontFamily: "DM Sans, sans-serif" }}>Why Choose The Best Software Training Institute?</h2>
         <Row>
           <Col lg="8" md="12">
             <Row>
               {features.map((feature, index) => (
                 <Col lg="6" md="6" key={index}>
-                  <div className="choose-box">
+                  <div className="choose-box" style={{ fontFamily: "DM Sans, sans-serif" }}>
                     <div className="d-flex align-items-center">
                       {feature.icon}
-                      <h4 className="ms-3">{feature.title}</h4>
+                      <h4 className="ms-3" style={{ fontFamily: "DM Sans, sans-serif" }}>{feature.title}</h4>
                     </div>
-                    <p>{feature.description}</p>
-                    <a href="#view-more" className="view-more-link">
-                      View More
-                    </a>
+                    <p style={{ fontSize:"1rem", fontFamily: "DM Sans, sans-serif" }}>{feature.description}</p>
                   </div>
                 </Col>
               ))}

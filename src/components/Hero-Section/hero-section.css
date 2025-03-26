@@ -1,14 +1,10 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap'); */
-
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+/* Replace the existing font imports with this */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 .hero-section {
   position: relative;
   padding: 80px 0;
-    font-family: 'Poppins', sans-serif;
+  font-family: "DM Sans", sans-serif;
   z-index: 2;
   background: 
     linear-gradient(rgba(3, 137, 247, 0.062), rgba(3, 137, 247, 0.644)), /* Stronger orange background */
@@ -107,12 +103,14 @@
   text-align: center; /* Ensures it's centered */
   color: #1a1818;
   font-size: 1rem;
-  font-family: 'Montserrat', sans-serif;
+  margin-right: 30px;
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: -20px;
 }
 
 /* Add this to your hero-section.css */
 .intellimindz-highlight {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: bold; 
    /* Adjust as needed */
   color: #4682B4; /* Adjust the color as needed */
@@ -127,10 +125,17 @@ p {
 }
 
 .mb-10 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 1.6;
   color: rgb(0, 0, 0);
-  margin-top: 0px;
+  margin-top: 20px;
+}
+
+.mb-11{
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  margin-top: 40px;
 }
 
 /* Stats Section */

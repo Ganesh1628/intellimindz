@@ -32,12 +32,14 @@
 .link__list .link__item {
   background: transparent;
   font-size: 0.9rem;
+  font-weight: 400;
   padding: 3px 0; /* Reduce padding between links */
   margin-bottom: 3px; /* Reduce bottom margin */
 }
 
 .link__list{
   color: #000000;
+  font-weight: 400;
 }
 
 .link__list a {
@@ -56,7 +58,7 @@
 
 /* Training Courses Section */
 .trending-courses-section {
-  background: rgb(245, 119, 17);
+  background: rgb(103, 184, 250);
   padding: 10px 0; /* Adjust spacing */
 }
 
@@ -82,6 +84,7 @@
   background-color: black;
   color: white;
   text-align: center;
+  font-family: "DM Sans", sans-serif;
   padding: 0.8rem 0; /* Reduce padding */
   width: 100%;
   position: relative;
@@ -90,7 +93,7 @@
 
 /* Ensure footer spans full width and removes unnecessary margin */
 .footer {
-  background: rgb(245, 119, 17);
+  background: rgb(103, 184, 250);
   padding: 0px 0; /* Adjust spacing */
   padding-top: 20px;
   border-radius: 30px 30px 0 0;

@@ -14,12 +14,12 @@ const Testimonials = () => {
     {
       name: "T.Chandini",
       review:
-        "Being in Sunnehalf gave me great pleasure and competencies to rediscover my professional state. The trainers here are highly supportive to satisfy the scholars targets; it is their warmness and project to make a student a complete professional. I categorical my gratitude to the entire PILLARS of Sunnehalf for displaying up.",
+        "Being in Sunnehalf gave me great pleasure and competencies to rediscover my professional state. The trainers here are highly supportive to satisfy the scholars' targets; it is their warmness and project to make a student a complete professional. I express my gratitude to the entire PILLARS of Sunnehalf for their support.",
     },
     {
       name: "M.Yougandhar",
       review:
-        "The Institute imparts enterprise primary coaching on the modern day upbeat technologies which has helped me to pursue my dream within the right path. The placement division works in step with the pursuits of the candidates and pitches in for help throughout placement programs.",
+        "The Institute imparts enterprise primary coaching on the modern day upbeat technologies which has helped me to pursue my dream within the right path. The placement division works in step with the interests of the candidates and provides support during placement programs.",
     },
     {
       name: "B.Sudhakar",
@@ -86,17 +86,19 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="testimonials-section">
+    <section className="testimonials-section" style={{ fontFamily: "DM Sans, sans-serif" }}>
       <Container>
         <Row>
           {/* Left Side: Header, Rating, and Stars */}
           <Col lg="6" className="left-section">
             <div className="header-box">
-              <h1 className="main-header">Trusted by Thousands of Students and Tutors</h1>
+              <h1 className="main-header" style={{ fontFamily: "DM Sans, sans-serif" }}>
+                Trusted by Thousands of Students and Tutors
+              </h1>
             </div>
             <div className="rating-section" ref={ratingRef}>
               {/* Rating Number (4.7) */}
-              <p className="rating-number big-rating">{rating}</p>
+              <p className="rating-number big-rating" style={{ fontFamily: "DM Sans, sans-serif" }}>{rating}</p>
               {/* Stars */}
               <div className="google-stars">
                 {[...Array(5)].map((_, index) => (
@@ -104,7 +106,7 @@ const Testimonials = () => {
                 ))}
               </div>
               {/* Rating Text (500+ Ratings Google Reviews) */}
-              <p className="rating-text">500+ Ratings Google Reviews</p>
+              <p className="rating-text" style={{ fontFamily: "DM Sans, sans-serif" }}>500+ Ratings Google Reviews</p>
             </div>
           </Col>
 
@@ -129,7 +131,7 @@ const Testimonials = () => {
 
                     return (
                       <Col lg="12" key={index} className="mb-4">
-                        <div className="testimonial-box">
+                        <div className="testimonial-box" style={{ fontFamily: "DM Sans, sans-serif" }}>
                           <div className="student__info">
                             <img
                               src={iconSrc}

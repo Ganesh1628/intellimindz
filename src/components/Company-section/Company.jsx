@@ -36,8 +36,8 @@ const Company = () => {
     // <section className="courses-section">
       <Container>
         <Row>
-          <Col className="text-center">
-            <h2 className="courses-title">
+          <Col className="text-center" >
+            <h2 className="courses-title" style={{fontFamily: "DM Sans, sans-serif"}}>
               Our Courses
             </h2>
           </Col>

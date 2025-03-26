@@ -12,29 +12,47 @@ const batchSchedule = [
 const FeesStructure = () => {
   return (
     <div className="fees-wrapper">
-      <div className="fees-container">
-        <h2 className="fees-title">Upcoming Batch Schedule for Java Training in Chennai</h2>
+      {/* Outer Box for Header and Batch Details */}
+      <div className="fees-box">
+        
+        {/* Header Section */}
+        <div className="fees-header">
+          <h2 className="fees-title">Upcoming Batch Schedule for Java Training in Chennai</h2>
+        </div>
 
-        {batchSchedule.map((batch, index) => (
-          <div key={index} className="batch-card">
-            <div className="batch-date">{batch.date}</div>
-            <div className="batch-info">
-              <p>{batch.days}</p>
-              <p className="batch-type">{batch.type}</p>
-            </div>
-            <div className="batch-time" style={{marginBottom:"40px"}}>
-              <p className="time">08:00 AM (IST)</p>
-              <p className="duration" style={{marginBottom:"40px"}}>(Class 1hr – 1:30Hrs) / Per Session</p>
-            </div>
-            <button className="fees-button">GET FEES</button>
+        {/* Training Mode Selection */}
+        <div className="training-mode">
+          <h3 className="suitable-batches">Suitable Batches for You</h3>
+          <div className="training-buttons">
+            <button className="active">Online Classroom</button>
+            <button>Corporate Training</button>
           </div>
-        ))}
+        </div>
+
+        {/* Batch Schedule List */}
+        <div className="batch-list">
+          {batchSchedule.map((batch, index) => (
+            <div key={index} className="batch-card">
+              <div className="batch-date">{batch.date}</div>
+              <div className="batch-info">
+                <p>{batch.days}</p>
+                <p className="batch-type">{batch.type}</p>
+              </div>
+              <div className="batch-time">
+                <p className="time">08:00 AM (IST)</p>
+                <p className="duration">(Class 1hr – 1:30Hrs) / Per Session</p>
+              </div>
+              <button className="fees-button">GET FEES</button>
+            </div>
+          ))}
+        </div>
 
         {/* Request Batch Section */}
         <div className="request-batch">
-          <p>Can’t find a batch you were looking for?</p>
+          <p>➡ Can't find a batch you were looking for?</p>
           <button className="request-button">REQUEST A BATCH</button>
         </div>
+
       </div>
     </div>
   );

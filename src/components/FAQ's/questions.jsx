@@ -1,4 +1,3 @@
-// components/FAQ.js
 import React from 'react';
 import './questions.css'; // Create a separate CSS file for FAQ styles
 import talkingimage from "../../assests/images/talkingimage.png"; // Import the WhatsApp icon
@@ -15,7 +14,7 @@ const FAQ = () => {
         },
         {
             question: "Is there any Admission fees?",
-            answer: "Yes, can be considered as a reservation fees where you could confirm your place in the batch by registering with Rs.5000. That’s not an extra charge, amount is part of total fee and Non-Refundable."
+            answer: "Yes, can be considered as a reservation fee where you could confirm your place in the batch by registering with Rs.5000. That’s not an extra charge, amount is part of total fee and Non-Refundable."
         },
         {
             question: "Is Advanced Java enough to get a job?",
@@ -23,7 +22,7 @@ const FAQ = () => {
         },
         {
             question: "What is the Course duration?",
-            answer: "4 Months of Classroom training (Mandatory)8 Months of On-Job training (Multiple Entries & Multiple Exit points)"
+            answer: "4 Months of Classroom training (Mandatory) 8 Months of On-Job training (Multiple Entries & Multiple Exit points)"
         },
         {
             question: "Course structure (6 Months + 6 Months)?",
@@ -44,18 +43,17 @@ const FAQ = () => {
     ];
 
     return (
-        <div className="faq-section">
-        <h1 className="title">Frequently Asked Questions</h1>
-            {/* <div className="faq-content"> */}
-                {faqItems.map((item, index) => (
-                    <div key={index} className="faq-item">
-                        <p className="faq-question">{item.question}</p>
-                        <p className="faq-answer">{item.answer}</p>
-                    </div>
-                ))}
-            {/* </div> */}
-                        {/* New Personalized Course Section */}
-                        <div className="course-box">
+        <div className="faq-section" style={{ fontFamily: "DM Sans, sans-serif" }}>
+            <h1 className="title" style={{ fontFamily: "DM Sans, sans-serif" }}>Frequently Asked Questions</h1>
+            {faqItems.map((item, index) => (
+                <div key={index} className="faq-item" style={{ fontFamily: "DM Sans, sans-serif" }}>
+                    <p className="faq-question" style={{ fontFamily: "DM Sans, sans-serif" }}>{item.question}</p>
+                    <p className="faq-answer" style={{ fontFamily: "DM Sans, sans-serif" }}>{item.answer}</p>
+                </div>
+            ))}
+
+            {/* Personalized Course Section */}
+            {/* <div className="course-box" style={{ fontFamily: "DM Sans, sans-serif" }}>
                 <div className="course-content">
                     <p className="course-text">Want to learn with a personalized course curriculum?</p>
                     <div className="course-contact">
@@ -65,7 +63,7 @@ const FAQ = () => {
                 <div className="personalized_course_image">
                     <img src={talkingimage} alt="Student Holding Books" />
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

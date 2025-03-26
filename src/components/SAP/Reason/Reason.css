@@ -20,8 +20,9 @@
   
   .Reason_header {
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 400px;
     margin-bottom: 10px;
+    font-family: 'DM Sans', sans-serif;
   }
   
   .image-section img {

@@ -47,11 +47,14 @@ const Footer = () => {
             <h2 className="footer__logo">
               Intelli<span style={{ color: "orange" }}>Mindz</span>
             </h2>
-            <ListGroup className="link__list">
+            <h8 className="link__list" style={{fontFamily: "DM Sans, sans-serif"}}>Intelli Mindz Academy is a leading training institute specialized
+              in providing both Online and Classroom training for software,
+              spoken English, and Competitive Exams.</h8>
+            {/* <ListGroup className="link__list">
               Intelli Mindz Academy is a leading training institute specialized
               in providing both Online and Classroom training for software,
               spoken English, and Competitive Exams.
-            </ListGroup>
+            </ListGroup> */}
           </Col>
 
           {/* Quick Links */}
@@ -67,7 +70,7 @@ const Footer = () => {
           </Col>
 
           {/* Training Information */}
-          <Col lg="3" md="6" className="mb-4">
+          <Col lg="3" md="6" className="mb-4" style={{fontFamily: "DM Sans, sans-serif"}}>
             <h4 className="fw-bold" style={{ color: "#000000" }}>Reach Us</h4>
             <ListGroup className="link__list">
               <ListGroupItem className="border-0 ps-0 link__item" style={{ color: "#000000" }}>7/15, 2nd Floor</ListGroupItem>
@@ -85,15 +88,18 @@ const Footer = () => {
               <ListGroupItem className="border-0 ps-0 link__item" style={{ color: "#000000" }}>📞 +91 96558 77677</ListGroupItem>
               <ListGroupItem className="border-0 ps-0 link__item" style={{ color: "#000000" }}>📞 +91 96558 77577</ListGroupItem>
               <ListGroupItem className="border-0 ps-0 link__item">
-                <FontAwesomeIcon icon={faEnvelope} style={{ color: "black", marginRight: "8px" }} />
+                <FontAwesomeIcon icon={faEnvelope} style={{ color: "black", marginRight: "10px" }} />
                 info@intellimindz.com
               </ListGroupItem>
+              <p className="mb-0" style={{ color: "black", fontFamily: "DM Sans, sans-serif" }}>
+              Follow us on social media
+            </p>
             </ListGroup>
 
 
-            <p className="mb-0" style={{ color: "black" }}>
+            {/* <p className="mb-0" style={{ color: "black" }}>
               Follow us on social media
-            </p>
+            </p> */}
             <div className="follows">
               <span>
                 <a href="https://facebook.com">
@@ -139,7 +145,7 @@ const Footer = () => {
       </Container>
 
       {/* Copyright Section - Sticks to Bottom */}
-      <div className="copyright-section">
+      <div className="copyright-section" style={{ fontFamily: "DM Sans, sans-serif" }}>
         <p>
           © Copyrights 2024 @ IntelliMindz IT Trainings
         </p>

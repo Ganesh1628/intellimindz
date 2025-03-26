@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
 .syllabus-section {
     width: 80%;
     margin: auto;
     padding: 20px 0;
+    font-family: 'DM Sans', sans-serif;
     text-align: center;
     margin-top: 100px;
 }
 
 .syllabus-title {
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 400px;
+    font-family: 'DM Sans', sans-serif;
     margin-bottom: 30px;
 }
 
@@ -54,11 +58,13 @@
 .syllabus-text {
     flex: 1;
     text-align: left;
+    font-family: 'DM Sans', sans-serif;
 }
 
 /* Module content */
 .syllabus-content {
     max-height: 0;
+    font-family: 'DM Sans', sans-serif;
     overflow: hidden;
     transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
     font-size: 14px;

@@ -35,7 +35,7 @@ const FactsAndFigures = () => {
   const facts = [
     { id: 1, number: "50+", text: "Courses Running Daily", image: financialIcon },
     { id: 2, number: "40+", text: "Locations Worldwide", image: locationIcon },
-    { id: 3, number: "100000+", text: "Professionals Trained", image: graduationIcon },
+    { id: 3, number: "10000+", text: "Professionals Trained", image: graduationIcon },
   ];
 
   const modules = [
@@ -59,8 +59,8 @@ const FactsAndFigures = () => {
     <div>
       {/* Facts and Figures Section */}
       <section className="facts-section">
-        <h2 className="facts-title">Our Amazing Facts and Figures</h2>
-        <p className="facts-description">
+        <h2 className="facts-title" >Our Amazing Facts and Figures</h2>
+        <p className="facts-description" style={{ fontFamily: "DM Sans, sans-serif" }}>
           We are the largest global training provider with a brilliant track record for providing skill development courses. Our extraordinary statistics are something to make us very proud of our work.
         </p>
 
@@ -85,7 +85,9 @@ const FactsAndFigures = () => {
 
       {/* Syllabus Section with Animation Triggered on Scroll */}
       <section className="syllabus-section" ref={syllabusRef}>
-        <h2 className="syllabus-title">Syllabus of SAP QM Training in Chennai</h2>
+        <h2 className="syllabus-title" style={{ fontFamily: "DM Sans, sans-serif" }}>
+          Syllabus of SAP QM Training in Chennai
+        </h2>
         <div className="syllabus-container">
           {modules.map((module, index) => (
             <motion.div
@@ -101,7 +103,7 @@ const FactsAndFigures = () => {
                 <span className="syllabus-text">Module {module.id}: {module.title}</span>
               </div>
               <div className={`syllabus-content ${activeIndex === index ? "active" : ""}`}>
-                <p>{module.details}</p>
+              <p style={{ fontFamily: "DM Sans, sans-serif" }}>{module.details}</p>
               </div>
             </motion.div>
           ))}

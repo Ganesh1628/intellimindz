@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 /* Main container */
 .sap-overview {
   display: flex;
@@ -5,8 +7,23 @@
   align-items: center;
   background: linear-gradient(to right, #d1caa0, #adc4ca);
   padding: 100px;
+  font-family: "DM Sans", sans-serif;
   border-radius: 0px 200px 0px 0px;
   margin-top: 90px;
+}
+
+/* Increase Header Size */
+.sap-overview h1 {
+  font-size: 2.5rem; /* Adjust the size as needed */
+  font-weight: 400px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.sap-overview h3,
+.sap-overview p,
+.sap-overview button {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.95rem; /* Uniform font size */
 }
 
 /* Left Section - SAP Training Overview */

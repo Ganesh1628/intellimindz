@@ -34,8 +34,8 @@ const TrainingOptions = () => {
     ];
 
     return (
-        <div className="training-container" ref={ref}>
-            <h2 className="training-title">
+        <div className="training-container" ref={ref} style={{ fontFamily: "DM Sans, sans-serif" }}>
+            <h2 className="training-title" style={{ fontFamily: "DM Sans, sans-serif" }}>
                 Training Modes
             </h2>
             <div className="training-cards">
@@ -46,10 +46,11 @@ const TrainingOptions = () => {
                         initial={{ opacity: 0, y: 50 }}
                         animate={inView ? { opacity: 1, y: 0 } : {}}
                         transition={{ duration: 0.8, delay: index * 0.3 }}
+                        style={{ fontFamily: "DM Sans, sans-serif" }}
                     >
                         <img src={icon} alt={title} className="training-icon" />
-                        <h3 className="training-header">{title}</h3>
-                        <p className="training-content">{description}</p>
+                        <h3 className="training-header" style={{ fontFamily: "DM Sans, sans-serif" }}>{title}</h3>
+                        <p className="training-content" style={{ fontFamily: "DM Sans, sans-serif" }}>{description}</p>
                     </motion.div>
                 ))}
             </div>

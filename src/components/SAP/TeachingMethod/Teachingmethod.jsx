@@ -14,7 +14,7 @@ const TeachingMethod = () => {
       {/* Header Section */}
 {/* Header Section */}
 <div className="sub-header">
-  <h2><strong>Our Available Delivery Methods</strong></h2>
+  <h2>Our Available Delivery Methods</h2>
   <div className="sub-header-content">
     <p>
       The Knowledge Academy is the World’s Leading Organisation for training professionals. 
@@ -33,7 +33,7 @@ const TeachingMethod = () => {
           <div className="icon"><FaChalkboardTeacher /></div>
           <h3>Classroom Training</h3>
           <p>Get trained in a quiet, safe, and clean environment, which is</p>
-          <a href="#">Enquire Now →</a>
+          {/* <a href="#">Enquire Now →</a> */}
           <span className="number">01</span>
         </div>
 
@@ -46,7 +46,7 @@ const TeachingMethod = () => {
             <p>
             Attend our award-winning training from your home without going anywhere.
             </p>
-            <a href="#">Enquire Now →</a>
+            {/* <a href="#">Enquire Now →</a> */}
           </div>
           <span className="number">02</span>
         </div>
@@ -56,7 +56,7 @@ const TeachingMethod = () => {
           <div className="icon"><FaBookOpen /></div>
           <h3>Online Self-Paced Training</h3>
           <p>Get immediate 90 days access to the e-learning portal, which is</p>
-          <a href="#">Enquire Now →</a>
+          {/* <a href="#">Enquire Now →</a> */}
           <span className="number">03</span>
         </div>
 
@@ -65,7 +65,7 @@ const TeachingMethod = () => {
           <div className="icon"><FaMapMarkerAlt /></div>
           <h3>Onsite Training</h3>
           <p>Train multiple employees at your choice’s place, time, and</p>
-          <a href="#">Enquire Now →</a>
+          {/* <a href="#">Enquire Now →</a> */}
           <span className="number">04</span>
         </div>
       </div>

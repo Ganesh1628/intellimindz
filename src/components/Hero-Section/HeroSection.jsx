@@ -55,24 +55,25 @@ const HeroSection = () => {
         <Row className="content-section">
           {/* Left Side - Paragraph */}
           <Col lg="6" md="12">
-            <div className="header_content" style={{ marginLeft: "-60px" /* Adjust as needed */}}>
+            <div className="header_content" style={{ marginLeft: "-60px",fontFamily: "DM Sans, sans-serif" /* Adjust as needed */ }}>
+            {/* css styling for the header is on index.css */}
               <h1>
                 Welcome to Intelli
-                <span style={{ color: "orange", fontFamily: "Montserrat, sans-serif" }}>
+                <span style={{ color: "orange", fontFamily: "DM Sans, sans-serif" }}>
                   Mindz
                 </span>
               </h1>
             </div>
-            <div className="hero__content" style={{ marginTop: "20px", textAlign: "left" }}> {/* Ensure text alignment */}
-              <p className="mb-10" style={{ width: "620px", textAlign: "left", fontFamily: "Poppins, sans-serif" }}>
+            <div className="hero__content" style={{ marginTop: "20px", textAlign: "left", }}> {/* Ensure text alignment */}
+              <p className="mb-10" style={{ width: "620px", textAlign: "left", fontFamily: "DM Sans, sans-serif" }}>
                 Intelli Mindz Academy is a premier training institute dedicated to providing top-quality Online and Classroom training in software, spoken English, and competitive exam preparation.
               </p>
-              <p className="mb-10" style={{ width: "620px", textAlign: "left", fontFamily: "Poppins, sans-serif"}}>
+              <p className="mb-11" style={{ width: "620px", textAlign: "left", fontFamily: "DM Sans, sans-serif" }}>
                 Our courses are designed with a 100% practical and hands-on approach, ensuring students gain real-world experience. With a portfolio of 100+ courses, we are led by industry experts with over a decade of experience. Each course follows a structured curriculum, giving students a clear learning roadmap.
               </p>
-              <p className="mb-10" style={{ width: "620px", textAlign: "left", fontFamily: "Poppins, sans-serif" }}>
+              {/* <p className="mb-10" style={{ width: "620px", textAlign: "left", fontFamily: "Poppins, sans-serif" }}>
                 We offer flexible online training across various time zones, catering to learners in the USA, UK, France, Germany, Singapore, Malaysia, Dubai, Saudi Arabia, and beyond. At Intelli Mindz Academy, we focus on both technical skills and practical knowledge, empowering students to confidently step into the job market and secure placements in top multinational companies (MNCs).
-              </p>
+              </p> */}
               <div className="start-course-container">
                 <button className="start-course-btn">Start Course</button>
               </div>
@@ -83,7 +84,7 @@ const HeroSection = () => {
           {/* Right Side - Enrollment Form */}
           <Col lg="6" md="12">
             {/* <div className="enroll_section"> */}
-            <div className="form-box" style={{ marginTop: "250px"}}>
+            <div className="form-box" style={{ marginTop: "230px" }}>
               <h2 id="enroll_h2" style={{ fontSize: "27px" }}>Enroll Now</h2>
               <p id="enroll_p" style={{ color: "black", fontSize: "15px" }}>and We will get back to you soon!</p>
               <form>
@@ -146,7 +147,7 @@ const HeroSection = () => {
         </Row>
 
         {/* Stats Section */}
-        <Row className="placement-stats">
+        <Row className="placement-stats mt-4" style={{fontFamily: "DM Sans, sans-serif"}}> {/* You can change mt-4 to mt-5 for more spacing */}
           <Col lg="3" md="6" sm="6">
             <div className="stats-box">
               <h2>150+</h2>

@@ -24,7 +24,7 @@ const HeaderSAP = () => {
 
         {/* Brochure Download Form */}
         <div className="brochure-form">
-          <h3>Download Course Brochure</h3>
+          <h3>Enquiry Now</h3>
           <div className="input-group">
             <input type="text" placeholder="Name" />
             <input type="email" placeholder="Email" />
@@ -46,18 +46,19 @@ const HeaderSAP = () => {
               <option value="Tirupur">Tirupur</option>
             </select>
             <div className="radio-group">
-              <div id="trainingmode">Training Mode</div>
-              <label className="label">
-                <input type="radio" name="preference" value="online" />
-                Online
-              </label>
-              <label className="label">
-                <input type="radio" name="preference" value="offline" />
-                Offline
-              </label>
-            </div>
+  <div id="trainingmode">Training Mode:</div>
+  <label className="label">
+    <input type="radio" name="preference" value="online" />
+    Online
+  </label>
+  <label className="label">
+    <input type="radio" name="preference" value="offline" />
+    Offline
+  </label>
+</div>
+
           </div>
-          <button className="btn-download">Send Me Brochure »</button>
+          <button className="btn-download">Submit</button>
         </div>
       </section>
     </div></>

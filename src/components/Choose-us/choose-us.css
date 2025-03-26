@@ -19,6 +19,17 @@
 .choose-box p {
   color: #000000; /* Black color for the description */
 }
+/* Apply font to the entire choose-us section */
+.choose-us {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Apply font to specific text elements */
+.choose-us h2,
+.choose-us h4,
+.choose-us p {
+  font-family: "DM Sans", sans-serif;
+}
 
 .choose__img img {
   border-radius: 15px;
