@@ -12,11 +12,7 @@ const Sapgeneral = () => {
             What is SAP and What does it do?
           </h2>
           <p className="sap-text">
-            SAP software provides multiple business functions with a single view of the truth by centralizing data
-            management. This enables companies to better manage complex business processes by providing real-time
-            insights across the enterprise to employees from various departments. As a result, businesses can speed up
-            workflows, increase operational efficiency, boost productivity, improve customer experiences, and boost
-            profits.
+          SAP FICO (Financial Accounting & Controlling) is a core module in SAP ERP that helps businesses manage their financial transactions, accounting, and reporting effectively. It integrates two essential components: Financial Accounting (FI), which handles company-wide financial statements, balance sheets, accounts payable, and receivables, and Controlling (CO), which focuses on cost management, budgeting, and internal financial control. SAP FICO plays a crucial role in streamlining financial processes, ensuring compliance, and improving decision-making through real-time data analysis. Organizations across industries rely on SAP FICO to maintain accurate financial records, manage profitability, and comply with legal regulations.
           </p>
           <p className="sap-text">
             SAP is a software company that creates software for small businesses, midsize businesses, and large

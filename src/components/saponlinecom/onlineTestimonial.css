@@ -1,0 +1,101 @@
+/* Main Section */
+.testimonials-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  background: white;
+}
+
+/* Left Side: Title & Description */
+.testimonials-left {
+  max-width: 40%;
+}
+
+.testimonials-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+}
+
+.testimonials-description {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+/* Pagination Dots */
+.pagination-dots {
+  display: flex;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: gray;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.dot.active {
+  background: #c6d334;
+}
+
+/* Right Side: Testimonial Cards */
+.testimonials-right {
+  display: flex;
+  gap: 20px;
+  width: 55%;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 350px;
+  position: relative;
+}
+
+.quote-icon {
+  width: 30px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  filter: brightness(0) saturate(100%) invert(67%) sepia(51%) saturate(533%) hue-rotate(23deg) brightness(99%) contrast(96%);
+}
+
+.testimonial-text {
+  font-size: 14px;
+  color: #333;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+.testimonial-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+.testimonial-stars {
+  font-size: 16px;
+  color: gold;
+}
+
+/* Circular Profile Badge */
+.profile-badge {
+  position: absolute;
+  bottom: -20px;
+  right: -10px;
+  width: 50px;
+}

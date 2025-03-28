@@ -66,10 +66,10 @@ const HeroSection = () => {
             </div>
             <div className="hero__content" style={{ marginTop: "20px", textAlign: "left", }}> {/* Ensure text alignment */}
               <p className="mb-10" style={{ width: "620px", textAlign: "left", fontFamily: "DM Sans, sans-serif" }}>
-                Intelli Mindz Academy is a premier training institute dedicated to providing top-quality Online and Classroom training in software, spoken English, and competitive exam preparation.
+              Intellimindz is a premier training institute known for delivering high-quality, industry-focused training programs across various domains. With a strong emphasis on practical learning, the institute offers courses tailored to current industry standards, ensuring students gain hands-on experience. Intellimindz's expert trainers and comprehensive syllabi help individuals and professionals enhance their skill sets, empowering them to excel in their careers across global markets.
               </p>
               <p className="mb-11" style={{ width: "620px", textAlign: "left", fontFamily: "DM Sans, sans-serif" }}>
-                Our courses are designed with a 100% practical and hands-on approach, ensuring students gain real-world experience. With a portfolio of 100+ courses, we are led by industry experts with over a decade of experience. Each course follows a structured curriculum, giving students a clear learning roadmap.
+                Catering to diverse learners, Intellimindz provides training in areas such as IT, software development, digital marketing, and data analytics, among others. The institute's flexible learning modes, including online and classroom training, make it accessible to a global audience. With a reputation for excellence, Intellimindz bridges the gap between academic knowledge and industry requirements, fostering growth and innovation for individuals and organizations alike.
               </p>
               {/* <p className="mb-10" style={{ width: "620px", textAlign: "left", fontFamily: "Poppins, sans-serif" }}>
                 We offer flexible online training across various time zones, catering to learners in the USA, UK, France, Germany, Singapore, Malaysia, Dubai, Saudi Arabia, and beyond. At Intelli Mindz Academy, we focus on both technical skills and practical knowledge, empowering students to confidently step into the job market and secure placements in top multinational companies (MNCs).

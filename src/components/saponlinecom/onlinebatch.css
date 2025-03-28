@@ -1,0 +1,85 @@
+
+  /* Batch Request Form Styles */
+  .batch-request-container {
+    margin: 30px auto;
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+    
+  }
+  
+  .batch-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 3px solid orange;
+    display: inline-block;
+  }
+  
+  .batch-form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 15px 15px 0px 0px;
+    overflow: hidden;
+  }
+  
+  .input-wrapper input {
+    border: none;
+    padding: 10px;
+    flex: 1;
+    outline: none;
+  }
+  
+  .sap_icon {
+    background-color: orange;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .mobile-input {
+    display: flex;
+  }
+  
+  .country-code {
+    width: 80px;
+    text-align: center;
+  }
+  
+  
+  .request-btn {
+    border: 2px solid orange;
+    padding: 12px 20px;
+    background: white;
+    color: orange;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .request-btn:hover {
+    background: orange;
+    color: white;
+  }
+  

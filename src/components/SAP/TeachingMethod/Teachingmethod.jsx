@@ -61,13 +61,12 @@ const TeachingMethod = () => {
         </div>
 
         {/* Onsite Training */}
-        <div className={`method-card ${animate ? "fade-in" : ""}`} style={{ transitionDelay: "0.8s" }}>
+        {/* <div className={`method-card ${animate ? "fade-in" : ""}`} style={{ transitionDelay: "0.8s" }}>
           <div className="icon"><FaMapMarkerAlt /></div>
           <h3>Onsite Training</h3>
           <p>Train multiple employees at your choice’s place, time, and</p>
-          {/* <a href="#">Enquire Now →</a> */}
           <span className="number">04</span>
-        </div>
+        </div> */}
       </div>
     </section>
   );

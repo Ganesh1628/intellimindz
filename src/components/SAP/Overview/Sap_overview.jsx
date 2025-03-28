@@ -59,17 +59,14 @@ const SAPOverview = () => {
       <div className="training-overview">
         <h1><strong>SAP Training Overview</strong></h1>
         <p>
-          SAP is one of the world's leading software developers for business process 
-          management, creating solutions that enable efficient data processing and 
-          information flow across organizations. SAP offers a comprehensive 
-          portfolio of leading cloud-based ERP solutions and tools to meet the needs of businesses.
+        IntelliMindz offers the best SAP FICO Training in Chennai, providing in-depth knowledge of Financial Accounting (FI) and Controlling (CO) to help professionals and students build a successful career in SAP. Our SAP FICO Course in Chennai is designed by industry experts and includes real-time projects, hands-on exercises, and case studies to ensure practical learning. We also offer SAP FICO Online Training, allowing learners to access high-quality training from anywhere at their convenience. With expert guidance, placement assistance, and a job-oriented curriculum, IntelliMindz ensures that you gain the essential skills required to excel in SAP FICO and secure top positions in leading MNCs.
         </p>
-        <p>
+        {/* <p>
           Our SAP training courses are specially tailored to provide individuals with 
           the ability to use SAP to secure the data, protect their business from hackers, 
           and reduce threats. These training courses increase efficiency and productivity 
           by automating repetitive tasks and maximizing time, money, and resources.
-        </p>
+        </p> */}
         <button className="enquiry-btn">💬 Enquire for More Info</button>
       </div>
 

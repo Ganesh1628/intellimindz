@@ -51,6 +51,11 @@ const courseOptions = [
   "Others",
 ];
 
+const sapoptions = [
+  "SAP Online",
+  "SAP Financial",
+]
+
 const Header = () => {
   const menuRef = useRef();
   const [isCoursesOpen, setIsCoursesOpen] = useState(false);

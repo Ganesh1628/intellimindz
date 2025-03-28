@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* Main Container - Reduced Width Version */
+.self-assessment-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #007bff, #00c6ff); /* Blue Gradient */
+    padding: 20px;
+    color: white;
+    border-radius: 0px 100px 0px 0px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    max-width: 90%; /* Reduced from full width */
+    margin-left: auto; /* Centers the container */
+    margin-right: auto; /* Centers the container */
+}
+
+/* Left Side: Text */
+.self-assessment-text {
+    max-width: 60%; /* Adjusted to fit narrower container */
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.self-title {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+}
+
+.self-description {
+    font-size: 18px;
+    margin: 10px 0 20px;
+    font-family: "DM Sans", sans-serif; 
+}
+
+.self-btn {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.self-btn:hover {
+    background-color: #000000;
+    color: #007bff;
+}
+
+/* Right Side: Image */
+.self-assessment-image img {
+    width: 250px; /* Slightly reduced image size */
+    border-radius: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .self-assessment-container {
+        flex-direction: column;
+        max-width: 95%;
+        border-radius: 0px 30px 0px 0px;
+    }
+    
+    .self-assessment-text {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .self-assessment-image img {
+        width: 200px;
+    }
+}

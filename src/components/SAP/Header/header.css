@@ -1,19 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
-
-/* Apply DM Sans globally */
-body {
-  font-family: 'DM Sans', sans-serif;
-}
-
 /* SAP FICO Section */
 .sap-fico-section {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  background: #51837c;
+  align-items: center;  
+  background: #8cc9c1;
   color: white;
   padding: 160px 60px;
   border-radius: 30px 0px 30px 30px;
+  position: relative;
+  overflow: hidden;
 }
 
 /* Course Info */
@@ -40,121 +35,23 @@ body {
 .ratings {
   font-size: 1.2rem;
   font-weight: 500;
-  margin-top: 18px; 
+  margin-top: 18px;
 }
 
-/* Brochure Download Form */
-.brochure-form {
-  width: 35%;
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  color: black;
-  text-align: center;
-  font-size: 0.95rem;
+/* Image Styling */
+.sap-fico-image {
+  width: 60%;
+  height: 400px; /* Set a fixed height */
+  position: relative; /* Needed for absolute positioning of images */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.brochure-form h3 {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-.brochure-form input, 
-.brochure-form select {
+.sap-fico-image img {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 0.95rem;
-}
-
-/* Phone Input */
-.phone-input {
-  display: flex;
-  gap: 10px;
-}
-
-.phone-input select {
-  width: 30%;
-}
-
-.phone-input input {
-  width: 70%;
-}
-
-/* Download Button */
-.btn-download {
-  background: #5a2ea6;
-  color: white;
-  border: none;
-  padding: 10px;
-  width: 100%;
-  font-size: 0.95rem;
-  font-weight: 600;
-  margin-top: 15px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.btn-download:hover {
-  background: #4a2386;
-}
-
-/* Certification Logos */
-.certification-logos {
-  text-align: center;
-  padding: 20px;
-  background: white;
-}
-
-.certification-logos img {
-  width: 200px;
-  margin-top: 10px;
-}
-
-/* Input Groups */
-.input-group {
-  display: flex;
-  gap: 10px;
-}
-
-.phone-input {
-  display: flex;
-  gap: 10px;
-  margin: 10px 0;
-}
-
-.input-group select,
-.input-group input {
-  flex: 1;
-}
-
-/* Align Training Mode and Radio Buttons in a Single Line */
-.radio-group {
-  display: flex;
-  align-items: center;
-  gap: 15px; /* Adjust spacing between elements */
-  font-size: 0.95rem;
-}
-
-#trainingmode {
-  font-weight: 600;
-  white-space: nowrap; /* Prevents text wrapping */
-}
-
-.label {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 0.95rem;
-}
-
-
-.radio-group .label {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 0.95rem;
+  height: auto;
+  max-height: 100%;
+  border-radius: 20px;
+  object-fit: contain;
 }

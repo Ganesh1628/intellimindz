@@ -17,9 +17,9 @@
 /* Suitable Batches & Training Mode */
 .training-mode {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .suitable-batches {
@@ -60,8 +60,21 @@
   height: 70px;
 }
 
-.batch-info, .batch-time {
+.batch-time {
   text-align: center;
+}
+
+.batch-info {
+
+  gap: 10px; /* Reduce space between days and type */
+  align-items: center; /* Align them properly */
+  justify-content: center; /* Ensure proper spacing */
+  text-align: center;
+}
+
+.batch-info p {
+  margin: 0; /* Remove any extra margins */
+  padding: 0; /* Remove any padding */
 }
 
 .fees-button {
@@ -93,8 +106,8 @@
   background: white;
   padding: 40px; /* Reduce padding */
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  width: 900px; /* Slightly reduce width */
+  box-shadow: 0 40px 10px rgba(0, 0, 0, 0.1);
+  width: 1000px; /* Slightly reduce width */
   margin: auto; /* Center horizontally */
   /* position: absolute; */
   /* top: 50%; */
@@ -108,20 +121,47 @@
   gap: 30px; /* Reduce spacing */
 }
 
-/* Batch Card */
 .batch-card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #f8f9fa;
-  padding: 10px; /* Reduce padding */
-  border-radius: 5px;
-  width: 100%; /* Adjust width to fit parent */
-  height: 60px; /* Reduce height */
+  background: #fff; /* Ensure background color */
+  border-radius: 10px; /* Smooth rounded edges */
+  padding: 15px; /* Add padding for spacing */
+  margin: 5px 0; /* Space between boxes */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
 }
+
+.batch-card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
 
 /* Reduce height of request batch section */
 .request-batch {
   text-align: center;
   margin-top: 10px; /* Reduce margin */
+}
+
+
+.time{
+  margin-top: -10px;
+}
+
+.duration{
+  margin-top: -10px;
+}
+
+.schedule-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; /* Reduce the space between items */
+}
+
+.days {
+  margin-right: 5px; /* Adjust spacing */
+}
+
+.type {
+  margin-left: 5px; /* Adjust spacing */
 }

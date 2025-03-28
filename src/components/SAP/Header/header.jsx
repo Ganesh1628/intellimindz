@@ -1,11 +1,27 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import "./header.css";
-import { FaFacebookF, FaYoutube, FaLinkedinIn, FaInstagram } from "react-icons/fa";
-import FactsAndFigures from "../FactsAndFigures/FactsAndFigures";
+
+const images = [
+  require("../../../assests/images/saptraining.png"),
+  require("../../../assests/images/saptraining1.png"),
+  require("../../../assests/images/saptraining2.png"),
+  require("../../../assests/images/saptraining3.png"),
+];
 
 const HeaderSAP = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 6000); // Change image every 6 seconds
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
-    <><div>
+    <div>
       {/* SAP FICO Training Course Section */}
       <section className="sap-fico-section">
         <div className="course-info">
@@ -22,47 +38,23 @@ const HeaderSAP = () => {
           </p>
         </div>
 
-        {/* Brochure Download Form */}
-        <div className="brochure-form">
-          <h3>Enquiry Now</h3>
-          <div className="input-group">
-            <input type="text" placeholder="Name" />
-            <input type="email" placeholder="Email" />
-          </div>
-          <div className="phone-input">
-            <select>
-              <option>India (+91)</option>
-              <option>USA (+1)</option>
-              <option>UK (+44)</option>
-            </select>
-            <input type="text" placeholder="Enter phone here" />
-          </div>
-          <div className="input-group">
-            <select defaultValue="">
-              <option value="" disabled>Select Branch *</option>
-              <option value="Chennai">Chennai</option>
-              <option value="Bangalore">Bangalore</option>
-              <option value="Coimbatore">Coimbatore</option>
-              <option value="Tirupur">Tirupur</option>
-            </select>
-            <div className="radio-group">
-  <div id="trainingmode">Training Mode:</div>
-  <label className="label">
-    <input type="radio" name="preference" value="online" />
-    Online
-  </label>
-  <label className="label">
-    <input type="radio" name="preference" value="offline" />
-    Offline
-  </label>
-</div>
-
-          </div>
-          <button className="btn-download">Submit</button>
+        {/* Image Animation */}
+        <div className="sap-fico-image">
+          <AnimatePresence mode="wait">
+            <motion.img
+              key={currentIndex}
+              src={images[currentIndex]}
+              alt="SAP FICO Training"
+              initial={{ opacity: 0, x: 100 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.5, ease: "easeInOut" }}
+              style={{ position: "absolute" }}
+            />
+          </AnimatePresence>
         </div>
       </section>
-    </div></>
-
+    </div>
   );
 };
 

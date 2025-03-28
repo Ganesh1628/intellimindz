@@ -2,11 +2,11 @@ import "./Fees.css";
 import React from "react";
 
 const batchSchedule = [
-  { date: "March 30, 2025", days: "Mon, Wed, Fri", type: "Online" },
-  { date: "April 5, 2025", days: "Sat, Sun", type: "Offline" },
-  { date: "April 5, 2025", days: "Sat, Sun", type: "Offline" },
-  { date: "April 5, 2025", days: "Sat, Sun", type: "Offline" },
-  { date: "April 5, 2025", days: "Sat, Sun", type: "Offline" },
+  { date: "March 30, 2025", days: "wednesday, Friday", type: "Online" },
+  { date: "April 20, 2025", days: "Saturday, wednesday", type: "Offline" },
+  { date: "May 10, 2025", days: "wednesday, tuesday", type: "Offline" },
+  { date: "June 25, 2025", days: "Saturday, wednesday", type: "Offline" },
+  { date: "August 15, 2025", days: "wednesday, Sunday", type: "Offline" },
 ];
 
 const FeesStructure = () => {
