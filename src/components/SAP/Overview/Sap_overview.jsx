@@ -57,16 +57,16 @@ const SAPOverview = () => {
     <section className="sap-overview">
       {/* Left Section - SAP Training Overview */}
       <div className="training-overview">
-        <h1><strong>SAP Training Overview</strong></h1>
+        <h1><strong>Intellimind SAP Training</strong></h1>
         <p>
-        IntelliMindz offers the best SAP FICO Training in Chennai, providing in-depth knowledge of Financial Accounting (FI) and Controlling (CO) to help professionals and students build a successful career in SAP. Our SAP FICO Course in Chennai is designed by industry experts and includes real-time projects, hands-on exercises, and case studies to ensure practical learning. We also offer SAP FICO Online Training, allowing learners to access high-quality training from anywhere at their convenience. With expert guidance, placement assistance, and a job-oriented curriculum, IntelliMindz ensures that you gain the essential skills required to excel in SAP FICO and secure top positions in leading MNCs.
+        IntelliMindz offers the best SAP FICO Training in Chennai, providing in-depth knowledge of Financial Accounting (FI) and Controlling (CO) to help professionals and students build a successful career in SAP. Our SAP FICO Course in Chennai is designed by industry experts and includes real-time projects, hands-on exercises, and case studies to ensure practical learning. We also offer SAP FICO Online Training, allowing learners to access high-quality training from anywhere at their convenience.
         </p>
-        {/* <p>
+        <p>
           Our SAP training courses are specially tailored to provide individuals with 
           the ability to use SAP to secure the data, protect their business from hackers, 
           and reduce threats. These training courses increase efficiency and productivity 
           by automating repetitive tasks and maximizing time, money, and resources.
-        </p> */}
+        </p>
         <button className="enquiry-btn">💬 Enquire for More Info</button>
       </div>
 
@@ -81,15 +81,15 @@ const SAPOverview = () => {
         </div>
         <div className="challenge">
           <div className="circle-chart yellow">
-            <span>26%</span>
+            <span>42%</span>
           </div>
-          <p>SAP Training Helps in 35% Hike in Salary</p>
+          <p>Professionals with SAP Certification Earn 42% More on Average</p>
         </div>
         <div className="challenge">
           <div className="circle-chart blue">
             <span>77%</span>
           </div>
-          <p>SAP Training Helps in 35% Hike in Salary</p>
+          <p>77% of Companies Prefer SAP-Certified Candidates</p>
         </div>
       </div>
     </section>

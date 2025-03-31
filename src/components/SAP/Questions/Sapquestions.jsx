@@ -79,7 +79,7 @@ const SapQuestions = () => {
                 </div>
               </div>
               {activeIndex === index && (
-                <div className="faq-answer">
+                <div className="sap_faq_answer">
                   <p>{item.answer}</p>
                 </div>
               )}

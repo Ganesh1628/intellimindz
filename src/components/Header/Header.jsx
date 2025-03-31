@@ -3,7 +3,7 @@ import { Container } from "reactstrap";
 import { IoMdArrowDropdown } from "react-icons/io";
 import "./header.css";
 import intellimindzLogo from "../../assests/images/intellimindz.png";
-import whatsappIcon from "../../assests/images/whatsapp.png"; // Import the WhatsApp icon
+import whatsappIcon from "../../assests/images/whatsapp.png";
 import { Link } from "react-router-dom";
 
 const navLinks = [
@@ -12,8 +12,7 @@ const navLinks = [
   { display: "Courses", url: "#", hasDropdown: true }, {},
   { display: "Blog", url: "#" }, {},
   { display: "Online", url: "#", hasDropdown: true }, {},
-  // { display: "Contact", url: "#" }, {},
-  { display: "SAP", url: "/sap_courses" }, {},
+  { display: "SAP", url: "#", hasDropdown: true }, {},
 ];
 
 const onlineOptions = [
@@ -51,31 +50,28 @@ const courseOptions = [
   "Others",
 ];
 
-const sapoptions = [
-  "SAP Online",
-  "SAP Financial",
-]
+const sapOptions = [
+  { display: "SAP", url: "/sap_courses" },
+  { display: "SAP Online", url: "/sap_online" },
+  { display: "SAP IM Training", url: "/Sap_im_training"},
+];
 
 const Header = () => {
   const menuRef = useRef();
   const [isCoursesOpen, setIsCoursesOpen] = useState(false);
   const [isOnlineOpen, setIsOnlineOpen] = useState(false);
+  const [isSapOpen, setIsSapOpen] = useState(false);
   const [animatePhone, setAnimatePhone] = useState(false);
 
   const menuToggle = () => menuRef.current.classList.toggle("active__menu");
 
   useEffect(() => {
-    // Set up an interval to trigger the animation every 2 seconds
     const interval = setInterval(() => {
       setAnimatePhone(true);
-
-      // Reset the animation after a short delay
       setTimeout(() => {
         setAnimatePhone(false);
-      }, 1500); // Adjust this timeout to match the animation duration
-    }, 2000); // 2 seconds interval
-
-    // Clean up the interval when the component unmounts
+      }, 1500);
+    }, 2000);
     return () => clearInterval(interval);
   }, []);
 
@@ -91,7 +87,6 @@ const Header = () => {
                 className="w-100 intellimindz_img"
                 style={{ height: "100px", width: "auto", marginLeft: "-35px" }}
               />
-
             </h2>
           </div>
 
@@ -103,22 +98,23 @@ const Header = () => {
                     {item.hasDropdown ? (
                       <div
                         className="dropdown-wrapper"
-                        onMouseEnter={() =>
-                          item.display === "Courses"
-                            ? setIsCoursesOpen(true)
-                            : setIsOnlineOpen(true)
-                        }
-                        onMouseLeave={() =>
-                          item.display === "Courses"
-                            ? setIsCoursesOpen(false)
-                            : setIsOnlineOpen(false)
-                        }
+                        onMouseEnter={() => {
+                          if (item.display === "Courses") setIsCoursesOpen(true);
+                          else if (item.display === "Online") setIsOnlineOpen(true);
+                          else if (item.display === "SAP") setIsSapOpen(true);
+                        }}
+                        onMouseLeave={() => {
+                          if (item.display === "Courses") setIsCoursesOpen(false);
+                          else if (item.display === "Online") setIsOnlineOpen(false);
+                          else if (item.display === "SAP") setIsSapOpen(false);
+                        }}
                       >
                         <a href={item.url} className="dropdown-toggle">
                           {item.display}{" "}
                         </a>
                         {(item.display === "Courses" && isCoursesOpen) ||
-                          (item.display === "Online" && isOnlineOpen) ? (
+                        (item.display === "Online" && isOnlineOpen) ||
+                        (item.display === "SAP" && isSapOpen) ? (
                           <ul
                             className="dropdown-menu"
                             style={{
@@ -142,41 +138,72 @@ const Header = () => {
                               msOverflowStyle: "none",
                             }}
                           >
-                            {(item.display === "Courses"
-                              ? courseOptions
-                              : onlineOptions
-                            ).map((option, idx) => (
-                              <li
-                                key={idx}
-                                className="dropdown-item"
-                                style={{
-                                  padding: "6px 20px",
-                                  cursor: "pointer",
-                                  transition: "background 0.2s ease",
-                                  fontSize: "20px",
-                                  fontWeight: "500",
-                                  borderRadius: "50px",
-                                  borderBottom:
-                                    idx !==
-                                      (item.display === "Courses"
-                                        ? courseOptions.length - 1
-                                        : onlineOptions.length - 1)
-                                      ? "1px solid #f0f0f0"
-                                      : "none",
-                                }}
-                              >
-                                {option}
-                              </li>
-                            ))}
-                            {/* Scroll Indicator Icon */}
+                            {item.display === "Courses" ? (
+                              courseOptions.map((option, idx) => (
+                                <li
+                                  key={idx}
+                                  className="dropdown-item"
+                                  style={{
+                                    padding: "6px 20px",
+                                    cursor: "pointer",
+                                    transition: "background 0.2s ease",
+                                    fontSize: "20px",
+                                    fontWeight: "500",
+                                    borderRadius: "50px",
+                                    borderBottom: idx !== courseOptions.length - 1 ? "1px solid #f0f0f0" : "none",
+                                  }}
+                                >
+                                  {option}
+                                </li>
+                              ))
+                            ) : item.display === "Online" ? (
+                              onlineOptions.map((option, idx) => (
+                                <li
+                                  key={idx}
+                                  className="dropdown-item"
+                                  style={{
+                                    padding: "6px 20px",
+                                    cursor: "pointer",
+                                    transition: "background 0.2s ease",
+                                    fontSize: "20px",
+                                    fontWeight: "500",
+                                    borderRadius: "50px",
+                                    borderBottom: idx !== onlineOptions.length - 1 ? "1px solid #f0f0f0" : "none",
+                                  }}
+                                >
+                                  {option}
+                                </li>
+                              ))
+                            ) : (
+                              sapOptions.map((option, idx) => (
+                                <Link 
+                                  key={idx} 
+                                  to={option.url}
+                                  className="dropdown-item" 
+                                  style={{
+                                    display: "block",
+                                    padding: "6px 20px",
+                                    cursor: "pointer",
+                                    transition: "background 0.2s ease",
+                                    fontSize: "20px",
+                                    fontWeight: "500",
+                                    borderRadius: "50px",
+                                    borderBottom: idx !== sapOptions.length - 1 ? "1px solid #f0f0f0" : "none",
+                                    color: "black",
+                                    textDecoration: "none",
+                                  }}
+                                >
+                                  {option.display}
+                                </Link>
+                              ))
+                            )}
                             <div
                               style={{
                                 position: "sticky",
                                 bottom: "0",
                                 width: "100%",
                                 height: "0px",
-                                background:
-                                  "linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)",
+                                background: "linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)",
                                 display: "flex",
                                 justifyContent: "center",
                                 alignItems: "center",
@@ -209,14 +236,13 @@ const Header = () => {
             </div>
 
             <div className="nav__right d-flex flex-column align-items-start">
-              <p className={`mb-0 d-flex align-items-center gap-2 ${animatePhone ? "animated-phone" : ""}`}>
+              <p className={`mb-0 d-flex align-items-center gap-2}`}>
                 <i className="ri-phone-line"></i> +91 9655877677
               </p>
-              <p className={`mb-0 d-flex align-items-center gap-2 ${animatePhone ? "animated-phone" : ""}`}>
+              <p className={`mb-0 d-flex align-items-center gap-2}`}>
                 <i className="ri-phone-line"></i> +91 9655877577
               </p>
             </div>
-
           </div>
 
           <div className="mobile__menu">
@@ -227,8 +253,6 @@ const Header = () => {
         </div>
       </Container>
 
-      <div className="whatsapp-icon">
-      </div>
       <div className="whatsapp-icon">
         <a href="https://wa.me/919176533433" target="_blank" rel="noopener noreferrer">
           <img src={whatsappIcon} alt="WhatsApp" />

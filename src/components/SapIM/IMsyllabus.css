@@ -1,0 +1,176 @@
+/* SapImSyllabus.css */
+.sapim-syllabus {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .syllabus-header {
+    text-align: center;
+    /* margin-bottom: 50px; */
+  }
+  
+  .syllabus-header h1 {
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 15px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .header-accent {
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #003366, #6699cc);
+    margin: 0 auto;
+    border-radius: 2px;
+  }
+  
+  .header-subtext {
+    color: #666;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  .sap-syllabus-container {
+    padding: 20px 0;
+  }
+  
+  .syllabus-grid {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    gap: 25px;
+  }
+  
+  .module-card {
+    background: white;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0, 51, 102, 0.08);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    border-left: 4px solid #003366;
+    display: flex;
+    align-items: flex-start;
+    min-height: 120px;
+    cursor: pointer;
+  }
+  
+  .module-card:hover, .module-card.active {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 51, 102, 0.15);
+    background: #f8faff;
+  }
+  
+  .module-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(0, 51, 102, 0.1);
+    margin-right: 20px;
+    min-width: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  .module-card:hover .module-number, 
+  .module-card.active .module-number {
+    color: rgba(0, 51, 102, 0.2);
+  }
+  
+  .module-content {
+    flex: 1;
+  }
+  
+  .module-content h3 {
+    font-size: 1.1rem;
+    color: #003366;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  
+  .module-title {
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .module-description {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .module-card:hover .module-description,
+  .module-card.active .module-description {
+    max-height: 200px;
+  }
+  
+  .module-decoration {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, #003366, #6699cc);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .module-card:hover .module-decoration,
+  .module-card.active .module-decoration {
+    transform: scaleX(1);
+  }
+  
+  /* Alternative Color Scheme Option */
+  /* Uncomment to use a green theme instead of blue */
+  /*
+  .module-card {
+    border-left-color: #2e7d32;
+  }
+  .module-card:hover, .module-card.active {
+    background: #f1f8e9;
+  }
+  .syllabus-header h1 {
+    color: #2e7d32;
+  }
+  .header-accent {
+    background: linear-gradient(90deg, #2e7d32, #7cb342);
+  }
+  .module-decoration {
+    background: linear-gradient(90deg, #2e7d32, #7cb342);
+  }
+  */
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .syllabus-header h1 {
+      font-size: 2rem;
+    }
+    
+    .syllabus-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .module-card {
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .syllabus-header h1 {
+      font-size: 1.7rem;
+    }
+    
+    .module-number {
+      font-size: 1.8rem;
+      margin-right: 15px;
+    }
+  }

@@ -86,7 +86,7 @@ const FactsAndFigures = () => {
       {/* Syllabus Section with Animation Triggered on Scroll */}
       <section className="syllabus-section" ref={syllabusRef}>
         <h2 className="syllabus-title" style={{ fontFamily: "DM Sans, sans-serif" }}>
-          Syllabus of SAP QM Training in Chennai
+          Syllabus of SAP Training 
         </h2>
         <div className="syllabus-container">
           {modules.map((module, index) => (

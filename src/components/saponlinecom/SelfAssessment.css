@@ -30,8 +30,9 @@
 }
 
 .self-description {
-    font-size: 18px;
+    font-size: 16px;
     margin: 10px 0 20px;
+    color: #1f1f1f;
     font-family: "DM Sans", sans-serif; 
 }
 

@@ -1,0 +1,30 @@
+.ask-for-demo {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #003399;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .ask-for-demo .banner {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ask-for-demo .icon {
+    margin-right: 5px;
+  }
+  
+  .ask-for-demo .demo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  

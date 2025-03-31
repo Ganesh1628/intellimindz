@@ -17,17 +17,17 @@ const FeesStructure = () => {
         
         {/* Header Section */}
         <div className="fees-header">
-          <h2 className="fees-title">Upcoming Batch Schedule for Java Training in Chennai</h2>
+          <h2 className="fees-title">Upcoming Batch Schedule for SAP Training in Chennai</h2>
         </div>
 
         {/* Training Mode Selection */}
-        <div className="training-mode">
+        {/* <div className="training-mode">
           <h3 className="suitable-batches">Suitable Batches for You</h3>
           <div className="training-buttons">
             <button className="active">Online Classroom</button>
             <button>Corporate Training</button>
           </div>
-        </div>
+        </div> */}
 
         {/* Batch Schedule List */}
         <div className="batch-list">
@@ -48,8 +48,8 @@ const FeesStructure = () => {
         </div>
 
         {/* Request Batch Section */}
-        <div className="request-batch">
-          <p>➡ Can't find a batch you were looking for?</p>
+        <div className="sap_request_batch">
+          <p>Can't find a batch you were looking for? ⬇  </p>
           <button className="request-button">REQUEST A BATCH</button>
         </div>
 

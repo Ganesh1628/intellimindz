@@ -15,7 +15,7 @@ const HeaderSAP = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 6000); // Change image every 6 seconds
+    }, 4000); // Change image every 6 seconds
 
     return () => clearInterval(interval);
   }, []);
@@ -28,6 +28,17 @@ const HeaderSAP = () => {
           <h2 className="sap_intelli" style={{ fontSize: "60px" }}>
             Intelli<span style={{ color: "orange" }}>Mindz</span>
           </h2>
+
+          <h2>Benefits of SAP Training</h2>
+          <p className="sap-benefits-text">
+            SAP training provides professionals with the skills needed to excel in enterprise resource planning (ERP).  
+            By obtaining SAP certification, individuals can enhance their career prospects and gain a competitive edge in the job market.  
+            SAP professionals are in high demand across industries, offering lucrative salary packages and job stability.  
+            The training includes hands-on experience with real-world projects, ensuring that learners develop practical expertise.  
+            Staying updated with the latest SAP tools and trends allows professionals to drive business efficiency and innovation.
+          </p>
+
+          <h3>Course Highlights</h3>
           <ul>
             <li>✔️ 44 Hours of Live Instructor-led Certified SAP FICO Training</li>
             <li>✔️ SAP Exam Assistance & 200+ MCQs & 18+ Course-End Quizzes</li>

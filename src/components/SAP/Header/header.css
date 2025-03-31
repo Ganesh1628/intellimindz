@@ -4,13 +4,15 @@
   justify-content: space-between;
   align-items: center;  
   background: #8cc9c1;
-  color: white;
-  padding: 160px 60px;
-  border-radius: 30px 0px 30px 30px;
+  color: rgb(27, 27, 27);
+  padding: 160px 60px 50px;
+  border-radius: 30px 0px 0px 0px;
   position: relative;
   overflow: hidden;
 }
-
+.sap-benefits-text{
+  color: rgb(29, 29, 29);
+}
 /* Course Info */
 .course-info {
   width: 60%;

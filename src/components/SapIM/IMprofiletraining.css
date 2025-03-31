@@ -1,0 +1,142 @@
+/* Main Container */
+.sap-training-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Header Styles */
+  .sap-training-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .sap-training-header h1 span {
+    color: #3498db;
+    font-weight: 600;
+  }
+  
+  .header-divider {
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(90deg, #3498db, #2c3e50);
+    margin: 0 auto 30px;
+    border-radius: 2px;
+  }
+  
+  /* Content Layout */
+  .sap-training-content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .training-image {
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .training-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .training-image:hover img {
+    transform: scale(1.03);
+  }
+  
+  .training-details {
+    flex: 1;
+  }
+  
+  /* Text Styles */
+  .intro-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  /* Benefits List */
+  .benefits-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  
+  .benefits-list li {
+    margin-bottom: 15px;
+    padding-left: 30px;
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #444;
+  }
+  
+  .benefits-list li .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #3498db;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  /* Button Styles */
+  .enquiry-button {
+    background: linear-gradient(135deg, #3498db, #2c3e50);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  
+  .enquiry-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 900px) {
+    .sap-training-content {
+      flex-direction: column;
+    }
+    
+    .training-image, .training-details {
+      flex: none;
+      width: 100%;
+    }
+    
+    .sap-training-header h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .sap-training-header h1 {
+      font-size: 1.8rem;
+    }
+    
+    .intro-text {
+      font-size: 1rem;
+    }
+    
+    .benefits-list li {
+      font-size: 0.95rem;
+    }
+  }

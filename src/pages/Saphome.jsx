@@ -9,21 +9,25 @@ import Reason from "../components/SAP/Reason/Reason";
 import TeachingMethod from "../components/SAP/TeachingMethod/Teachingmethod";
 import Testimonial from "../components/SAP/Saptestimonials/Saptestimonial";
 import Footer from "../components/Footer/Footer";
+// import AskForDemo from "../components/SAP/Header/askfordemo";
+// import SearchBar from "./sapim/SearchBar";
 
-const Saphome = () =>{
-    return(<>
-<HeaderSAP/>
-<SAPOverview/>
-<FeesStructure/>
-<Sapgeneral/>
-<TeachingMethod/>
-<Reason/>
-<FactsAndFigures/>
-<SapQuestions/>
-<Testimonial/>
-<Info/>
-<Footer/>
-</>
+const Saphome = () => {
+    return (<>
+        <HeaderSAP />
+        {/* <AskForDemo/> */}
+        <SAPOverview />
+        <FeesStructure />
+        <Sapgeneral />
+        <TeachingMethod />
+        <Reason />
+        <FactsAndFigures />
+        <Info />
+        <SapQuestions />
+        <Testimonial />
+        <Footer />
+        {/* <SearchBar /> */}
+    </>
     );
 }
 export default Saphome;

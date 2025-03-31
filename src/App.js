@@ -7,6 +7,7 @@ import Java from "./components/Java_course/Java_course"; // Import Java Course C
 // import HeaderSAP from "./components/SAP/Header/header";
 import Saphome from "./pages/Saphome";
 import Saponline from "./pages/saponlinetraining";
+import Sapim from "./pages/sapim";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/java_course" element={<Java />} /> {/* Added Java Course Route */}
         <Route path="/sap_courses" element={<Saphome />} /> 
         <Route path="/sap_online" element={<Saponline />} /> 
+        <Route path="/sap_im_training" element={<Sapim />} /> 
       </Routes>
     </Router>
   );

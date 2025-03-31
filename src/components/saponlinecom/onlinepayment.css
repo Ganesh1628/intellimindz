@@ -1,15 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 /* Base Styles */
 .schedule-wrapper {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
-    font-family: 'Inter', sans-serif;
+  font-family: "DM Sans", sans-serif;
   }
   
   .course-title {
-    font-size: 28px;
+    font-size: 2rem;
     font-weight: 700;
-    color: #2d3748;
+    color: #313131;
     margin-bottom: 30px;
     text-align: center;
   }
@@ -17,7 +20,7 @@
   /* Calendar Section */
   .calendar-section {
     display: flex;
-    gap: 30px;
+    gap: 60px;
     margin-bottom: 30px;
     transition: all 0.4s ease;
     position: relative;
@@ -90,12 +93,12 @@
     font-size: 16px;
     font-weight: 600;
     color: #2d3748;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
   }
   
   .duration {
     font-size: 14px;
-    color: #718096;
+    color: #2d3748;
     margin: 0;
   }
   

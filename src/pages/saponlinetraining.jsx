@@ -24,7 +24,7 @@ import menFace2 from '../assests/images/men_face.png';
 import menFace3 from '../assests/images/men_face.png';
 import menFace4 from '../assests/images/men_face.png';
 import menFace5 from '../assests/images/men_face.png';
-import React, { useState } from 'react'; // Add this import at the top
+import React, { useState, useEffect } from 'react'; // Add this import at the top
 
 
 // Course List Section
@@ -110,127 +110,120 @@ const BatchRequestForm = () => {
 };
 
 const CurriculumProjects = () => {
-    // State to track which modules are expanded
-    const [expandedModules, setExpandedModules] = useState({});
+  // State to track which module is expanded (only one at a time)
+  const [expandedModule, setExpandedModule] = useState(null);
 
-    // Toggle module expansion
-    const toggleModule = (moduleNumber) => {
-        setExpandedModules(prev => ({
-            ...prev,
-            [moduleNumber]: !prev[moduleNumber]
-        }));
-    };
+  // Toggle module expansion
+  const toggleModule = (moduleNumber) => {
+      setExpandedModule(expandedModule === moduleNumber ? null : moduleNumber);
+  };
 
-    // Module content data
-    const moduleContents = {
-        1: "This module covers the basics of SAP, including its architecture, components, and how it's used in enterprise environments. You'll learn about SAP's history, the S/4HANA platform, and the role of FICO in SAP ecosystems.",
-        2: "Explore how enterprises are structured in SAP, including client, company code, and business area concepts. Learn how to configure organizational units and their relationships in financial accounting.",
-        3: "Dive into the global settings for Financial Accounting, including fiscal year variants, posting periods, and document types. Understand how these settings affect financial transactions across the organization.",
-        4: "Learn about the New GL functionality in S/4HANA, including parallel accounting approaches, segment reporting, and how to migrate from classic GL to New GL.",
-        5: "Master the configuration of General Ledger Accounting, including chart of accounts setup, account groups, and reconciliation accounts. Learn how global settings impact financial reporting.",
-        6: "Yes, SAP QM may be customized to fulfil specific enterprise necessities. Customizations consist of configuring inspection sorts, defining excellent control plans, setting up inspection lots, and tailoring quality notifications to align with particular best management tactics inside a company.",
-        7: "Yes, SAP gives complete training applications for SAP QM customers. These training applications cover various elements of SAP QM capability, including configuration, utilization, and fine practices for powerful satisfactory management within SAP ERP environments.",
-        8: "SAP QM supports regulatory compliance by means of providing equipment to implement excellent requirements, music fine-associated facts, control documentation, and generate compliance reviews. It enables organizations adhere to industry-precise guidelines and standards including ISO, FDA, and GMP.",
-        9: "Yes, SAP QM may be integrated with external pleasant control systems via numerous interfaces and connectors. This integration permits seamless information change between SAP QM and outside structures, permitting businesses to leverage present first-rate management investments while benefiting from SAP ERP integration.",
-        10: "SAP QM may be deployed on-premises or in the cloud, imparting flexibility to corporations based on their IT infrastructure and business requirements. Both deployment alternatives provide get admission to the whole range of SAP QM functionality for effective fine control."
-    };
+  // Module content data
+  const moduleContents = {
+      1: "This module covers the basics of SAP, including its architecture, components, and how it's used in enterprise environments. You'll learn about SAP's history, the S/4HANA platform, and the role of FICO in SAP ecosystems.",
+      2: "Explore how enterprises are structured in SAP, including client, company code, and business area concepts. Learn how to configure organizational units and their relationships in financial accounting.",
+      3: "Dive into the global settings for Financial Accounting, including fiscal year variants, posting periods, and document types. Understand how these settings affect financial transactions across the organization.",
+      4: "Learn about the New GL functionality in S/4HANA, including parallel accounting approaches, segment reporting, and how to migrate from classic GL to New GL.",
+      5: "Master the configuration of General Ledger Accounting, including chart of accounts setup, account groups, and reconciliation accounts. Learn how global settings impact financial reporting.",
+      6: "Yes, SAP QM may be customized to fulfil specific enterprise necessities. Customizations consist of configuring inspection sorts, defining excellent control plans, setting up inspection lots, and tailoring quality notifications to align with particular best management tactics inside a company.",
+      7: "Yes, SAP gives complete training applications for SAP QM customers. These training applications cover various elements of SAP QM capability, including configuration, utilization, and fine practices for powerful satisfactory management within SAP ERP environments.",
+      8: "SAP QM supports regulatory compliance by means of providing equipment to implement excellent requirements, music fine-associated facts, control documentation, and generate compliance reviews. It enables organizations adhere to industry-precise guidelines and standards including ISO, FDA, and GMP.",
+      9: "Yes, SAP QM may be integrated with external pleasant control systems via numerous interfaces and connectors. This integration permits seamless information change between SAP QM and outside structures, permitting businesses to leverage present first-rate management investments while benefiting from SAP ERP integration.",
+      10: "SAP QM may be deployed on-premises or in the cloud, imparting flexibility to corporations based on their IT infrastructure and business requirements. Both deployment alternatives provide get admission to the whole range of SAP QM functionality for effective fine control."
+  };
 
-    // Define getModuleTitle inside the component
-    const getModuleTitle = (number) => {
-        const titles = {
-            1: "Introduction To SAP?",
-            2: "Enterprises Structure?",
-            3: "Financial Accounting Global Settings?",
-            4: "New General Ledger Concept?",
-            5: "General Ledger Accounting And Global Settings?",
-            6: "Can SAP QM be customized to precise enterprise requirements?",
-            7: "Is training to be had for SAP QM users?",
-            8: "How does SAP QM help regulatory compliance?",
-            9: "Can SAP QM be included with external high-quality management systems?",
-            10: "What are the deployment alternatives for SAP QM?"
-        };
-        return titles[number];
-    };
+  // Define getModuleTitle inside the component
+  const getModuleTitle = (number) => {
+      const titles = {
+          1: "Introduction To SAP?",
+          2: "Enterprises Structure?",
+          3: "Financial Accounting Global Settings?",
+          4: "New General Ledger Concept?",
+          5: "General Ledger Accounting And Global Settings?",
+          6: "Can SAP QM be customized to precise enterprise requirements?",
+          7: "Is training to be had for SAP QM users?",
+          8: "How does SAP QM help regulatory compliance?",
+          9: "Can SAP QM be included with external high-quality management systems?",
+          10: "What are the deployment alternatives for SAP QM?"
+      };
+      return titles[number];
+  };
 
-    return (
-        <div className="curriculum-container">
-            <h2 className="curriculum-title">CURRICULUM & PROJECTS</h2>
-            <div className="curriculum-content">
-                <div className="curriculum-left">
-                    {/* <h3 className="course-title">SAP FICO on S/4 HANA Certification Training</h3>
-                    <button className="download-btn">
-                        Download Curriculum <span>⬇</span>
-                    </button> */}
-                    <div className="modules">
-                        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(moduleNumber => (
-                            <div key={moduleNumber} className="module-container">
-                                <div
-                                    className="module-header"
-                                    onClick={() => toggleModule(moduleNumber)}
-                                >
-                                    Module {moduleNumber}: {getModuleTitle(moduleNumber)}
-                                    <span className="module-toggle">
-                                        {expandedModules[moduleNumber] ? '−' : '+'}
-                                    </span>
-                                </div>
-                                {expandedModules[moduleNumber] && (
-                                    <div className="module-content">
-                                        {moduleContents[moduleNumber]}
-                                    </div>
-                                )}
-                            </div>
-                        ))}
-                    </div>
+  return (
+      <div className="curriculum-container">
+          <h2 className="curriculum-title">Curriculum & Projects</h2>
+          <div className="curriculum-content">
+              <div className="curriculum-left">
+                  <div className="modules">
+                      {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(moduleNumber => (
+                          <div key={moduleNumber} className="module-container">
+                              <div
+                                  className="module-header"
+                                  onClick={() => toggleModule(moduleNumber)}
+                              >
+                                  Module {moduleNumber}: {getModuleTitle(moduleNumber)}
+                                  <span className="module-toggle">
+                                      {expandedModule === moduleNumber ? '−' : '+'}
+                                  </span>
+                              </div>
+                              {expandedModule === moduleNumber && (
+                                  <div className="module-content">
+                                      {moduleContents[moduleNumber]}
+                                  </div>
+                              )}
+                          </div>
+                      ))}
+                  </div>
 
-                    {/* Mock Interviews Section */}
-                    <div className="mock-interviews">
-                        <h3 className="mock-title">Mock Interviews</h3>
-                        <div className="mock-line"></div>
-                        <ul className="mock-list">
-                            <li>✅ Prepare & Practice for real-life job interviews by joining the Mock Interviews drive at Croma Campus and learn to perform with confidence with our expert team.</li>
-                            <li>✅ Not sure of Interview environments? Don't worry, our team will familiarize you and help you in giving your best shot even under heavy pressures.</li>
-                            <li>✅ Our Mock Interviews are conducted by trailblazing industry-experts having years of experience and they will surely help you to improve your chances of getting hired in real.</li>
-                        </ul>
-                    </div>
-                </div>
+                  {/* Mock Interviews Section */}
+                  <div className="mock-interviews">
+                      <h3 className="mock-title">Mock Interviews</h3>
+                      <div className="mock-line"></div>
+                      <ul className="mock-list">
+                          <li>✅ Prepare & Practice for real-life job interviews by joining the Mock Interviews drive at Croma Campus and learn to perform with confidence with our expert team.</li>
+                          <li>✅ Not sure of Interview environments? Don't worry, our team will familiarize you and help you in giving your best shot even under heavy pressures.</li>
+                          <li>✅ Our Mock Interviews are conducted by trailblazing industry-experts having years of experience and they will surely help you to improve your chances of getting hired in real.</li>
+                      </ul>
+                  </div>
+              </div>
 
-                {/* Sticky Right Side */}
-                <div className="curriculum-right">
-                    <div className="sticky-wrapper">
-                        {/* Form Box */}
-                        <div className="info-box">
-                            <h3 className="info-title">Request more informations</h3>
-                            <form className="info-form">
-                                <input type="text" placeholder="Enter Name" />
-                                <input type="email" placeholder="Enter E-Mail" />
-                                <div className="phone-input">
-                                    <input type="text" placeholder="Country Code" className="country-code" />
-                                    <input type="text" placeholder="Enter Phone No" className="Phonenumer_css"/>
-                                </div>
-                                <textarea placeholder="Message Details"></textarea>
-                                <button type="submit" className="submit-btn">SUBMIT</button>
-                            </form>
-                        </div>
+              {/* Sticky Right Side */}
+              <div className="curriculum-right">
+                  <div className="sticky-wrapper">
+                      {/* Form Box */}
+                      <div className="info-box">
+                          <h3 className="info-title">Request more informations</h3>
+                          <form className="info-form">
+                              <input type="text" placeholder="Enter Name" />
+                              <input type="email" placeholder="Enter E-Mail" />
+                              <div className="phone-input">
+                                  <input type="text" placeholder="Country Code" className="country-code" />
+                                  <input type="text" placeholder="Enter Phone No" className="Phonenumer_css"/>
+                              </div>
+                              <textarea placeholder="Message Details"></textarea>
+                              <button type="submit" className="submit-btn">SUBMIT</button>
+                          </form>
+                      </div>
 
-                        {/* Contact Information Box */}
-                        <div className="contact-box">
-                            <h3 className="contact-title">Contact Information</h3>
-                            <div className="contact-item">
-                                <span className="phone-icon">📞</span>
-                                <span className="contact-text">Phone No:</span>
-                                <span className="contact-number">+91 9655877577</span>
-                            </div>
-                            <div className="contact-item">
-                                <span className="phone-icon">💬</span>
-                                <span className="contact-text">WhatsApp :</span>
-                                <span className="contact-number">+91 9655877677</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    );
+                      {/* Contact Information Box */}
+                      <div className="contact-box">
+                          <h3 className="contact-title">Contact Information</h3>
+                          <div className="contact-item">
+                              <span className="phone-icon">📞</span>
+                              <span className="contact-text">Phone No:</span>
+                              <span className="contact-number">+91 9655877577</span>
+                          </div>
+                          <div className="contact-item">
+                              <span className="phone-icon">💬</span>
+                              <span className="contact-text">WhatsApp :</span>
+                              <span className="contact-number">+91 9655877677</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  );
 };
 
 
@@ -239,7 +232,7 @@ const SelfAssessment = () => {
         <div className="self-assessment-container">
             {/* Left Side: Text Content */}
             <div className="self-assessment-text">
-                <h1 className="self-title">SELF ASSESSMENT</h1>
+                <h1 className="self-title">Self Assessment</h1>
                 <p className="self-description">
                 Learn, develop, and rigorously evaluate your skills through our comprehensive Online Assessment Exams, designed to help you successfully achieve your professional certification objectives.
                 </p>
@@ -431,7 +424,7 @@ const Testimonials = () => {
     };
   
     return (
-      <div className="testimonials-wrapper">
+      <div className="sap-testimonials-wrapper">
         <div className="testimonials-container">
           <h1 className="testimonials-title">CUSTOMER RESPONSE</h1>
           
@@ -473,6 +466,7 @@ const Testimonials = () => {
   
   const CourseSchedule = () => {
     const [selectedDate, setSelectedDate] = useState(null);
+    const [timeoutId, setTimeoutId] = useState(null);
   
     const classDates = [
       { 
@@ -502,20 +496,66 @@ const Testimonials = () => {
         month: 'March, 2023',
         time: '11:00 AM (IST)',
         duration: '(Class 1hr – 1:30Hrs) / Per Session'
-      }
+      },
+      { 
+        day: '31', 
+        weekday: 'Sunday', 
+        month: 'March, 2023',
+        time: '08:00 AM (IST)',
+        duration: '(Class 1hr – 1:30Hrs) / Per Session'
+      },
+      { 
+        day: '1', 
+        weekday: 'Sunday', 
+        month: 'March, 2023',
+        time: '08:00 AM (IST)',
+        duration: '(Class 1hr – 1:30Hrs) / Per Session'
+      },
+      { 
+        day: '2', 
+        weekday: 'Sunday', 
+        month: 'March, 2023',
+        time: '08:00 AM (IST)',
+        duration: '(Class 1hr – 1:30Hrs) / Per Session'
+      },
     ];
   
     const handleDateClick = (date) => {
+      // Clear any existing timeout
+      if (timeoutId) {
+        clearTimeout(timeoutId);
+      }
+      
       setSelectedDate(date.day);
+      
+      // Set a new timeout to close the details after 4 seconds
+      const id = setTimeout(() => {
+        setSelectedDate(null);
+      }, 4000);
+      
+      setTimeoutId(id);
     };
   
     const handleContainerLeave = () => {
+      // Clear timeout when mouse leaves the container
+      if (timeoutId) {
+        clearTimeout(timeoutId);
+      }
       setSelectedDate(null);
     };
   
+    // Clean up timeout when component unmounts
+    useEffect(() => {
+      return () => {
+        if (timeoutId) {
+          clearTimeout(timeoutId);
+        }
+      };
+    }, [timeoutId]);
+  
     return (
       <div className="schedule-wrapper" onMouseLeave={handleContainerLeave}>
-        <h1 className="course-title">Instructor-led UI/UX live online classes</h1>
+        <h1 className="course-title">Upcoming Batch for SAP online Training on Intellimindz</h1>
         
         <div className={`calendar-section ${selectedDate ? 'expanded' : ''}`}>
           {classDates.map((date) => (
@@ -558,14 +598,14 @@ const Saponline = () => {
         <>
             <AboutUsHeader />
             <Corporate />
+            <CourseSchedule />
             <WhyChooseUs />
             <Onlineheader />
-            <CourseGrid />
-            <BatchRequestForm />
             <CurriculumProjects />
             <SelfAssessment />
+            <BatchRequestForm />
+            <CourseGrid />
             <Testimonials />
-            <CourseSchedule />
             <Footer />
         </>
     );
