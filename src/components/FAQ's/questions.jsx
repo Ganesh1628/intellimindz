@@ -53,7 +53,7 @@ const FAQ = () => {
             ))}
 
             {/* Personalized Course Section */}
-            {/* <div className="course-box" style={{ fontFamily: "DM Sans, sans-serif" }}>
+            <div className="FAQ-course-box" style={{ fontFamily: "DM Sans, sans-serif" }}>
                 <div className="course-content">
                     <p className="course-text">Want to learn with a personalized course curriculum?</p>
                     <div className="course-contact">
@@ -63,7 +63,7 @@ const FAQ = () => {
                 <div className="personalized_course_image">
                     <img src={talkingimage} alt="Student Holding Books" />
                 </div>
-            </div> */}
+            </div>
         </div>
     );
 };

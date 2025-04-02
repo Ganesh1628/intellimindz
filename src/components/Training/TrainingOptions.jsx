@@ -35,8 +35,8 @@ const TrainingOptions = () => {
 
     return (
         <div className="training-container" ref={ref} style={{ fontFamily: "DM Sans, sans-serif" }}>
-            <h2 className="training-title" style={{ fontFamily: "DM Sans, sans-serif" }}>
-                Training Modes
+            <h2 className="home-training-title" style={{ fontFamily: "DM Sans, sans-serif" }}>
+            <span className="color1">Training</span><span className="color3">Modes</span>
             </h2>
             <div className="training-cards">
                 {trainingOptions.map(({ title, description, icon }, index) => (

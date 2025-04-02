@@ -10,12 +10,17 @@
   
   .about-us-text {
     flex: 1;
+    color: #2c3e50;
     max-width: 50%;
   }
   
   .about-us-text h1 {
     font-size: 2rem;
-    color: #333;
+    color: #2c3e50;
+  }
+  .about-us-text h1 span {
+    font-size: 2rem;
+    color: #3498db;
   }
   
   .about-us-text p {
@@ -30,9 +35,9 @@
   }
   
   .about-us-image img {
-    max-width: 100%;
+    max-width: 120%; /* Increase width beyond its container */
     height: auto;
     border-radius: 10px;
-    
+    transform: scale(2); /* Enlarges the image */
   }
   

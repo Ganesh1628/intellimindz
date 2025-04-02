@@ -5,7 +5,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(to right, #d1caa0, #adc4ca);
+  background: linear-gradient(90deg, #3498db, #2c3e50);
+  /* background: linear-gradient(to right, #d1caa0, #adc4ca); */
   padding: 50px;
   font-family: "DM Sans", sans-serif;
   border-radius: 0px 150px 0px 0px;

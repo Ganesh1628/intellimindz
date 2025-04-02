@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import "../components/SapIM/IMwhyus.css";
 import "../components/SapIM/IMsyllabus.css";
 // import "../components/SapIM/IMsearch.css";
-import "../components/SapIM/IMprofiletraining.css";
+// import "../components/SapIM/IMprofiletraining.css";
 import "../components/SapIM/IMtestimonial.css";
 import "../components/SapIM/IMcertification.css";
 import "../components/SapIM/IMtestimonial.css";
@@ -157,40 +157,40 @@ const WhySapTraining = () => {
   
 
 
-  const SapTrainingProfile = () => {
-    return (
-      <div className="sap-training-container">
-        <div className="sap-training-header">
-          <h1>SAP IM Training in Chennai <span>Trainer Profile</span></h1>
-          <div className="header-divider"></div>
-        </div>
+  // const SapTrainingProfile = () => {
+  //   return (
+  //     <div className="sap-training-container">
+  //       <div className="sap-training-header">
+  //         <h1>SAP IM Training in Chennai <span>Trainer Profile</span></h1>
+  //         <div className="header-divider"></div>
+  //       </div>
         
-        <div className="sap-training-content">
-          <div className="training-image">
-            <img src={sapTrainingImage} alt="SAP Training" />
-          </div>
+  //       <div className="sap-training-content">
+  //         <div className="training-image">
+  //           <img src={sapTrainingImage} alt="SAP Training" />
+  //         </div>
           
-          <div className="training-details">
-            <p className="intro-text">
-              All mentors at IntelliMindz have years of important industry experience, and they have been effectively functioning as advisors in a similar space, which has made them topic specialists.
-            </p>
+  //         <div className="training-details">
+  //           <p className="intro-text">
+  //             All mentors at IntelliMindz have years of important industry experience, and they have been effectively functioning as advisors in a similar space, which has made them topic specialists.
+  //           </p>
             
-            <ul className="benefits-list">
-              <li><span className="icon">✓</span> Training from basics to advanced SAP IM concepts</li>
-              <li><span className="icon">✓</span> Real-time experienced professionals (8+ years)</li>
-              <li><span className="icon">✓</span> 500+ students successfully trained and placed</li>
-              <li><span className="icon">✓</span> Resume preparation and project guidance</li>
-              <li><span className="icon">✓</span> Project overview and real-time scenario sessions</li>
-              <li><span className="icon">✓</span> Individual attention with customized sessions</li>
-              <li><span className="icon">✓</span> Mock interviews and technology FAQs</li>
-            </ul>
+  //           <ul className="benefits-list">
+  //             <li><span className="icon">✓</span> Training from basics to advanced SAP IM concepts</li>
+  //             <li><span className="icon">✓</span> Real-time experienced professionals (8+ years)</li>
+  //             <li><span className="icon">✓</span> 500+ students successfully trained and placed</li>
+  //             <li><span className="icon">✓</span> Resume preparation and project guidance</li>
+  //             <li><span className="icon">✓</span> Project overview and real-time scenario sessions</li>
+  //             <li><span className="icon">✓</span> Individual attention with customized sessions</li>
+  //             <li><span className="icon">✓</span> Mock interviews and technology FAQs</li>
+  //           </ul>
             
-            <button className="enquiry-button">Enquire Now</button>
-          </div>
-        </div>
-      </div>
-    );
-  };
+  //           <button className="enquiry-button">Enquire Now</button>
+  //         </div>
+  //       </div>
+  //     </div>
+  //   );
+  // };
 
 
 
@@ -386,7 +386,7 @@ const Sapim = () => {
         <WhySapTraining/>
         <SapImSyllabus/>
         {/* <SearchBar/> */}
-        <SapTrainingProfile/>
+        {/* <SapTrainingProfile/> */}
         <FAQ/>
         <SapImTraining/>
         </>

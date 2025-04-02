@@ -1,15 +1,16 @@
 /* Course Section */
-.courses-section {
+.home-courses-section {
   padding: 50px 0;
   background-color: #f8f9fa;
   text-align: center;
 }
 
 /* Title Styling */
-.courses-title {
-  font-size: 2.5rem;
+.home-courses-title {
+  font-size: 2rem;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: -40px;
+  margin-bottom: 40px;
   /* color: #333; */
 }
 
@@ -18,21 +19,21 @@
 }
 
 /* Course card container */
-.course-card {
+.home-course-card {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
 
 /* Course box design */
-.course-box {
+.home-course-box {
   background: white;
   border-radius: 10px;
   overflow: hidden;
   /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
   transition: transform 0.3s ease-in-out;
   text-align: center;
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column; /* Image on top, text below */
   align-items: center;
@@ -40,7 +41,7 @@
 }
 
 /* Image inside course box */
-.course-img {
+.home-course-img {
   width: 100%;
   height: auto;
   border-radius: 10px 10px 0 0;
@@ -48,7 +49,7 @@
 }
 
 /* Course title below the image */
-.course-title {
+.home-course-title {
   font-size: 1rem;
   font-weight: bold;
   color: #333;
@@ -61,7 +62,7 @@
 }
 
 /* ✅ Hover Effect: Moves Only the Image */
-.course-box:hover .course-img {
+.home-course-box:hover .home-course-img {
   transform: translateY(-5px); /* Moves image up slightly */
 }
 

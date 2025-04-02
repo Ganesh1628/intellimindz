@@ -1,10 +1,10 @@
 // import React from "react";
-import "../components/saponlinecom/onlinecoursegrid.css"; // CSS file
+// import "../components/saponlinecom/onlinecoursegrid.css";
 import "../components/saponlinecom/onlinebatch.css";
 import "../components/saponlinecom/onlinecurriculum.css"; // New CSS for Curriculum
 import "../components/saponlinecom/SelfAssessment.css";
 import "../components/saponlinecom/onlineaboutus.css";
-import "../components/saponlinecom/onlinewhychooseus.css";
+// import "../components/saponlinecom/onlinewhychooseus.css";
 import "../components/saponlinecom/onlinecorporate.css";
 import "../components/saponlinecom/onlinetestmonials.css";
 import "../components/saponlinecom/onlinepayment.css";
@@ -28,49 +28,49 @@ import React, { useState, useEffect } from 'react'; // Add this import at the to
 
 
 // Course List Section
-const CourseGrid = () => {
-    const leftCourses = [
-      "SAP ABAP",
-      "SAP SCM",
-      "SAP Ariba",
-      "SAP BODS",
-      "SAP EHS"
-    ];
+// const CourseGrid = () => {
+//     const leftCourses = [
+//       "SAP ABAP",
+//       "SAP SCM",
+//       "SAP Ariba",
+//       "SAP BODS",
+//       "SAP EHS"
+//     ];
   
-    const rightCourses = [
-      "SAP ECM",
-      "SAP ERP",
-      "SAP HANA",
-      "SAP SD",
-      "SAP SuccessFactor"
-    ];
+//     const rightCourses = [
+//       "SAP ECM",
+//       "SAP ERP",
+//       "SAP HANA",
+//       "SAP SD",
+//       "SAP SuccessFactor"
+//     ];
   
-    return (
-      <div className="training-section">
-        <h1 className="section-title">Intellimindz SAP Courses Listed</h1>
-        <div className="courses-container">
-          <div className="course-column">
-            <ul className="locations-list">
-              {leftCourses.map((course, index) => (
-                <li key={`left-${index}`} className="location-item">
-                  {course}
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="course-column">
-            <ul className="locations-list">
-              {rightCourses.map((course, index) => (
-                <li key={`right-${index}`} className="location-item">
-                  {course}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </div>
-    );
-  };
+//     return (
+//       <div className="training-section">
+//         <h1 className="section-title">Intellimindz SAP Courses Listed</h1>
+//         <div className="courses-container">
+//           <div className="course-column">
+//             <ul className="locations-list">
+//               {leftCourses.map((course, index) => (
+//                 <li key={`left-${index}`} className="location-item">
+//                   {course}
+//                 </li>
+//               ))}
+//             </ul>
+//           </div>
+//           <div className="course-column">
+//             <ul className="locations-list">
+//               {rightCourses.map((course, index) => (
+//                 <li key={`right-${index}`} className="location-item">
+//                   {course}
+//                 </li>
+//               ))}
+//             </ul>
+//           </div>
+//         </div>
+//       </div>
+//     );
+//   };
 
 // Batch Request Section (Single const)
 const BatchRequestForm = () => {
@@ -381,22 +381,22 @@ const SelfAssessment = () => {
 };
 
 
-const AboutUsHeader = () => {
-    return (
-        <div className="about-us-container">
-            <div className="about-us-text">
-                <h1>Why Choosе IntеlliMindz for SAP QM Online Training ?</h1>
-                <p>
-                    IntelliMindz offers the best SAP FICO Training in Chennai, providing in-depth knowledge of Financial Accounting (FI) and Controlling (CO) to help professionals and students build a successful career in SAP. Our SAP FICO Course in Chennai is designed by industry experts and includes real-time projects, hands-on exercises, and case studies to ensure practical learning. We also offer SAP FICO Online Training, allowing learners to access high-quality training from anywhere at their convenience. With expert guidance, placement assistance, and a job-oriented curriculum, IntelliMindz ensures that you gain the essential skills required to excel in SAP FICO and secure top positions in leading MNCs.
-                </p>
-            </div>
-            <div className="about-us-image">
-                <img src={sapintelliaboutus} alt="About Us" />
-            </div>
-        </div>
+// const AboutUsHeader = () => {
+//     return (
+//         <div className="about-us-container">
+//             <div className="about-us-text">
+//                 <h1>Why Choosе IntеlliMindz for SAP QM Online Training ?</h1>
+//                 <p>
+//                     IntelliMindz offers the best SAP FICO Training in Chennai, providing in-depth knowledge of Financial Accounting (FI) and Controlling (CO) to help professionals and students build a successful career in SAP. Our SAP FICO Course in Chennai is designed by industry experts and includes real-time projects, hands-on exercises, and case studies to ensure practical learning. We also offer SAP FICO Online Training, allowing learners to access high-quality training from anywhere at their convenience. With expert guidance, placement assistance, and a job-oriented curriculum, IntelliMindz ensures that you gain the essential skills required to excel in SAP FICO and secure top positions in leading MNCs.
+//                 </p>
+//             </div>
+//             <div className="about-us-image">
+//                 <img src={sapintelliaboutus} alt="About Us" />
+//             </div>
+//         </div>
 
-    );
-};
+//     );
+// };
 
 const Corporate = () => {
     return (
@@ -723,7 +723,7 @@ const Testimonials = () => {
 const Saponline = () => {
     return (
         <>
-            <AboutUsHeader />
+            {/* <AboutUsHeader /> */}
             <Corporate />
             <CourseSchedule />
             <WhyChooseUs />
@@ -731,7 +731,7 @@ const Saponline = () => {
             <CurriculumProjects />
             <SelfAssessment />
             <BatchRequestForm />
-            <CourseGrid />
+            {/* <CourseGrid /> */}
             <Testimonials />
             <Footer />
         </>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./AskForDemo.css";
+import "./askfordemo.css";
 
 const AskForDemo = () => {
   return (
@@ -7,7 +7,7 @@ const AskForDemo = () => {
       <div className="banner">
         <span className="icon">▶</span>
         <span className="text">Ask For</span>
-        <span className="demo">DEMO</span>
+        <span className="demo">Demo</span>
       </div>
     </div>
   );

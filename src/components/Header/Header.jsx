@@ -11,7 +11,8 @@ const navLinks = [
   { display: "About Us", url: "/about_us" }, {},
   { display: "Courses", url: "#", hasDropdown: true }, {},
   { display: "Blog", url: "#" }, {},
-  { display: "Online", url: "#", hasDropdown: true }, {},
+  { display: "contact us", url: "#" }, {},
+  // { display: "Online", url: "#", hasDropdown: true }, {},
   { display: "SAP", url: "#", hasDropdown: true }, {},
 ];
 
@@ -51,7 +52,7 @@ const courseOptions = [
 ];
 
 const sapOptions = [
-  { display: "SAP", url: "/sap_courses" },
+  { display: "SAP", url: "/sap_fico_training_in_chennai" },
   { display: "SAP Online", url: "/sap_online" },
   { display: "SAP IM Training", url: "/Sap_im_training"},
 ];

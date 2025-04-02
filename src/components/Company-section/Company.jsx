@@ -33,27 +33,27 @@ const courses = [
 // Web Designing
 const Company = () => {
   return (
-    // <section className="courses-section">
+    <section className="home-courses-section">
       <Container>
         <Row>
-          <Col className="text-center" >
-            <h2 className="courses-title" style={{fontFamily: "DM Sans, sans-serif"}}>
+          <Col className="home-text-center" >
+            <h2 className="home-courses-title" style={{fontFamily: "DM Sans, sans-serif"}}>
               Our Courses
             </h2>
           </Col>
         </Row>
         <Row>
           {courses.map((course, index) => (
-            <Col lg="3" md="4" sm="6" xs="12" key={index} className="course-card">
-              <div className="course-box">
-                <img src={course.img} alt={course.title} className="course-img" />
-                <div className="course-title">{course.title}</div>
+            <Col lg="3" md="4" sm="6" xs="12" key={index} className="home-course-card">
+              <div className="home-course-box">
+                <img src={course.img} alt={course.title} className="home-course-img" />
+                <div className="home-course-title">{course.title}</div>
               </div>
             </Col>
           ))}
         </Row>
       </Container>
-    // </section>
+    </section>
   );
 };
 
