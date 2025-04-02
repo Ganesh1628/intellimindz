@@ -219,7 +219,7 @@ const Java = () => {
         </div>
 
             {/* New Personalized Course Section */}
-            <div className="course-box">
+            <div className="java-course-box">
                 <div className="course-content">
                     <p className="course-text">Want to learn with a personalized course curriculum?</p>
                     <div className="course-contact">

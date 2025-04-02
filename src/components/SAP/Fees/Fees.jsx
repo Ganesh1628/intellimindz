@@ -33,7 +33,7 @@ const FeesStructure = () => {
         <div className="batch-list">
           {batchSchedule.map((batch, index) => (
             <div key={index} className="batch-card">
-              <div className="batch-date">{batch.date}</div>
+              <div className="sap-batch-date">{batch.date}</div>
               <div className="batch-info">
                 <p>{batch.days}</p>
                 <p className="batch-type">{batch.type}</p>

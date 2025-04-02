@@ -8,6 +8,12 @@
   margin: auto; /* Center the box */
 }
 
+.sap-batch-date{
+  font-weight: bold;
+  width: 20%;
+  margin-bottom: 5px;
+}
+
 /* Header */
 .fees-header {
   text-align: center;

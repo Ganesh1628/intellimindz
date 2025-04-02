@@ -2,8 +2,10 @@ import Header from "../components/Header/Header";
 import React, {useState} from 'react';
 import "../components/SapIM/IMwhyus.css";
 import "../components/SapIM/IMsyllabus.css";
-import "../components/SapIM/IMsearch.css";
+// import "../components/SapIM/IMsearch.css";
 import "../components/SapIM/IMprofiletraining.css";
+import "../components/SapIM/IMtestimonial.css";
+import "../components/SapIM/IMcertification.css";
 import "../components/SapIM/IMtestimonial.css";
 import sapTrainingImage from '../assests/images/saptraining.png'; // Adjust path as needed
 import { FiChevronDown, FiChevronUp, FiMessageSquare } from 'react-icons/fi';
@@ -192,69 +194,186 @@ const WhySapTraining = () => {
 
 
 
+  const SapImTraining = () => {
+    const [hoveredFeature, setHoveredFeature] = useState(null);
 
-  const Testimonials = () => {
+    const features = [
+        {
+            title: 'Working on LIVE Project',
+            description: 'You will get an opportunity to work on real-time projects.',
+        },
+        {
+            title: 'Flexible Timing',
+            description: 'At IntellMindz you will get Ultimate Flexibility. You can pick the schedule whatever suits you the best.',
+        },
+        {
+            title: 'Affordable Fees',
+            description: 'In our training center fees are not only affordable, but you can pay the fees in installment.',
+        },
+        {
+            title: 'Job Opportunities after completing this course',
+            description: 'IT Sectors in India have now witnessed a steady adoption of financial which has automatically raised the demand for skilled and certified SAP IM professionals. So after completing our course you will be having a number of career opportunities.',
+        },
+    ];
+
     return (
-      <div className="testimonials-container">
-        <div className="testimonials-header">
-          <h1>What People Say</h1>
+        <div className="sap-certi-training-container">
+            <div className="training-overlay">
+                <div className="training-content">
+                    <h1 className="training-title">SAP IM Certification Training in Chennai</h1>
+
+                    <p className="training-description">
+                        SAP IM Course Certification is one of the professional credentials which will demonstrate that the candidate has gained in-depth knowledge in SAP IM by using all its applications and platforms. With the real-time experience in projects provided by IntellMindz SAP IM Course, Our certification states that the student has acquired all the necessary skills to work as an SAP IM. Having our SAP IM Course certificate along with your resume will help you in prioritizing your resume at the of the interview, and also it will open the door to a wide range of opportunities.
+                    </p>
+
+                    <p className="training-highlight">
+                        <strong>SAP IM Training in Chennai</strong> at IntellMindz hones the necessary basics and skill sets that are required for an SAP IM professional under the support and guidance of our real-time experienced professionals. <strong>SAP IM Training in Chennai</strong> at IntellMindz is provided by experienced professionals who are having over 8+ years of experience in the SAP IM Platform. Our trainers will up-skill your knowledge with the relevant real-time projects in the industry.
+                    </p>
+
+                    <p className="training-description">
+                        Apart from IntellMindz SAP IM Course Completion Certification, Our SAP IM trainers will guide and support you to learn further by enrolling in advanced courses in SAP IM to clear Global SAP IM Certification exams.
+                    </p>
+
+                    <div className="features-container">
+                        {features.map((feature, index) => (
+                            <div
+                                className="feature-item"
+                                key={index}
+                                onMouseEnter={() => setHoveredFeature(index)}
+                                onMouseLeave={() => setHoveredFeature(null)}
+                            >
+                                <h3>{feature.title} <span className="arrow">→</span></h3>
+                                {hoveredFeature === index && <p>{feature.description}</p>}
+                            </div>
+                        ))}
+                    </div>
+
+                    <button className="read-more-btn">READ MORE</button>
+                </div>
+            </div>
         </div>
-        
-        <div className="testimonial-card">
-          <div className="profile-image-container">
-            <img src={sapTrainingImage} alt="Molly Robinson" className="profile-image" />
-          </div>
-          
-          <div className="testimonial-content">
-            <p className="testimonial-intro">
-              One of the major projects we worked on together was to develop a series of competitor comparison webpages.
-            </p>
-            <blockquote className="testimonial-text">
-              Oleks was always ready with creative UI ideas and solutions, while implementing designs to perfection. The pages increased both paid and organic traffic and were optimized to convert visitors to leads. He keeps an open mind and responds well to feedback while sharing his own ideas.
-            </blockquote>
-            
-            <div className="testimonial-author">
-              <h3>Molly Robinson</h3>
-              <p className="author-title">Director of Marketing & Communications</p>
+    );
+};
+
+
+
+
+  // const FAQ = () => {
+  //   return (
+  //     <div className="faq-container">
+  //       {/* Left Side - Image */}
+  //       <div className="faq-image">
+  //         <img src={sapTrainingImage} alt="FAQ Illustration" />
+  //       </div>
+  
+  //       {/* Right Side - FAQ Content */}
+  //       <div className="faq-content">
+  //         <h2 className="faq-title">Frequently asked questions</h2>
+  //         <p className="faq-description">
+  //           Questions you might ask about our products and services.
+  //         </p>
+  
+  //         <div className="faq-list">
+  //           <div className="faq-item">
+  //             <details>
+  //               <summary>How long can I enjoy free trial service?</summary>
+  //               <p>Lorem ipsum dolor sit amet consectetur. Pharetra purus et dictum ultricies aliquet leo in accumsan mauris. Fringilla enim aliquet ultrices qui amet nibh at. Non amet leo elementum id neque velit eleifend augue convallis.</p>
+  //             </details>
+  //           </div>
+  
+  //           <div className="faq-item">
+  //             <details>
+  //               <summary>Do I need to add any Credit Card to get free trial service?</summary>
+  //               <p>
+  //                 <strong>What is the package cancellation process?</strong>
+  //                 <ul>
+  //                   <li>Is there any hidden charge beside the main price?</li>
+  //                   <li>Is there any extra fee to pay for outside US citizen?</li>
+  //                 </ul>
+  //               </p>
+  //             </details>
+  //           </div>
+  //         </div>
+  
+  //         {/* Footer Message */}
+  //         <div className="faq-footer">
+  //           <h4>Still have questions?</h4>
+  //           <p>Can't find the answer you're looking for? Please contact with our customer service.</p>
+  //         </div>
+  //       </div>
+  //     </div>
+  //   );
+  // };
+
+
+  const FAQ = () => {
+    return (
+      <div className="faq-container">
+        {/* <div className="faq-content"> */}
+          {/* Right Side - FAQ */}
+          <div className="faq-text">
+            <div className="faq-header">
+              <h1>Frequently Asked Questions</h1>
+              <p className="faq-subtitle">
+                We're here to help with all your questions and answers in one place.
+              </p>
+            </div>
+  
+            <div className="faq-questions">
+              <div className="question">
+                <h3>Is there a free trial available?</h3>
+                <p>
+                  Yes, you can try us for free for 30 days. If you want, we'll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.
+                </p>
+              </div>
+  
+              <div className="question">
+                <h3>Can I change my plan later?</h3>
+                <p>Yes, you can upgrade or downgrade your plan at any time from your account settings.</p>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    );
-  };
-
-
-
-  const SearchBar = () => {
-    const [searchQuery, setSearchQuery] = useState('');
-  
-    const handleSearch = (e) => {
-      e.preventDefault();
-      // Add your search logic here
-      console.log('Searching for:', searchQuery);
-    };
-  
-    return (
-      <div className="search-container">
-        <form onSubmit={handleSearch} className="search-form">
-          <div className="search-input-wrapper">
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Enter keyword to search for courses, certifications or training paths"
-              className="search-input"
-            />
-            <button type="submit" className="search-button">
-              <svg className="search-icon" viewBox="0 0 24 24">
-                <path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 0 0 1.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 0 0-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 0 0 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
-              </svg>
-            </button>
+          
+          {/* Left Side - Image */}
+          <div className="faq-image">
+            <img src={sapTrainingImage} alt="Study Material" />
           </div>
-        </form>
-      </div>
+        </div>
+      // </div>
     );
   };
+
+
+  // const SearchBar = () => {
+  //   const [searchQuery, setSearchQuery] = useState('');
+  
+  //   const handleSearch = (e) => {
+  //     e.preventDefault();
+  //     // Add your search logic here
+  //     console.log('Searching for:', searchQuery);
+  //   };
+  
+  //   return (
+  //     <div className="search-container">
+  //       <form onSubmit={handleSearch} className="search-form">
+  //         <div className="search-input-wrapper">
+  //           <input
+  //             type="text"
+  //             value={searchQuery}
+  //             onChange={(e) => setSearchQuery(e.target.value)}
+  //             placeholder="Enter keyword to search for courses, certifications or training paths"
+  //             className="search-input"
+  //           />
+  //           <button type="submit" className="search-button">
+  //             <svg className="search-icon" viewBox="0 0 24 24">
+  //               <path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 0 0 1.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 0 0-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 0 0 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+  //             </svg>
+  //           </button>
+  //         </div>
+  //       </form>
+  //     </div>
+  //   );
+  // };
 
 
 
@@ -266,9 +385,10 @@ const Sapim = () => {
         <Onlineheader/>
         <WhySapTraining/>
         <SapImSyllabus/>
-        <SearchBar/>
+        {/* <SearchBar/> */}
         <SapTrainingProfile/>
-        <Testimonials/>
+        <FAQ/>
+        <SapImTraining/>
         </>
     )
 }

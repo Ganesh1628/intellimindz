@@ -35,7 +35,7 @@ const ChooseUs = () => {
   return (
     <section className="choose-us" style={{ backgroundColor: "#f0f0f0", padding: "50px 0", fontFamily: "DM Sans, sans-serif" }}>
       <Container>
-        <h2 className="text-center mb-4" style={{ fontFamily: "DM Sans, sans-serif" }}>Why Choose The Best Software Training Institute?</h2>
+        <h2 className="text-center mb-4" style={{ fontFamily: "DM Sans, sans-serif", fontSize:"2rem", fontWeight:"bold" }}>Why Choose The Best Software Training Institute?</h2>
         <Row>
           <Col lg="8" md="12">
             <Row>

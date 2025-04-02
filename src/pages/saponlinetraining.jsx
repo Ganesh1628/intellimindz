@@ -30,19 +30,19 @@ import React, { useState, useEffect } from 'react'; // Add this import at the to
 // Course List Section
 const CourseGrid = () => {
     const leftCourses = [
-      "SAP Simple Finance",
-      "SAP S/4HANA",
-      "SAP Materials Management",
-      "SAP HANA",
-      "SAP ABAP"
+      "SAP ABAP",
+      "SAP SCM",
+      "SAP Ariba",
+      "SAP BODS",
+      "SAP EHS"
     ];
   
     const rightCourses = [
-      "SAP Financial Accounting",
-      "SAP Sales and Distribution (SAP SD)",
-      "SAP Certified Application Associate",
-      "SAP Production Planning (SAP PP)",
-      "SAP FICO"
+      "SAP ECM",
+      "SAP ERP",
+      "SAP HANA",
+      "SAP SD",
+      "SAP SuccessFactor"
     ];
   
     return (
@@ -120,31 +120,162 @@ const CurriculumProjects = () => {
 
   // Module content data
   const moduleContents = {
-      1: "This module covers the basics of SAP, including its architecture, components, and how it's used in enterprise environments. You'll learn about SAP's history, the S/4HANA platform, and the role of FICO in SAP ecosystems.",
-      2: "Explore how enterprises are structured in SAP, including client, company code, and business area concepts. Learn how to configure organizational units and their relationships in financial accounting.",
-      3: "Dive into the global settings for Financial Accounting, including fiscal year variants, posting periods, and document types. Understand how these settings affect financial transactions across the organization.",
-      4: "Learn about the New GL functionality in S/4HANA, including parallel accounting approaches, segment reporting, and how to migrate from classic GL to New GL.",
-      5: "Master the configuration of General Ledger Accounting, including chart of accounts setup, account groups, and reconciliation accounts. Learn how global settings impact financial reporting.",
-      6: "Yes, SAP QM may be customized to fulfil specific enterprise necessities. Customizations consist of configuring inspection sorts, defining excellent control plans, setting up inspection lots, and tailoring quality notifications to align with particular best management tactics inside a company.",
-      7: "Yes, SAP gives complete training applications for SAP QM customers. These training applications cover various elements of SAP QM capability, including configuration, utilization, and fine practices for powerful satisfactory management within SAP ERP environments.",
-      8: "SAP QM supports regulatory compliance by means of providing equipment to implement excellent requirements, music fine-associated facts, control documentation, and generate compliance reviews. It enables organizations adhere to industry-precise guidelines and standards including ISO, FDA, and GMP.",
-      9: "Yes, SAP QM may be integrated with external pleasant control systems via numerous interfaces and connectors. This integration permits seamless information change between SAP QM and outside structures, permitting businesses to leverage present first-rate management investments while benefiting from SAP ERP integration.",
-      10: "SAP QM may be deployed on-premises or in the cloud, imparting flexibility to corporations based on their IT infrastructure and business requirements. Both deployment alternatives provide get admission to the whole range of SAP QM functionality for effective fine control."
-  };
+    1: (
+        <>
+            <strong>Learning Objective:</strong>
+            <p>Understand the basics of SAP FICO, its components, and integration with other SAP modules in financial operations.</p>
+            <strong>Topics:</strong>
+            <ul>
+                <li>Overview of SAP FICO and its importance</li>
+                <li>Key financial and controlling components</li>
+                <li>Role of SAP FICO in enterprise resource planning</li>
+                <li>Integration with SAP MM and SD modules</li>
+                <li>Navigation in SAP FICO</li>
+            </ul>
+        </>
+    ),
+    2: (
+        <>
+            <strong>Learning Objective:</strong>
+            <p>Learn how to configure and manage general ledger accounts, financial statements, and journal entries in SAP FICO.</p>
+            <strong>Topics:</strong>
+            <ul>
+                <li>General ledger master data creation</li>
+                <li>Chart of accounts and account groups</li>
+                <li>Posting and document control in GL</li>
+                <li>Financial statement versions and reporting</li>
+                <li>Automatic account determination</li>
+            </ul>
+        </>
+    ),
+    3: (
+        <>
+            <strong>Learning Objective:</strong>
+            <p>Develop an understanding of vendor management, invoice processing, and payment configuration in accounts payable.</p>
+            <strong>Topics:</strong>
+            <ul>
+                <li>Vendor master data setup and configuration</li>
+                <li>Invoice posting, blocking, and release process</li>
+                <li>Payment program and check printing</li>
+                <li>Credit memo and debit memo processing</li>
+                <li>Reconciliation and reporting in accounts payable</li>
+            </ul>
+        </>
+    ),
+    4: (
+        <>
+            <strong>Learning Objective:</strong>
+            <p>Understand the setup, processing, and reconciliation of customer accounts in SAP FICO.</p>
+            <strong>Topics:</strong>
+            <ul>
+                <li>Customer master data creation and maintenance</li>
+                <li>Incoming payments and cash application</li>
+                <li>Dunning process and customer statements</li>
+                <li>Integration with SD for billing and invoicing</li>
+                <li>Reporting and reconciliation of receivables</li>
+            </ul>
+        </>
+    ),
+    5: (
+        <>
+            <strong>Learning Objective:</strong>
+            <p>Learn to manage fixed assets, depreciation calculation, and asset reporting using SAP FICO.</p>
+            <strong>Topics:</strong>
+            <ul>
+                <li>Asset master data creation and management</li>
+                <li>Depreciation configuration and posting</li>
+                <li>Asset transactions like acquisition and retirement</li>
+                <li>Asset revaluation and transfer process</li>
+                <li>Asset reporting and reconciliation</li>
+            </ul>
+        </>
+    ),
+    6: (
+        <>
+            <strong>Learning Objective:</strong>
+            <p>Understand banking transactions, cash positioning, and liquidity management in SAP FICO.</p>
+            <strong>Topics:</strong>
+            <ul>
+                <li>Bank master data configuration</li>
+                <li>Electronic bank statement processing</li>
+                <li>Cash journal and check management</li>
+                <li>Payment reconciliation and clearing process</li>
+                <li>Liquidity planning and cash flow analysis</li>
+            </ul>
+        </>
+    ),
+    7: (
+        <>
+            <strong>Learning Objective:</strong>
+            <p>Gain knowledge of cost object tracking, cost center planning, and internal order settlements.</p>
+            <strong>Topics:</strong>
+            <ul>
+                <li>Cost center hierarchy and master data setup</li>
+                <li>Cost allocations and activity-based costing</li>
+                <li>Internal order creation and tracking</li>
+                <li>Settlements of internal orders and overhead costs</li>
+                <li>Cost center planning and variance analysis</li>
+            </ul>
+        </>
+    ),
+    8: (
+        <>
+            <strong>Learning Objective:</strong>
+            <p>Understand profitability analysis, reporting, and the role of profit centers in financial management.</p>
+            <strong>Topics:</strong>
+            <ul>
+                <li>Profit center and segment accounting setup</li>
+                <li>Characteristics and value fields in COPA</li>
+                <li>Cost-based and account-based COPA analysis</li>
+                <li>Real-time profitability reporting</li>
+                <li>Integration with SD and MM for profitability tracking</li>
+            </ul>
+        </>
+    ),
+    9: (
+        <>
+            <strong>Learning Objective:</strong>
+            <p>Learn how SAP FICO integrates with MM, SD, and HR for seamless financial and operational transactions.</p>
+            <strong>Topics:</strong>
+            <ul>
+                <li>Integration with MM for procurement and inventory valuation</li>
+                <li>Integration with SD for billing and revenue recognition</li>
+                <li>Integration with HR for payroll postings</li>
+                <li>Automatic postings between FI and CO modules</li>
+                <li>Real-time reporting and data flow between modules</li>
+            </ul>
+        </>
+    ),
+    10: (
+        <>
+            <strong>Learning Objective:</strong>
+            <p>Master SAP FICO reporting, financial closing procedures, and period-end activities.</p>
+            <strong>Topics:</strong>
+            <ul>
+                <li>Financial statement generation and reporting tools</li>
+                <li>Month-end and year-end closing processes</li>
+                <li>Reconciliation of financial and controlling documents</li>
+                <li>Custom financial reporting and dashboards</li>
+                <li>SAP FICO best practices for financial audits</li>
+            </ul>
+        </>
+    ),
+};
+
 
   // Define getModuleTitle inside the component
   const getModuleTitle = (number) => {
       const titles = {
           1: "Introduction To SAP?",
-          2: "Enterprises Structure?",
-          3: "Financial Accounting Global Settings?",
-          4: "New General Ledger Concept?",
-          5: "General Ledger Accounting And Global Settings?",
-          6: "Can SAP QM be customized to precise enterprise requirements?",
-          7: "Is training to be had for SAP QM users?",
-          8: "How does SAP QM help regulatory compliance?",
-          9: "Can SAP QM be included with external high-quality management systems?",
-          10: "What are the deployment alternatives for SAP QM?"
+          2: "General Ledger Accounting",
+          3: "Accounts Payable Management",
+          4: "Accounts Receivable Management?",
+          5: "Asset Accounting",
+          6: "Bank Accounting and Cash Management",
+          7: "Cost Center and Internal Order Accounting?",
+          8: "Profit Center and COPA (Profitability Analysis)?",
+          9: "Integration of SAP FICO with Other Modules",
+          10: "SAP FICO Reporting and Financial Close Process?"
       };
       return titles[number];
   };
@@ -276,8 +407,7 @@ const Corporate = () => {
             <div className="additional-slide-text">
                 <h1>Our Commitment</h1>
                 <p>
-                    At IntelliMindz, we offer comprehensive and interactive SAP QM training designed to align with your organization’s goals and industry standards. Start with a live demo consultation to explore our teaching methodology, gain insights into our core values, and understand how we approach professional development. Our expert trainers provide customized learning solutions, available in both virtual and in-person formats, ensuring flexibility and seamless integration with your workforce’s schedule. Through real-world applications, we equip learners with practical skills that can be immediately implemented in professional environments. With cutting-edge technology, we enable efficient progress tracking, ensuring that every participant benefits from structured learning and measurable outcomes. Additionally, we offer 24/7 customer support, ensuring that queries are addressed promptly while maintaining a smooth training experience.
-                </p>
+                At IntelliMindz, our SAP FICO Training in Chennai represents our steadfast commitment to delivering top-tier financial management education that bridges academic theory with real-world application. Our meticulously designed curriculum incorporates practical exercises, case studies, and industry insights, enabling students to master essential financial and controlling functionalities in the SAP system. Our experienced instructors, with deep industry expertise, are dedicated to guiding each participant through their learning journey and providing personalized support. We foster a learning environment that encourages innovation, professional growth, and collaborative problem-solving, preparing individuals to excel in their careers. At IntelliMindz, our commitment is to empower every student with advanced knowledge and practical skills to navigate the evolving world of SAP FICO, ensuring lasting success and excellence in the dynamic finance landscape globally.                </p>
             </div>
         </div>
     );
@@ -290,10 +420,7 @@ const WhyChooseUs = () => {
         <div className="why-choose-us">
             <h2 className="why-header">Why Choose Us</h2>
             <p className="subheader">
-                We help you quench your thirst for knowledge by providing you with our
-                specially tailored certifications. Our highly qualified instructors,
-                dedicated staff, and 24/7 available helpline are the main reasons why
-                we're the go-to training provider for you.
+            Choose SAP FICO Training in Chennai at IntelliMindz for expert-led instruction, hands-on practicals, real-time projects, and industry-relevant curriculum. Gain in-depth financial and controlling expertise, personalized mentorship, flexible learning modes, and career-focused guidance to excel in the competitive SAP job market.
             </p>
 
             <div className="boxes">
@@ -368,41 +495,41 @@ const Testimonials = () => {
         id: 1,
         image: menFace1,
         stars: '★★★★',
-        name: 'Rahmanullah R.',
+        name: '- Rahul S.',
         title: 'a week ago',
-        text: 'That considered, mentor guidance would perfect execution. This known requirement doesnt detract from what was an expertly delivered and highly valuable certification.'
+        text: 'I joined IntelliMindz for SAP FICO training, and it was an amazing learning experience. The trainer explained every concept in detail with real-time examples, which helped me understand better. The hands-on practical sessions were very useful. Highly recommend it!'
       },
       {
         id: 2,
         image: menFace2,
         stars: '★★★★★',
-        name: 'Marcio Rodrigues D.',
+        name: '- Priya M.',
         title: 'a year ago',
-        text: 'That understood, real-world examples would strengthen application. This doesnt diminish what proved to be a remarkably thorough and immediately useful learning experience.'
+        text: 'IntelliMindz provides one of the best SAP FICO training programs in Chennai. The trainers are highly experienced, and the curriculum is well-structured. The real-time projects and case studies helped me gain confidence. I got placed in a reputed MNC after completing the course. Thank you, IntelliMindz!'
       },
       {
         id: 3,
         image: menFace3,
         stars: '★★★',
-        name: 'Raj R.',
+        name: '- Vignesh R',
         title: '4 months ago',
-        text: 'This is a great quick introduction to FI/CO for someone who does not know anything. Dhruval is a great presenter and has put a lot of thought and effort into how to make this as easy as possible'
+        text: 'I was searching for an institute that offers practical training, and IntelliMindz exceeded my expectations. The hands-on approach, real-time project experience, and interview preparation sessions made a big difference in my learning. I now feel confident in handling SAP FICO modules at work!'
       },
       {
         id: 4,
         image: menFace4,
         stars: '★★★★',
-        name: 'Divani Nurul A.',
+        name: '- Divya K.',
         title: '2 months ago',
-        text: 'That said, I would still need to go through other in-depth training to ground the concepts in a business framework. I knew going in that this would be the case, so no points off of an excellent training.'
+        text: 'The trainers at IntelliMindz are very knowledgeable and supportive. They made complex SAP FICO concepts easy to understand with simple explanations. The flexible class timings and doubt-clearing sessions were really helpful. I would recommend this institute to anyone looking for quality SAP training.'
       },
       {
         id: 5,
         image: menFace5,
         stars: '★★★★★',
-        name: 'Naved S.',
+        name: '- Arun T',
         title: 'a month ago',
-        text: 'That mentioned, I should supplement with case studies to better connect these techniques to daily operations. This expectation doesnt diminish what proved to be an exceptionally well-designed program.'
+        text: 'After completing my SAP FICO training at IntelliMindz, I was able to crack interviews confidently. The placement assistance provided by the institute was excellent. The course covered all key concepts, and the practical approach helped me secure a job in a top company. Thank you, IntelliMindz team!'
       }
     ];
   
@@ -555,7 +682,7 @@ const Testimonials = () => {
   
     return (
       <div className="schedule-wrapper" onMouseLeave={handleContainerLeave}>
-        <h1 className="course-title">Upcoming Batch for SAP online Training on Intellimindz</h1>
+        <h1 className="course-title">Upcoming Batch for SAP FICO Training in Chennai on Intellimindz</h1>
         
         <div className={`calendar-section ${selectedDate ? 'expanded' : ''}`}>
           {classDates.map((date) => (

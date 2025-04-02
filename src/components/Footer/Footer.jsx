@@ -87,11 +87,11 @@ const Footer = () => {
             <ListGroup className="link__list">
               <ListGroupItem className="border-0 ps-0 link__item" style={{ color: "#000000" }}>📞 +91 96558 77677</ListGroupItem>
               <ListGroupItem className="border-0 ps-0 link__item" style={{ color: "#000000" }}>📞 +91 96558 77577</ListGroupItem>
-              <ListGroupItem className="border-0 ps-0 link__item">
-                <FontAwesomeIcon icon={faEnvelope} style={{ color: "black", marginRight: "10px" }} />
+              <ListGroupItem className="border-0 ps-0 link__item" style={{ color: "#000000" }}>
+                <FontAwesomeIcon icon={faEnvelope} style={{ color: "black", marginRight: "10px", fontFamily: "DM Sans, sans-serif"  }} />
                 info@intellimindz.com
               </ListGroupItem>
-              <p className="mb-0" style={{ color: "black", fontFamily: "DM Sans, sans-serif" }}>
+              <p className="mb-0" style={{ color: "#000000", fontFamily: "DM Sans, sans-serif" }}>
               Follow us on social media
             </p>
             </ListGroup>
