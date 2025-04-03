@@ -1,19 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 .courses-section {
   width: 90%;
   max-width: 1200px;
   margin: 30px auto;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
-.section-title {
+.online-section-title {
   color: #1d1d1d;
   font-size: 2rem;
   font-weight: 600;
   padding: 12px 20px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
   margin-left: 460px;
   /* border-radius: 6px; */
   /* margin-bottom: 25px; */
-  margin-top: 70px;
+  margin-top: 10px;
 }
 /* .reviews-label{} */
 .courses-grid {
@@ -54,22 +58,23 @@
 }
 
 .provider-logo {
-  width: 24px;
-  height: 24px;
+  width: 40px;
+  height: 40px;
   object-fit: contain;
 }
 
 .course-provider {
-  font-weight: 600;
+  font-weight: 800;
   color: #333333;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .course-name {
   font-size: 16px;
-  color: #333333;
+  color: #131313;
   font-weight: 600;
-  margin: 10px 0;
+  margin: 0px 70px;
+  text-align: center;
   line-height: 1.4;
   flex-grow: 1;
 }
@@ -84,7 +89,8 @@
 .star-icon {
   color: #ff9800;
   font-size: 16px;
-  margin-right: 5px;
+  margin-right: 0px;
+  margin-bottom: 5px;
 }
 
 .course-rating {
@@ -104,17 +110,18 @@
   font-size: 14px;
   color: #666666;
   line-height: 1.5;
+  margin-bottom: 10px;
 }
 
 .enrolled-count {
   font-weight: 600;
   color: #333333;
   font-size: 16px;
-  margin-left: 300px;
+  margin-left: 220px;
 }
 
 .enrolled-label{
-  margin-left: 220px;
+  margin-left: 150px;
 }
 
 /* Responsive adjustments */
@@ -130,3 +137,32 @@
   }
   
 }
+
+
+/* Add these new styles */
+.reviews-enrolled-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.reviews-section, .enrolled-section {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+.reviews-label, .enrolled-label {
+  font-size: 14px;
+  color: #7a7c62;
+  margin-bottom: 5px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+
+
+/* Remove .enrolled-label{margin-left: 220px;} */

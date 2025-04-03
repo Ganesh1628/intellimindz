@@ -10,8 +10,10 @@ import "../components/saponlinecom/onlinetestmonials.css";
 import "../components/saponlinecom/onlinepayment.css";
 import Footer from "../components/Footer/Footer";
 import "../components/SAP/Header/Introsap.css";
+import AskForDemo from "../components/SAP/Askfordemo/askfordemo";
 import sapTrainingImage from '../assests/images/saptraining.png'; // Adjust path as needed
 import "../components/saponlinecom/onlinecoursegrid.css";
+import "../components/saponlinecom/onlinetrainers.css";
 import testImage from "../assests/images/onlinetest.png"; // Import Image
 import sapintelliaboutus from "../assests/images/sapintelliaboutus.png";
 import sapintellicommitment from "../assests/images/sapintellicommitment.png";
@@ -21,7 +23,12 @@ import runningIcon from "../assests/images/runningicon.png";
 import staffIcon from "../assests/images/stafficon.png";
 import jobopening from "../assests/images/jobopening.png";
 import liveclass from "../assests/images/liveclass.png";
-import apache_logo from "../assests/images/apache_logo.png";
+import sapcourse1 from "../assests/images/sapcourse1.png";
+import sapcourse2 from "../assests/images/sapcourse2.png";
+import sapcourse3 from "../assests/images/sapcourse3.png";
+import sapcourse4 from "../assests/images/sapcourse4.png";
+import sapcourse5 from "../assests/images/sapcourse5.png";
+import sapcourse6 from "../assests/images/sapcourse6.png";
 import { FaStar } from 'react-icons/fa'; // Make sure this import is correct
 import onlinetest from "../assests/images/onlinetest.png";
 import menFace1 from '../assests/images/men_face.png';
@@ -35,50 +42,113 @@ import graduationIcon from "../assests/images/graduation.png";
 import React, { useState, useEffect, useRef  } from 'react'; // Add this import at the top
 import { motion } from "framer-motion";
 
-// Course List Section
-// const CourseGrid = () => {
-//     const leftCourses = [
-//       "SAP ABAP",
-//       "SAP SCM",
-//       "SAP Ariba",
-//       "SAP BODS",
-//       "SAP EHS"
-//     ];
-  
-//     const rightCourses = [
-//       "SAP ECM",
-//       "SAP ERP",
-//       "SAP HANA",
-//       "SAP SD",
-//       "SAP SuccessFactor"
-//     ];
-  
-//     return (
-//       <div className="training-section">
-//         <h1 className="section-title">Intellimindz SAP Courses Listed</h1>
-//         <div className="courses-container">
-//           <div className="course-column">
-//             <ul className="locations-list">
-//               {leftCourses.map((course, index) => (
-//                 <li key={`left-${index}`} className="location-item">
-//                   {course}
-//                 </li>
-//               ))}
-//             </ul>
+// const trainers = [
+//   {
+//     id: 1,
+//     name: "John Doe",
+//     expertise: "AWS & DevOps",
+//     experience: "10+ years",
+//     details: "Specialized in AWS cloud computing, Kubernetes, and CI/CD pipelines."
+//   },
+//   {
+//     id: 2,
+//     name: "Jane Smith",
+//     expertise: "Python & Java",
+//     experience: "8+ years",
+//     details: "Expert in machine learning, data analytics, and AI solutions."
+//   },
+//   {
+//     id: 3,
+//     name: "Michael",
+//     expertise: "Database",
+//     experience: "7+ years",
+//     details: "Experienced in MERN stack, FastAPI, and cloud integrations."
+//   }
+// ];
+
+// const Trainers = () => {
+//   return (
+//     <div className="trainers-container">
+//       <h2 className="trainers-title">Meet Our Trainers</h2>
+//       <div className="trainers-grid">
+//         {trainers.map((trainer, index) => (
+//           <div key={trainer.id} className={`trainer-card trainer-${index + 1}`}>
+//             <div className="trainer-image"></div> {/* Background image applied via CSS */}
+//             <h3>{trainer.name}</h3>
+//             <p><strong className="trainer-expertise">Expertise:</strong> {trainer.expertise}</p>
+//             <p><strong className="trainer-experience">Experience:</strong> {trainer.experience}</p>
+//             <p className="trainer-details">{trainer.details}</p>
 //           </div>
-//           <div className="course-column">
-//             <ul className="locations-list">
-//               {rightCourses.map((course, index) => (
-//                 <li key={`right-${index}`} className="location-item">
-//                   {course}
-//                 </li>
-//               ))}
-//             </ul>
-//           </div>
-//         </div>
+//         ))}
 //       </div>
-//     );
-//   };
+//     </div>
+//   );
+// };
+
+
+
+
+
+const trainers = [
+  {
+    id: 1,
+    name: "John Doe",
+    title: "AWS Cloud Solutions Architect",
+    expertise: "AWS & DevOps",
+    experience: "10+ years",
+    details: "John is a seasoned AWS Cloud Solutions Architect with 10+ years of experience in designing, deploying, and optimizing cloud infrastructures.",
+    skills: [
+      "AWS Cloud Architecture: Designing scalable cloud solutions",
+      "Infrastructure as Code (IaC): Terraform & CloudFormation",
+      "Cloud Migration: Seamless transition to AWS",
+      "Security & Compliance: IAM policies & encryption"
+    ],
+    image: "F:/Intellimindz_UI/src/assests/images/hero-img1.png"
+  },
+  {
+    id: 2,
+    name: "Jane Smith",
+    title: "AWS DevOps Engineer",
+    expertise: "Python & Java",
+    experience: "8+ years",
+    details: "Jane is an experienced AWS DevOps Engineer specializing in CI/CD pipelines, automation, and cloud-native development.",
+    skills: [
+      "CI/CD Automation: AWS CodePipeline & Jenkins",
+      "Containerization & Orchestration: Docker & Kubernetes",
+      "Infrastructure as Code (IaC): Terraform & AWS CloudFormation",
+      "Monitoring & Logging: CloudWatch & ELK Stack"
+    ],
+    image: "F:/Intellimindz_UI/src/assests/images/personimage1.png"
+  }
+];
+
+const Trainers = () => {
+  return (
+    <div className="trainers-container">
+      <h2 className="trainers-title">Meet Our AWS Online Job Support Experts</h2>
+      <div className="trainers-list">
+        {trainers.map((trainer) => (
+          <div key={trainer.id} className="trainer-card">
+            <div className="trainer-image" style={{ backgroundImage: `url(${trainer.image})` }}></div>
+            <div className="trainer-info">
+              <h3 className="trainer-name">{trainer.name}</h3>
+              <h4 className="trainer-title">{trainer.title}</h4>
+              <p className="trainer-details">{trainer.details}</p>
+              <h5 className="trainer-skills-title">Key Skills:</h5>
+              <ul className="trainer-skills">
+                {trainer.skills.map((skill, index) => (
+                  <li key={index}>{skill}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+
 
 
 const Intro = () => {
@@ -103,13 +173,8 @@ const SapTrainingProfile = () => {
           </div>
 
           <div className="sap-training-content">
-              <div className="training-image">
-                  <img src={sapTrainingImage} alt="SAP Training" />
-              </div>
-
               <div className="training-details">
-                  <div className="sap-training-header animate__animated animate__lightSpeedInRight">
-
+                  <div className="sap-training-header animate__animated animate__lightSpeedInLeft">
                       <p className="intro-text">
                           All mentors at IntelliMindz have years of important industry experience, and they have been effectively functioning as advisors in a similar space, which has made them topic specialists.
                       </p>
@@ -127,6 +192,10 @@ const SapTrainingProfile = () => {
 
                   <button className="enquiry-button">Enquire Now</button>
               </div>
+
+              <div className="training-image">
+                  <img src={sapTrainingImage} alt="SAP Training" />
+              </div>
           </div>
       </div>
   );
@@ -138,15 +207,15 @@ const CoursesSection = () => {
   const courses = [
     {
       provider: "SAP ABCP",
-      logo: apache_logo,
+      logo: sapcourse1,
       title: "Advanced Business Application Programming",
       rating: 5,
       reviews: 8956,
-      enrolled: 12854
+      enrolled: 2854
     },
     {
       provider: "SAP SCM",
-      logo: apache_logo,
+      logo: sapcourse2,
       title: "Supply Chain Management",
       rating: 5,
       reviews: 4562,
@@ -154,7 +223,7 @@ const CoursesSection = () => {
     },
     {
       provider: "SAP HANA",
-      logo: apache_logo,
+      logo: sapcourse3,
       title: "High-Performance Analytic Appliance",
       rating: 5,
       reviews: 5156,
@@ -162,7 +231,7 @@ const CoursesSection = () => {
     },
     {
       provider: "SAP Successfactors",
-      logo: apache_logo,
+      logo: sapcourse4,
       title: "Human Capital Management Solution",
       rating: 5,
       reviews: 4985,
@@ -170,7 +239,7 @@ const CoursesSection = () => {
     },
     {
       provider: "SAP ECM",
-      logo: apache_logo,
+      logo: sapcourse5,
       title: "Enterprise Content Management",
       rating: 5,
       reviews: 6985,
@@ -178,7 +247,7 @@ const CoursesSection = () => {
     },
     {
       provider: "SAP EHS",
-      logo: apache_logo,
+      logo: sapcourse6,
       title: "Environment, Health, and Safety",
       rating: 5,
       reviews: 4854,
@@ -188,7 +257,7 @@ const CoursesSection = () => {
 
   return (
     <div className="courses-section">
-      <h2 className="section-title">Related Courses</h2>
+      <h2 className="online-section-title">Related Courses</h2>
       <div className="courses-grid">
         {courses.map((course, index) => (
           <div key={index} className="course-card">
@@ -199,16 +268,19 @@ const CoursesSection = () => {
               </div>
             </div>
             <h3 className="course-name">{course.title}</h3>
-            <div className="reviews-section">
-              <div className="reviews-label">Reviews</div>
-              <div className="rating-container">
-                <FaStar className="star-icon" />
-                <span className="course-rating">{course.rating} ({course.reviews.toLocaleString()})</span>
-              </div>
+            <div className="course-rating-container">
+              {/* <FaStar className="star-icon" /> */}
+              {/* <span className="course-rating">{course.rating}</span> */}
             </div>
-            <div className="enrolled-section">
-              <div className="enrolled-label">Enrolled Learners</div>
-              <div className="enrolled-count">{course.enrolled.toLocaleString()}</div>
+            <div className="reviews-enrolled-container">
+              <div className="reviews-section">
+                <div className="reviews-label">Reviews</div>
+                <div className="reviews-count">{course.reviews.toLocaleString()}</div>
+              </div>
+              <div className="enrolled-section">
+                <div className="enrolled-label">Enrolled Learners</div>
+                <div className="enrolled-count">{course.enrolled.toLocaleString()}</div>
+              </div>
             </div>
           </div>
         ))}
@@ -659,7 +731,7 @@ const Corporate = () => {
     return (
         <div className="additional-slide-container">
             <div className="additional-slide-image">
-                <img src={sapintellicommitment} alt="Our Commitmen  t" />
+                <img src={sapintellicommitment} alt="Our Commitment" />
             </div>
             <div className="additional-slide-text">
                 <h1>Our Commitment</h1>
@@ -939,7 +1011,7 @@ const Testimonials = () => {
   
     return (
       <div className="schedule-wrapper" onMouseLeave={handleContainerLeave}>
-        <h1 className="course-title">Upcoming Batch for SAP FICO Training in Chennai on Intellimindz</h1>
+        <h1 className="online-course-title">Upcoming Batch for SAP FICO Training in Chennai on Intellimindz</h1>
         
         <div className={`calendar-section ${selectedDate ? 'expanded' : ''}`}>
           {classDates.map((date) => (
@@ -985,15 +1057,17 @@ const Saponline = () => {
             <SapTrainingProfile />
             <Corporate />
             <CourseSchedule />
-            <CoursesSection />
             <WhyChooseUs />
+            <AskForDemo/>
+            <Trainers/>
             <Onlineheader />
-            <FactsAndFigures />
+            {/* <FactsAndFigures /> */}
             <CurriculumProjects />
             <SelfAssessment />
             <BatchRequestForm />
             {/* <CourseGrid /> */}
             <Testimonials />
+            <CoursesSection />
             <Footer />
         </>
     );

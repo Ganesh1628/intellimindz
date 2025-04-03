@@ -1,0 +1,77 @@
+.trainers-container {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.trainers-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #0d2d4d;
+}
+
+.trainers-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.trainer-card {
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    text-align: left;
+    align-items: center;
+    gap: 20px;
+}
+
+.trainer-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.trainer-info {
+    flex: 1;
+}
+
+.trainer-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #222;
+}
+
+.trainer-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.trainer-details {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.trainer-skills-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.trainer-skills {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #444;
+}

@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 170px;
+    padding: 130px;
     background-color: #f4f4f4;
     border-radius: 10px;
     margin-top: -120px;
@@ -18,8 +18,8 @@
 
 .additional-slide-text h1 {
     font-size: 2rem;
-    font-weight: 400px;
-    color: #333;
+    font-weight: bold;
+    color: #222222;
     margin-bottom: 10px;
     font-family: "DM Sans", sans-serif;
 }
@@ -33,10 +33,16 @@
 
 .additional-slide-image {
     width: 45%;
+    transition: transform 0.3s ease;
+    flex: none;
 }
 
+.additional-slide-image:hover img {
+    transform: scale(1.01);
+  }
+
 .additional-slide-image img {
-    width: 100%;
-    height: auto;
+    width: 500px;
+    height: 380px;
     border-radius: 10px;
 }

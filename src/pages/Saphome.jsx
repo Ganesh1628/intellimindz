@@ -9,7 +9,6 @@ import Reason from "../components/SAP/Reason/Reason";
 import TeachingMethod from "../components/SAP/TeachingMethod/Teachingmethod";
 import Testimonial from "../components/SAP/Saptestimonials/Saptestimonial";
 import Footer from "../components/Footer/Footer";
-// import AskForDemo from "../components/SAP/Askfordemo/askfordemo";
 // import SearchBar from "./sapim/SearchBar";
 import "../components/SapIM/IMprofiletraining.css";
 import "../components/SapIM/IMwhyus.css";
@@ -97,88 +96,88 @@ const AboutUsHeader = () => {
 };
 
 
-const CoursesSection = () => {
-    const courses = [
-      {
-        provider: "SAP ABCP",
-        logo: apache_logo,
-        title: "Advanced Business Application Programming",
-        rating: 5,
-        reviews: 8956,
-        enrolled: 12854
-      },
-      {
-        provider: "SAP SCM",
-        logo: apache_logo,
-        title: "Supply Chain Management",
-        rating: 5,
-        reviews: 4562,
-        enrolled: 4856
-      },
-      {
-        provider: "SAP HANA",
-        logo: apache_logo,
-        title: "High-Performance Analytic Appliance",
-        rating: 5,
-        reviews: 5156,
-        enrolled: 6258
-      },
-      {
-        provider: "SAP Successfactors",
-        logo: apache_logo,
-        title: "Human Capital Management Solution",
-        rating: 5,
-        reviews: 4985,
-        enrolled: 6258
-      },
-      {
-        provider: "SAP ECM",
-        logo: apache_logo,
-        title: "Enterprise Content Management",
-        rating: 5,
-        reviews: 6985,
-        enrolled: 15896
-      },
-      {
-        provider: "SAP EHS",
-        logo: apache_logo,
-        title: "Environment, Health, and Safety",
-        rating: 5,
-        reviews: 4854,
-        enrolled: 5268
-      }
-    ];
+// const CoursesSection = () => {
+//     const courses = [
+//       {
+//         provider: "SAP ABCP",
+//         logo: apache_logo,
+//         title: "Advanced Business Application Programming",
+//         rating: 5,
+//         reviews: 8956,
+//         enrolled: 12854
+//       },
+//       {
+//         provider: "SAP SCM",
+//         logo: apache_logo,
+//         title: "Supply Chain Management",
+//         rating: 5,
+//         reviews: 4562,
+//         enrolled: 4856
+//       },
+//       {
+//         provider: "SAP HANA",
+//         logo: apache_logo,
+//         title: "High-Performance Analytic Appliance",
+//         rating: 5,
+//         reviews: 5156,
+//         enrolled: 6258
+//       },
+//       {
+//         provider: "SAP Successfactors",
+//         logo: apache_logo,
+//         title: "Human Capital Management Solution",
+//         rating: 5,
+//         reviews: 4985,
+//         enrolled: 6258
+//       },
+//       {
+//         provider: "SAP ECM",
+//         logo: apache_logo,
+//         title: "Enterprise Content Management",
+//         rating: 5,
+//         reviews: 6985,
+//         enrolled: 15896
+//       },
+//       {
+//         provider: "SAP EHS",
+//         logo: apache_logo,
+//         title: "Environment, Health, and Safety",
+//         rating: 5,
+//         reviews: 4854,
+//         enrolled: 5268
+//       }
+//     ];
   
-    return (
-      <div className="courses-section">
-        <h2 className="section-title">Related Courses</h2>
-        <div className="courses-grid">
-          {courses.map((course, index) => (
-            <div key={index} className="course-card">
-              <div className="course-header">
-                <div className="provider-container">
-                  <img src={course.logo} alt={course.provider} className="provider-logo" />
-                  <span className="course-provider">{course.provider}</span>
-                </div>
-              </div>
-              <h3 className="course-name">{course.title}</h3>
-              <div className="reviews-section">
-                <div className="reviews-label">Reviews</div>
-                <div className="rating-container">
-                  <FaStar className="star-icon" />
-                  <span className="course-rating">{course.rating} ({course.reviews.toLocaleString()})</span>
-                </div>
-              </div>
-              <div className="enrolled-section">
-                <div className="enrolled-label">Enrolled Learners</div>
-                <div className="enrolled-count">{course.enrolled.toLocaleString()}</div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    );
-  };
+//     return (
+//       <div className="courses-section">
+//         <h2 className="section-title">Related Courses</h2>
+//         <div className="courses-grid">
+//           {courses.map((course, index) => (
+//             <div key={index} className="course-card">
+//               <div className="course-header">
+//                 <div className="provider-container">
+//                   <img src={course.logo} alt={course.provider} className="provider-logo" />
+//                   <span className="course-provider">{course.provider}</span>
+//                 </div>
+//               </div>
+//               <h3 className="course-name">{course.title}</h3>
+//               <div className="reviews-section">
+//                 <div className="reviews-label">Reviews</div>
+//                 <div className="rating-container">
+//                   <FaStar className="star-icon" />
+//                   <span className="course-rating">{course.rating} ({course.reviews.toLocaleString()})</span>
+//                 </div>
+//               </div>
+//               <div className="enrolled-section">
+//                 <div className="enrolled-label">Enrolled Learners</div>
+//                 <div className="enrolled-count">{course.enrolled.toLocaleString()}</div>
+//               </div>
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+//     );
+//   };
 
 
 
@@ -317,11 +316,10 @@ const Saphome = () => {
         <Intro />
         <SapTrainingProfile />
         {/* <HeaderSAP /> */}
-        {/* <AskForDemo/> */}
         <SAPOverview />
         <AboutUsHeader />
         <FeesStructure />
-        <CoursesSection />
+        {/* <CoursesSection /> */}
         {/* <CourseSchedule /> */}
         <Sapgeneral />
         <TeachingMethod />

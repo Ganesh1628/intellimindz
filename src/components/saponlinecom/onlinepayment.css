@@ -9,9 +9,9 @@
   font-family: "DM Sans", sans-serif;
   }
   
-  .course-title {
+  .online-course-title {
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: bold;
     color: #313131;
     margin-bottom: 30px;
     text-align: center;
@@ -237,7 +237,7 @@
       padding: 15px;
     }
     
-    .course-title {
+    .online-course-title {
       font-size: 24px;
     }
     

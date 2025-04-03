@@ -2,7 +2,7 @@
   /* Batch Request Form Styles */
   .batch-request-container {
     margin: 30px auto;
-    padding: 20px;
+    padding: 0px;
     width: 60%;
     text-align: center;
     
@@ -15,6 +15,7 @@
     margin-bottom: 10px;
     border-bottom: 3px solid orange;
     display: inline-block;
+    border-radius: 3px;
   }
   
   .batch-form {
@@ -47,7 +48,7 @@
   }
   
   .sap_icon {
-    background-color: orange;
+    background-color: rgb(206, 202, 196);
     padding: 10px;
     display: flex;
     align-items: center;
@@ -70,7 +71,7 @@
     border: 2px solid orange;
     padding: 12px 20px;
     background: white;
-    color: orange;
+    color: rgb(31, 31, 31);
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;

@@ -5,40 +5,40 @@ import talkingimage from "../../assests/images/talkingimage.png"; // Import the 
 const FAQ = () => {
     const faqItems = [
         {
-            question: "Is GST included in the Fees?",
-            answer: "No, Fee is excluding 18% GST"
+            question: "What courses does Intellimindz offer?",
+            answer: "Intellimindz offers comprehensive training programs in cloud computing, data science, software development, automation, cybersecurity, and more, designed to meet industry demands from beginner to advanced levels."
         },
         {
-            question: "In how many Instalments, the FEES could pay completely?",
-            answer: "3 Instalments in total, 1st Instalment: 50% (while joining), 2nd Instalment: 25% (2nd month – 1st week), 3rd Instalment: 25% (3rd month – 1st week)"
+            question: "Are the trainers experienced?",
+            answer: "Yes, Intellimindz trainers are highly skilled industry professionals with over 10 years of experience and hands-on knowledge, ensuring practical, in-depth learning for all students."
         },
         {
-            question: "Is there any Admission fees?",
-            answer: "Yes, can be considered as a reservation fee where you could confirm your place in the batch by registering with Rs.5000. That’s not an extra charge, amount is part of total fee and Non-Refundable."
+            question: "Do you offer flexible class timings?",
+            answer: "Yes, Intellimindz offers flexible class schedules, including weekday, weekend, and online sessions, allowing students and professionals to balance learning with their daily commitments."
         },
         {
-            question: "Is Advanced Java enough to get a job?",
-            answer: "While Advanced Java is a critical skill, employers often look for a combination of skills including problem-solving, understanding of frameworks, and experience with real-world projects."
+            question: "Do you offer live online training?",
+            answer: "Yes, Intellimindz conducts interactive live online sessions that allow participants to learn, engage with trainers, and clarify doubts conveniently from any location worldwide."
         },
         {
-            question: "What is the Course duration?",
-            answer: "4 Months of Classroom training (Mandatory) 8 Months of On-Job training (Multiple Entries & Multiple Exit points)"
+            question: "Do you provide placement support?",
+            answer: "Yes, Intellimindz offers placement assistance, including resume preparation, mock interviews, and connections with hiring companies, helping students secure jobs in top organizations."
         },
         {
-            question: "Course structure (6 Months + 6 Months)?",
-            answer: "6 Months (Course Training), Fundamentals to Core VLSI training, Intensive training on Real time Projects"
+            question: "What is the duration of the courses?",
+            answer: "Course duration varies, typically ranging from 4 to 12 weeks, depending on the course complexity and curriculum, ensuring comprehensive coverage of topics."
         },
         {
-            question: "What is the syllabus for Admission test?",
-            answer: "Aptitude, Digital Electronics, Electronic Devices and Circuits, Network Theory Fundamentals."
+            question: "Do you offer free demo sessions?",
+            answer: "Yes, Intellimindz provides free demo sessions to help potential students understand the course structure, trainer expertise, and overall quality before enrolling."
         },
         {
-            question: "What is the cut-off for Screening test?",
-            answer: "Minimum of 60% in objective exam and follows up with a Personal Interview."
+            question: "Do you provide corporate training?",
+            answer: "Yes, Intellimindz delivers customized corporate training programs tailored to meet organizational objectives, ensuring skill enhancement and productivity improvement for employees."
         },
         {
-            question: "What is On-Job Training?",
-            answer: "Basically, you get to work under a project in a Product based company. Every individual will have their part of work and role in a Live project. And a certified experience will be provided under the same."
+            question: "Do you provide a course completion certificate after training?",
+            answer: "Yes, Intellimindz provides a course completion certificate after successfully completing the training, which is industry-recognized and adds credibility to your professional skill set."
         }
     ];
 

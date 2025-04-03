@@ -34,8 +34,8 @@
 }
 
 .faq-question {
-    font-size: 20px;
-    color: #000000;
+    font-size: 1.1rem;
+    color: #161616;
     font-weight: 600;
     margin-bottom: 10px;
     cursor: pointer;
@@ -60,8 +60,8 @@
 
 .faq-answer {
     font-size: 16px;
-    color:  #ffffff;
-    line-height: 1.6;
+    color:  #424242;
+    line-height: 1.4;
     margin-left: 30px;
     display: none; /* Hidden by default */
     background-color: #ffffff; /* White background for the answer */
