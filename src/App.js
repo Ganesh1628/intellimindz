@@ -17,8 +17,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about_us" element={<AboutUs />} />
         <Route path="/java_course" element={<Java />} /> {/* Added Java Course Route */}
-        <Route path="/sap_fico_training_in_chennai" element={<Saphome />} /> 
-        <Route path="/sap_online" element={<Saponline />} /> 
+        <Route path="/sap_course" element={<Saphome />} /> 
+        <Route path="/sap_fico_training_in_chennai" element={<Saponline />} /> 
         <Route path="/sap_im_training" element={<Sapim />} /> 
       </Routes>
     </Router>

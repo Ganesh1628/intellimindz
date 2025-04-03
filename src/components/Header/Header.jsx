@@ -52,8 +52,8 @@ const courseOptions = [
 ];
 
 const sapOptions = [
-  { display: "SAP", url: "/sap_fico_training_in_chennai" },
-  { display: "SAP Online", url: "/sap_online" },
+  { display: "SAP", url: "/sap_course" },
+  { display: "SAP Online", url: "/sap_fico_training_in_chennai" },
   { display: "SAP IM Training", url: "/Sap_im_training"},
 ];
 

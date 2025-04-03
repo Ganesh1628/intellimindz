@@ -9,6 +9,9 @@ import "../components/saponlinecom/onlinecorporate.css";
 import "../components/saponlinecom/onlinetestmonials.css";
 import "../components/saponlinecom/onlinepayment.css";
 import Footer from "../components/Footer/Footer";
+import "../components/SAP/Header/Introsap.css";
+import sapTrainingImage from '../assests/images/saptraining.png'; // Adjust path as needed
+import "../components/saponlinecom/onlinecoursegrid.css";
 import testImage from "../assests/images/onlinetest.png"; // Import Image
 import sapintelliaboutus from "../assests/images/sapintelliaboutus.png";
 import sapintellicommitment from "../assests/images/sapintellicommitment.png";
@@ -18,6 +21,8 @@ import runningIcon from "../assests/images/runningicon.png";
 import staffIcon from "../assests/images/stafficon.png";
 import jobopening from "../assests/images/jobopening.png";
 import liveclass from "../assests/images/liveclass.png";
+import apache_logo from "../assests/images/apache_logo.png";
+import { FaStar } from 'react-icons/fa'; // Make sure this import is correct
 import onlinetest from "../assests/images/onlinetest.png";
 import menFace1 from '../assests/images/men_face.png';
 import menFace2 from '../assests/images/men_face.png';
@@ -71,6 +76,146 @@ import React, { useState, useEffect } from 'react'; // Add this import at the to
 //       </div>
 //     );
 //   };
+
+
+const Intro = () => {
+  return (
+      <div className="intro-container">
+          <div className="overlay"></div>
+          {/* <button className="cta-button">Get Started</button> */}
+      </div>
+  );
+};
+
+
+
+const SapTrainingProfile = () => {
+  return (
+      <div className="sap-training-container">
+          <div className="sap-training-header animate__animated animate__flipInX">
+              <h1>
+                  SAP Training on Intellimindz in <span>Chennai</span>
+              </h1>
+              <div className="header-divider"></div>
+          </div>
+
+          <div className="sap-training-content">
+              <div className="training-image">
+                  <img src={sapTrainingImage} alt="SAP Training" />
+              </div>
+
+              <div className="training-details">
+                  <div className="sap-training-header animate__animated animate__lightSpeedInRight">
+
+                      <p className="intro-text">
+                          All mentors at IntelliMindz have years of important industry experience, and they have been effectively functioning as advisors in a similar space, which has made them topic specialists.
+                      </p>
+                  </div>
+
+                  <ul className="benefits-list">
+                      <li><span className="icon">✓</span> Training from basics to advanced SAP IM concepts</li>
+                      <li><span className="icon">✓</span> Real-time experienced professionals (8+ years)</li>
+                      <li><span className="icon">✓</span> 500+ students successfully trained and placed</li>
+                      <li><span className="icon">✓</span> Resume preparation and project guidance</li>
+                      <li><span className="icon">✓</span> Project overview and real-time scenario sessions</li>
+                      <li><span className="icon">✓</span> Individual attention with customized sessions</li>
+                      <li><span className="icon">✓</span> Mock interviews and technology FAQs</li>
+                  </ul>
+
+                  <button className="enquiry-button">Enquire Now</button>
+              </div>
+          </div>
+      </div>
+  );
+};
+
+
+
+const CoursesSection = () => {
+  const courses = [
+    {
+      provider: "SAP ABCP",
+      logo: apache_logo,
+      title: "Advanced Business Application Programming",
+      rating: 5,
+      reviews: 8956,
+      enrolled: 12854
+    },
+    {
+      provider: "SAP SCM",
+      logo: apache_logo,
+      title: "Supply Chain Management",
+      rating: 5,
+      reviews: 4562,
+      enrolled: 4856
+    },
+    {
+      provider: "SAP HANA",
+      logo: apache_logo,
+      title: "High-Performance Analytic Appliance",
+      rating: 5,
+      reviews: 5156,
+      enrolled: 6258
+    },
+    {
+      provider: "SAP Successfactors",
+      logo: apache_logo,
+      title: "Human Capital Management Solution",
+      rating: 5,
+      reviews: 4985,
+      enrolled: 6258
+    },
+    {
+      provider: "SAP ECM",
+      logo: apache_logo,
+      title: "Enterprise Content Management",
+      rating: 5,
+      reviews: 6985,
+      enrolled: 15896
+    },
+    {
+      provider: "SAP EHS",
+      logo: apache_logo,
+      title: "Environment, Health, and Safety",
+      rating: 5,
+      reviews: 4854,
+      enrolled: 5268
+    }
+  ];
+
+  return (
+    <div className="courses-section">
+      <h2 className="section-title">Related Courses</h2>
+      <div className="courses-grid">
+        {courses.map((course, index) => (
+          <div key={index} className="course-card">
+            <div className="course-header">
+              <div className="provider-container">
+                <img src={course.logo} alt={course.provider} className="provider-logo" />
+                <span className="course-provider">{course.provider}</span>
+              </div>
+            </div>
+            <h3 className="course-name">{course.title}</h3>
+            <div className="reviews-section">
+              <div className="reviews-label">Reviews</div>
+              <div className="rating-container">
+                <FaStar className="star-icon" />
+                <span className="course-rating">{course.rating} ({course.reviews.toLocaleString()})</span>
+              </div>
+            </div>
+            <div className="enrolled-section">
+              <div className="enrolled-label">Enrolled Learners</div>
+              <div className="enrolled-count">{course.enrolled.toLocaleString()}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+
+
 
 // Batch Request Section (Single const)
 const BatchRequestForm = () => {
@@ -724,8 +869,11 @@ const Saponline = () => {
     return (
         <>
             {/* <AboutUsHeader /> */}
+            <Intro />
+            <SapTrainingProfile />
             <Corporate />
             <CourseSchedule />
+            <CoursesSection />
             <WhyChooseUs />
             <Onlineheader />
             <CurriculumProjects />
