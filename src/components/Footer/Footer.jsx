@@ -91,9 +91,7 @@ const Footer = () => {
                 <FontAwesomeIcon icon={faEnvelope} style={{ color: "black", marginRight: "10px", fontFamily: "DM Sans, sans-serif"  }} />
                 info@intellimindz.com
               </ListGroupItem>
-              <p className="mb-0" style={{ color: "#000000", fontFamily: "DM Sans, sans-serif" }}>
-              Follow us on social media
-            </p>
+            <h5 className="follow-bold" style={{ color: "#000000", fontFamily: "DM Sans, sans-serif"  }}>Follow us on social media</h5>
             </ListGroup>
 
 

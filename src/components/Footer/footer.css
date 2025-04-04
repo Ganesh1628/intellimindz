@@ -122,6 +122,11 @@ html, body {
   color: #000000;
 }
 
+.follow-bold{
+  color: black !important;
+  margin-top: 30px;
+}
+
 .footer-header, 
 .fw-bold {
   color: black !important;
