@@ -125,7 +125,7 @@ const trainers = [
 const Trainers = () => {
   return (
     <div className="trainers-container">
-      <h2 className="trainers-title">Meet Our AWS Online Job Support Experts</h2>
+      <h2 className="trainers-title">Meet Our Online Job Support Experts</h2>
       <div className="trainers-list">
         {trainers.map((trainer) => (
           <div key={trainer.id} className="trainer-card">
