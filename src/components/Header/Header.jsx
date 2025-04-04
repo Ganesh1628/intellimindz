@@ -55,6 +55,7 @@ const sapOptions = [
   { display: "SAP", url: "/sap_course" },
   { display: "SAP Online", url: "/sap_fico_training_in_chennai" },
   { display: "SAP IM Training", url: "/Sap_im_training"},
+  { display: "SAP ", url: "/sap"},
 ];
 
 const Header = () => {
@@ -122,7 +123,7 @@ const Header = () => {
                               position: "absolute",
                               top: "100%",
                               left: "0",
-                              background: "#F0E68C",
+                              background: "rgb(124, 147, 252)",
                               color: "black",
                               listStyle: "none",
                               padding: "10px 0",
@@ -213,7 +214,7 @@ const Header = () => {
                             >
                               <div
                                 style={{
-                                  backgroundColor: "#F0E68C",
+                                  // backgroundColor: "#F0E68C",
                                   borderRadius: "0%",
                                   padding: "0px",
                                   display: "flex",

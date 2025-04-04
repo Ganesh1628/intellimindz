@@ -3,7 +3,7 @@
 /* Curriculum & Projects Section */
 .curriculum-container {
     width: 90%;
-    margin: 30px auto;
+    margin: 50px auto;
   }
   
   .curriculum-title {
@@ -12,7 +12,8 @@
     font-weight: bold;
     /* text-transform: uppercase; */
     font-family: "DM Sans", sans-serif;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    margin-left: 400px;
     /* border-bottom: 3px solid  #add8e6; */
     display: inline-block;
   }
@@ -120,7 +121,7 @@
   }
   
   .info-title {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
   }

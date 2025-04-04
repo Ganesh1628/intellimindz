@@ -17,6 +17,7 @@ import "../components/saponlinecom/onlinecoursegrid.css";
 import "../components/saponlinecom/onlinetrainers.css";
 import testImage from "../assests/images/onlinetest.png"; // Import Image
 import sapintellicommitment from "../assests/images/sapintellicommitment.png";
+import { FaTags, FaRunning, FaUsers } from "react-icons/fa";
 import bestPriceIcon from "../assests/images/bestprice.png";
 import runningIcon from "../assests/images/runningicon.png";
 import staffIcon from "../assests/images/stafficon.png";
@@ -28,7 +29,6 @@ import sapcourse3 from "../assests/images/sapcourse3.png";
 import sapcourse4 from "../assests/images/sapcourse4.png";
 import sapcourse5 from "../assests/images/sapcourse5.png";
 import sapcourse6 from "../assests/images/sapcourse6.png";
-// import callIcon from "../assests/images/call-icon.png";
 import { FaStar } from 'react-icons/fa'; // Make sure this import is correct
 import onlinetest from "../assests/images/onlinetest.png";
 import menFace1 from '../assests/images/men_face.png';
@@ -328,16 +328,16 @@ const FactsAndFigures = () => {
   }, []);
 
   const modules = [
-    { id: 1, title: "Introduction to SAP FICO & System Navigation", details: "\n• Learning Objective: Gain a foundational understanding of SAP FICO, its components, and navigation techniques in SAP FICO Training in Chennai.\n• Overview of SAP FICO and Its Importance\n• SAP GUI Navigation and User Interface\n• Organizational Structure in SAP FICO\n• Master Data in SAP FI and CO\n• Basic Reporting and System Features" },
-    { id: 2, title: "General Ledger (G/L) Accounting", details: "\n• Learning Objective: Learn SAP FICO Training in Chennai concepts related to general ledger configuration, postings, and reporting.\n• G/L Master Data Configuration\n• Posting and Document Types in G/L\n• Financial Statement Versions (FSV)\n• G/L Closing Operations and Reporting\n• Integration with Other SAP Modules" },
-    { id: 3, title: "Accounts Payable (AP) & Vendor Management", details: "\n• Learning Objective: Master vendor accounting, invoice management, and payment processes in SAP FICO Training in Chennai.\n• Vendor Master Data and Groups\n• Invoice Posting and Payment Processes\n• Automatic Payment Program (APP)\n• Withholding Tax and Payment Terms\n• Vendor Reconciliation and Reporting" },
-    { id: 4, title: "Accounts Receivable (AR) & Customer Accounting", details: "\n• Learning Objective: Learn customer accounting processes, dunning, and credit management in SAP FICO Training in Chennai.\n• Customer Master Data and Configuration\n• Incoming Payments and Cash Application\n• Dunning Process and Credit Management\n• Customer Account Analysis and Reconciliation\n• AR Reports and Aging Analysis" },
-    { id: 5, title: "Asset Accounting (AA)", details: "\n• Learning Objective: Understand asset lifecycle management, depreciation, and reporting in SAP FICO Training in Chennai.\n• Asset Master Data and Classification\n• Asset Acquisition and Capitalization\n• Depreciation Configuration and Posting\n• Asset Transfers, Retirements, and Scrapping\n• Asset Reporting and Year-End Closing" },
-    { id: 6, title: "Controlling (CO) – Cost Center & Internal Orders", details: "\n• Learning Objective: Learn cost center and internal order management for effective cost tracking in SAP FICO Training in Chennai.\n• Cost Center Master Data and Hierarchies\n• Planning, Allocations, and Budgeting\n• Internal Orders and Order Settlements\n• Cost Element Accounting and Reporting\n• Variance Analysis and Controlling Reports" },
-    { id: 7, title: "Profit Center & COPA (Profitability Analysis)", details: "\n• Learning Objective: Understand profitability analysis and profit center reporting in SAP FICO Training in Chennai.\n• Profit Center Master Data and Configuration\n• Cost and Revenue Postings in Profit Centers\n• Profitability Segments in COPA\n• COPA Reporting and Real-Time Analysis\n• Integration of COPA with SD and MM" },
-    { id: 8, title: "Bank Accounting & Cash Management", details: "\n• Learning Objective: Gain expertise in bank accounting, cash journal, and liquidity management in SAP FICO Training in Chennai.\n• Bank Master Data and House Banks\n• Electronic Bank Reconciliation (EBS)\n• Cash Journal and Check Management\n• Liquidity Forecasting and Cash Flow Analysis\n• Bank Statements and Payment Processing" },
-    { id: 9, title: "Integration of SAP FICO with Other Modules", details: "\n• Learning Objective: Learn SAP FICO integration with MM, SD, and HR modules in SAP FICO Training in Chennai.\n• SAP FICO Integration with SAP MM (Procure-to-Pay)\n• SAP FICO Integration with SAP SD (Order-to-Cash)\n• Payroll Accounting and HR-FI Integration\n• Financial Data Flow Across SAP Modules\n• Real-Time Scenarios and Case Studies" },
-    { id: 10, title: "SAP FICO Reporting, Year-End Closing & Real-Time Projects", details: "\n• Learning Objective: Develop expertise in financial reporting, year-end closing, and project execution in SAP FICO Training in Chennai.\n• Financial Statements and Key Reports\n• Year-End and Period-End Closing Activities\n• SAP FICO Audit Reports and Compliance\n• Real-Time Business Case Studies\n• Hands-on Project and Certification Preparation" }
+    { id: 1, title: "Introduction to SAP FICO & System Navigation", details: "\n• Overview of SAP FICO and Its Importance\n• SAP GUI Navigation and User Interface\n• Organizational Structure in SAP FICO\n• Master Data in SAP FI and CO\n• Basic Reporting and System Features" },
+    { id: 2, title: "General Ledger (G/L) Accounting", details: "\n• G/L Master Data Configuration\n• Posting and Document Types in G/L\n• Financial Statement Versions (FSV)\n• G/L Closing Operations and Reporting\n• Integration with Other SAP Modules" },
+    { id: 3, title: "Accounts Payable (AP) & Vendor Management", details: "\n• Vendor Master Data and Groups\n• Invoice Posting and Payment Processes\n• Automatic Payment Program (APP)\n• Withholding Tax and Payment Terms\n• Vendor Reconciliation and Reporting" },
+    { id: 4, title: "Accounts Receivable (AR) & Customer Accounting", details: "\n• Customer Master Data and Configuration\n• Incoming Payments and Cash Application\n• Dunning Process and Credit Management\n• Customer Account Analysis and Reconciliation\n• AR Reports and Aging Analysis" },
+    { id: 5, title: "Asset Accounting (AA)", details: "\n• Asset Master Data and Classification\n• Asset Acquisition and Capitalization\n• Depreciation Configuration and Posting\n• Asset Transfers, Retirements, and Scrapping\n• Asset Reporting and Year-End Closing" },
+    { id: 6, title: "Controlling (CO) – Cost Center & Internal Orders", details: "\n• Cost Center Master Data and Hierarchies\n• Planning, Allocations, and Budgeting\n• Internal Orders and Order Settlements\n• Cost Element Accounting and Reporting\n• Variance Analysis and Controlling Reports" },
+    { id: 7, title: "Profit Center & COPA (Profitability Analysis)", details: "\n• Profit Center Master Data and Configuration\n• Cost and Revenue Postings in Profit Centers\n• Profitability Segments in COPA\n• COPA Reporting and Real-Time Analysis\n• Integration of COPA with SD and MM" },
+    { id: 8, title: "Bank Accounting & Cash Management", details: "\n• Bank Master Data and House Banks\n• Electronic Bank Reconciliation (EBS)\n• Cash Journal and Check Management\n• Liquidity Forecasting and Cash Flow Analysis\n• Bank Statements and Payment Processing" },
+    { id: 9, title: "Integration of SAP FICO with Other Modules", details: "\n• SAP FICO Integration with SAP MM (Procure-to-Pay)\n• SAP FICO Integration with SAP SD (Order-to-Cash)\n• Payroll Accounting and HR-FI Integration\n• Financial Data Flow Across SAP Modules\n• Real-Time Scenarios and Case Studies" },
+    { id: 10, title: "SAP FICO Reporting, Year-End Closing & Real-Time Projects", details: "\n• Financial Statements and Key Reports\n• Year-End and Period-End Closing Activities\n• SAP FICO Audit Reports and Compliance\n• Real-Time Business Case Studies\n• Hands-on Project and Certification Preparation" }
   ];
 
   const toggleModule = (index) => {
@@ -889,51 +889,51 @@ const Testimonials = () => {
       { 
         day: '26', 
         weekday: 'Wednesday', 
-        month: 'March, 2025',
+        month: 'March, 2023',
         time: '08:00 AM (IST)',
-        duration: '(Class 8hr – 9:30Hrs) / Per Session'
+        duration: '(Class 1hr – 1:30Hrs) / Per Session'
       },
       { 
         day: '27', 
         weekday: 'Thursday', 
-        month: 'March, 2025',
+        month: 'March, 2023',
         time: '09:30 AM (IST)',
-        duration: '(Class 10hr – 11:30Hrs) / Per Session'
+        duration: '(Class 1hr – 1:30Hrs) / Per Session'
       },
       { 
         day: '28', 
         weekday: 'Friday', 
-        month: 'March, 2025',
+        month: 'March, 2023',
         time: '10:00 AM (IST)',
         duration: '(Class 1hr – 1:30Hrs) / Per Session'
       },
       { 
         day: '29', 
         weekday: 'Saturday', 
-        month: 'March, 2025',
+        month: 'March, 2023',
         time: '11:00 AM (IST)',
         duration: '(Class 1hr – 1:30Hrs) / Per Session'
       },
       { 
         day: '31', 
         weekday: 'Sunday', 
-        month: 'March, 2025',
+        month: 'March, 2023',
         time: '08:00 AM (IST)',
-        duration: '(Class 1:30hr – 3:30Hrs) / Per Session'
+        duration: '(Class 1hr – 1:30Hrs) / Per Session'
       },
       { 
         day: '1', 
         weekday: 'Sunday', 
-        month: 'April, 2025',
+        month: 'March, 2023',
         time: '08:00 AM (IST)',
-        duration: '(Class 12hr – 1:30Hrs) / Per Session'
+        duration: '(Class 1hr – 1:30Hrs) / Per Session'
       },
       { 
         day: '2', 
         weekday: 'Sunday', 
-        month: 'April, 2025',
+        month: 'March, 2023',
         time: '08:00 AM (IST)',
-        duration: '(Class 11hr – 11:30Hrs) / Per Session'
+        duration: '(Class 1hr – 1:30Hrs) / Per Session'
       },
     ];
   
@@ -1009,20 +1009,6 @@ const Testimonials = () => {
 
 
 
-
-  // const CallButton = () => {
-  //   const handleCall = () => {
-  //     window.location.href = "tel:+917358464788";
-  //   };
-  
-  //   return (
-  //     <div className="call-button" onClick={handleCall}>
-  //       <img src={callIcon} alt="Call" className="call-icon" />
-  //     </div>
-  //   );
-  // };
-
-
 // Main Function (Calls All Components)
 const Saponline = () => {
     return (
@@ -1043,7 +1029,6 @@ const Saponline = () => {
             {/* <CourseGrid /> */}
             <Testimonials />
             <CoursesSection />
-            {/* <CallButton /> */}
             <Footer />
         </>
     );

@@ -5,7 +5,8 @@
 .schedule-wrapper {
     max-width: 900px;
     margin: 0 auto;
-    padding: 20px;
+    padding: -70px;
+    margin-bottom: 80px;
   font-family: "DM Sans", sans-serif;
   }
   
