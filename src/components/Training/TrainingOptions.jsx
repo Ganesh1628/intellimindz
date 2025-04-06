@@ -23,12 +23,12 @@ const TrainingOptions = () => {
         },
         {
             title: "Corporate Training",
-            description: "Empowering employees with the necessary expertise and skill sets required to efficiently perform their job roles and excel in their careers.",
+            description: "Empowering employees with the necessary expertise and skill sets required to confidently and efficiently perform their job roles and excel in their professional careers.",
             icon: corporateIcon,
         },
         {
             title: "Video Based Training",
-            description: "Enjoy unlimited access to recorded training sessions, allowing you to revisit lessons and learn at your own convenience, anytime and anywhere.",
+            description: "Enjoy unlimited access to recorded training sessions, enabling you to revisit lessons and learn at your own pace, with flexibility and convenience—anytime and anywhere.",
             icon: videoIcon,
         },
     ];

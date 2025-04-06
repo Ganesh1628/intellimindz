@@ -44,7 +44,7 @@ const FAQ = () => {
 
     return (
         <div className="faq-section" style={{ fontFamily: "DM Sans, sans-serif" }}>
-            <h1 className="title" style={{ fontFamily: "DM Sans, sans-serif" }}>Frequently Asked Questions</h1>
+            <h1 className="home-title" style={{ fontFamily: "DM Sans, sans-serif" }}>Frequently Asked Questions</h1>
             {faqItems.map((item, index) => (
                 <div key={index} className="faq-item" style={{ fontFamily: "DM Sans, sans-serif" }}>
                     <p className="faq-question" style={{ fontFamily: "DM Sans, sans-serif" }}>{item.question}</p>
@@ -52,18 +52,16 @@ const FAQ = () => {
                 </div>
             ))}
 
-            {/* Personalized Course Section */}
-            <div className="FAQ-course-box" style={{ fontFamily: "DM Sans, sans-serif" }}>
-                <div className="course-content">
-                    <p className="course-text">Want to learn with a personalized course curriculum?</p>
-                    <div className="course-contact">
-                        📞 +91 96558 77677
-                    </div>
-                </div>
-                <div className="personalized_course_image">
-                    <img src={talkingimage} alt="Student Holding Books" />
-                </div>
-            </div>
+<div className="custom-course-section">
+  <p className="custom-course-text">
+    Want to learn with a personalized course curriculum?
+  </p>
+  <div className="custom-course-actions">
+    <button className="contact-button">Contact Us</button>
+    <span className="phone-number">📞 +91 96558 77677</span>
+  </div>
+</div>
+
         </div>
     );
 };

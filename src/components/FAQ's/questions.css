@@ -1,135 +1,53 @@
-
-/* FAQ Section Styling */
-.faq-section {
-    padding: 30px 100px;
-    background-color: #cecbcb;
-    margin-top: 40px;
-}
-
-.faq-section h2 {
+.custom-course-section {
+    background-color: #0c002b; /* Deep dark blue or match your theme */
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px; /* or 10px if you want soft edges */
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    gap: 20px;
+  }
+  .home-title{
+    color: #1f1e1e;
+    font-weight: bold;
+    font-size: 2rem;
     text-align: center;
-    font-size: 32px;
-    margin-bottom: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 15px 20px; /* Padding for the header */
-    border-radius: 40px; /* Rounded corners for the header */
-    display: inline-block; /* Ensure the background only covers the text */
-}
-
-
-.faq-item {
-    margin-bottom: 20px; /* Increase space between FAQ boxes */
-    background-color: #ffffff;
-    border-radius: 8px;
-    padding: 15px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
-}
-
-
-.faq-item:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
-}
-
-.faq-question {
-    font-size: 1.1rem;
-    color: #161616;
+    /* margin-left: 80px; */
+  }
+  .custom-course-text {
+    font-size: 1.3rem;
     font-weight: 600;
-    margin-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .custom-course-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .contact-button {
+    background-color: white;
+    color: #000;
+    padding: 10px 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    transition: color 0.3s ease;
-}
-
-
-
-.faq-question::before {
-    content: "▸";
-    margin-right: 10px;
-    /* color: #007bff; */
-    font-size: 24px;
-    transition: transform 0.3s ease;
-}
-
-.faq-item:hover .faq-question::before {
-    transform: rotate(90deg); /* Rotate arrow on hover */
-}
-
-.faq-answer {
-    font-size: 16px;
-    color:  #424242;
-    line-height: 1.4;
-    margin-left: 30px;
-    display: none; /* Hidden by default */
-    background-color: #ffffff; /* White background for the answer */
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-.faq-item:hover .faq-answer {
-    display: block; /* Show answer on hover */
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .faq-section {
-        padding: 30px 15px;
-    }
-
-    .faq-section h2 {
-        font-size: 26px;
-        padding: 10px 15px; /* Adjusted padding for smaller screens */
-    }
-
-    .faq-question {
-        font-size: 18px;
-    }
-
-    .faq-answer {
-        font-size: 14px;
-    }
-    
-}
-
-
-
-
-
-
-.FAQ-course-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f8f8f8;
-    padding: 20px;
-    border-radius: 20px 20px 20px 20px;
-    position: relative;
-    width: 85%;
-}
-
-.course-content {
-    flex: 1;
-}
-
-
-.personalized_course_image {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
-.personalized_course_image img {
-    width: 120px; /* Adjust size as needed */
-    height: auto;
-}
-
-.title{
-        margin-left: 350px;
-        color: #222;
-        font-size: 2rem;
-        font-weight: bold;
-}
+    transition: 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #e5e5e5;
+  }
+  
+  .phone-number {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+  }
+  

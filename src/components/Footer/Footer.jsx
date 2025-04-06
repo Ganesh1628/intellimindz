@@ -3,6 +3,7 @@ import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import "./footer.css"; // Ensure CSS is imported
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { fontWeight } from "@mui/system";
 
 const footerQuickLinks = [
   { display: "Home", url: "#" },
@@ -91,7 +92,7 @@ const Footer = () => {
                 <FontAwesomeIcon icon={faEnvelope} style={{ color: "black", marginRight: "10px", fontFamily: "DM Sans, sans-serif"  }} />
                 info@intellimindz.com
               </ListGroupItem>
-            <h5 className="follow-bold" style={{ color: "#000000", fontFamily: "DM Sans, sans-serif"  }}>Follow us on social media</h5>
+              <p className="link__list" style={{fontFamily: "DM Sans, sans-serif", fontWeight:"400"}}>Follow us on social media</p>
             </ListGroup>
 
 

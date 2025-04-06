@@ -68,3 +68,33 @@ h5 {
   font-size: 1.2rem;
   color: #333;
 }
+
+
+/* Bounce animation */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-12px);
+  }
+  60% {
+    transform: translateY(-6px);
+  }
+}
+
+/* Apply bounce effect on hover */
+.slide-section:hover .icon {
+  animation: bounce 1s;
+  color: #007bff; /* Optional: add color on hover */
+  transition: color 0.3s;
+}
+
+/* Optional: Add smooth scale on hover */
+.slide-section {
+  transition: transform 0.3s ease-in-out;
+}
+.slide-section:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}

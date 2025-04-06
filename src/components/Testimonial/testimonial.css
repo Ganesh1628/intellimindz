@@ -123,10 +123,10 @@
   cursor: pointer;
 }
 
-.left-arrow {
+.home-left-arrow {
   left: -50px;
 }
 
-.right-arrow {
+.home-right-arrow {
   right: -50px;
 }

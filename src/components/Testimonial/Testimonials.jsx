@@ -115,7 +115,7 @@ const Testimonials = () => {
             <div className="testimonials-wrapper">
               {/* Backward Arrow */}
               {currentIndex > 0 && (
-                <button className="nav-arrow left-arrow" onClick={handlePrev}>
+                <button className="nav-arrow home-left-arrow" onClick={handlePrev}>
                   &#10094;
                 </button>
               )}
@@ -160,7 +160,7 @@ const Testimonials = () => {
 
               {/* Forward Arrow */}
               {currentIndex + testimonialsPerPage < testimonials.length && (
-                <button className="nav-arrow right-arrow" onClick={handleNext}>
+                <button className="nav-arrow home-right-arrow" onClick={handleNext}>
                   &#10095;
                 </button>
               )}
