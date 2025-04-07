@@ -55,7 +55,7 @@ const HeroSection = () => {
         <Row className="content-section">
           {/* Left Side - Paragraph */}
           <Col lg="6" md="12">
-            <div className="header_content" style={{ marginLeft: "-60px",fontFamily: "DM Sans, sans-serif" /* Adjust as needed */ }}>
+            <div className="header_content" style={{ marginLeft: "-150px",fontFamily: "DM Sans, sans-serif" /* Adjust as needed */ }}>
             {/* css styling for the header is on index.css */}
               <h1>
                 Welcome to Intelli

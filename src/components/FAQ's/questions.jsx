@@ -58,7 +58,7 @@ const FAQ = () => {
   </p>
   <div className="custom-course-actions">
     <button className="contact-button">Contact Us</button>
-    <span className="phone-number">📞 +91 96558 77677</span>
+    {/* <span className="phone-number">📞 +91 96558 77677</span> */}
   </div>
 </div>
 

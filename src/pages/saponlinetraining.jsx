@@ -11,6 +11,7 @@ import "../components/saponlinecom/onlinepayment.css";
 import MessageIcon from "../components/Hero-Section/MessageIcon";
 import Footer from "../components/Footer/Footer";
 import "../components/SAP/Header/Introsap.css";
+import "../components/SapIM/IMsyllabus.css";
 import AskForDemo from "../components/SAP/Askfordemo/askfordemo";
 import saphomeintro1 from '../assests/images/saphomeintro1.png'; // Adjust path as needed
 import "../components/saponlinecom/onlinecoursegrid.css";
@@ -72,7 +73,7 @@ const trainers = [
       "Infrastructure as Code (IaC): Terraform & AWS CloudFormation",
       "Monitoring & Logging: CloudWatch & ELK Stack",
     ],
-    image: require("../assests/images/personimage1.png"), // Update path if needed
+    image: require("../assests/images/men_face.png"), // Update path if needed
   },
   {
     id: 3,
@@ -134,11 +135,11 @@ const Trainers = () => {
             <h4 className="trainer-title">{trainer.expertise}</h4>
             <p className="trainer-details">{trainer.details}</p>
             <h5 className="trainer-skills-title">Key Skills:</h5>
-            <ul className="trainer-skills">
+            <p className="trainer-details">
               {trainer.skills.map((skill, index) => (
                 <li key={index}>{skill}</li>
               ))}
-            </ul>
+            </p>
           </div>
         </div>
 
@@ -216,7 +217,7 @@ const SapTrainingProfile = () => {
 const CoursesSection = () => {
   const courses = [
     {
-      provider: "SAP ABCP",
+      provider: "SAP ABAP",
       logo: sapcourse1,
       title: "Advanced Business Application Programming",
       rating: 5,
@@ -267,7 +268,7 @@ const CoursesSection = () => {
 
   return (
     <div className="courses-section">
-      <h2 className="online-section-title">Related Courses</h2>
+      <h2 className="online-section-title">Related SAP Courses</h2>
       <div className="courses-grid">
         {courses.map((course, index) => (
           <div key={index} className="course-card">
@@ -298,85 +299,6 @@ const CoursesSection = () => {
     </div>
   );
 };
-
-
-
-const FactsAndFigures = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
-  const [animateSyllabus, setAnimateSyllabus] = useState(false);
-  const syllabusRef = useRef(null); // Reference for syllabus section
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setAnimateSyllabus(true);
-        }
-      },
-      { threshold: 0.3 } // Animation triggers when 30% of the section is visible
-    );
-
-    if (syllabusRef.current) {
-      observer.observe(syllabusRef.current);
-    }
-
-    return () => {
-      if (syllabusRef.current) {
-        observer.unobserve(syllabusRef.current);
-      }
-    };
-  }, []);
-
-  const modules = [
-    { id: 1, title: "Introduction to SAP FICO & System Navigation", details: "\n• Learning Objective: Gain a foundational understanding of SAP FICO, its components, and navigation techniques in SAP FICO Training in Chennai.\n• Overview of SAP FICO and Its Importance\n• SAP GUI Navigation and User Interface\n• Organizational Structure in SAP FICO\n• Master Data in SAP FI and CO\n• Basic Reporting and System Features" },
-    { id: 2, title: "General Ledger (G/L) Accounting", details: "\n• Learning Objective: Learn SAP FICO Training in Chennai concepts related to general ledger configuration, postings, and reporting.\n• G/L Master Data Configuration\n• Posting and Document Types in G/L\n• Financial Statement Versions (FSV)\n• G/L Closing Operations and Reporting\n• Integration with Other SAP Modules" },
-    { id: 3, title: "Accounts Payable (AP) & Vendor Management", details: "\n• Learning Objective: Master vendor accounting, invoice management, and payment processes in SAP FICO Training in Chennai.\n• Vendor Master Data and Groups\n• Invoice Posting and Payment Processes\n• Automatic Payment Program (APP)\n• Withholding Tax and Payment Terms\n• Vendor Reconciliation and Reporting" },
-    { id: 4, title: "Accounts Receivable (AR) & Customer Accounting", details: "\n• Learning Objective: Learn customer accounting processes, dunning, and credit management in SAP FICO Training in Chennai.\n• Customer Master Data and Configuration\n• Incoming Payments and Cash Application\n• Dunning Process and Credit Management\n• Customer Account Analysis and Reconciliation\n• AR Reports and Aging Analysis" },
-    { id: 5, title: "Asset Accounting (AA)", details: "\n• Learning Objective: Understand asset lifecycle management, depreciation, and reporting in SAP FICO Training in Chennai.\n• Asset Master Data and Classification\n• Asset Acquisition and Capitalization\n• Depreciation Configuration and Posting\n• Asset Transfers, Retirements, and Scrapping\n• Asset Reporting and Year-End Closing" },
-    { id: 6, title: "Controlling (CO) – Cost Center & Internal Orders", details: "\n• Learning Objective: Learn cost center and internal order management for effective cost tracking in SAP FICO Training in Chennai.\n• Cost Center Master Data and Hierarchies\n• Planning, Allocations, and Budgeting\n• Internal Orders and Order Settlements\n• Cost Element Accounting and Reporting\n• Variance Analysis and Controlling Reports" },
-    { id: 7, title: "Profit Center & COPA (Profitability Analysis)", details: "\n• Learning Objective: Understand profitability analysis and profit center reporting in SAP FICO Training in Chennai.\n• Profit Center Master Data and Configuration\n• Cost and Revenue Postings in Profit Centers\n• Profitability Segments in COPA\n• COPA Reporting and Real-Time Analysis\n• Integration of COPA with SD and MM" },
-    { id: 8, title: "Bank Accounting & Cash Management", details: "\n• Learning Objective: Gain expertise in bank accounting, cash journal, and liquidity management in SAP FICO Training in Chennai.\n• Bank Master Data and House Banks\n• Electronic Bank Reconciliation (EBS)\n• Cash Journal and Check Management\n• Liquidity Forecasting and Cash Flow Analysis\n• Bank Statements and Payment Processing" },
-    { id: 9, title: "Integration of SAP FICO with Other Modules", details: "\n• Learning Objective: Learn SAP FICO integration with MM, SD, and HR modules in SAP FICO Training in Chennai.\n• SAP FICO Integration with SAP MM (Procure-to-Pay)\n• SAP FICO Integration with SAP SD (Order-to-Cash)\n• Payroll Accounting and HR-FI Integration\n• Financial Data Flow Across SAP Modules\n• Real-Time Scenarios and Case Studies" },
-    { id: 10, title: "SAP FICO Reporting, Year-End Closing & Real-Time Projects", details: "\n• Learning Objective: Develop expertise in financial reporting, year-end closing, and project execution in SAP FICO Training in Chennai.\n• Financial Statements and Key Reports\n• Year-End and Period-End Closing Activities\n• SAP FICO Audit Reports and Compliance\n• Real-Time Business Case Studies\n• Hands-on Project and Certification Preparation" }
-  ];
-
-  const toggleModule = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
-  };
-
-  return (
-    <div>
-      {/* Syllabus Section with Animation Triggered on Scroll */}
-      <section className="syllabus-section" ref={syllabusRef}>
-        <h2 className="syllabus-title" style={{ fontFamily: "DM Sans, sans-serif" }}>
-        Intellimindz Syllabus for SAP FICO Training in Chennai
-        </h2>
-        <div className="syllabus-container">
-          {modules.map((module, index) => (
-            <motion.div
-              key={module.id}
-              className="syllabus-item"
-              onClick={() => toggleModule(index)}
-              initial={{ opacity: 0, x: index % 2 === 0 ? 100 : -100 }}
-              animate={animateSyllabus ? { opacity: 1, x: 0 } : {}} // Animate only when in viewport
-              transition={{ duration: 0.8, delay: index * 0.2 }}
-            >
-              <div className="syllabus-header">
-                <span className="syllabus-icon">{activeIndex === index ? "−" : "+"}</span>
-                <span className="syllabus-text">Module {module.id}: {module.title}</span>
-              </div>
-              <div className={`syllabus-content ${activeIndex === index ? "active" : ""}`}>
-                <p style={{ fontFamily: "DM Sans, sans-serif", whiteSpace: "pre-line" }}>{module.details}</p>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </section>
-    </div>
-  );
-};
-
-
 
 
 
@@ -1009,6 +931,85 @@ const Testimonials = () => {
 
 
 
+    const SapImSyllabus = () => {
+      const [activeModule, setActiveModule] = useState(null);
+      
+      const modules = [
+        { 
+          id: 1, 
+          title: "What is SAP QM?",
+          description: "SAP QM (Quality Management) is a module inside SAP ERP that enables best manage strategies. It guarantees merchandise meet requirements by means of coping with inspections, notifications, and best certificate, improving common product high-quality and compliance."
+        },
+        { 
+          id: 2, 
+          title: "Planning and Execution of SAP QM",
+          description: "Inspection planning, quality notifications, and execution strategies."
+        },
+        { 
+          id: 3, 
+          title: "SAP QM in Logistics",
+          description: "Integration with procurement and material management."
+        },
+        { 
+          id: 4, 
+          title: "SAP QM in Production",
+          description: "Quality checks, in-process inspections, and final inspections in production."
+        },
+        { 
+          id: 5, 
+          title: "What are the key functions of SAP QM?",
+          description: "Key capabilities of SAP QM include excellent planning, inspection making plans, best notifications, fine control, high-quality certificates, vendor evaluation, and integration with other SAP modules for comprehensive quality control throughout the deliver chain."
+        },
+        { 
+          id: 6, 
+          title: "How does SAP QM benefit businesses?",
+          description: "SAP QM improves product satisfactory, ensures compliance with enterprise standards and policies, reduces high-quality-related expenses, complements consumer pride, and helps non-stop development initiatives through offering real-time insights into quality performance throughout the organization."
+        },
+        { 
+          id: 7, 
+          title: "What industries can gain from SAP QM?",
+          description: "Industries together with manufacturing, pharmaceuticals, automotive, patron goods, and meals and beverage gain from SAP QM. Any enterprise that calls for stringent nice control measures and compliance with rules can leverage SAP QM to decorate product nice and regulatory compliance."
+        },
+        { 
+          id: 8, 
+          title: "How does SAP QM combine with other SAP modules?",
+          description: "SAP QM integrates seamlessly with other SAP modules like Materials Management (MM), Production Planning (PP), Sales and Distribution (SD), and Plant Maintenance (PM). This integration guarantees consistent first-rate management throughout diverse commercial enterprise processes in the SAP atmosphere."
+        }
+      ];
+    
+      return (
+        <div className="sapim-syllabus">
+          <div className="sap-home-syllabus-header">
+            <h1>Frequently Asked Questions of SAP</h1>
+          </div>
+          
+          <div className="sap-syllabus-container">
+            <div className="syllabus-grid">
+              {modules.map((module) => (
+                <div 
+                  key={module.id} 
+                  className={`module-card ${activeModule === module.id ? 'active' : ''}`}
+                  onMouseEnter={() => setActiveModule(module.id)}
+                  onMouseLeave={() => setActiveModule(null)}
+                >
+                  <div className="module-number">0{module.id}</div>
+                  <div className="module-content">
+                    {/* <h3>Module {module.id}:</h3> */}
+                    <p className="module-title">{module.title}</p>
+                    <div className="module-description">
+                      <p>{module.description}</p>
+                    </div>
+                  </div>
+                  <div className="module-decoration"></div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      );
+    };
+    
+
 
   // const CallButton = () => {
   //   const handleCall = () => {
@@ -1039,9 +1040,9 @@ const Saponline = () => {
             <CurriculumProjects />
             {/* <SelfAssessment /> */}
             <BatchRequestForm />
-            <FactsAndFigures />
             {/* <CourseGrid /> */}
             <Testimonials />
+            <SapImSyllabus />
             <CoursesSection />
             {/* <CallButton /> */}
             <Footer />

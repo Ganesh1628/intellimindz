@@ -4,10 +4,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 130px;
+    padding: 40px;
     background-color: #f4f4f4;
     border-radius: 10px;
-    margin-top: -120px;
+    margin-top: 0px;
 }
 
 .additional-slide-text {

@@ -1,19 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+
+
 /* SapImSyllabus.css */
 .sapim-syllabus {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 60px 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
-  .syllabus-header {
+  .sap-home-syllabus-header {
     text-align: center;
     /* margin-bottom: 50px; */
   }
   
-  .syllabus-header h1 {
-    font-size: 2.5rem;
-    color: #003366;
+  .sap-home-syllabus-header h1 {
+    font-size: 2rem;
+    color: #242424;
     margin-bottom: 15px;
     font-weight: 700;
     position: relative;
@@ -57,6 +64,9 @@
     align-items: flex-start;
     min-height: 120px;
     cursor: pointer;
+    padding: 1px 20px;            /* Reduced padding */
+    min-height: auto;              /* Let content decide height */
+    align-items: center;           /* Vertically center items */
   }
   
   .module-card:hover, .module-card.active {
@@ -95,7 +105,7 @@
     font-size: 1rem;
     line-height: 1.5;
     font-weight: 500;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
   }
   
   .module-description {
@@ -151,7 +161,7 @@
   
   /* Responsive Design */
   @media (max-width: 768px) {
-    .syllabus-header h1 {
+    .sap-home-syllabus-header h1 {
       font-size: 2rem;
     }
     
@@ -165,7 +175,7 @@
   }
   
   @media (max-width: 480px) {
-    .syllabus-header h1 {
+    .sap-home-syllabus-header h1 {
       font-size: 1.7rem;
     }
     

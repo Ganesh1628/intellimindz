@@ -16,7 +16,7 @@ button {
 
 .trainers-container {
   text-align: center;
-  padding: 40px;
+  padding: 70px;
   background-color: rgb(253, 253, 253);
 }
 
@@ -129,7 +129,7 @@ button {
 
 .trainer-skills {
   list-style-type: disc;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   font-size: 14px;
   color: #444;
 }
