@@ -68,7 +68,7 @@ const Testimonials = () => {
           return 4.7;
         }
       });
-    }, 100);
+    }, 50);
 
     return () => clearInterval(interval); // Cleanup interval on unmount
   }, [startAnimation]);

@@ -666,27 +666,27 @@ const CurriculumProjects = () => {
 };
 
 
-const SelfAssessment = () => {
-    return (
-        <div className="self-assessment-container">
-            {/* Left Side: Text Content */}
-            <div className="self-assessment-text">
-                <h1 className="self-title">Self Assessment</h1>
-                <p className="self-description">
-                Learn, develop, and rigorously evaluate your skills through our comprehensive Online Assessment Exams, designed to help you successfully achieve your professional certification objectives.
-                </p>
-                <button className="self-btn">
-                    Take Free Practice Test →
-                </button>
-            </div>
+// const SelfAssessment = () => {
+//     return (
+//         <div className="self-assessment-container">
+//             {/* Left Side: Text Content */}
+//             <div className="self-assessment-text">
+//                 <h1 className="self-title">Self Assessment</h1>
+//                 <p className="self-description">
+//                 Learn, develop, and rigorously evaluate your skills through our comprehensive Online Assessment Exams, designed to help you successfully achieve your professional certification objectives.
+//                 </p>
+//                 <button className="self-btn">
+//                     Take Free Practice Test →
+//                 </button>
+//             </div>
 
-            {/* Right Side: Image */}
-            <div className="self-assessment-image">
-                <img src={testImage} alt="Self Assessment" />
-            </div>
-        </div>
-    );
-};
+//             {/* Right Side: Image */}
+//             <div className="self-assessment-image">
+//                 <img src={testImage} alt="Self Assessment" />
+//             </div>
+//         </div>
+//     );
+// };
 
 
 const Corporate = () => {
@@ -1037,7 +1037,7 @@ const Saponline = () => {
             <Trainers/>
             <Onlineheader />
             <CurriculumProjects />
-            <SelfAssessment />
+            {/* <SelfAssessment /> */}
             <BatchRequestForm />
             <FactsAndFigures />
             {/* <CourseGrid /> */}

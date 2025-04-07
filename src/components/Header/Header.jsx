@@ -123,7 +123,7 @@ const Header = () => {
                               position: "absolute",
                               top: "100%",
                               left: "0",
-                              background: "rgb(124, 147, 252)",
+                              background: "rgb(186, 195, 240)",
                               color: "black",
                               listStyle: "none",
                               padding: "10px 0",
