@@ -11,7 +11,7 @@ const navLinks = [
   { display: "About Us", url: "/about_us" }, {},
   { display: "Courses", url: "#", hasDropdown: true }, {},
   { display: "Blog", url: "#" }, {},
-  { display: "contact us", url: "#" }, {},
+  { display: "contact us", url: "/contactus" }, {},
   // { display: "Online", url: "#", hasDropdown: true }, {},
   { display: "SAP", url: "#", hasDropdown: true }, {},
 ];
@@ -52,10 +52,12 @@ const courseOptions = [
 ];
 
 const sapOptions = [
-  { display: "SAP", url: "/sap_course" },
-  { display: "SAP Online", url: "/sap_fico_training_in_chennai" },
-  { display: "SAP IM Training", url: "/Sap_im_training"},
-  { display: "SAP ", url: "/sap"},
+  { display: "SAP FICO", url: "/sap_fico_training_in_chennai" },
+  { display: "SAP ONLINE", url: "/sap_course" },
+  { display: "SAP IM TRAINING", url: "/Sap_im_training"},
+  { display: "SAP ABAP ", url: "/sap_abap_training_in_chennai"},
+  { display: "SAP EHS ", url: "/sap_ehs_training_in_chennai"},
+  { display: "SAP HANA ", url: "/sap_hana_training_in_chennai"},
 ];
 
 const Header = () => {
@@ -127,7 +129,7 @@ const Header = () => {
                               color: "black",
                               listStyle: "none",
                               padding: "10px 0",
-                              boxShadow: "0px 8px 12px rgba(0, 0, 0, 0.15)",
+                              boxShadow: "0px 8px 12px rgba(0, 0, 0, 0.75)",
                               borderRadius: "15px",
                               minWidth: "220px",
                               zIndex: 9999,

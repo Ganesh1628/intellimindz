@@ -1,6 +1,4 @@
 import React, { useState, useEffect, useRef  } from 'react';
-import { FaChevronDown } from 'react-icons/fa';
-import "../components/saponlinecom/onlinebatch.css";
 import "../components/saponlinecom/onlinecurriculum.css";
 import "../components/saponlinecom/onlineaboutus.css";
 import "../components/saponlinecom/onlinewhychooseus.css";
@@ -12,7 +10,7 @@ import Footer from "../components/Footer/Footer";
 import "../components/SAP/Header/Introsap.css";
 import "../components/SapIM/IMsyllabus.css";
 import AskForDemo from "../components/SAP/Askfordemo/askfordemo";
-import saphomeintro1 from '../assests/images/saphomeintro1.png';
+import saphomeintro1 from '../assests/images/saphomeintro1.png'; // Adjust path as needed
 import "../components/saponlinecom/onlinecoursegrid.css";
 import "../components/saponlinecom/onlinetrainers.css";
 import sapintellicommitment from "../assests/images/sapintellicommitment.png";
@@ -28,13 +26,14 @@ import sapcourse4 from "../assests/images/sapcourse4.png";
 import sapcourse5 from "../assests/images/sapcourse5.png";
 import sapcourse6 from "../assests/images/sapcourse6.png";
 // import callIcon from "../assests/images/call-icon.png";
-import { FaStar } from 'react-icons/fa';
+import { FaStar } from 'react-icons/fa'; // Make sure this import is correct
 import onlinetest from "../assests/images/onlinetest.png";
 import menFace1 from '../assests/images/men_face.png';
 import menFace2 from '../assests/images/men_face.png';
 import menFace3 from '../assests/images/men_face.png';
 import menFace4 from '../assests/images/men_face.png';
 import menFace5 from '../assests/images/men_face.png';
+import { motion } from "framer-motion";
 
 const trainers = [
   {
@@ -207,7 +206,6 @@ const SapTrainingProfile = () => {
 
 
 const CoursesSection = () => {
-  const [showAll, setShowAll] = useState(false);
   const courses = [
     {
       provider: "SAP ABAP",
@@ -259,13 +257,11 @@ const CoursesSection = () => {
     }
   ];
 
-  const visibleCourses = showAll ? courses : courses.slice(0, 3);
-
   return (
     <div className="courses-section">
       <h2 className="online-section-title">Related SAP Courses</h2>
       <div className="courses-grid">
-        {visibleCourses.map((course, index) => (
+        {courses.map((course, index) => (
           <div key={index} className="course-card">
             <div className="course-header">
               <div className="provider-container">
@@ -291,33 +287,10 @@ const CoursesSection = () => {
           </div>
         ))}
       </div>
-
-      {/* Show More Button */}
-      {!showAll && (
-        <div style={{ textAlign: "center", marginTop: "20px" }}>
-          <button
-            onClick={() => setShowAll(true)}
-            style={{
-              backgroundColor: "#003366",
-              color: "#fff",
-              padding: "10px 20px",
-              border: "none",
-              borderRadius: "5px",
-              fontSize: "16px",
-              cursor: "pointer",
-              display: "flex",
-              alignItems: "center",
-              gap: "8px",
-              margin: "0 auto"
-            }}
-          >
-            Show More <FaChevronDown />
-          </button>
-        </div>
-      )}
     </div>
   );
 };
+
 
 
 // Batch Request Section (Single const)
@@ -1020,7 +993,7 @@ const Testimonials = () => {
 
 
 // Main Function (Calls All Components)
-const Saponline = () => {
+const Sapabap = () => {
     return (
         <>
             {/* <AboutUsHeader /> */}
@@ -1044,7 +1017,7 @@ const Saponline = () => {
     );
 };
 
-export default Saponline;
+export default Sapabap;
 
 // Header Section
 const Onlineheader = () => {
