@@ -1,268 +1,139 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { Container } from "reactstrap";
+import { Link } from "react-router-dom";
 import { IoMdArrowDropdown } from "react-icons/io";
 import "./header.css";
 import intellimindzLogo from "../../assests/images/intellimindz.png";
 import whatsappIcon from "../../assests/images/whatsapp.png";
-import { Link } from "react-router-dom";
-
-const navLinks = [
-  { display: "Home", url: "/" }, {},
-  { display: "About Us", url: "/about_us" }, {},
-  { display: "Courses", url: "#", hasDropdown: true }, {},
-  { display: "Blog", url: "#" }, {},
-  { display: "contact us", url: "/contactus" }, {},
-  // { display: "Online", url: "#", hasDropdown: true }, {},
-  { display: "SAP", url: "#", hasDropdown: true }, {},
-];
-
-const onlineOptions = [
-  "Software Development",
-  "Web Development",
-  "Mobile Development",
-  "Finance & Accounting",
-  "Languages",
-  "Cloud",
-  "BPM",
-  "Software Testing",
-  "Network & CyberSecurity",
-  "Data Science",
-  "Informatica",
-  "RPA",
-  "Data Warehousing",
-  "Others",
-];
-
-const courseOptions = [
-  "Software Development",
-  "Web Development",
-  "Mobile Development",
-  "Software Testing",
-  "Digital Marketing",
-  "Cloud",
-  "BPM",
-  "Data Science",
-  "Network & CyberSecurity",
-  "Languages",
-  "Database",
-  "Informatica",
-  "RPA",
-  "Data Warehousing",
-  "Others",
-];
-
-const sapOptions = [
-  { display: "SAP FICO", url: "/sap_fico_training_in_chennai" },
-  { display: "SAP ONLINE", url: "/sap_course" },
-  { display: "SAP IM TRAINING", url: "/Sap_im_training"},
-  { display: "SAP ABAP ", url: "/sap_abap_training_in_chennai"},
-  { display: "SAP EHS ", url: "/sap_ehs_training_in_chennai"},
-  { display: "SAP HANA ", url: "/sap_hana_training_in_chennai"},
-];
 
 const Header = () => {
+  const [activeDropdown, setActiveDropdown] = useState(null);
   const menuRef = useRef();
-  const [isCoursesOpen, setIsCoursesOpen] = useState(false);
-  const [isOnlineOpen, setIsOnlineOpen] = useState(false);
-  const [isSapOpen, setIsSapOpen] = useState(false);
-  const [animatePhone, setAnimatePhone] = useState(false);
 
-  const menuToggle = () => menuRef.current.classList.toggle("active__menu");
+  const toggleDropdown = (menu) => {
+    setActiveDropdown(activeDropdown === menu ? null : menu);
+  };
+
+  const closeDropdown = () => setActiveDropdown(null);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setAnimatePhone(true);
-      setTimeout(() => {
-        setAnimatePhone(false);
-      }, 1500);
-    }, 2000);
-    return () => clearInterval(interval);
+    const handleClickOutside = (e) => {
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        closeDropdown();
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+  const courseOptions = [
+    "Software Development",
+    "Web Development",
+    "Mobile Development",
+    "Software Testing",
+    "Digital Marketing",
+    "Cloud",
+    "BPM",
+    "Data Science",
+    "Network & CyberSecurity",
+    "Languages",
+    "Database",
+    "Informatica",
+    "RPA",
+    "Data Warehousing",
+    "Others",
+  ];
+
+  const sapOptions = [
+    { label: "SAP FICO", url: "/sap_fico_training_in_chennai" },
+    { label: "SAP ONLINE", url: "/sap_course" },
+    { label: "SAP IM TRAINING", url: "/Sap_im_training" },
+    { label: "SAP ABAP", url: "/sap_abap_training_in_chennai" },
+    { label: "SAP EHS", url: "/sap_ehs_training_in_chennai" },
+    { label: "SAP HANA", url: "/sap_hana_training_in_chennai" },
+  ];
+
   return (
-    <header className="header">
+    <header className="header" ref={menuRef}>
       <Container>
         <div className="navigation d-flex align-items-center justify-content-between">
           <div className="logo">
-            <h2 className="d-flex align-items-center gap-1">
-              <img
-                src={intellimindzLogo}
-                alt="Intellimindz Logo"
-                className="w-100 intellimindz_img"
-                style={{ height: "100px", width: "auto", marginLeft: "-35px" }}
-              />
-            </h2>
+            <img src={intellimindzLogo} alt="Logo" className="intellimindz_img" />
           </div>
 
-          <div className="nav d-flex align-items-center gap-5">
-            <div className="nav__menu" ref={menuRef} onClick={menuToggle}>
-              <ul className="nav__list">
-                {navLinks.map((item, index) => (
-                  <li key={index} className="nav__item">
-                    {item.hasDropdown ? (
-                      <div
-                        className="dropdown-wrapper"
-                        onMouseEnter={() => {
-                          if (item.display === "Courses") setIsCoursesOpen(true);
-                          else if (item.display === "Online") setIsOnlineOpen(true);
-                          else if (item.display === "SAP") setIsSapOpen(true);
-                        }}
-                        onMouseLeave={() => {
-                          if (item.display === "Courses") setIsCoursesOpen(false);
-                          else if (item.display === "Online") setIsOnlineOpen(false);
-                          else if (item.display === "SAP") setIsSapOpen(false);
-                        }}
-                      >
-                        <a href={item.url} className="dropdown-toggle">
-                          {item.display}{" "}
-                        </a>
-                        {(item.display === "Courses" && isCoursesOpen) ||
-                        (item.display === "Online" && isOnlineOpen) ||
-                        (item.display === "SAP" && isSapOpen) ? (
-                          <ul
-                            className="dropdown-menu"
-                            style={{
-                              position: "absolute",
-                              top: "100%",
-                              left: "0",
-                              background: "rgb(186, 195, 240)",
-                              color: "black",
-                              listStyle: "none",
-                              padding: "10px 0",
-                              boxShadow: "0px 8px 12px rgba(0, 0, 0, 0.75)",
-                              borderRadius: "15px",
-                              minWidth: "220px",
-                              zIndex: 9999,
-                              transition: "opacity 0.3s ease, transform 0.3s ease",
-                              opacity: 1,
-                              transform: "translateY(0)",
-                              maxHeight: "500px",
-                              overflowY: "auto",
-                              scrollbarWidth: "none",
-                              msOverflowStyle: "none",
-                            }}
-                          >
-                            {item.display === "Courses" ? (
-                              courseOptions.map((option, idx) => (
-                                <li
-                                  key={idx}
-                                  className="dropdown-item"
-                                  style={{
-                                    padding: "6px 20px",
-                                    cursor: "pointer",
-                                    transition: "background 0.2s ease",
-                                    fontSize: "20px",
-                                    fontWeight: "500",
-                                    borderRadius: "50px",
-                                    borderBottom: idx !== courseOptions.length - 1 ? "1px solid #f0f0f0" : "none",
-                                  }}
-                                >
-                                  {option}
-                                </li>
-                              ))
-                            ) : item.display === "Online" ? (
-                              onlineOptions.map((option, idx) => (
-                                <li
-                                  key={idx}
-                                  className="dropdown-item"
-                                  style={{
-                                    padding: "6px 20px",
-                                    cursor: "pointer",
-                                    transition: "background 0.2s ease",
-                                    fontSize: "20px",
-                                    fontWeight: "500",
-                                    borderRadius: "50px",
-                                    borderBottom: idx !== onlineOptions.length - 1 ? "1px solid #f0f0f0" : "none",
-                                  }}
-                                >
-                                  {option}
-                                </li>
-                              ))
-                            ) : (
-                              sapOptions.map((option, idx) => (
-                                <Link 
-                                  key={idx} 
-                                  to={option.url}
-                                  className="dropdown-item" 
-                                  style={{
-                                    display: "block",
-                                    padding: "6px 20px",
-                                    cursor: "pointer",
-                                    transition: "background 0.2s ease",
-                                    fontSize: "20px",
-                                    fontWeight: "500",
-                                    borderRadius: "50px",
-                                    borderBottom: idx !== sapOptions.length - 1 ? "1px solid #f0f0f0" : "none",
-                                    color: "black",
-                                    textDecoration: "none",
-                                  }}
-                                >
-                                  {option.display}
-                                </Link>
-                              ))
-                            )}
-                            <div
-                              style={{
-                                position: "sticky",
-                                bottom: "0",
-                                width: "100%",
-                                height: "0px",
-                                background: "linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)",
-                                display: "flex",
-                                justifyContent: "center",
-                                alignItems: "center",
-                                pointerEvents: "none",
-                              }}
-                            >
-                              <div
-                                style={{
-                                  // backgroundColor: "#F0E68C",
-                                  borderRadius: "0%",
-                                  padding: "0px",
-                                  display: "flex",
-                                  width: "100%",
-                                  justifyContent: "center",
-                                  alignItems: "center",
-                                }}
-                              >
-                                <IoMdArrowDropdown size={22} color="black" />
-                              </div>
-                            </div>
-                          </ul>
-                        ) : null}
-                      </div>
-                    ) : (
-                      <a href={item.url}>{item.display}</a>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </div>
+          <nav className="nav__menu">
+            <ul className="nav__list">
+              <li className="nav__item">
+                <Link to="/">Home</Link>
+              </li>
+              <li className="nav__item">
+                <Link to="/about_us">About Us</Link>
+              </li>
 
-            <div className="nav__right d-flex flex-column align-items-start">
-              <p className={`mb-0 d-flex align-items-center gap-2}`}>
-                <i className="ri-phone-line"></i> +91 9655877677
-              </p>
-              <p className={`mb-0 d-flex align-items-center gap-2}`}>
-                <i className="ri-phone-line"></i> +91 9655877577
-              </p>
-            </div>
-          </div>
+              {/* Courses Dropdown */}
+              <li
+                className="nav__item dropdown"
+                onMouseEnter={() => toggleDropdown("courses")}
+                onMouseLeave={closeDropdown}
+              >
+                <span className="dropdown-toggle custom-dropdown">
+                  Courses <IoMdArrowDropdown />
+                </span>
+                {activeDropdown === "courses" && (
+                  <ul className="dropdown-menu show">
+                    {courseOptions.map((course, idx) => (
+                      <li key={idx} className="dropdown-item">
+                        {course}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
 
-          <div className="mobile__menu">
-            <span>
-              <i className="ri-menu-line" onClick={menuToggle}></i>
-            </span>
+              <li className="nav__item">
+                <Link to="#">Blog</Link>
+              </li>
+
+              <li className="nav__item">
+                <Link to="/contactus">Contact Us</Link>
+              </li>
+
+              {/* SAP Dropdown */}
+              <li
+                className="nav__item dropdown"
+                onMouseEnter={() => toggleDropdown("sap")}
+                onMouseLeave={closeDropdown}
+              >
+                <span className="dropdown-toggle custom-dropdown">
+                  SAP <IoMdArrowDropdown />
+                </span>
+                {activeDropdown === "sap" && (
+                  <ul className="dropdown-menu show">
+                    {sapOptions.map((sap, idx) => (
+                      <li key={idx}>
+                        <Link to={sap.url} className="dropdown-item">
+                          {sap.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
+            </ul>
+          </nav>
+
+          <div className="nav__right d-flex flex-column align-items-start">
+            <p>📞 +91 9655877677</p>
+            <p>📞 +91 9655877577</p>
           </div>
         </div>
       </Container>
 
+      {/* WhatsApp Floating Icon */}
       <div className="whatsapp-icon">
         <a href="https://wa.me/919176533433" target="_blank" rel="noopener noreferrer">
           <img src={whatsappIcon} alt="WhatsApp" />
         </a>
-      </div>
-      <div className="whatsapp-icon">
         <a href="https://wa.me/919655877677" target="_blank" rel="noopener noreferrer">
           <img src={whatsappIcon} alt="WhatsApp" />
         </a>
