@@ -60,7 +60,7 @@
 /* Search Bar Positioned in the Right Orange Space */
 .search-container {
   position: absolute;
-  top: 120px;
+  top: 160px;
   right: 100px; /* Move more to the right */
   display: flex;
   align-items: center;
@@ -103,7 +103,7 @@
   text-align: center; /* Ensures it's centered */
   color: #1a1818;
   font-size: 1rem;
-  margin-right: 70px;
+  margin-right: -120px;
   font-family: "DM Sans", sans-serif;
   margin-bottom: -20px;
 }
@@ -177,7 +177,11 @@ p {
   color: #000000;
   margin-top: 10px;
 }
-
+.form-box-enroll{
+  margin-top: 150px;
+  margin-left: 80px;
+  text-align: center;
+}
 .stats-box.active {
   background-color: #ff9800 !important; /* Highlight color */
   color: black !important;
@@ -216,22 +220,6 @@ p {
   margin-top: -60px; /* Moves the button upwards */
   margin-bottom: 60px; /* Creates space below the button */
   position: relative;
-}
-
-.start-course-btn {
-  background-color: #007bff; /* Default blue */
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s;
-}
-
-.start-course-btn:hover {
-  background-color: #0056b3; /* Darker blue on hover */
-  transform: scale(1.05); /* Slight zoom effect */
 }
 
 .start-course-btn:active {
@@ -367,7 +355,8 @@ p {
   background-color: #ff4500;
   color: #fff;
   border: none;
-  padding: 12px 24px;
+  padding: 12px 30px;
+  margin-right: 350px;
   font-size: 1.2rem;
   font-weight: bold;
   border-radius: 30px;
@@ -405,123 +394,123 @@ p {
 }
 
 
-
-/* Adjusting the position of the form */
-.enroll_section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-/* Ensure form fields are interactive */
-.form-box {
-  background-color: white;
-  padding: 40px;
-  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  text-align: center;
-  width: 500px;
-  margin-top: 150px;
-  margin-left: 80px;
-  border: 1px solid #464545;
-  position: relative; /* Ensure the form is positioned correctly */
-  z-index: 1; /* Ensure the form is above other elements */
-}
-
-/* Ensure form fields are not disabled */
-.input-box input,
-.input_select select,
-.radio-group input {
-  pointer-events: auto; /* Ensure fields are clickable */
-}
-
-/* Ensure no overlapping elements are blocking the form */
-.enroll_section {
+.stats-wrapper {
+  background-image: url('../../assests/images/Computer_background.png'); /* Adjust based on actual path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  color: white;
   position: relative;
-  z-index: 2; /* Ensure the form section is above other elements */
 }
 
-/* Input Fields */
-.input-box input {
+.stats-overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* dark transparent overlay for readability */
   width: 100%;
-  padding: 10px;
-  font-size: 14px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  outline: none;
-  transition: 0.3s;
+  padding: 40px 0;
 }
 
-.input-box input:focus {
-  border-color: #007bff;
+.stats-box {
+  text-align: center;
+  padding: 20px 10px;
 }
 
-/* Select Dropdown */
-.input_select select {
-  width: 100%;
-  padding: 10px;
-  font-size: 14px;
-  border: 1px solid #ffffff;
-  border-radius: 5px;
-  outline: none;
-  transition: 0.3s;
+.stats-icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: white;
 }
 
-.input_select select:focus {
-  border-color: #007bff;
-}
-
-/* Training Mode (Radio Buttons) */
-.radio-group {
-  text-align: left;
-  margin-top: 15px;
-}
-
-#trainingmode {
+.stats-box h2 {
+  font-size: 28px;
   font-weight: bold;
-  margin-bottom: 5px;
+  color: #FFD700; /* Golden Yellow */
 }
 
-.radio-group .label {
+.stats-box p {
+  font-size: 16px;
+  color: white;
+  margin-top: 5px;
+}
+
+
+.stats-section {
+  padding: 10px 0;
+  font-family: 'DM Sans', sans-serif;
+  position: relative;
+  background: 
+    linear-gradient(rgba(136, 136, 136, 0.85), rgba(201, 201, 201, 0.85)),
+    url('../../assests/images/Computer_background.png') center/cover no-repeat;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.stat-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px 20px;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: all 0.4s ease;
+  border: 1px solid rgba(255, 107, 0, 0.1);
+}
+
+.stat-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.stat-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
   display: flex;
   align-items: center;
-  font-size: 14px;
-  margin-right: 10px;
-  color: #1f1e1e;
+  justify-content: center;
+  background: rgba(255, 107, 0, 0.1);
+  border-radius: 50%;
+  color: #ff6b00;
+  font-size: 30px;
 }
 
-.radio-group input {
-  margin-right: 5px;
+.stat-number {
+  font-size: 42px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #ff6b00, #ff9e00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-/* Submit Button */
-.register-btn {
-  width: 100%;
-  padding: 12px;
-  background: #007bff;
-  color: #fff;
-  font-size: 16px;
-  font-weight: bold;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-  margin-top: 15px;
+.stat-title {
+  color: #1a1a1a;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0;
 }
 
-.register-btn:hover {
-  background: #0056b3;
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .stat-number {
+    font-size: 36px;
+  }
+  .stat-title {
+    font-size: 16px;
+  }
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
-  .input-container {
-    flex-direction: column;
-    gap: 0;
+  .stats-section {
+    padding: 40px 0;
   }
-
-  .column {
-    width: 100%;
+  .stat-card {
+    padding: 25px 15px;
   }
-
+  .stat-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+  }
 }

@@ -5,6 +5,7 @@ import "./header.css";
 import intellimindzLogo from "../../assests/images/intellimindz.png";
 import whatsappIcon from "../../assests/images/whatsapp.png";
 import { Link } from "react-router-dom";
+import TopHeader from "./TopHeader";
 
 const navLinks = [
   { display: "Home", url: "/" }, {},
@@ -13,7 +14,16 @@ const navLinks = [
   { display: "Blog", url: "#" }, {},
   { display: "contact us", url: "/contactus" }, {},
   // { display: "Online", url: "#", hasDropdown: true }, {},
-  { display: "SAP", url: "#", hasDropdown: true }, {},
+  // { display: "SAP", url: "#", hasDropdown: true }, {},
+  { 
+    display: (
+      <div className="contact-enroll-container">
+        {/* <a href="/contactus" className="contact-link">contact us</a> */}
+        <a href="/enroll" className="enroll-button-header">Enroll now</a>
+      </div>
+    ), 
+    url: "#" 
+  }
 ];
 
 const onlineOptions = [
@@ -80,6 +90,8 @@ const Header = () => {
   }, []);
 
   return (
+    <>
+          <TopHeader />
     <header className="header">
       <Container>
         <div className="navigation d-flex align-items-center justify-content-between">
@@ -94,7 +106,7 @@ const Header = () => {
             </h2>
           </div>
 
-          <div className="nav d-flex align-items-center gap-5">
+<div className="nav d-flex align-items-center gap-5">
             <div className="nav__menu" ref={menuRef} onClick={menuToggle}>
               <ul className="nav__list">
                 {navLinks.map((item, index) => (
@@ -105,147 +117,49 @@ const Header = () => {
                         onMouseEnter={() => {
                           if (item.display === "Courses") setIsCoursesOpen(true);
                           else if (item.display === "Online") setIsOnlineOpen(true);
-                          else if (item.display === "SAP") setIsSapOpen(true);
                         }}
                         onMouseLeave={() => {
                           if (item.display === "Courses") setIsCoursesOpen(false);
                           else if (item.display === "Online") setIsOnlineOpen(false);
-                          else if (item.display === "SAP") setIsSapOpen(false);
                         }}
                       >
                         <a href={item.url} className="dropdown-toggle">
                           {item.display}{" "}
                         </a>
                         {(item.display === "Courses" && isCoursesOpen) ||
-                        (item.display === "Online" && isOnlineOpen) ||
-                        (item.display === "SAP" && isSapOpen) ? (
-                          <ul
-                            className="dropdown-menu"
-                            style={{
-                              position: "absolute",
-                              top: "100%",
-                              left: "0",
-                              background: "rgb(186, 195, 240)",
-                              color: "black",
-                              listStyle: "none",
-                              padding: "10px 0",
-                              boxShadow: "0px 8px 12px rgba(0, 0, 0, 0.75)",
-                              borderRadius: "15px",
-                              minWidth: "220px",
-                              zIndex: 9999,
-                              transition: "opacity 0.3s ease, transform 0.3s ease",
-                              opacity: 1,
-                              transform: "translateY(0)",
-                              maxHeight: "500px",
-                              overflowY: "auto",
-                              scrollbarWidth: "none",
-                              msOverflowStyle: "none",
-                            }}
-                          >
+                        (item.display === "Online" && isOnlineOpen) ? (
+                          <ul className="dropdown-menu">
                             {item.display === "Courses" ? (
                               courseOptions.map((option, idx) => (
-                                <li
-                                  key={idx}
-                                  className="dropdown-item"
-                                  style={{
-                                    padding: "6px 20px",
-                                    cursor: "pointer",
-                                    transition: "background 0.2s ease",
-                                    fontSize: "20px",
-                                    fontWeight: "500",
-                                    borderRadius: "50px",
-                                    borderBottom: idx !== courseOptions.length - 1 ? "1px solid #f0f0f0" : "none",
-                                  }}
-                                >
-                                  {option}
-                                </li>
-                              ))
-                            ) : item.display === "Online" ? (
-                              onlineOptions.map((option, idx) => (
-                                <li
-                                  key={idx}
-                                  className="dropdown-item"
-                                  style={{
-                                    padding: "6px 20px",
-                                    cursor: "pointer",
-                                    transition: "background 0.2s ease",
-                                    fontSize: "20px",
-                                    fontWeight: "500",
-                                    borderRadius: "50px",
-                                    borderBottom: idx !== onlineOptions.length - 1 ? "1px solid #f0f0f0" : "none",
-                                  }}
-                                >
+                                <li key={idx} className="dropdown-item">
                                   {option}
                                 </li>
                               ))
                             ) : (
-                              sapOptions.map((option, idx) => (
-                                <Link 
-                                  key={idx} 
-                                  to={option.url}
-                                  className="dropdown-item" 
-                                  style={{
-                                    display: "block",
-                                    padding: "6px 20px",
-                                    cursor: "pointer",
-                                    transition: "background 0.2s ease",
-                                    fontSize: "20px",
-                                    fontWeight: "500",
-                                    borderRadius: "50px",
-                                    borderBottom: idx !== sapOptions.length - 1 ? "1px solid #f0f0f0" : "none",
-                                    color: "black",
-                                    textDecoration: "none",
-                                  }}
-                                >
-                                  {option.display}
-                                </Link>
+                              onlineOptions.map((option, idx) => (
+                                <li key={idx} className="dropdown-item">
+                                  {option}
+                                </li>
                               ))
                             )}
-                            <div
-                              style={{
-                                position: "sticky",
-                                bottom: "0",
-                                width: "100%",
-                                height: "0px",
-                                background: "linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)",
-                                display: "flex",
-                                justifyContent: "center",
-                                alignItems: "center",
-                                pointerEvents: "none",
-                              }}
-                            >
-                              <div
-                                style={{
-                                  // backgroundColor: "#F0E68C",
-                                  borderRadius: "0%",
-                                  padding: "0px",
-                                  display: "flex",
-                                  width: "100%",
-                                  justifyContent: "center",
-                                  alignItems: "center",
-                                }}
-                              >
+                            {/* <div className="dropdown-arrow-container"> */}
+                              {/* <div className="dropdown-arrow">
                                 <IoMdArrowDropdown size={22} color="black" />
-                              </div>
-                            </div>
+                              </div> */}
+                            {/* </div> */}
                           </ul>
                         ) : null}
                       </div>
                     ) : (
-                      <a href={item.url}>{item.display}</a>
+                      typeof item.display === 'string' ? (
+                        <a href={item.url}>{item.display}</a>
+                      ) : (
+                        item.display
+                      )
                     )}
                   </li>
                 ))}
               </ul>
-            </div>
-
-            <div className="nav__right d-flex flex-column align-items-start">
-              <p className={`mb-0 d-flex align-items-center gap-2}`}>
-                <i className="ri-phone-line"></i> +91 9655877677
-              </p>
-              <p className={`mb-0 d-flex align-items-center gap-2}`}>
-                <i className="ri-phone-line"></i> +91 9655877577
-              </p>
             </div>
           </div>
 
@@ -268,6 +182,7 @@ const Header = () => {
         </a>
       </div>
     </header>
+    </>
   );
 };
 

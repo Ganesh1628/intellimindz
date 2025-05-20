@@ -4,28 +4,28 @@
   padding-right: 0;
   margin-left: 0;
   margin-right: 0;
-  max-width: 100%; /* Ensure the container spans the full width */
+  max-width: 100%;
 }
 
 /* Remove extra spacing between sections */
 .footer .row {
-  margin-bottom: 50px; /* Reduce space between rows */
+  margin-bottom: 50px;
 }
 
 /* Reduce space between paragraphs inside footer */
 .footer p {
-  margin-bottom: 10px; /* Reduce gap between text lines */
-  line-height: 1.2; /* Reduce line spacing */
+  margin-bottom: 10px;
+  line-height: 1.2;
 }
 
 /* Adjust column padding */
 .footer .col {
-  padding: 0px 10px; /* Reduce internal column padding */
+  padding: 0px 10px;
 }
 
 /* Ensure social media links are properly spaced */
 .follows span {
-  margin-right: 10px; /* Reduce spacing between icons */
+  margin-right: 10px;
 }
 
 /* Quick Links */
@@ -38,27 +38,34 @@
 }
 
 .link__list{
-  color: #000000;
+  color:rgb(253, 253, 253) !important;
   font-weight: 400;
 }
 
-.link__list a {
+/* Links in footer */
+.footer-link {
   text-decoration: none;
-  color: #000000;
+  color: rgb(253, 253, 253) !important;
   font-weight: 400;
   font-size: 0.9rem;
 }
 
+.footer-link:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+/* Trending divider line */
 .trending-divider {
   border: none;
   height: 2.3px;
-  background-color: rgb(0, 0, 0);
+  background-color: white;
   margin: 20px 0;
 }
 
-/* Training Courses Section */
+/* Trending Courses Section */
 .trending-courses-section {
-  background: rgb(103, 184, 250);
+  background: rgb(24, 24, 24);
   padding: 10px 0; /* Adjust spacing */
 }
 
@@ -69,57 +76,42 @@
   text-align: center;
   max-width: 90%;
   margin: auto;
-  gap: 5px; /* Reduce gap between course items */
+  gap: 5px;
 }
 
 .trending-course-item {
-  color: rgb(8, 8, 8);
+  color:rgb(253, 253, 253) !important;
   font-size: 14px;
-  margin: 2px; /* Reduce space between courses */
+  margin: 2px;
   white-space: nowrap;
 }
 
-/* Ensure copyright section is at the bottom */
+/* Copyright Section */
 .copyright-section {
   background-color: black;
   color: white;
   text-align: center;
   font-family: "DM Sans", sans-serif;
-  padding: 0.8rem 0; /* Reduce padding */
+  padding: 0.8rem 0;
   width: 100%;
   position: relative;
   bottom: 0;
 }
 
-/* Ensure footer spans full width and removes unnecessary margin */
+/* Footer main background */
 .footer {
-  background: rgb(103, 184, 250);
+  background: rgb(24, 24, 24);
   padding: 0px 0; /* Adjust spacing */
   padding-top: 20px;
   /* border-radius: 30px 30px 0 0; */
   margin-bottom: 0; /* Ensures no gap */
 }
 
-/* Force footer to stick to the bottom if content is short */
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-#root {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Ensures full viewport height */
-}
-
-.footer {
-  margin-top: auto; /* Pushes footer to the bottom */
-}
-
-.footer__logo{
-  margin-top: 0px; /* Adjust this value as needed */
+/* Logo */
+.footer__logo {
+  margin-top: 0px;
   margin-bottom: 10px;
-  color: #000000;
+  color:  rgb(253, 253, 253) !important;
 }
 
 .follow-bold{
@@ -127,9 +119,12 @@ html, body {
   margin-top: 30px;
 }
 
-.footer-header, 
+.footer-header{
+    color: rgb(253, 253, 253) !important;
+}
 .fw-bold {
-  color: black !important;
+  color: rgb(253, 253, 253) !important;
+  margin-left: 0px;
 }
 
 /* Social Media Links */
@@ -138,14 +133,28 @@ html, body {
   font-size: 1.6rem;
 }
 
+/* Social media icon colors */
+.social-icon-facebook {
+  color: #3b5998;
+}
+.social-icon-instagram {
+  color: #f81c1c;
+}
+.social-icon-linkedin {
+  color: #0077b5;
+}
+.social-icon-twitter {
+  color: #1da1f2;
+}
+
 .follows span {
-  margin-right: 10px; /* Reduce spacing */
+  margin-right: 10px;
 }
 
 /* Responsive Fix */
 @media (max-width: 768px) {
   .footer .row {
-    margin-bottom: 3px; /* Further reduce space for smaller screens */
+    margin-bottom: 3px;
   }
 
   .link__list .link__item {
@@ -158,7 +167,7 @@ html, body {
   }
 
   .trending-course-item {
-    font-size: 12px; /* Adjust for small screens */
+    font-size: 12px;
     margin: 2px;
   }
 
