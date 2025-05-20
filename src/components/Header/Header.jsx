@@ -131,9 +131,9 @@ const Header = () => {
 
       {/* WhatsApp Floating Icon */}
       <div className="whatsapp-icon">
-        <a href="https://wa.me/919176533433" target="_blank" rel="noopener noreferrer">
+        {/* <a href="https://wa.me/919176533433" target="_blank" rel="noopener noreferrer">
           <img src={whatsappIcon} alt="WhatsApp" />
-        </a>
+        </a> */}
         <a href="https://wa.me/919655877677" target="_blank" rel="noopener noreferrer">
           <img src={whatsappIcon} alt="WhatsApp" />
         </a>
