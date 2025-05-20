@@ -230,10 +230,10 @@ function App() {
                 </section>
 
                 {/* Footer Section */}
-                <footer className="bg-gray-800 text-white py-8 text-center px-4 md:px-8">
+                {/* <footer className="bg-gray-800 text-white py-8 text-center px-4 md:px-8">
                     <p>&copy; {currentYear} Intellimindz. All rights reserved.</p>
                     <p className="text-sm text-gray-400 mt-1">Website Clone for Demonstration</p>
-                </footer>
+                </footer> */}
             </div>
         </>
     );
