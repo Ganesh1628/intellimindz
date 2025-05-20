@@ -1012,7 +1012,7 @@ const Saphana = () => {
             <SapImSyllabus />
             <CoursesSection />
             {/* <CallButton /> */}
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 };

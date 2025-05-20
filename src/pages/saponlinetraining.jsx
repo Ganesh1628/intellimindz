@@ -1039,7 +1039,7 @@ const Saponline = () => {
             <SapImSyllabus />
             <CoursesSection />
             {/* <CallButton /> */}
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 };
