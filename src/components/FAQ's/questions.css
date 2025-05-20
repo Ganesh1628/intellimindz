@@ -5,6 +5,8 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-left: 370px;
     border-radius: 10px; /* or 10px if you want soft edges */
     color: #fff;
     font-family: 'DM Sans', sans-serif;
@@ -51,3 +53,118 @@
     font-weight: 500;
   }
   
+
+
+  .faq-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  flex-wrap: wrap; /* makes it responsive */
+}
+
+.faq-section-home {
+  flex: 1 1 60%;
+      padding: 10px 40px;
+    background-color: #ffffff;
+    margin-top: 30px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.faq-image-container {
+  flex: 1 1 30%;
+  /* background-color: #000; */
+    display: flex; 
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 160px;
+  width: 100px !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-image {
+  max-width: 100% !important;
+  height: auto;
+  border-radius: 100px;
+}
+
+.faq-item-home{
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  position: relative;
+}
+
+.faq-item-home{
+    display: block;
+}
+
+.faq-question-home{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.faq-question-home:hover {
+    color: #007bff; /* Blue color on hover */
+}
+
+.faq-question-home::before {
+    content: "▸";
+    margin-right: 10px;
+    color: #007bff;
+    font-size: 24px;
+    transition: transform 0.3s ease;
+}
+
+.faq-item-home:hover .faq-question-home::before {
+    transform: rotate(90deg); /* Rotate arrow on hover */
+}
+
+.faq-answer-home {
+    font-size: 16px;
+    color: #2e2b2b;
+    line-height: 1.6;
+    margin-left: 30px;
+    display: none; /* Hidden by default */
+    background-color: #ffffff; /* White background for the answer */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.faq-item-home:hover .faq-answer-home {
+    display: block; /* Show answer on hover */
+}
+
+
+
+
+
+/* Optional: Add media query for better responsiveness */
+@media (max-width: 768px) {
+  .faq-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .faq-section-home, .faq-image-container {
+    width: 100%;
+  }
+
+  .faq-image {
+    max-width: 90%;
+  }
+}

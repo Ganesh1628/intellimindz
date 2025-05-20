@@ -270,12 +270,12 @@ const App = () => {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-6 mt-10 md:mt-16">
+      {/* <footer className="bg-gray-800 text-white py-6 mt-10 md:mt-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-sm">© {new Date().getFullYear()} Your Company Name. All rights reserved.</p>
           <p className="text-xs mt-1">Designed to mimic the provided contact page.</p>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 };

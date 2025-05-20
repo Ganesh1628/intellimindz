@@ -11,6 +11,8 @@ import Sapim from "./pages/sapim";
 import Sapehs from "./pages/sap_ehs";
 import Saphana from "./pages/sap_hana";
 import Contactus from "./pages/contactus";
+import Footer from "./components/Footer/Footer";
+
 const App = () => {
   return (
     <Router>
@@ -27,6 +29,7 @@ const App = () => {
         <Route path="/sap_ehs_training_in_chennai" element={<Sapehs />} /> 
         <Route path="/sap_hana_training_in_chennai" element={<Saphana />} /> 
       </Routes>
+      <Footer /> {/* ✅ Footer always visible */}
     </Router>
   );
 };
