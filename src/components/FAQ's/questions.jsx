@@ -5,63 +5,69 @@ import talkingimage from "../../assests/images/talkingimage.png"; // Import the 
 const FAQ = () => {
     const faqItems = [
         {
-            question: "What courses does Intellimindz offer?",
-            answer: "Intellimindz offers comprehensive training programs in cloud computing, data science, software development, automation, cybersecurity, and more, designed to meet industry demands from beginner to advanced levels."
+            question: "What types of training courses do you offer?",
+            answer: "We offer various IT courses including development, testing, data science, and more."
         },
         {
-            question: "Are the trainers experienced?",
-            answer: "Yes, Intellimindz trainers are highly skilled industry professionals with over 10 years of experience and hands-on knowledge, ensuring practical, in-depth learning for all students."
+            question: "What are the course fees and are there any payment options available?",
+            answer: "Fees vary per course; we offer EMI and installment payment options."
         },
         {
-            question: "Do you offer flexible class timings?",
-            answer: "Yes, Intellimindz offers flexible class schedules, including weekday, weekend, and online sessions, allowing students and professionals to balance learning with their daily commitments."
+            question: "What is the duration of your courses? ",
+            answer: "Course durations vary, typically ranging from a few weeks to months."
         },
         {
-            question: "Do you offer live online training?",
-            answer: "Yes, Intellimindz conducts interactive live online sessions that allow participants to learn, engage with trainers, and clarify doubts conveniently from any location worldwide."
+            question: "Who are the instructors, and what are their qualifications and experience?",
+            answer: "Our instructors are experienced industry professionals with strong subject matter expertise. "
         },
         {
-            question: "Do you provide placement support?",
-            answer: "Yes, Intellimindz offers placement assistance, including resume preparation, mock interviews, and connections with hiring companies, helping students secure jobs in top organizations."
+            question: "Do you provide placement assistance or job support after course completion?",
+            answer: "Yes, we offer placement assistance and job support to our students."
         },
         {
-            question: "What is the duration of the courses?",
-            answer: "Course duration varies, typically ranging from 4 to 12 weeks, depending on the course complexity and curriculum, ensuring comprehensive coverage of topics."
+            question: "What is the class schedule like? Are there weekday or weekend batches?",
+            answer: "CWe have both weekday and weekend batches available to suit different schedules. "
         },
         {
-            question: "Do you offer free demo sessions?",
-            answer: "Yes, Intellimindz provides free demo sessions to help potential students understand the course structure, trainer expertise, and overall quality before enrolling."
+            question: "What is your teaching methodology? Is it more theoretical or practical?",
+            answer: "Our methodology is a blend of theoretical concepts with strong practical hands-on training. "
         },
         {
-            question: "Do you provide corporate training?",
-            answer: "Yes, Intellimindz delivers customized corporate training programs tailored to meet organizational objectives, ensuring skill enhancement and productivity improvement for employees."
+            question: "Do you offer online training courses? ",
+            answer: "Yes, many of our courses are available online for flexible learning."
         },
         {
-            question: "Do you provide a course completion certificate after training?",
-            answer: "Yes, Intellimindz provides a course completion certificate after successfully completing the training, which is industry-recognized and adds credibility to your professional skill set."
+            question: "What are the prerequisites for enrolling in your courses? ",
+            answer: "Prerequisites vary depending on the specific course; basic IT knowledge is often helpful."
         }
     ];
 
+
     return (
-        <div className="faq-section" style={{ fontFamily: "DM Sans, sans-serif" }}>
-            <h1 className="home-title" style={{ fontFamily: "DM Sans, sans-serif" }}>Frequently Asked Questions</h1>
-            {faqItems.map((item, index) => (
-                <div key={index} className="faq-item" style={{ fontFamily: "DM Sans, sans-serif" }}>
-                    <p className="faq-question" style={{ fontFamily: "DM Sans, sans-serif" }}>{item.question}</p>
-                    <p className="faq-answer" style={{ fontFamily: "DM Sans, sans-serif" }}>{item.answer}</p>
+        <div className="faq-wrapper">
+            <div className="faq-section-home">
+                <h1 className="home-title">Frequently Asked Questions</h1>
+                {faqItems.map((item, index) => (
+                    <div key={index} className="faq-item">
+                        <p className="faq-question">{item.question}</p>
+                        <p className="faq-answer">{item.answer}</p>
+                    </div>
+                ))}
+
+                <div className="custom-course-section">
+                    <p className="custom-course-text">
+                        Want to learn with a personalized course curriculum?
+                    </p>
+                    <div className="custom-course-actions">
+                        <button className="contact-button">Contact Us</button>
+                        {/* <span className="phone-number">📞 +91 96558 77677</span> */}
+                    </div>
                 </div>
-            ))}
+            </div>
 
-<div className="custom-course-section">
-  <p className="custom-course-text">
-    Want to learn with a personalized course curriculum?
-  </p>
-  <div className="custom-course-actions">
-    <button className="contact-button">Contact Us</button>
-    {/* <span className="phone-number">📞 +91 96558 77677</span> */}
-  </div>
-</div>
-
+            <div className="faq-image-container">
+                <img src={talkingimage} alt="Talking" className="faq-image" />
+            </div>
         </div>
     );
 };

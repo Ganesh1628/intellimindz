@@ -101,7 +101,7 @@ const Header = () => {
                 src={intellimindzLogo}
                 alt="Intellimindz Logo"
                 className="w-100 intellimindz_img"
-                style={{ height: "100px", width: "auto", marginLeft: "-35px" }}
+                style={{ height: "80px", width: "auto", marginLeft: "-35px" }}
               />
             </h2>
           </div>
