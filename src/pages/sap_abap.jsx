@@ -1012,7 +1012,7 @@ const Sapabap = () => {
             <SapImSyllabus />
             <CoursesSection />
             {/* <CallButton /> */}
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 };

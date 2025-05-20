@@ -328,7 +328,7 @@ const Saphome = () => {
         <Info />
         <SapQuestions />
         <Testimonial />
-        <Footer />
+        {/* <Footer /> */}
         {/* <SearchBar /> */}
     </>
     );
