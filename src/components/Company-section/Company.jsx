@@ -37,9 +37,10 @@ const Company = () => {
       <Container>
         <Row>
           <Col className="home-text-center" >
-            <h2 className="home-courses-title" style={{fontFamily: "DM Sans, sans-serif"}}>
-              Our Courses
-            </h2>
+            <h2 className="home-courses-title" style={{ fontFamily: "DM Sans, sans-serif" }}>
+  <span style={{ marginRight: "8px" }}>Our</span>
+  <span style={{ color: "orange" }}>Courses</span>
+</h2>
           </Col>
         </Row>
         <Row>
