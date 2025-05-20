@@ -142,11 +142,11 @@ const Header = () => {
                                 </li>
                               ))
                             )}
-                            <div className="dropdown-arrow-container">
-                              <div className="dropdown-arrow">
+                            {/* <div className="dropdown-arrow-container"> */}
+                              {/* <div className="dropdown-arrow">
                                 <IoMdArrowDropdown size={22} color="black" />
-                              </div>
-                            </div>
+                              </div> */}
+                            {/* </div> */}
                           </ul>
                         ) : null}
                       </div>

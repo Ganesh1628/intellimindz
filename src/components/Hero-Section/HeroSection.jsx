@@ -1,33 +1,32 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { FaEnvelope } from "react-icons/fa";
 import MessageIcon from "./MessageIcon"; // Import the Message Icon component
-import homePageIntro from "../../assests/images/home-page-into.png";
+import homePageIntro from "../../assests/images/home-intro-page.png";
 import "./hero-section.css";
-import { width } from "@mui/system";
-import { color } from "framer-motion";
 
 const HeroSection = () => {
   const sectionRef = useRef(null);
-  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         if (entries[0].isIntersecting) {
-          setIsVisible(true);
+          // Intersection logic here if needed
         }
       },
       { threshold: 0.3 }
     );
 
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
+    const currentSection = sectionRef.current;
+
+    if (currentSection) {
+      observer.observe(currentSection);
     }
 
     return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
+      if (currentSection) {
+        observer.unobserve(currentSection);
       }
     };
   }, []);
@@ -40,7 +39,6 @@ const HeroSection = () => {
           <MessageIcon />
         </div> */}
 
-        {/* Search Bar & Email */}
         <div className="search-container">
           <input type="text" className="search-input" placeholder="Search courses..." />
           <button className="search-button">Search</button>
@@ -54,7 +52,6 @@ const HeroSection = () => {
 
 {/* Main Content Section */}
         <Row className="content-section">
-          {/* Left Side - Paragraph */}
           <Col lg="6" md="12">
             <div className="header_content" style={{ marginLeft: "-150px", fontFamily: "DM Sans, sans-serif" /* Adjust as needed */ }}>
               {/* css styling for the header is on index.css */}
@@ -65,7 +62,7 @@ const HeroSection = () => {
   </span>
 </h1>
             </div>
-            <div className="hero__content" style={{ marginTop: "20px", textAlign: "left", }}> {/* Ensure text alignment */}
+            <div className="hero__content" style={{ marginTop: "20px", textAlign: "left" }}>
               <p className="mb-10" style={{ width: "620px", textAlign: "left", fontFamily: "DM Sans, sans-serif" }}>
                 Welcome to Intellimindz Training Institute, Chennai's premier destination for comprehensive IT and non-IT training programs. We are committed to empowering individuals with the cutting-edge skills and industry-relevant knowledge needed to thrive in today's competitive landscape. Whether you're looking to build a career in the dynamic IT sector or enhance your expertise in crucial non-IT domains, our expert instructors and practical learning methodologies will guide you towards achieving your professional aspirations in Chennai and beyond.
               </p>
@@ -83,7 +80,7 @@ const HeroSection = () => {
 
 
 <Col lg="6" md="12">
-  <div className="form-box-enroll" style={{ marginTop: "230px", textAlign: "center" }}>
+  <div className="form-box-enroll">
     <img
       src={homePageIntro}
       alt="Enrollment Preview"

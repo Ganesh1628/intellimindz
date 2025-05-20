@@ -3,7 +3,6 @@ import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import "./footer.css"; // Ensure CSS is imported
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { fontWeight } from "@mui/system";
 
 const footerQuickLinks = [
   { display: "Home", url: "#" },
@@ -40,12 +39,12 @@ const trendingCourses = [
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" style={{ backgroundColor: "#000000", color: "white" }}>
       <Container fluid className="full-width-container">
         <Row>
           {/* Company Info */}
           <Col lg="3" md="6" className="mb-4">
-            <h2 className="footer__logo">
+            <h2 className="footer__logo" style={{ color: "white" }}>
               Intelli<span style={{ color: "orange" }}>Mindz</span>
             </h2>
             <h8 className="link__list" style={{fontFamily: "DM Sans, sans-serif"}}>IntelliMindz is a leading training institute based in Chennai, specializing in a wide array of IT courses designed to equip individuals with industry-relevant skills. They focus on practical learning, experienced instructors, and comprehensive course materials.</h8>
@@ -53,10 +52,10 @@ const Footer = () => {
               Intelli Mindz Academy is a leading training institute specialized
               in providing both Online and Classroom training for software,
               spoken English, and Competitive Exams.
-            </ListGroup> */}
+            </h8> */}
           </Col>
 
-          {/* Quick Links */}
+          {/* Quick Links
           <Col lg="3" md="6" className="mb-4">
             <h4 className="fw-bold" style={{ color: "fafafa" }}>Quick Links</h4>
             <ListGroup className="link__list">
@@ -108,11 +107,6 @@ const Footer = () => {
               </ListGroupItem> */}
               {/* <p className="link__list" style={{fontFamily: "DM Sans, sans-serif", fontWeight:"400"}}>Follow us on</p> */}
             </ListGroup>
-
-
-            {/* <p className="mb-0" style={{ color: "black" }}>
-              Follow us on social media
-            </p> */}
             <div className="follows">
               <span>
                 <a href="https://facebook.com">
@@ -139,13 +133,15 @@ const Footer = () => {
         </Row>
 
         {/* Trending Courses Section */}
-        <hr className="trending-divider" /> {/* Added line here */}
+        <hr className="trending-divider" style={{ borderColor: "white" }} />
         <Row className="trending-courses-section">
           <Col>
             <h4 className="text-center fw-bold" style={{ color: "fafafa" }}>Trending Courses</h4>
             <div className="trending-courses">
               {trendingCourses.map((course, index) => (
-                <span key={index} className="trending-course-item">{course} | </span>
+                <span key={index} className="trending-course-item footer-text" style={{ color: "white" }}>
+                  {course} |{" "}
+                </span>
               ))}
             </div>
             <div className="text-center">
@@ -157,11 +153,9 @@ const Footer = () => {
         </Row>
       </Container>
 
-      {/* Copyright Section - Sticks to Bottom */}
-      <div className="copyright-section" style={{ fontFamily: "DM Sans, sans-serif" }}>
-        <p>
-          © Copyrights 2024 @ IntelliMindz IT Trainings
-        </p>
+      {/* Copyright Section */}
+      <div className="copyright-section" style={{ fontFamily: "DM Sans, sans-serif", color: "white" }}>
+        <p>© Copyrights 2024 @ IntelliMindz IT Trainings</p>
       </div>
     </footer>
   );

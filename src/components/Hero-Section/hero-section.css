@@ -103,7 +103,7 @@
   text-align: center; /* Ensures it's centered */
   color: #1a1818;
   font-size: 1rem;
-  margin-right: 70px;
+  margin-right: -120px;
   font-family: "DM Sans", sans-serif;
   margin-bottom: -20px;
 }
@@ -177,7 +177,11 @@ p {
   color: #000000;
   margin-top: 10px;
 }
-
+.form-box-enroll{
+  margin-top: 150px;
+  margin-left: 80px;
+  text-align: center;
+}
 .stats-box.active {
   background-color: #ff9800 !important; /* Highlight color */
   color: black !important;

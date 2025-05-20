@@ -141,11 +141,11 @@
   position: absolute;
   top: 100%;
   left: 0;
-  background: #f0e68c; /* Yellow */
+  background: #6d6520; /* Yellow */
   color: black;
   list-style: none;
   padding: 10px 0; /* Adjusted padding */
-  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15); */
   border-radius: 15px;
   min-width: 220px;
   z-index: 9999;
@@ -161,6 +161,7 @@
 .dropdown-wrapper:hover .dropdown-menu {
   display: block;
   opacity: 1;
+  background-color: #fdb42c;
   transform: translateY(0);
 }
 
