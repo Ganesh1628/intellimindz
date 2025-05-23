@@ -5,7 +5,7 @@ import Header from "./components/Header/Header";
 import Home from "./pages/Home";
 import Java from "./components/Java_course/Java_course"; // Import Java Course Component
 import Saphome from "./pages/Saphome";
-import Saponline from "./pages/saponlinetraining";
+import Saponline from "./pages/SAPmain";
 import Sapabap from "./pages/sap_abap";
 import Sapim from "./pages/sapim";
 import Sapehs from "./pages/sap_ehs";

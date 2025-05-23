@@ -3,10 +3,10 @@ import { FaChevronDown } from 'react-icons/fa';
 import "../components/saponlinecom/onlinebatch.css";
 import "../components/saponlinecom/onlinecurriculum.css";
 import "../components/saponlinecom/onlineaboutus.css";
-import "../components/saponlinecom/onlinewhychooseus.css";
+import "../components/saponlinecom/sapfico.css";
 import "../components/saponlinecom/onlinecorporate.css";
 import "../components/saponlinecom/onlinetestmonials.css";
-import "../components/saponlinecom/onlinepayment.css";
+
 import MessageIcon from "../components/Hero-Section/MessageIcon";
 import Footer from "../components/Footer/Footer";
 import "../components/SAP/Header/Introsap.css";
@@ -156,8 +156,8 @@ const Intro = () => {
       <div className="overlay"></div>
       <div className="intro-content">
         <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
-        <h1 className="intro-h1">SAP FICO Training</h1>
-        <h3 className="intro-h3">Empowering businesses with cutting-edge technology solutions.</h3>
+        <h1 className="intro-h1">Best SAP FICO Training Institute in Chennai </h1>
+        <h3 className="intro-h3">Unlock the power of financial management with expert-led SAP FICO Training – your gateway to global career opportunities </h3>
 
       </div>
     </div>
@@ -170,7 +170,7 @@ const SapTrainingProfile = () => {
       <div className="sap-training-container">
           <div className="sap-training-header animate__animated animate__flipInX">
               <h1>
-                  SAP FICO Training in <span>Chennai</span>
+                  Learn from the Best: SAP FICO Training by  <span>Real-Time Consultants</span>
               </h1>
               <div className="header-divider"></div>
           </div>
@@ -179,18 +179,18 @@ const SapTrainingProfile = () => {
               <div className="training-details">
                   <div className="sap-training-header animate__animated animate__lightSpeedInLeft">
                       <p className="intro-text">
-                          All mentors at IntelliMindz have years of important industry experience, and they have been effectively functioning as advisors in a similar space, which has made them topic specialists.
+                          At IntelliMindz, our SAP FICO mentors are far more than just trainers; they are distinguished industry veterans with profound, extensive experience specifically within the SAP FICO domain. Each has been actively engaged as a consultant and leading expert in the dynamic SAP FICO landscape, establishing them as genuine subject matter authorities ready to guide your learning journey.
                       </p>
                   </div>
 
                   <ul className="benefits-list">
-                      <li><span className="icon">✓</span> Training from basics to advanced SAP IM concepts.</li>
-                      <li><span className="icon">✓</span> Real-time experienced professionals (8+ years).</li>
-                      <li><span className="icon">✓</span> 500+ students successfully trained and placed.</li>
-                      <li><span className="icon">✓</span> Resume preparation and project guidance.</li>
-                      <li><span className="icon">✓</span> Project overview and real-time scenario sessions.</li>
-                      <li><span className="icon">✓</span> Individual attention with customized sessions.</li>
-                      <li><span className="icon">✓</span> Mock interviews and technology FAQs.</li>
+                      <li><span className="icon">✓</span>  Master SAP FICO from Foundation to Advanced concepts with our structured curriculum.</li>
+                      <li><span className="icon">✓</span> Learn directly from Real-Time SAP FICO Experts bringing current industry insights.</li>
+                      <li><span className="icon">✓</span> Benefit from IntelliMindz's Proven Track Record in SAP FICO Training and student success.</li>
+                      <li><span className="icon">✓</span>Receive Dedicated SAP FICO Career Support, including resume and interview preparation.</li>
+                      <li><span className="icon">✓</span> Gain Practical SAP FICO Exposure through real-world case studies and projects.</li>
+                      <li><span className="icon">✓</span> Enjoy a Personalized SAP FICO Learning Experience tailored to your pace and needs.</li>
+                  
                   </ul>
 
                   <button className="enquiry-button">Enquire Now</button>
@@ -607,89 +607,100 @@ const CurriculumProjects = () => {
 
 
 const Corporate = () => {
-    return (
-        <div className="additional-slide-container">
-            <div className="additional-slide-image">
-                <img src={sapintellicommitment} alt="Our Commitment" />
-            </div>
-            <div className="additional-slide-text">
-                <h1>Our Commitment</h1>
-                <p>
-                At IntelliMindz, our SAP FICO Training in Chennai represents our steadfast commitment to delivering top-tier financial management education that bridges academic theory with real-world application. Our meticulously designed curriculum incorporates practical exercises, case studies, and industry insights, enabling students to master essential financial and controlling functionalities in the SAP system. Our experienced instructors, with deep industry expertise, are dedicated to guiding each participant through their learning journey and providing personalized support. We foster a learning environment that encourages innovation, professional growth, and collaborative problem-solving, preparing individuals to excel in their careers. At IntelliMindz, our commitment is to empower every student with advanced knowledge and practical skills to navigate the evolving world of SAP FICO, ensuring lasting success and excellence in the dynamic finance landscape globally.                </p>
-            </div>
-        </div>
-    );
+ const blocksData = [
+ {
+ image: bestPriceIcon,
+ heading: "Best Price Guarantee",
+ paragraph: "You won’t find better value in the marketplace for SAP FICO training in Chennai. We are committed to offering competitive pricing."
+ },
+ {
+ image: runningIcon,
+ heading: "Guaranteed to Run Batches",
+ paragraph: "Our SAP FICO training batches in Chennai are 100% guaranteed to run on the scheduled dates, ensuring your learning journey starts as planned."
+ },
+ {
+ image: staffIcon,
+ heading: "Highly Experienced Trainers",
+ paragraph: "Learn from certified and experienced SAP FICO consultants with years of real-world implementation experience in India."
+ },
+ {
+ image: liveclass,
+ heading: "Live Interactive Sessions",
+ paragraph: "Engage in live, instructor-led online or classroom sessions in Chennai with opportunities for Q&A and real-time interaction."
+ },
+ {
+ image: onlinetest, // Assuming you want to reuse this icon, or replace with a new one
+ heading: "Comprehensive Curriculum",
+ paragraph: "Our curriculum is designed to cover all essential aspects of SAP FICO, tailored to industry needs in the Indian context."
+ },
+ {
+ image: jobopening, // Assuming you want to reuse this icon, or replace with a new one
+ heading: "Career Support",
+ paragraph: "We provide career guidance and placement assistance in Chennai to help you kickstart your SAP FICO career."
+ }
+ ];
+
+ return (
+ <div className="corporate-section">
+ <h2 className="corporate-title">Why Choose Intellimindz?</h2>
+ <div className="corporate-grid">
+ {blocksData.map((block, index) => (
+ <div key={index} className="corporate-block">
+ <div className="corporate-image-container">
+ <img src={block.image} alt={block.heading} className="corporate-image" />
+ </div>
+ <h5 className="corporate-block-heading">{block.heading}</h5>
+ <p className="corporate-block-paragraph">{block.paragraph}</p>
+ </div>
+ ))}
+ </div>
+ </div>
+ );
 };
 
 
 
-const WhyChooseUs = () => {
-    return (
-        <div className="why-choose-us">
-            <h2 className="why-header">Why Choose Us</h2>
-            <p className="subheader">
-            Choose SAP FICO Training in Chennai at IntelliMindz for expert-led instruction, hands-on practicals, real-time projects, and industry-relevant curriculum. Gain in-depth financial and controlling expertise, personalized mentorship, flexible learning modes, and career-focused guidance to excel in the competitive SAP job market.
-            </p>
+const WhyChooseUs = () => { // This is now your renamed component
+  return (
+    <div className="sap-fico-container">
+      <h2>Why Should You Learn SAP FICO?</h2>
+      <p>
+        SAP FICO (Financial Accounting and Controlling) is one of the most widely used SAP modules across
+        industries. It is essential for organizations to manage their financial reporting and performance analytics
+        effectively. With SAP FICO, businesses can automate accounting, handle asset and cost accounting,
+        manage tax calculations, and analyze financial conditions with better clarity.
+      </p>
 
-            <div className="boxes">
-                <div className="box">
-                    <img src={bestPriceIcon} alt="Best Price Guarantee" className="icon" />
-                    {/* <span className="number">01</span> */}
-                    <h3>Best Price Guarantee</h3>
-                    <p>
-                        You won’t find better value in the marketplace. If you find a lower
-                        price, send us the offer, and we’ll beat it.
-                    </p>
-                </div>
-
-                <div className="box">
-                    <img src={runningIcon} alt="Guaranteed to Run" className="icon" />
-                    {/* <span className="number">02</span> */}
-                    <h3>Guaranteed to Run</h3>
-                    <p>
-                        Our training courses are 100% guaranteed to run on dates provided,
-                        whether they are classroom, virtual, or in-house.
-                    </p>
-                </div>
-
-                <div className="box">
-                    <img src={staffIcon} alt="Highly Experienced Staff" className="icon" />
-                    {/* <span className="number">03</span> */}
-                    <h3>Highly Experienced Staff</h3>
-                    <p>
-                        Our support staff and instructors have years of experience in
-                        meeting the specific needs of our clients and delivering
-                        exceptional quality.
-                    </p>
-                </div>
-                <div className="box">
-                    <img src={liveclass} alt="Guaranteed to Run" className="icon" />
-                    {/* <span className="number">04</span> */}
-                    <h3>Live Instructor-Led Training</h3>
-                    <p>
-                        You will be taught by an experienced trainer who has trained more than 1500 students
-                    </p>
-                </div>
-                <div className="box">
-                    <img src={onlinetest} alt="Guaranteed to Run" className="icon" />
-                    {/* <span className="number">05</span> */}
-                    <h3>Course Assignments</h3>
-                    <p>
-                        Assignments will be given to you at end of every session.
-                        This will help you to better understand the topics.
-                    </p>
-                </div>
-                <div className="box">
-                    <img src={jobopening} alt="Guaranteed to Run" className="icon" />
-                    {/* <span className="number">06</span> */}
-                    <h3>Flexible Learning Options</h3>
-                    <p>
-                    Choose between classroom training, online sessions, or customized training based on your preferences.                    </p>
-                </div>
-            </div>
-        </div>
-    );
+      <h4>Here's why SAP FICO is a smart skill to learn:</h4>
+      <ul>
+        <li>
+          <h6>Critical to Every Business : Every organization, regardless of its size, requires financial planning, reporting, and control.</h6>
+        </li>
+        <li>
+          <h6>High Demand in the ERP Job Market : SAP FICO training is a core skill, consistently in demand across industries like manufacturing, banking, telecom, retail, and logistics. </h6>
+        </li>
+        <li>
+          <h6>Comprehensive Understanding of Finance Operations : Gain full exposure to financial management, budgeting, internal orders, cost center accounting, and profitability analysis. </h6>
+        </li>
+        <li>
+          <h6>Global SAP Implementation : SAP is adopted by leading corporations worldwide, and FICO is integral to SAP ERP implementations.</h6>
+        </li>
+      </ul>
+    </div>
+  );
 };
+
+// ... rest of your SAPmain.jsx component (e.g., if SAPmain is a page component)
+const SAPmain = () => {
+  return (
+    <div>
+      {/* ... other parts of your SAPmain page */}
+      <WhyChooseUs /> {/* This is where you're rendering it */}
+      {/* ... rest of your SAPmain page */}
+    </div>
+  );
+};
+
 
 
 
@@ -796,136 +807,6 @@ const Testimonials = () => {
     );
   };
 
-
-  
-  const CourseSchedule = () => {
-    const [selectedDate, setSelectedDate] = useState(null);
-    const [timeoutId, setTimeoutId] = useState(null);
-  
-    const classDates = [
-      { 
-        day: '26', 
-        weekday: 'Wednesday', 
-        month: 'March, 2025',
-        time: '08:00 AM (IST)',
-        duration: '(Class 8hr – 9:30Hrs) / Per Session'
-      },
-      { 
-        day: '27', 
-        weekday: 'Thursday', 
-        month: 'March, 2025',
-        time: '09:30 AM (IST)',
-        duration: '(Class 10hr – 11:30Hrs) / Per Session'
-      },
-      { 
-        day: '28', 
-        weekday: 'Friday', 
-        month: 'March, 2025',
-        time: '10:00 AM (IST)',
-        duration: '(Class 1hr – 1:30Hrs) / Per Session'
-      },
-      { 
-        day: '29', 
-        weekday: 'Saturday', 
-        month: 'March, 2025',
-        time: '11:00 AM (IST)',
-        duration: '(Class 1hr – 1:30Hrs) / Per Session'
-      },
-      { 
-        day: '31', 
-        weekday: 'Sunday', 
-        month: 'March, 2025',
-        time: '08:00 AM (IST)',
-        duration: '(Class 1:30hr – 3:30Hrs) / Per Session'
-      },
-      { 
-        day: '1', 
-        weekday: 'Sunday', 
-        month: 'April, 2025',
-        time: '08:00 AM (IST)',
-        duration: '(Class 12hr – 1:30Hrs) / Per Session'
-      },
-      { 
-        day: '2', 
-        weekday: 'Sunday', 
-        month: 'April, 2025',
-        time: '08:00 AM (IST)',
-        duration: '(Class 11hr – 11:30Hrs) / Per Session'
-      },
-    ];
-  
-    const handleDateClick = (date) => {
-      // Clear any existing timeout
-      if (timeoutId) {
-        clearTimeout(timeoutId);
-      }
-      
-      setSelectedDate(date.day);
-      
-      // Set a new timeout to close the details after 4 seconds
-      const id = setTimeout(() => {
-        setSelectedDate(null);
-      }, 4000);
-      
-      setTimeoutId(id);
-    };
-  
-    const handleContainerLeave = () => {
-      // Clear timeout when mouse leaves the container
-      if (timeoutId) {
-        clearTimeout(timeoutId);
-      }
-      setSelectedDate(null);
-    };
-  
-    // Clean up timeout when component unmounts
-    useEffect(() => {
-      return () => {
-        if (timeoutId) {
-          clearTimeout(timeoutId);
-        }
-      };
-    }, [timeoutId]);
-  
-    return (
-      <div className="schedule-wrapper" onMouseLeave={handleContainerLeave}>
-        <h1 className="online-course-title">Upcoming Batch for SAP FICO Training in Chennai on Intellimindz</h1>
-        
-        <div className={`calendar-section ${selectedDate ? 'expanded' : ''}`}>
-          {classDates.map((date) => (
-            <div 
-              key={date.day}
-              className={`date-item ${selectedDate === date.day ? 'selected' : ''}`}
-              onClick={() => handleDateClick(date)}
-            >
-              <div className="date-main">
-                <div className="date-day">{date.day}</div>
-                <div className="date-info">
-                  <div className="date-weekday">{date.weekday}</div>
-                  <div className="date-month">{date.month}</div>
-                </div>
-              </div>
-              
-              {selectedDate === date.day && (
-                <div className="session-details">
-                  <p className="time">{date.time}</p>
-                  <p className="duration">{date.duration}</p>
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
-  
-        <div className="action-buttons">
-          <button className="enroll-button">ENROLL NOW PAY LATER</button>
-          <button className="view-more-button">VIEW MORE</button>
-        </div>
-      </div>
-    );
-  };
-
-
-
     const SapImSyllabus = () => {
       const [activeModule, setActiveModule] = useState(null);
       
@@ -989,7 +870,6 @@ const Testimonials = () => {
                 >
                   <div className="module-number">0{module.id}</div>
                   <div className="module-content">
-                    {/* <h3>Module {module.id}:</h3> */}
                     <p className="module-title">{module.title}</p>
                     <div className="module-description">
                       <p>{module.description}</p>
@@ -1006,40 +886,22 @@ const Testimonials = () => {
     
 
 
-  // const CallButton = () => {
-  //   const handleCall = () => {
-  //     window.location.href = "tel:+917358464788";
-  //   };
-  
-  //   return (
-  //     <div className="call-button" onClick={handleCall}>
-  //       <img src={callIcon} alt="Call" className="call-icon" />
-  //     </div>
-  //   );
-  // };
-
-
 // Main Function (Calls All Components)
 const Saponline = () => {
     return (
         <>
-            {/* <AboutUsHeader /> */}
             <Intro />
             <SapTrainingProfile />
             <Corporate />
-            <CourseSchedule />
             <WhyChooseUs />
             <AskForDemo/>
             <Trainers/>
             <Onlineheader />
             <CurriculumProjects />
             <BatchRequestForm />
-            {/* <CourseGrid /> */}
             <Testimonials />
             <SapImSyllabus />
             <CoursesSection />
-            {/* <CallButton /> */}
-            {/* <Footer /> */}
         </>
     );
 };

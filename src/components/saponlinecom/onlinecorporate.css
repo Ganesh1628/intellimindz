@@ -1,48 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
-.additional-slide-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-    background-color: #f4f4f4;
-    border-radius: 10px;
-    margin-top: 0px;
+.corporate-section {
+ max-width: 1200px;
+ margin: 40px auto;
+ padding: 20px;
 }
 
-.additional-slide-text {
-    width: 50%;
-    text-align: left;
-    font-family: "DM Sans", sans-serif;
+.corporate-title {
+ font-size: 2rem;
+ color: #2c3e50;
+ font-family: "DM Sans", sans-serif;
+ text-align: center;
+ margin-bottom: 30px;
+ font-weight: 700;
 }
 
-.additional-slide-text h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #222222;
-    margin-bottom: 10px;
-    font-family: "DM Sans", sans-serif;
+.corporate-grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+ gap: 30px;
 }
 
-.additional-slide-text p {
-    font-size: 1rem;
-    font-family: "DM Sans", sans-serif;
-    color: #222222;
-    /* line-height: 1.6; */
+.corporate-block {
+ background-color: #f9f9f9;
+ padding: 20px;
+ border-radius: 8px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ text-align: center;
 }
 
-.additional-slide-image {
-    width: 45%;
-    transition: transform 0.3s ease;
-    flex: none;
+.corporate-image-container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 80px; /* Adjust as needed */
+ margin-bottom: 15px;
 }
 
-.additional-slide-image:hover img {
-    transform: scale(1.01);
-  }
-
-.additional-slide-image img {
-    width: 500px;
-    height: 320px;
-    border-radius: 10px;
+.corporate-image {
+ max-width: 100%;
+ max-height: 100%;
+ object-fit: contain; /* Or 'scale-down' depending on your image sizes */
 }
+
+.corporate-block-heading {
+ font-size: 1.2rem;
+ color: #333;
+ margin-bottom: 10px;
+ font-weight: 600;
+}
+
+.corporate-block-paragraph {
+ font-size: 1rem;
+ color: #666;
+ line-height: 1.5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+ .corporate-grid {
+ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+ }
+}
+

@@ -1,18 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
-// It's assumed Tailwind CSS is set up globally in your React project.
-// If not, you would typically include it in your main index.html or via a PostCSS setup.
-// For the Inter font, ensure it's linked in your project's public/index.html:
-// <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+// Assuming Tailwind CSS is set up globally.
+// Font import comment remains as is.
 
-// Import the logo image
-// The path is relative to this file. Adjust if your file structure is different.
-// Assuming this App.js file (or the component importing this) is in 'src/components/About_us/'
-// and images are in 'src/assests/images/' (note the spelling of "assests")
-import intellimindzLogo from '../../assests/images/about.png';
-import aboutProfile from '../../assests/images/aboutprofile.jpeg';
+import intellimindzLogo from '../../assests/images/about.png'; // Ensure 'assests' spelling and path are correct
+import aboutProfile from '../../assests/images/aboutprofile.jpeg'; // Ensure 'assests' spelling and path are correct
 
-// Component for SVG Icons to keep JSX cleaner
+// Icon components remain unchanged
 const ChevronRightIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mx-1"><polyline points="9 18 15 12 9 6"></polyline></svg>
 );
@@ -42,19 +36,15 @@ const ResumeBuildingIcon = () => (
 );
 
 
-// Main App Component
-function App() {
-    // State for the current year
+// Main App Component (representing your About Us page content)
+function App() { // Consider renaming this to AboutUsPage for clarity if it's specific to this page
     const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
 
-    // useEffect to update year if component remounts (though unlikely for year to change in session)
     useEffect(() => {
         setCurrentYear(new Date().getFullYear());
-        console.log("Intellimindz Clone page (React version) loaded successfully.");
+        // console.log("Intellimindz About Us page (React version) loaded successfully."); // Changed console log slightly
     }, []);
 
-    // Styles that were in <style> tags in HTML.
-    // For a larger React app, these would typically go into a global CSS file or be handled by CSS Modules or styled-components.
     const globalStyles = `
         body {
             font-family: 'Inter', sans-serif;
@@ -66,7 +56,7 @@ function App() {
             left: 0;
             right: 0;
             bottom: 0;
-            background-color: rgba(0, 0, 0, 0.2); /* UPDATED: Subtle overlay for slight darkening */
+            background-color: rgba(0, 0, 0, 0.2);
             z-index: 1; 
         }
         .hero-content {
@@ -75,19 +65,18 @@ function App() {
         }
         .header-with-bg {
             background-color: #f97316; /* Tailwind orange-500 */
-            /* Removed background-image properties */
         }
     `;
 
     return (
         <>
-            {/* Injecting global styles. In a real app, this is better handled via index.css or similar */}
             <style>{globalStyles}</style>
-            <div className="bg-gray-100">
-                {/* Header Section */}
-                {/* UPDATED: Re-added 'hero-bg-overlay' class to header for subtle darkening */}
+            {/* MODIFIED: Added pt-24 (padding-top) to push content below a fixed/sticky site header */}
+            {/* Adjust pt-24 (e.g., pt-20, pt-28) if your main site header has a different height */}
+            <div className="bg-gray-100 pt-24"> 
+                {/* Header Section specific to About Us page (Orange Bar) */}
                 <header className="text-white py-16 md:py-24 px-4 md:px-8 relative header-with-bg hero-bg-overlay">
-                    <div className="container mx-auto hero-content"> {/* hero-content still needed for z-index of text */}
+                    <div className="container mx-auto hero-content">
                         <div className="flex flex-col md:flex-row justify-between items-center">
                             <div>
                                 <h1 className="text-4xl md:text-5xl font-bold mb-2">ABOUT US</h1>
@@ -119,7 +108,7 @@ function App() {
                         <div className="md:w-1/3 mb-8 md:mb-0 md:mr-12 flex justify-center">
                             <div className="w-80 h-80 md:w-96 md:h-96 rounded-lg flex items-center justify-center">
                                 <img
-                                    src={intellimindzLogo} // Using the imported logo image
+                                    src={intellimindzLogo}
                                     alt="Intellimindz Logo"
                                     className="w-full h-full object-contain rounded-lg"
                                     onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/384x384/CCCCCC/FFFFFF?text=Logo+Error'; }}
@@ -160,7 +149,7 @@ function App() {
                                 <p className="text-sm md:text-base">Hiring Partners</p>
                             </div>
                             <div className="text-center text-white">
-                                <p className="text-4xl md:text-5xl font-bold">36</p>
+                                <p className="text-4xl md:text-5xl font-bold">36</p> {/* Assuming this is a number */}
                                 <p className="text-sm md:text-base">Lakhs Avg. CTC</p>
                             </div>
                         </div>
@@ -229,7 +218,7 @@ function App() {
                     </div>
                 </section>
 
-                {/* Footer Section */}
+                {/* Footer Section (commented out as in your original code) */}
                 {/* <footer className="bg-gray-800 text-white py-8 text-center px-4 md:px-8">
                     <p>&copy; {currentYear} Intellimindz. All rights reserved.</p>
                     <p className="text-sm text-gray-400 mt-1">Website Clone for Demonstration</p>
@@ -239,4 +228,4 @@ function App() {
     );
 }
 
-export default App;
+export default App; // Or export default AboutUsPage; if you rename it.

@@ -1,6 +1,6 @@
 import React from 'react';
 import './questions.css';
-import talkingimage from "../../assests/images/talkingimage.png";
+import talkingimage from "../../assests/images/talkingimage.png"; // Make sure this path is correct
 
 const FAQ = () => {
     const faqItems = [
@@ -45,7 +45,12 @@ const FAQ = () => {
     return (
         <div className="faq-wrapper">
 
-            {/* FAQ Section */}
+            {/* Image Section (On the Left) */}
+            <div className="faq-image-container">
+                <img src={talkingimage} alt="FAQ Illustration" className="faq-image" />
+            </div>
+
+            {/* FAQ Section (On the Right) */}
             <div className="faq-section-home">
                 <h1 className="home-title">Frequently Asked Questions</h1>
                 {faqItems.map((item, index) => (
@@ -56,21 +61,7 @@ const FAQ = () => {
                 ))}
             </div>
 
-            {/* Image Section */}
-            <div className="faq-image-container">
-                <img src={talkingimage} alt="Talking" className="faq-image" />
-            </div>
-
-            {/* Box Section */}
-            <div className="custom-course-section">
-                <p className="custom-course-text">
-                    Want to learn with a personalized course curriculum?
-                </p>
-                <div className="custom-course-actions">
-                    <button className="contact-button">Contact Us</button>
-                    {/* <span className="phone-number">📞 +91 96558 77677</span> */}
-                </div>
-            </div>
+            {/* The custom-course-section has been removed from here */}
 
         </div>
     );

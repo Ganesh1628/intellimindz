@@ -216,3 +216,13 @@
   font-size: 2rem;
   padding: 10px;
 }
+
+
+
+/* homeimage */
+.img-fluid{
+  height: 550px !important;
+  width: 500px !important;
+  margin-top: 20px;
+  margin-left: 70px;
+}

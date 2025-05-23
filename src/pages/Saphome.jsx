@@ -12,7 +12,6 @@ import Footer from "../components/Footer/Footer";
 // import SearchBar from "./sapim/SearchBar";
 import "../components/SapIM/IMprofiletraining.css";
 import "../components/SapIM/IMwhyus.css";
-import "../components/saponlinecom/onlinepayment.css";
 import "../components/SAP/Header/Introsap.css";
 import "../components/saponlinecom/onlinecoursegrid.css";
 import sapTrainingImage from '../assests/images/saptraining.png'; // Adjust path as needed

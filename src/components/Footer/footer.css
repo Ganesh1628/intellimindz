@@ -4,28 +4,73 @@
   padding-right: 0;
   margin-left: 0;
   margin-right: 0;
-  max-width: 100%; /* Ensure the container spans the full width */
+  max-width: 100%;
 }
 
-/* Remove extra spacing between sections */
-.footer .row {
-  margin-bottom: 50px; /* Reduce space between rows */
+/* Overall footer row alignment */
+.footer .row.footer-top-row {
+  margin-bottom: 30px;
+  align-items: flex-start;
 }
 
-/* Reduce space between paragraphs inside footer */
+/* Default paragraph styling in footer */
 .footer p {
-  margin-bottom: 10px; /* Reduce gap between text lines */
-  line-height: 1.2; /* Reduce line spacing */
+  margin-bottom: 10px;
+  line-height: 1.2;
 }
 
-/* Adjust column padding */
+/* Column padding */
 .footer .col {
-  padding: 0px 10px; /* Reduce internal column padding */
+  padding: 0px 10px;
 }
 
-/* Ensure social media links are properly spaced */
+/* Company Info Card Styles */
+.company-info-card {
+  background-color: rgb(40, 40, 40);
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.company-info-card .footer__logo {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+.company-card-description {
+  font-family: "DM Sans", sans-serif;
+  color: rgb(253, 253, 253);
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* Styling for centered content columns (Quick Links, Contact, Follow Us) */
+.footer-column-centered {
+  text-align: center;
+}
+
+.footer-column-centered .link__list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.contact-email-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Social media icon spacing */
 .follows span {
-  margin-right: 10px; /* Reduce spacing between icons */
+  margin-right: 10px;
+}
+.follows span:last-child {
+  margin-right: 0;
 }
 
 /* Quick Links */
@@ -33,12 +78,15 @@
   background: transparent;
   font-size: 0.9rem;
   font-weight: 400;
-  padding: 3px 0; /* Reduce padding between links */
-  margin-bottom: 3px; /* Reduce bottom margin */
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 3px;
 }
 
-.link__list{
-  color:rgb(253, 253, 253) !important;
+.link__list {
+  color: rgb(253, 253, 253) !important;
   font-weight: 400;
 }
 
@@ -51,15 +99,16 @@
 
 .trending-divider {
   border: none;
-  height: 2.3px;
-  background-color: rgb(0, 0, 0);
+  height: 1px;
+  background-color: #444;
   margin: 20px 0;
 }
 
 /* Training Courses Section */
 .trending-courses-section {
   background: rgb(24, 24, 24);
-  padding: 10px 0; /* Adjust spacing */
+  padding: 10px 0;
+  padding-bottom: 20px;
 }
 
 .trending-courses {
@@ -69,39 +118,46 @@
   text-align: center;
   max-width: 90%;
   margin: auto;
-  gap: 5px; /* Reduce gap between course items */
+  gap: 5px 10px;
 }
 
 .trending-course-item {
-  color:rgb(253, 253, 253) !important;
+  color: rgb(253, 253, 253) !important;
   font-size: 14px;
-  margin: 2px; /* Reduce space between courses */
   white-space: nowrap;
 }
 
-/* Ensure copyright section is at the bottom */
+.trending-course-item:not(:last-child)::after {
+  content: "|";
+  margin-left: 10px;
+  margin-right: 5px;
+  color: rgb(253, 253, 253);
+}
+
+/* Copyright Section */
 .copyright-section {
   background-color: black;
   color: white;
   text-align: center;
   font-family: "DM Sans", sans-serif;
-  padding: 0.8rem 0; /* Reduce padding */
+  padding: 0.8rem 0;
   width: 100%;
   position: relative;
   bottom: 0;
 }
 
-/* Ensure footer spans full width and removes unnecessary margin */
+/* Main Footer Styling */
 .footer {
   background: rgb(24, 24, 24);
-  padding: 0px 0; /* Adjust spacing */
-  padding-top: 20px;
-  /* border-radius: 30px 30px 0 0; */
-  margin-bottom: 0; /* Ensures no gap */
+  padding: 0px 0;
+  padding-top: 40px;
+  margin-bottom: 0;
+  margin-top: auto;
 }
 
-/* Force footer to stick to the bottom if content is short */
-html, body {
+/* Sticky Footer Base Styles */
+html,
+body {
   height: 100%;
   margin: 0;
 }
@@ -109,81 +165,66 @@ html, body {
 #root {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensures full viewport height */
+  min-height: 100vh;
 }
 
-.footer {
-  margin-top: auto; /* Pushes footer to the bottom */
-}
-
-.footer__logo{
-  margin-top: 0px; /* Adjust this value as needed */
+.footer__logo {
+  margin-top: 0px;
   margin-bottom: 10px;
-  color:  rgb(253, 253, 253) !important;
+  color: rgb(253, 253, 253) !important;
 }
 
-.follow-bold{
-  color: black !important;
-  margin-top: 30px;
-}
-
-.footer-header{
-    color: rgb(253, 253, 253) !important;
-}
 .fw-bold {
   color: rgb(253, 253, 253) !important;
-  margin-left: 0px;
 }
 
-/* Social Media Links */
 .follows span a {
   text-decoration: none;
   font-size: 1.6rem;
 }
 
-.follows span {
-  margin-right: 10px; /* Reduce spacing */
-}
+/* Social Media Icon Colors */
+.ri-facebook-line { color: #3b5998; }
+.ri-instagram-line { color: #e4405f; }
+.ri-youtube-line { color: #FF0000; } /* YouTube Red */
+.ri-twitter-line { color: #1da1f2; }
 
-/* Responsive Fix */
+/* Responsive Fixes */
 @media (max-width: 768px) {
-  .footer .row {
-    margin-bottom: 3px; /* Further reduce space for smaller screens */
+  .footer .row.footer-top-row {
+    margin-bottom: 0;
+  }
+  .footer .col {
+    margin-bottom: 25px;
+  }
+  .footer .col:last-child {
+    margin-bottom: 20px;
   }
 
-  .link__list .link__item {
-    font-size: 0.8rem;
-    padding: 2px 0;
+  .company-info-card { padding: 20px; }
+  .company-info-card .footer__logo { font-size: 1.6rem; }
+  .company-card-description { font-size: 0.85rem; }
+
+  .footer-column-centered h4.fw-bold {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
   }
 
+  .link__list .link__item,
   .link__list a {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+  }
+  .link__list .link__item { padding: 4px 0; }
+
+  .trending-courses-section {
+    padding-bottom: 15px;
+  }
+  .trending-course-item { font-size: 12px; }
+  .trending-course-item:not(:last-child)::after {
+    margin-left: 8px;
+    margin-right: 3px;
   }
 
-  .trending-course-item {
-    font-size: 12px; /* Adjust for small screens */
-    margin: 2px;
-  }
-
-  .footer p {
-    font-size: 0.9rem; /* Reduce font size for small screens */
-  }
+  .footer p { font-size: 0.9rem; }
+  .fw-bold { font-size: 1.1rem; }
 }
-
-.ri-facebook-line{
-  color: #26468b;
-  /* background-color: aqua; */
-}
-
-.ri-instagram-line{
-  color: #f81c1c;
-}
-
-.ri-linkedin-line{
-  color: #0297e7;
-}
-
-.ri-twitter-line{
-  color: #42b7ff;
-}
-

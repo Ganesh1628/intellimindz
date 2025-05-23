@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "./choose-us.css";
 import { FaChalkboardTeacher, FaMoneyBillAlt, FaLaptop, FaBriefcase } from "react-icons/fa";
-import aboutUsImage from '../../assests/images/about_us.png'; 
+import homeImage from '../../assests/images/about_us.png'; 
 
 const ChooseUs = () => {
   const features = [
@@ -35,7 +35,7 @@ const ChooseUs = () => {
   return (
     <section className="choose-us" style={{ backgroundColor: "#f0f0f0", padding: "50px 0", fontFamily: "DM Sans, sans-serif" }}>
       <Container>
-        <h2 className="text-center mb-4" style={{ fontFamily: "DM Sans, sans-serif", fontSize:"2rem", fontWeight:"bold" }}>Why Professionals Choose Us</h2>
+        <h2 className="text-center mb-4" style={{ fontFamily: "DM Sans, sans-serif", fontSize:"2rem", fontWeight:"bold" }}>Why Choose Intellimindz Training Institute?</h2>
         <Row>
           <Col lg="8" md="12">
             <Row>
@@ -53,7 +53,7 @@ const ChooseUs = () => {
             </Row>
           </Col>
           <Col lg="4" md="12" className="d-flex align-items-center">
-            <img src={aboutUsImage} alt="About Us" className="img-fluid rounded" />
+            <img src={homeImage} alt="About Us" className="img-fluid rounded" />
           </Col>
         </Row>
       </Container>
