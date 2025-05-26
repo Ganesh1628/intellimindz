@@ -3,6 +3,7 @@
 .corporate-section {
  max-width: 1200px;
  margin: 40px auto;
+  /* background-color: #fd2323; */
  padding: 20px;
 }
 
@@ -11,7 +12,7 @@
  color: #2c3e50;
  font-family: "DM Sans", sans-serif;
  text-align: center;
- margin-bottom: 30px;
+ margin-bottom: 70px;
  font-weight: 700;
 }
 
@@ -19,13 +20,14 @@
  display: grid;
  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
  gap: 30px;
+ /* background-color: #fd2323; */
 }
 
 .corporate-block {
- background-color: #f9f9f9;
+ background-color: #ffffff;
  padding: 20px;
  border-radius: 8px;
- box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
  text-align: center;
 }
 
@@ -33,20 +35,21 @@
  display: flex;
  justify-content: center;
  align-items: center;
+ /* background-color: aqua; */
  height: 80px; /* Adjust as needed */
  margin-bottom: 15px;
 }
 
 .corporate-image {
- max-width: 100%;
- max-height: 100%;
- object-fit: contain; /* Or 'scale-down' depending on your image sizes */
+height: 200px;
+border-radius: 30px;
 }
 
 .corporate-block-heading {
  font-size: 1.2rem;
  color: #333;
- margin-bottom: 10px;
+ margin-top: 100px;
+ /* margin-bottom: 10px; */
  font-weight: 600;
 }
 

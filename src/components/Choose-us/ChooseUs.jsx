@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "./choose-us.css";
 import { FaChalkboardTeacher, FaMoneyBillAlt, FaLaptop, FaBriefcase } from "react-icons/fa";
-import homeImage from '../../assests/images/about_us.png'; 
+import homeImage from '../../assests/images/home-intro-page.png'; 
 
 const ChooseUs = () => {
   const features = [

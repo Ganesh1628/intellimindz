@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 // Adjust the path if HeroSection.jsx is in a different location
 // relative to your 'assests' folder.
 // If 'assests' is a typo and it should be 'assets', please correct it here.
-import homePageIntro from "../../assests/images/home-intro-page.png";
+import homePageIntro from "../../assests/images/homepagebanner.png";
 import "./hero-section.css"; // Your existing CSS for this section
 import ContactModal from "./ContactModal"; // Import the modal component
 // ^ Ensure this path is correct. If ContactModal.jsx is in 'src/components'

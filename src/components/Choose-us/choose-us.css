@@ -1,24 +1,28 @@
 .choose-box {
-  background-color: #ffdab9; /* Light orange background */
+  background-color: #ffdab9;
+  /* Light orange background */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(8, 0, 0, 0.1);
   text-align: center;
-  margin-top: 20px; /* Move the box higher */
+  margin-top: 20px;
+  /* Move the box higher */
 }
 
-.text-center mb-4
-{
+.text-center mb-4 {
   font-weight: 2rem;
 }
 
 .choose-box h4 {
-  color: #ff4500; /* Orange color for the header */
+  color: #ff4500;
+  /* Orange color for the header */
 }
 
 .choose-box p {
-  color: #000000; /* Black color for the description */
+  color: #000000;
+  /* Black color for the description */
 }
+
 /* Apply font to the entire choose-us section */
 .choose-us {
   font-family: "DM Sans", sans-serif;
@@ -76,14 +80,18 @@
 
 /* Enlarge Icons */
 .feature-icon {
-  font-size: 3rem; /* Increase the size of the icons */
-  color: #000000; /* Optional: Change the color of the icons */
-  margin-bottom: 15px; /* Add some spacing below the icons */
+  font-size: 3rem;
+  /* Increase the size of the icons */
+  color: #000000;
+  /* Optional: Change the color of the icons */
+  margin-bottom: 15px;
+  /* Add some spacing below the icons */
 }
 
 /* Existing Styles */
 .choose-box {
-  background-color: #ffdab9; /* Light orange background */
+  background-color: #ffdab9;
+  /* Light orange background */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -91,11 +99,13 @@
 }
 
 .choose-box h4 {
-  color: #ff4500; /* Orange color for the header */
+  color: #ff4500;
+  /* Orange color for the header */
 }
 
 .choose-box p {
-  color: #000000; /* Black color for the description */
+  color: #000000;
+  /* Black color for the description */
 }
 
 .choose__img img {
@@ -145,9 +155,12 @@
 
 /* Enlarge Icons */
 .feature-icon {
-  font-size: 3rem; /* Increase the size of the icons */
-  color: #000000; /* Optional: Change the color of the icons */
-  margin-bottom: 20px; /* Add some spacing below the icons */
+  font-size: 3rem;
+  /* Increase the size of the icons */
+  color: #000000;
+  /* Optional: Change the color of the icons */
+  margin-bottom: 20px;
+  /* Add some spacing below the icons */
 }
 
 /* Transform Effect for Boxes */
@@ -157,20 +170,24 @@
   background: white;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out; /* Add smooth transition */
+  transition: transform 0.3s ease-in-out;
+  /* Add smooth transition */
 }
 
 .choose-box h4 {
-  color: #ff4500; /* Orange color for the header */
+  color: #ff4500;
+  /* Orange color for the header */
 }
 
 .choose-box p {
-  color: #000000; /* Black color for the description */
-    font-size: 1.2rem;
+  color: #000000;
+  /* Black color for the description */
+  font-size: 1.2rem;
 }
 
 .choose-box:hover {
-  transform: translateY(-30px); /* Move the box up on hover */
+  transform: translateY(-30px);
+  /* Move the box up on hover */
 }
 
 /* Existing Styles */
@@ -219,10 +236,18 @@
 
 
 
-/* homeimage */
-.img-fluid{
-  height: 550px !important;
-  width: 500px !important;
-  margin-top: 20px;
-  margin-left: 70px;
+/* homeimage - Updated for alignment */
+.img-fluid {
+  max-width: 100%;
+  /* Ensures responsiveness */
+  height: auto;
+  /* Maintains aspect ratio */
+  display: block;
+  /* Removes extra space below the image */
+  margin: 0 auto;
+  /* Centers the image horizontally within its column */
+  border-radius: 15px;
+  /* Apply border-radius for consistency with other images */
+  /* Remove specific height and width to let it scale naturally */
+  /* margin-top and margin-left will be managed by the parent column's flexbox alignment */
 }
