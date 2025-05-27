@@ -1,6 +1,6 @@
 /* SapFicoSection.css or WhyChooseUs.css */
 
-.sap-fico-container {
+.sap-fico-container-why {
   font-family: Arial, sans-serif;
   max-width: 800px;
   margin: 40px auto;
@@ -9,35 +9,35 @@
   color: #333;
 }
 
-.sap-fico-container h2 {
+.sap-fico-container-why h2 {
   font-size: 2em;
   color: #000;
   text-align: center;
   margin-bottom: 25px;
 }
 
-.sap-fico-container p {
+.sap-fico-container-why p {
   font-size: 1.1em;
   margin-bottom: 20px;
 }
 
-.sap-fico-container h4 {
+.sap-fico-container-why h4 {
   font-size: 1.4em;
   color: #000;
   margin-top: 30px;
   margin-bottom: 15px;
 }
 
-.sap-fico-container ul {
+.sap-fico-container-why ul {
   list-style-type: disc;
   padding-left: 20px;
 }
 
-.sap-fico-container ul li {
+.sap-fico-container-why ul li {
   margin-bottom: 10px;
 }
 
-.sap-fico-container ul li h6 {
+.sap-fico-container-why ul li h6 {
   font-size: 1em;
   margin: 0;
   display: inline;
@@ -93,6 +93,7 @@
 .sap-fico-expert-section p {
   font-size: 1.1em;
   margin-bottom: 30px;
+  color: #ddd;
   z-index: 2;
   /* Ensure text is above the lines */
   position: relative;
@@ -159,6 +160,7 @@
   gap: 40px;
   /* Space between text and image columns */
   width: 100%;
+  align-items: stretch; /* Ensures columns stretch to the same height if needed */
 }
 
 .sap-fico-about-text {
@@ -180,22 +182,39 @@
   /* Takes up less space */
   min-width: 250px;
   /* Minimum width before wrapping */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* Optional: add a border or shadow if needed to match the image */
-  border: 1px solid #ddd;
-  /* Light border */
-  padding: 10px;
-  background-color: #f9f9f9;
+  display: flex; /* Kept flex for potential future nested items, not strictly necessary for just the img */
+  /* justify-content: center; /* Not needed if img fills width/height */
+  /* align-items: center; /* Not needed if img fills width/height */
+  border: 1px solid #ddd; /* Light border */
+  /* padding: 10px; */ /* <<< REMOVED PADDING */
+  /* background-color: #f9f9f9; */ /* <<< REMOVED BACKGROUND COLOR */
+  border-radius: 5%;
+  overflow: hidden; /* <<< ADDED to ensure image respects border radius if any in future */
+  /* You might want to set a specific height or aspect-ratio here if needed, */
+  /* or let it be determined by the flex content. */
+  /* For a fixed aspect ratio, e.g., 16:9, you could use padding-top trick or aspect-ratio property */
+  /* e.g. height: 250px; or aspect-ratio: 16 / 9; */
 }
 
+/* Target the img tag directly within .sap-fico-about-image-container */
+.sap-fico-about-image-container img {
+  width: 100%; /* Make image take full width of container */
+  height: 100%; /* Make image take full height of container */
+  object-fit: cover; /* Fills the container, may crop. Alternatives: contain, fill, scale-down */
+  display: block; /* Remove extra space below image */
+}
+
+
+/* .sap-fico-about-image class is not used in your JSX for the image in SAPAboutSection */
+/* If you intended to use it, you would add className="sap-fico-about-image" to the <img> tag */
+/* For now, the styles above target the img tag directly. */
+/*
 .sap-fico-about-image {
   max-width: 100%;
   height: auto;
   display: block;
-  /* Remove extra space below image */
 }
+*/
 
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
@@ -210,6 +229,9 @@
     /* Remove min-width for stacking */
     width: 90%;
     /* Adjust width for stacked content */
+  }
+  .sap-fico-about-image-container {
+    height: 250px; /* Example fixed height for stacked view, adjust as needed */
   }
   .sap-fico-about-section h2 {
     font-size: 2em;
@@ -226,6 +248,9 @@
   }
   .sap-fico-about-text {
     font-size: 1em;
+  }
+  .sap-fico-about-image-container {
+    height: 200px; /* Example fixed height for smaller stacked view */
   }
 }
 

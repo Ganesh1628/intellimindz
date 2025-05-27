@@ -238,9 +238,13 @@
 
 /* homeimage - Updated for alignment */
 .img-fluid {
-  max-width: 100%;
+  max-width: 550px !important;
+  margin-left: 100px !important;
+  /* padding-left: -150px !important; */
   /* Ensures responsiveness */
-  height: auto;
+  background-color: #17bf9e;
+    /* box-shadow: 0 2px 4px rgba(8, 0, 0, 0.1); */
+  height: 600px !important;
   /* Maintains aspect ratio */
   display: block;
   /* Removes extra space below the image */

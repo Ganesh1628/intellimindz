@@ -41,6 +41,7 @@ import menFace4 from '../assests/images/men_face.png';
 import menFace5 from '../assests/images/men_face.png';
 // NOTE TO SELF: Image 'sap_training_classroom.png' needs to be added here once available.
 // import sapTrainingClassroom from '../assests/images/sap_training_classroom.png';
+import aboutsapficoImg from '../assests/images/aboutsapfico.jpeg'; // <<<--- ADDED IMAGE IMPORT
 // Add imports for Key Features images here when available, e.g.:
 // import featureIcon1 from '../assests/images/feature_icon1.png';
 // import featureIcon2 from '../assests/images/feature_icon2.png';
@@ -695,7 +696,7 @@ const SAPHeroSection = () => {
 // The original "Why Should You Learn SAP FICO?" section, renamed for clarity
 const WhyShouldYouLearnSAPFICO = () => {
   return (
-    <div className="sap-fico-container">
+    <div className="sap-fico-container-why">
       <h2>Why Should You Learn SAP FICO?</h2>
       <p>
         SAP FICO (Financial Accounting and Controlling) is one of the most widely used SAP modules across
@@ -754,17 +755,14 @@ const SAPAboutSection = () => {
           </p>
         </div>
         <div className="sap-fico-about-image-container">
-          {/* Placeholder div if you want to visually represent the image's space */}
-          <div style={{ width: '250px', height: '180px', backgroundColor: '#e0e0e0', display: 'flex', justifyContent: 'center', alignItems: 'center', color: '#555', fontSize: '0.9em', textAlign: 'center' }}>
-            [Image Placeholder: SAP Training Classroom]
-          </div>
+           {/* <<<--- UPDATED TO SHOW IMAGE INSTEAD OF PLACEHOLDER --- */}
+          <img src={aboutsapficoImg} alt="SAP FICO Training in Chennai" />
         </div>
       </div>
     </div>
   );
 };
 
-// NEW: Key Features Section
 // NEW: Key Features Section
 const KeyFeaturesSection = () => {
   const features = [
@@ -825,7 +823,7 @@ const KeyFeaturesSection = () => {
                   alt={feature.title}
                 />
               ) : (
-                feature.iconPlaceholder
+                feature.iconPlaceholder // This was likely a placeholder for text or an SVG icon
               )}
             </div>
             <h3>{feature.title}</h3>
