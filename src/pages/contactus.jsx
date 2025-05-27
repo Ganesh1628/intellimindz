@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Phone, Mail, MapPin, User, BookOpen, Building, Send, Facebook, Twitter, Youtube, Instagram } from 'lucide-react';
 
 // Ensure 'assests' spelling and path are correct for your project structure
-import contactImageFromFile from '../assests/images/contact.png';
+import contactImageFromFile from '../assests/images/contacted.png';
 
 const SocialIcon = ({ children, href }) => (
     <a href={href || '#'} className="text-gray-600 hover:text-blue-500 transition-colors duration-300">
@@ -194,7 +194,7 @@ const App = () => {
                             <img
                                 src={contactImageFromFile}
                                 alt="Contact representation"
-                                className="rounded-lg object-cover w-full max-w-md h-auto md:h-[500px]"
+                                className="rounded-lg object-cover w-full max-w-md h-500px md:h-[500px]"
                                 onError={(e) => { e.target.src = 'https://placehold.co/400x500/CCCCCC/777777?text=Image+Load+Error&font=sans'; }}
                             />
                         </div>

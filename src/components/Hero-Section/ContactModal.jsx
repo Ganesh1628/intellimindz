@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Phone, Mail, User, BookOpen, Building, Send, X } from 'lucide-react';
 
-import contactImageFromFile from '../../assests/images/contact.png'; // Ensure this path and 'assests' spelling is correct
+import contactImageFromFile from '../../assests/images/contacted.png'; 
 
 const ContactModal = ({ isOpen, onClose }) => {
     const [formData, setFormData] = useState({
@@ -97,25 +97,24 @@ const ContactModal = ({ isOpen, onClose }) => {
     if (!isOpen) return null;
 
     return (
-        // MODIFIED: Changed background opacity and added backdrop-blur-sm
-        <div className="fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex items-center justify-center z-50 p-4 font-sans animate-fadeIn overflow-y-auto">
+        <div className="fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex items-start justify-center z-50 p-4 font-sans animate-fadeIn">
             <style jsx global>{`
-              @keyframes fadeIn {
-                from { opacity: 0; }
-                to { opacity: 1; }
-              }
-              .animate-fadeIn {
-                animation: fadeIn 0.3s ease-out;
-              }
-              @keyframes scaleUp {
-                from { transform: scale(0.9); opacity: 0; }
-                to { transform: scale(1); opacity: 1; }
-              }
-              .animate-scaleUp {
-                animation: scaleUp 0.3s ease-out;
-              }
+                @keyframes fadeIn {
+                    from { opacity: 0; }
+                    to { opacity: 1; }
+                }
+                .animate-fadeIn {
+                    animation: fadeIn 0.3s ease-out;
+                }
+                @keyframes scaleUp {
+                    from { transform: scale(0.9); opacity: 0; }
+                    to { transform: scale(1); opacity: 1; }
+                }
+                .animate-scaleUp {
+                    animation: scaleUp 0.3s ease-out;
+                }
             `}</style>
-            <div className="bg-white p-6 sm:p-8 rounded-lg shadow-xl w-full max-w-4xl max-h-[80vh] md:max-h-[90vh] overflow-y-auto relative animate-scaleUp mt-16 md:mt-24">
+            <div className="bg-white p-6 sm:p-8 rounded-lg shadow-xl w-full max-w-3xl max-h-[calc(100vh-10rem)] mt-32 overflow-y-auto relative animate-scaleUp">
                 <button
                     onClick={onClose}
                     className="absolute top-3 right-3 text-gray-400 hover:text-gray-600 transition-colors z-10"
@@ -124,7 +123,7 @@ const ContactModal = ({ isOpen, onClose }) => {
                     <X size={28} />
                 </button>
                 <div className="flex flex-col md:flex-row gap-8 lg:gap-12 pt-6">
-                    <div className="w-full md:w-1/2 lg:w-3/5">
+                    <div className="w-full md:w-1/2 lg:w-3/5"> 
                         <h3 className="text-xl sm:text-2xl font-semibold text-red-600 mb-2">Ready to Get Started?</h3>
                         <p className="text-xs sm:text-sm text-gray-600 mb-6">
                             Your Email Address will not be Published.
@@ -199,20 +198,21 @@ const ContactModal = ({ isOpen, onClose }) => {
                             )}
                         </form>
                     </div>
-                    <div className="w-full md:w-1/2 lg:w-2/5 flex items-center justify-center mt-8 md:mt-0">
+                    {/* MODIFIED: Changed items-center to items-end for vertical alignment */}
+                    <div className="w-full md:w-1/2 lg:w-2/5 flex items-end justify-center mt-8 md:mt-0"> 
                         <img
-                            src={contactImageFromFile}
+                            src={contactImageFromFile} 
                             alt="Contact representation"
-                            className="rounded-lg object-contain w-full max-w-md h-auto md:max-h-[480px]"
-                            onError={(e) => {
+                            className="rounded-lg object-cover w-full h-5/6" 
+                            onError={(e) => { 
                                 e.target.style.display = 'none';
                                 const fallback = e.target.nextSibling;
                                 if (fallback) fallback.style.display = 'flex';
                             }}
                         />
                         <div style={{display: 'none', textAlign: 'center', width: '100%', height: '300px', border:'1px dashed #ccc', padding: '20px', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
-                           <p className="text-gray-500 text-sm">Image not found.</p>
-                           <p className="text-gray-400 text-xs mt-1">Please check path: {contactImageFromFile ? contactImageFromFile.toString() : "Image path not set"}</p>
+                            <p className="text-gray-500 text-sm">Image not found.</p>
+                            <p className="text-gray-400 text-xs mt-1">Please check path: {typeof contactImageFromFile === 'string' ? contactImageFromFile : (contactImageFromFile ? "Image path set" : "Image path not set")}</p>
                         </div>
                     </div>
                 </div>

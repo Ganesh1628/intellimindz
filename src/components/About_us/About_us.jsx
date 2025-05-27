@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 // Assuming Tailwind CSS is set up globally.
 // Font import comment remains as is.
 
-import intellimindzLogo from '../../assests/images/about.png'; // Ensure 'assests' spelling and path are correct
+import intellimindzLogo from '../../assests/images/aboutus.png'; // Ensure 'assests' spelling and path are correct
 import aboutProfile from '../../assests/images/aboutprofile.jpeg'; // Ensure 'assests' spelling and path are correct
 
 // Icon components remain unchanged
@@ -37,12 +37,11 @@ const ResumeBuildingIcon = () => (
 
 
 // Main App Component (representing your About Us page content)
-function App() { // Consider renaming this to AboutUsPage for clarity if it's specific to this page
+function App() { 
     const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
 
     useEffect(() => {
         setCurrentYear(new Date().getFullYear());
-        // console.log("Intellimindz About Us page (React version) loaded successfully."); // Changed console log slightly
     }, []);
 
     const globalStyles = `
@@ -71,10 +70,7 @@ function App() { // Consider renaming this to AboutUsPage for clarity if it's sp
     return (
         <>
             <style>{globalStyles}</style>
-            {/* MODIFIED: Added pt-24 (padding-top) to push content below a fixed/sticky site header */}
-            {/* Adjust pt-24 (e.g., pt-20, pt-28) if your main site header has a different height */}
             <div className="bg-gray-100 pt-24"> 
-                {/* Header Section specific to About Us page (Orange Bar) */}
                 <header className="text-white py-16 md:py-24 px-4 md:px-8 relative header-with-bg hero-bg-overlay">
                     <div className="container mx-auto hero-content">
                         <div className="flex flex-col md:flex-row justify-between items-center">
@@ -103,19 +99,25 @@ function App() { // Consider renaming this to AboutUsPage for clarity if it's sp
                 </header>
 
                 {/* About Us Section */}
-                <section className="py-16 md:py-24 bg-white px-4 md:px-8">
-                    <div className="container mx-auto flex flex-col md:flex-row items-center">
-                        <div className="md:w-1/3 mb-8 md:mb-0 md:mr-12 flex justify-center">
-                            <div className="w-80 h-80 md:w-96 md:h-96 rounded-lg flex items-center justify-center">
+                <section className="py-16 md:py-24 bg-white px-4  flex md:flex-row  md:px-8">
+                    <div className=' flex md:flex-row'>
+                    {/* <div className="container mx-auto flex flex-col md:flex-row bg-green-300 items-center"> */}
+                        {/* REVERTED: Image column width back to original md:w-1/3. Added w-full for stacking. */}
+                        <div className="w-full h-full  md:w-1/3 mb-8 md:mb-0 md:mr-12 flex justify-center ">
+                            {/* MODIFIED: Image wrapper size increased */}
+                            {/* <div className="w-[352px] h-[352px] md:w-[416px] md:h-[416px] bg-red-300 rounded-lg flex items-center justify-center"> */}
                                 <img
                                     src={intellimindzLogo}
                                     alt="Intellimindz Logo"
-                                    className="w-full h-full object-contain rounded-lg"
-                                    onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/384x384/CCCCCC/FFFFFF?text=Logo+Error'; }}
+                                    className="w-full h-full  object-contain rounded-lg "
+                                    onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/384x384/CCCCCC/FFFFFF?text=Logo+Error'; }} 
                                 />
-                            </div>
+                            {/* </div> */}
                         </div>
-                        <div className="md:w-2/3 text-gray-700">
+
+
+                        {/* REVERTED: Text column width back to original md:w-2/3. Added w-full for stacking. */}
+                        <div className="w-full md:w-2/3 text-gray-700  pr-20 text-justify">
                             <h2 className="text-sm font-semibold text-blue-600 uppercase mb-2">About Us</h2>
                             <h3 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">Intellimindz</h3>
                             <p className="mb-4 leading-relaxed">
@@ -128,10 +130,11 @@ function App() { // Consider renaming this to AboutUsPage for clarity if it's sp
                                 At IntelliMindz, a trusted Training Institute in Chennai, we go beyond theoretical knowledge, emphasizing practical application through exposure to real-world IT industry projects during the training period. Our ultimate goal is to empower individuals to develop their capabilities and achieve significant success in their professional journeys. For those seeking a high-quality training institute in Chennai that prioritizes practical learning and career advancement, IntelliMindz is the ideal destination.
                             </p>
                         </div>
+                    {/* </div> */}
                     </div>
                 </section>
 
-                {/* Highlights Section */}
+                {/* Highlights Section (remains unchanged) */}
                 <section className="bg-gray-900 py-12 md:py-16 px-4 md:px-8">
                     <div className="container mx-auto">
                         <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-10 md:mb-12">Our Highlights</h2>
@@ -149,14 +152,14 @@ function App() { // Consider renaming this to AboutUsPage for clarity if it's sp
                                 <p className="text-sm md:text-base">Hiring Partners</p>
                             </div>
                             <div className="text-center text-white">
-                                <p className="text-4xl md:text-5xl font-bold">36</p> {/* Assuming this is a number */}
+                                <p className="text-4xl md:text-5xl font-bold">36</p>
                                 <p className="text-sm md:text-base">Lakhs Avg. CTC</p>
                             </div>
                         </div>
                     </div>
                 </section>
 
-                {/* Why Choose Us Section */}
+                {/* Why Choose Us Section (remains unchanged) */}
                 <section className="py-16 md:py-24 bg-gray-50 px-4 md:px-8">
                     <div className="container mx-auto">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-4">Why Choose Us</h2>
@@ -166,7 +169,7 @@ function App() { // Consider renaming this to AboutUsPage for clarity if it's sp
                             career support to help you succeed in your professional journey.
                         </p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                            {/* Card 1: Certifications */}
+                            {/* Cards remain unchanged */}
                             <div className="bg-gray-900 p-6 rounded-lg shadow-lg hover:shadow-2xl hover:bg-gray-800 transition-all duration-300 flex flex-col items-center text-center">
                                 <div className="bg-orange-500 p-3 rounded-full mb-4 text-white">
                                     <CertificationIcon />
@@ -174,7 +177,6 @@ function App() { // Consider renaming this to AboutUsPage for clarity if it's sp
                                 <h3 className="text-xl font-semibold mb-2 text-orange-400">Certifications</h3>
                                 <p className="text-gray-300 text-sm leading-relaxed">Earn recognized certifications that validate your skills and enhance your career opportunities.</p>
                             </div>
-                            {/* Card 2: Live Projects */}
                             <div className="bg-gray-900 p-6 rounded-lg shadow-lg hover:shadow-2xl hover:bg-gray-800 transition-all duration-300 flex flex-col items-center text-center">
                                 <div className="bg-orange-500 p-3 rounded-full mb-4 text-white">
                                     <LiveProjectsIcon />
@@ -182,7 +184,6 @@ function App() { // Consider renaming this to AboutUsPage for clarity if it's sp
                                 <h3 className="text-xl font-semibold mb-2 text-orange-400">Live Projects</h3>
                                 <p className="text-gray-300 text-sm leading-relaxed">Gain practical experience by working on real-time projects designed to build your hands-on expertise.</p>
                             </div>
-                            {/* Card 3: Placement Support */}
                             <div className="bg-gray-900 p-6 rounded-lg shadow-lg hover:shadow-2xl hover:bg-gray-800 transition-all duration-300 flex flex-col items-center text-center">
                                 <div className="bg-orange-500 p-3 rounded-full mb-4 text-white">
                                     <PlacementSupportIcon />
@@ -190,7 +191,6 @@ function App() { // Consider renaming this to AboutUsPage for clarity if it's sp
                                 <h3 className="text-xl font-semibold mb-2 text-orange-400">Placement Support</h3>
                                 <p className="text-gray-300 text-sm leading-relaxed">Benefit from our dedicated placement assistance to help you secure a job in your chosen field.</p>
                             </div>
-                            {/* Card 4: Mock Interviews */}
                             <div className="bg-gray-900 p-6 rounded-lg shadow-lg hover:shadow-2xl hover:bg-gray-800 transition-all duration-300 flex flex-col items-center text-center">
                                 <div className="bg-orange-500 p-3 rounded-full mb-4 text-white">
                                     <MockInterviewsIcon />
@@ -198,7 +198,6 @@ function App() { // Consider renaming this to AboutUsPage for clarity if it's sp
                                 <h3 className="text-xl font-semibold mb-2 text-orange-400">Mock Interviews</h3>
                                 <p className="text-gray-300 text-sm leading-relaxed">Improve your confidence and interview performance through regular mock interview sessions.</p>
                             </div>
-                            {/* Card 5: Personalized Learning */}
                             <div className="bg-gray-900 p-6 rounded-lg shadow-lg hover:shadow-2xl hover:bg-gray-800 transition-all duration-300 flex flex-col items-center text-center">
                                 <div className="bg-orange-500 p-3 rounded-full mb-4 text-white">
                                     <PersonalizedLearningIcon />
@@ -206,7 +205,6 @@ function App() { // Consider renaming this to AboutUsPage for clarity if it's sp
                                 <h3 className="text-xl font-semibold mb-2 text-orange-400">Personalized Learning</h3>
                                 <p className="text-gray-300 text-sm leading-relaxed">Experience tailored learning paths with direct opportunities to connect with top companies.</p>
                             </div>
-                            {/* Card 6: Resume Building Sessions */}
                             <div className="bg-gray-900 p-6 rounded-lg shadow-lg hover:shadow-2xl hover:bg-gray-800 transition-all duration-300 flex flex-col items-center text-center">
                                 <div className="bg-orange-500 p-3 rounded-full mb-4 text-white">
                                     <ResumeBuildingIcon />
@@ -228,4 +226,4 @@ function App() { // Consider renaming this to AboutUsPage for clarity if it's sp
     );
 }
 
-export default App; // Or export default AboutUsPage; if you rename it.
+export default App;
