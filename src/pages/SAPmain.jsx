@@ -59,7 +59,7 @@ import ExperiencedtrainersImg from '../assests/images/ExperiencedTrainers.jpeg';
 // Import other components if they are in separate files
 // Uncomment these if they are actual separate components and not defined within this file
 // import MessageIcon from "../components/Hero-Section/MessageIcon";
-import Footer from "../components/Footer/Footer"; // Assuming Footer is a separate component
+// import Footer from "../components/Footer/Footer"; // REMOVED: Footer import as it's not used
 import AskForDemo from "../components/SAP/Askfordemo/askfordemo"; // Assuming AskForDemo is a separate component
 
 
@@ -156,11 +156,11 @@ const Trainers = () => {
             <h4 className="trainer-title">{trainer.expertise}</h4>
             <p className="trainer-details">{trainer.details}</p>
             <h5 className="trainer-skills-title">Key Skills:</h5>
-            <p className="trainer-details">
+            <ul className="trainer-skills-list"> {/* Changed p to ul for semantic list */}
               {trainer.skills.map((skill, index) => (
                 <li key={index}>{skill}</li>
               ))}
-            </p>
+            </ul>
           </div>
         </div>
 
@@ -682,44 +682,52 @@ const Corporate = () => {
 
 
 // The NEW SAP Hero Section (from the image)
-const SAPHeroSection = () => {
+// UPDATED to accept and use openContactModal prop
+const SAPHeroSection = ({ openContactModal }) => {
   return (
     <div className="sap-fico-expert-section"> {/* Using the new class from sapfico.css */}
       <h1>Become an SAP FICO Expert with Intellimindz</h1>
       <p>Comprehensive, hands-on training for real-world SAP ERP financial and controlling mastery.</p>
-      <button className="sap-fico-expert-button">Start Your Journey Today!</button>
+      {/* UPDATED button to call openContactModal */}
+      <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your Journey Today!</button>
     </div>
   );
 };
 
 
 // The original "Why Should You Learn SAP FICO?" section, renamed for clarity
+// UPDATED to include sap-fico-column divs for flex layout
 const WhyShouldYouLearnSAPFICO = () => {
   return (
     <div className="sap-fico-container-why">
       <h2>Why Should You Learn SAP FICO?</h2>
-      <p>
-        SAP FICO (Financial Accounting and Controlling) is one of the most widely used SAP modules across
-        industries. It is essential for organizations to manage their financial reporting and performance analytics
-        effectively. With SAP FICO, businesses can automate accounting, handle asset and cost accounting,
-        manage tax calculations, and analyze financial conditions with better clarity.
-      </p>
-
-      <h4>Here's why SAP FICO is a smart skill to learn:</h4>
-      <ul>
-        <li>
-          <h6>Critical to Every Business : Every organization, regardless of its size, requires financial planning, reporting, and control.</h6>
-        </li>
-        <li>
-          <h6>High Demand in the ERP Job Market : SAP FICO training is a core skill, consistently in demand across industries like manufacturing, banking, telecom, retail, and logistics. </h6>
-        </li>
-        <li>
-          <h6>Comprehensive Understanding of Finance Operations : Gain full exposure to financial management, budgeting, internal orders, cost center accounting, and profitability analysis. </h6>
-        </li>
-        <li>
-          <h6>Global SAP Implementation : SAP is adopted by leading corporations worldwide, and FICO is integral to SAP ERP implementations.</h6>
-        </li>
-      </ul>
+      {/* First column */}
+      <div className="sap-fico-column">
+        <p>
+          SAP FICO (Financial Accounting and Controlling) is one of the most widely used SAP modules across
+          industries. It is essential for organizations to manage their financial reporting and performance analytics
+          effectively. With SAP FICO, businesses can automate accounting, handle asset and cost accounting,
+          manage tax calculations, and analyze financial conditions with better clarity.
+        </p>
+      </div>
+      {/* Second column */}
+      <div className="sap-fico-column">
+        <h4>Here's why SAP FICO is a smart skill to learn:</h4>
+        <ul>
+          <li>
+            <h6>Critical to Every Business : Every organization, regardless of its size, requires financial planning, reporting, and control.</h6>
+          </li>
+          <li>
+            <h6>High Demand in the ERP Job Market : SAP FICO training is a core skill, consistently in demand across industries like manufacturing, banking, telecom, retail, and logistics. </h6>
+          </li>
+          <li>
+            <h6>Comprehensive Understanding of Finance Operations : Gain full exposure to financial management, budgeting, internal orders, cost center accounting, and profitability analysis. </h6>
+          </li>
+          <li>
+            <h6>Global SAP Implementation : SAP is adopted by leading corporations worldwide, and FICO is integral to SAP ERP implementations.</h6>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
@@ -860,7 +868,7 @@ const SAPmain = () => {
 const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const testimonials = [
+  const testimonialsData = [ // Renamed to avoid conflict if 'testimonials' is used elsewhere
     {
       id: 1,
       image: menFace1,
@@ -906,18 +914,18 @@ const Testimonials = () => {
   const getVisibleTestimonials = () => {
     const visible = [];
     for (let i = 0; i < 3; i++) {
-      const index = (currentIndex + i) % testimonials.length;
-      visible.push(testimonials[index]);
+      const index = (currentIndex + i) % testimonialsData.length;
+      visible.push(testimonialsData[index]);
     }
     return visible;
   };
 
   const handlePrev = () => {
-    setCurrentIndex((prev) => (prev === 0 ? testimonials.length - 1 : prev - 1));
+    setCurrentIndex((prev) => (prev === 0 ? testimonialsData.length - 1 : prev - 1));
   };
 
   const handleNext = () => {
-    setCurrentIndex((prev) => (prev === testimonials.length - 1 ? 0 : prev + 1));
+    setCurrentIndex((prev) => (prev === testimonialsData.length - 1 ? 0 : prev + 1));
   };
 
   return (
@@ -962,7 +970,7 @@ const Testimonials = () => {
 const SapImSyllabus = () => {
   const [activeModule, setActiveModule] = useState(null);
 
-  const modules = [
+  const modulesData = [ // Renamed to avoid conflict if 'modules' is used elsewhere
     {
       id: 1,
       title: "What is SAP QM?",
@@ -1001,7 +1009,7 @@ const SapImSyllabus = () => {
     {
       id: 8,
       title: "How does SAP QM combine with other SAP modules?",
-      description: "SAP QM integrates seamlessly with other SAP modules like Materials Management (MM), Production Planning (PP), Sales and Distribution (SD), and Plant Maintenance (PM). This integration guarantees consistent first-rate management throughout diverse commercial business processes in the SAP atmosphere."
+      description: "SAP QM integrates seamlessly with other SAP modules like Materials Management (MM), Production Planning (PP), Sales and Distribution (SD), and Plant Maintenance (PM). This integration guarantees consistent first-rate management across diverse commercial business processes in the SAP atmosphere."
     }
   ];
 
@@ -1012,7 +1020,7 @@ const SapImSyllabus = () => {
       </div>
 
       <div className="syllabus-grid">
-        {modules.map((module) => (
+        {modulesData.map((module) => (
           <div
             key={module.id}
             className={`module-card ${activeModule === module.id ? 'active' : ''}`}
@@ -1037,6 +1045,7 @@ const SapImSyllabus = () => {
 
 // Main component that wraps all other components
 // This component should be the one exported by SAPmain.jsx
+// UPDATED to pass openContactModal to SAPHeroSection
 const Saponline = ({ openContactModal }) => { // Saponline now receives openContactModal
   return (
     <>
@@ -1044,9 +1053,9 @@ const Saponline = ({ openContactModal }) => { // Saponline now receives openCont
       <SapTrainingProfile openContactModal={openContactModal} /> {/* Pass the function */}
       <Corporate />
       {/* The original "Why Should You Learn SAP FICO?" section */}
-      <WhyShouldYouLearnSAPFICO />
+      <WhyShouldYouLearnSAPFICO /> {/* This component does not need the modal function */}
       {/* Newly added: "Become an SAP FICO Expert..." section */}
-      <SAPHeroSection />
+      <SAPHeroSection openContactModal={openContactModal} /> {/* Pass the function */}
       {/* "About Our SAP FICO Training in Chennai" section */}
       <SAPAboutSection />
       {/* START: NEWLY ADDED "Key Features" section, as requested */}
@@ -1061,7 +1070,7 @@ const Saponline = ({ openContactModal }) => { // Saponline now receives openCont
       <SapImSyllabus />
       <CoursesSection />
       {/* Footer should ideally be rendered once at the top-level App.js or main layout component,
-          not repeatedly within page components like this. Keep it commented here to avoid duplicates. */}
+          not repeatedly within page components like this. It's commented out to avoid duplicates if used elsewhere. */}
       {/* <Footer /> */}
     </>
   );
