@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 // Assuming Tailwind CSS is set up globally.
 // Font import comment remains as is.
 
-import intellimindzLogo from '../../assests/images/aboutus.png'; // Ensure 'assests' spelling and path are correct
+import intellimindzLogo from '../../assests/images/aboutupdate.png'; // Ensure 'assests' spelling and path are correct
 import aboutProfile from '../../assests/images/aboutprofile.jpeg'; // Ensure 'assests' spelling and path are correct
 
 // Icon components remain unchanged
