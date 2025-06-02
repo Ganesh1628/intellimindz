@@ -1,49 +1,3 @@
-/* SapFicoSection.css or WhyChooseUs.css */
-
-.sap-fico-container-why {
-  font-family: Arial, sans-serif;
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 20px;
-  line-height: 1.6;
-  color: #333;
-}
-
-.sap-fico-container-why h2 {
-  font-size: 2em;
-  color: #000;
-  text-align: center;
-  margin-bottom: 25px;
-}
-
-.sap-fico-container-why p {
-  font-size: 1.1em;
-  margin-bottom: 20px;
-}
-
-.sap-fico-container-why h4 {
-  font-size: 1.4em;
-  color: #000;
-  margin-top: 30px;
-  margin-bottom: 15px;
-}
-
-.sap-fico-container-why ul {
-  list-style-type: disc;
-  padding-left: 20px;
-}
-
-.sap-fico-container-why ul li {
-  margin-bottom: 10px;
-}
-
-.sap-fico-container-why ul li h6 {
-  font-size: 1em;
-  margin: 0;
-  display: inline;
-  color: #333;
-}
-
 /* (Become an SAP FICO Expert with Intellimindz- blue card line) */
 
 .sap-fico-expert-section {
@@ -121,10 +75,6 @@
 
 /* (About Our SAP FICO Training in Chennai = H2) */
 
-/* sapfico.css */
-
-/* ... (your existing CSS code including .sap-fico-expert-section etc.) ... */
-
 .sap-fico-about-section {
   padding: 60px 20px;
   background-color: #fff;
@@ -182,18 +132,10 @@
   /* Takes up less space */
   min-width: 250px;
   /* Minimum width before wrapping */
-  display: flex; /* Kept flex for potential future nested items, not strictly necessary for just the img */
-  /* justify-content: center; /* Not needed if img fills width/height */
-  /* align-items: center; /* Not needed if img fills width/height */
+  display: flex;
   border: 1px solid #ddd; /* Light border */
-  /* padding: 10px; */ /* <<< REMOVED PADDING */
-  /* background-color: #f9f9f9; */ /* <<< REMOVED BACKGROUND COLOR */
   border-radius: 5%;
-  overflow: hidden; /* <<< ADDED to ensure image respects border radius if any in future */
-  /* You might want to set a specific height or aspect-ratio here if needed, */
-  /* or let it be determined by the flex content. */
-  /* For a fixed aspect ratio, e.g., 16:9, you could use padding-top trick or aspect-ratio property */
-  /* e.g. height: 250px; or aspect-ratio: 16 / 9; */
+  overflow: hidden; /* Ensure image respects border radius */
 }
 
 /* Target the img tag directly within .sap-fico-about-image-container */
@@ -204,19 +146,7 @@
   display: block; /* Remove extra space below image */
 }
 
-
-/* .sap-fico-about-image class is not used in your JSX for the image in SAPAboutSection */
-/* If you intended to use it, you would add className="sap-fico-about-image" to the <img> tag */
-/* For now, the styles above target the img tag directly. */
-/*
-.sap-fico-about-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-*/
-
-/* Media queries for responsiveness */
+/* Media queries for responsiveness (SAPAboutSection) */
 @media (max-width: 768px) {
   .sap-fico-about-content {
     flex-direction: column;
@@ -255,10 +185,6 @@
 }
 
 /* (KEY FEATURES TITLE SAP) */
-
-/* sapfico.css */
-
-/* ... (your existing CSS code including .sap-fico-expert-section, .sap-fico-about-section etc.) ... */
 
 .sap-fico-features-section {
   padding: 60px 20px;
@@ -316,7 +242,6 @@
 .feature-icon-placeholder {
   width: 100%; /* Take full width of the card */
   height: 180px; /* Fixed height for consistency, adjust as needed */
-  /* Remove border-radius: 50%; */
   margin: 0 auto 20px auto;
   /* Center horizontally, space below image */
   display: flex;
@@ -326,7 +251,6 @@
   /* Placeholder text size */
   color: #666666;
   overflow: hidden; /* Ensure image doesn't overflow if taller than height */
-  /* Removed background-color to show image clearly */
 }
 
 .feature-icon-placeholder img {
@@ -353,7 +277,7 @@
   padding: 0 20px; /* Add horizontal padding for text */
 }
 
-/* Media queries for responsiveness */
+/* Media queries for responsiveness (SAPFeaturesSection) */
 @media (max-width: 768px) {
   .sap-fico-features-section h2 {
     font-size: 2em;
@@ -392,56 +316,841 @@
 
 /* (SAP INTRO ENROLL NOW BUTTON STYLING) */
 
-/* src/components/saponlinecom/sapfico.css */
-
-/* ... (your existing CSS code) ... */
-
 /* Styles for the Enroll Now button in the Intro component */
 .intro-content .intro-enroll-button {
-  /* Changed class name to be unique for Intro */
   background-color: #ff6600;
-  /* Example orange color from the image */
   color: white;
   padding: 12px 25px;
   border: none;
   border-radius: 5px;
-  /* Rounded corners */
   font-size: 1.1em;
   font-weight: bold;
-  /* Make the text bold */
   cursor: pointer;
   margin-top: 20px;
-  /* Space above the button */
   transition: background-color 0.3s ease;
-  /* Smooth hover effect */
   text-decoration: none;
-  /* Ensure no underline if it acts as a link */
   display: inline-block;
-  /* Allows padding and margin to work correctly */
 }
 
 .intro-content .intro-enroll-button:hover {
   background-color: #e05a00;
-  /* Darker orange on hover */
 }
 
-/* Ensure the intro content is centered and has proper spacing */
 .intro-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* Center items horizontally */
   text-align: center;
-  /* Center text within its container */
   padding-bottom: 20px;
-  /* Add some space at the bottom if needed */
-  /* You might need to adjust these further based on your .intro-container background image */
 }
 
-/* Adjust margins for text elements within intro-content for better spacing with the button */
 .intro-content h1,
 .intro-content h2,
 .intro-content h3 {
   margin-bottom: 15px;
-  /* Consistent spacing */
 }
+
+/* --- Styling for Our Modes of Training Section --- */
+.training-modes-section {
+  padding: 50px 20px;
+  background-color: #ffffff; 
+  text-align: center;
+}
+
+.training-modes-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.training-modes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1400px; 
+  margin: 0 auto;
+}
+
+.training-mode-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  padding: 35px 25px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.training-mode-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.training-mode-card-title {
+  font-size: 1.6rem;
+  color: #333;
+  font-weight: 600;
+  margin-top: 10px; 
+  margin-bottom: 12px;
+}
+
+.training-mode-card-description {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  flex-grow: 1; 
+  min-height: 70px; 
+}
+
+.training-mode-enroll-button {
+  background-color: #d9534f; 
+  color: white;
+  border: none;
+  padding: 12px 35px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: capitalize; 
+}
+
+.training-mode-enroll-button:hover {
+  background-color: #c9302c; 
+}
+
+.popular-banner {
+  position: absolute;
+  top: 16px;
+  right: -38px;
+  background-color: #d9534f; 
+  color: white;
+  padding: 6px 0;
+  width: 160px;
+  text-align: center;
+  font-size: 0.85em;
+  font-weight: bold;
+  transform: rotate(45deg);
+  transform-origin: center;
+  line-height: 1.3;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 992px) { 
+   .training-mode-card {
+     width: calc(50% - 20px); 
+   }
+}
+
+@media (max-width: 768px) { 
+  .training-modes-title {
+    font-size: 2rem;
+  }
+  .training-modes-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .training-mode-card {
+    width: 85%;
+    max-width: 350px;
+    margin-bottom: 20px; 
+  }
+   .training-mode-card:last-child {
+    margin-bottom: 0;
+  }
+  .popular-banner {
+    top: 12px;
+    right: -42px;
+    width: 150px;
+    font-size: 0.8rem;
+  }
+}
+
+
+/* --- START: Styles for Java Training Course Content Section (now SAP FICO Course Content) --- */
+.java-course-content-section {
+  padding: 50px 20px;
+  background-color: #fff; 
+  font-family: 'Arial', sans-serif; 
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.java-section-title {
+  font-size: 2.2em; 
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 15px; 
+  display: inline-block; 
+  position: relative; 
+}
+
+.java-course-content-section > h2 {
+    display: block; 
+    text-align: center;
+    margin-bottom: 40px; 
+}
+
+.java-title-underline {
+  display: block;
+  width: 60px; 
+  height: 4px; 
+  background-color: #0044cc; 
+  margin: 10px auto 0; 
+}
+
+.java-course-layout-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 30px; 
+  background-color: #f9f9f9; 
+  padding: 20px; 
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.java-syllabus-modules-panel {
+  flex: 1; 
+  min-width: 280px; 
+  background-color: #f0f4ff; 
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  max-height: 380px; 
+  overflow-y: auto;
+  display: flex; 
+  flex-direction: column; 
+  scrollbar-width: thin; 
+  scrollbar-color: #888 #f0f4ff; 
+}
+
+.java-syllabus-modules-panel::-webkit-scrollbar { width: 8px; }
+.java-syllabus-modules-panel::-webkit-scrollbar-track { background: #f0f4ff; border-radius: 10px; }
+.java-syllabus-modules-panel::-webkit-scrollbar-thumb { background-color: #888; border-radius: 10px; border: 2px solid #f0f4ff; }
+.java-syllabus-modules-panel::-webkit-scrollbar-thumb:hover { background-color: #555; }
+
+.java-syllabus-header {
+  background-color: #1c3d7f; 
+  color: white;
+  padding: 15px 20px;
+  font-size: 1.1em;
+  font-weight: bold;
+  clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 100%, 0% 100%);
+  position: sticky; top: 0; z-index: 10; flex-shrink: 0; 
+}
+
+.java-modules-list { list-style: none; padding: 0; margin: 0; }
+
+.java-module-item {
+  padding: 15px 20px; border-bottom: 1px solid #d8e2f3; cursor: pointer;
+  transition: background-color 0.2s ease; font-size: 0.95em; color: #33475b; text-align: left;
+}
+.java-module-item:last-child { border-bottom: none; }
+.java-module-item:hover { background-color: #e6efff; }
+.java-module-item.java-active-module {
+  background-color: #ffffff; color: #1c3d7f; font-weight: 500; 
+  border-left: 4px solid #0044cc; padding-left: 16px; 
+}
+
+.java-topics-details-panel {
+  flex: 1; min-width: 300px; background-color: #e9edf5; 
+  padding: 25px 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  display: flex; flex-direction: column; text-align: left;
+  max-height: 380px; overflow-y: auto;
+  scrollbar-width: thin; scrollbar-color: #888 #e9edf5; 
+}
+
+.java-topics-details-panel::-webkit-scrollbar { width: 8px; }
+.java-topics-details-panel::-webkit-scrollbar-track { background: #e9edf5; border-radius: 10px; }
+.java-topics-details-panel::-webkit-scrollbar-thumb { background-color: #888; border-radius: 10px; border: 2px solid #e9edf5; }
+.java-topics-details-panel::-webkit-scrollbar-thumb:hover { background-color: #555; }
+
+.java-topics-title {
+  font-size: 1.3em; color: #1c3d7f; margin-bottom: 15px; font-weight: bold; flex-shrink: 0; 
+}
+
+.java-topics-list { list-style: none; padding-left: 0; margin-bottom: 20px; }
+.java-topics-list li {
+  margin-bottom: 12px; font-size: 1em; color: #33475b; padding-left: 25px; position: relative;
+}
+.java-topics-list li::before {
+  content: '◆'; color: #0044cc; position: absolute; left: 0; top: 0px; font-size: 1.1em;
+}
+
+.java-download-curriculum-button {
+  background-color: #0044cc; color: white; padding: 12px 25px; border: none; border-radius: 6px;
+  font-size: 1em; font-weight: bold; cursor: pointer; transition: background-color 0.3s ease;
+  display: inline-flex; align-items: center; justify-content: center;
+  align-self: flex-start; margin-top: 20px; flex-shrink: 0; 
+}
+.java-download-curriculum-button:hover { background-color: #003399; }
+
+@media (max-width: 768px) {
+  .java-course-layout-container { flex-direction: column; }
+  .java-syllabus-modules-panel, .java-topics-details-panel {
+    flex: 1 1 100%; min-width: unset; max-height: none; 
+    overflow-y: visible; scrollbar-width: auto; 
+  }
+  .java-syllabus-modules-panel::-webkit-scrollbar, .java-topics-details-panel::-webkit-scrollbar { width: auto; }
+  .java-syllabus-modules-panel::-webkit-scrollbar-track, .java-topics-details-panel::-webkit-scrollbar-track { background: transparent; }
+  .java-syllabus-modules-panel::-webkit-scrollbar-thumb, .java-topics-details-panel::-webkit-scrollbar-thumb { background-color: transparent; border: none; }
+  .java-syllabus-header, .java-topics-title { position: static; }
+  .java-section-title { font-size: 1.8em; }
+  .java-syllabus-header { clip-path: none; border-top-left-radius: 8px; border-top-right-radius: 8px; }
+  .java-download-curriculum-button { align-self: stretch; text-align: center; justify-content: center; margin-top: 20px; }
+}
+/* --- END: Styles for Java Training Course Content Section (now SAP FICO Course Content) --- */
+
+/* --- START: Styles for Batch Details Section --- */
+.batch-details-section {
+  padding: 60px 20px;
+  /* background-image: url('../assests/images/batch_details_background.jpg'); */ 
+  background-color: #f0ead6; 
+  background-size: cover;
+  background-position: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.batch-details-title {
+  text-align: center;
+  font-size: 2.2em;
+  color: #333; 
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.batch-cards-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.batch-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: flex; 
+  margin-bottom: 30px;
+  align-items: stretch; 
+  box-sizing: border-box; 
+  width: 100%;
+  min-height: 180px; /* Explicit minimum height */
+}
+
+.batch-segment {
+  flex: 1 1 0%; 
+  padding: 15px; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  box-sizing: border-box; 
+  position: relative; 
+  word-wrap: break-word; 
+  overflow-wrap: break-word;
+}
+
+.batch-segment:not(:last-child) {
+  border-right: 1px solid #e0e0e0; 
+}
+
+.segment-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+}
+
+.batch-segment p {
+  margin: 5px 0; 
+  line-height: 1.5; 
+  color: #555; 
+  box-sizing: border-box; 
+}
+
+.batch-month-year { 
+  color: #0056b3; 
+  font-weight: bold;
+  font-size: 1.4em; 
+  /* Ensure it's treated as a flex item for centering if it's just text */
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; /* if it's the only child of its segment */
+}
+
+.batch-schedule-mode p:first-child, 
+.batch-duration-type p:first-child { 
+  font-weight: 600; 
+  color: #333;
+  font-size: 1em; 
+}
+
+.course-fee-tag {
+  background-color: #ff8c00; 
+  color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.9em;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.suitability-text {
+  font-size: 0.85em;
+  color: #666;
+  margin: 3px 0; 
+  line-height: 1.4;
+}
+
+/* Responsive adjustments for Batch Details Section */
+@media (max-width: 992px) {
+  .batch-card {
+    flex-wrap: wrap; 
+    min-height: auto; 
+  }
+  .batch-segment {
+    flex-basis: calc(50% - 1px); 
+    padding: 15px 10px;
+  }
+  .batch-segment:nth-child(2n) { 
+    border-right: none; 
+  }
+  .batch-segment:nth-child(odd):not(:last-of-type) {
+     border-right: 1px solid #e0e0e0;
+  }
+  .batch-segment:nth-child(3):nth-last-child(2) { 
+    border-right: 1px solid #e0e0e0;
+  }
+  .batch-segment:last-of-type { 
+    border-right: none;
+   }
+  .batch-segment:nth-child(1), .batch-segment:nth-child(2) { 
+    border-bottom: 1px solid #e0e0e0;
+  }
+}
+
+@media (max-width: 600px) {
+  .batch-details-title {
+    font-size: 1.8em;
+  }
+  .batch-card {
+    flex-direction: column; 
+    min-height: auto; 
+  }
+  .batch-segment {
+    flex-basis: auto; 
+    width: 100%; 
+    border-right: none !important; 
+    border-bottom: 1px solid #e0e0e0; 
+    padding: 15px; 
+  }
+  .batch-segment:last-child {
+    border-bottom: none;
+  }
+  .batch-month-year {
+    font-size: 1.3em;
+    padding: 15px; 
+  }
+}
+
+/* --- END: Styles for Batch Details Section --- */
+
+
+/* --- START: Styles for Corporate Training Modes Section --- */
+.corporate-training-modes-section {
+  padding: 50px 20px;
+  background-color: #f8f9fa; /* Light grey background, or adjust as needed */
+  font-family: 'Arial', sans-serif;
+}
+
+.corporate-training-modes-title {
+  text-align: center;
+  font-size: 2.2em;
+  color: #333;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.modes-container-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive 3-column layout */
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mode-card-item {
+  background-color: #fff; /* Optional: if cards should have a background */
+  border-radius: 8px; /* Optional: if cards have border/shadow */
+  /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */ /* Optional: subtle shadow */
+  padding: 0px; /* No padding if image should touch edges, or add padding */
+  text-align: left; /* Align text to left as per image */
+}
+
+.mode-image {
+  width: 100%;
+  height: 220px; /* Adjust as needed for image aspect ratio */
+  object-fit: cover;
+  border-top-left-radius: 8px; /* If card has radius */
+  border-top-right-radius: 8px; /* If card has radius */
+  margin-bottom: 20px;
+  display: block;
+}
+
+.mode-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  padding: 0 20px; /* Horizontal padding for text content */
+}
+
+.mode-description {
+  font-size: 0.95em;
+  color: #555;
+  line-height: 1.6;
+  padding: 0 20px 20px 20px; /* Horizontal and bottom padding */
+}
+
+@media (max-width: 768px) {
+  .corporate-training-modes-title {
+    font-size: 1.8em;
+  }
+  .modes-container-grid {
+    grid-template-columns: 1fr; /* Stack columns on smaller screens */
+  }
+  .mode-image {
+    height: 200px; /* Adjust image height for stacked view */
+  }
+}
+/* --- END: Styles for Corporate Training Modes Section --- */
+
+/* --- START: Styles for Alumni Reviews Section --- */
+.alumni-reviews-section {
+  padding: 60px 20px;
+  background-color: #eef2f5; /* Lighter, slightly bluish grey background */
+  font-family: 'Arial', sans-serif;
+  position: relative;
+  overflow: hidden; 
+}
+
+.alumni-reviews-section::before,
+.alumni-reviews-section::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.08; /* Softer opacity */
+  z-index: 1;
+  background-color: #d0d9e2; 
+}
+
+.alumni-reviews-section::before { 
+  width: 350px; /* Slightly larger */
+  height: 350px;
+  top: -120px; /* Adjusted position */
+  right: -150px; /* Adjusted position */
+  filter: blur(15px);
+}
+
+.alumni-reviews-section::after { 
+  width: 250px; /* Slightly larger */
+  height: 250px;
+  bottom: -100px; /* Adjusted position */
+  left: -120px; /* Adjusted position */
+  filter: blur(15px);
+}
+
+
+.alumni-reviews-title {
+  text-align: center;
+  font-size: 2.2em;
+  color: #2c3e50; /* Darker, more professional blue-grey */
+  margin-bottom: 50px;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+}
+
+.review-slider-layout-container {
+  display: flex;
+  align-items: center; /* Vertically align image area and content area */
+  justify-content: center;
+  gap: 50px; /* Increased gap */
+  max-width: 1000px; /* Slightly reduced max-width for a tighter look */
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.reviewer-image-area {
+  flex-basis: 30%; /* Adjust basis for image */
+  max-width: 300px; 
+  position: relative; 
+  /* display: none; /* Keep hidden until image is ready */
+}
+/* Add .visible class to reviewer-image-area in JSX when image is ready */
+.reviewer-image-area.visible { 
+    display: block;
+}
+.reviewer-main-image-placeholder { /* Placeholder for the image */
+    width: 100%;
+    padding-top: 120%; /* Aspect ratio for a taller image, adjust as needed */
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-style: italic;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+.reviewer-main-image {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  max-height: 400px; /* Max height for the image */
+  border-radius: 10px; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
+.floating-star-rating-bubble {
+  position: absolute;
+  bottom: 25px; 
+  left: -25px; 
+  background-color: white;
+  padding: 8px 12px; /* Slightly smaller padding */
+  border-radius: 18px 18px 18px 0; 
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+  z-index: 11; 
+}
+.floating-star-rating-bubble .star-rating { /* Target stars inside bubble */
+    font-size: 1em; /* Smaller stars for bubble */
+    color: #ffc107;
+}
+.floating-star-rating-bubble .star { margin-right: 1px;}
+
+
+.review-content-area {
+  flex-basis: 65%; /* Adjust basis for content */
+  max-width: 600px; 
+  display: flex;
+  flex-direction: column;
+}
+
+.review-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(44, 62, 80, 0.08); /* Softer, more refined shadow */
+  padding: 25px 30px; /* Adjusted padding */
+  margin-bottom: 25px; 
+  min-height: 280px; /* Adjusted min-height */
+  display: flex;
+  flex-direction: column;
+}
+
+.review-card-header {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center; /* Vertically align logo text */
+  margin-bottom: 15px; /* Reduced margin */
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee; /* Subtle separator */
+}
+
+.review-company-logo-text { /* Style for "Intellimindz" text */
+  font-size: 1.1em;
+  color: #555;
+  font-weight: 500;
+}
+
+.reviewer-info-line { /* New wrapper for avatar, name/designation, and stars */
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.reviewer-avatar {
+  width: 45px; /* Slightly smaller avatar */
+  height: 45px;
+  border-radius: 50%;
+  background-color: #ff8c00; 
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3em; /* Adjusted size */
+  font-weight: bold;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.reviewer-name-designation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align text to left */
+  flex-grow: 1; /* Allow it to take space */
+}
+
+.reviewer-name {
+  font-weight: 600; /* Bolder name */
+  font-size: 1.05em; /* Slightly adjusted */
+  color: #2c3e50; /* Darker text */
+  margin-bottom: 2px;
+}
+.reviewer-designation {
+    font-size: 0.85em;
+    color: #7f8c8d; /* Grey for designation */
+}
+
+.star-rating-header { /* For stars in the header */
+  font-size: 1em; /* Adjusted size */
+  color: #ffc107; 
+  margin-left: auto; /* Push to the far right */
+}
+.star-rating-header .star { margin-left: 2px; } /* Spacing between stars */
+
+
+.review-text-content {
+  font-size: 0.9em; /* Slightly smaller for better fit */
+  line-height: 1.65; 
+  color: #34495e; /* Darker grey for text */
+  flex-grow: 1; 
+  text-align: left; /* Ensure text is left-aligned */
+}
+.review-text-content p {
+  margin-bottom: 0.8em;
+}
+.review-text-content p:last-child {
+  margin-bottom: 0;
+}
+
+.slider-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; 
+  gap: 15px; /* Reduced gap */
+  padding-right: 5px; 
+}
+
+.nav-quote-icon {
+  font-size: 3.5em; 
+  color: #bdc3c7; /* Lighter grey for quote */
+  line-height: 1;
+  font-family: 'Georgia', serif; /* More traditional quote font */
+  margin-right: auto; /* Push quote to the left of controls */
+}
+
+.nav-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Reduced gap */
+}
+
+.nav-arrow {
+  background-color: #fff; 
+  border: 1px solid #dfe4ea; /* Lighter border */
+  color: #5f6773; 
+  width: 32px; /* Smaller arrows */
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em; /* Adjust if using text arrows, SVG will scale */
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+.nav-arrow svg { /* Style for inline SVGs */
+    width: 1em;
+    height: 1em;
+}
+
+.nav-arrow:hover {
+  background-color: #f8f9fa;
+  border-color: #ced4da;
+  color: #333;
+}
+
+.slide-counter {
+  font-size: 0.95em;
+  color: #555;
+  font-weight: 500;
+  min-width: 45px; /* Ensure space for "01/05" */
+  text-align: center;
+}
+
+/* Responsive adjustments for Alumni Reviews Section */
+@media (max-width: 992px) {
+  .review-slider-layout-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .reviewer-image-area {
+    flex-basis: auto; /* Let it take natural width or set a specific one */
+    width: 60%; /* Example: make image area smaller */
+    max-width: 250px; 
+    margin-bottom: 20px;
+    display: block; /* Ensure it's visible for placeholder */
+  }
+  .floating-star-rating-bubble {
+    left: 50%; 
+    transform: translateX(-50%);
+    bottom: -15px; 
+  }
+  .review-content-area {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .slider-navigation {
+    justify-content: center; 
+    padding-right: 0;
+    margin-top: 10px; /* Add some space when stacked */
+  }
+  .nav-quote-icon {
+      display: none; /* Optionally hide quote on smaller screens if too cluttered */
+  }
+}
+
+@media (max-width: 768px) {
+  .alumni-reviews-title {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+  }
+  .review-card {
+    padding: 20px 25px;
+    min-height: auto; /* Let content define height on mobile */
+  }
+  .reviewer-info-line {
+    flex-direction: column; /* Stack avatar, name, stars on mobile */
+    align-items: flex-start; /* Align to left */
+  }
+  .star-rating-header {
+    margin-left: 0; /* Remove push to right */
+    margin-top: 8px; /* Space after name/designation */
+  }
+  .reviewer-name-designation {
+      margin-top: 8px; /* Space after avatar */
+  }
+  .nav-quote-icon {
+    display: none; 
+  }
+}
+
+/* --- END: Styles for Alumni Reviews Section --- */
