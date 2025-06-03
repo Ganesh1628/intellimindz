@@ -103,13 +103,13 @@ function App() {
                     <div className=' flex md:flex-row'>
                     {/* <div className="container mx-auto flex flex-col md:flex-row bg-green-300 items-center"> */}
                         {/* REVERTED: Image column width back to original md:w-1/3. Added w-full for stacking. */}
-                        <div className="w-full h-full  md:w-1/3 mb-8 md:mb-0 md:mr-12 flex justify-center ">
+                        <div className="w-full h-full  md:w-1/3 mb-8 md:mb-0 md:mr-12 flex justify-center">
                             {/* MODIFIED: Image wrapper size increased */}
                             {/* <div className="w-[352px] h-[352px] md:w-[416px] md:h-[416px] bg-red-300 rounded-lg flex items-center justify-center"> */}
                                 <img
                                     src={intellimindzLogo}
                                     alt="Intellimindz Logo"
-                                    className="w-full h-full  object-contain rounded-lg "
+                                    className="w-[500px] h-[465px]  rounded-lg "
                                     onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/384x384/CCCCCC/FFFFFF?text=Logo+Error'; }} 
                                 />
                             {/* </div> */}
