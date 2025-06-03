@@ -29,9 +29,9 @@ import interactiveImg from '../assests/images/interactivesessions.jpeg';
 import ExperiencedtrainersImg from '../assests/images/ExperiencedTrainers.jpeg';
 
 // TODO: Add these image imports when you have the files
-// import corporateOnsiteImg from '../assests/images/corporate_onsite.jpg';
-// import corporateOffsiteImg from '../assests/images/corporate_offsite.jpg';
-// import corporateVirtualImg from '../assests/images/corporate_virtual.jpg';
+import corporateOnsiteImg from '../assests/images/onsite_training.jpeg';
+import corporateOffsiteImg from '../assests/images/offsite_training.jpeg';
+import corporateVirtualImg from '../assests/images/virtual.jpeg';
 // import alumniReviewerPersonImg from '../assests/images/alumni_reviewer_person.png'; // Placeholder for the girl's image
 // import yourCompanyLogo from '../assests/images/your_company_logo.png'; // Placeholder for review card logo
 
@@ -206,7 +206,8 @@ const KeyFeaturesSection = () => {
   );
 };
 
-const SapFicoCourseContentSection = () => { 
+// SapFicoCourseContentSection Component - MODIFIED
+const SapFicoCourseContentSection = ({ openContactModal }) => {
   const [activeModuleId, setActiveModuleId] = useState(1);
   const allModulesData = [
     { id: 1, title: "Module 1: Introduction to SAP and ERP", topics: ["Introduction to ERP and SAP", "Overview of SAP Modules (MM, SD, PP, HR, etc.)", "SAP GUI Navigation and Logon Process", "Organizational Structure in SAP", "Understanding SAP Client, Company Code, and Business Area", "Role of SAP FICO in SAP ECC and S/4HANA", "Basics of Master Data in SAP"] },
@@ -222,7 +223,7 @@ const SapFicoCourseContentSection = () => {
   ];
   const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
   return (
-    <div className="java-course-content-section"> 
+    <div className="java-course-content-section">
       <h2 className="java-section-title">
         SAP FICO Training Course Content
         <span className="java-title-underline"></span>
@@ -243,7 +244,8 @@ const SapFicoCourseContentSection = () => {
           <ul className="java-topics-list">
             {activeModuleDetails.topics.map((item, index) => (<li key={index}>{item}</li>))}
           </ul>
-          <button className="java-download-curriculum-button">
+          {/* MODIFIED: Added onClick handler to Download Curriculum button */}
+          <button className="java-download-curriculum-button" onClick={openContactModal}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style={{ marginRight: '8px', verticalAlign: 'middle' }}>
               <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
             </svg>
@@ -255,7 +257,8 @@ const SapFicoCourseContentSection = () => {
   );
 };
 
-const BatchDetailsSection = () => {
+// BatchDetailsSection Component - MODIFIED
+const BatchDetailsSection = ({ openContactModal }) => {
   const batchInfo = [
     { id: 1, monthYear: "June 2025", type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Fresh Jobseekers", "Non IT to IT transition"] },
     { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
@@ -282,7 +285,10 @@ const BatchDetailsSection = () => {
             </div>
             <div className="batch-segment batch-fee-suitability">
               <div className="segment-content-wrapper">
-                <div className="course-fee-tag">{batch.feeTag}</div>
+                {/* MODIFIED: Changed div to button and added onClick handler */}
+                <button className="course-fee-tag" onClick={openContactModal}>
+                  {batch.feeTag}
+                </button>
                 {batch.suitability.map((sText, sIndex) => (<p key={sIndex} className="suitability-text">{sText}</p>))}
               </div>
             </div>
@@ -295,9 +301,9 @@ const BatchDetailsSection = () => {
 
 const CorporateTrainingModesSection = () => {
   const trainingModesData = [
-    { id: 1, imagePlaceholder: "https://via.placeholder.com/400x250/cccccc/808080?text=Onsite+Training", altText: "Onsite corporate training session", title: "Onsite Training:", description: "Onsite Training is conducted at the client's location, offering a personalized learning experience in the workplace environment. It encourages real-time collaboration and team-based learning. Ideal for companies looking to train multiple employees simultaneously." },
-    { id: 2, imagePlaceholder: "https://via.placeholder.com/400x250/cccccc/808080?text=Offsite+Training", altText: "Offsite training center", title: "Offsite Training:", description: "Offsite Training takes place at an external venue, such as a training center or conference space. It provides a distraction-free environment focused solely on learning. Perfect for in-depth sessions, certifications, and team-building opportunities." },
-    { id: 3, imagePlaceholder: "https://via.placeholder.com/400x250/cccccc/808080?text=Virtual+Training", altText: "Virtual instructor-led training", title: "Virtual Instructor-Led Training:", description: "VILT is delivered online by live instructors using platforms like Zoom or Teams. It combines interactive teaching with the flexibility of remote access. Ideal for geographically dispersed teams or remote learners." }
+    { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate training session", title: "Onsite Training:", description: "Onsite Training is conducted at the client's location, offering a personalized learning experience in the workplace environment. It encourages real-time collaboration and team-based learning. Ideal for companies looking to train multiple employees simultaneously." },
+    { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite training center", title: "Offsite Training:", description: "Offsite Training takes place at an external venue, such as a training center or conference space. It provides a distraction-free environment focused solely on learning. Perfect for in-depth sessions, certifications, and team-building opportunities." },
+    { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led training", title: "Virtual Instructor-Led Training:", description: "VILT is delivered online by live instructors using platforms like Zoom or Teams. It combines interactive teaching with the flexibility of remote access. Ideal for geographically dispersed teams or remote learners." }
   ];
   return (
     <div className="corporate-training-modes-section">
@@ -321,10 +327,10 @@ const AlumniReviewsSection = () => {
     {
       id: 1,
       name: "Aravind R.",
-      designation: "", 
+      designation: "",
       avatarInitial: "A",
       rating: 5,
-      companyLogoText: "Intellimindz", // Added for the logo text
+      companyLogoText: "Intellimindz",
       reviewText: "The SAP FICO training was well-structured with practical insights. (P) Real-time business scenarios improved my understanding. I’m now confident in finance operations. (P) The clear SAP FICO interview questions and transparent course fees made Intellimindz the right choice for me."
     },
     {
@@ -386,7 +392,7 @@ const AlumniReviewsSection = () => {
     }
     return stars;
   };
-  
+
   const formatReviewText = (text) => {
     return text.split('(P)').map((paragraph, index) => (
       paragraph.trim() && <p key={index}>{paragraph.trim()}</p>
@@ -398,9 +404,9 @@ const AlumniReviewsSection = () => {
       <h2 className="alumni-reviews-title">Reviews from Our Alumni</h2>
       <div className="review-slider-layout-container">
         <div className="reviewer-image-area">
-           <div className="reviewer-main-image-placeholder">
-             {/* You will add <img src={alumniReviewerPersonImg} ... /> here later */}
-           </div>
+            <div className="reviewer-main-image-placeholder">
+              {/* You will add <img src={alumniReviewerPersonImg} ... /> here later */}
+            </div>
           <div className="floating-star-rating-bubble">
             {renderStars(5)}
           </div>
@@ -409,7 +415,6 @@ const AlumniReviewsSection = () => {
         <div className="review-content-area">
           <div className="review-card">
             <div className="review-card-header">
-              {/* Using text for logo as per simpler reference image */}
               <span className="review-company-logo-text">{currentReview.companyLogoText || "Intellimindz"}</span>
             </div>
             <div className="reviewer-info-line">
@@ -444,19 +449,6 @@ const AlumniReviewsSection = () => {
 };
 // --- END: NEW Alumni Reviews Section ---
 
-
-const SAPmain = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const openContactModal = () => setIsModalOpen(true);
-  const closeContactModal = () => setIsModalOpen(false);
-  return (
-    <div>
-      <Saponline openContactModal={openContactModal} />
-      <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
-    </div>
-  );
-};
-
 const SapImSyllabus = () => {
   const [activeModule, setActiveModule] = useState(null);
   const modulesData = [
@@ -467,20 +459,31 @@ const SapImSyllabus = () => {
     { id: 5, title: "What are the main components of SAP FICO?", description: "SAP FICO includes two core modules: Financial Accounting (FI) and Controlling (CO), covering GL, AR/AP, asset accounting, cost centers, and profit analysis." },
     { id: 6, title: "Is SAP FICO training available online in Chennai?", description: "Yes, many institutes offer online SAP FICO training with live instructor-led classes, recorded sessions, and real-time project exposure for convenience." },
     { id: 7, title: "Will I get hands-on practice in the training?", description: "Yes, SAP FICO training includes hands-on practice in real-time SAP servers to help learners understand business processes and perform configuration tasks." },
-    { id: 8, title: "Do I need technical skills for SAP FICO?", description: "No, SAP FICO is a functional module and does not require programming or coding skills. It focuses on finance and controlling processes." }
+    { id: 8, title: "Do I need technical skills for SAP FICO?", description: "No, SAP FICO is a functional module and does not require programming or coding skills. It focuses on finance and controlling processes." },
+    {id: 9,title: "Can I switch careers with SAP FICO training?",description: "Absolutely. Many working professionals from finance or accounting backgrounds transition into ERP consulting roles after completing SAP FICO training."},
+    {id: 10,title: "Is SAP FICO suitable for accountants and CAs?",description: "Yes, accountants and chartered accountants find SAP FICO useful as it aligns with their expertise and opens doors to ERP consulting opportunities."}
   ];
-  return (
+    return (
     <div className="sapim-syllabus">
       <div className="sap-home-syllabus-header">
         <h1>Have a Question with Our SAP FICO Course?</h1>
       </div>
       <div className="syllabus-grid">
         {modulesData.map((module) => (
-          <div key={module.id} className={`module-card ${activeModule === module.id ? 'active' : ''}`} onMouseEnter={() => setActiveModule(module.id)} onMouseLeave={() => setActiveModule(null)}>
-            <div className="module-number">0{module.id}</div>
+          <div
+            key={module.id}
+            className={`module-card ${activeModule === module.id ? 'active' : ''}`}
+            onMouseEnter={() => setActiveModule(module.id)}
+            onMouseLeave={() => setActiveModule(null)}
+          >
+            <div className="module-number">
+              {String(module.id).padStart(2, '0')}
+            </div>
             <div className="module-content-syllabus">
               <p className="module-title">{module.title}</p>
-              <div className="module-description"><p>{module.description}</p></div>
+              <div className="module-description">
+                <p>{module.description}</p>
+              </div>
             </div>
             <div className="module-decoration"></div>
           </div>
@@ -489,6 +492,31 @@ const SapImSyllabus = () => {
     </div>
   );
 };
+
+// --- START: NEW CallToActionBanner Section ---
+const CallToActionBanner = ({ openContactModal }) => {
+  return (
+    <div className="cta-banner-section">
+      <p className="cta-banner-text">Navigate your career ambitions with our expert guidance.</p>
+      <button className="cta-banner-button" onClick={openContactModal}>Contact Us</button>
+    </div>
+  );
+};
+// --- END: NEW CallToActionBanner Section ---
+
+const SAPmain = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const openContactModal = () => setIsModalOpen(true);
+  const closeContactModal = () => setIsModalOpen(false);
+  return (
+    <div>
+      {/* MODIFIED: Passed openContactModal to Saponline */}
+      <Saponline openContactModal={openContactModal} />
+      <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
+    </div>
+  );
+};
+
 
 const Saponline = ({ openContactModal }) => {
   return (
@@ -500,13 +528,17 @@ const Saponline = ({ openContactModal }) => {
       <SAPHeroSection openContactModal={openContactModal} />
       <SAPAboutSection />
       <KeyFeaturesSection />
-      <SapFicoCourseContentSection /> 
-      <BatchDetailsSection />
+      {/* MODIFIED: Passed openContactModal to SapFicoCourseContentSection */}
+      <SapFicoCourseContentSection openContactModal={openContactModal} />
+      {/* MODIFIED: Passed openContactModal to BatchDetailsSection */}
+      <BatchDetailsSection openContactModal={openContactModal} />
       <CorporateTrainingModesSection />
       <AlumniReviewsSection />
-      <AskForDemo />
+      <AskForDemo /> {/* Assuming AskForDemo handles its own modal or doesn't need this one */}
       <Onlineheader />
       <SapImSyllabus />
+      {/* --- ADDED CallToActionBanner HERE --- */}
+      <CallToActionBanner openContactModal={openContactModal} />
     </>
   );
 };

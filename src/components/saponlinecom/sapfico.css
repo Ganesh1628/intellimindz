@@ -321,6 +321,7 @@
   background-color: #ff6600;
   color: white;
   padding: 12px 25px;
+  margin-right: 600px;
   border: none;
   border-radius: 5px;
   font-size: 1.1em;
@@ -342,6 +343,7 @@
   align-items: center;
   text-align: center;
   padding-bottom: 20px;
+  /* background-color: #fff; */
 }
 
 .intro-content h1,
@@ -353,7 +355,7 @@
 /* --- Styling for Our Modes of Training Section --- */
 .training-modes-section {
   padding: 50px 20px;
-  background-color: #ffffff; 
+  background-color: #ffffff;
   text-align: center;
 }
 
@@ -369,7 +371,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  max-width: 1400px; 
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -398,7 +400,7 @@
   font-size: 1.6rem;
   color: #333;
   font-weight: 600;
-  margin-top: 10px; 
+  margin-top: 10px;
   margin-bottom: 12px;
 }
 
@@ -407,12 +409,12 @@
   color: #555;
   line-height: 1.6;
   margin-bottom: 30px;
-  flex-grow: 1; 
-  min-height: 70px; 
+  flex-grow: 1;
+  min-height: 70px;
 }
 
 .training-mode-enroll-button {
-  background-color: #d9534f; 
+  background-color: #a52020;
   color: white;
   border: none;
   padding: 12px 35px;
@@ -421,18 +423,18 @@
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  text-transform: capitalize; 
+  text-transform: capitalize;
 }
 
 .training-mode-enroll-button:hover {
-  background-color: #c9302c; 
+  background-color: #c9302c;
 }
 
 .popular-banner {
   position: absolute;
   top: 16px;
   right: -38px;
-  background-color: #d9534f; 
+  background-color: #a52020;
   color: white;
   padding: 6px 0;
   width: 160px;
@@ -446,13 +448,13 @@
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
-@media (max-width: 992px) { 
-   .training-mode-card {
-     width: calc(50% - 20px); 
-   }
+@media (max-width: 992px) {
+    .training-mode-card {
+      width: calc(50% - 20px);
+    }
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   .training-modes-title {
     font-size: 2rem;
   }
@@ -463,9 +465,9 @@
   .training-mode-card {
     width: 85%;
     max-width: 350px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
   }
-   .training-mode-card:last-child {
+    .training-mode-card:last-child {
     margin-bottom: 0;
   }
   .popular-banner {
@@ -480,58 +482,58 @@
 /* --- START: Styles for Java Training Course Content Section (now SAP FICO Course Content) --- */
 .java-course-content-section {
   padding: 50px 20px;
-  background-color: #fff; 
-  font-family: 'Arial', sans-serif; 
+  background-color: #fff;
+  font-family: 'Arial', sans-serif;
   max-width: 1200px;
   margin: 40px auto;
 }
 
 .java-section-title {
-  font-size: 2.2em; 
+  font-size: 2.2em;
   font-weight: bold;
   color: #333;
   text-align: center;
-  margin-bottom: 15px; 
-  display: inline-block; 
-  position: relative; 
+  margin-bottom: 15px;
+  display: inline-block;
+  position: relative;
 }
 
 .java-course-content-section > h2 {
-    display: block; 
+    display: block;
     text-align: center;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
 }
 
 .java-title-underline {
   display: block;
-  width: 60px; 
-  height: 4px; 
-  background-color: #0044cc; 
-  margin: 10px auto 0; 
+  width: 60px;
+  height: 4px;
+  background-color: #0044cc;
+  margin: 10px auto 0;
 }
 
 .java-course-layout-container {
   display: flex;
-  flex-wrap: wrap; 
-  gap: 30px; 
-  background-color: #f9f9f9; 
-  padding: 20px; 
+  flex-wrap: wrap;
+  gap: 30px;
+  background-color: #f9f9f9;
+  padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
 .java-syllabus-modules-panel {
-  flex: 1; 
-  min-width: 280px; 
-  background-color: #f0f4ff; 
+  flex: 1;
+  min-width: 280px;
+  background-color: #f0f4ff;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  max-height: 380px; 
+  max-height: 430px;
   overflow-y: auto;
-  display: flex; 
-  flex-direction: column; 
-  scrollbar-width: thin; 
-  scrollbar-color: #888 #f0f4ff; 
+  display: flex;
+  flex-direction: column;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f0f4ff;
 }
 
 .java-syllabus-modules-panel::-webkit-scrollbar { width: 8px; }
@@ -540,13 +542,13 @@
 .java-syllabus-modules-panel::-webkit-scrollbar-thumb:hover { background-color: #555; }
 
 .java-syllabus-header {
-  background-color: #1c3d7f; 
+  background-color: #1c3d7f;
   color: white;
   padding: 15px 20px;
   font-size: 1.1em;
   font-weight: bold;
   clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 100%, 0% 100%);
-  position: sticky; top: 0; z-index: 10; flex-shrink: 0; 
+  position: sticky; top: 0; z-index: 10; flex-shrink: 0;
 }
 
 .java-modules-list { list-style: none; padding: 0; margin: 0; }
@@ -558,16 +560,16 @@
 .java-module-item:last-child { border-bottom: none; }
 .java-module-item:hover { background-color: #e6efff; }
 .java-module-item.java-active-module {
-  background-color: #ffffff; color: #1c3d7f; font-weight: 500; 
-  border-left: 4px solid #0044cc; padding-left: 16px; 
+  background-color: #ffffff; color: #1c3d7f; font-weight: 500;
+  border-left: 4px solid #0044cc; padding-left: 16px;
 }
 
 .java-topics-details-panel {
-  flex: 1; min-width: 300px; background-color: #e9edf5; 
+  flex: 1; min-width: 300px; background-color: #e9edf5;
   padding: 25px 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.07);
   display: flex; flex-direction: column; text-align: left;
-  max-height: 380px; overflow-y: auto;
-  scrollbar-width: thin; scrollbar-color: #888 #e9edf5; 
+  max-height: 430px; overflow-y: auto;
+  scrollbar-width: thin; scrollbar-color: #888 #e9edf5;
 }
 
 .java-topics-details-panel::-webkit-scrollbar { width: 8px; }
@@ -576,7 +578,7 @@
 .java-topics-details-panel::-webkit-scrollbar-thumb:hover { background-color: #555; }
 
 .java-topics-title {
-  font-size: 1.3em; color: #1c3d7f; margin-bottom: 15px; font-weight: bold; flex-shrink: 0; 
+  font-size: 1.3em; color: #1c3d7f; margin-bottom: 15px; font-weight: bold; flex-shrink: 0;
 }
 
 .java-topics-list { list-style: none; padding-left: 0; margin-bottom: 20px; }
@@ -591,15 +593,15 @@
   background-color: #0044cc; color: white; padding: 12px 25px; border: none; border-radius: 6px;
   font-size: 1em; font-weight: bold; cursor: pointer; transition: background-color 0.3s ease;
   display: inline-flex; align-items: center; justify-content: center;
-  align-self: flex-start; margin-top: 20px; flex-shrink: 0; 
+  align-self: flex-start; margin-top: 20px; flex-shrink: 0;
 }
 .java-download-curriculum-button:hover { background-color: #003399; }
 
 @media (max-width: 768px) {
   .java-course-layout-container { flex-direction: column; }
   .java-syllabus-modules-panel, .java-topics-details-panel {
-    flex: 1 1 100%; min-width: unset; max-height: none; 
-    overflow-y: visible; scrollbar-width: auto; 
+    flex: 1 1 100%; min-width: unset; max-height: none;
+    overflow-y: visible; scrollbar-width: auto;
   }
   .java-syllabus-modules-panel::-webkit-scrollbar, .java-topics-details-panel::-webkit-scrollbar { width: auto; }
   .java-syllabus-modules-panel::-webkit-scrollbar-track, .java-topics-details-panel::-webkit-scrollbar-track { background: transparent; }
@@ -614,8 +616,8 @@
 /* --- START: Styles for Batch Details Section --- */
 .batch-details-section {
   padding: 60px 20px;
-  /* background-image: url('../assests/images/batch_details_background.jpg'); */ 
-  background-color: #f0ead6; 
+  /* background-image: url('../assests/images/batch_details_background.jpg'); */
+  background-color: #f0ead6;
   background-size: cover;
   background-position: center;
   font-family: 'Arial', sans-serif;
@@ -624,7 +626,7 @@
 .batch-details-title {
   text-align: center;
   font-size: 2.2em;
-  color: #333; 
+  color: #333;
   margin-bottom: 40px;
   font-weight: bold;
 }
@@ -638,30 +640,30 @@
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  display: flex; 
+  display: flex;
   margin-bottom: 30px;
-  align-items: stretch; 
-  box-sizing: border-box; 
+  align-items: stretch;
+  box-sizing: border-box;
   width: 100%;
   min-height: 180px; /* Explicit minimum height */
 }
 
 .batch-segment {
-  flex: 1 1 0%; 
-  padding: 15px; 
+  flex: 1 1 0%;
+  padding: 15px;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center; 
-  align-items: center; 
-  box-sizing: border-box; 
-  position: relative; 
-  word-wrap: break-word; 
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+  word-wrap: break-word;
   overflow-wrap: break-word;
 }
 
 .batch-segment:not(:last-child) {
-  border-right: 1px solid #e0e0e0; 
+  border-right: 1px solid #e0e0e0;
 }
 
 .segment-content-wrapper {
@@ -669,75 +671,85 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%; 
+  width: 100%;
 }
 
 .batch-segment p {
-  margin: 5px 0; 
-  line-height: 1.5; 
-  color: #555; 
-  box-sizing: border-box; 
+  margin: 5px 0;
+  line-height: 1.5;
+  color: #555;
+  box-sizing: border-box;
 }
 
-.batch-month-year { 
-  color: #0056b3; 
+.batch-month-year {
+  color: #0056b3;
   font-weight: bold;
-  font-size: 1.4em; 
+  font-size: 1.4em;
   /* Ensure it's treated as a flex item for centering if it's just text */
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1; /* if it's the only child of its segment */
 }
 
-.batch-schedule-mode p:first-child, 
-.batch-duration-type p:first-child { 
-  font-weight: 600; 
+.batch-schedule-mode p:first-child,
+.batch-duration-type p:first-child {
+  font-weight: 600;
   color: #333;
-  font-size: 1em; 
+  font-size: 1em;
 }
 
+/* MODIFIED: Styles for the Course Fee button */
 .course-fee-tag {
-  background-color: #ff8c00; 
+  background-color: #ff8c00;
   color: white;
   padding: 8px 20px;
   border-radius: 5px;
   font-weight: bold;
   font-size: 0.9em;
-  display: inline-block;
+  display: inline-block; /* Or block if it should take full width of its container */
   margin-bottom: 10px;
+  border: none; /* Explicitly remove button border */
+  cursor: pointer; /* Make it look clickable */
+  text-align: center; /* Ensure text is centered if it's a block button */
+  transition: background-color 0.3s ease; /* Add hover effect */
 }
+
+.course-fee-tag:hover {
+  background-color: #e07b00; /* Darker orange on hover */
+}
+
 
 .suitability-text {
   font-size: 0.85em;
   color: #666;
-  margin: 3px 0; 
+  margin: 3px 0;
   line-height: 1.4;
 }
 
 /* Responsive adjustments for Batch Details Section */
 @media (max-width: 992px) {
   .batch-card {
-    flex-wrap: wrap; 
-    min-height: auto; 
+    flex-wrap: wrap;
+    min-height: auto;
   }
   .batch-segment {
-    flex-basis: calc(50% - 1px); 
+    flex-basis: calc(50% - 1px);
     padding: 15px 10px;
   }
-  .batch-segment:nth-child(2n) { 
-    border-right: none; 
+  .batch-segment:nth-child(2n) {
+    border-right: none;
   }
   .batch-segment:nth-child(odd):not(:last-of-type) {
-     border-right: 1px solid #e0e0e0;
+      border-right: 1px solid #e0e0e0;
   }
-  .batch-segment:nth-child(3):nth-last-child(2) { 
+  .batch-segment:nth-child(3):nth-last-child(2) {
     border-right: 1px solid #e0e0e0;
   }
-  .batch-segment:last-of-type { 
+  .batch-segment:last-of-type {
     border-right: none;
-   }
-  .batch-segment:nth-child(1), .batch-segment:nth-child(2) { 
+    }
+  .batch-segment:nth-child(1), .batch-segment:nth-child(2) {
     border-bottom: 1px solid #e0e0e0;
   }
 }
@@ -747,22 +759,22 @@
     font-size: 1.8em;
   }
   .batch-card {
-    flex-direction: column; 
-    min-height: auto; 
+    flex-direction: column;
+    min-height: auto;
   }
   .batch-segment {
-    flex-basis: auto; 
-    width: 100%; 
-    border-right: none !important; 
-    border-bottom: 1px solid #e0e0e0; 
-    padding: 15px; 
+    flex-basis: auto;
+    width: 100%;
+    border-right: none !important;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px;
   }
   .batch-segment:last-child {
     border-bottom: none;
   }
   .batch-month-year {
     font-size: 1.3em;
-    padding: 15px; 
+    padding: 15px;
   }
 }
 
@@ -844,7 +856,7 @@
   background-color: #eef2f5; /* Lighter, slightly bluish grey background */
   font-family: 'Arial', sans-serif;
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .alumni-reviews-section::before,
@@ -854,10 +866,10 @@
   border-radius: 50%;
   opacity: 0.08; /* Softer opacity */
   z-index: 1;
-  background-color: #d0d9e2; 
+  background-color: #d0d9e2;
 }
 
-.alumni-reviews-section::before { 
+.alumni-reviews-section::before {
   width: 350px; /* Slightly larger */
   height: 350px;
   top: -120px; /* Adjusted position */
@@ -865,7 +877,7 @@
   filter: blur(15px);
 }
 
-.alumni-reviews-section::after { 
+.alumni-reviews-section::after {
   width: 250px; /* Slightly larger */
   height: 250px;
   bottom: -100px; /* Adjusted position */
@@ -897,12 +909,12 @@
 
 .reviewer-image-area {
   flex-basis: 30%; /* Adjust basis for image */
-  max-width: 300px; 
-  position: relative; 
+  max-width: 300px;
+  position: relative;
   /* display: none; /* Keep hidden until image is ready */
 }
 /* Add .visible class to reviewer-image-area in JSX when image is ready */
-.reviewer-image-area.visible { 
+.reviewer-image-area.visible {
     display: block;
 }
 .reviewer-main-image-placeholder { /* Placeholder for the image */
@@ -923,20 +935,20 @@
   width: 100%;
   height: auto; /* Maintain aspect ratio */
   max-height: 400px; /* Max height for the image */
-  border-radius: 10px; 
+  border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   object-fit: cover;
 }
 
 .floating-star-rating-bubble {
   position: absolute;
-  bottom: 25px; 
-  left: -25px; 
+  bottom: 25px;
+  left: -25px;
   background-color: white;
   padding: 8px 12px; /* Slightly smaller padding */
-  border-radius: 18px 18px 18px 0; 
+  border-radius: 18px 18px 18px 0;
   box-shadow: 0 2px 10px rgba(0,0,0,0.15);
-  z-index: 11; 
+  z-index: 11;
 }
 .floating-star-rating-bubble .star-rating { /* Target stars inside bubble */
     font-size: 1em; /* Smaller stars for bubble */
@@ -947,7 +959,7 @@
 
 .review-content-area {
   flex-basis: 65%; /* Adjust basis for content */
-  max-width: 600px; 
+  max-width: 600px;
   display: flex;
   flex-direction: column;
 }
@@ -957,7 +969,7 @@
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(44, 62, 80, 0.08); /* Softer, more refined shadow */
   padding: 25px 30px; /* Adjusted padding */
-  margin-bottom: 25px; 
+  margin-bottom: 25px;
   min-height: 280px; /* Adjusted min-height */
   display: flex;
   flex-direction: column;
@@ -965,7 +977,7 @@
 
 .review-card-header {
   display: flex;
-  justify-content: flex-start; 
+  justify-content: flex-start;
   align-items: center; /* Vertically align logo text */
   margin-bottom: 15px; /* Reduced margin */
   padding-bottom: 10px;
@@ -988,7 +1000,7 @@
   width: 45px; /* Slightly smaller avatar */
   height: 45px;
   border-radius: 50%;
-  background-color: #ff8c00; 
+  background-color: #ff8c00;
   color: white;
   display: flex;
   align-items: center;
@@ -1019,7 +1031,7 @@
 
 .star-rating-header { /* For stars in the header */
   font-size: 1em; /* Adjusted size */
-  color: #ffc107; 
+  color: #ffc107;
   margin-left: auto; /* Push to the far right */
 }
 .star-rating-header .star { margin-left: 2px; } /* Spacing between stars */
@@ -1027,9 +1039,9 @@
 
 .review-text-content {
   font-size: 0.9em; /* Slightly smaller for better fit */
-  line-height: 1.65; 
+  line-height: 1.65;
   color: #34495e; /* Darker grey for text */
-  flex-grow: 1; 
+  flex-grow: 1;
   text-align: left; /* Ensure text is left-aligned */
 }
 .review-text-content p {
@@ -1042,13 +1054,13 @@
 .slider-navigation {
   display: flex;
   align-items: center;
-  justify-content: flex-end; 
+  justify-content: flex-end;
   gap: 15px; /* Reduced gap */
-  padding-right: 5px; 
+  padding-right: 5px;
 }
 
 .nav-quote-icon {
-  font-size: 3.5em; 
+  font-size: 3.5em;
   color: #bdc3c7; /* Lighter grey for quote */
   line-height: 1;
   font-family: 'Georgia', serif; /* More traditional quote font */
@@ -1062,9 +1074,9 @@
 }
 
 .nav-arrow {
-  background-color: #fff; 
+  background-color: #fff;
   border: 1px solid #dfe4ea; /* Lighter border */
-  color: #5f6773; 
+  color: #5f6773;
   width: 32px; /* Smaller arrows */
   height: 32px;
   border-radius: 50%;
@@ -1105,21 +1117,21 @@
   .reviewer-image-area {
     flex-basis: auto; /* Let it take natural width or set a specific one */
     width: 60%; /* Example: make image area smaller */
-    max-width: 250px; 
+    max-width: 250px;
     margin-bottom: 20px;
     display: block; /* Ensure it's visible for placeholder */
   }
   .floating-star-rating-bubble {
-    left: 50%; 
+    left: 50%;
     transform: translateX(-50%);
-    bottom: -15px; 
+    bottom: -15px;
   }
   .review-content-area {
     flex-basis: 100%;
     max-width: 100%;
   }
   .slider-navigation {
-    justify-content: center; 
+    justify-content: center;
     padding-right: 0;
     margin-top: 10px; /* Add some space when stacked */
   }
@@ -1149,8 +1161,60 @@
       margin-top: 8px; /* Space after avatar */
   }
   .nav-quote-icon {
-    display: none; 
+    display: none;
   }
 }
 
 /* --- END: Styles for Alumni Reviews Section --- */
+
+/* --- START: Call To Action Banner Section --- */
+.cta-banner-section {
+  background-color: #1a0a38; /* Very dark purple/blue */
+  padding: 40px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cta-banner-text {
+  color: #ffffff;
+  font-size: 1.3em;
+  margin: 0;
+  font-weight: 500;
+}
+
+.cta-banner-button {
+  background-color: #333333; /* Dark gray button */
+  color: #ffffff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-banner-button:hover {
+  background-color: #444444; /* Slightly lighter on hover */
+}
+
+/* Responsive adjustments for CTA Banner */
+@media (max-width: 768px) {
+  .cta-banner-section {
+    flex-direction: column; /* Stack text and button */
+    padding: 30px 15px;
+  }
+  .cta-banner-text {
+    font-size: 1.1em;
+    margin-bottom: 15px; /* Add space below text when stacked */
+  }
+  .cta-banner-button {
+    font-size: 0.95em;
+    padding: 10px 20px;
+  }
+}
+/* --- END: Call To Action Banner Section --- */

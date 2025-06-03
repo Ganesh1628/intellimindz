@@ -244,7 +244,7 @@
   /* Ensures responsiveness */
   background-color: #17bf9e;
     /* box-shadow: 0 2px 4px rgba(8, 0, 0, 0.1); */
-  height: 600px !important;
+  height: 500px !important;
   /* Maintains aspect ratio */
   display: block;
   /* Removes extra space below the image */
