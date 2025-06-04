@@ -32,8 +32,11 @@ import ExperiencedtrainersImg from '../assests/images/ExperiencedTrainers.jpeg';
 import corporateOnsiteImg from '../assests/images/onsite_training.jpeg';
 import corporateOffsiteImg from '../assests/images/offsite_training.jpeg';
 import corporateVirtualImg from '../assests/images/virtual.jpeg';
-// import alumniReviewerPersonImg from '../assests/images/alumni_reviewer_person.png'; // Placeholder for the girl's image
+import alumniReviewImg from '../assests/images/review.png'; // Placeholder for the girl's image
 // import yourCompanyLogo from '../assests/images/your_company_logo.png'; // Placeholder for review card logo
+
+// ***** ADD THIS IMAGE IMPORT *****
+import Batchdt from '../assests/images/bg.jpeg';
 
 
 // Import other components
@@ -206,7 +209,6 @@ const KeyFeaturesSection = () => {
   );
 };
 
-// SapFicoCourseContentSection Component - MODIFIED
 const SapFicoCourseContentSection = ({ openContactModal }) => {
   const [activeModuleId, setActiveModuleId] = useState(1);
   const allModulesData = [
@@ -244,7 +246,6 @@ const SapFicoCourseContentSection = ({ openContactModal }) => {
           <ul className="java-topics-list">
             {activeModuleDetails.topics.map((item, index) => (<li key={index}>{item}</li>))}
           </ul>
-          {/* MODIFIED: Added onClick handler to Download Curriculum button */}
           <button className="java-download-curriculum-button" onClick={openContactModal}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style={{ marginRight: '8px', verticalAlign: 'middle' }}>
               <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
@@ -257,14 +258,18 @@ const SapFicoCourseContentSection = ({ openContactModal }) => {
   );
 };
 
-// BatchDetailsSection Component - MODIFIED
+// ***** MODIFIED BatchDetailsSection *****
 const BatchDetailsSection = ({ openContactModal }) => {
   const batchInfo = [
     { id: 1, monthYear: "June 2025", type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Fresh Jobseekers", "Non IT to IT transition"] },
     { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
   ];
   return (
-    <div className="batch-details-section">
+    // Apply inline style to set CSS Custom Property for the background image
+    <div 
+      className="batch-details-section" 
+      style={{ '--batch-details-bg-image': `url(${Batchdt})` }}
+    >
       <h2 className="batch-details-title">Batch Details</h2>
       <div className="batch-cards-container">
         {batchInfo.map((batch) => (
@@ -285,7 +290,6 @@ const BatchDetailsSection = ({ openContactModal }) => {
             </div>
             <div className="batch-segment batch-fee-suitability">
               <div className="segment-content-wrapper">
-                {/* MODIFIED: Changed div to button and added onClick handler */}
                 <button className="course-fee-tag" onClick={openContactModal}>
                   {batch.feeTag}
                 </button>
@@ -321,83 +325,21 @@ const CorporateTrainingModesSection = () => {
   );
 };
 
-// --- START: NEW Alumni Reviews Section ---
 const AlumniReviewsSection = () => {
   const reviewsData = [
-    {
-      id: 1,
-      name: "Aravind R.",
-      designation: "",
-      avatarInitial: "A",
-      rating: 5,
-      companyLogoText: "Intellimindz",
-      reviewText: "The SAP FICO training was well-structured with practical insights. (P) Real-time business scenarios improved my understanding. I’m now confident in finance operations. (P) The clear SAP FICO interview questions and transparent course fees made Intellimindz the right choice for me."
-    },
-    {
-      id: 2,
-      name: "Meenakshi S.",
-      designation: "Finance Analyst",
-      avatarInitial: "M",
-      rating: 5,
-      companyLogoText: "Intellimindz",
-      reviewText: "I valued the detailed module explanations and hands-on sessions. (P) The lab access helped reinforce my learning. The SAP FICO interview questions were practical and useful. (P) Affordable course fees and flexible training options made this a great investment in my career."
-    },
-    {
-      id: 3,
-      name: "Karthik V.",
-      designation: "Accountant",
-      avatarInitial: "K",
-      rating: 5,
-      companyLogoText: "Intellimindz",
-      reviewText: "Intellimindz’s SAP FICO training gave me a strong foundation. (P) The interactive sessions and expert trainer clarified all doubts. SAP FICO interview questions were integrated well. (P) Considering the depth and support, the course fees were absolutely worth it."
-    },
-    {
-      id: 4,
-      name: "Divya M.",
-      designation: "SAP End User",
-      avatarInitial: "D",
-      rating: 5,
-      companyLogoText: "Intellimindz",
-      reviewText: "With my accounting background, this SAP FICO training was a perfect fit. (P) Practical business links clarified concepts easily. Course materials and interview preparation were thorough. (P) Transparent SAP FICO course fees simplified my decision to join Intellimindz without hesitation."
-    },
-    {
-      id: 5,
-      name: "Pradeep A.",
-      designation: "Financial Consultant",
-      avatarInitial: "P",
-      rating: 5,
-      companyLogoText: "Intellimindz",
-      reviewText: "The training covered each SAP FICO topic in depth with real-time scenarios. (P) The mock interview questions were spot-on for consultancy roles. (P) High-quality instruction made the course fees reasonable. Intellimindz truly delivers value for professionals looking to upskill."
-    }
+    { id: 1, name: "Aravind R.", designation: "", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "The SAP FICO training was well-structured with practical insights. (P) Real-time business scenarios improved my understanding. I’m now confident in finance operations. (P) The clear SAP FICO interview questions and transparent course fees made Intellimindz the right choice for me." },
+    { id: 2, name: "Meenakshi S.", designation: "Finance Analyst", avatarInitial: "M", rating: 5, companyLogoText: "Intellimindz", reviewText: "I valued the detailed module explanations and hands-on sessions. (P) The lab access helped reinforce my learning. The SAP FICO interview questions were practical and useful. (P) Affordable course fees and flexible training options made this a great investment in my career." },
+    { id: 3, name: "Karthik V.", designation: "Accountant", avatarInitial: "K", rating: 5, companyLogoText: "Intellimindz", reviewText: "Intellimindz’s SAP FICO training gave me a strong foundation. (P) The interactive sessions and expert trainer clarified all doubts. SAP FICO interview questions were integrated well. (P) Considering the depth and support, the course fees were absolutely worth it." },
+    { id: 4, name: "Divya M.", designation: "SAP End User", avatarInitial: "D", rating: 5, companyLogoText: "Intellimindz", reviewText: "With my accounting background, this SAP FICO training was a perfect fit. (P) Practical business links clarified concepts easily. Course materials and interview preparation were thorough. (P) Transparent SAP FICO course fees simplified my decision to join Intellimindz without hesitation." },
+    { id: 5, name: "Pradeep A.", designation: "Financial Consultant", avatarInitial: "P", rating: 5, companyLogoText: "Intellimindz", reviewText: "The training covered each SAP FICO topic in depth with real-time scenarios. (P) The mock interview questions were spot-on for consultancy roles. (P) High-quality instruction made the course fees reasonable. Intellimindz truly delivers value for professionals looking to upskill." }
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
-
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev === reviewsData.length - 1 ? 0 : prev + 1));
-  };
-
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev === 0 ? reviewsData.length - 1 : prev - 1));
-  };
-
+  const nextSlide = () => { setCurrentSlide((prev) => (prev === reviewsData.length - 1 ? 0 : prev + 1)); };
+  const prevSlide = () => { setCurrentSlide((prev) => (prev === 0 ? reviewsData.length - 1 : prev - 1)); };
   const currentReview = reviewsData[currentSlide];
-
-  const renderStars = (rating) => {
-    let stars = [];
-    for (let i = 0; i < 5; i++) {
-      stars.push(
-        <span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span>
-      );
-    }
-    return stars;
-  };
-
-  const formatReviewText = (text) => {
-    return text.split('(P)').map((paragraph, index) => (
-      paragraph.trim() && <p key={index}>{paragraph.trim()}</p>
-    ));
-  };
+  const renderStars = (rating) => { let stars = []; for (let i = 0; i < 5; i++) { stars.push( <span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span> ); } return stars; };
+  const formatReviewText = (text) => { return text.split('(P)').map((paragraph, index) => ( paragraph.trim() && <p key={index}>{paragraph.trim()}</p> )); };
 
   return (
     <div className="alumni-reviews-section">
@@ -405,13 +347,12 @@ const AlumniReviewsSection = () => {
       <div className="review-slider-layout-container">
         <div className="reviewer-image-area">
             <div className="reviewer-main-image-placeholder">
-              {/* You will add <img src={alumniReviewerPersonImg} ... /> here later */}
+              <img src={alumniReviewImg} alt="Alumni Reviewer" />
             </div>
           <div className="floating-star-rating-bubble">
             {renderStars(5)}
           </div>
         </div>
-
         <div className="review-content-area">
           <div className="review-card">
             <div className="review-card-header">
@@ -429,9 +370,7 @@ const AlumniReviewsSection = () => {
               {formatReviewText(currentReview.reviewText)}
             </div>
           </div>
-
           <div className="slider-navigation">
-            <div className="nav-quote-icon">“</div>
             <div className="nav-controls">
               <button onClick={prevSlide} className="nav-arrow prev-arrow" aria-label="Previous review">
                 <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
@@ -447,7 +386,6 @@ const AlumniReviewsSection = () => {
     </div>
   );
 };
-// --- END: NEW Alumni Reviews Section ---
 
 const SapImSyllabus = () => {
   const [activeModule, setActiveModule] = useState(null);
@@ -493,7 +431,6 @@ const SapImSyllabus = () => {
   );
 };
 
-// --- START: NEW CallToActionBanner Section ---
 const CallToActionBanner = ({ openContactModal }) => {
   return (
     <div className="cta-banner-section">
@@ -502,7 +439,6 @@ const CallToActionBanner = ({ openContactModal }) => {
     </div>
   );
 };
-// --- END: NEW CallToActionBanner Section ---
 
 const SAPmain = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -510,13 +446,11 @@ const SAPmain = () => {
   const closeContactModal = () => setIsModalOpen(false);
   return (
     <div>
-      {/* MODIFIED: Passed openContactModal to Saponline */}
       <Saponline openContactModal={openContactModal} />
       <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
     </div>
   );
 };
-
 
 const Saponline = ({ openContactModal }) => {
   return (
@@ -528,16 +462,13 @@ const Saponline = ({ openContactModal }) => {
       <SAPHeroSection openContactModal={openContactModal} />
       <SAPAboutSection />
       <KeyFeaturesSection />
-      {/* MODIFIED: Passed openContactModal to SapFicoCourseContentSection */}
       <SapFicoCourseContentSection openContactModal={openContactModal} />
-      {/* MODIFIED: Passed openContactModal to BatchDetailsSection */}
-      <BatchDetailsSection openContactModal={openContactModal} />
+      <BatchDetailsSection openContactModal={openContactModal} /> {/* Passed prop */}
       <CorporateTrainingModesSection />
       <AlumniReviewsSection />
-      <AskForDemo /> {/* Assuming AskForDemo handles its own modal or doesn't need this one */}
+      <AskForDemo />
       <Onlineheader />
       <SapImSyllabus />
-      {/* --- ADDED CallToActionBanner HERE --- */}
       <CallToActionBanner openContactModal={openContactModal} />
     </>
   );
