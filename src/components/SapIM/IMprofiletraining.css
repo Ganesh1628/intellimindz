@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 
 /* Main Container */
 .sap-training-container {
@@ -12,7 +12,7 @@
   .sap-training-header h1 {
     font-size: 2.5rem;
     color: #2c3e50;
-    font-family: "DM Sans", sans-serif;
+
     text-align: center;
     margin-bottom: 10px;
     font-weight: 700;
@@ -65,7 +65,6 @@
   .intro-text {
     font-size: 1.1rem;
     line-height: 1.5;
-    font-family: "DM Sans", sans-serif;
     color: #202020;
     margin-bottom: 30px;
   }
@@ -83,7 +82,7 @@
     position: relative;
     font-size: 1rem;
     line-height: 1.5;
-    font-family: "DM Sans", sans-serif;
+
     color: #202020;
   }
   

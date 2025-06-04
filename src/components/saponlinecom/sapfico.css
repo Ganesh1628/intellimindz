@@ -1,16 +1,11 @@
 /* (Become an SAP FICO Expert with Intellimindz- blue card line) */
-
 .sap-fico-expert-section {
-  background-color: #314787;
-  /* Dark blue background */
+  background-color: #314787; /* Dark blue background */
   color: white;
-  padding: 60px 20px;
-  /* Adjust padding as needed */
+  padding: 60px 20px; /* Adjust padding as needed */
   text-align: center;
-  position: relative;
-  /* For positioning the lines */
-  overflow: hidden;
-  /* To contain potential pseudo-element overflow */
+  position: relative; /* For positioning the lines */
+  overflow: hidden; /* To contain potential pseudo-element overflow */
 }
 
 .sap-fico-expert-section::before,
@@ -19,12 +14,9 @@
   position: absolute;
   left: 0;
   right: 0;
-  height: 2px;
-  /* Adjust the thickness of the blue line */
-  background-color: #4d64a8;
-  /* Lighter blue line color */
-  z-index: 1;
-  /* Ensure the lines are above the background */
+  height: 2px; /* Adjust the thickness of the blue line */
+  background-color: #4d64a8; /* Lighter blue line color */
+  z-index: 1; /* Ensure the lines are above the background */
 }
 
 .sap-fico-expert-section::before {
@@ -39,8 +31,7 @@
   font-size: 2.5em;
   margin-bottom: 15px;
   font-weight: bold;
-  z-index: 2;
-  /* Ensure text is above the lines */
+  z-index: 2; /* Ensure text is above the lines */
   position: relative;
 }
 
@@ -48,15 +39,13 @@
   font-size: 1.1em;
   margin-bottom: 30px;
   color: #ddd;
-  z-index: 2;
-  /* Ensure text is above the lines */
+  z-index: 2; /* Ensure text is above the lines */
   position: relative;
 }
 
 .sap-fico-expert-button {
   background-color: white;
-  color: #314787;
-  /* Dark blue text */
+  color: #314787; /* Dark blue text */
   padding: 15px 30px;
   border: none;
   border-radius: 5px;
@@ -64,8 +53,7 @@
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
-  z-index: 2;
-  /* Ensure button is above the lines */
+  z-index: 2; /* Ensure button is above the lines */
   position: relative;
 }
 
@@ -74,19 +62,13 @@
 }
 
 /* (About Our SAP FICO Training in Chennai = H2) */
-
 .sap-fico-about-section {
   padding: 60px 20px;
-  background-color: #fff;
-  /* White background */
-  color: #333;
-  /* Dark gray text */
-  text-align: center;
-  /* Center the heading */
-  max-width: 1200px;
-  /* Adjust max-width as needed */
-  margin: 40px auto;
-  /* Add margin above and below */
+  background-color: #fff; /* White background */
+  color: #333; /* Dark gray text */
+  text-align: center; /* Center the heading */
+  max-width: 1200px; /* Adjust max-width as needed */
+  margin: 40px auto; /* Add margin above and below */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,28 +78,22 @@
 .sap-fico-about-section h2 {
   font-size: 2.5em;
   font-weight: bold;
-  color: #000;
-  /* Black for the heading */
-  margin-bottom: 40px;
-  /* More space below heading */
+  color: #000; /* Black for the heading */
+  margin-bottom: 40px; /* More space below heading */
 }
 
 .sap-fico-about-content {
   display: flex;
-  flex-wrap: wrap;
-  /* Allow wrapping on smaller screens */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
   justify-content: center;
-  gap: 40px;
-  /* Space between text and image columns */
+  gap: 40px; /* Space between text and image columns */
   width: 100%;
   align-items: stretch; /* Ensures columns stretch to the same height if needed */
 }
 
 .sap-fico-about-text {
-  flex: 2;
-  /* Takes up more space */
-  min-width: 300px;
-  /* Minimum width before wrapping */
+  flex: 2; /* Takes up more space */
+  min-width: 300px; /* Minimum width before wrapping */
   text-align: left;
   line-height: 1.8;
   font-size: 1.1em;
@@ -128,10 +104,8 @@
 }
 
 .sap-fico-about-image-container {
-  flex: 1;
-  /* Takes up less space */
-  min-width: 250px;
-  /* Minimum width before wrapping */
+  flex: 1; /* Takes up less space */
+  min-width: 250px; /* Minimum width before wrapping */
   display: flex;
   border: 1px solid #ddd; /* Light border */
   border-radius: 5%;
@@ -149,16 +123,13 @@
 /* Media queries for responsiveness (SAPAboutSection) */
 @media (max-width: 768px) {
   .sap-fico-about-content {
-    flex-direction: column;
-    /* Stack columns on smaller screens */
+    flex-direction: column; /* Stack columns on smaller screens */
     align-items: center;
   }
   .sap-fico-about-text,
   .sap-fico-about-image-container {
-    min-width: unset;
-    /* Remove min-width for stacking */
-    width: 90%;
-    /* Adjust width for stacked content */
+    min-width: unset; /* Remove min-width for stacking */
+    width: 90%; /* Adjust width for stacked content */
   }
   .sap-fico-about-image-container {
     height: 250px; /* Example fixed height for stacked view, adjust as needed */
@@ -185,11 +156,9 @@
 }
 
 /* (KEY FEATURES TITLE SAP) */
-
 .sap-fico-features-section {
   padding: 60px 20px;
-  background-color: #f8f8f8;
-  /* Light gray background to distinguish it */
+  background-color: #f8f8f8; /* Light gray background to distinguish it */
   color: #333;
   text-align: center;
   max-width: 1200px;
@@ -201,16 +170,13 @@
   font-size: 2.5em;
   font-weight: bold;
   color: #000;
-  margin-bottom: 50px;
-  /* More space below heading */
+  margin-bottom: 50px; /* More space below heading */
 }
 
 .sap-fico-features-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  /* Responsive grid */
-  gap: 30px;
-  /* Space between feature cards */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive grid */
+  gap: 30px; /* Space between feature cards */
   justify-items: center;
   align-items: start;
 }
@@ -218,37 +184,30 @@
 .feature-card {
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  /* Soft shadow */
-  padding: 0px 0px 30px 0px;
-  /* Adjusted padding for image to go to edges */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Soft shadow */
+  padding: 0px 0px 30px 0px; /* Adjusted padding for image to go to edges */
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: 100%;
-  /* Ensure cards are same height */
+  height: 100%; /* Ensure cards are same height */
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  /* Align content to the top */
+  justify-content: flex-start; /* Align content to the top */
   overflow: hidden; /* Crucial to clip image if it goes slightly over */
 }
 
 .feature-card:hover {
-  transform: translateY(-5px);
-  /* Lift effect on hover */
+  transform: translateY(-5px); /* Lift effect on hover */
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
 }
 
 .feature-icon-placeholder {
   width: 100%; /* Take full width of the card */
   height: 180px; /* Fixed height for consistency, adjust as needed */
-  margin: 0 auto 20px auto;
-  /* Center horizontally, space below image */
+  margin: 0 auto 20px auto; /* Center horizontally, space below image */
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.8em;
-  /* Placeholder text size */
+  font-size: 0.8em; /* Placeholder text size */
   color: #666666;
   overflow: hidden; /* Ensure image doesn't overflow if taller than height */
 }
@@ -272,8 +231,7 @@
   font-size: 1em;
   color: #555;
   line-height: 1.6;
-  flex-grow: 1;
-  /* Allows paragraphs to take available height */
+  flex-grow: 1; /* Allows paragraphs to take available height */
   padding: 0 20px; /* Add horizontal padding for text */
 }
 
@@ -315,13 +273,12 @@
 }
 
 /* (SAP INTRO ENROLL NOW BUTTON STYLING) */
-
 /* Styles for the Enroll Now button in the Intro component */
 .intro-content .intro-enroll-button {
   background-color: #ff6600;
   color: white;
   padding: 12px 25px;
-  margin-right: 600px;
+  margin-right: 600px; /* This might need adjustment for responsiveness */
   border: none;
   border-radius: 5px;
   font-size: 1.1em;
@@ -343,7 +300,6 @@
   align-items: center;
   text-align: center;
   padding-bottom: 20px;
-  /* background-color: #fff; */
 }
 
 .intro-content h1,
@@ -449,9 +405,9 @@
 }
 
 @media (max-width: 992px) {
-    .training-mode-card {
-      width: calc(50% - 20px);
-    }
+  .training-mode-card {
+    width: calc(50% - 20px); /* Adjusted for gap */
+  }
 }
 
 @media (max-width: 768px) {
@@ -465,9 +421,9 @@
   .training-mode-card {
     width: 85%;
     max-width: 350px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Ensure this is applied */
   }
-    .training-mode-card:last-child {
+  .training-mode-card:last-child {
     margin-bottom: 0;
   }
   .popular-banner {
@@ -498,10 +454,10 @@
   position: relative;
 }
 
-.java-course-content-section > h2 {
-    display: block;
-    text-align: center;
-    margin-bottom: 40px;
+.java-course-content-section > h2 { /* Target h2 directly under the section for centering */
+  display: block; /* Or 'flex' and then 'justify-content: center;' on the h2 itself if it's a flex container */
+  text-align: center;
+  margin-bottom: 40px; /* Existing margin */
 }
 
 .java-title-underline {
@@ -509,7 +465,7 @@
   width: 60px;
   height: 4px;
   background-color: #0044cc;
-  margin: 10px auto 0;
+  margin: 10px auto 0; /* Center underline */
 }
 
 .java-course-layout-container {
@@ -561,7 +517,7 @@
 .java-module-item:hover { background-color: #e6efff; }
 .java-module-item.java-active-module {
   background-color: #ffffff; color: #1c3d7f; font-weight: 500;
-  border-left: 4px solid #0044cc; padding-left: 16px;
+  border-left: 4px solid #0044cc; padding-left: 16px; /* Adjust padding for border */
 }
 
 .java-topics-details-panel {
@@ -600,35 +556,44 @@
 @media (max-width: 768px) {
   .java-course-layout-container { flex-direction: column; }
   .java-syllabus-modules-panel, .java-topics-details-panel {
-    flex: 1 1 100%; min-width: unset; max-height: none;
-    overflow-y: visible; scrollbar-width: auto;
+    flex: 1 1 100%; min-width: unset; max-height: none; /* Allow to grow */
+    overflow-y: visible; /* Remove scroll for stacked view */
+    scrollbar-width: auto;
   }
-  .java-syllabus-modules-panel::-webkit-scrollbar, .java-topics-details-panel::-webkit-scrollbar { width: auto; }
-  .java-syllabus-modules-panel::-webkit-scrollbar-track, .java-topics-details-panel::-webkit-scrollbar-track { background: transparent; }
-  .java-syllabus-modules-panel::-webkit-scrollbar-thumb, .java-topics-details-panel::-webkit-scrollbar-thumb { background-color: transparent; border: none; }
-  .java-syllabus-header, .java-topics-title { position: static; }
+  .java-syllabus-modules-panel::-webkit-scrollbar, .java-topics-details-panel::-webkit-scrollbar { display: none; } /* Hide scrollbar */
+
+  .java-syllabus-header, .java-topics-title { position: static; } /* Remove sticky positioning */
   .java-section-title { font-size: 1.8em; }
   .java-syllabus-header { clip-path: none; border-top-left-radius: 8px; border-top-right-radius: 8px; }
   .java-download-curriculum-button { align-self: stretch; text-align: center; justify-content: center; margin-top: 20px; }
 }
 /* --- END: Styles for Java Training Course Content Section (now SAP FICO Course Content) --- */
 
+/* ... other styles ... */
+
 /* --- START: Styles for Batch Details Section --- */
 .batch-details-section {
-  padding: 60px 20px;
-  /* background-image: url('../assests/images/batch_details_background.jpg'); */
-  background-color: #f0ead6;
+  /* background-color: #f0ead6; */ /* This line is removed or commented out */
+  background-image: var(--batch-details-bg-image); /* Use the CSS variable set in JSX */
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat; /* Explicitly set no-repeat */
+  padding: 60px 20px;
   font-family: 'Arial', sans-serif;
+  /* The default text color for the section can remain if most text is on cards. */
+  /* However, the main title color is adjusted below. */
 }
 
 .batch-details-title {
   text-align: center;
   font-size: 2.2em;
-  color: #333;
+  color: #ffffff; /* Changed to white for better readability against a potentially dark/complex image */
+  /* If your library_bg.png is very light, you might prefer a dark color like #333333 or add a text-shadow */
+  /* e.g., text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7); */
   margin-bottom: 40px;
   font-weight: bold;
+  position: relative; /* Ensures title is properly layered if other pseudo-elements are ever added to parent */
+  z-index: 1; /* Consistent layering */
 }
 
 .batch-cards-container {
@@ -642,14 +607,14 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   display: flex;
   margin-bottom: 30px;
-  align-items: stretch;
+  align-items: stretch; /* Ensures segments are of equal height */
   box-sizing: border-box;
   width: 100%;
   min-height: 180px; /* Explicit minimum height */
 }
 
 .batch-segment {
-  flex: 1 1 0%;
+  flex: 1 1 0%; /* Allow segments to grow and shrink equally */
   padding: 15px;
   text-align: center;
   display: flex;
@@ -657,9 +622,9 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  position: relative;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
+  position: relative; 
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
 }
 
 .batch-segment:not(:last-child) {
@@ -671,35 +636,33 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100%; 
 }
 
 .batch-segment p {
   margin: 5px 0;
   line-height: 1.5;
-  color: #555;
-  box-sizing: border-box;
+  color: #555; /* Text color on white cards, should be fine */
+  box-sizing: border-box; 
 }
 
 .batch-month-year {
-  color: #0056b3;
+  color: #0056b3; /* Text color on white cards */
   font-weight: bold;
   font-size: 1.4em;
-  /* Ensure it's treated as a flex item for centering if it's just text */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1; /* if it's the only child of its segment */
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-grow: 1; 
 }
 
 .batch-schedule-mode p:first-child,
 .batch-duration-type p:first-child {
   font-weight: 600;
-  color: #333;
-  font-size: 1em;
+  color: #333; /* Text color on white cards */
+  font-size: 1em; 
 }
 
-/* MODIFIED: Styles for the Course Fee button */
 .course-fee-tag {
   background-color: #ff8c00;
   color: white;
@@ -707,22 +670,21 @@
   border-radius: 5px;
   font-weight: bold;
   font-size: 0.9em;
-  display: inline-block; /* Or block if it should take full width of its container */
+  display: inline-block;
   margin-bottom: 10px;
-  border: none; /* Explicitly remove button border */
-  cursor: pointer; /* Make it look clickable */
-  text-align: center; /* Ensure text is centered if it's a block button */
-  transition: background-color 0.3s ease; /* Add hover effect */
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
 }
 
 .course-fee-tag:hover {
-  background-color: #e07b00; /* Darker orange on hover */
+  background-color: #e07b00;
 }
-
 
 .suitability-text {
   font-size: 0.85em;
-  color: #666;
+  color: #666; /* Text color on white cards */
   margin: 3px 0;
   line-height: 1.4;
 }
@@ -730,28 +692,28 @@
 /* Responsive adjustments for Batch Details Section */
 @media (max-width: 992px) {
   .batch-card {
-    flex-wrap: wrap;
-    min-height: auto;
+    flex-wrap: wrap; 
+    min-height: auto; 
   }
   .batch-segment {
-    flex-basis: calc(50% - 1px);
+    flex-basis: calc(50% - 1px); 
     padding: 15px 10px;
   }
-  .batch-segment:nth-child(2n) {
+  .batch-segment:nth-child(2n) { 
     border-right: none;
   }
-  .batch-segment:nth-child(odd):not(:last-of-type) {
+    .batch-segment:nth-child(odd):not(:last-of-type) { 
       border-right: 1px solid #e0e0e0;
-  }
-  .batch-segment:nth-child(3):nth-last-child(2) {
-    border-right: 1px solid #e0e0e0;
-  }
-  .batch-segment:last-of-type {
-    border-right: none;
     }
-  .batch-segment:nth-child(1), .batch-segment:nth-child(2) {
+  .batch-segment:nth-child(1), .batch-segment:nth-child(2) { 
     border-bottom: 1px solid #e0e0e0;
   }
+    .batch-segment:nth-child(3):nth-last-child(2) { 
+      border-right: 1px solid #e0e0e0;
+    }
+    .batch-segment:last-of-type { 
+      border-right: none;
+    }
 }
 
 @media (max-width: 600px) {
@@ -759,32 +721,31 @@
     font-size: 1.8em;
   }
   .batch-card {
-    flex-direction: column;
+    flex-direction: column; 
     min-height: auto;
   }
   .batch-segment {
-    flex-basis: auto;
-    width: 100%;
-    border-right: none !important;
-    border-bottom: 1px solid #e0e0e0;
+    flex-basis: auto; 
+    width: 100%; 
+    border-right: none !important; 
+    border-bottom: 1px solid #e0e0e0; 
     padding: 15px;
   }
   .batch-segment:last-child {
-    border-bottom: none;
+    border-bottom: none; 
   }
   .batch-month-year {
     font-size: 1.3em;
-    padding: 15px;
+    padding: 15px; 
   }
 }
-
 /* --- END: Styles for Batch Details Section --- */
 
-
+/* ... other styles ... */
 /* --- START: Styles for Corporate Training Modes Section --- */
 .corporate-training-modes-section {
   padding: 50px 20px;
-  background-color: #f8f9fa; /* Light grey background, or adjust as needed */
+  background-color: #f8f9fa;
   font-family: 'Arial', sans-serif;
 }
 
@@ -798,26 +759,27 @@
 
 .modes-container-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive 3-column layout */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .mode-card-item {
-  background-color: #fff; /* Optional: if cards should have a background */
-  border-radius: 8px; /* Optional: if cards have border/shadow */
-  /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */ /* Optional: subtle shadow */
-  padding: 0px; /* No padding if image should touch edges, or add padding */
-  text-align: left; /* Align text to left as per image */
+  background-color: #fff;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */ /* Optional */
+  padding: 0px; /* Image touches edges */
+  text-align: left;
+  overflow: hidden; /* To respect border radius of image */
 }
 
 .mode-image {
   width: 100%;
-  height: 220px; /* Adjust as needed for image aspect ratio */
+  height: 220px;
   object-fit: cover;
-  border-top-left-radius: 8px; /* If card has radius */
-  border-top-right-radius: 8px; /* If card has radius */
+  /* border-top-left-radius: 8px; */ /* Removed as card has overflow:hidden */
+  /* border-top-right-radius: 8px; */ /* Removed as card has overflow:hidden */
   margin-bottom: 20px;
   display: block;
 }
@@ -827,14 +789,14 @@
   font-weight: bold;
   color: #333;
   margin-bottom: 10px;
-  padding: 0 20px; /* Horizontal padding for text content */
+  padding: 0 20px;
 }
 
 .mode-description {
   font-size: 0.95em;
   color: #555;
   line-height: 1.6;
-  padding: 0 20px 20px 20px; /* Horizontal and bottom padding */
+  padding: 0 20px 20px 20px;
 }
 
 @media (max-width: 768px) {
@@ -842,10 +804,10 @@
     font-size: 1.8em;
   }
   .modes-container-grid {
-    grid-template-columns: 1fr; /* Stack columns on smaller screens */
+    grid-template-columns: 1fr;
   }
   .mode-image {
-    height: 200px; /* Adjust image height for stacked view */
+    height: 200px;
   }
 }
 /* --- END: Styles for Corporate Training Modes Section --- */
@@ -853,10 +815,10 @@
 /* --- START: Styles for Alumni Reviews Section --- */
 .alumni-reviews-section {
   padding: 60px 20px;
-  background-color: #eef2f5; /* Lighter, slightly bluish grey background */
+  background-color: #eef2f5;
   font-family: 'Arial', sans-serif;
   position: relative;
-  overflow: hidden;
+  overflow: hidden; /* Keep this to contain pseudo-elements */
 }
 
 .alumni-reviews-section::before,
@@ -864,101 +826,96 @@
   content: '';
   position: absolute;
   border-radius: 50%;
-  opacity: 0.08; /* Softer opacity */
-  z-index: 1;
+  opacity: 0.08;
+  z-index: 1; /* Behind content */
   background-color: #d0d9e2;
+  filter: blur(15px);
 }
 
 .alumni-reviews-section::before {
-  width: 350px; /* Slightly larger */
+  width: 350px;
   height: 350px;
-  top: -120px; /* Adjusted position */
-  right: -150px; /* Adjusted position */
-  filter: blur(15px);
+  top: -120px;
+  right: -150px;
 }
 
 .alumni-reviews-section::after {
-  width: 250px; /* Slightly larger */
+  width: 250px;
   height: 250px;
-  bottom: -100px; /* Adjusted position */
-  left: -120px; /* Adjusted position */
-  filter: blur(15px);
+  bottom: -100px;
+  left: -120px;
 }
-
 
 .alumni-reviews-title {
   text-align: center;
   font-size: 2.2em;
-  color: #2c3e50; /* Darker, more professional blue-grey */
+  color: #2c3e50;
   margin-bottom: 50px;
   font-weight: bold;
   position: relative;
-  z-index: 2;
+  z-index: 2; /* Above pseudo-elements */
 }
 
 .review-slider-layout-container {
   display: flex;
-  align-items: center; /* Vertically align image area and content area */
+  align-items: flex-start; /* Align items to the top of the container */
   justify-content: center;
-  gap: 50px; /* Increased gap */
-  max-width: 1000px; /* Slightly reduced max-width for a tighter look */
+  gap: 50px;
+  max-width: 1000px;
   margin: 0 auto;
   position: relative;
-  z-index: 2;
+  z-index: 2; /* Above pseudo-elements */
 }
 
 .reviewer-image-area {
-  flex-basis: 30%; /* Adjust basis for image */
+  flex-basis: 30%;
   max-width: 300px;
   position: relative;
-  /* display: none; /* Keep hidden until image is ready */
-}
-/* Add .visible class to reviewer-image-area in JSX when image is ready */
-.reviewer-image-area.visible {
-    display: block;
-}
-.reviewer-main-image-placeholder { /* Placeholder for the image */
-    width: 100%;
-    padding-top: 120%; /* Aspect ratio for a taller image, adjust as needed */
-    background-color: #e0e0e0;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #aaa;
-    font-style: italic;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-
-.reviewer-main-image {
+.reviewer-main-image-placeholder {
   width: 100%;
-  height: auto; /* Maintain aspect ratio */
-  max-height: 400px; /* Max height for the image */
+  aspect-ratio: 3 / 4; /* Example aspect ratio, adjust as needed */
+  background-color: #e0e0e0; /* Fallback color */
   border-radius: 10px;
+  position: relative; /* For absolute positioning of the img */
+  overflow: hidden; /* Crucial for image clipping and border-radius */
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  object-fit: cover;
+}
+
+.reviewer-main-image-placeholder img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Fill container, maintain aspect ratio, crop if needed */
+  display: block;
 }
 
 .floating-star-rating-bubble {
   position: absolute;
-  bottom: 25px;
-  left: -25px;
+  bottom: 10px; /* Adjusted position */
+  left: 10px; /* Adjusted position */
   background-color: white;
-  padding: 8px 12px; /* Slightly smaller padding */
-  border-radius: 18px 18px 18px 0;
+  padding: 8px 12px;
+  border-radius: 18px 18px 18px 0; /* Bubble shape */
   box-shadow: 0 2px 10px rgba(0,0,0,0.15);
-  z-index: 11;
+  z-index: 11; /* Above image */
 }
-.floating-star-rating-bubble .star-rating { /* Target stars inside bubble */
-    font-size: 1em; /* Smaller stars for bubble */
-    color: #ffc107;
+
+.floating-star-rating-bubble .star { /* Style for stars inside the bubble */
+  font-size: 1em;
+  color: #ffc107; /* Gold for filled stars */
+  margin-right: 1px;
 }
-.floating-star-rating-bubble .star { margin-right: 1px;}
+.floating-star-rating-bubble .star:not(.filled) { /* If you have logic for empty stars */
+    color: #e0e0e0; /* Light grey for empty stars */
+}
 
 
 .review-content-area {
-  flex-basis: 65%; /* Adjust basis for content */
+  flex-basis: 65%;
   max-width: 600px;
   display: flex;
   flex-direction: column;
@@ -967,45 +924,46 @@
 .review-card {
   background-color: #ffffff;
   border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(44, 62, 80, 0.08); /* Softer, more refined shadow */
-  padding: 25px 30px; /* Adjusted padding */
+  box-shadow: 0 6px 20px rgba(44, 62, 80, 0.08);
+  padding: 25px 30px;
   margin-bottom: 25px;
-  min-height: 280px; /* Adjusted min-height */
+  min-height: auto; /* Allow card to size to content */
   display: flex;
   flex-direction: column;
+  justify-content: space-between; /* Distribute space if card is taller than content */
 }
 
 .review-card-header {
   display: flex;
   justify-content: flex-start;
-  align-items: center; /* Vertically align logo text */
-  margin-bottom: 15px; /* Reduced margin */
+  align-items: center;
+  margin-bottom: 15px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #eee; /* Subtle separator */
+  border-bottom: 1px solid #eee;
 }
 
-.review-company-logo-text { /* Style for "Intellimindz" text */
+.review-company-logo-text {
   font-size: 1.1em;
   color: #555;
   font-weight: 500;
 }
 
-.reviewer-info-line { /* New wrapper for avatar, name/designation, and stars */
+.reviewer-info-line {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
 }
 
 .reviewer-avatar {
-  width: 45px; /* Slightly smaller avatar */
+  width: 45px;
   height: 45px;
   border-radius: 50%;
-  background-color: #ff8c00;
+  background-color: #ff8c00; /* Orange */
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.3em; /* Adjusted size */
+  font-size: 1.3em;
   font-weight: bold;
   margin-right: 12px;
   flex-shrink: 0;
@@ -1014,36 +972,43 @@
 .reviewer-name-designation {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align text to left */
-  flex-grow: 1; /* Allow it to take space */
+  align-items: flex-start;
+  flex-grow: 1;
 }
 
 .reviewer-name {
-  font-weight: 600; /* Bolder name */
-  font-size: 1.05em; /* Slightly adjusted */
-  color: #2c3e50; /* Darker text */
+  font-weight: 600;
+  font-size: 1.05em;
+  color: #2c3e50;
   margin-bottom: 2px;
 }
+
 .reviewer-designation {
-    font-size: 0.85em;
-    color: #7f8c8d; /* Grey for designation */
+  font-size: 0.85em;
+  color: #7f8c8d;
 }
 
-.star-rating-header { /* For stars in the header */
-  font-size: 1em; /* Adjusted size */
-  color: #ffc107;
-  margin-left: auto; /* Push to the far right */
+.star-rating-header {
+  font-size: 1em;
+  color: #ffc107; /* Default for filled stars */
+  margin-left: auto; /* Push to far right */
 }
-.star-rating-header .star { margin-left: 2px; } /* Spacing between stars */
+.star-rating-header .star {
+  margin-left: 2px;
+}
+.star-rating-header .star:not(.filled) { /* If you use a .filled class for stars */
+    color: #e0e0e0; /* Light grey for empty stars */
+}
 
 
 .review-text-content {
-  font-size: 0.9em; /* Slightly smaller for better fit */
+  font-size: 0.9em;
   line-height: 1.65;
-  color: #34495e; /* Darker grey for text */
+  color: #34495e;
   flex-grow: 1;
-  text-align: left; /* Ensure text is left-aligned */
+  text-align: left;
 }
+
 .review-text-content p {
   margin-bottom: 0.8em;
 }
@@ -1055,42 +1020,35 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 15px; /* Reduced gap */
+  gap: 15px;
   padding-right: 5px;
-}
-
-.nav-quote-icon {
-  font-size: 3.5em;
-  color: #bdc3c7; /* Lighter grey for quote */
-  line-height: 1;
-  font-family: 'Georgia', serif; /* More traditional quote font */
-  margin-right: auto; /* Push quote to the left of controls */
 }
 
 .nav-controls {
   display: flex;
   align-items: center;
-  gap: 10px; /* Reduced gap */
+  gap: 10px;
 }
 
 .nav-arrow {
   background-color: #fff;
-  border: 1px solid #dfe4ea; /* Lighter border */
+  border: 1px solid #dfe4ea;
   color: #5f6773;
-  width: 32px; /* Smaller arrows */
+  width: 32px;
   height: 32px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1em; /* Adjust if using text arrows, SVG will scale */
+  font-size: 1em; /* For text arrows, SVG will scale */
   cursor: pointer;
   transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
-.nav-arrow svg { /* Style for inline SVGs */
-    width: 1em;
-    height: 1em;
+.nav-arrow svg {
+  width: 1em; /* Control SVG size via font-size of parent */
+  height: 1em;
+  stroke-width: 2.5; /* Ensure SVG stroke width is applied if not in SVG itself */
 }
 
 .nav-arrow:hover {
@@ -1103,11 +1061,10 @@
   font-size: 0.95em;
   color: #555;
   font-weight: 500;
-  min-width: 45px; /* Ensure space for "01/05" */
+  min-width: 45px;
   text-align: center;
 }
 
-/* Responsive adjustments for Alumni Reviews Section */
 @media (max-width: 992px) {
   .review-slider-layout-container {
     flex-direction: column;
@@ -1115,16 +1072,15 @@
     gap: 30px;
   }
   .reviewer-image-area {
-    flex-basis: auto; /* Let it take natural width or set a specific one */
-    width: 60%; /* Example: make image area smaller */
+    flex-basis: auto;
+    width: 60%;
     max-width: 250px;
     margin-bottom: 20px;
-    display: block; /* Ensure it's visible for placeholder */
   }
   .floating-star-rating-bubble {
     left: 50%;
     transform: translateX(-50%);
-    bottom: -15px;
+    bottom: -15px; /* Adjust to sit nicely below image */
   }
   .review-content-area {
     flex-basis: 100%;
@@ -1133,10 +1089,7 @@
   .slider-navigation {
     justify-content: center;
     padding-right: 0;
-    margin-top: 10px; /* Add some space when stacked */
-  }
-  .nav-quote-icon {
-      display: none; /* Optionally hide quote on smaller screens if too cluttered */
+    margin-top: 10px;
   }
 }
 
@@ -1147,24 +1100,20 @@
   }
   .review-card {
     padding: 20px 25px;
-    min-height: auto; /* Let content define height on mobile */
+    min-height: auto;
   }
   .reviewer-info-line {
-    flex-direction: column; /* Stack avatar, name, stars on mobile */
-    align-items: flex-start; /* Align to left */
+    flex-direction: column;
+    align-items: flex-start;
   }
   .star-rating-header {
-    margin-left: 0; /* Remove push to right */
-    margin-top: 8px; /* Space after name/designation */
+    margin-left: 0;
+    margin-top: 8px;
   }
   .reviewer-name-designation {
-      margin-top: 8px; /* Space after avatar */
-  }
-  .nav-quote-icon {
-    display: none;
+    margin-top: 8px; /* Space after avatar when stacked */
   }
 }
-
 /* --- END: Styles for Alumni Reviews Section --- */
 
 /* --- START: Call To Action Banner Section --- */
@@ -1175,14 +1124,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
+  flex-wrap: wrap; /* Allow items to wrap */
+  gap: 20px; /* Space between text and button */
 }
 
 .cta-banner-text {
   color: #ffffff;
   font-size: 1.3em;
-  margin: 0;
+  margin: 0; /* Reset margin */
   font-weight: 500;
 }
 
