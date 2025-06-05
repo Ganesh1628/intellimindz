@@ -386,23 +386,6 @@
   background-color: #c9302c;
 }
 
-.popular-banner {
-  position: absolute;
-  top: 16px;
-  right: -38px;
-  background-color: #a52020;
-  color: white;
-  padding: 6px 0;
-  width: 160px;
-  text-align: center;
-  font-size: 0.85em;
-  font-weight: bold;
-  transform: rotate(45deg);
-  transform-origin: center;
-  line-height: 1.3;
-  z-index: 1;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-}
 
 @media (max-width: 992px) {
   .training-mode-card {
@@ -902,16 +885,16 @@
   border-radius: 18px 18px 18px 0; /* Bubble shape */
   box-shadow: 0 2px 10px rgba(0,0,0,0.15);
   z-index: 11; /* Above image */
-}
-
-.floating-star-rating-bubble .star { /* Style for stars inside the bubble */
+} 
+/* 
+.floating-star-rating-bubble .star { 
   font-size: 1em;
-  color: #ffc107; /* Gold for filled stars */
+  color: #ffc107; 
   margin-right: 1px;
 }
-.floating-star-rating-bubble .star:not(.filled) { /* If you have logic for empty stars */
-    color: #e0e0e0; /* Light grey for empty stars */
-}
+.floating-star-rating-bubble .star:not(.filled) { 
+    color: #e0e0e0; 
+} */
 
 
 .review-content-area {
@@ -1030,31 +1013,39 @@
   gap: 10px;
 }
 
+/* Target the navigation buttons */
 .nav-arrow {
-  background-color: #fff;
-  border: 1px solid #dfe4ea;
-  color: #5f6773;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  display: flex;
+  /* Reset or define background and border if they are making it look like a faint circle */
+  background-color: #f0f0f0; /* Example: light grey background, change as needed */
+  border: 1px solid #cccccc; /* Example: a visible border */
+  border-radius: 50%; /* If you want circular buttons with arrows inside */
+  /* or use a smaller value like 4px for slightly rounded square buttons, or 0 for sharp square */
+  
+  width: 36px; /* Adjust size of the button */
+  height: 36px; /* Adjust size of the button */
+  
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 1em; /* For text arrows, SVG will scale */
+  
   cursor: pointer;
-  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-.nav-arrow svg {
-  width: 1em; /* Control SVG size via font-size of parent */
-  height: 1em;
-  stroke-width: 2.5; /* Ensure SVG stroke width is applied if not in SVG itself */
+  padding: 0; /* Remove padding if it's affecting SVG position */
+  
+  /* THIS IS IMPORTANT FOR THE ARROW COLOR */
+  color: #333333; /* Example: Dark grey for the arrow. 'currentColor' in SVG uses this. */
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .nav-arrow:hover {
-  background-color: #f8f9fa;
-  border-color: #ced4da;
-  color: #333;
+  background-color: #e0e0e0; /* Example: slightly darker on hover */
+  color: #000000; /* Example: black arrow on hover */
+}
+
+/* Style the SVG arrows themselves if needed, though usually sizing the button and setting 'color' is enough */
+.nav-arrow svg {
+  width: 10px;  /* Adjust if the default 12px in SVG is too small/large for the button */
+  height: 16px; /* Adjust if the default 20px in SVG is too small/large for the button */
+  /* The strokeWidth="2.5" in your SVG is good for visibility. */
 }
 
 .slide-counter {

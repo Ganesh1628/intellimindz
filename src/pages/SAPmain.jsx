@@ -142,7 +142,6 @@ const TrainingModesSection = ({ openContactModal }) => {
       <div className="training-modes-grid">
         {trainingModes.map(mode => (
           <div key={mode.id} className="training-mode-card">
-            {mode.isPopular && <div className="popular-banner">Popular</div>}
             <PlaceholderTrainingIcon type={mode.iconType} />
             <h3 className="training-mode-card-title">{mode.title}</h3>
             <p className="training-mode-card-description">{mode.description}</p>
@@ -349,9 +348,9 @@ const AlumniReviewsSection = () => {
             <div className="reviewer-main-image-placeholder">
               <img src={alumniReviewImg} alt="Alumni Reviewer" />
             </div>
-          <div className="floating-star-rating-bubble">
+          {/* <div className="floating-star-rating-bubble">
             {renderStars(5)}
-          </div>
+          </div> */}
         </div>
         <div className="review-content-area">
           <div className="review-card">
@@ -404,7 +403,12 @@ const SapImSyllabus = () => {
     return (
     <div className="sapim-syllabus">
       <div className="sap-home-syllabus-header">
-        <h1>Have a Question with Our SAP FICO Course?</h1>
+        <h1>
+          Have a Question with Our <span className="highlighted-course-title">SAP FICO Course?</span>
+        </h1>
+        <p className="syllabus-header-subtitle">
+          Here, you can get the answer to your question about our SAP FICO course in Chennai.
+        </p>
       </div>
       <div className="syllabus-grid">
         {modulesData.map((module) => (
