@@ -13,7 +13,7 @@ const TrainingOptions = () => {
     const trainingOptions = [
         {
             title: "Classroom Training",
-            description: "Receive top-notch training from industry professionals through interactive classroom sessions, complete with real-time projects to enhance your hands-on experience.",
+            description: "Receive top-notch training from industry professionals through interactive classroom sessions, real-time projects complete with real-time projects to enhance your hands-on experience.",
             icon: classroomIcon,
         },
         {
@@ -28,7 +28,7 @@ const TrainingOptions = () => {
         },
         {
             title: "Video Based Training",
-            description: "Enjoy unlimited access to recorded training sessions, enabling you to revisit lessons and learn at your own pace, with flexibility and convenience—anytime and anywhere.",
+            description: "Enjoy unlimited access to recorded training sessions, enabling you to revisit lessons easily and learn at your own pace, with flexibility, added convenience, and accessibility—anytime and anywhere.",
             icon: videoIcon,
         },
     ];

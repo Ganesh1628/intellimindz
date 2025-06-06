@@ -125,7 +125,7 @@ const PlaceholderTrainingIcon = ({ type }) => (
     {type === 'online' && '🎓'}
     {type === 'self-paced' && '💻'}
     {type === 'classroom' && '👥'}
-    {type === 'hybrid' && '�'}
+    {type === 'hybrid' && '🔄'}
   </div>
 );
 
