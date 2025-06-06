@@ -7,9 +7,14 @@ import Java from "./components/Java_course/Java_course"; // Import Java Course C
 import Saphome from "./pages/Saphome";
 import Saponline from "./pages/SAPmain";
 import Sapabap from "./pages/sap_abap";
-import Sapim from "./pages/sapim";
+import Sappim from "./pages/sapim";
 import Sapehs from "./pages/sap_ehs";
 import Sapbasis from "./pages/sap_basis";
+import Saperp from "./pages/sap_erp";
+import Sapim from "./pages/sap_im";
+import Sapep from "./pages/sap_ep";
+import Saplo from "./pages/sap_lo";
+import Sapariba from "./pages/sap_ariba";
 import Sapqm from "./pages/sap_qm";
 import Saphana from "./pages/sap_hana";
 import Contactus from "./pages/contactus";
@@ -26,10 +31,15 @@ const App = () => {
         <Route path="/java_course" element={<Java />} /> {/* Added Java Course Route */}
         <Route path="/sap_course" element={<Saphome />} /> 
         <Route path="/sap_fico_training_in_chennai" element={<Saponline />} /> 
-        <Route path="/sap_im_training" element={<Sapim />} /> 
+        <Route path="/sap_im_training" element={<Sappim />} /> 
         <Route path="/sap_abap_training_in_chennai" element={<Sapabap />} /> 
-        <Route path="/sap_basis" element={<Sapbasis />} /> 
-        <Route path="/sap_qm" element={<Sapqm />} /> 
+        <Route path="/sap_erp_training_in_chennai" element={<Saperp />} /> 
+        <Route path="/sap_ep_training_in_chennai" element={<Sapep />} /> 
+        <Route path="/sap_lo_training_in_chennai" element={<Saplo />} /> 
+        <Route path="/sap_im_training_in_chennai" element={<Sapim />} /> 
+        <Route path="/sap_ariba_training_in_chennai" element={<Sapariba />} /> 
+        <Route path="/sap_basis_training_in_chennai" element={<Sapbasis />} /> 
+        <Route path="/sap_qm_training_in_chennai" element={<Sapqm />} /> 
         <Route path="/sap_ehs_training_in_chennai" element={<Sapehs />} /> 
         <Route path="/sap_hana_training_in_chennai" element={<Saphana />} /> 
       </Routes>

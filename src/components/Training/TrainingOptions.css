@@ -47,6 +47,7 @@
 .training-icon {
     width: 140px;
     height: 140px;
+    margin-left: 60px !important;
     margin-bottom: 10px;
 }
 
