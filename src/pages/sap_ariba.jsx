@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet, HelmetProvider } from 'react-helmet-async'; // Import Helmet and HelmetProvider
 
 // Import ContactModal - CORRECTED PATH
 import ContactModal from "../components/Hero-Section/ContactModal";
@@ -6,7 +7,6 @@ import ContactModal from "../components/Hero-Section/ContactModal";
 // Import all your CSS files
 import "../components/saponlinecom/onlineaboutus.css";
 import "../components/saponlinecom/sapfico.css"; // This CSS file now contains styling for new sections
-import "../components/saponlinecom/onlinecorporate.css";
 import "../components/SAP/Header/Introsap.css";
 import "../components/SapIM/IMsyllabus.css";
 // import "../components/SAP/Askfordemo/askfordemo.css";
@@ -443,17 +443,24 @@ const SAPmain = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const openContactModal = () => setIsModalOpen(true);
   const closeContactModal = () => setIsModalOpen(false);
+
   return (
-    <div>
-      <Saponline openContactModal={openContactModal} />
-      <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
-    </div>
+    <HelmetProvider> {/* Wrap your application with HelmetProvider */}
+      <div>
+        <Saponline openContactModal={openContactModal} />
+        <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
+      </div>
+    </HelmetProvider>
   );
 };
 
 const Saponline = ({ openContactModal }) => {
   return (
     <>
+      <Helmet> {/* Add Helmet here */}
+        <title>SAP Ariba Training in Chennai | SAP Ariba Course in Chennai</title>
+        <meta name="description" content="Get trained by professionals with our SAP Ariba Training in Chennai. Learn procurement and supplier management with our comprehensive SAP Ariba course in Chennai." />
+      </Helmet>
       <Intro openContactModal={openContactModal} />
       <SapTrainingProfile openContactModal={openContactModal} />
       <Corporate />

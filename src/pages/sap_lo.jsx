@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet, HelmetProvider } from 'react-helmet-async'; // Import Helmet and HelmetProvider
 
 // Import ContactModal - CORRECTED PATH
 import ContactModal from "../components/Hero-Section/ContactModal";
@@ -8,7 +9,7 @@ import "../components/saponlinecom/onlineaboutus.css";
 import "../components/saponlinecom/sapfico.css"; // This CSS file now contains styling for new sections
 import "../components/saponlinecom/onlinecorporate.css";
 import "../components/SAP/Header/Introsap.css";
-import "../components/SapIM/IMsyllabus.css";
+import "../components/SapIM/IMsyllabus.css"; // This CSS is likely general styling, consider renaming or creating a LO-specific CSS if needed.
 // import "../components/SAP/Askfordemo/askfordemo.css";
 
 
@@ -45,435 +46,441 @@ import AskForDemo from "../components/SAP/Askfordemo/askfordemo";
 
 // Intro Component
 const Intro = ({ openContactModal }) => {
-  return (
-    <div className="intro-container">
-      <div className="overlay"></div>
-      <div className="intro-content">
-        <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
-        <h1 className="intro-h1">Best SAP LO Training Institute in Chennai</h1>
-        <h3 className="intro-h3">Unlock your technical potential with expert-led SAP LO Training – your gateway to global career opportunities in the SAP Logistics domain.</h3>
-        <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
-      </div>
-    </div>
-  );
+    return (
+        <div className="intro-container">
+            <div className="overlay"></div>
+            <div className="intro-content">
+                <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
+                <h1 className="intro-h1">Best SAP LO Training Institute in Chennai</h1>
+                <h3 className="intro-h3">Unlock your technical potential with expert-led SAP LO Training – your gateway to global career opportunities in the SAP Logistics domain.</h3>
+                <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
+            </div>
+        </div>
+    );
 };
 
 // SapTrainingProfile Component
 const SapTrainingProfile = ({ openContactModal }) => {
-  return (
-    <div className="sap-training-container">
-      <div className="sap-training-header animate__animated animate__flipInX">
-        <h1>
-          Learn from the Best: SAP LO Training by <span>Real-Time Experts</span>
-        </h1>
-        <div className="header-divider"></div>
-      </div>
-      <div className="sap-training-content">
-        <div className="training-details">
-          <div className="sap-training-header animate__animated animate__lightSpeedInLeft">
-            <p className="intro-text">
-              At IntelliMindz, our SAP LO trainers are industry professionals with extensive hands-on experience in SAP Logistics (LO). With strong domain expertise and real-world project knowledge, our trainers deliver comprehensive insights to support your SAP LO learning journey.
-            </p>
-          </div>
-          <ul className="benefits-list">
-            <li><span className="icon">✓</span> Build a solid foundation and progress through advanced SAP LO concepts.</li>
-            <li><span className="icon">✓</span> Learn from practicing SAP LO Consultants with real-time project exposure.</li>
-            <li><span className="icon">✓</span> Benefit from IntelliMindz's proven track record and successful student placements in SAP LO training.</li>
-            <li><span className="icon">✓</span> Receive full career support including resume assistance and interview coaching.</li>
-            <li><span className="icon">✓</span> Work on real-time scenarios and practical assignments to develop industry-ready skills.</li>
-            <li><span className="icon">✓</span> Experience a personalized learning process tailored to your pace and career aspirations.</li>
-          </ul>
-          <button className="enquiry-button" onClick={openContactModal}>Enquire Now</button>
+    return (
+        <div className="sap-training-container">
+            <div className="sap-training-header animate__animated animate__flipInX">
+                <h1>
+                    Learn from the Best: SAP LO Training by <span>Real-Time Experts</span>
+                </h1>
+                <div className="header-divider"></div>
+            </div>
+            <div className="sap-training-content">
+                <div className="training-details">
+                    <div className="sap-training-header animate__animated animate__lightSpeedInLeft">
+                        <p className="intro-text">
+                            At IntelliMindz, our SAP LO trainers are industry professionals with extensive hands-on experience in SAP Logistics (LO). With strong domain expertise and real-world project knowledge, our trainers deliver comprehensive insights to support your SAP LO learning journey.
+                        </p>
+                    </div>
+                    <ul className="benefits-list">
+                        <li><span className="icon">✓</span> Build a solid foundation and progress through advanced SAP LO concepts.</li>
+                        <li><span className="icon">✓</span> Learn from practicing SAP LO Consultants with real-time project exposure.</li>
+                        <li><span className="icon">✓</span> Benefit from IntelliMindz's proven track record and successful student placements in SAP LO training.</li>
+                        <li><span className="icon">✓</span> Receive full career support including resume assistance and interview coaching.</li>
+                        <li><span className="icon">✓</span> Work on real-time scenarios and practical assignments to develop industry-ready skills.</li>
+                        <li><span className="icon">✓</span> Experience a personalized learning process tailored to your pace and career aspirations.</li>
+                    </ul>
+                    <button className="enquiry-button" onClick={openContactModal}>Enquire Now</button>
+                </div>
+                <div className="training-image">
+                    <img src={saphomeintro1} alt="SAP LO Training" />
+                </div>
+            </div>
         </div>
-        <div className="training-image">
-          <img src={saphomeintro1} alt="SAP LO Training" />
-        </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 const Corporate = () => {
-  const blocksData = [
-    { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from SAP LO experts at our training center in Chennai" },
-    { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking a SAP LO training institute near you that emphasizes practical knowledge." },
-    { image: staffIcon, heading: "Flexible Batches", paragraph: "Select batch timings that fit your busy schedule." },
-    { image: liveclass, heading: "Interactive Sessions", paragraph: "Engaging discussions focused on real-world SAP Logistics processes and tasks." },
-    { image: onlinetest, heading: "Lifetime Access", paragraph: "Revisit course materials and revise SAP LO concepts anytime." },
-    { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to solidify your understanding." }
-  ];
-  return (
-    <div className="corporate-section">
-      <h2 className="corporate-title">Why Choose Intellimindz?</h2>
-      <div className="corporate-grid">
-        {blocksData.map((block, index) => (
-          <div key={index} className="corporate-block">
-            <div className="corporate-image-container">
-              <img src={block.image} alt={block.heading} className="corporate-image" />
+    const blocksData = [
+        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from SAP LO experts at our training center in Chennai" },
+        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking a SAP LO training institute near you that emphasizes practical knowledge." },
+        { image: staffIcon, heading: "Flexible Batches", paragraph: "Select batch timings that fit your busy schedule." },
+        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engaging discussions focused on real-world SAP Logistics processes and tasks." },
+        { image: onlinetest, heading: "Lifetime Access", paragraph: "Revisit course materials and revise SAP LO concepts anytime." },
+        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to solidify your understanding." }
+    ];
+    return (
+        <div className="corporate-section">
+            <h2 className="corporate-title">Why Choose Intellimindz?</h2>
+            <div className="corporate-grid">
+                {blocksData.map((block, index) => (
+                    <div key={index} className="corporate-block">
+                        <div className="corporate-image-container">
+                            <img src={block.image} alt={block.heading} className="corporate-image" />
+                        </div>
+                        <h5 className="corporate-block-heading">{block.heading}</h5>
+                        <p className="corporate-block-paragraph">{block.paragraph}</p>
+                    </div>
+                ))}
             </div>
-            <h5 className="corporate-block-heading">{block.heading}</h5>
-            <p className="corporate-block-paragraph">{block.paragraph}</p>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+        </div>
+    );
 };
 
 const PlaceholderTrainingIcon = ({ type }) => (
-  <div style={{ fontSize: '40px', marginBottom: '15px', color: '#d9534f' }}>
-    {type === 'online' && '🎓'}
-    {type === 'self-paced' && '💻'}
-    {type === 'classroom' && '👥'}
-    {type === 'hybrid' && '�'}
-  </div>
+    <div style={{ fontSize: '40px', marginBottom: '15px', color: '#d9534f' }}>
+        {type === 'online' && '🎓'}
+        {type === 'self-paced' && '💻'}
+        {type === 'classroom' && '👥'}
+        {type === 'hybrid' && '🔄'}
+    </div>
 );
 
 const TrainingModesSection = ({ openContactModal }) => {
-  const trainingModes = [
-    { id: 'online', iconType: 'online', title: "Online Training", description: "Experience live, instructor-led sessions from the comfort of your home. Our online training includes hands-on exercises, real-time projects, and interactive Q&A to ensure practical learning.", isPopular: true },
-    { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn at your own pace with pre-recorded video sessions. Get lifetime access to course materials, downloadable resources, and periodic updates to keep your skills up to date.", isPopular: false },
-    { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Join our in-person sessions for a focused and immersive learning experience. Our classroom training promotes direct interaction with trainers and peers, ideal for collaborative and structured learning.", isPopular: false },
-    { id: 'hybrid', iconType: 'hybrid', title: "Hybrid Training", description: "Enjoy the flexibility of both online and classroom learning. Our hybrid model allows you to switch between formats based on your convenience, ensuring consistent progress and support.", isPopular: false }
-  ];
-  return (
-    <div className="training-modes-section">
-      <h2 className="training-modes-title">Our Modes of Training</h2>
-      <div className="training-modes-grid">
-        {trainingModes.map(mode => (
-          <div key={mode.id} className="training-mode-card">
-            <PlaceholderTrainingIcon type={mode.iconType} />
-            <h3 className="training-mode-card-title">{mode.title}</h3>
-            <p className="training-mode-card-description">{mode.description}</p>
-            <button className="training-mode-enroll-button" onClick={openContactModal}>Enroll now</button>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+    const trainingModes = [
+        { id: 'online', iconType: 'online', title: "Online Training", description: "Experience live, instructor-led sessions from the comfort of your home. Our online training includes hands-on exercises, real-time projects, and interactive Q&A to ensure practical learning.", isPopular: true },
+        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn at your own pace with pre-recorded video sessions. Get lifetime access to course materials, downloadable resources, and periodic updates to keep your skills up to date.", isPopular: false },
+        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Join our in-person sessions for a focused and immersive learning experience. Our classroom training promotes direct interaction with trainers and peers, ideal for collaborative and structured learning.", isPopular: false },
+        { id: 'hybrid', iconType: 'hybrid', title: "Hybrid Training", description: "Enjoy the flexibility of both online and classroom learning. Our hybrid model allows you to switch between formats based on your convenience, ensuring consistent progress and support.", isPopular: false }
+    ];
+    return (
+        <div className="training-modes-section">
+            <h2 className="training-modes-title">Our Modes of Training</h2>
+            <div className="training-modes-grid">
+                {trainingModes.map(mode => (
+                    <div key={mode.id} className="training-mode-card">
+                        <PlaceholderTrainingIcon type={mode.iconType} />
+                        <h3 className="training-mode-card-title">{mode.title}</h3>
+                        <p className="training-mode-card-description">{mode.description}</p>
+                        <button className="training-mode-enroll-button" onClick={openContactModal}>Enroll now</button>
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
 };
 
 const SAPHeroSection = ({ openContactModal }) => {
-  return (
-    <div className="sap-fico-expert-section">
-      <h1>Become a Skilled SAP LO Consultant with IntelliMindz</h1>
-      <p>Industry-aligned SAP LO training that enhances your expertise in SAP logistics modules.</p>
-      <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your LO Journey Today!</button>
-    </div>
-  );
+    return (
+        <div className="sap-fico-expert-section">
+            <h1>Become a Skilled SAP LO Consultant with IntelliMindz</h1>
+            <p>Industry-aligned SAP LO training that enhances your expertise in SAP logistics modules.</p>
+            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your LO Journey Today!</button>
+        </div>
+    );
 };
 
 const SAPAboutSection = () => {
-  return (
-    <div className="sap-fico-about-section">
-      <h2>About Our SAP LO Training in Chennai</h2>
-      <div className="sap-fico-about-content">
-        <div className="sap-fico-about-text">
-          <p>At IntelliMindz Chennai, we deliver practical SAP LO training designed to equip learners with both conceptual knowledge and hands-on project experience. Our curriculum covers essential LO topics such as warehouse management, inventory management, transportation, and logistics execution, ensuring comprehensive technical competence.</p>
-          <p>The course includes interactive lessons, live demonstrations, practical exercises, and project-based assignments. By applying real-time business cases and LO implementations, learners gain confidence and the ability to manage SAP Logistics functions effectively in enterprise environments.</p>
-          <p>Whether you are new to SAP or an experienced professional aiming to enhance your LO skills, our training prepares you for success in the competitive SAP job market.</p>
+    return (
+        <div className="sap-fico-about-section">
+            <h2>About Our SAP LO Training in Chennai</h2>
+            <div className="sap-fico-about-content">
+                <div className="sap-fico-about-text">
+                    <p>At IntelliMindz Chennai, we deliver practical SAP LO training designed to equip learners with both conceptual knowledge and hands-on project experience. Our curriculum covers essential LO topics such as warehouse management, inventory management, transportation, and logistics execution, ensuring comprehensive technical competence.</p>
+                    <p>The course includes interactive lessons, live demonstrations, practical exercises, and project-based assignments. By applying real-time business cases and LO implementations, learners gain confidence and the ability to manage SAP Logistics functions effectively in enterprise environments.</p>
+                    <p>Whether you are new to SAP or an experienced professional aiming to enhance your LO skills, our training prepares you for success in the competitive SAP job market.</p>
+                </div>
+                <div className="sap-fico-about-image-container">
+                    <img src={aboutsapficoImg} alt="SAP LO Training in Chennai" />
+                </div>
+            </div>
         </div>
-        <div className="sap-fico-about-image-container">
-          <img src={aboutsapficoImg} alt="SAP LO Training in Chennai" />
-        </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 const KeyFeaturesSection = () => {
-  const features = [
-    { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "We offer flexible learning modes including classroom sessions and online live training, catering to working professionals, students, and job seekers alike. This blended approach lets you choose the format that best fits your availability and learning preference, ensuring a smooth training experience." },
-    { id: 2, image: handsonsapImg, title: "Hands-on Practical Sessions with SAP System Access", description: "Our program emphasizes hands-on learning by providing dedicated SAP LO system access. You will practice warehouse operations, inventory management, and logistics execution directly within an SAP environment, reinforcing your theoretical understanding and boosting practical skills." },
-    { id: 3, image: casestudyrealtimeImg, title: "Case Studies Based on Real-Time Scenarios", description: "Gain exposure through case studies modeled after real SAP LO projects, enhancing your problem-solving abilities and preparing you for interview scenarios focusing on practical applications." },
-    { id: 4, image: ExperiencedtrainersImg, title: "Trainers with In-Depth SAP LO Experience", description: "Our trainers have extensive industry experience with SAP LO, having handled multiple implementation projects. Their insights and guidance ensure you learn best practices and relevant skills for the SAP logistics domain." },
-    { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes for Individual Attention", description: "We maintain small batches to provide personalized attention, enabling trainers to address individual questions and offer targeted mentoring, which helps students master SAP LO competently." },
-    { id: 6, image: interactiveImg, title: "Interactive Sessions and Module-Wise Assessments", description: "Each module ends with interactive discussions, quizzes, and assessments aligned with current SAP LO interview requirements, helping reinforce knowledge and build confidence for job interviews." },
-  ];
-  return (
-    <div className="sap-fico-features-section">
-      <h2>Key Features</h2>
-      <div className="sap-fico-features-grid">
-        {features.map((feature) => (
-          <div key={feature.id} className="feature-card">
-            <div className="feature-icon-placeholder">
-              {feature.image ? (<img src={feature.image} alt={feature.title} />) : (feature.iconPlaceholder)}
+    const features = [
+        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "We offer flexible learning modes including classroom sessions and online live training, catering to working professionals, students, and job seekers alike. This blended approach lets you choose the format that best fits your availability and learning preference, ensuring a smooth training experience." },
+        { id: 2, image: handsonsapImg, title: "Hands-on Practical Sessions with SAP System Access", description: "Our program emphasizes hands-on learning by providing dedicated SAP LO system access. You will practice warehouse operations, inventory management, and logistics execution directly within an SAP environment, reinforcing your theoretical understanding and boosting practical skills." },
+        { id: 3, image: casestudyrealtimeImg, title: "Case Studies Based on Real-Time Scenarios", description: "Gain exposure through case studies modeled after real SAP LO projects, enhancing your problem-solving abilities and preparing you for interview scenarios focusing on practical applications." },
+        { id: 4, image: ExperiencedtrainersImg, title: "Trainers with In-Depth SAP LO Experience", description: "Our trainers have extensive industry experience with SAP LO, having handled multiple implementation projects. Their insights and guidance ensure you learn best practices and relevant skills for the SAP logistics domain." },
+        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes for Individual Attention", description: "We maintain small batches to provide personalized attention, enabling trainers to address individual questions and offer targeted mentoring, which helps students master SAP LO competently." },
+        { id: 6, image: interactiveImg, title: "Interactive Sessions and Module-Wise Assessments", description: "Each module ends with interactive discussions, quizzes, and assessments aligned with current SAP LO interview requirements, helping reinforce knowledge and build confidence for job interviews." },
+    ];
+    return (
+        <div className="sap-fico-features-section">
+            <h2>Key Features</h2>
+            <div className="sap-fico-features-grid">
+                {features.map((feature) => (
+                    <div key={feature.id} className="feature-card">
+                        <div className="feature-icon-placeholder">
+                            {feature.image ? (<img src={feature.image} alt={feature.title} />) : (feature.iconPlaceholder)}
+                        </div>
+                        <h3>{feature.title}</h3>
+                        <p>{feature.description}</p>
+                    </div>
+                ))}
             </div>
-            <h3>{feature.title}</h3>
-            <p>{feature.description}</p>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+        </div>
+    );
 };
 
 const SapLoCourseContentSection = ({ openContactModal }) => {
-  const [activeModuleId, setActiveModuleId] = useState(1);
-  const allModulesData = [
-    { id: 1, title: "Module 1: Introduction to SAP LO", topics: ["Overview of ERP and SAP", "SAP NetWeaver Architecture Basics", "SAP Modules Overview and LO’s Role", "SAP Logon and System Navigation", "Introduction to SAP LO Module", "Logistics Master Data Structure", "Logistics Execution Process Overview"] },
-    { id: 2, title: "Module 2: Warehouse Management (WM)", topics: ["Storage Locations and Bins", "Material Movement Types", "Inventory Management Basics", "Stock Transfer Processes", "Handling Unit Management", "Physical Inventory Process", "WM Integration with Other Modules"] },
-    { id: 3, title: "Module 3: Inventory Management (IM)", topics: ["Inventory Management Transactions", "Goods Receipt and Issue", "Transfer Posting and Stock Transfers", "Reservation Process", "Movement Types and Controls", "Batch Management", "Stock Overview and Reporting"] },
-    { id: 4, title: "Module 4: Transportation Management", topics: ["Shipping Point and Route Determination", "Transportation Planning and Execution", "Shipment Processing and Documentation", "Integration with Warehouse Management", "Freight Cost Calculation", "Transportation Charges and Billing", "Delivery Processing"] },
-    { id: 5, title: "Module 5: Logistics Execution (LE)", topics: ["Delivery and Shipping Process", "Outbound and Inbound Delivery Management", "Loading and Goods Issue", "Returns and Complaints Handling", "Integration with Sales and Distribution", "Delivery Document Flow", "Monitoring and Reporting"] },
-    { id: 6, title: "Module 6: Logistics Billing and Settlement", topics: ["Logistics Billing Processes", "Freight Settlement", "Invoice and Credit Memos Handling", "Integration with Financial Accounting (FI)", "Revenue Account Determination", "Intercompany Logistics Billing", "Billing Document Reporting"] },
-    { id: 7, title: "Module 7: Advanced SAP LO Topics", topics: ["Integration with SAP MM and SD", "EDI and IDoc Processing in Logistics", "SAP S/4HANA Innovations in LO", "Advanced Warehouse Management", "Logistics Workflow Configuration", "Real-Time Project Implementation", "Testing and Troubleshooting"] },
-    { id: 8, title: "Module 8: SAP LO Reporting and Analytics", topics: ["Standard Reports in SAP LO", "Custom Reports and Queries", "Logistics Information System (LIS)", "Analysis of Logistics Data", "Export Data and BI Integration", "Real-Time Dashboards", "Performance Monitoring"] },
-    { id: 9, title: "Module 9: End-to-End Real-Time Project", topics: ["Complete Logistics Execution Cycle", "Integration with SAP ERP Modules", "Problem Solving and Issue Resolution", "SAP LO Reporting and Analytics", "Project Documentation and Review", "User Training and Support", "Go-Live Preparation and Support"] }
-  ];
-  const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
-  return (
-    <div className="java-course-content-section">
-      <h2 className="java-section-title">
-        SAP LO Training Course Modules
-        <span className="java-title-underline"></span>
-      </h2>
-      <div className="java-course-layout-container">
-        <div className="java-syllabus-modules-panel">
-          <div className="java-syllabus-header">Course Syllabus</div>
-          <ul className="java-modules-list">
-            {allModulesData.map((module) => (
-              <li key={module.id} className={`java-module-item ${module.id === activeModuleId ? "java-active-module" : ""}`} onClick={() => setActiveModuleId(module.id)}>
-                {module.title}
-              </li>
-            ))}
-          </ul>
+    const [activeModuleId, setActiveModuleId] = useState(1);
+    const allModulesData = [
+        { id: 1, title: "Module 1: Introduction to SAP LO", topics: ["Overview of ERP and SAP", "SAP NetWeaver Architecture Basics", "SAP Modules Overview and LO’s Role", "SAP Logon and System Navigation", "Introduction to SAP LO Module", "Logistics Master Data Structure", "Logistics Execution Process Overview"] },
+        { id: 2, title: "Module 2: Warehouse Management (WM)", topics: ["Storage Locations and Bins", "Material Movement Types", "Inventory Management Basics", "Stock Transfer Processes", "Handling Unit Management", "Physical Inventory Process", "WM Integration with Other Modules"] },
+        { id: 3, title: "Module 3: Inventory Management (IM)", topics: ["Inventory Management Transactions", "Goods Receipt and Issue", "Transfer Posting and Stock Transfers", "Reservation Process", "Movement Types and Controls", "Batch Management", "Stock Overview and Reporting"] },
+        { id: 4, title: "Module 4: Transportation Management", topics: ["Shipping Point and Route Determination", "Transportation Planning and Execution", "Shipment Processing and Documentation", "Integration with Warehouse Management", "Freight Cost Calculation", "Transportation Charges and Billing", "Delivery Processing"] },
+        { id: 5, title: "Module 5: Logistics Execution (LE)", topics: ["Delivery and Shipping Process", "Outbound and Inbound Delivery Management", "Loading and Goods Issue", "Returns and Complaints Handling", "Integration with Sales and Distribution", "Delivery Document Flow", "Monitoring and Reporting"] },
+        { id: 6, title: "Module 6: Logistics Billing and Settlement", topics: ["Logistics Billing Processes", "Freight Settlement", "Invoice and Credit Memos Handling", "Integration with Financial Accounting (FI)", "Revenue Account Determination", "Intercompany Logistics Billing", "Billing Document Reporting"] },
+        { id: 7, title: "Module 7: Advanced SAP LO Topics", topics: ["Integration with SAP MM and SD", "EDI and IDoc Processing in Logistics", "SAP S/4HANA Innovations in LO", "Advanced Warehouse Management", "Logistics Workflow Configuration", "Real-Time Project Implementation", "Testing and Troubleshooting"] },
+        { id: 8, title: "Module 8: SAP LO Reporting and Analytics", topics: ["Standard Reports in SAP LO", "Custom Reports and Queries", "Logistics Information System (LIS)", "Analysis of Logistics Data", "Export Data and BI Integration", "Real-Time Dashboards", "Performance Monitoring"] },
+        { id: 9, title: "Module 9: End-to-End Real-Time Project", topics: ["Complete Logistics Execution Cycle", "Integration with SAP ERP Modules", "Problem Solving and Issue Resolution", "SAP LO Reporting and Analytics", "Project Documentation and Review", "User Training and Support", "Go-Live Preparation and Support"] }
+    ];
+    const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
+    return (
+        <div className="java-course-content-section">
+            <h2 className="java-section-title">
+                SAP LO Training Course Modules
+                <span className="java-title-underline"></span>
+            </h2>
+            <div className="java-course-layout-container">
+                <div className="java-syllabus-modules-panel">
+                    <div className="java-syllabus-header">Course Syllabus</div>
+                    <ul className="java-modules-list">
+                        {allModulesData.map((module) => (
+                            <li key={module.id} className={`java-module-item ${module.id === activeModuleId ? "java-active-module" : ""}`} onClick={() => setActiveModuleId(module.id)}>
+                                {module.title}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+                <div className="java-topics-details-panel">
+                    <h3 className="java-topics-title">Topics:</h3>
+                    <ul className="java-topics-list">
+                        {activeModuleDetails.topics.map((item, index) => (<li key={index}>{item}</li>))}
+                    </ul>
+                    <button className="java-download-curriculum-button" onClick={openContactModal}>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style={{ marginRight: '8px', verticalAlign: 'middle' }}>
+                            <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
+                        </svg>
+                        Download Curriculum
+                    </button>
+                </div>
+            </div>
         </div>
-        <div className="java-topics-details-panel">
-          <h3 className="java-topics-title">Topics:</h3>
-          <ul className="java-topics-list">
-            {activeModuleDetails.topics.map((item, index) => (<li key={index}>{item}</li>))}
-          </ul>
-          <button className="java-download-curriculum-button" onClick={openContactModal}>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style={{ marginRight: '8px', verticalAlign: 'middle' }}>
-              <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
-            </svg>
-            Download Curriculum
-          </button>
-        </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 const BatchDetailsSection = ({ openContactModal }) => {
-  const batchInfo = [
-    { id: 1, monthYear: "June 2025", type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Fresh Jobseekers", "Non IT to IT transition"] },
-    { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
-  ];
-  return (
-    <div
-      className="batch-details-section"
-      style={{ '--batch-details-bg-image': `url(${Batchdt})` }}
-    >
-      <h2 className="batch-details-title">Batch Details</h2>
-      <div className="batch-cards-container">
-        {batchInfo.map((batch) => (
-          <div key={batch.id} className="batch-card">
-            <div className="batch-segment batch-month-year">{batch.monthYear}</div>
-            <div className="batch-segment batch-schedule-mode">
-              <div className="segment-content-wrapper">
-                <p>{batch.type}</p>
-                <p>{batch.schedule}</p>
-                <p>{batch.mode}</p>
-              </div>
+    const batchInfo = [
+        { id: 1, monthYear: "June 2025", type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Fresh Jobseekers", "Non IT to IT transition"] },
+        { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
+    ];
+    return (
+        <div
+            className="batch-details-section"
+            style={{ '--batch-details-bg-image': `url(${Batchdt})` }}
+        >
+            <h2 className="batch-details-title">Batch Details</h2>
+            <div className="batch-cards-container">
+                {batchInfo.map((batch) => (
+                    <div key={batch.id} className="batch-card">
+                        <div className="batch-segment batch-month-year">{batch.monthYear}</div>
+                        <div className="batch-segment batch-schedule-mode">
+                            <div className="segment-content-wrapper">
+                                <p>{batch.type}</p>
+                                <p>{batch.schedule}</p>
+                                <p>{batch.mode}</p>
+                            </div>
+                        </div>
+                        <div className="batch-segment batch-duration-type">
+                            <div className="segment-content-wrapper">
+                                <p>{batch.duration}</p>
+                                <p>{batch.trainingMethod}</p>
+                            </div>
+                        </div>
+                        <div className="batch-segment batch-fee-suitability">
+                            <div className="segment-content-wrapper">
+                                <button className="course-fee-tag" onClick={openContactModal}>
+                                    {batch.feeTag}
+                                </button>
+                                {batch.suitability.map((sText, sIndex) => (<p key={sIndex} className="suitability-text">{sText}</p>))}
+                            </div>
+                        </div>
+                    </div>
+                ))}
             </div>
-            <div className="batch-segment batch-duration-type">
-              <div className="segment-content-wrapper">
-                <p>{batch.duration}</p>
-                <p>{batch.trainingMethod}</p>
-              </div>
-            </div>
-            <div className="batch-segment batch-fee-suitability">
-              <div className="segment-content-wrapper">
-                <button className="course-fee-tag" onClick={openContactModal}>
-                  {batch.feeTag}
-                </button>
-                {batch.suitability.map((sText, sIndex) => (<p key={sIndex} className="suitability-text">{sText}</p>))}
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+        </div>
+    );
 };
 
 const CorporateTrainingModesSection = () => {
-  const trainingModesData = [
-    { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate training session", title: "Onsite Training:", description: "Delivered at your organization’s premises, this method provides customized, collaborative learning. Perfect for upskilling your team in a familiar environment using your systems and workflows for practical relevance." },
-    { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite training center", title: "Offsite Training:", description: "Held at professional training centers or conference venues, ideal for focused group learning and workshops free from workplace distractions, facilitating certification preparation and team synergy." },
-    { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led training", title: "Virtual Instructor-Led Training:", description: "Live sessions via Zoom, Microsoft Teams, or similar platforms, suited for remote learners or distributed teams. Combines flexibility of online learning with real-time interaction and engagement tools." }
-  ];
-  return (
-    <div className="corporate-training-modes-section">
-      <h2 className="corporate-training-modes-title">Corporate Training Modes for SAP LO in Chennai</h2>
-      <div className="modes-container-grid">
-        {trainingModesData.map(mode => (
-          <div key={mode.id} className="mode-card-item">
-            <img src={mode.imageSrc || mode.imagePlaceholder} alt={mode.altText} className="mode-image" />
-            <h3 className="mode-title">{mode.title}</h3>
-            <p className="mode-description">{mode.description}</p>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+    const trainingModesData = [
+        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate training session", title: "Onsite Training:", description: "Delivered at your organization’s premises, this method provides customized, collaborative learning. Perfect for upskilling your team in a familiar environment using your systems and workflows for practical relevance." },
+        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite training center", title: "Offsite Training:", description: "Held at professional training centers or conference venues, ideal for focused group learning and workshops free from workplace distractions, facilitating certification preparation and team synergy." },
+        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led training", title: "Virtual Instructor-Led Training:", description: "Live sessions via Zoom, Microsoft Teams, or similar platforms, suited for remote learners or distributed teams. Combines flexibility of online learning with real-time interaction and engagement tools." }
+    ];
+    return (
+        <div className="corporate-training-modes-section">
+            <h2 className="corporate-training-modes-title">Corporate Training Modes for SAP LO in Chennai</h2>
+            <div className="modes-container-grid">
+                {trainingModesData.map(mode => (
+                    <div key={mode.id} className="mode-card-item">
+                        <img src={mode.imageSrc || mode.imagePlaceholder} alt={mode.altText} className="mode-image" />
+                        <h3 className="mode-title">{mode.title}</h3>
+                        <p className="mode-description">{mode.description}</p>
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
 };
 
 const AlumniReviewsSection = () => {
-  const reviewsData = [
-    { id: 1, name: "Arun M.", designation: "SAP LO Consultant", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "The SAP LO course at IntelliMindz was extremely detailed and professionally structured. The practical sessions on warehouse and inventory management prepared me well for real-world challenges at work. The trainer was very patient, highly knowledgeable, and addressed every question with clarity and examples." },
-    { id: 2, name: "Sneha R.", designation: "Logistics Specialist", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course covered every aspect of SAP LO in-depth, from procurement to distribution. Real-time examples, industry-specific case studies, and hands-on scenarios helped me understand complex logistics processes easily. The support team was always responsive, professional, and eager to help with any queries." },
-    { id: 3, name: "Vignesh T.", designation: "SAP LO Freelancer", avatarInitial: "V", rating: 5, companyLogoText: "Intellimindz", reviewText: "IntelliMindz’s SAP LO training gave me practical, hands-on experience with real-time project scenarios. The flexible batch timings and in-depth interview preparation were ideal for my freelance schedule. Highly recommended for professionals seeking quality SAP Logistics training." },
-    { id: 4, name: "Ritika S.", designation: "SAP Trainee", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "As a newcomer to SAP, the course provided a clear roadmap to understanding the SAP LO module. The trainers explained every topic—from basics to advanced concepts—clearly and patiently. It was a great learning experience that built my foundational knowledge and confidence." },
-    { id: 5, name: "Ramesh A.", designation: "Senior Logistics Developer", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "The detailed content and real-world approach at IntelliMindz made learning SAP LO straightforward and engaging. The practical sessions, case studies, and real-time project work gave me the confidence to handle complex logistics tasks and make process improvements effectively." }
-  ];
+    const reviewsData = [
+        { id: 1, name: "Arun M.", designation: "SAP LO Consultant", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "The SAP LO course at IntelliMindz was extremely detailed and professionally structured. The practical sessions on warehouse and inventory management prepared me well for real-world challenges at work. The trainer was very patient, highly knowledgeable, and addressed every question with clarity and examples." },
+        { id: 2, name: "Sneha R.", designation: "Logistics Specialist", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course covered every aspect of SAP LO in-depth, from procurement to distribution. Real-time examples, industry-specific case studies, and hands-on scenarios helped me understand complex logistics processes easily. The support team was always responsive, professional, and eager to help with any queries." },
+        { id: 3, name: "Vignesh T.", designation: "SAP LO Freelancer", avatarInitial: "V", rating: 5, companyLogoText: "Intellimindz", reviewText: "IntelliMindz’s SAP LO training gave me practical, hands-on experience with real-time project scenarios. The flexible batch timings and in-depth interview preparation were ideal for my freelance schedule. Highly recommended for professionals seeking quality SAP Logistics training." },
+        { id: 4, name: "Ritika S.", designation: "SAP Trainee", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "As a newcomer to SAP, the course provided a clear roadmap to understanding the SAP LO module. The trainers explained every topic—from basics to advanced concepts—clearly and patiently. It was a great learning experience that built my foundational knowledge and confidence." },
+        { id: 5, name: "Ramesh A.", designation: "Senior Logistics Developer", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "The detailed content and real-world approach at IntelliMindz made learning SAP LO straightforward and engaging. The practical sessions, case studies, and real-time project work gave me the confidence to handle complex logistics tasks and make process improvements effectively." }
+    ];
 
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const nextSlide = () => { setCurrentSlide((prev) => (prev === reviewsData.length - 1 ? 0 : prev + 1)); };
-  const prevSlide = () => { setCurrentSlide((prev) => (prev === 0 ? reviewsData.length - 1 : prev - 1)); };
-  const currentReview = reviewsData[currentSlide];
-  const renderStars = (rating) => { let stars = []; for (let i = 0; i < 5; i++) { stars.push( <span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span> ); } return stars; };
-  const formatReviewText = (text) => { return text.split('(P)').map((paragraph, index) => ( paragraph.trim() && <p key={index}>{paragraph.trim()}</p> )); };
+    const [currentSlide, setCurrentSlide] = useState(0);
+    const nextSlide = () => { setCurrentSlide((prev) => (prev === reviewsData.length - 1 ? 0 : prev + 1)); };
+    const prevSlide = () => { setCurrentSlide((prev) => (prev === 0 ? reviewsData.length - 1 : prev - 1)); };
+    const currentReview = reviewsData[currentSlide];
+    const renderStars = (rating) => { let stars = []; for (let i = 0; i < 5; i++) { stars.push( <span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span> ); } return stars; };
+    const formatReviewText = (text) => { return text.split('(P)').map((paragraph, index) => ( paragraph.trim() && <p key={index}>{paragraph.trim()}</p> )); };
 
-  return (
-    <div className="alumni-reviews-section">
-      <h2 className="alumni-reviews-title">Reviews from Our Alumni</h2>
-      <div className="review-slider-layout-container">
-        <div className="reviewer-image-area">
-          <div className="reviewer-main-image-placeholder">
-            <img src={alumniReviewImg} alt="Alumni Reviewer" />
-          </div>
+    return (
+        <div className="alumni-reviews-section">
+            <h2 className="alumni-reviews-title">Reviews from Our Alumni</h2>
+            <div className="review-slider-layout-container">
+                <div className="reviewer-image-area">
+                    <div className="reviewer-main-image-placeholder">
+                        <img src={alumniReviewImg} alt="Alumni Reviewer" />
+                    </div>
+                </div>
+                <div className="review-content-area">
+                    <div className="review-card">
+                        <div className="review-card-header">
+                            <span className="review-company-logo-text">{currentReview.companyLogoText || "Intellimindz"}</span>
+                        </div>
+                        <div className="reviewer-info-line">
+                            <div className="reviewer-avatar">{currentReview.avatarInitial}</div>
+                            <div className="reviewer-name-designation">
+                                <span className="reviewer-name">{currentReview.name}</span>
+                                {currentReview.designation && <span className="reviewer-designation">{` – ${currentReview.designation}`}</span>}
+                            </div>
+                            <div className="star-rating-header">{renderStars(currentReview.rating)}</div>
+                        </div>
+                        <div className="review-text-content">
+                            {formatReviewText(currentReview.reviewText)}
+                        </div>
+                    </div>
+                    <div className="slider-navigation">
+                        <div className="nav-controls">
+                            <button onClick={prevSlide} className="nav-arrow prev-arrow" aria-label="Previous review">
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                            </button>
+                            <span className="slide-counter">{String(currentSlide + 1).padStart(2, '0')}/{String(reviewsData.length).padStart(2, '0')}</span>
+                            <button onClick={nextSlide} className="nav-arrow next-arrow" aria-label="Next review">
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div className="review-content-area">
-          <div className="review-card">
-            <div className="review-card-header">
-              <span className="review-company-logo-text">{currentReview.companyLogoText || "Intellimindz"}</span>
-            </div>
-            <div className="reviewer-info-line">
-              <div className="reviewer-avatar">{currentReview.avatarInitial}</div>
-              <div className="reviewer-name-designation">
-                <span className="reviewer-name">{currentReview.name}</span>
-                {currentReview.designation && <span className="reviewer-designation">{` – ${currentReview.designation}`}</span>}
-              </div>
-              <div className="star-rating-header">{renderStars(currentReview.rating)}</div>
-            </div>
-            <div className="review-text-content">
-              {formatReviewText(currentReview.reviewText)}
-            </div>
-          </div>
-          <div className="slider-navigation">
-            <div className="nav-controls">
-              <button onClick={prevSlide} className="nav-arrow prev-arrow" aria-label="Previous review">
-                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
-              </button>
-              <span className="slide-counter">{String(currentSlide + 1).padStart(2, '0')}/{String(reviewsData.length).padStart(2, '0')}</span>
-              <button onClick={nextSlide} className="nav-arrow next-arrow" aria-label="Next review">
-                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+    );
 };
 
-const SapImSyllabus = () => {
-  const [activeModule, setActiveModule] = useState(null);
-  const modulesData = [
-    { id: 1, title: "What is SAP LO used for?", description: "SAP LO is the module managing logistics, warehouse, inventory, and transportation processes in organizations, enabling efficient logistics execution and supply chain operations." },
-    { id: 2, title: "Who should take this SAP LO training?", description: "Logistics professionals, SAP functional consultants, fresh graduates interested in SAP logistics, and IT professionals looking to enhance SAP skills." },
-    { id: 3, title: "Do I need prior SAP experience before learning LO?", description: "No prior SAP experience is required, but familiarity with logistics or supply chain processes is helpful." },
-    { id: 4, title: "Is SAP LO relevant for 2025 and beyond?", description: "Yes, SAP LO remains essential for managing logistics and warehouse operations efficiently, especially with ongoing S/4HANA developments." },
-    { id: 5, title: "What is the difference between SAP LO and SAP MM?", description: "SAP LO focuses on logistics execution and warehouse management; SAP MM covers procurement and materials management. Both modules work closely together in enterprise logistics." },
-    { id: 6, title: "Is training available online in Chennai?", description: "Yes, we offer both classroom and live online SAP LO training in Chennai with SAP system access for practice." },
-    { id: 7, title: "Will I get hands-on experience?", description: "Definitely. Our course includes SAP system access for warehouse, inventory, and logistics execution transactions." },
-    { id: 8, title: "Do you provide interview support?", description: "Yes. Each module includes interview question practice, resume guidance, and scenario-based discussions tailored to SAP LO roles." },
-    { id: 9, title: "Can I switch to SAP LO from other SAP modules or IT fields?", description: "Yes, especially if you have a background in SAP or logistics-related processes. Our course eases your transition." },
-    { id: 10, title: "Is SAP LO suitable for freshers?", description: "Absolutely. SAP LO is an excellent starting point for freshers aiming for careers in SAP logistics and supply chain domains." }
-  ];
+const SapLoFaqSection = () => { // Renamed from SapImSyllabus for clarity
+    const [activeModule, setActiveModule] = useState(null);
+    const modulesData = [
+        { id: 1, title: "What is SAP LO used for?", description: "SAP LO is the module managing logistics, warehouse, inventory, and transportation processes in organizations, enabling efficient logistics execution and supply chain operations." },
+        { id: 2, title: "Who should take this SAP LO training?", description: "Logistics professionals, SAP functional consultants, fresh graduates interested in SAP logistics, and IT professionals looking to enhance SAP skills." },
+        { id: 3, title: "Do I need prior SAP experience before learning LO?", description: "No prior SAP experience is required, but familiarity with logistics or supply chain processes is helpful." },
+        { id: 4, title: "Is SAP LO relevant for 2025 and beyond?", description: "Yes, SAP LO remains essential for managing logistics and warehouse operations efficiently, especially with ongoing S/4HANA developments." },
+        { id: 5, title: "What is the difference between SAP LO and SAP MM?", description: "SAP LO focuses on logistics execution and warehouse management; SAP MM covers procurement and materials management. Both modules work closely together in enterprise logistics." },
+        { id: 6, title: "Is training available online in Chennai?", description: "Yes, we offer both classroom and live online SAP LO training in Chennai with SAP system access for practice." },
+        { id: 7, title: "Will I get hands-on experience?", description: "Definitely. Our course includes SAP system access for warehouse, inventory, and logistics execution transactions." },
+        { id: 8, title: "Do you provide interview support?", description: "Yes. Each module includes interview question practice, resume guidance, and scenario-based discussions tailored to SAP LO roles." },
+        { id: 9, title: "Can I switch to SAP LO from other SAP modules or IT fields?", description: "Yes, especially if you have a background in SAP or logistics-related processes. Our course eases your transition." },
+        { id: 10, title: "Is SAP LO suitable for freshers?", description: "Absolutely. SAP LO is an excellent starting point for freshers aiming for careers in SAP logistics and supply chain domains." }
+    ];
     return (
-    <div className="sapim-syllabus">
-      <div className="sap-home-syllabus-header">
-        <h1>
-          Have a Question about Our <span className="highlighted-course-title">SAP LO Course?</span>
-        </h1>
-        <p className="syllabus-header-subtitle">
-          Here are answers to frequently asked questions about our SAP LO training in Chennai:
-        </p>
-      </div>
-      <div className="syllabus-grid">
-        {modulesData.map((module) => (
-          <div
-            key={module.id}
-            className={`module-card ${activeModule === module.id ? 'active' : ''}`}
-            onMouseEnter={() => setActiveModule(module.id)}
-            onMouseLeave={() => setActiveModule(null)}
-          >
-            <div className="module-number">
-              {String(module.id).padStart(2, '0')}
+        <div className="sapim-syllabus"> {/* Class name remains 'sapim-syllabus' for styling consistency */}
+            <div className="sap-home-syllabus-header">
+                <h1>
+                    Have a Question about Our <span className="highlighted-course-title">SAP LO Course?</span>
+                </h1>
+                <p className="syllabus-header-subtitle">
+                    Here are answers to frequently asked questions about our SAP LO training in Chennai:
+                </p>
             </div>
-            <div className="module-content-syllabus">
-              <p className="module-title">{module.title}</p>
-              <div className="module-description">
-                <p>{module.description}</p>
-              </div>
+            <div className="syllabus-grid">
+                {modulesData.map((module) => (
+                    <div
+                        key={module.id}
+                        className={`module-card ${activeModule === module.id ? 'active' : ''}`}
+                        onMouseEnter={() => setActiveModule(module.id)}
+                        onMouseLeave={() => setActiveModule(null)}
+                    >
+                        <div className="module-number">
+                            {String(module.id).padStart(2, '0')}
+                        </div>
+                        <div className="module-content-syllabus">
+                            <p className="module-title">{module.title}</p>
+                            <div className="module-description">
+                                <p>{module.description}</p>
+                            </div>
+                        </div>
+                        <div className="module-decoration"></div>
+                    </div>
+                ))}
             </div>
-            <div className="module-decoration"></div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+        </div>
+    );
 };
 
 const CallToActionBanner = ({ openContactModal }) => {
-  return (
-    <div className="cta-banner-section">
-      <p className="cta-banner-text">Navigate your career ambitions with our expert guidance.</p>
-      <button className="cta-banner-button" onClick={openContactModal}>Contact Us</button>
-    </div>
-  );
+    return (
+        <div className="cta-banner-section">
+            <p className="cta-banner-text">Navigate your career ambitions with our expert guidance.</p>
+            <button className="cta-banner-button" onClick={openContactModal}>Contact Us</button>
+        </div>
+    );
 };
 
 const SAPmain = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const openContactModal = () => setIsModalOpen(true);
-  const closeContactModal = () => setIsModalOpen(false);
-  return (
-    <div>
-      <Saponline openContactModal={openContactModal} />
-      <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
-    </div>
-  );
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const openContactModal = () => setIsModalOpen(true);
+    const closeContactModal = () => setIsModalOpen(false);
+    return (
+        <HelmetProvider> {/* Wrap your application with HelmetProvider */}
+            <div>
+                <Saponline openContactModal={openContactModal} />
+                <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
+            </div>
+        </HelmetProvider>
+    );
 };
 
 const Saponline = ({ openContactModal }) => {
-  return (
-    <>
-      <Intro openContactModal={openContactModal} />
-      <SapTrainingProfile openContactModal={openContactModal} />
-      <Corporate />
-      <TrainingModesSection openContactModal={openContactModal} />
-      <SAPHeroSection openContactModal={openContactModal} />
-      <SAPAboutSection />
-      <KeyFeaturesSection />
-      <SapLoCourseContentSection openContactModal={openContactModal} />
-      <BatchDetailsSection openContactModal={openContactModal} />
-      <CorporateTrainingModesSection />
-      <AlumniReviewsSection />
-      <AskForDemo />
-      <Onlineheader />
-      <SapImSyllabus />
-      <CallToActionBanner openContactModal={openContactModal} />
-    </>
-  );
+    return (
+        <>
+            <Helmet> {/* Add Helmet here */}
+                <title>SAP LO Training in Chennai | SAP Logistics Course in Chennai</title>
+                <meta name="description" content="Enhance your logistics operations knowledge with our SAP LO Training in Chennai. Learn from experts and get certified through our SAP Logistics course in Chennai." />
+            </Helmet>
+            <Intro openContactModal={openContactModal} />
+            <SapTrainingProfile openContactModal={openContactModal} />
+            <Corporate />
+            <TrainingModesSection openContactModal={openContactModal} />
+            <SAPHeroSection openContactModal={openContactModal} />
+            <SAPAboutSection />
+            <KeyFeaturesSection />
+            <SapLoCourseContentSection openContactModal={openContactModal} />
+            <BatchDetailsSection openContactModal={openContactModal} />
+            <CorporateTrainingModesSection />
+            <AlumniReviewsSection />
+            <AskForDemo />
+            <Onlineheader />
+            <SapLoFaqSection /> {/* Updated component name here */}
+            <CallToActionBanner openContactModal={openContactModal} />
+        </>
+    );
 };
 
 export default SAPmain;
 
 const Onlineheader = () => {
-  return <div className="online_container"></div>;
+    return <div className="online_container"></div>;
 };
