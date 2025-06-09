@@ -9,19 +9,19 @@ import "../components/saponlinecom/onlineaboutus.css";
 import "../components/saponlinecom/sapfico.css"; // This CSS file now contains styling for new sections
 import "../components/saponlinecom/onlinecorporate.css";
 import "../components/SAP/Header/Introsap.css";
-import "../components/SapIM/IMsyllabus.css";
+import "../components/SapIM/IMsyllabus.css"; // This CSS is likely for general syllabus/FAQ styling
 // import "../components/SAP/Askfordemo/askfordemo.css";
 
 
 // Import all your image assets
 import saphomeintro1 from '../assests/images/saphomeintro1.png';
-import bestPriceIcon from '../assests/images/ExperiencedTrainers.jpeg';
-import runningIcon from '../assests/images/practicallearning.jpeg';
-import staffIcon from '../assests/images/flexiblebatches.jpeg';
-import jobopening from '../assests/images/support.jpeg';
-import liveclass from '../assests/images/interactive_sessions.jpeg';
-import onlinetest from '../assests/images/lifetimeaccess.jpeg';
-import aboutsapficoImg from '../assests/images/aboutsapfico.jpeg';
+import bestPriceIcon from '../assests/images/ExperiencedTrainers.jpeg'; // Used for Experienced Trainers
+import runningIcon from '../assests/images/practicallearning.jpeg'; // Used for Practical Learning
+import staffIcon from '../assests/images/flexiblebatches.jpeg'; // Used for Flexible Batches
+import jobopening from '../assests/images/support.jpeg'; // Used for Continued Support
+import liveclass from '../assests/images/interactive_sessions.jpeg'; // Used for Interactive Sessions
+import onlinetest from '../assests/images/lifetimeaccess.jpeg'; // Used for Lifetime Access
+import aboutsapficoImg from '../assests/images/aboutsapfico.jpeg'; // Kept for About Section
 import classroomTrainingImg from '../assests/images/Classroom_training.jpeg';
 import handsonsapImg from '../assests/images/handsonsap.jpeg';
 import casestudyrealtimeImg from '../assests/images/casestudyrealtime.jpeg';
@@ -50,9 +50,9 @@ const Intro = ({ openContactModal }) => {
         <div className="intro-container">
             <div className="overlay"></div>
             <div className="intro-content">
-                <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
-                <h1 className="intro-h1">Best SAP ERP Training Institute in Chennai</h1>
-                <h3 className="intro-h3">Unlock your technical potential with expert-led SAP ERP Training – your gateway to global career opportunities in the enterprise resource planning landscape.</h3>
+                <h2 className="intro-h2">Best SAP PP Training Institute in Chennai</h2>
+                <h1 className="intro-h1">Unlock your production and manufacturing planning skills with industry-aligned SAP PP Training – your gateway to SAP supply chain excellence.</h1>
+                <h3 className="intro-h3"></h3>
                 <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
             </div>
         </div>
@@ -65,7 +65,7 @@ const SapTrainingProfile = ({ openContactModal }) => {
         <div className="sap-training-container">
             <div className="sap-training-header animate__animated animate__flipInX">
                 <h1>
-                    Learn from the Best: SAP ERP Training by <span>Real-Time Experts</span>
+                    Learn from the Best: SAP PP Training by <span>Real-Time Experts</span>
                 </h1>
                 <div className="header-divider"></div>
             </div>
@@ -73,16 +73,16 @@ const SapTrainingProfile = ({ openContactModal }) => {
                 <div className="training-details">
                     <div className="sap-training-header animate__animated animate__lightSpeedInLeft">
                         <p className="intro-text">
-                            At IntelliMindz, our SAP ERP trainers are industry professionals with extensive hands-on experience in enterprise resource planning systems. With strong domain expertise and real-world project knowledge, our trainers deliver comprehensive insights to support your SAP ERP learning journey.
+                            At IntelliMindz, our SAP PP trainers are not just instructors – they are certified consultants and domain experts in SAP Production Planning with hands-on implementation experience. They bring real-time knowledge and practical scenarios that help you master SAP PP effectively.
                         </p>
                     </div>
                     <ul className="benefits-list">
-                        <li><span className="icon">✓</span> Build a solid foundation and progress through advanced SAP ERP concepts.</li>
-                        <li><span className="icon">✓</span> Learn from practicing SAP ERP Consultants with real-time project exposure.</li>
-                        <li><span className="icon">✓</span> Benefit from IntelliMindz's proven track record and successful student placements in SAP ERP training.</li>
-                        <li><span className="icon">✓</span> Receive full career support including resume assistance and interview coaching.</li>
-                        <li><span className="icon">✓</span> Work on real-time scenarios and practical assignments to develop industry-ready skills.</li>
-                        <li><span className="icon">✓</span> Experience a personalized learning process tailored to your pace and career aspirations.</li>
+                        <li><span className="icon">✓</span> Build a strong base and move into advanced SAP PP configurations and strategies.</li>
+                        <li><span className="icon">✓</span> Learn from experienced SAP PP professionals with global project exposure.</li>
+                        <li><span className="icon">✓</span> Leverage IntelliMindz’s proven record of excellence in SAP PP training.</li>
+                        <li><span className="icon">✓</span> Full career support – from resume writing to mock interviews and beyond.</li>
+                        <li><span className="icon">✓</span> Access real-time production planning scenarios and SAP system exercises.</li>
+                        <li><span className="icon">✓</span> Customized learning paths based on your profile and career stage.</li>
                     </ul>
                     <button className="enquiry-button" onClick={openContactModal}>Enquire Now</button>
                 </div>
@@ -96,12 +96,12 @@ const SapTrainingProfile = ({ openContactModal }) => {
 
 const Corporate = () => {
     const blocksData = [
-        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from SAP ERP experts at our training center in Chennai" },
-        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking a SAP ERP training institute near you that emphasizes practical knowledge." },
-        { image: staffIcon, heading: "Flexible Batches", paragraph: "Select batch timings that fit your busy schedule." },
-        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engaging discussions focused on real-world SAP ERP processes and tasks." },
-        { image: onlinetest, heading: "Lifetime Access", paragraph: "Revisit course materials and revise SAP ERP concepts anytime." },
-        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to solidify your understanding." }
+        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Get trained by working SAP PP consultants with deep process knowledge in manufacturing and production." },
+        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals searching for SAP PP training centre near you that delivers project-based learning." },
+        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose from weekday, weekend, or fast-track SAP PP training schedules." },
+        { image: liveclass, heading: "Interactive Sessions", paragraph: "Join discussions based on real-time production use cases and integration points." },
+        { image: onlinetest, heading: "Lifetime Access", paragraph: "Retain access to SAP PP study materials and recorded classes even post-training." },
+        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt clearance and mentoring sessions even after course completion." }
     ];
     return (
         <div className="corporate-section">
@@ -157,9 +157,9 @@ const TrainingModesSection = ({ openContactModal }) => {
 const SAPHeroSection = ({ openContactModal }) => {
     return (
         <div className="sap-fico-expert-section">
-            <h1>Become a Skilled SAP ERP Consultant with Intellimindz</h1>
-            <p>Industry-aligned SAP ERP training that enhances your expertise in enterprise resource planning modules.</p>
-            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your ERP Journey Today!</button>
+            <h1>Become a Skilled SAP PP Consultant with IntelliMindz</h1>
+            <p>Career-focused SAP PP training that empowers you to plan and monitor production efficiently using SAP. Step confidently into SAP’s manufacturing and production domain.</p>
+            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your SAP EC Career with Confidence!</button>
         </div>
     );
 };
@@ -167,15 +167,15 @@ const SAPHeroSection = ({ openContactModal }) => {
 const SAPAboutSection = () => {
     return (
         <div className="sap-fico-about-section">
-            <h2>About Our SAP ERP Training in Chennai</h2>
+            <h2>About Our SAP PP Training in Chennai</h2>
             <div className="sap-fico-about-content">
                 <div className="sap-fico-about-text">
-                    <p>At IntelliMindz Chennai, we deliver practical SAP ERP training designed to equip learners with both conceptual knowledge and hands-on project experience. Our curriculum covers essential ERP topics such as finance, procurement, inventory, human resources, and production planning to ensure comprehensive technical competence.</p>
-                    <p>The course includes interactive lessons, live demonstrations, practical exercises, and project-based assignments. By applying real-time business cases and ERP implementations, learners gain confidence and the ability to manage SAP ERP functions effectively in enterprise environments.</p>
-                    <p>Whether you are new to SAP or an experienced professional aiming to enhance your ERP skills, our training prepares you for success in the competitive SAP job market.</p>
+                    <p>At IntelliMindz Chennai, our SAP PP course is designed to provide you with complete knowledge of SAP Production Planning processes such as demand management, capacity planning, MRP, shop floor control, and production order execution. You’ll gain hands-on experience by working on SAP systems and live exercises.</p>
+                    <p>Whether you're a fresher exploring a SAP career or an industry professional transitioning into production systems, our SAP PP training in Chennai ensures that you’re equipped to handle real project responsibilities.</p>
+                    <p>SAP PP Training in Chennai</p>
                 </div>
                 <div className="sap-fico-about-image-container">
-                    <img src={aboutsapficoImg} alt="SAP ERP Training in Chennai" />
+                    <img src={aboutsapficoImg} alt="SAP PP Training in Chennai" />
                 </div>
             </div>
         </div>
@@ -184,12 +184,12 @@ const SAPAboutSection = () => {
 
 const KeyFeaturesSection = () => {
     const features = [
-        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "We offer flexible learning modes including classroom sessions and online live training, catering to working professionals, students, and job seekers alike. This blended approach lets you choose the format that best fits your availability and learning preference, ensuring a smooth training experience." },
-        { id: 2, image: handsonsapImg, title: "Hands-on Practical Sessions with SAP System Access", description: "Our program emphasizes hands-on learning by providing dedicated SAP ERP system access. You will practice transactions in modules such as FI, MM, PP, and HR directly within an SAP environment, reinforcing your theoretical understanding and boosting practical skills." },
-        { id: 3, image: casestudyrealtimeImg, title: "Case Studies Based on Real-Time Scenarios", description: "Gain exposure through case studies modeled after real SAP ERP projects, enhancing your problem-solving abilities and preparing you for interview scenarios focusing on practical applications." },
-        { id: 4, image: ExperiencedtrainersImg, title: "Trainers with In-Depth SAP ERP Experience", description: "Our trainers have extensive industry experience with SAP ERP, having handled multiple implementation projects. Their insights and guidance ensure you learn best practices and relevant skills for the enterprise resource planning domain." },
-        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes for Individual Attention", description: "We maintain small batches to provide personalized attention, enabling trainers to address individual questions and offer targeted mentoring, which helps students master SAP ERP competently." },
-        { id: 6, image: interactiveImg, title: "Interactive Sessions and Module-Wise Assessments", description: "Each module ends with interactive discussions, quizzes, and assessments aligned with current SAP ERP interview requirements, helping reinforce knowledge and build confidence for job interviews." },
+        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "Attend SAP PP classroom sessions in Chennai or join our instructor-led online training. Whether you’re a student, job seeker, or working professional, we offer formats that meet your needs and learning preferences." },
+        { id: 2, image: handsonsapImg, title: "Hands-on Practical Sessions with SAP System Access", description: "Get real-time access to the SAP PP environment. Work on BOM creation, routing setup, production orders, MRP runs, and much more through guided labs and assignments." },
+        { id: 3, image: casestudyrealtimeImg, title: "Case Studies Based on Real-Time Scenarios", description: "Engage in SAP PP business case studies, including manufacturing workflows, integration with MM and SD, and production cost tracking." },
+        { id: 4, image: ExperiencedtrainersImg, title: "Trainers with In-Depth SAP PP Experience", description: "Learn from SAP PP consultants with expertise in discrete and process manufacturing. Trainers explain complex production flows in a simplified, actionable manner." },
+        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes for Individual Attention", description: "We maintain small batch sizes to ensure one-on-one support. Our trainers focus on clearing your doubts and strengthening core concepts." },
+        { id: 6, image: interactiveImg, title: "Interactive Sessions and Module-Wise Assessments", description: "After each SAP PP module, participate in assessments and reviews. This helps reinforce your skills and prepares you for real project roles." },
     ];
     return (
         <div className="sap-fico-features-section">
@@ -209,25 +209,25 @@ const KeyFeaturesSection = () => {
     );
 };
 
-const SapErpCourseContentSection = ({ openContactModal }) => {
+const SapFicoCourseContentSection = ({ openContactModal }) => {
     const [activeModuleId, setActiveModuleId] = useState(1);
     const allModulesData = [
-        { id: 1, title: "Module 1: Introduction to SAP ERP", topics: ["Overview of ERP and SAP Architecture", "SAP NetWeaver Technology", "SAP ERP System Components", "SAP Logon and Navigation", "Introduction to Key ERP Modules", "Business Process Integration in SAP ERP", "Overview of Enterprise Structures"] },
-        { id: 2, title: "Module 2: SAP Financial Accounting (FI)", topics: ["General Ledger and Accounts Payable", "Accounts Receivable and Bank Accounting", "Asset Accounting and Depreciation", "Financial Statement Versions", "Tax Configuration and Posting Periods", "Integration with Controlling (CO)", "Reporting in SAP FI"] },
-        { id: 3, title: "Module 3: SAP Materials Management (MM)", topics: ["Purchasing and Vendor Management", "Inventory Management and Goods Movement", "Invoice Verification and Procurement Cycle", "Purchase Requisition and Orders", "Material Master Data", "Valuation and Pricing Procedures", "Stock Transfer and Consumption"] },
-        { id: 4, title: "Module 4: SAP Production Planning (PP)", topics: ["Master Data for Production", "Bill of Materials and Work Centers", "Production Orders and Planning Strategies", "Capacity Planning", "Material Requirement Planning (MRP)", "Shop Floor Control", "Integration with MM and SD"] },
-        { id: 5, title: "Module 5: SAP Human Capital Management (HCM)", topics: ["Organizational Management", "Personnel Administration", "Time Management and Payroll", "Recruitment and Employee Data", "Training and Event Management", "Appraisals and Compensation", "Integration with Financials"] },
-        { id: 6, title: "Module 6: SAP Sales and Distribution (SD)", topics: ["Sales Order Processing", "Shipping and Delivery", "Pricing and Conditions", "Billing and Invoicing", "Returns and Credit Management", "Customer Master Data", "Reporting and Sales Analytics"] },
-        { id: 7, title: "Module 7: SAP Project Systems (PS)", topics: ["Project Definition and Structures", "Network and Activity Management", "Cost Planning and Budgeting", "Project Execution and Monitoring", "Reporting and Forecasting", "Integration with CO and MM", "Resource Planning"] },
-        { id: 8, title: "Module 8: Reporting and Analytics", topics: ["Standard Reports across ERP Modules", "Custom Report Development", "Use of SAP Business Explorer", "Real-Time Analytics and Dashboards", "Exporting Data for Business Use", "Module-Wise Performance Tracking", "SAP BI Integration"] },
-        { id: 9, title: "Module 9: Advanced ERP Topics", topics: ["SAP S/4HANA Introduction", "Data Migration Techniques", "Business Process Reengineering", "SAP Fiori Overview", "Role-Based Security in ERP", "IDoc and EDI Concepts", "Workflow Configuration"] },
-        { id: 10, title: "Module 10: End-to-End ERP Project", topics: ["Project Blueprinting", "Implementation Phases and Testing", "Master Data Setup", "Real-Time Business Case Execution", "End-User Documentation", "Go-Live Strategy", "Post Go-Live Support"] }
+        { id: 1, title: "Module 1: Introduction to SAP PP", topics: ["SAP PP Overview and Process Flow", "Integration with MM, SD, and QM", "Role of SAP PP in the Supply Chain", "SAP GUI Navigation Basics", "Enterprise Structure in SAP PP", "Organizational Elements in Manufacturing", "Overview of Planning Types"] },
+        { id: 2, title: "Module 2: Master Data in SAP PP", topics: ["Material Master", "Bill of Materials (BOM)", "Work Centers", "Routings", "Production Version", "Master Recipe Overview", "Data Consistency Checks"] },
+        { id: 3, title: "Module 3: Demand Management", topics: ["Types of Demand – PIR and CIR", "Planning Strategies", "Consumption Modes", "Planning Horizon Setup", "Transfer of Requirements", "Forecasting and Planning Tools", "Real-Time Examples"] },
+        { id: 4, title: "Module 4: Material Requirement Planning (MRP)", topics: ["MRP Concepts and Process Flow", "Lot Sizing Procedures", "MRP Run Types", "Planning File and Planning Parameters", "MRP Results Analysis", "Scheduling in MRP", "Integration with MM and PP"] },
+        { id: 5, title: "Module 5: Capacity Planning", topics: ["Work Center Capacity Settings", "Available Capacity Definition", "Capacity Evaluation Tools", "Finite and Infinite Planning", "Capacity Leveling", "Scheduling and Dispatching", "Reporting in Capacity Planning"] },
+        { id: 6, title: "Module 6: Production Orders", topics: ["Order Creation and Types", "Order Release and Printing", "Material Staging and Confirmations", "Goods Issue and Goods Receipt", "Order Settlement Process", "Order Status Management", "Order Reporting and Analysis"] },
+        { id: 7, title: "Module 7: Shop Floor Control", topics: ["Production Execution Basics", "Confirmations and Time Tickets", "Handling Rejections and Rework", "Activity Allocation", "Progress Tracking", "Work Center Load Monitoring", "Final Confirmation and Closure"] },
+        { id: 8, title: "Module 8: Discrete & Repetitive Manufacturing", topics: ["Difference between Discrete & Repetitive", "Product Cost Collector in REM", "Backflushing Technique", "Reporting in REM", "Serial and Batch Management", "Orderless Production", "Variant Configuration"] },
+        { id: 9, title: "Module 9: PP Integration with QM, MM, SD", topics: ["Integration with Quality Management", "Integration with Inventory Management", "Posting Goods Movements", "Procurement Planning Linkage", "Sales Order Planning", "Issue Management", "End-to-End Data Flow"] },
+        { id: 10, title: "Module 10: Final Project and Interview Readiness", topics: ["Real-Time Mini Project", "Project Documentation", "Final System Walkthrough", "Resume Building Support", "Interview Questions and Mock Interviews", "FAQ Discussion and Troubleshooting", "Career Planning Session"] }
     ];
     const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
     return (
         <div className="java-course-content-section">
             <h2 className="java-section-title">
-                SAP ERP Training Course Modules
+                Course Modules
                 <span className="java-title-underline"></span>
             </h2>
             <div className="java-course-layout-container">
@@ -248,7 +248,7 @@ const SapErpCourseContentSection = ({ openContactModal }) => {
                     </ul>
                     <button className="java-download-curriculum-button" onClick={openContactModal}>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style={{ marginRight: '8px', verticalAlign: 'middle' }}>
-                            <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
+                            <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z" />
                         </svg>
                         Download Curriculum
                     </button>
@@ -305,13 +305,13 @@ const BatchDetailsSection = ({ openContactModal }) => {
 
 const CorporateTrainingModesSection = () => {
     const trainingModesData = [
-        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate training session", title: "Onsite Training:", description: "Delivered at your organization’s premises, this method provides customized, collaborative learning. Perfect for upskilling your team in a familiar environment using your systems and workflows for practical relevance." },
-        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite training center", title: "Offsite Training:", description: "Held at professional training centers or conference venues, ideal for focused group learning and workshops free from workplace distractions, facilitating certification preparation and team synergy." },
-        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual Instructor-Led Training:", description: "Live sessions via Zoom, Microsoft Teams, or similar platforms, suited for remote learners or distributed teams. Combines flexibility of online learning with real-time interaction and engagement tools." }
+        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate training session", title: "Onsite Training:", description: "Tailored for corporate clients, we deliver SAP PP training at your premises, focusing on your production process needs and business flow." },
+        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite training center", title: "Offsite Training:", description: "Conducted in training venues for company teams or individuals looking for certification and conceptual clarity." },
+        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led training", title: "Virtual Instructor-Led Training (VILT):", description: "Live SAP PP classes conducted online. Ideal for professionals across India seeking SAP PP training in Chennai through remote participation." }
     ];
     return (
         <div className="corporate-training-modes-section">
-            <h2 className="corporate-training-modes-title">Corporate Training Modes for SAP ERP in Chennai</h2>
+            <h2 className="corporate-training-modes-title">Corporate Training Modes for SAP PP in Chennai</h2>
             <div className="modes-container-grid">
                 {trainingModesData.map(mode => (
                     <div key={mode.id} className="mode-card-item">
@@ -327,28 +327,31 @@ const CorporateTrainingModesSection = () => {
 
 const AlumniReviewsSection = () => {
     const reviewsData = [
-        { id: 1, name: "Ananya M.", designation: "SAP ERP Consultant", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: ["The SAP ERP course at IntelliMindz provided me with an in-depth and comprehensive understanding of how enterprise systems function across various business processes. The hands-on sessions and real-world examples were very practical, insightful, and directly applicable to my daily work."] },
-        { id: 2, name: "Karthik R.", designation: "Functional Analyst", avatarInitial: "K", rating: 5, companyLogoText: "Intellimindz", reviewText: ["I appreciated how each ERP module was broken down clearly and methodically. The trainers were very patient, knowledgeable, and supportive. Their strong domain expertise made it easy for me to grasp even the most complex processes with confidence."] },
-        { id: 3, name: "Leena T.", designation: "ERP Analyst", avatarInitial: "L", rating: 5, companyLogoText: "Intellimindz", reviewText: ["The training included real-time ERP case studies, interactive discussions, and practical exercises, which truly helped me prepare effectively for job interviews. I highly recommend this course for SAP ERP learners seeking quality training in Chennai."] },
-        { id: 4, name: "Mohan S.", designation: "SAP Project Lead", avatarInitial: "M", rating: 5, companyLogoText: "Intellimindz", reviewText: ["The comprehensive curriculum and excellent faculty made a significant difference in my learning experience. I was able to apply the knowledge and skills I gained immediately in my role managing complex SAP ERP projects efficiently."] },
-        { id: 5, name: "Rajesh K.", designation: "Technical ERP Consultant", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: ["The access to ERP systems and hands-on assignments provided me with valuable real-world exposure. IntelliMindz is truly one of the best SAP ERP training institutes in Chennai, delivering quality education and practical experience."] }
+        { id: 1, name: "Sandeep R.", designation: "Production Planner", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "The SAP PP training at IntelliMindz helped me understand real production order processing and planning methods. The practical system access and detailed sessions made a huge difference in my confidence." },
+        { id: 2, name: "Preethi G.", designation: "SAP PP End-User", avatarInitial: "P", rating: 5, companyLogoText: "Intellimindz", reviewText: "Coming from a core factory background, this SAP PP training in Chennai gave me the skills to shift into a consultant role. Trainers covered both basics and project-level scenarios thoroughly." },
+        { id: 3, name: "Varun M.", designation: "SAP Consultant", avatarInitial: "V", rating: 5, companyLogoText: "Intellimindz", reviewText: "Thanks to the expert-led sessions, I now consult on SAP PP projects independently. The SAP PP course in Chennai by IntelliMindz is ideal for those aiming to enter the production domain." },
+        { id: 4, name: "Kavitha L.", designation: "Manufacturing Executive", avatarInitial: "K", rating: 5, companyLogoText: "Intellimindz", reviewText: "The real-time project-based approach and interactive classes really helped me. This SAP PP training in Chennai is great for beginners as well as working professionals looking to upgrade their skills." },
+        { id: 5, name: "Ravi T.", designation: "Logistics and Supply Chain Specialist", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "Even with a full-time job, I completed SAP PP training online from Chennai. The flexible timing and structured syllabus helped me gain a clear understanding of production planning in SAP." }
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
     const nextSlide = () => { setCurrentSlide((prev) => (prev === reviewsData.length - 1 ? 0 : prev + 1)); };
     const prevSlide = () => { setCurrentSlide((prev) => (prev === 0 ? reviewsData.length - 1 : prev - 1)); };
     const currentReview = reviewsData[currentSlide];
-    const renderStars = (rating) => { let stars = []; for (let i = 0; i < 5; i++) { stars.push( <span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span> ); } return stars; };
-    const formatReviewText = (textArray) => { return textArray.map((paragraph, index) => ( <p key={index}>{paragraph.trim()}</p> )); };
+    const renderStars = (rating) => { let stars = []; for (let i = 0; i < 5; i++) { stars.push(<span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span>); } return stars; };
+    const formatReviewText = (text) => { return text.split('(P)').map((paragraph, index) => (paragraph.trim() && <p key={index}>{paragraph.trim()}</p>)); };
 
     return (
         <div className="alumni-reviews-section">
-            <h2 className="alumni-reviews-title">Reviews from Our Alumni</h2>
+            <h2 className="alumni-reviews-title">Reviews from Our Alumni – SAP PP Training in Chennai</h2>
             <div className="review-slider-layout-container">
                 <div className="reviewer-image-area">
                     <div className="reviewer-main-image-placeholder">
                         <img src={alumniReviewImg} alt="Alumni Reviewer" />
                     </div>
+                    {/* <div className="floating-star-rating-bubble">
+                     {renderStars(5)}
+                   </div> */}
                 </div>
                 <div className="review-content-area">
                     <div className="review-card">
@@ -370,11 +373,11 @@ const AlumniReviewsSection = () => {
                     <div className="slider-navigation">
                         <div className="nav-controls">
                             <button onClick={prevSlide} className="nav-arrow prev-arrow" aria-label="Previous review">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
                             </button>
                             <span className="slide-counter">{String(currentSlide + 1).padStart(2, '0')}/{String(reviewsData.length).padStart(2, '0')}</span>
                             <button onClick={nextSlide} className="nav-arrow next-arrow" aria-label="Next review">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
                             </button>
                         </div>
                     </div>
@@ -384,28 +387,28 @@ const AlumniReviewsSection = () => {
     );
 };
 
-const SapImSyllabus = () => { // This component name seems to be a leftover from SAP IM, consider renaming for clarity (e.g., SapErpFaqSection)
+const SapFicoFaqSection = () => { // Renamed from SapImSyllabus for clarity
     const [activeModule, setActiveModule] = useState(null);
     const modulesData = [
-        { id: 1, title: "What is SAP ERP used for?", description: "SAP ERP is an integrated platform used to manage business processes including finance, logistics, HR, and more within large organizations." },
-        { id: 2, title: "Who should attend this SAP ERP training in Chennai?", description: "Professionals from finance, procurement, operations, HR, or IT looking to transition to ERP roles, along with freshers aiming for SAP careers." },
-        { id: 3, title: "Do I need experience before taking this ERP training in Chennai?", description: "No prior SAP experience is required. The training is designed for beginners and professionals alike, with foundational to advanced concepts." },
-        { id: 4, title: "Why is SAP ERP training in Chennai important now?", description: "With increasing adoption of SAP S/4HANA across industries, ERP professionals are in demand. Chennai is a hub for SAP opportunities." },
-        { id: 5, title: "Is there a difference between SAP ERP and SAP modules like FI or MM?", description: "Yes. SAP ERP includes all core modules (FI, MM, SD, PP, etc.). Our training in Chennai offers an integrated view across modules." },
-        { id: 6, title: "Do you offer SAP ERP training in Chennai online?", description: "Yes. Both classroom and online options are available for learners who prefer flexible learning." },
-        { id: 7, title: "Will this SAP ERP course in Chennai provide system access?", description: "Yes. You will get full SAP ERP system access for practice throughout the training." },
-        { id: 8, title: "Is job placement support available for this ERP course in Chennai?", description: "Absolutely. We provide resume building, mock interviews, and job alerts to support your SAP ERP career path." },
-        { id: 9, title: "Can I take this SAP ERP training in Chennai while working full-time?", description: "Yes. Flexible batches including weekend and evening sessions are available for working professionals." },
-        { id: 10, title: "Is this SAP ERP course suitable for freshers in Chennai?", description: "Definitely. Our structured approach and hands-on methodology make it perfect for fresh graduates starting their SAP journey." }
+        { id: 1, title: "What is SAP PP and who should learn it?", description: "SAP PP (Production Planning) is a vital SAP module for professionals managing production, manufacturing, and plant operations. This SAP PP training in Chennai is ideal for mechanical engineers, production planners, and operations managers." },
+        { id: 2, title: "Do I need a technical background to join SAP PP training in Chennai?", description: "No, a technical background is not required. Anyone with interest in manufacturing processes or production workflows can take up SAP PP training in Chennai and start a successful SAP career." },
+        { id: 3, title: "Is the SAP PP training in Chennai delivered online or in person?", description: "We provide both classroom training at our Chennai center and online instructor-led SAP PP training sessions. You can choose based on your location and flexibility requirements." },
+        { id: 4, title: "What is the duration of SAP PP training in Chennai?", description: "Our SAP PP course typically spans 6 to 8 weeks with flexible scheduling options. You can opt for weekday, weekend, or fast-track batches based on your availability." },
+        { id: 5, title: "Will I get hands-on access during the SAP PP course in Chennai?", description: "Yes, every participant in our SAP PP training in Chennai receives hands-on system access to work on real-time SAP PP transactions, configuration steps, and production scenarios." },
+        { id: 6, title: "Is SAP PP still in demand in today’s job market?", description: "Yes, SAP PP remains a high-demand skill for industries like manufacturing, pharmaceuticals, and automotive. Companies in Chennai and beyond actively seek trained SAP PP professionals." },
+        { id: 7, title: "Does this SAP PP training in Chennai include interview preparation?", description: "Absolutely. Our training includes mock interviews, resume preparation, real-time scenario discussions, and commonly asked SAP PP interview questions to ensure you are job-ready." },
+        { id: 8, title: "What is the average salary after completing SAP PP training in Chennai?", description: "Freshers may earn 4–6 LPA, while experienced professionals with SAP PP skills can secure positions with salaries of up to 15 LPA, especially in manufacturing-heavy industries." },
+        { id: 9, title: "Can I switch to SAP PP from other modules like MM or SD with this training in Chennai?", description: "Yes, many SAP professionals transition from MM or SD to PP. Our SAP PP training in Chennai equips you with the necessary cross-module knowledge and real-world practice." },
+        { id: 10, title: "Will I receive a course completion certificate?", description: "Yes. Upon successful completion of the SAP PP training in Chennai, you will receive a certificate from IntelliMindz validating your participation and skill development in SAP PP." }
     ];
     return (
-        <div className="sapim-syllabus">
+        <div className="sapim-syllabus"> {/* Class name kept for styling consistency */}
             <div className="sap-home-syllabus-header">
                 <h1>
-                    Have a Question about Our <span className="highlighted-course-title">SAP ERP Course?</span>
+                    Have a Question about Our <span className="highlighted-course-title">SAP PP Course?</span>
                 </h1>
                 <p className="syllabus-header-subtitle">
-                    Here are answers to frequently asked questions about our SAP ERP training in Chennai:
+                    Here are answers to commonly asked questions about our SAP PP training in Chennai:
                 </p>
             </div>
             <div className="syllabus-grid">
@@ -460,8 +463,8 @@ const Saponline = ({ openContactModal }) => {
     return (
         <>
             <Helmet> {/* Add Helmet here */}
-                <title>SAP ERP Training in Chennai | SAP ERP Course in Chennai</title>
-                <meta name="description" content="Enroll in our SAP ERP Training in Chennai to master enterprise resource planning skills. Get certified with our hands-on SAP ERP course in Chennai, led by industry experts." />
+                <title>SAP PP Training in Chennai | SAP Production Planning Course in Chennai</title>
+                <meta name="description" content="Get practical training in manufacturing and production with our SAP PP Training in Chennai. Master planning, execution, and control in our SAP Production Planning course in Chennai." />
             </Helmet>
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
@@ -470,13 +473,13 @@ const Saponline = ({ openContactModal }) => {
             <SAPHeroSection openContactModal={openContactModal} />
             <SAPAboutSection />
             <KeyFeaturesSection />
-            <SapErpCourseContentSection openContactModal={openContactModal} />
-            <BatchDetailsSection openContactModal={openContactModal} />
+            <SapFicoCourseContentSection openContactModal={openContactModal} />
+            <BatchDetailsSection openContactModal={openContactModal} /> {/* Passed prop */}
             <CorporateTrainingModesSection />
             <AlumniReviewsSection />
             <AskForDemo />
             <Onlineheader />
-            <SapImSyllabus /> {/* This component's name should likely be updated to reflect ERP content */}
+            <SapFicoFaqSection /> {/* Updated component name */}
             <CallToActionBanner openContactModal={openContactModal} />
         </>
     );

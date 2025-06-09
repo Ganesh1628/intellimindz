@@ -50,9 +50,9 @@ const Intro = ({ openContactModal }) => {
         <div className="intro-container">
             <div className="overlay"></div>
             <div className="intro-content">
-                <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
-                <h1 className="intro-h1">Best SAP FICO Training Institute in Chennai </h1>
-                <h3 className="intro-h3">Unlock the power of financial management with expert-led SAP FICO Training – your gateway to global career opportunities </h3>
+                <h2 className="intro-h2">Best SAP CS Training Institute in Chennai</h2>
+                <h1 className="intro-h1">Master your skills in SAP Customer Service (CS) with expert-led training designed to prepare you for real-time business scenarios and industry implementations.</h1>
+                <h3 className="intro-h3"></h3>
                 <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
             </div>
         </div>
@@ -65,7 +65,7 @@ const SapTrainingProfile = ({ openContactModal }) => {
         <div className="sap-training-container">
             <div className="sap-training-header animate__animated animate__flipInX">
                 <h1>
-                    Learn from the Best: SAP FICO Training by <span>Real-Time Consultants</span>
+                    Learn from the Best: SAP CS Training by <span>Real-Time Experts</span>
                 </h1>
                 <div className="header-divider"></div>
             </div>
@@ -73,16 +73,16 @@ const SapTrainingProfile = ({ openContactModal }) => {
                 <div className="training-details">
                     <div className="sap-training-header animate__animated animate__lightSpeedInLeft">
                         <p className="intro-text">
-                            At IntelliMindz, our SAP FICO mentors are far more than just trainers; they are distinguished industry veterans with profound, extensive experience specifically within the SAP FICO domain. Each has been actively engaged as a consultant and leading expert in the dynamic SAP FICO landscape, establishing them as genuine subject matter authorities ready to guide your learning journey.
+                            At IntelliMindz, our SAP CS trainers are professionals with in-depth industry experience in service management and customer engagement. Our course blends theoretical knowledge with live practical exposure in configuring and managing SAP CS components.
                         </p>
                     </div>
                     <ul className="benefits-list">
-                        <li><span className="icon">✓</span> Master SAP FICO from Foundation to Advanced concepts with our structured curriculum.</li>
-                        <li><span className="icon">✓</span> Learn directly from Real-Time SAP FICO Experts bringing current industry insights.</li>
-                        <li><span className="icon">✓</span> Benefit from IntelliMindz's Proven Track Record in SAP FICO Training and student success.</li>
-                        <li><span className="icon">✓</span>Receive Dedicated SAP FICO Career Support, including resume and interview preparation.</li>
-                        <li><span className="icon">✓</span> Gain Practical SAP FICO Exposure through real-world case studies and projects.</li>
-                        <li><span className="icon">✓</span> Enjoy a Personalized SAP FICO Learning Experience tailored to your pace and needs.</li>
+                        <li><span className="icon">✓</span> Build a comprehensive foundation and progress into advanced SAP CS configuration.</li>
+                        <li><span className="icon">✓</span> Learn from certified SAP CS experts with hands-on project background.</li>
+                        <li><span className="icon">✓</span> Join the top-rated SAP CS training institute in Chennai for result-oriented learning.</li>
+                        <li><span className="icon">✓</span> Career support with resume building and mock interview preparation.</li>
+                        <li><span className="icon">✓</span> Apply your knowledge through customer service management case studies.</li>
+                        <li><span className="icon">✓</span> Learn at your pace with our flexible and personalized training methodology.</li>
                     </ul>
                     <button className="enquiry-button" onClick={openContactModal}>Enquire Now</button>
                 </div>
@@ -96,12 +96,12 @@ const SapTrainingProfile = ({ openContactModal }) => {
 
 const Corporate = () => {
     const blocksData = [
-        { image: bestPriceIcon, heading: "Experienced Trainers ", paragraph: "Get trained by experts from our training centre in Chennai" },
-        { image: runningIcon, heading: "Practical Learning ", paragraph: "Ideal for professionals searching for training centre near me" },
-        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose a schedule that suits you" },
-        { image: liveclass, heading: "Interactive Sessions", paragraph: "Discussions aligned with job needs" },
-        { image: onlinetest, heading: "Lifetime Access", paragraph: "Revisit concepts and revise SAP FICO course syllabus" },
-        { image: jobopening, heading: "Support", paragraph: "Continued doubt clarification" }
+        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from SAP CS consultants with implementation and support experience in Chennai." },
+        { image: runningIcon, heading: "Practical Learning", paragraph: "Experience hands-on SAP CS training in Chennai with real-time ticket resolution." },
+        { image: staffIcon, heading: "Flexible Batches", paragraph: "Batch schedules that fit professionals and students including fast-track weekend options." },
+        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engage in discussions that simulate real business issues in SAP CS modules." },
+        { image: onlinetest, heading: "Lifetime Access", paragraph: "Continue accessing SAP CS learning materials even after course completion." },
+        { image: jobopening, heading: "Continued Support", paragraph: "Post-training guidance for technical queries and implementation support." }
     ];
     return (
         <div className="corporate-section">
@@ -157,9 +157,9 @@ const TrainingModesSection = ({ openContactModal }) => {
 const SAPHeroSection = ({ openContactModal }) => {
     return (
         <div className="sap-fico-expert-section">
-            <h1>Become an SAP FICO Expert with Intellimindz</h1>
-            <p>Comprehensive, hands-on training for real-world SAP ERP financial and controlling mastery.</p>
-            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your Journey Today!</button>
+            <h1>Become a Skilled SAP CS Consultant with IntelliMindz</h1>
+            <p>Get trained in SAP CS to manage customer support processes, service orders, and technical objects efficiently. Accelerate your SAP career with our hands-on learning experience.</p>
+            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your SAP EC Career with Confidence!</button>
         </div>
     );
 };
@@ -167,15 +167,15 @@ const SAPHeroSection = ({ openContactModal }) => {
 const SAPAboutSection = () => {
     return (
         <div className="sap-fico-about-section">
-            <h2>About Our SAP FICO Training in Chennai</h2>
+            <h2>About Our SAP CS Training in Chennai</h2>
             <div className="sap-fico-about-content">
                 <div className="sap-fico-about-text">
-                    <p>At Intellimindz Chennai, we offer industry-focused SAP FICO training that blends conceptual understanding with practical application. Our course covers both SAP FI (Financial Accounting) and SAP CO (Controlling) modules, providing a well-rounded learning experience crucial for excelling in modern business environments.</p>
-                    <p>The SAP FICO course syllabus is meticulously designed to include theoretical lessons, real-time scenarios, practical assignments, and end-to-end implementation exercises. Our training institute ensures that learners deeply understand real-world business processes and are equipped to handle SAP ERP financial and controlling tasks confidently from day one.</p>
-                    <p>Designed for both beginners and seasoned professionals seeking to upskill, our interactive training ensures clear concept delivery and extensive hands-on exposure. Enroll with us to gain comprehensive knowledge, practical mastery, and excel in high-demand SAP FICO roles across various industries.</p>
+                    <p>IntelliMindz offers the most comprehensive SAP CS training in Chennai, covering key elements like service notifications, maintenance processing, and integration with SD, PM, and MM modules. Our hands-on curriculum prepares you to work on real business use cases and SAP configurations.</p>
+                    <p>This course is ideal for fresh graduates, SAP functional consultants, and professionals aiming to specialize in customer service operations using SAP. Learn how to handle service requests, order processing, resource planning, and more with our step-by-step modules and lab exercises.</p>
+                    <p>SAP CS Training in Chennai</p>
                 </div>
                 <div className="sap-fico-about-image-container">
-                    <img src={aboutsapficoImg} alt="SAP FICO Training in Chennai" />
+                    <img src={aboutsapficoImg} alt="SAP CS Training in Chennai" />
                 </div>
             </div>
         </div>
@@ -184,12 +184,12 @@ const SAPAboutSection = () => {
 
 const KeyFeaturesSection = () => {
     const features = [
-        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "We offer both classroom and online training modes, providing flexibility and convenience for learners. Whether you're a working professional, student, or job seeker searching for a reliable training centre near me, our tailored options suit your schedule and learning style." },
-        { id: 2, image: handsonsapImg, title: "Hands-on Practical Sessions with SAP System Access", description: "Practical labs play a crucial role in reinforcing the SAP FICO course syllabus by offering hands-on experience with real-time scenarios. This approach helps learners gain a deeper understanding of financial processes and controlling tasks within an actual SAP system environment." },
-        { id: 3, image: casestudyrealtimeImg, title: "Case Studies Based on Real-Time Scenarios", description: "Our project case studies are perfectly designed for individuals preparing for SAP FICO interview questions, as they simulate real-time implementation environments. These practical scenarios help learners understand how theoretical concepts are applied in actual business processes and project situations." },
-        { id: 4, image: ExperiencedtrainersImg, title: "Experienced SAP FICO Professionals as Trainers", description: "Gain in-depth knowledge by learning from experienced SAP professionals at our training centre in Chennai. Our expert trainers bring years of industry experience, offering valuable insights, practical guidance, and mentorship to help you build a successful career in SAP FICO." },
-        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes for Personalized Mentoring", description: "Each student enrolled in our training programme benefits from personalized, one-on-one mentoring sessions. This individualized support ensures better understanding of SAP FICO concepts, clarifies doubts effectively, and helps learners progress at their own pace, enhancing overall learning outcomes and confidence." },
-        { id: 6, image: interactiveImg, title: "Interactive Sessions, Discussions, and Module-Wise Quizzes", description: "At the end of each module, we conduct quizzes and interactive discussions specifically aligned with commonly asked SAP FICO interview questions. This approach helps reinforce learning, assess knowledge retention, and prepare students effectively for real-world job interviews and placement opportunities." },
+        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "Choose classroom training in Chennai or attend sessions online. Our SAP CS training in Chennai is designed to suit varied learning styles with expert instructor-led delivery." },
+        { id: 2, image: handsonsapImg, title: "Hands-on Practical Sessions with SAP System Access", description: "Work on real-time SAP CS processes including notification creation, service orders, and billing. System access ensures you gain practical knowledge applicable in real job scenarios." },
+        { id: 3, image: casestudyrealtimeImg, title: "Case Studies Based on Real-Time Scenarios", description: "Master service management in SAP CS through case studies that replicate support and maintenance situations faced by enterprises today." },
+        { id: 4, image: ExperiencedtrainersImg, title: "Trainers with In-Depth SAP CS Experience", description: "Our trainers are professionals from the SAP Customer Service domain who bring real-world examples and implementation tricks to help bridge the theory-practice gap." },
+        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes for Individual Attention", description: "Smaller groups enable our trainers to focus on each learner’s understanding and guide them through personalized feedback and mentorship." },
+        { id: 6, image: interactiveImg, title: "Interactive Sessions and Module-Wise Assessments", description: "Our SAP CS training in Chennai includes frequent evaluations through quizzes, mock projects, and interview-style questions after each module." },
     ];
     return (
         <div className="sap-fico-features-section">
@@ -212,22 +212,22 @@ const KeyFeaturesSection = () => {
 const SapFicoCourseContentSection = ({ openContactModal }) => {
     const [activeModuleId, setActiveModuleId] = useState(1);
     const allModulesData = [
-        { id: 1, title: "Module 1: Introduction to SAP and ERP", topics: ["Introduction to ERP and SAP", "Overview of SAP Modules (MM, SD, PP, HR, etc.)", "SAP GUI Navigation and Logon Process", "Organizational Structure in SAP", "Understanding SAP Client, Company Code, and Business Area", "Role of SAP FICO in SAP ECC and S/4HANA", "Basics of Master Data in SAP"] },
-        { id: 2, title: "Module 2: Enterprise Structure in SAP FICO", topics: ["Defining Company, Company Code, and Business Area", "Assigning Company Code to Company", "Creating Financial Management Areas", "Understanding Credit Control Areas", "Assigning Company Code to Credit Control Area", "Defining Functional Areas and Segments", "Configuration of Fiscal Year Variant"] },
-        { id: 3, title: "Module 3: General Ledger Accounting (G/L)", topics: ["Creation and Maintenance of G/L Master Records", "Chart of Accounts – Types and Usage", "Posting G/L Transactions", "Document Types and Number Ranges", "Reversal of Documents", "Automatic Payment Program Integration", "G/L Reporting and Analysis Tools"] },
-        { id: 4, title: "Module 4: Accounts Payable (AP)", topics: ["Vendor Master Data Creation and Maintenance", "Posting Vendor Invoices and Payments", "Special G/L Transactions for Vendors", "Automatic Payment Program (APP) Configuration", "Withholding Tax Configuration", "Vendor Reports and Aging Analysis", "Integration with Procurement (MM Module)"] },
-        { id: 5, title: "Module 5: Accounts Receivable (AR)", topics: ["Customer Master Data Creation and Maintenance", "Posting Customer Invoices and Receipts", "Special G/L Transactions for Customers", "Dunning Process Configuration", "Credit Management in AR", "Customer Reports and Aging Analysis", "Integration with Sales (SD Module)"] },
-        { id: 6, title: "Module 6: Asset Accounting (AA)", topics: ["Chart of Depreciation and Depreciation Areas", "Asset Class and Master Record Creation", "Acquisition of Fixed Assets", "Asset Transfer and Retirement", "Depreciation Calculation and Posting", "Asset Reports and Analysis", "Year-End Closing Activities for Asset Accounting"] },
-        { id: 7, title: "Module 7: Bank Accounting (BA)", topics: ["Bank Master Data and House Bank Configuration", "Electronic Bank Statement (EBS)", "Manual Bank Reconciliation", "Automatic Bank Reconciliation", "Cash Journals Setup and Usage", "Lockbox Processing", "Integration with Accounts Payable and Receivable"] },
-        { id: 8, title: "Module 8: Controlling (CO) – Cost Element and Cost Center Accounting", topics: ["Overview of Controlling in SAP", "Cost Element Accounting – Primary and Secondary", "Cost Center Creation and Hierarchies", "Actual and Plan Cost Postings", "Internal Order Configuration", "Statistical Key Figures", "Reporting in Cost Center Accounting"] },
-        { id: 9, title: "Module 9: Controlling (CO) – Profitability and Internal Orders", topics: ["Profit Center Accounting Setup", "Assignment of Org Units to Profit Centers", "Revenue and Cost Allocation to Profit Centers", "Internal Order Planning and Budgeting", "Actual Cost Posting and Settlement", "Profitability Analysis (CO-PA) Introduction", "Real-time Integration of FI and CO"] },
-        { id: 10, title: "Module 10: Advanced Topics and Real-Time Scenarios", topics: ["Integration of SAP FICO with MM and SD", "Foreign Currency Transactions and Exchange Rates", "Tax Configuration (VAT, GST, etc.)", "Period-End and Year-End Closing Procedures", "Reports: Financial Statements, Trial Balance, Cash Flow", "SAP Fiori Apps in FICO (for S/4HANA)", "Hands-on Real-time Project with End-to-End Implementation"] }
+        { id: 1, title: "Module 1: SAP CS Overview", topics: ["Introduction to SAP Customer Service", "Overview of CS Components and Architecture", "CS Integration with SD, PM, and MM", "Navigation in SAP GUI", "Enterprise Structure and Organizational Elements", "Technical Objects in SAP CS", "User Roles and Authorizations"] },
+        { id: 2, title: "Module 2: Service Notification Management", topics: ["Notification Types and Categories", "Partner Determination", "Reference Objects and Tasks", "Notification Processing Cycle", "Notification Reports and Status Management", "Integration with Workflow", "User-Defined Fields and Enhancements"] },
+        { id: 3, title: "Module 3: Service Order Management", topics: ["Service Order Types and Configurations", "Planning and Scheduling", "Resource Assignment and Availability", "Service Order Processing Flow", "Order Confirmation and Completion", "Order Status and Reports", "Integration with SD Billing"] },
+        { id: 4, title: "Module 4: Task Lists and Maintenance Plans", topics: ["Single-Cycle and Strategy Plans", "Preventive Maintenance in CS", "Task List Creation and Usage", "Scheduling Parameters and Call Horizon", "Maintenance Strategy Setup", "Performance-Based Planning", "Practical Exercises"] },
+        { id: 5, title: "Module 5: Equipment and Functional Location Management", topics: ["Master Data Configuration", "Equipment Records", "Functional Location Hierarchies", "Object History and Warranty Tracking", "Measuring Points and Counters", "Equipment Task Lists", "Integration with PM and CS Orders"] },
+        { id: 6, title: "Module 6: Service Contracts", topics: ["Contract Types and Terms", "Master Data and Pricing", "Billing Plans and Scheduling", "Contract Management Cycle", "Integration with FI/SD", "Renewals and Termination Processing", "Contract Reports"] },
+        { id: 7, title: "Module 7: Warranty and Claims Management", topics: ["Warranty Types and Conditions", "Claims Processing Lifecycle", "Integration with Equipment Records", "Notifications and Follow-ups", "Claim Settlement Process", "Reports and Analytics", "Custom Enhancements"] },
+        { id: 8, title: "Module 8: Service Billing and Pricing", topics: ["Billing Types and Profiles", "Pricing Procedures in CS", "Integration with SD Billing", "Resource-Related Billing", "Debit and Credit Memo Requests", "Tax Handling and Account Assignment", "Billing Reports"] },
+        { id: 9, title: "Module 9: User Exits and BAdIs in SAP CS", topics: ["Common Enhancements in CS", "User Exits and Customer Functions", "Business Add-Ins (BAdIs) Implementation", "Workflow Triggers and Events", "Custom Fields and Layouts", "Reporting Enhancements", "Debugging Techniques"] },
+        { id: 10, title: "Module 10: SAP CS Project and Certification Preparation", topics: ["Real-Time Project Execution", "CS Configuration Walkthrough", "End-to-End Testing and Support", "Final Assessment and Use Cases", "Interview Questions Discussion", "Resume Review and Job Guidance", "Certification Tips and Exam Preparation"] }
     ];
     const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
     return (
         <div className="java-course-content-section">
             <h2 className="java-section-title">
-                SAP FICO Training Course Content
+                Course Modules
                 <span className="java-title-underline"></span>
             </h2>
             <div className="java-course-layout-container">
@@ -248,7 +248,7 @@ const SapFicoCourseContentSection = ({ openContactModal }) => {
                     </ul>
                     <button className="java-download-curriculum-button" onClick={openContactModal}>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style={{ marginRight: '8px', verticalAlign: 'middle' }}>
-                            <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
+                            <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z" />
                         </svg>
                         Download Curriculum
                     </button>
@@ -305,13 +305,13 @@ const BatchDetailsSection = ({ openContactModal }) => {
 
 const CorporateTrainingModesSection = () => {
     const trainingModesData = [
-        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate training session", title: "Onsite Training:", description: "Onsite Training is conducted at the client's location, offering a personalized learning experience in the workplace environment. It encourages real-time collaboration and team-based learning. Ideal for companies looking to train multiple employees simultaneously." },
-        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite training center", title: "Offsite Training:", description: "Offsite Training takes place at an external venue, such as a training center or conference space. It provides a distraction-free environment focused solely on learning. Perfect for in-depth sessions, certifications, and team-building opportunities." },
-        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led training", title: "Virtual Instructor-Led Training:", description: "VILT is delivered online by live instructors using platforms like Zoom or Teams. It combines interactive teaching with the flexibility of remote access. Ideal for geographically dispersed teams or remote learners." }
+        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate training session", title: "Onsite Training:", description: "We provide custom onsite SAP CS training in Chennai based on your company's service process flows and system requirements." },
+        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite training center", title: "Offsite Training:", description: "Conducted at our training center, offsite training offers a distraction-free environment for learners." },
+        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led training", title: "Virtual Instructor-Led Training (VILT):", description: "Participate in live online SAP CS sessions from anywhere, taught by expert instructors." }
     ];
     return (
         <div className="corporate-training-modes-section">
-            <h2 className="corporate-training-modes-title">Corporate Training Modes for SAP FICO Training in Chennai</h2>
+            <h2 className="corporate-training-modes-title">Corporate Training Modes for SAP CS in Chennai</h2>
             <div className="modes-container-grid">
                 {trainingModesData.map(mode => (
                     <div key={mode.id} className="mode-card-item">
@@ -327,19 +327,19 @@ const CorporateTrainingModesSection = () => {
 
 const AlumniReviewsSection = () => {
     const reviewsData = [
-        { id: 1, name: "Aravind R.", designation: "", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "The SAP FICO training was well-structured with practical insights. (P) Real-time business scenarios improved my understanding. I’m now confident in finance operations. (P) The clear SAP FICO interview questions and transparent course fees made Intellimindz the right choice for me." },
-        { id: 2, name: "Meenakshi S.", designation: "Finance Analyst", avatarInitial: "M", rating: 5, companyLogoText: "Intellimindz", reviewText: "I valued the detailed module explanations and hands-on sessions. (P) The lab access helped reinforce my learning. The SAP FICO interview questions were practical and useful. (P) Affordable course fees and flexible training options made this a great investment in my career." },
-        { id: 3, name: "Karthik V.", designation: "Accountant", avatarInitial: "K", rating: 5, companyLogoText: "Intellimindz", reviewText: "Intellimindz’s SAP FICO training gave me a strong foundation. (P) The interactive sessions and expert trainer clarified all doubts. SAP FICO interview questions were integrated well. (P) Considering the depth and support, the course fees were absolutely worth it." },
-        { id: 4, name: "Divya M.", designation: "SAP End User", avatarInitial: "D", rating: 5, companyLogoText: "Intellimindz", reviewText: "With my accounting background, this SAP FICO training was a perfect fit. (P) Practical business links clarified concepts easily. Course materials and interview preparation were thorough. (P) Transparent SAP FICO course fees simplified my decision to join Intellimindz without hesitation." },
-        { id: 5, name: "Pradeep A.", designation: "Financial Consultant", avatarInitial: "P", rating: 5, companyLogoText: "Intellimindz", reviewText: "The training covered each SAP FICO topic in depth with real-time scenarios. (P) The mock interview questions were spot-on for consultancy roles. (P) High-quality instruction made the course fees reasonable. Intellimindz truly delivers value for professionals looking to upskill." }
+        { id: 1, name: "Kamala S.", designation: "SAP CS Functional Consultant", avatarInitial: "K", rating: 5, companyLogoText: "Intellimindz", reviewText: "Great real-time SAP CS training in Chennai. The instructors were experienced and explained every concept using real-world examples and practical use cases. Their method of teaching made the content very easy to grasp, especially for someone new to SAP CS." },
+        { id: 2, name: "Ramesh T.", designation: "Customer Service Manager", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "I highly recommend IntelliMindz for SAP CS training in Chennai. The faculty shared deep insights into critical areas such as service order management, equipment tracking, and CS-PM integration. The hands-on sessions helped me apply what I learned directly to my job." },
+        { id: 3, name: "Aarthi M.", designation: "SAP Support Engineer", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "The SAP CS course modules at IntelliMindz were very detailed and industry-oriented. The trainer support was top-notch, and the personalized guidance I received during system access sessions was extremely beneficial. This training is definitely worth the investment." },
+        { id: 4, name: "Gokul N.", designation: "SAP PM/CS Analyst", avatarInitial: "G", rating: 5, companyLogoText: "Intellimindz", reviewText: "Thanks to IntelliMindz’s focused SAP CS training in Chennai, I was able to switch from a PM role to a CS consultant position. The course covered key integration points with PM and SD modules, and the practical labs gave me confidence during real project implementation." },
+        { id: 5, name: "Sneha K.", designation: "Service Delivery Executive", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "If you're searching for structured and job-ready SAP CS training in Chennai, IntelliMindz is the right choice. The trainers were very patient, answered every question, and provided excellent real-time examples. The syllabus covers all the essentials needed for the field." }
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
     const nextSlide = () => { setCurrentSlide((prev) => (prev === reviewsData.length - 1 ? 0 : prev + 1)); };
     const prevSlide = () => { setCurrentSlide((prev) => (prev === 0 ? reviewsData.length - 1 : prev - 1)); };
     const currentReview = reviewsData[currentSlide];
-    const renderStars = (rating) => { let stars = []; for (let i = 0; i < 5; i++) { stars.push( <span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span> ); } return stars; };
-    const formatReviewText = (text) => { return text.split('(P)').map((paragraph, index) => ( paragraph.trim() && <p key={index}>{paragraph.trim()}</p> )); };
+    const renderStars = (rating) => { let stars = []; for (let i = 0; i < 5; i++) { stars.push(<span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span>); } return stars; };
+    const formatReviewText = (text) => { return text.split('(P)').map((paragraph, index) => (paragraph.trim() && <p key={index}>{paragraph.trim()}</p>)); };
 
     return (
         <div className="alumni-reviews-section">
@@ -373,11 +373,11 @@ const AlumniReviewsSection = () => {
                     <div className="slider-navigation">
                         <div className="nav-controls">
                             <button onClick={prevSlide} className="nav-arrow prev-arrow" aria-label="Previous review">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
                             </button>
                             <span className="slide-counter">{String(currentSlide + 1).padStart(2, '0')}/{String(reviewsData.length).padStart(2, '0')}</span>
                             <button onClick={nextSlide} className="nav-arrow next-arrow" aria-label="Next review">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
                             </button>
                         </div>
                     </div>
@@ -390,25 +390,25 @@ const AlumniReviewsSection = () => {
 const SapFicoFaqSection = () => { // Renamed from SapImSyllabus for clarity
     const [activeModule, setActiveModule] = useState(null);
     const modulesData = [
-        { id: 1, title: "What is the purpose of SAP FICO module?", description: "SAP FICO is designed to help businesses manage their financial transactions, accounting, and internal reporting efficiently using the integrated ERP system by SAP." },
-        { id: 2, title: "Who should take SAP FICO training in Chennai?", description: "Finance professionals, commerce graduates, MBA students, and working accountants looking to upskill or switch to ERP-based finance roles should consider SAP FICO training." },
-        { id: 3, title: "What are the prerequisites to learn SAP FICO?", description: "Basic understanding of accounting principles, financial terminology, and MS Excel is helpful, though many institutes teach from scratch for beginners in Chennai." },
-        { id: 4, title: "Is SAP FICO training suitable for freshers?", description: "Yes, fresh graduates with a background in commerce, finance, or accounting can benefit from SAP FICO training to boost their employability in ERP roles." },
-        { id: 5, title: "What are the main components of SAP FICO?", description: "SAP FICO includes two core modules: Financial Accounting (FI) and Controlling (CO), covering GL, AR/AP, asset accounting, cost centers, and profit analysis." },
-        { id: 6, title: "Is SAP FICO training available online in Chennai?", description: "Yes, many institutes offer online SAP FICO training with live instructor-led classes, recorded sessions, and real-time project exposure for convenience." },
-        { id: 7, title: "Will I get hands-on practice in the training?", description: "Yes, SAP FICO training includes hands-on practice in real-time SAP servers to help learners understand business processes and perform configuration tasks." },
-        { id: 8, title: "Do I need technical skills for SAP FICO?", description: "No, SAP FICO is a functional module and does not require programming or coding skills. It focuses on finance and controlling processes." },
-        { id: 9, title: "Can I switch careers with SAP FICO training?", description: "Absolutely. Many working professionals from finance or accounting backgrounds transition into ERP consulting roles after completing SAP FICO training." },
-        { id: 10, title: "Is SAP FICO suitable for accountants and CAs?", description: "Yes, accountants and chartered accountants find SAP FICO useful as it aligns with their expertise and opens doors to ERP consulting opportunities." }
+        { id: 1, title: "What is the role of SAP CS in business operations?", description: "SAP Customer Service (CS) module plays a crucial role in managing customer-related service processes such as equipment repairs, service orders, notifications, warranty tracking, and feedback management. It ensures timely service delivery, streamlined communication, and better customer satisfaction, making it essential for any organization that offers post-sales support." },
+        { id: 2, title: "Who can benefit the most from SAP CS training in Chennai?", description: "This SAP CS training in Chennai is highly beneficial for service delivery executives, SAP SD or PM consultants, technical support professionals, and freshers looking to specialize in the customer service domain of SAP. It is ideal for professionals aiming to work in industries that rely heavily on customer support and service workflows." },
+        { id: 3, title: "Is prior SAP or technical experience required to join SAP CS training in Chennai?", description: "No, you do not need to have any prior experience with SAP or technical systems to enroll. The SAP CS course at IntelliMindz is designed to accommodate both beginners and professionals. It starts with basic concepts and gradually moves towards more advanced topics, complete with hands-on practice sessions and exercises." },
+        { id: 4, title: "How is SAP CS different from SAP PM in terms of functionality?", description: "While both modules deal with maintenance and support, SAP CS focuses on external customer service processes such as responding to client service requests and managing warranties. SAP PM, on the other hand, is geared toward internal maintenance activities like equipment inspections and preventive maintenance tasks. Our SAP CS training in Chennai clarifies these differences with real-time case studies." },
+        { id: 5, title: "What are the career opportunities after SAP CS training in Chennai?", description: "Upon successful completion of our SAP CS training in Chennai, you can pursue roles such as SAP CS Consultant, Technical Support Analyst, Service Process Manager, Functional Consultant, or SAP PM-CS Integration Specialist. There is a growing demand for SAP CS professionals in industries like manufacturing, utilities, and consumer products." },
+        { id: 6, title: "Does IntelliMindz provide hands-on SAP CS system access during training in Chennai?", description: "Yes, we provide full hands-on access to the SAP CS training system in Chennai. You will be able to practice creating service orders, configuring notification types, managing equipment records, and generating reports. This practical exposure is critical for understanding real-world business processes." },
+        { id: 7, title: "Can I attend SAP CS training online if I cannot travel to Chennai?", description: "Absolutely. IntelliMindz offers flexible online SAP CS training options with live instructor-led sessions. These virtual classes provide the same quality of training as in-person classes, with added benefits like recorded sessions for review and online doubt-clearing support." },
+        { id: 8, title: "Will I receive guidance for SAP CS certification during training in Chennai?", description: "Yes. Our SAP CS training in Chennai includes support for certification preparation. We provide relevant materials, practice tests, and tips to help you pass the certification exam confidently. Our trainers also share insights into exam patterns and commonly asked questions." },
+        { id: 9, title: "How long is the duration of the SAP CS training program in Chennai?", description: "The SAP CS training duration typically ranges from 6 to 8 weeks, depending on the batch you choose. We offer both regular-paced and fast-track programs to cater to different schedules. Weekend classes are also available for working professionals in Chennai." },
+        { id: 10, title: "Is post-course support available after completing SAP CS training in Chennai?", description: "Yes. Once you complete the course, you will gain access to our dedicated learner support system, including a technical forum, live Q&A sessions, job support guidance, and expert mentoring. This ensures that you continue to get help even during job applications and live project scenarios." }
     ];
     return (
         <div className="sapim-syllabus"> {/* Class name kept for styling consistency */}
             <div className="sap-home-syllabus-header">
                 <h1>
-                    Have a Question with Our <span className="highlighted-course-title">SAP FICO Course?</span>
+                    Have a Question about Our <span className="highlighted-course-title">SAP CS Course?</span>
                 </h1>
                 <p className="syllabus-header-subtitle">
-                    Here, you can get the answer to your question about our SAP FICO course in Chennai.
+                    Find answers to the most common and important queries related to our SAP CS training in Chennai:
                 </p>
             </div>
             <div className="syllabus-grid">
@@ -463,8 +463,8 @@ const Saponline = ({ openContactModal }) => {
     return (
         <>
             <Helmet> {/* Add Helmet here */}
-                <title>SAP FICO Training in Chennai | SAP FICO Course in Chennai</title>
-                <meta name="description" content="Become an SAP finance expert with our SAP FICO Training in Chennai. Learn financial accounting and controlling through real-time projects in our SAP FICO course in Chennai." />
+                <title>SAP CS Training in Chennai | SAP Customer Service Course in Chennai</title>
+                <meta name="description" content="Join the best SAP CS Training in Chennai to master service management and customer interaction. Hands-on learning in SAP Customer Service course in Chennai." />
             </Helmet>
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />

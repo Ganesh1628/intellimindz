@@ -50,9 +50,9 @@ const Intro = ({ openContactModal }) => {
         <div className="intro-container">
             <div className="overlay"></div>
             <div className="intro-content">
-                <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
-                <h1 className="intro-h1">Best SAP FICO Training Institute in Chennai </h1>
-                <h3 className="intro-h3">Unlock the power of financial management with expert-led SAP FICO Training – your gateway to global career opportunities </h3>
+                <h2 className="intro-h2">Best SAP HR Training Institute in Chennai</h2>
+                <h1 className="intro-h1">Build a successful career in Human Resource Management with hands-on SAP HR Training – master HR operations and automation in the digital era.</h1>
+                <h3 className="intro-h3"></h3>
                 <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
             </div>
         </div>
@@ -65,7 +65,7 @@ const SapTrainingProfile = ({ openContactModal }) => {
         <div className="sap-training-container">
             <div className="sap-training-header animate__animated animate__flipInX">
                 <h1>
-                    Learn from the Best: SAP FICO Training by <span>Real-Time Consultants</span>
+                    Learn from the Best: SAP HR Training by <span>Real-Time Experts</span>
                 </h1>
                 <div className="header-divider"></div>
             </div>
@@ -73,16 +73,16 @@ const SapTrainingProfile = ({ openContactModal }) => {
                 <div className="training-details">
                     <div className="sap-training-header animate__animated animate__lightSpeedInLeft">
                         <p className="intro-text">
-                            At IntelliMindz, our SAP FICO mentors are far more than just trainers; they are distinguished industry veterans with profound, extensive experience specifically within the SAP FICO domain. Each has been actively engaged as a consultant and leading expert in the dynamic SAP FICO landscape, establishing them as genuine subject matter authorities ready to guide your learning journey.
+                            At IntelliMindz, our SAP HR trainers are not just instructors – they are SAP Human Resource Management professionals with real-time experience in global SAP HR implementations. Our trainers provide practical learning with a strong foundation in SAP HR modules, backed by business scenarios and live use cases.
                         </p>
                     </div>
                     <ul className="benefits-list">
-                        <li><span className="icon">✓</span> Master SAP FICO from Foundation to Advanced concepts with our structured curriculum.</li>
-                        <li><span className="icon">✓</span> Learn directly from Real-Time SAP FICO Experts bringing current industry insights.</li>
-                        <li><span className="icon">✓</span> Benefit from IntelliMindz's Proven Track Record in SAP FICO Training and student success.</li>
-                        <li><span className="icon">✓</span>Receive Dedicated SAP FICO Career Support, including resume and interview preparation.</li>
-                        <li><span className="icon">✓</span> Gain Practical SAP FICO Exposure through real-world case studies and projects.</li>
-                        <li><span className="icon">✓</span> Enjoy a Personalized SAP FICO Learning Experience tailored to your pace and needs.</li>
+                        <li><span className="icon">✓</span> Gain a complete understanding of SAP HR processes and modules</li>
+                        <li><span className="icon">✓</span> Learn from certified SAP HR consultants with deep implementation expertise</li>
+                        <li><span className="icon">✓</span> Join IntelliMindz, the trusted name for SAP HR training in Chennai</li>
+                        <li><span className="icon">✓</span> Personalized career guidance including resume, interview support, and mentorship</li>
+                        <li><span className="icon">✓</span> Work on real-time use cases for HR administration, payroll, and time management</li>
+                        <li><span className="icon">✓</span> Experience learning customized to your pace, profile, and career goals</li>
                     </ul>
                     <button className="enquiry-button" onClick={openContactModal}>Enquire Now</button>
                 </div>
@@ -96,12 +96,12 @@ const SapTrainingProfile = ({ openContactModal }) => {
 
 const Corporate = () => {
     const blocksData = [
-        { image: bestPriceIcon, heading: "Experienced Trainers ", paragraph: "Get trained by experts from our training centre in Chennai" },
-        { image: runningIcon, heading: "Practical Learning ", paragraph: "Ideal for professionals searching for training centre near me" },
-        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose a schedule that suits you" },
-        { image: liveclass, heading: "Interactive Sessions", paragraph: "Discussions aligned with job needs" },
-        { image: onlinetest, heading: "Lifetime Access", paragraph: "Revisit concepts and revise SAP FICO course syllabus" },
-        { image: jobopening, heading: "Support", paragraph: "Continued doubt clarification" }
+        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Be guided by SAP HR experts with strong domain knowledge and real-world SAP experience." },
+        { image: runningIcon, heading: "Practical Learning", paragraph: "Best for those seeking a SAP HR training centre in Chennai focused on practical HR configurations." },
+        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose from weekday, weekend, or fast-track options based on your availability." },
+        { image: liveclass, heading: "Interactive Sessions", paragraph: "Participate in discussions and HR-centric workshops to enhance your learning." },
+        { image: onlinetest, heading: "Lifetime Access", paragraph: "SAP HR course materials and recorded sessions are available for future reference." },
+        { image: jobopening, heading: "Continued Support", paragraph: "Post-course assistance, doubt-clearing, and access to expert mentoring." }
     ];
     return (
         <div className="corporate-section">
@@ -157,9 +157,9 @@ const TrainingModesSection = ({ openContactModal }) => {
 const SAPHeroSection = ({ openContactModal }) => {
     return (
         <div className="sap-fico-expert-section">
-            <h1>Become an SAP FICO Expert with Intellimindz</h1>
-            <p>Comprehensive, hands-on training for real-world SAP ERP financial and controlling mastery.</p>
-            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your Journey Today!</button>
+            <h1>Become a Skilled SAP HR Consultant with IntelliMindz</h1>
+            <p>SAP HR training that empowers you with the skills required to manage human resources, payroll, and employee data efficiently. Get ready for a rewarding SAP HR career with IntelliMindz!</p>
+            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your SAP EC Career with Confidence!</button>
         </div>
     );
 };
@@ -167,15 +167,15 @@ const SAPHeroSection = ({ openContactModal }) => {
 const SAPAboutSection = () => {
     return (
         <div className="sap-fico-about-section">
-            <h2>About Our SAP FICO Training in Chennai</h2>
+            <h2>About Our SAP HR Training in Chennai</h2>
             <div className="sap-fico-about-content">
                 <div className="sap-fico-about-text">
-                    <p>At Intellimindz Chennai, we offer industry-focused SAP FICO training that blends conceptual understanding with practical application. Our course covers both SAP FI (Financial Accounting) and SAP CO (Controlling) modules, providing a well-rounded learning experience crucial for excelling in modern business environments.</p>
-                    <p>The SAP FICO course syllabus is meticulously designed to include theoretical lessons, real-time scenarios, practical assignments, and end-to-end implementation exercises. Our training institute ensures that learners deeply understand real-world business processes and are equipped to handle SAP ERP financial and controlling tasks confidently from day one.</p>
-                    <p>Designed for both beginners and seasoned professionals seeking to upskill, our interactive training ensures clear concept delivery and extensive hands-on exposure. Enroll with us to gain comprehensive knowledge, practical mastery, and excel in high-demand SAP FICO roles across various industries.</p>
+                    <p>At IntelliMindz Chennai, our SAP HR training program is designed to equip participants with end-to-end knowledge in Human Capital Management using SAP. The course includes deep dives into organizational management, recruitment, time management, payroll processing, and reporting. Our training blends theory with system practice, using real-life HR challenges as examples.</p>
+                    <p>This SAP HR training in Chennai offers both instructor-led classroom and online sessions, hands-on SAP system access, and interactive assignments. Whether you’re an HR professional or fresher aiming for a career in SAP HR, this training will help you become project-ready.</p>
+                    <p>SAP HR Training in Chennai</p>
                 </div>
                 <div className="sap-fico-about-image-container">
-                    <img src={aboutsapficoImg} alt="SAP FICO Training in Chennai" />
+                    <img src={aboutsapficoImg} alt="SAP HR Training in Chennai" />
                 </div>
             </div>
         </div>
@@ -184,12 +184,12 @@ const SAPAboutSection = () => {
 
 const KeyFeaturesSection = () => {
     const features = [
-        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "We offer both classroom and online training modes, providing flexibility and convenience for learners. Whether you're a working professional, student, or job seeker searching for a reliable training centre near me, our tailored options suit your schedule and learning style." },
-        { id: 2, image: handsonsapImg, title: "Hands-on Practical Sessions with SAP System Access", description: "Practical labs play a crucial role in reinforcing the SAP FICO course syllabus by offering hands-on experience with real-time scenarios. This approach helps learners gain a deeper understanding of financial processes and controlling tasks within an actual SAP system environment." },
-        { id: 3, image: casestudyrealtimeImg, title: "Case Studies Based on Real-Time Scenarios", description: "Our project case studies are perfectly designed for individuals preparing for SAP FICO interview questions, as they simulate real-time implementation environments. These practical scenarios help learners understand how theoretical concepts are applied in actual business processes and project situations." },
-        { id: 4, image: ExperiencedtrainersImg, title: "Experienced SAP FICO Professionals as Trainers", description: "Gain in-depth knowledge by learning from experienced SAP professionals at our training centre in Chennai. Our expert trainers bring years of industry experience, offering valuable insights, practical guidance, and mentorship to help you build a successful career in SAP FICO." },
-        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes for Personalized Mentoring", description: "Each student enrolled in our training programme benefits from personalized, one-on-one mentoring sessions. This individualized support ensures better understanding of SAP FICO concepts, clarifies doubts effectively, and helps learners progress at their own pace, enhancing overall learning outcomes and confidence." },
-        { id: 6, image: interactiveImg, title: "Interactive Sessions, Discussions, and Module-Wise Quizzes", description: "At the end of each module, we conduct quizzes and interactive discussions specifically aligned with commonly asked SAP FICO interview questions. This approach helps reinforce learning, assess knowledge retention, and prepare students effectively for real-world job interviews and placement opportunities." },
+        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "Attend instructor-led classroom training in Chennai or opt for online sessions. Both options are structured to meet the needs of working professionals and job seekers pursuing SAP HR training in Chennai." },
+        { id: 2, image: handsonsapImg, title: "Hands-on Practical Sessions with SAP System Access", description: "You’ll gain experience configuring and using SAP HR modules directly in the system. Activities include hiring employees, assigning roles, managing payroll, and generating HR reports." },
+        { id: 3, image: casestudyrealtimeImg, title: "Case Studies Based on Real-Time Scenarios", description: "Practice with scenarios based on real HR challenges such as leave management, wage calculation, and time tracking, to simulate live SAP HR environments." },
+        { id: 4, image: ExperiencedtrainersImg, title: "Trainers with In-Depth SAP HR Experience", description: "All trainers are working SAP HR consultants with experience in domestic and international SAP HR projects. They bring real insights to the training room." },
+        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes for Individual Attention", description: "We maintain limited seats per batch to ensure that every learner receives focused mentoring, guidance, and support." },
+        { id: 6, image: interactiveImg, title: "Interactive Sessions and Module-Wise Assessments", description: "After each SAP HR module, you’ll complete quizzes, assignments, and practical assessments designed to reinforce your knowledge and application skills." },
     ];
     return (
         <div className="sap-fico-features-section">
@@ -212,22 +212,22 @@ const KeyFeaturesSection = () => {
 const SapFicoCourseContentSection = ({ openContactModal }) => {
     const [activeModuleId, setActiveModuleId] = useState(1);
     const allModulesData = [
-        { id: 1, title: "Module 1: Introduction to SAP and ERP", topics: ["Introduction to ERP and SAP", "Overview of SAP Modules (MM, SD, PP, HR, etc.)", "SAP GUI Navigation and Logon Process", "Organizational Structure in SAP", "Understanding SAP Client, Company Code, and Business Area", "Role of SAP FICO in SAP ECC and S/4HANA", "Basics of Master Data in SAP"] },
-        { id: 2, title: "Module 2: Enterprise Structure in SAP FICO", topics: ["Defining Company, Company Code, and Business Area", "Assigning Company Code to Company", "Creating Financial Management Areas", "Understanding Credit Control Areas", "Assigning Company Code to Credit Control Area", "Defining Functional Areas and Segments", "Configuration of Fiscal Year Variant"] },
-        { id: 3, title: "Module 3: General Ledger Accounting (G/L)", topics: ["Creation and Maintenance of G/L Master Records", "Chart of Accounts – Types and Usage", "Posting G/L Transactions", "Document Types and Number Ranges", "Reversal of Documents", "Automatic Payment Program Integration", "G/L Reporting and Analysis Tools"] },
-        { id: 4, title: "Module 4: Accounts Payable (AP)", topics: ["Vendor Master Data Creation and Maintenance", "Posting Vendor Invoices and Payments", "Special G/L Transactions for Vendors", "Automatic Payment Program (APP) Configuration", "Withholding Tax Configuration", "Vendor Reports and Aging Analysis", "Integration with Procurement (MM Module)"] },
-        { id: 5, title: "Module 5: Accounts Receivable (AR)", topics: ["Customer Master Data Creation and Maintenance", "Posting Customer Invoices and Receipts", "Special G/L Transactions for Customers", "Dunning Process Configuration", "Credit Management in AR", "Customer Reports and Aging Analysis", "Integration with Sales (SD Module)"] },
-        { id: 6, title: "Module 6: Asset Accounting (AA)", topics: ["Chart of Depreciation and Depreciation Areas", "Asset Class and Master Record Creation", "Acquisition of Fixed Assets", "Asset Transfer and Retirement", "Depreciation Calculation and Posting", "Asset Reports and Analysis", "Year-End Closing Activities for Asset Accounting"] },
-        { id: 7, title: "Module 7: Bank Accounting (BA)", topics: ["Bank Master Data and House Bank Configuration", "Electronic Bank Statement (EBS)", "Manual Bank Reconciliation", "Automatic Bank Reconciliation", "Cash Journals Setup and Usage", "Lockbox Processing", "Integration with Accounts Payable and Receivable"] },
-        { id: 8, title: "Module 8: Controlling (CO) – Cost Element and Cost Center Accounting", topics: ["Overview of Controlling in SAP", "Cost Element Accounting – Primary and Secondary", "Cost Center Creation and Hierarchies", "Actual and Plan Cost Postings", "Internal Order Configuration", "Statistical Key Figures", "Reporting in Cost Center Accounting"] },
-        { id: 9, title: "Module 9: Controlling (CO) – Profitability and Internal Orders", topics: ["Profit Center Accounting Setup", "Assignment of Org Units to Profit Centers", "Revenue and Cost Allocation to Profit Centers", "Internal Order Planning and Budgeting", "Actual Cost Posting and Settlement", "Profitability Analysis (CO-PA) Introduction", "Real-time Integration of FI and CO"] },
-        { id: 10, title: "Module 10: Advanced Topics and Real-Time Scenarios", topics: ["Integration of SAP FICO with MM and SD", "Foreign Currency Transactions and Exchange Rates", "Tax Configuration (VAT, GST, etc.)", "Period-End and Year-End Closing Procedures", "Reports: Financial Statements, Trial Balance, Cash Flow", "SAP Fiori Apps in FICO (for S/4HANA)", "Hands-on Real-time Project with End-to-End Implementation"] }
+        { id: 1, title: "Module 1: Introduction to SAP HR", topics: ["Overview of SAP HR and its Submodules", "HR Structures and Integration with SAP FI", "Personnel Administration Concepts", "SAP HR Architecture", "Master Data in SAP HR", "Navigating SAP HR Screens", "Data Consistency and Control"] },
+        { id: 2, title: "Module 2: Organizational Management", topics: ["Object Types and Infotypes", "Creating Organizational Units", "Jobs and Positions Configuration", "Reporting Relationships", "Evaluation Paths and Structure Maintenance", "OM Integration with PA", "Use of Simple Maintenance vs Expert Mode"] },
+        { id: 3, title: "Module 3: Personnel Administration", topics: ["Employee Master Data Creation", "Hiring, Promotion, and Separation Actions", "Data Maintenance and Infotype Management", "Payroll Status and Control Records", "Employee Transfer Scenarios", "PA Integration with Other Modules", "Time Constraints in PA"] },
+        { id: 4, title: "Module 4: Time Management", topics: ["Work Schedules and Absences", "Attendance Types and Leave Management", "Holiday Calendar Configuration", "Time Evaluation Process", "Quota Generation", "Integration with Payroll", "Time Reporting"] },
+        { id: 5, title: "Module 5: Payroll Management", topics: ["Payroll Areas and Control Records", "Wage Types and Payroll Schemas", "Payroll Results and Simulation", "Retroactive Accounting", "Posting to FI", "Statutory Reporting", "Payroll Cluster"] },
+        { id: 6, title: "Module 6: Recruitment", topics: ["Creating Applicant Data", "Applicant Actions and Status", "Vacancy and Advertisement Management", "Applicant Selection", "Integration with OM and PA", "Recruitment Reporting", "Resume Handling"] },
+        { id: 7, title: "Module 7: Training and Event Management", topics: ["Business Events and Resources", "Planning Training Events", "Participant Administration", "Billing and Costing", "Attendance/Absence Integration", "Follow-Up Processes", "Evaluation of Training"] },
+        { id: 8, title: "Module 8: Personnel Development", topics: ["Qualifications Catalog", "Profile Match-Up", "Career Planning", "Appraisal Systems", "Development Plans", "Training Needs Analysis", "Integration with OM"] },
+        { id: 9, title: "Module 9: Reporting in SAP HR", topics: ["SAP Standard Reports", "Ad Hoc Query Tool", "InfoSet Query", "Custom Report Creation", "Integration with BI", "Report Authorization", "Reporting by Infotype"] },
+        { id: 10, title: "Module 10: Real-Time Project and Interview Readiness", topics: ["Full-Cycle SAP HR Implementation", "Requirement Gathering and Mapping", "Configuration and Testing", "Go-Live and Support", "Final Assessment", "Resume Preparation", "Mock Interviews and Career Counseling"] }
     ];
     const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
     return (
         <div className="java-course-content-section">
             <h2 className="java-section-title">
-                SAP FICO Training Course Content
+                Course Modules
                 <span className="java-title-underline"></span>
             </h2>
             <div className="java-course-layout-container">
@@ -248,7 +248,7 @@ const SapFicoCourseContentSection = ({ openContactModal }) => {
                     </ul>
                     <button className="java-download-curriculum-button" onClick={openContactModal}>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style={{ marginRight: '8px', verticalAlign: 'middle' }}>
-                            <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
+                            <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z" />
                         </svg>
                         Download Curriculum
                     </button>
@@ -305,13 +305,13 @@ const BatchDetailsSection = ({ openContactModal }) => {
 
 const CorporateTrainingModesSection = () => {
     const trainingModesData = [
-        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate training session", title: "Onsite Training:", description: "Onsite Training is conducted at the client's location, offering a personalized learning experience in the workplace environment. It encourages real-time collaboration and team-based learning. Ideal for companies looking to train multiple employees simultaneously." },
-        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite training center", title: "Offsite Training:", description: "Offsite Training takes place at an external venue, such as a training center or conference space. It provides a distraction-free environment focused solely on learning. Perfect for in-depth sessions, certifications, and team-building opportunities." },
-        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led training", title: "Virtual Instructor-Led Training:", description: "VILT is delivered online by live instructors using platforms like Zoom or Teams. It combines interactive teaching with the flexibility of remote access. Ideal for geographically dispersed teams or remote learners." }
+        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate training session", title: "Onsite Training:", description: "Ideal for corporate HR teams who need SAP HR training delivered at their office in Chennai. Customizable to suit industry-specific requirements." },
+        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite training center", title: "Offsite Training:", description: "Delivered in professional training venues with hands-on labs, group activities, and practical SAP HR configurations." },
+        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual Instructor-Led Training (VILT):", description: "Live online training with certified SAP HR consultants via Zoom or Teams, suitable for remote learners across Chennai and beyond." }
     ];
     return (
         <div className="corporate-training-modes-section">
-            <h2 className="corporate-training-modes-title">Corporate Training Modes for SAP FICO Training in Chennai</h2>
+            <h2 className="corporate-training-modes-title">Corporate Training Modes for SAP HR in Chennai</h2>
             <div className="modes-container-grid">
                 {trainingModesData.map(mode => (
                     <div key={mode.id} className="mode-card-item">
@@ -327,19 +327,19 @@ const CorporateTrainingModesSection = () => {
 
 const AlumniReviewsSection = () => {
     const reviewsData = [
-        { id: 1, name: "Aravind R.", designation: "", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "The SAP FICO training was well-structured with practical insights. (P) Real-time business scenarios improved my understanding. I’m now confident in finance operations. (P) The clear SAP FICO interview questions and transparent course fees made Intellimindz the right choice for me." },
-        { id: 2, name: "Meenakshi S.", designation: "Finance Analyst", avatarInitial: "M", rating: 5, companyLogoText: "Intellimindz", reviewText: "I valued the detailed module explanations and hands-on sessions. (P) The lab access helped reinforce my learning. The SAP FICO interview questions were practical and useful. (P) Affordable course fees and flexible training options made this a great investment in my career." },
-        { id: 3, name: "Karthik V.", designation: "Accountant", avatarInitial: "K", rating: 5, companyLogoText: "Intellimindz", reviewText: "Intellimindz’s SAP FICO training gave me a strong foundation. (P) The interactive sessions and expert trainer clarified all doubts. SAP FICO interview questions were integrated well. (P) Considering the depth and support, the course fees were absolutely worth it." },
-        { id: 4, name: "Divya M.", designation: "SAP End User", avatarInitial: "D", rating: 5, companyLogoText: "Intellimindz", reviewText: "With my accounting background, this SAP FICO training was a perfect fit. (P) Practical business links clarified concepts easily. Course materials and interview preparation were thorough. (P) Transparent SAP FICO course fees simplified my decision to join Intellimindz without hesitation." },
-        { id: 5, name: "Pradeep A.", designation: "Financial Consultant", avatarInitial: "P", rating: 5, companyLogoText: "Intellimindz", reviewText: "The training covered each SAP FICO topic in depth with real-time scenarios. (P) The mock interview questions were spot-on for consultancy roles. (P) High-quality instruction made the course fees reasonable. Intellimindz truly delivers value for professionals looking to upskill." }
+        { id: 1, name: "Karthik S.", designation: "SAP HR Consultant", avatarInitial: "K", rating: 5, companyLogoText: "Intellimindz", reviewText: "This SAP HR training in Chennai covered everything I needed—from understanding the HR module basics to advanced topics like payroll, organizational management, and the appraisal system. The sessions were well-structured with great focus on practical implementation. I gained valuable real-time experience that I could immediately apply at work." },
+        { id: 2, name: "Renu D.", designation: "HR Systems Executive", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "I loved how real-time scenarios were integrated into each training session. The trainers were very approachable and ensured every student understood payroll configurations thoroughly. This SAP HR training in Chennai helped me build confidence and made my transition into HR systems management smoother." },
+        { id: 3, name: "Abhishek T.", designation: "ERP Specialist", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "Enrolling in the SAP HR course at IntelliMindz was one of the best career moves I’ve made. The hands-on labs, real-time server access, and one-on-one trainer interactions created an engaging learning environment. I recommend this SAP HR training in Chennai to anyone looking to gain in-depth functional expertise." },
+        { id: 4, name: "Sruthi M.", designation: "HR Analyst", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "As someone who shifted from core HR operations to SAP consulting, this course provided a smooth transition. The trainers explained each topic—like employee master data and time evaluation—with clarity. The right balance of theoretical concepts and hands-on practice made this SAP HR training in Chennai very effective for me." },
+        { id: 5, name: "Deepak R.", designation: "Functional Consultant", avatarInitial: "D", rating: 5, companyLogoText: "Intellimindz", reviewText: "The trainers at IntelliMindz clearly knew the ins and outs of SAP HR. They shared useful implementation project insights and real-world tips that aren’t found in standard training materials. From organizational management to personnel administration, everything was covered thoroughly. Definitely the best SAP HR training in Chennai." }
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
     const nextSlide = () => { setCurrentSlide((prev) => (prev === reviewsData.length - 1 ? 0 : prev + 1)); };
     const prevSlide = () => { setCurrentSlide((prev) => (prev === 0 ? reviewsData.length - 1 : prev - 1)); };
     const currentReview = reviewsData[currentSlide];
-    const renderStars = (rating) => { let stars = []; for (let i = 0; i < 5; i++) { stars.push( <span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span> ); } return stars; };
-    const formatReviewText = (text) => { return text.split('(P)').map((paragraph, index) => ( paragraph.trim() && <p key={index}>{paragraph.trim()}</p> )); };
+    const renderStars = (rating) => { let stars = []; for (let i = 0; i < 5; i++) { stars.push(<span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span>); } return stars; };
+    const formatReviewText = (text) => { return text.split('(P)').map((paragraph, index) => (paragraph.trim() && <p key={index}>{paragraph.trim()}</p>)); };
 
     return (
         <div className="alumni-reviews-section">
@@ -373,11 +373,11 @@ const AlumniReviewsSection = () => {
                     <div className="slider-navigation">
                         <div className="nav-controls">
                             <button onClick={prevSlide} className="nav-arrow prev-arrow" aria-label="Previous review">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
                             </button>
                             <span className="slide-counter">{String(currentSlide + 1).padStart(2, '0')}/{String(reviewsData.length).padStart(2, '0')}</span>
                             <button onClick={nextSlide} className="nav-arrow next-arrow" aria-label="Next review">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
                             </button>
                         </div>
                     </div>
@@ -390,25 +390,25 @@ const AlumniReviewsSection = () => {
 const SapFicoFaqSection = () => { // Renamed from SapImSyllabus for clarity
     const [activeModule, setActiveModule] = useState(null);
     const modulesData = [
-        { id: 1, title: "What is the purpose of SAP FICO module?", description: "SAP FICO is designed to help businesses manage their financial transactions, accounting, and internal reporting efficiently using the integrated ERP system by SAP." },
-        { id: 2, title: "Who should take SAP FICO training in Chennai?", description: "Finance professionals, commerce graduates, MBA students, and working accountants looking to upskill or switch to ERP-based finance roles should consider SAP FICO training." },
-        { id: 3, title: "What are the prerequisites to learn SAP FICO?", description: "Basic understanding of accounting principles, financial terminology, and MS Excel is helpful, though many institutes teach from scratch for beginners in Chennai." },
-        { id: 4, title: "Is SAP FICO training suitable for freshers?", description: "Yes, fresh graduates with a background in commerce, finance, or accounting can benefit from SAP FICO training to boost their employability in ERP roles." },
-        { id: 5, title: "What are the main components of SAP FICO?", description: "SAP FICO includes two core modules: Financial Accounting (FI) and Controlling (CO), covering GL, AR/AP, asset accounting, cost centers, and profit analysis." },
-        { id: 6, title: "Is SAP FICO training available online in Chennai?", description: "Yes, many institutes offer online SAP FICO training with live instructor-led classes, recorded sessions, and real-time project exposure for convenience." },
-        { id: 7, title: "Will I get hands-on practice in the training?", description: "Yes, SAP FICO training includes hands-on practice in real-time SAP servers to help learners understand business processes and perform configuration tasks." },
-        { id: 8, title: "Do I need technical skills for SAP FICO?", description: "No, SAP FICO is a functional module and does not require programming or coding skills. It focuses on finance and controlling processes." },
-        { id: 9, title: "Can I switch careers with SAP FICO training?", description: "Absolutely. Many working professionals from finance or accounting backgrounds transition into ERP consulting roles after completing SAP FICO training." },
-        { id: 10, title: "Is SAP FICO suitable for accountants and CAs?", description: "Yes, accountants and chartered accountants find SAP FICO useful as it aligns with their expertise and opens doors to ERP consulting opportunities." }
+        { id: 1, title: "What is SAP HR used for in modern business environments?", description: "SAP HR (Human Resource Management) is a core ERP module used to manage a company’s human capital efficiently. It handles functions like employee information management, payroll processing, recruitment, attendance tracking, benefits administration, training, appraisals, and more. Our SAP HR training in Chennai covers all these areas, with practical examples to show how organizations use these features to automate and optimize HR tasks." },
+        { id: 2, title: "Who should attend this SAP HR training in Chennai?", description: "This SAP HR course in Chennai is ideal for a wide range of learners, including HR professionals aiming to move into SAP consulting, MBA HR graduates seeking to enhance their profile, payroll administrators wanting to automate their processes, and ERP consultants looking to upskill. Even professionals with limited technical knowledge will benefit, as the training starts from scratch and builds toward advanced concepts." },
+        { id: 3, title: "Do I need a technical background to take this SAP HR training in Chennai?", description: "No technical background is required to join our SAP HR training in Chennai. While familiarity with HR concepts and terminologies is helpful, the course is designed for both technical and non-technical individuals. Our trainers explain SAP navigation, configuration, and data management step-by-step, ensuring that learners from all backgrounds can follow along and build expertise." },
+        { id: 4, title: "What are the career opportunities after completing SAP HR training in Chennai?", description: "There is a high demand for SAP HR professionals in organizations globally. After completing this SAP HR training in Chennai, you can pursue roles such as SAP HCM Consultant, HR Functional Consultant, Payroll Configuration Analyst, HRIS Analyst, or join SAP implementation and support teams. The training equips you with the technical and functional knowledge needed to thrive in a competitive job market." },
+        { id: 5, title: "Is SAP HR still relevant in the era of S/4HANA and cloud-based systems?", description: "Yes, SAP HR (also referred to as SAP HCM) continues to be highly relevant. While SAP is shifting toward SuccessFactors for cloud HR, the core SAP HR modules are still actively used in many organizations running on-premise SAP or S/4HANA systems. Our SAP HR training in Chennai includes updated content compatible with S/4HANA, including best practices for migration and integration with cloud platforms." },
+        { id: 6, title: "What is the mode of delivery for SAP HR training in Chennai?", description: "We offer both classroom training at our Chennai center and online instructor-led sessions for students who prefer to learn remotely. The online mode includes live sessions, access to recorded classes, digital learning materials, and real-time interaction with trainers. You can choose the format that best suits your schedule and learning style." },
+        { id: 7, title: "Will I get to practice on SAP HR systems during training in Chennai?", description: "Yes. Our SAP HR training in Chennai provides every learner with hands-on access to a live SAP environment, where you can perform real-time tasks such as creating employee master data, setting up organizational units, configuring time management, and processing payroll runs. Practical exposure is a major focus of this training program to ensure job readiness." },
+        { id: 8, title: "Do you cover interview questions and job preparation in this SAP HR training in Chennai?", description: "Absolutely. We include extensive interview preparation as part of the SAP HR course. You’ll receive commonly asked interview questions, guidance on answering scenario-based questions, mock interview sessions, and resume-building tips tailored for SAP HR roles. This gives you a competitive edge in job interviews." },
+        { id: 9, title: "Can I switch my career to SAP HR with this training in Chennai?", description: "Yes, you definitely can. Whether you are from a general HR background or a completely different domain, this SAP HR training in Chennai is structured to help you switch careers into SAP HR. Many of our past learners have successfully transitioned into functional roles in SAP after completing this course and receiving hands-on project exposure." },
+        { id: 10, title: "Is SAP HR training in Chennai available for corporate teams and companies?", description: "Yes. We offer customized SAP HR corporate training in Chennai tailored to organizational needs. Whether your team prefers in-person sessions, remote learning, or blended formats, we can design a training schedule that aligns with your business goals. We’ve delivered corporate programs to various clients across manufacturing, IT, retail, and service sectors." }
     ];
     return (
         <div className="sapim-syllabus"> {/* Class name kept for styling consistency */}
             <div className="sap-home-syllabus-header">
                 <h1>
-                    Have a Question with Our <span className="highlighted-course-title">SAP FICO Course?</span>
+                    Have a Question about Our <span className="highlighted-course-title">SAP HR Course?</span>
                 </h1>
                 <p className="syllabus-header-subtitle">
-                    Here, you can get the answer to your question about our SAP FICO course in Chennai.
+                    Here are detailed answers to frequently asked questions about our SAP HR training in Chennai:
                 </p>
             </div>
             <div className="syllabus-grid">
@@ -463,8 +463,8 @@ const Saponline = ({ openContactModal }) => {
     return (
         <>
             <Helmet> {/* Add Helmet here */}
-                <title>SAP FICO Training in Chennai | SAP FICO Course in Chennai</title>
-                <meta name="description" content="Become an SAP finance expert with our SAP FICO Training in Chennai. Learn financial accounting and controlling through real-time projects in our SAP FICO course in Chennai." />
+                <title>SAP HR Training in Chennai | SAP Human Resource Course in Chennai</title>
+                <meta name="description" content="Enhance your HR career with our SAP HR Training in Chennai. Learn payroll, time management, and personnel administration in our SAP Human Resource course in Chennai." />
             </Helmet>
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />

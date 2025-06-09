@@ -13,7 +13,12 @@ import Sapbasis from "./pages/sap_basis";
 import Saperp from "./pages/sap_erp";
 import Sapim from "./pages/sap_im";
 import Sapep from "./pages/sap_ep";
+import Sapec from "./pages/sap_ec";
+import Sappp from "./pages/sap_pp";
+import Sappi from "./pages/sap_pi";
 import Saplo from "./pages/sap_lo";
+import Sapcs from "./pages/sap_cs";
+import Saphr from "./pages/sap_hr";
 import Sapariba from "./pages/sap_ariba";
 import Sapqm from "./pages/sap_qm";
 import Saphana from "./pages/sap_hana";
@@ -35,7 +40,12 @@ const App = () => {
         <Route path="/sap_abap_training_in_chennai" element={<Sapabap />} /> 
         <Route path="/sap_erp_training_in_chennai" element={<Saperp />} /> 
         <Route path="/sap_ep_training_in_chennai" element={<Sapep />} /> 
+        <Route path="/sap_ec_training_in_chennai" element={<Sapec />} /> 
+        <Route path="/sap_pp_training_in_chennai" element={<Sappp />} /> 
+        <Route path="/sap_pi_training_in_chennai" element={<Sappi />} /> 
         <Route path="/sap_lo_training_in_chennai" element={<Saplo />} /> 
+        <Route path="/sap_cs_training_in_chennai" element={<Sapcs />} /> 
+        <Route path="/sap_hr_training_in_chennai" element={<Saphr />} /> 
         <Route path="/sap_im_training_in_chennai" element={<Sapim />} /> 
         <Route path="/sap_ariba_training_in_chennai" element={<Sapariba />} /> 
         <Route path="/sap_basis_training_in_chennai" element={<Sapbasis />} /> 

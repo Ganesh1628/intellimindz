@@ -9,19 +9,19 @@ import "../components/saponlinecom/onlineaboutus.css";
 import "../components/saponlinecom/sapfico.css"; // This CSS file now contains styling for new sections
 import "../components/saponlinecom/onlinecorporate.css";
 import "../components/SAP/Header/Introsap.css";
-import "../components/SapIM/IMsyllabus.css";
+import "../components/SapIM/IMsyllabus.css"; // This CSS is likely for general syllabus/FAQ styling
 // import "../components/SAP/Askfordemo/askfordemo.css";
 
 
 // Import all your image assets
 import saphomeintro1 from '../assests/images/saphomeintro1.png';
-import bestPriceIcon from '../assests/images/ExperiencedTrainers.jpeg';
-import runningIcon from '../assests/images/practicallearning.jpeg';
-import staffIcon from '../assests/images/flexiblebatches.jpeg';
-import jobopening from '../assests/images/support.jpeg';
-import liveclass from '../assests/images/interactive_sessions.jpeg';
-import onlinetest from '../assests/images/lifetimeaccess.jpeg';
-import aboutsapficoImg from '../assests/images/aboutsapfico.jpeg';
+import bestPriceIcon from '../assests/images/ExperiencedTrainers.jpeg'; // Used for Experienced Trainers
+import runningIcon from '../assests/images/practicallearning.jpeg'; // Used for Practical Learning
+import staffIcon from '../assests/images/flexiblebatches.jpeg'; // Used for Flexible Batches
+import jobopening from '../assests/images/support.jpeg'; // Used for Continued Support
+import liveclass from '../assests/images/interactive_sessions.jpeg'; // Used for Interactive Sessions
+import onlinetest from '../assests/images/lifetimeaccess.jpeg'; // Used for Lifetime Access
+import aboutsapficoImg from '../assests/images/aboutsapfico.jpeg'; // Kept for About Section
 import classroomTrainingImg from '../assests/images/Classroom_training.jpeg';
 import handsonsapImg from '../assests/images/handsonsap.jpeg';
 import casestudyrealtimeImg from '../assests/images/casestudyrealtime.jpeg';
@@ -50,9 +50,9 @@ const Intro = ({ openContactModal }) => {
         <div className="intro-container">
             <div className="overlay"></div>
             <div className="intro-content">
-                <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
-                <h1 className="intro-h1">Best SAP ERP Training Institute in Chennai</h1>
-                <h3 className="intro-h3">Unlock your technical potential with expert-led SAP ERP Training – your gateway to global career opportunities in the enterprise resource planning landscape.</h3>
+                <h2 className="intro-h2">Best SAP PI Training Institute in Chennai</h2>
+                <h1 className="intro-h1">Enhance your integration capabilities with expert-led SAP PI Training – your gateway to mastering enterprise application integration.</h1>
+                <h3 className="intro-h3"></h3>
                 <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
             </div>
         </div>
@@ -65,7 +65,7 @@ const SapTrainingProfile = ({ openContactModal }) => {
         <div className="sap-training-container">
             <div className="sap-training-header animate__animated animate__flipInX">
                 <h1>
-                    Learn from the Best: SAP ERP Training by <span>Real-Time Experts</span>
+                    Learn from the Best: SAP PI Training by <span>Real-Time Experts</span>
                 </h1>
                 <div className="header-divider"></div>
             </div>
@@ -73,16 +73,16 @@ const SapTrainingProfile = ({ openContactModal }) => {
                 <div className="training-details">
                     <div className="sap-training-header animate__animated animate__lightSpeedInLeft">
                         <p className="intro-text">
-                            At IntelliMindz, our SAP ERP trainers are industry professionals with extensive hands-on experience in enterprise resource planning systems. With strong domain expertise and real-world project knowledge, our trainers deliver comprehensive insights to support your SAP ERP learning journey.
+                            At IntelliMindz, our SAP PI trainers are more than instructors – they are seasoned integration professionals with hands-on expertise in SAP Process Integration implementations. They bring real-time use cases, technical insights, and integration best practices to your SAP PI training journey.
                         </p>
                     </div>
                     <ul className="benefits-list">
-                        <li><span className="icon">✓</span> Build a solid foundation and progress through advanced SAP ERP concepts.</li>
-                        <li><span className="icon">✓</span> Learn from practicing SAP ERP Consultants with real-time project exposure.</li>
-                        <li><span className="icon">✓</span> Benefit from IntelliMindz's proven track record and successful student placements in SAP ERP training.</li>
-                        <li><span className="icon">✓</span> Receive full career support including resume assistance and interview coaching.</li>
-                        <li><span className="icon">✓</span> Work on real-time scenarios and practical assignments to develop industry-ready skills.</li>
-                        <li><span className="icon">✓</span> Experience a personalized learning process tailored to your pace and career aspirations.</li>
+                        <li><span className="icon">✓</span> Build a comprehensive foundation and transition into advanced SAP PI configurations.</li>
+                        <li><span className="icon">✓</span> Learn directly from certified SAP PI experts with live project backgrounds.</li>
+                        <li><span className="icon">✓</span> Benefit from IntelliMindz’s proven training success and placement assistance in Chennai.</li>
+                        <li><span className="icon">✓</span> Get full career support, including technical interviews and resume development.</li>
+                        <li><span className="icon">✓</span> Practice with real-time integration scenarios and cross-system configurations.</li>
+                        <li><span className="icon">✓</span> Experience fully customizable learning paths that suit your schedule and goals.</li>
                     </ul>
                     <button className="enquiry-button" onClick={openContactModal}>Enquire Now</button>
                 </div>
@@ -96,12 +96,12 @@ const SapTrainingProfile = ({ openContactModal }) => {
 
 const Corporate = () => {
     const blocksData = [
-        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from SAP ERP experts at our training center in Chennai" },
-        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking a SAP ERP training institute near you that emphasizes practical knowledge." },
-        { image: staffIcon, heading: "Flexible Batches", paragraph: "Select batch timings that fit your busy schedule." },
-        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engaging discussions focused on real-world SAP ERP processes and tasks." },
-        { image: onlinetest, heading: "Lifetime Access", paragraph: "Revisit course materials and revise SAP ERP concepts anytime." },
-        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to solidify your understanding." }
+        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from certified SAP PI consultants with rich experience in integration projects." },
+        { image: runningIcon, heading: "Practical Learning", paragraph: "Get trained at one of the top SAP PI training institutes in Chennai, focused on practical skills." },
+        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose from regular weekday, weekend, and fast-track SAP PI batches." },
+        { image: liveclass, heading: "Interactive Sessions", paragraph: "Participate in live integration walkthroughs and real-time case studies." },
+        { image: onlinetest, heading: "Lifetime Access", paragraph: "Access SAP PI video lessons and materials even after your training ends." },
+        { image: jobopening, heading: "Continued Support", paragraph: "We offer post-training Q&A and career mentoring for SAP PI learners." }
     ];
     return (
         <div className="corporate-section">
@@ -157,9 +157,9 @@ const TrainingModesSection = ({ openContactModal }) => {
 const SAPHeroSection = ({ openContactModal }) => {
     return (
         <div className="sap-fico-expert-section">
-            <h1>Become a Skilled SAP ERP Consultant with Intellimindz</h1>
-            <p>Industry-aligned SAP ERP training that enhances your expertise in enterprise resource planning modules.</p>
-            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your ERP Journey Today!</button>
+            <h1>Become a Skilled SAP PI Consultant with IntelliMindz</h1>
+            <p>Develop your skills in message mapping, adapters, IDoc, proxies, and service integration. Learn SAP PI through practical examples and secure your integration career.</p>
+            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your SAP EC Career with Confidence!</button>
         </div>
     );
 };
@@ -167,15 +167,15 @@ const SAPHeroSection = ({ openContactModal }) => {
 const SAPAboutSection = () => {
     return (
         <div className="sap-fico-about-section">
-            <h2>About Our SAP ERP Training in Chennai</h2>
+            <h2>About Our SAP PI Training in Chennai</h2>
             <div className="sap-fico-about-content">
                 <div className="sap-fico-about-text">
-                    <p>At IntelliMindz Chennai, we deliver practical SAP ERP training designed to equip learners with both conceptual knowledge and hands-on project experience. Our curriculum covers essential ERP topics such as finance, procurement, inventory, human resources, and production planning to ensure comprehensive technical competence.</p>
-                    <p>The course includes interactive lessons, live demonstrations, practical exercises, and project-based assignments. By applying real-time business cases and ERP implementations, learners gain confidence and the ability to manage SAP ERP functions effectively in enterprise environments.</p>
-                    <p>Whether you are new to SAP or an experienced professional aiming to enhance your ERP skills, our training prepares you for success in the competitive SAP job market.</p>
+                    <p>At IntelliMindz, our SAP PI course in Chennai is tailored to deliver hands-on experience in SAP Process Integration. The curriculum is structured around the technical framework required to build, monitor, and manage SAP PI interfaces across systems.</p>
+                    <p>The SAP PI training in Chennai includes topics like SLD configuration, ESR design, runtime workbench, adapters, and business system integration. With real-time SAP system access and practical sessions, this course equips learners to take on real-world enterprise integration tasks and roles.</p>
+                    <p>SAP PI Training in Chennai</p>
                 </div>
                 <div className="sap-fico-about-image-container">
-                    <img src={aboutsapficoImg} alt="SAP ERP Training in Chennai" />
+                    <img src={aboutsapficoImg} alt="SAP PI Training in Chennai" />
                 </div>
             </div>
         </div>
@@ -184,12 +184,12 @@ const SAPAboutSection = () => {
 
 const KeyFeaturesSection = () => {
     const features = [
-        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "We offer flexible learning modes including classroom sessions and online live training, catering to working professionals, students, and job seekers alike. This blended approach lets you choose the format that best fits your availability and learning preference, ensuring a smooth training experience." },
-        { id: 2, image: handsonsapImg, title: "Hands-on Practical Sessions with SAP System Access", description: "Our program emphasizes hands-on learning by providing dedicated SAP ERP system access. You will practice transactions in modules such as FI, MM, PP, and HR directly within an SAP environment, reinforcing your theoretical understanding and boosting practical skills." },
-        { id: 3, image: casestudyrealtimeImg, title: "Case Studies Based on Real-Time Scenarios", description: "Gain exposure through case studies modeled after real SAP ERP projects, enhancing your problem-solving abilities and preparing you for interview scenarios focusing on practical applications." },
-        { id: 4, image: ExperiencedtrainersImg, title: "Trainers with In-Depth SAP ERP Experience", description: "Our trainers have extensive industry experience with SAP ERP, having handled multiple implementation projects. Their insights and guidance ensure you learn best practices and relevant skills for the enterprise resource planning domain." },
-        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes for Individual Attention", description: "We maintain small batches to provide personalized attention, enabling trainers to address individual questions and offer targeted mentoring, which helps students master SAP ERP competently." },
-        { id: 6, image: interactiveImg, title: "Interactive Sessions and Module-Wise Assessments", description: "Each module ends with interactive discussions, quizzes, and assessments aligned with current SAP ERP interview requirements, helping reinforce knowledge and build confidence for job interviews." },
+        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "We offer both classroom training in Chennai and flexible online instructor-led learning. This dual mode ensures working professionals and students can access SAP PI training from anywhere." },
+        { id: 2, image: handsonsapImg, title: "Hands-on Practical Sessions with SAP PI Tools", description: "Get access to SAP PI development environments for real-time practice. You’ll design interfaces, configure scenarios, and test message flows using SAP tools." },
+        { id: 3, image: casestudyrealtimeImg, title: "Case Studies Based on Real-Time Scenarios", description: "Understand how real business systems connect through SAP PI using practical case studies. These examples enhance your confidence in resolving integration issues." },
+        { id: 4, image: ExperiencedtrainersImg, title: "Trainers with In-Depth SAP PI Experience", description: "Learn from trainers who have executed global SAP PI rollouts. Their insights and field stories add depth to every integration topic covered." },
+        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes for Individual Attention", description: "Each batch is limited to a small group to promote focused discussions and individual attention during training." },
+        { id: 6, image: interactiveImg, title: "Interactive Sessions and Module-Wise Assessments", description: "End each module with interactive assessments to evaluate your progress and strengthen your technical knowledge." },
     ];
     return (
         <div className="sap-fico-features-section">
@@ -209,25 +209,25 @@ const KeyFeaturesSection = () => {
     );
 };
 
-const SapErpCourseContentSection = ({ openContactModal }) => {
+const SapFicoCourseContentSection = ({ openContactModal }) => {
     const [activeModuleId, setActiveModuleId] = useState(1);
     const allModulesData = [
-        { id: 1, title: "Module 1: Introduction to SAP ERP", topics: ["Overview of ERP and SAP Architecture", "SAP NetWeaver Technology", "SAP ERP System Components", "SAP Logon and Navigation", "Introduction to Key ERP Modules", "Business Process Integration in SAP ERP", "Overview of Enterprise Structures"] },
-        { id: 2, title: "Module 2: SAP Financial Accounting (FI)", topics: ["General Ledger and Accounts Payable", "Accounts Receivable and Bank Accounting", "Asset Accounting and Depreciation", "Financial Statement Versions", "Tax Configuration and Posting Periods", "Integration with Controlling (CO)", "Reporting in SAP FI"] },
-        { id: 3, title: "Module 3: SAP Materials Management (MM)", topics: ["Purchasing and Vendor Management", "Inventory Management and Goods Movement", "Invoice Verification and Procurement Cycle", "Purchase Requisition and Orders", "Material Master Data", "Valuation and Pricing Procedures", "Stock Transfer and Consumption"] },
-        { id: 4, title: "Module 4: SAP Production Planning (PP)", topics: ["Master Data for Production", "Bill of Materials and Work Centers", "Production Orders and Planning Strategies", "Capacity Planning", "Material Requirement Planning (MRP)", "Shop Floor Control", "Integration with MM and SD"] },
-        { id: 5, title: "Module 5: SAP Human Capital Management (HCM)", topics: ["Organizational Management", "Personnel Administration", "Time Management and Payroll", "Recruitment and Employee Data", "Training and Event Management", "Appraisals and Compensation", "Integration with Financials"] },
-        { id: 6, title: "Module 6: SAP Sales and Distribution (SD)", topics: ["Sales Order Processing", "Shipping and Delivery", "Pricing and Conditions", "Billing and Invoicing", "Returns and Credit Management", "Customer Master Data", "Reporting and Sales Analytics"] },
-        { id: 7, title: "Module 7: SAP Project Systems (PS)", topics: ["Project Definition and Structures", "Network and Activity Management", "Cost Planning and Budgeting", "Project Execution and Monitoring", "Reporting and Forecasting", "Integration with CO and MM", "Resource Planning"] },
-        { id: 8, title: "Module 8: Reporting and Analytics", topics: ["Standard Reports across ERP Modules", "Custom Report Development", "Use of SAP Business Explorer", "Real-Time Analytics and Dashboards", "Exporting Data for Business Use", "Module-Wise Performance Tracking", "SAP BI Integration"] },
-        { id: 9, title: "Module 9: Advanced ERP Topics", topics: ["SAP S/4HANA Introduction", "Data Migration Techniques", "Business Process Reengineering", "SAP Fiori Overview", "Role-Based Security in ERP", "IDoc and EDI Concepts", "Workflow Configuration"] },
-        { id: 10, title: "Module 10: End-to-End ERP Project", topics: ["Project Blueprinting", "Implementation Phases and Testing", "Master Data Setup", "Real-Time Business Case Execution", "End-User Documentation", "Go-Live Strategy", "Post Go-Live Support"] }
+        { id: 1, title: "Module 1: SAP PI Overview", topics: ["Introduction to SAP PI and Architecture", "Integration Scenarios and Use Cases", "PI 7.5 vs Previous Versions", "SLD and Technical Landscape", "Enterprise Service Repository Overview", "SAP NetWeaver Stack", "Process Integration Capabilities"] },
+        { id: 2, title: "Module 2: System Landscape Directory (SLD)", topics: ["Role of SLD in Integration", "Technical System & Business System Creation", "Product and Software Component Definition", "Integration with ESR", "Transport Management in SLD", "Real-time Setup Scenarios", "SLD Maintenance"] },
+        { id: 3, title: "Module 3: Enterprise Services Repository (ESR)", topics: ["Design Objects in ESR", "Data Types, Message Types, and Service Interfaces", "Mapping Programs (Graphical, XSLT, Java)", "Defining and Using Message Mappings", "Operation Mapping", "Version Management in ESR", "Repository Objects Deployment"] },
+        { id: 4, title: "Module 4: Integration Builder - Configuration", topics: ["Integration Directory Overview", "Communication Channel Configuration", "Receiver and Sender Agreements", "Message Routing and Conditions", "Integration Process Configuration", "End-to-End Scenario Configuration", "Component-Based Integration"] },
+        { id: 5, title: "Module 5: Adapters in SAP PI", topics: ["File Adapter", "IDoc and Proxy Adapter", "HTTP and SOAP Adapter", "JDBC and RFC Adapter", "Adapter Configuration", "Adapter Module Processing", "Adapter Engine Monitoring"] },
+        { id: 6, title: "Module 6: Monitoring and Error Handling", topics: ["Runtime Workbench", "Message Monitoring Techniques", "Component Monitoring", "Adapter Monitoring", "Alert Configuration and Notifications", "System Logs and Trace", "Troubleshooting Techniques"] },
+        { id: 7, title: "Module 7: Business System Integration", topics: ["SAP and Non-SAP System Communication", "Setting Up Logical Systems", "IDoc and RFC Integration Scenarios", "Partner Profile Setup", "Mapping Business Scenarios", "Testing and Validation", "Security Considerations"] },
+        { id: 8, title: "Module 8: BPM and Integration Processes", topics: ["Introduction to BPM in PI", "Creating BPM Scenarios", "Control Step, Receive Step, Send Step", "Exception Handling in BPM", "BPM Monitoring", "Synchronous/Asynchronous Messaging", "Real-time BPM Design"] },
+        { id: 9, title: "Module 9: PI to PO Migration", topics: ["Introduction to SAP PO", "Comparing PI and PO", "Migration Strategy and Tools", "Steps to Convert PI to PO", "Deployment and Testing", "Performance Optimization", "Reusability and Best Practices"] },
+        { id: 10, title: "Module 10: Real-Time Project and Assessment", topics: ["Hands-on End-to-End Project", "Client Requirements and Scoping", "ESR and ID Configuration", "Scenario Deployment", "Testing and Debugging", "Resume Building and Job Support", "Interview Preparation"] }
     ];
     const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
     return (
         <div className="java-course-content-section">
             <h2 className="java-section-title">
-                SAP ERP Training Course Modules
+                Course Modules
                 <span className="java-title-underline"></span>
             </h2>
             <div className="java-course-layout-container">
@@ -248,7 +248,7 @@ const SapErpCourseContentSection = ({ openContactModal }) => {
                     </ul>
                     <button className="java-download-curriculum-button" onClick={openContactModal}>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style={{ marginRight: '8px', verticalAlign: 'middle' }}>
-                            <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
+                            <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z" />
                         </svg>
                         Download Curriculum
                     </button>
@@ -305,13 +305,13 @@ const BatchDetailsSection = ({ openContactModal }) => {
 
 const CorporateTrainingModesSection = () => {
     const trainingModesData = [
-        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate training session", title: "Onsite Training:", description: "Delivered at your organization’s premises, this method provides customized, collaborative learning. Perfect for upskilling your team in a familiar environment using your systems and workflows for practical relevance." },
-        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite training center", title: "Offsite Training:", description: "Held at professional training centers or conference venues, ideal for focused group learning and workshops free from workplace distractions, facilitating certification preparation and team synergy." },
-        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual Instructor-Led Training:", description: "Live sessions via Zoom, Microsoft Teams, or similar platforms, suited for remote learners or distributed teams. Combines flexibility of online learning with real-time interaction and engagement tools." }
+        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate training session", title: "Onsite Training:", description: "Get SAP PI sessions conducted at your company’s premises for a customized enterprise integration learning experience aligned with your corporate IT landscape." },
+        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite training center", title: "Offsite Training:", description: "Participate in instructor-led SAP PI workshops at our fully equipped training center in Chennai for dedicated learning." },
+        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led training", title: "Virtual Instructor-Led Training (VILT):", description: "Attend SAP PI training sessions online via Zoom or Microsoft Teams with real-time trainer interaction and screen sharing." }
     ];
     return (
         <div className="corporate-training-modes-section">
-            <h2 className="corporate-training-modes-title">Corporate Training Modes for SAP ERP in Chennai</h2>
+            <h2 className="corporate-training-modes-title">Corporate Training Modes for SAP PI in Chennai</h2>
             <div className="modes-container-grid">
                 {trainingModesData.map(mode => (
                     <div key={mode.id} className="mode-card-item">
@@ -327,19 +327,19 @@ const CorporateTrainingModesSection = () => {
 
 const AlumniReviewsSection = () => {
     const reviewsData = [
-        { id: 1, name: "Ananya M.", designation: "SAP ERP Consultant", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: ["The SAP ERP course at IntelliMindz provided me with an in-depth and comprehensive understanding of how enterprise systems function across various business processes. The hands-on sessions and real-world examples were very practical, insightful, and directly applicable to my daily work."] },
-        { id: 2, name: "Karthik R.", designation: "Functional Analyst", avatarInitial: "K", rating: 5, companyLogoText: "Intellimindz", reviewText: ["I appreciated how each ERP module was broken down clearly and methodically. The trainers were very patient, knowledgeable, and supportive. Their strong domain expertise made it easy for me to grasp even the most complex processes with confidence."] },
-        { id: 3, name: "Leena T.", designation: "ERP Analyst", avatarInitial: "L", rating: 5, companyLogoText: "Intellimindz", reviewText: ["The training included real-time ERP case studies, interactive discussions, and practical exercises, which truly helped me prepare effectively for job interviews. I highly recommend this course for SAP ERP learners seeking quality training in Chennai."] },
-        { id: 4, name: "Mohan S.", designation: "SAP Project Lead", avatarInitial: "M", rating: 5, companyLogoText: "Intellimindz", reviewText: ["The comprehensive curriculum and excellent faculty made a significant difference in my learning experience. I was able to apply the knowledge and skills I gained immediately in my role managing complex SAP ERP projects efficiently."] },
-        { id: 5, name: "Rajesh K.", designation: "Technical ERP Consultant", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: ["The access to ERP systems and hands-on assignments provided me with valuable real-world exposure. IntelliMindz is truly one of the best SAP ERP training institutes in Chennai, delivering quality education and practical experience."] }
+        { id: 1, name: "Ravi T.", designation: "SAP PI Integration Consultant", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "The hands-on practice with ESR and Integration Directory helped me gain a clear understanding of SAP PI concepts. The trainer supported me even after the sessions were completed, which was very helpful." },
+        { id: 2, name: "Swetha N.", designation: "SAP Technical Analyst", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "I recently completed SAP PI training in Chennai with IntelliMindz. The course was well-structured, and the real-time case studies provided during the training were very relevant. The mock interviews and practice questions helped me a lot in my preparation." },
+        { id: 3, name: "Rakesh M.", designation: "Middleware Support Engineer", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "This SAP PI training in Chennai was highly practical. I appreciated the live system access which enabled me to create, test, and debug complete end-to-end interfaces. It built my confidence to handle real-time projects." },
+        { id: 4, name: "Deepika V.", designation: "SAP NetWeaver Developer", avatarInitial: "D", rating: 5, companyLogoText: "Intellimindz", reviewText: "The trainers here are highly knowledgeable and always willing to help. Through their real-world examples and clear explanations, SAP PI concepts were made much easier to grasp. I highly recommend IntelliMindz." },
+        { id: 5, name: "Suraj D.", designation: "System Integration Specialist", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "What I really liked about this SAP PI course was the way it was organized. Every module came with clear learning objectives, practical tasks, and assessments that made it easy to measure progress. It was a very effective learning experience." }
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
     const nextSlide = () => { setCurrentSlide((prev) => (prev === reviewsData.length - 1 ? 0 : prev + 1)); };
     const prevSlide = () => { setCurrentSlide((prev) => (prev === 0 ? reviewsData.length - 1 : prev - 1)); };
     const currentReview = reviewsData[currentSlide];
-    const renderStars = (rating) => { let stars = []; for (let i = 0; i < 5; i++) { stars.push( <span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span> ); } return stars; };
-    const formatReviewText = (textArray) => { return textArray.map((paragraph, index) => ( <p key={index}>{paragraph.trim()}</p> )); };
+    const renderStars = (rating) => { let stars = []; for (let i = 0; i < 5; i++) { stars.push(<span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span>); } return stars; };
+    const formatReviewText = (text) => { return text.split('(P)').map((paragraph, index) => (paragraph.trim() && <p key={index}>{paragraph.trim()}</p>)); };
 
     return (
         <div className="alumni-reviews-section">
@@ -349,6 +349,9 @@ const AlumniReviewsSection = () => {
                     <div className="reviewer-main-image-placeholder">
                         <img src={alumniReviewImg} alt="Alumni Reviewer" />
                     </div>
+                    {/* <div className="floating-star-rating-bubble">
+                     {renderStars(5)}
+                   </div> */}
                 </div>
                 <div className="review-content-area">
                     <div className="review-card">
@@ -370,11 +373,11 @@ const AlumniReviewsSection = () => {
                     <div className="slider-navigation">
                         <div className="nav-controls">
                             <button onClick={prevSlide} className="nav-arrow prev-arrow" aria-label="Previous review">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
                             </button>
                             <span className="slide-counter">{String(currentSlide + 1).padStart(2, '0')}/{String(reviewsData.length).padStart(2, '0')}</span>
                             <button onClick={nextSlide} className="nav-arrow next-arrow" aria-label="Next review">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
                             </button>
                         </div>
                     </div>
@@ -384,28 +387,28 @@ const AlumniReviewsSection = () => {
     );
 };
 
-const SapImSyllabus = () => { // This component name seems to be a leftover from SAP IM, consider renaming for clarity (e.g., SapErpFaqSection)
+const SapFicoFaqSection = () => { // Renamed from SapImSyllabus for clarity
     const [activeModule, setActiveModule] = useState(null);
     const modulesData = [
-        { id: 1, title: "What is SAP ERP used for?", description: "SAP ERP is an integrated platform used to manage business processes including finance, logistics, HR, and more within large organizations." },
-        { id: 2, title: "Who should attend this SAP ERP training in Chennai?", description: "Professionals from finance, procurement, operations, HR, or IT looking to transition to ERP roles, along with freshers aiming for SAP careers." },
-        { id: 3, title: "Do I need experience before taking this ERP training in Chennai?", description: "No prior SAP experience is required. The training is designed for beginners and professionals alike, with foundational to advanced concepts." },
-        { id: 4, title: "Why is SAP ERP training in Chennai important now?", description: "With increasing adoption of SAP S/4HANA across industries, ERP professionals are in demand. Chennai is a hub for SAP opportunities." },
-        { id: 5, title: "Is there a difference between SAP ERP and SAP modules like FI or MM?", description: "Yes. SAP ERP includes all core modules (FI, MM, SD, PP, etc.). Our training in Chennai offers an integrated view across modules." },
-        { id: 6, title: "Do you offer SAP ERP training in Chennai online?", description: "Yes. Both classroom and online options are available for learners who prefer flexible learning." },
-        { id: 7, title: "Will this SAP ERP course in Chennai provide system access?", description: "Yes. You will get full SAP ERP system access for practice throughout the training." },
-        { id: 8, title: "Is job placement support available for this ERP course in Chennai?", description: "Absolutely. We provide resume building, mock interviews, and job alerts to support your SAP ERP career path." },
-        { id: 9, title: "Can I take this SAP ERP training in Chennai while working full-time?", description: "Yes. Flexible batches including weekend and evening sessions are available for working professionals." },
-        { id: 10, title: "Is this SAP ERP course suitable for freshers in Chennai?", description: "Definitely. Our structured approach and hands-on methodology make it perfect for fresh graduates starting their SAP journey." }
+        { id: 1, title: "What is SAP PI used for?", description: "SAP PI (Process Integration) is a middleware tool that facilitates seamless data exchange between SAP and non-SAP applications across various platforms. It uses adapters, mappings, and message routing to ensure effective communication in enterprise systems." },
+        { id: 2, title: "Who can attend the SAP PI training in Chennai?", description: "Our SAP PI training in Chennai is ideal for IT professionals, SAP consultants, middleware developers, system analysts, integration specialists, and even recent graduates in computer science or related fields who want to pursue a career in SAP integration technologies." },
+        { id: 3, title: "What’s the difference between SAP PI and SAP PO?", description: "SAP PI primarily handles integration tasks, whereas SAP PO (Process Orchestration) is a more advanced suite that combines PI with BPM (Business Process Management) and BRM (Business Rules Management). In our SAP PI training in Chennai, you’ll get insights into both tools to expand your capabilities." },
+        { id: 4, title: "Can I learn SAP PI without prior SAP experience?", description: "Absolutely. Our SAP PI training in Chennai is structured to start from the fundamentals, so you don’t need prior SAP knowledge. Whether you're a fresher or a working professional from another domain, you can follow along and succeed." },
+        { id: 5, title: "Is this SAP PI training available online as well?", description: "Yes. We offer both online and classroom-based SAP PI training options in Chennai. You can choose based on your convenience, schedule, and preferred learning mode. All online sessions are interactive and include screen sharing and Q&A." },
+        { id: 6, title: "Will I get hands-on experience with real SAP PI scenarios?", description: "Definitely. Our SAP PI training in Chennai emphasizes hands-on learning with access to live systems. You'll work on real-time integration scenarios, configuration in ESR/ID, and end-to-end interface development tasks to simulate workplace challenges." },
+        { id: 7, title: "Is this training aligned with SAP certification?", description: "Yes. The curriculum for our SAP PI course is designed to match the official SAP syllabus and certification guidelines. It prepares you thoroughly to appear for SAP certification exams with confidence." },
+        { id: 8, title: "What job roles can I apply for after SAP PI training in Chennai?", description: "After completing the SAP PI training in Chennai, you can apply for roles such as SAP PI Consultant, Integration Developer, Middleware Analyst, SAP NetWeaver Developer, or SAP Technical Consultant in both domestic and international markets." },
+        { id: 9, title: "What kind of post-training support do you offer?", description: "We offer continued access to course materials, recorded sessions, and personalized doubt-clearing sessions. We also assist you with resume building, interview preparation, and career guidance even after the course is completed." },
+        { id: 10, title: "Do you offer a fast-track SAP PI training option in Chennai?", description: "Yes, we understand that some learners have time constraints. That’s why we offer flexible options such as fast-track weekday batches and weekend-only training sessions to meet your specific schedule and pace of learning." }
     ];
     return (
-        <div className="sapim-syllabus">
+        <div className="sapim-syllabus"> {/* Class name kept for styling consistency */}
             <div className="sap-home-syllabus-header">
                 <h1>
-                    Have a Question about Our <span className="highlighted-course-title">SAP ERP Course?</span>
+                    Have a Question about Our <span className="highlighted-course-title">SAP PI Course?</span>
                 </h1>
                 <p className="syllabus-header-subtitle">
-                    Here are answers to frequently asked questions about our SAP ERP training in Chennai:
+                    Here are answers to commonly asked questions about our SAP PI training in Chennai:
                 </p>
             </div>
             <div className="syllabus-grid">
@@ -460,8 +463,8 @@ const Saponline = ({ openContactModal }) => {
     return (
         <>
             <Helmet> {/* Add Helmet here */}
-                <title>SAP ERP Training in Chennai | SAP ERP Course in Chennai</title>
-                <meta name="description" content="Enroll in our SAP ERP Training in Chennai to master enterprise resource planning skills. Get certified with our hands-on SAP ERP course in Chennai, led by industry experts." />
+                <title>SAP PI Training in Chennai | SAP Process Integration Course in Chennai</title>
+                <meta name="description" content="Learn end-to-end system integration with SAP PI Training in Chennai. Gain real-time project skills in SAP Process Integration through our course in Chennai." />
             </Helmet>
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
@@ -470,13 +473,13 @@ const Saponline = ({ openContactModal }) => {
             <SAPHeroSection openContactModal={openContactModal} />
             <SAPAboutSection />
             <KeyFeaturesSection />
-            <SapErpCourseContentSection openContactModal={openContactModal} />
-            <BatchDetailsSection openContactModal={openContactModal} />
+            <SapFicoCourseContentSection openContactModal={openContactModal} />
+            <BatchDetailsSection openContactModal={openContactModal} /> {/* Passed prop */}
             <CorporateTrainingModesSection />
             <AlumniReviewsSection />
             <AskForDemo />
             <Onlineheader />
-            <SapImSyllabus /> {/* This component's name should likely be updated to reflect ERP content */}
+            <SapFicoFaqSection /> {/* Updated component name */}
             <CallToActionBanner openContactModal={openContactModal} />
         </>
     );
