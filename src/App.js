@@ -12,6 +12,7 @@ import Sapehs from "./pages/sap_ehs";
 import Sapbasis from "./pages/sap_basis";
 import Saperp from "./pages/sap_erp";
 import Sapim from "./pages/sap_im";
+import Sapmii from "./pages/sap_mii";
 import Sapep from "./pages/sap_ep";
 import Sapec from "./pages/sap_ec";
 import Sappp from "./pages/sap_pp";
@@ -21,6 +22,10 @@ import Sapcs from "./pages/sap_cs";
 import Saphr from "./pages/sap_hr";
 import Sapariba from "./pages/sap_ariba";
 import Sapqm from "./pages/sap_qm";
+import Sapsrm from "./pages/sap_srm";
+import Saprem from "./pages/sap_rem";
+import Sapgrc from "./pages/sap_grc";
+import Sapcrm from "./pages/sap_crm";
 import Saphana from "./pages/sap_hana";
 import Contactus from "./pages/contactus";
 import Footer from "./components/Footer/Footer";
@@ -47,9 +52,14 @@ const App = () => {
         <Route path="/sap_cs_training_in_chennai" element={<Sapcs />} /> 
         <Route path="/sap_hr_training_in_chennai" element={<Saphr />} /> 
         <Route path="/sap_im_training_in_chennai" element={<Sapim />} /> 
+        <Route path="/sap_mii_training_in_chennai" element={<Sapmii />} /> 
         <Route path="/sap_ariba_training_in_chennai" element={<Sapariba />} /> 
         <Route path="/sap_basis_training_in_chennai" element={<Sapbasis />} /> 
         <Route path="/sap_qm_training_in_chennai" element={<Sapqm />} /> 
+        <Route path="/sap_srm_training_in_chennai" element={<Sapsrm />} /> 
+        <Route path="/sap_rem_training_in_chennai" element={<Saprem />} /> 
+        <Route path="/sap_grc_training_in_chennai" element={<Sapgrc />} /> 
+        <Route path="/sap_crm_training_in_chennai" element={<Sapcrm />} /> 
         <Route path="/sap_ehs_training_in_chennai" element={<Sapehs />} /> 
         <Route path="/sap_hana_training_in_chennai" element={<Saphana />} /> 
       </Routes>

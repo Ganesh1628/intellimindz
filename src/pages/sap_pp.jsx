@@ -159,7 +159,7 @@ const SAPHeroSection = ({ openContactModal }) => {
         <div className="sap-fico-expert-section">
             <h1>Become a Skilled SAP PP Consultant with IntelliMindz</h1>
             <p>Career-focused SAP PP training that empowers you to plan and monitor production efficiently using SAP. Step confidently into SAP’s manufacturing and production domain.</p>
-            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your SAP EC Career with Confidence!</button>
+            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your SAP PP Career with Confidence!</button>
         </div>
     );
 };
