@@ -1,11 +1,9 @@
-/* Course Section */
 .home-courses-section {
   padding: 50px 0;
   background-color: #f8f9fa;
   text-align: center;
 }
 
-/* Title Styling */
 .home-courses-title {
   font-size: 2rem;
   font-weight: bold;
@@ -18,14 +16,12 @@
   color: red;
 }
 
-/* Course card container */
 .home-course-card {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
 
-/* Course box design */
 .home-course-box {
   background: white;
   border-radius: 10px;
@@ -35,12 +31,11 @@
   text-align: center;
   width: 90%;
   display: flex;
-  flex-direction: column; /* Image on top, text below */
+  flex-direction: column;
   align-items: center;
   padding-bottom: 15px;
 }
 
-/* Image inside course box */
 .home-course-img {
   width: 100%;
   height: auto;
@@ -48,7 +43,6 @@
   transition: transform 0.3s ease-in-out;
 }
 
-/* Course title below the image */
 .home-course-title {
   font-size: 1rem;
   font-weight: bold;
@@ -61,12 +55,10 @@
   display: block;
 }
 
-/* ✅ Hover Effect: Moves Only the Image */
 .home-course-box:hover .home-course-img {
   transform: translateY(-5px); /* Moves image up slightly */
 }
 
-/* Optional: Slight box hover effect */
 .course-box:hover {
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
 }

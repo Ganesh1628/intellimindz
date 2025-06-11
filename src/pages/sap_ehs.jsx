@@ -5,8 +5,6 @@ import "../components/saponlinecom/onlineaboutus.css";
 import "../components/saponlinecom/sapfico.css";
 import "../components/saponlinecom/onlinecorporate.css";
 import "../components/saponlinecom/onlinetestmonials.css";
-import MessageIcon from "../components/Hero-Section/MessageIcon";
-import Footer from "../components/Footer/Footer";
 import "../components/SAP/Header/Introsap.css";
 import "../components/SapIM/IMsyllabus.css";
 import AskForDemo from "../components/SAP/Askfordemo/askfordemo";

@@ -1,50 +1,37 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async'; // Import Helmet and HelmetProvider
-
-// Import ContactModal - CORRECTED PATH
-import ContactModal from "../components/Hero-Section/ContactModal";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all your CSS files
-import "../components/saponlinecom/onlineaboutus.css";
-import "../components/saponlinecom/sapfico.css"; // This CSS file now contains styling for new sections
-import "../components/saponlinecom/onlinecorporate.css";
-import "../components/SAP/Header/Introsap.css";
-import "../components/SapIM/IMsyllabus.css"; // This CSS is likely general syllabus/FAQ styling
-// import "../components/SAP/Askfordemo/askfordemo.css";
-
+import "../../components/saponlinecom/onlineaboutus.css";
+import "../../components/saponlinecom/sapfico.css";
+import "../../components/saponlinecom/onlinecorporate.css";
+import "../../components/SAP/Header/Introsap.css";
+import "../../components/SapIM/IMsyllabus.css";
 
 // Import all your image assets
-import saphomeintro1 from '../assests/images/saphomeintro1.png';
-import bestPriceIcon from '../assests/images/ExperiencedTrainers.jpeg'; // Used for Experienced Trainers
-import runningIcon from '../assests/images/practicallearning.jpeg'; // Used for Practical Learning
-import staffIcon from '../assests/images/flexiblebatches.jpeg'; // Used for Flexible Batches
-import jobopening from '../assests/images/support.jpeg'; // Used for Continued Support
-import liveclass from '../assests/images/interactive_sessions.jpeg'; // Used for Interactive Sessions
-import onlinetest from '../assests/images/lifetimeaccess.jpeg'; // Used for Lifetime Access
-import aboutsapficoImg from '../assests/images/aboutsapfico.jpeg'; // Kept for About Section, might need ABAP specific image
-import classroomTrainingImg from '../assests/images/Classroom_training.jpeg';
-import handsonsapImg from '../assests/images/handsonsap.jpeg';
-import casestudyrealtimeImg from '../assests/images/casestudyrealtime.jpeg';
-import personalizedmentorImg from '../assests/images/personalizedmentor.jpeg';
-import interactiveImg from '../assests/images/interactivesessions.jpeg';
-import ExperiencedtrainersImg from '../assests/images/ExperiencedTrainers.jpeg';
+import saphomeintro1 from '../../assests/images/saphomeintro1.png';
+import bestPriceIcon from '../../assests/images/ExperiencedTrainers.jpeg';
+import runningIcon from '../../assests/images/practicallearning.jpeg';
+import staffIcon from '../../assests/images/flexiblebatches.jpeg';
+import jobopening from '../../assests/images/support.jpeg';
+import liveclass from '../../assests/images/interactive_sessions.jpeg';
+import onlinetest from '../../assests/images/lifetimeaccess.jpeg';
+import aboutsapficoImg from '../../assests/images/aboutsapfico.jpeg';
+import classroomTrainingImg from '../../assests/images/Classroom_training.jpeg';
+import handsonsapImg from '../../assests/images/handsonsap.jpeg';
+import casestudyrealtimeImg from '../../assests/images/casestudyrealtime.jpeg';
+import personalizedmentorImg from '../../assests/images/personalizedmentor.jpeg';
+import interactiveImg from '../../assests/images/interactivesessions.jpeg';
+import ExperiencedtrainersImg from '../../assests/images/ExperiencedTrainers.jpeg';
+import corporateOnsiteImg from '../../assests/images/onsite_training.jpeg';
+import corporateOffsiteImg from '../../assests/images/offsite_training.jpeg';
+import corporateVirtualImg from '../../assests/images/virtual.jpeg';
+import alumniReviewImg from '../../assests/images/review.png';
+import Batchdt from '../../assests/images/bg.jpeg';
 
-// TODO: Add these image imports when you have the files
-import corporateOnsiteImg from '../assests/images/onsite_training.jpeg';
-import corporateOffsiteImg from '../assests/images/offsite_training.jpeg';
-import corporateVirtualImg from '../assests/images/virtual.jpeg';
-import alumniReviewImg from '../assests/images/review.png'; // Placeholder for the girl's image
-// import yourCompanyLogo from '../assests/images/your_company_logo.png'; // Placeholder for review card logo
+import AskForDemo from "../../components/SAP/Askfordemo/askfordemo";
 
-// ***** ADD THIS IMAGE IMPORT *****
-import Batchdt from '../assests/images/bg.jpeg';
-
-
-// Import other components
-import AskForDemo from "../components/SAP/Askfordemo/askfordemo";
-
-
-// Intro Component
 const Intro = ({ openContactModal }) => {
     return (
         <div className="intro-container">
@@ -59,7 +46,6 @@ const Intro = ({ openContactModal }) => {
     );
 };
 
-// SapTrainingProfile Component
 const SapTrainingProfile = ({ openContactModal }) => {
     return (
         <div className="sap-training-container">
@@ -87,7 +73,7 @@ const SapTrainingProfile = ({ openContactModal }) => {
                     <button className="enquiry-button" onClick={openContactModal}>Enquire Now</button>
                 </div>
                 <div className="training-image">
-                    <img src={saphomeintro1} alt="SAP ABAP Training" /> {/* Alt text updated */}
+                    <img src={saphomeintro1} alt="SAP ABAP Training" />
                 </div>
             </div>
         </div>
@@ -131,8 +117,6 @@ const PlaceholderTrainingIcon = ({ type }) => (
 );
 
 const TrainingModesSection = ({ openContactModal }) => {
-    // Content for this section was not in the new provided text, so keeping original generic content.
-    // This section is generic and can apply to ABAP training.
     const trainingModes = [
         { id: 'online', iconType: 'online', title: "Online Training", description: "Experience live, instructor-led sessions from the comfort of your home. Our online training includes hands-on exercises, real-time projects, and interactive Q&A to ensure practical learning.", isPopular: true },
         { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn at your own pace with pre-recorded video sessions. Get lifetime access to course materials, downloadable resources, and periodic updates to keep your skills up to date.", isPopular: false },
@@ -156,10 +140,9 @@ const TrainingModesSection = ({ openContactModal }) => {
     );
 };
 
-// This component was SAPHeroSection for FICO, now updated for ABAP
 const SAPHeroSection = ({ openContactModal }) => {
     return (
-        <div className="sap-fico-expert-section"> {/* CSS class name kept as per "don't change code" */}
+        <div className="sap-fico-expert-section">
             <h1>Become a Skilled SAP ABAP Developer with IntelliMindz</h1>
             <p>Industry-relevant SAP ABAP training that builds your coding and development expertise in SAP systems.</p>
             <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your ABAP Journey Today!</button>
@@ -167,10 +150,9 @@ const SAPHeroSection = ({ openContactModal }) => {
     );
 };
 
-// This component was SAPAboutSection for FICO, now updated for ABAP
 const SAPAboutSection = () => {
     return (
-        <div className="sap-fico-about-section"> {/* CSS class name kept */}
+        <div className="sap-fico-about-section">
             <h2>About Our SAP ABAP Training in Chennai</h2>
             <div className="sap-fico-about-content">
                 <div className="sap-fico-about-text">
@@ -179,14 +161,13 @@ const SAPAboutSection = () => {
                     <p>Whether you're a beginner entering the SAP technical space or an experienced professional looking to upgrade your ABAP skills, our training helps you gain practical mastery and stay ahead in the competitive SAP job market.</p>
                 </div>
                 <div className="sap-fico-about-image-container">
-                    <img src={aboutsapficoImg} alt="SAP ABAP Training in Chennai" /> {/* Alt text updated, image kept */}
+                    <img src={aboutsapficoImg} alt="SAP ABAP Training in Chennai" />
                 </div>
             </div>
         </div>
     );
 };
 
-// This component was KeyFeaturesSection for FICO, now updated for ABAP
 const KeyFeaturesSection = () => {
     const features = [
         { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "We provide both in-person classroom sessions and flexible virtual learning modes, making SAP ABAP training highly accessible to a wide range of learners, including working professionals, students, and job seekers. This dual-mode approach allows you to select the format that best suits your schedule, learning preferences, and comfort level, ensuring an effective and convenient training experience." },
@@ -197,8 +178,8 @@ const KeyFeaturesSection = () => {
         { id: 6, image: interactiveImg, title: "Interactive Sessions and Module-Wise Assessments", description: "Each training module concludes with highly interactive discussions, quizzes, and assessments aligned with the latest SAP ABAP interview topics and industry requirements. This structured evaluation process helps reinforce learning, enhances knowledge retention, and equips you to confidently face technical evaluations during job interviews and placement drives." },
     ];
     return (
-        <div className="sap-fico-features-section"> {/* CSS class name kept */}
-            <h2>SAP ABAP Training in Chennai Key Features</h2> {/* Heading updated */}
+        <div className="sap-fico-features-section">
+            <h2>SAP ABAP Training in Chennai Key Features</h2>
             <div className="sap-fico-features-grid">
                 {features.map((feature) => (
                     <div key={feature.id} className="feature-card">
@@ -214,7 +195,6 @@ const KeyFeaturesSection = () => {
     );
 };
 
-// This component was SapFicoCourseContentSection, now updated for ABAP content. Name and CSS classes kept.
 const SapFicoCourseContentSection = ({ openContactModal }) => {
     const [activeModuleId, setActiveModuleId] = useState(1);
     const allModulesData = [
@@ -231,9 +211,9 @@ const SapFicoCourseContentSection = ({ openContactModal }) => {
     ];
     const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
     return (
-        <div className="java-course-content-section"> {/* CSS class name kept */}
+        <div className="java-course-content-section">
             <h2 className="java-section-title">
-                SAP ABAP Course Modules {/* Title updated */}
+                SAP ABAP Course Modules
                 <span className="java-title-underline"></span>
             </h2>
             <div className="java-course-layout-container">
@@ -264,7 +244,6 @@ const SapFicoCourseContentSection = ({ openContactModal }) => {
     );
 };
 
-// BatchDetailsSection - Content not provided in new text, keeping original generic data.
 const BatchDetailsSection = ({ openContactModal }) => {
     const batchInfo = [
         { id: 1, monthYear: "June 2025", type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Fresh Jobseekers", "Non IT to IT transition"] },
@@ -308,7 +287,6 @@ const BatchDetailsSection = ({ openContactModal }) => {
     );
 };
 
-// This component was CorporateTrainingModesSection for FICO, now updated for ABAP
 const CorporateTrainingModesSection = () => {
     const trainingModesData = [
         { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate ABAP training", title: "Onsite Training:", description: "Held at your company’s premises, this training method offers a personalized, collaborative learning environment. It's ideal for upskilling teams in real-time, using your actual work environment, tools, and workflows for maximum relevance." },
@@ -331,7 +309,6 @@ const CorporateTrainingModesSection = () => {
     );
 };
 
-// This component was AlumniReviewsSection for FICO, now updated for ABAP
 const AlumniReviewsSection = () => {
     const reviewsData = [
         { id: 1, name: "Arun M.", designation: "SAP ABAP Developer", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "The structure of Intellimindz’s SAP ABAP course was excellent. I got to work on real-world coding scenarios, which enhanced my practical skills. The trainer was patient and helped me debug and understand every ABAP function in depth." },
@@ -346,7 +323,6 @@ const AlumniReviewsSection = () => {
     const prevSlide = () => { setCurrentSlide((prev) => (prev === 0 ? reviewsData.length - 1 : prev - 1)); };
     const currentReview = reviewsData[currentSlide];
     const renderStars = (rating) => { let stars = []; for (let i = 0; i < 5; i++) { stars.push( <span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span> ); } return stars; };
-    // Adjusted formatReviewText to handle simple paragraph structure from new content
     const formatReviewText = (text) => { return <p>{text}</p>; };
 
     return (
@@ -392,10 +368,9 @@ const AlumniReviewsSection = () => {
     );
 };
 
-// This component was SapImSyllabus (FAQ for FICO/IM), now updated for ABAP FAQ. Name and CSS classes kept.
-const SapABAPFaqSection = () => { // Renamed from SapImSyllabus for clarity
-    const [activeModule, setActiveModule] = useState(null); // activeModule state is for hover effect
-    const modulesData = [ // Changed to FAQs
+const SapABAPFaqSection = () => {
+    const [activeModule, setActiveModule] = useState(null);
+    const modulesData = [
         { id: 1, title: "What is SAP ABAP used for?", description: "SAP ABAP is a programming language used to develop applications and customizations on the SAP platform, including reports, interfaces, enhancements, and forms." },
         { id: 2, title: "Who should take this SAP ABAP training?", description: "Fresh graduates with programming knowledge, software developers, and SAP functional consultants wanting to learn technical aspects of SAP." },
         { id: 3, title: "Do I need to know coding before learning ABAP?", description: "Basic programming knowledge (C, Java, or Python) is helpful, but beginners can also learn ABAP with structured training." },
@@ -408,7 +383,7 @@ const SapABAPFaqSection = () => { // Renamed from SapImSyllabus for clarity
         { id: 10, title: "Is ABAP useful for freshers?", description: "Definitely. SAP ABAP is a great start for those wanting to build a strong technical career within the SAP ecosystem." }
     ];
     return (
-        <div className="sapim-syllabus"> {/* CSS class name kept */}
+        <div className="sapim-syllabus">
             <div className="sap-home-syllabus-header">
                 <h1>
                     Have a Question with Our <span className="highlighted-course-title">SAP ABAP Course?</span> {/* Title updated */}
