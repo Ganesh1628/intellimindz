@@ -490,27 +490,3 @@ p {
   font-weight: 700;
   margin-bottom: 0;
 }
-
-/* Responsive adjustments */
-@media (max-width: 992px) {
-  .stat-number {
-    font-size: 36px;
-  }
-  .stat-title {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 768px) {
-  .stats-section {
-    padding: 40px 0;
-  }
-  .stat-card {
-    padding: 25px 15px;
-  }
-  .stat-icon {
-    width: 60px;
-    height: 60px;
-    font-size: 25px;
-  }
-}

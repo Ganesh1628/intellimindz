@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Java from "./components/Java_course/Java_course"; // Import Java Course Component
 import Saphome from "./pages/Saphome";
 import Saponline from "./pages/SAPmain";
-import Sapabap from "./pages/sap_abap";
+import Sapabap from "./pages/SAP/sap_abap";
 import Sappim from "./pages/sapim";
 import Sapehs from "./pages/sap_ehs";
 import Sapbasis from "./pages/sap_basis";
@@ -33,7 +33,7 @@ import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <Router>
-      <Header /> {/* Navigation bar will always be visible */}
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about_us" element={<AboutUs />} />
@@ -63,7 +63,7 @@ const App = () => {
         <Route path="/sap_ehs_training_in_chennai" element={<Sapehs />} /> 
         <Route path="/sap_hana_training_in_chennai" element={<Saphana />} /> 
       </Routes>
-      <Footer /> {/* ✅ Footer always visible */}
+      <Footer />
     </Router>
   );
 };
