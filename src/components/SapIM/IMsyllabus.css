@@ -4,8 +4,6 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
-
-
 /* SapImSyllabus.css */
 .sapim-syllabus {
   max-width: 1000px;
@@ -148,50 +146,4 @@ body {
 .module-card:hover .module-decoration,
 .module-card.active .module-decoration {
   transform: scaleX(1);
-}
-
-/* Alternative Color Scheme Option */
-/* Uncomment to use a green theme instead of blue */
-/*
-  .module-card {
-    border-left-color: #2e7d32;
-  }
-  .module-card:hover, .module-card.active {
-    background: #f1f8e9;
-  }
-  .syllabus-header h1 {
-    color: #2e7d32;
-  }
-  .header-accent {
-    background: linear-gradient(90deg, #2e7d32, #7cb342);
-  }
-  .module-decoration {
-    background: linear-gradient(90deg, #2e7d32, #7cb342);
-  }
-  */
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .sap-home-syllabus-header h1 {
-    font-size: 2rem;
-  }
-
-  .syllabus-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .module-card {
-    padding: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .sap-home-syllabus-header h1 {
-    font-size: 1.7rem;
-  }
-
-  .module-number {
-    font-size: 1.8rem;
-    margin-right: 15px;
-  }
 }
