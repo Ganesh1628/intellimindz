@@ -5,27 +5,31 @@ import Header from "./components/Header/Header";
 import Home from "./pages/Home";
 import Java from "./components/Java_course/Java_course"; // Import Java Course Component
 import Saphome from "./pages/Saphome";
-import Saponline from "./pages/SAPmain";
+import Saponline from "./pages/SAP/SAPmain";
 import Sapabap from "./pages/SAP/sap_abap";
 import Sappim from "./pages/sapim";
-import Sapehs from "./pages/sap_ehs";
-import Sapbasis from "./pages/sap_basis";
-import Saperp from "./pages/sap_erp";
-import Sapim from "./pages/sap_im";
-import Sapmii from "./pages/sap_mii";
-import Sapep from "./pages/sap_ep";
-import Sapec from "./pages/sap_ec";
-import Sappp from "./pages/sap_pp";
-import Sappi from "./pages/sap_pi";
-import Saplo from "./pages/sap_lo";
-import Sapcs from "./pages/sap_cs";
-import Saphr from "./pages/sap_hr";
-import Sapariba from "./pages/sap_ariba";
-import Sapqm from "./pages/sap_qm";
-import Sapsrm from "./pages/sap_srm";
-import Saprem from "./pages/sap_rem";
-import Sapgrc from "./pages/sap_grc";
-import Sapcrm from "./pages/sap_crm";
+import Sapbasis from "./pages/SAP/sap_basis";
+import Saperp from "./pages/SAP/sap_erp";
+import Sapim from "./pages/SAP/sap_im";
+import Sapmii from "./pages/SAP/sap_mii";
+import Sapep from "./pages/SAP/sap_ep";
+import Sapec from "./pages/SAP/sap_ec";
+import Sappp from "./pages/SAP/sap_pp";
+import Sappi from "./pages/SAP/sap_pi";
+import Saplo from "./pages/SAP/sap_lo";
+import Sapcs from "./pages/SAP/sap_cs";
+import Saphr from "./pages/SAP/sap_hr";
+import Sapariba from "./pages/SAP/sap_ariba";
+import Sapqm from "./pages/SAP/sap_qm";
+import Sapsrm from "./pages/SAP/sap_srm";
+import Saprem from "./pages/SAP/sap_rem";
+import Sapgrc from "./pages/SAP/sap_grc";
+import Sapcrm from "./pages/SAP/sap_crm";
+import Sappm from "./pages/SAP/sap_pm";
+import Sapre from "./pages/SAP/sap_re";
+import Sapehs from "./pages/SAP/sap_ehs";
+import Sapwebdynpro from "./pages/SAP/Sap_webdynpro";
+import Sapbi from "./pages/SAP/Sap_bi";
 import Saphana from "./pages/sap_hana";
 import Contactus from "./pages/contactus";
 import Footer from "./components/Footer/Footer";
@@ -60,8 +64,13 @@ const App = () => {
         <Route path="/sap_rem_training_in_chennai" element={<Saprem />} /> 
         <Route path="/sap_grc_training_in_chennai" element={<Sapgrc />} /> 
         <Route path="/sap_crm_training_in_chennai" element={<Sapcrm />} /> 
-        <Route path="/sap_ehs_training_in_chennai" element={<Sapehs />} /> 
+        {/* <Route path="/sap_ehs_training_in_chennai" element={<Sapehs />} />  */}
         <Route path="/sap_hana_training_in_chennai" element={<Saphana />} /> 
+        <Route path="/sap_pm_training_in_chennai" element={<Sappm />} /> 
+        <Route path="/sap_re_training_in_chennai" element={<Sapre />} /> 
+        <Route path="/sap_ehs_training_in_chennai" element={<Sapehs />} /> 
+        <Route path="/sap_Webdynpro_training_in_chennai" element={<Sapwebdynpro />} /> 
+        <Route path="/sap_bi_training_in_chennai" element={<Sapbi />} /> 
       </Routes>
       <Footer />
     </Router>

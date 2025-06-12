@@ -990,29 +990,29 @@ const Testimonials = () => {
 
 
 // Main Function (Calls All Components)
-const Sapehs = () => {
-    return (
-        <>
-            {/* <AboutUsHeader /> */}
-            <Intro />
-            <SapTrainingProfile />
-            <Corporate />
-            <CourseSchedule />
-            <WhyChooseUs />
-            <AskForDemo/>
-            <Trainers/>
-            <Onlineheader />
-            <CurriculumProjects />
-            <BatchRequestForm />
-            {/* <CourseGrid /> */}
-            <Testimonials />
-            <SapImSyllabus />
-            <CoursesSection />
-            {/* <CallButton /> */}
-            {/* <Footer /> */}
-        </>
-    );
-};
+// const Sapehs = () => {
+//     return (
+//         <>
+//             {/* <AboutUsHeader /> */}
+//             <Intro />
+//             <SapTrainingProfile />
+//             <Corporate />
+//             <CourseSchedule />
+//             <WhyChooseUs />
+//             <AskForDemo/>
+//             <Trainers/>
+//             <Onlineheader />
+//             <CurriculumProjects />
+//             <BatchRequestForm />
+//             {/* <CourseGrid /> */}
+//             <Testimonials />
+//             <SapImSyllabus />
+//             <CoursesSection />
+//             {/* <CallButton /> */}
+//             {/* <Footer /> */}
+//         </>
+//     );
+// };
 
 export default Sapehs;
 

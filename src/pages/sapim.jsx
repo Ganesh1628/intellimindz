@@ -2,12 +2,10 @@ import Header from "../components/Header/Header";
 import React, {useState} from 'react';
 import "../components/SapIM/IMwhyus.css";
 import "../components/SapIM/IMsyllabus.css";
-// import "../components/SapIM/IMsearch.css";
-// import "../components/SapIM/IMprofiletraining.css";
 import "../components/SapIM/IMtestimonial.css";
 import "../components/SapIM/IMcertification.css";
 import "../components/SapIM/IMtestimonial.css";
-import sapTrainingImage from '../assests/images/saptraining.png'; // Adjust path as needed
+import sapTrainingImage from '../assests/images/saptraining.png';
 import { FiChevronDown, FiChevronUp, FiMessageSquare } from 'react-icons/fi';
 
 
