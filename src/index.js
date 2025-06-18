@@ -7,12 +7,17 @@ import "bootstrap/dist/css/bootstrap.css";
 import "remixicon/fonts/remixicon.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { HelmetProvider } from 'react-helmet-async'; // <-- ADD THIS LINE
 
 // Use createRoot instead of ReactDOM.render
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <App />
+    {/* ADD THE WRAPPER AROUND APP */}
+    <HelmetProvider>
+      <App />
+    </HelmetProvider>
   </React.StrictMode>
+
 );

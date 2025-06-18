@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Meta from '../../components/Meta'; // Correct import for dynamic meta tags
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all your CSS files
@@ -31,6 +31,8 @@ import alumniReviewImg from '../../assests/images/review.png';
 import Batchdt from '../../assests/images/bg.jpeg';
 
 import AskForDemo from "../../components/SAP/Askfordemo/askfordemo";
+
+// --- All of your sub-components remain unchanged ---
 
 // Intro Component
 const Intro = ({ openContactModal }) => {
@@ -428,28 +430,36 @@ const CallToActionBanner = ({ openContactModal }) => {
   );
 };
 
+const Onlineheader = () => {
+  return <div className="online_container"></div>;
+};
+
+
+// --- Corrected Main Component ---
+// This is the single, main component for the page that gets exported.
 const SAPmain = () => {
+  // State for the contact modal is managed here
   const [isModalOpen, setIsModalOpen] = useState(false);
   const openContactModal = () => setIsModalOpen(true);
   const closeContactModal = () => setIsModalOpen(false);
+  const pageTitle = "Best Sasfasdfsdafas Training in Chennai | Expert SAP Ariba Course";
+  const pageDescription = "Join the best SAP Ariba training in Chennai at Intellimindz. Our expert-led course covers procurement, sourcing, and supplier management with hands-on projects.";
+  const pageKeywords = "sap ariba training in chennai, sap ariba course, sap ariba certification, intellimindz, procurement training";
+  const ogUrl = "https://http://localhost:3000/sap_ariba_training_in_chennai";
 
-  return (
-    <HelmetProvider> {/* Wrap your application with HelmetProvider */}
-      <div>
-        <Saponline openContactModal={openContactModal} />
-        <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
-      </div>
-    </HelmetProvider>
-  );
-};
-
-const Saponline = ({ openContactModal }) => {
+  // Return all content, including the dynamic Meta component
   return (
     <>
-      <Helmet> {/* Add Helmet here */}
-        <title>SAP Ariba Training in Chennai | SAP Ariba Course in Chennai</title>
-        <meta name="description" content="Get trained by professionals with our SAP Ariba Training in Chennai. Learn procurement and supplier management with our comprehensive SAP Ariba course in Chennai." />
-      </Helmet>
+      <Meta
+        title={pageTitle}
+        description={pageDescription}
+        keywords={pageKeywords}
+        ogTitle={pageTitle}
+        ogDescription={pageDescription}
+        ogUrl={ogUrl}
+      />
+
+      {/* All the page's visual components */}
       <Intro openContactModal={openContactModal} />
       <SapTrainingProfile openContactModal={openContactModal} />
       <Corporate />
@@ -465,12 +475,9 @@ const Saponline = ({ openContactModal }) => {
       <Onlineheader />
       <SapImSyllabus />
       <CallToActionBanner openContactModal={openContactModal} />
+      <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
     </>
   );
 };
 
 export default SAPmain;
-
-const Onlineheader = () => {
-  return <div className="online_container"></div>;
-};

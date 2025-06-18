@@ -3,7 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AboutUs from "./components/About_us/About_us";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home";
-import Java from "./components/Java_course/Java_course"; // Import Java Course Component
+import Contactus from "./pages/contactus";
+import Footer from "./components/Footer/Footer";
+import { HelmetProvider } from "react-helmet-async";
+
+// SAP PAGES
 import Saphome from "./pages/Saphome";
 import Saponline from "./pages/SAP/SAPmain";
 import Sapabap from "./pages/SAP/sap_abap";
@@ -47,18 +51,37 @@ import Sapsolutionmanager from "./pages/SAP/sap_solution_manager";
 import Saptraining from "./pages/SAP/sap_training";
 import Saphana from "./pages/SAP/sap_hana";
 import Saple from "./pages/SAP/sap_le";
-import Contactus from "./pages/contactus";
-import Footer from "./components/Footer/Footer";
+
+// OTHER COURSES
+import Itilmain from "./pages/Courses/itil.jsx";
+import Javamain from "./pages/Courses/java.jsx";
+import Mcsemain from "./pages/Courses/mcse.jsx";
+import Ssrsmain from "./pages/Courses/ssrs.jsx";
+import Dsmain from "./pages/Courses/datascience.jsx";
+import Etltestingmain from "./pages/Courses/etl_testing.jsx";
+import Ccnamain from "./pages/Courses/ccna.jsx";
+import Softskillmain from "./pages/Courses/soft_skill.jsx";
+import Dotnetmain from "./pages/Courses/dotnet.jsx";
+import Iosmain from "./pages/Courses/ios.jsx";
+import Androidmain from "./pages/Courses/android.jsx";
+import Seleniummain from "./pages/Courses/selenium.jsx";
+import Wordpressmain from "./pages/Courses/wordpress.jsx";
+import Abinitiomain from "./pages/Courses/abinitio.jsx";
+import Mobileappmain from "./pages/Courses/mobileapp.jsx";
+import Matlabmain from "./pages/Courses/matlab.jsx";
+import Salesforcemain from "./pages/Courses/salesforce.jsx";
 
 const App = () => {
   return (
+        <HelmetProvider>
     <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about_us" element={<AboutUs />} />
         <Route path="/contactus" element={<Contactus />} />
-        <Route path="/java_course" element={<Java />} /> {/* Added Java Course Route */}
+
+        {/* SAP PAGES */}
         <Route path="/sap_course" element={<Saphome />} /> 
         <Route path="/sap_fico_training_in_chennai" element={<Saponline />} /> 
         <Route path="/sap_im_training" element={<Sappim />} /> 
@@ -102,9 +125,29 @@ const App = () => {
         <Route path="/sap_training_in_chennai" element={<Saptraining />} /> 
         <Route path="/sap_hana_training_in_chennai" element={<Saphana />} /> 
         <Route path="/sap_le_training_in_chennai" element={<Saple />} /> 
+
+        {/* OTHER COURSES */}
+        <Route path="/itil_training_in_chennai" element={<Itilmain />} /> 
+        <Route path="/java_training_in_chennai" element={<Javamain />} /> 
+        <Route path="/mcse_training_in_chennai" element={<Mcsemain />} /> 
+        <Route path="/ssrs_training_in_chennai" element={<Ssrsmain />} /> 
+        <Route path="/data_science_training_in_chennai" element={<Dsmain />} /> 
+        <Route path="/etl_testing_training_in_chennai" element={<Etltestingmain />} /> 
+        <Route path="/ccna_training_in_chennai" element={<Ccnamain />} /> 
+        <Route path="/soft_skill_training_in_chennai" element={<Softskillmain />} /> 
+        <Route path="/dotnet_training_in_chennai" element={<Dotnetmain />} /> 
+        <Route path="/ios_training_in_chennai" element={<Iosmain />} /> 
+        <Route path="/android_training_in_chennai" element={<Androidmain />} /> 
+        <Route path="/selenium_training_in_chennai" element={<Seleniummain />} /> 
+        <Route path="/wordpress_training_in_chennai" element={<Wordpressmain />} /> 
+        <Route path="/abinitio_training_in_chennai" element={<Abinitiomain />} /> 
+        <Route path="/mobile_application_training_in_chennai" element={<Mobileappmain />} /> 
+        <Route path="/matlab_training_in_chennai" element={<Matlabmain />} /> 
+        <Route path="/sales_force_training_in_chennai" element={<Salesforcemain />} /> 
       </Routes>
       <Footer />
     </Router>
+        </HelmetProvider>
   );
 };
 
