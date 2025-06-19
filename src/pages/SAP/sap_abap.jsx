@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
 import ContactModal from "../../components/Hero-Section/ContactModal";
+import Meta from '../../components/Meta';
 
 // Import all your CSS files
 import "../../components/saponlinecom/onlineaboutus.css";
@@ -431,45 +431,36 @@ const SAPmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
+const pageTitle = "Best SAP ABAP Training in Chennai | Practical Oriented ABAP Course";
+const pageDescription = "Join the top SAP ABAP training in Chennai at Intellimindz. Learn ABAP programming with real-time projects, hands-on practice, and expert guidance.";
+const pageKeywords = "sap abap training in chennai, sap abap course, sap abap certification, abap programming, intellimindz";
+const ogUrl = "https://localhost:3000/sap_abap_training_in_chennai";
     return (
-        <HelmetProvider> {/* Wrap your application with HelmetProvider */}
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                {ContactModal && <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />}
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
-    return (
-        <>
-            <Helmet> {/* Add Helmet here */}
-                <title>SAP ABAP Training in Chennai | SAP ABAP Course in Chennai</title>
-                <meta name="description" content="Master technical development with our SAP ABAP Training in Chennai. Learn programming for SAP applications through our expert-designed SAP ABAP course in Chennai." />
-            </Helmet>
+    <>
+      <Meta
+        title={pageTitle}
+        description={pageDescription}
+        keywords={pageKeywords}
+        ogTitle={pageTitle}
+        ogDescription={pageDescription}
+        ogUrl={ogUrl}
+      />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
             <TrainingModesSection openContactModal={openContactModal} />
-            {/* SAPHeroSection now contains ABAP content */}
             <SAPHeroSection openContactModal={openContactModal} />
-            {/* SAPAboutSection now contains ABAP content */}
             <SAPAboutSection />
-            {/* KeyFeaturesSection now contains ABAP content */}
             <KeyFeaturesSection />
-            {/* SapFicoCourseContentSection (name kept) now contains ABAP content */}
             <SapFicoCourseContentSection openContactModal={openContactModal} />
             <BatchDetailsSection openContactModal={openContactModal} />
-            {/* CorporateTrainingModesSection now contains ABAP content */}
             <CorporateTrainingModesSection />
-            {/* AlumniReviewsSection now contains ABAP content */}
             <AlumniReviewsSection />
-            <AskForDemo /> {/* Kept as a generic component */}
-            <Onlineheader /> {/* Kept as is */}
-            {/* SapImSyllabus (name kept) now contains ABAP FAQ content */}
-            <SapABAPFaqSection /> {/* Renamed this component for clarity */}
+            <AskForDemo />
+            <Onlineheader />
+            <SapABAPFaqSection />
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };

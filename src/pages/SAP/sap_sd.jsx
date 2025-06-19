@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Meta from '../../components/Meta';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all your CSS files
@@ -430,23 +430,20 @@ const SAPmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
+const pageTitle = "Best SAP SD Training in Chennai | Expert-Led SAP SD Course";
+const pageDescription = "Learn SAP Sales and Distribution (SD) in Chennai with Intellimindz’s expert-led training and real-time implementation knowledge.";
+const pageKeywords = "sap sd training in chennai, sap sd course, sap sd certification, intellimindz";
+const ogUrl = "https://localhost:3000/sap_sd_training_in_chennai";
     return (
-        <HelmetProvider>
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                {ContactModal && <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />}
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
-    return (
-        <>
-            <Helmet>
-                <title>SAP SD Training in Chennai | SAP SD Course in Chennai</title>
-                <meta name="description" content="Enroll in our SAP SD Training in Chennai to master sales and distribution skills. Get certified with our hands-on SAP SD course in Chennai, led by industry experts." />
-            </Helmet>
+    <>
+      <Meta
+        title={pageTitle}
+        description={pageDescription}
+        keywords={pageKeywords}
+        ogTitle={pageTitle}
+        ogDescription={pageDescription}
+        ogUrl={ogUrl}
+      />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -462,6 +459,7 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapSDFaqSection />
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Meta from '../../components/Meta';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all your CSS files
@@ -437,23 +437,20 @@ const SAPmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
+const pageTitle = "Best SAP FICO Training in Chennai | Expert-Led SAP FICO Course";
+const pageDescription = "Enroll in top-rated SAP FICO training in Chennai at Intellimindz. Master SAP FICO concepts with real-time projects and expert guidance.";
+const pageKeywords = "sap fico training in chennai, sap fico course, sap fico certification, intellimindz";
+const ogUrl = "https://localhost:3000/sap_fico_training_in_chennai";
     return (
-        <HelmetProvider> {/* Wrap your application with HelmetProvider */}
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
-    return (
-        <>
-            <Helmet> {/* Add Helmet here */}
-                <title>SAP FICO Training in Chennai | SAP FICO Course in Chennai</title>
-                <meta name="description" content="Become an SAP finance expert with our SAP FICO Training in Chennai. Learn financial accounting and controlling through real-time projects in our SAP FICO course in Chennai." />
-            </Helmet>
+    <>
+      <Meta
+        title={pageTitle}
+        description={pageDescription}
+        keywords={pageKeywords}
+        ogTitle={pageTitle}
+        ogDescription={pageDescription}
+        ogUrl={ogUrl}
+      />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -469,6 +466,7 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapFicoFaqSection /> {/* Updated component name */}
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };

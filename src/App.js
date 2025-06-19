@@ -70,6 +70,26 @@ import Abinitiomain from "./pages/Courses/abinitio.jsx";
 import Mobileappmain from "./pages/Courses/mobileapp.jsx";
 import Matlabmain from "./pages/Courses/matlab.jsx";
 import Salesforcemain from "./pages/Courses/salesforce.jsx";
+import Mainframeadminmain from "./pages/Courses/mainframeadmin.jsx";
+import Datastagemain from "./pages/Courses/datastage.jsx";
+import Iotmain from "./pages/Courses/iot.jsx";
+import Ssasmain from "./pages/Courses/ssas.jsx";
+import Qlikmain from "./pages/Courses/qliklink.jsx";
+import Bigdatamain from "./pages/Courses/bigdata.jsx";
+import Openstackmain from "./pages/Courses/openstack.jsx";
+import Digitalmarketmain from "./pages/Courses/digital_marketing.jsx";
+import Informaticadatamain from "./pages/Courses/informaticadata.jsx";
+import Ccnpmain from "./pages/Courses/ccnp.jsx";
+import Spokenengmain from "./pages/Courses/spoken_english.jsx";
+import Cognostm1main from "./pages/Courses/cognostm1.jsx";
+import Pythonmain from "./pages/Courses/python.jsx";
+import Meanstackmain from "./pages/Courses/mean_stack.jsx";
+import Mainframemain from "./pages/Courses/mainframe.jsx";
+import Nodejsmain from "./pages/Courses/nodejs.jsx";
+import Sccmmain from "./pages/Courses/sccm.jsx";
+import Msbimain from "./pages/Courses/msbi.jsx";
+import Tallymain from "./pages/Courses/tally.jsx";
+import Cloudcomputermain from "./pages/Courses/cloud_computer.jsx";
 
 const App = () => {
   return (
@@ -144,6 +164,26 @@ const App = () => {
         <Route path="/mobile_application_training_in_chennai" element={<Mobileappmain />} /> 
         <Route path="/matlab_training_in_chennai" element={<Matlabmain />} /> 
         <Route path="/sales_force_training_in_chennai" element={<Salesforcemain />} /> 
+        <Route path="/mainframe_admin_training_in_chennai" element={<Mainframeadminmain />} /> 
+        <Route path="/datastage_training_in_chennai" element={<Datastagemain />} /> 
+        <Route path="/iot_training_in_chennai" element={<Iotmain />} /> 
+        <Route path="/ssas_training_in_chennai" element={<Ssasmain />} /> 
+        <Route path="/qlikview_training_in_chennai" element={<Qlikmain />} /> 
+        <Route path="/big_data_training_in_chennai" element={<Bigdatamain />} /> 
+        <Route path="/openstack_training_in_chennai" element={<Openstackmain />} /> 
+        <Route path="/digital_marketing_training_in_chennai" element={<Digitalmarketmain />} /> 
+        <Route path="/informatica_data_quality_training_in_chennai" element={<Informaticadatamain />} /> 
+        <Route path="/ccnp_training_in_chennai" element={<Ccnpmain />} /> 
+        <Route path="/spoken_english_training_in_chennai" element={<Spokenengmain />} /> 
+        <Route path="/cognos_tm1_training_in_chennai" element={<Cognostm1main />} /> 
+        <Route path="/python_training_in_chennai" element={<Pythonmain />} /> 
+        <Route path="/mean_stack_training_in_chennai" element={<Meanstackmain />} /> 
+        <Route path="/main_frame_training_in_chennai" element={<Mainframemain />} /> 
+        <Route path="/nodejs_training_in_chennai" element={<Nodejsmain />} /> 
+        <Route path="/sccm_training_in_chennai" element={<Sccmmain />} /> 
+        <Route path="/msbi_training_in_chennai" element={<Msbimain />} /> 
+        <Route path="/tally_training_in_chennai" element={<Tallymain />} /> 
+        <Route path="/cloud_computing_training_in_chennai" element={<Cloudcomputermain />} /> 
       </Routes>
       <Footer />
     </Router>

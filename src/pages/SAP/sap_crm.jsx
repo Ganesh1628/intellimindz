@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Meta from '../../components/Meta';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all your CSS files
@@ -38,9 +38,9 @@ const Intro = ({ openContactModal }) => {
         <div className="intro-container">
             <div className="overlay"></div>
             <div className="intro-content">
-                <h2 className="intro-h2">Best SAP CRM Training Institute in Chennai</h2>
-                <h1 className="intro-h1">Unlock your technical potential with expert-led SAP CRM Training – your gateway to global career opportunities in the customer relationship management landscape.</h1>
-                <h3 className="intro-h3"></h3>
+                <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
+                <h1 className="intro-h1">Best SAP CRM Training Institute in Chennai</h1>
+                <h3 className="intro-h3">Unlock your technical potential with expert-led SAP CRM Training – your gateway to global career opportunities in the customer relationship management landscape.</h3>
                 <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
             </div>
         </div>
@@ -437,23 +437,20 @@ const SAPmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
+const pageTitle = "Best SAP CRM Training in Chennai | Expert-Led SAP CRM Course";
+const pageDescription = "Enroll in top-rated SAP CRM training in Chennai at Intellimindz. Master SAP CRM concepts with real-time projects and expert guidance.";
+const pageKeywords = "sap crm training in chennai, sap crm course, sap crm certification, intellimindz";
+const ogUrl = "https://localhost:3000/sap_crm_training_in_chennai";
     return (
-        <HelmetProvider> {/* Wrap your application with HelmetProvider */}
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
-    return (
-        <>
-            <Helmet> {/* Add Helmet here */}
-                <title>SAP CRM Training in Chennai | SAP CRM Course in Chennai</title>
-                <meta name="description" content="Enroll in our SAP CRM Training in Chennai to master customer relationship management skills. Get certified with our hands-on SAP CRM course in Chennai, led by industry experts." />
-            </Helmet>
+    <>
+      <Meta
+        title={pageTitle}
+        description={pageDescription}
+        keywords={pageKeywords}
+        ogTitle={pageTitle}
+        ogDescription={pageDescription}
+        ogUrl={ogUrl}
+      />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -469,6 +466,7 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapFicoFaqSection /> {/* Updated component name */}
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };

@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
-// Import all your CSS files
+// Import all your CSS files (unchanged)
 import "../../components/saponlinecom/onlineaboutus.css";
 import "../../components/saponlinecom/sapfico.css";
 import "../../components/saponlinecom/onlinecorporate.css";
 import "../../components/SAP/Header/Introsap.css";
 import "../../components/SapIM/IMsyllabus.css";
 
-// Import all your image assets
+// Import all your image assets (unchanged)
 import saphomeintro1 from '../../assests/images/saphomeintro1.png';
-import homeintro from '../../assests/images/flexiblebatches.jpeg';
+import homeintro from '../../assests/images/saphomeintro1.png';
 import bestPriceIcon from '../../assests/images/ExperiencedTrainers.jpeg';
 import runningIcon from '../../assests/images/practicallearning.jpeg';
 import staffIcon from '../../assests/images/flexiblebatches.jpeg';
@@ -57,7 +57,7 @@ const SapTrainingProfile = ({ openContactModal }) => {
         <div className="sap-training-container">
             <div className="sap-training-header animate__animated animate__flipInX">
                 <h1>
-                    Learn from the Best: Ab Initio Training by <span>Industry Experts</span>
+                    Learn from Experts: Mainframe Admin Training by <span>Industry Professionals</span>
                 </h1>
                 <div className="header-divider"></div>
             </div>
@@ -65,21 +65,21 @@ const SapTrainingProfile = ({ openContactModal }) => {
                 <div className="training-details">
                     <div className="sap-training-header animate__animated animate__lightSpeedInLeft">
                         <p className="intro-text">
-                            At IntelliMindz, our Ab Initio trainers are seasoned professionals with extensive experience in data integration and ETL development. With real-world project expertise, they guide you through a comprehensive learning journey in Ab Initio.
+                            At IntelliMindz, our Mainframe Admin trainers are seasoned professionals with extensive experience in managing enterprise mainframe systems. With deep industry knowledge and hands-on expertise, they guide you through a comprehensive learning journey in Mainframe Administration.
                         </p>
                     </div>
                     <ul className="benefits-list">
-                        <li><span className="icon">✓</span> Master core and advanced Ab Initio concepts for data processing.</li>
-                        <li><span className="icon">✓</span> Learn from industry experts with hands-on ETL project experience.</li>
-                        <li><span className="icon">✓</span> Benefit from IntelliMindz’s proven track record in data integration training.</li>
-                        <li><span className="icon">✓</span> Receive career support, including resume guidance and interview preparation.</li>
-                        <li><span className="icon">✓</span> Work on real-time ETL scenarios to build job-ready skills.</li>
-                        <li><span className="icon">✓</span> Customized learning tailored to your pace and career goals.</li>
+                        <li><span className="icon">✓</span> Build a strong foundation in Mainframe concepts and advance to expert-level skills.</li>
+                        <li><span className="icon">✓</span> Learn from Mainframe Administrators with real-world project experience.</li>
+                        <li><span className="icon">✓</span> Benefit from IntelliMindz’s proven track record in Mainframe training success.</li>
+                        <li><span className="icon">✓</span> Receive full career support, including resume guidance and interview preparation.</li>
+                        <li><span className="icon">✓</span> Work on real-time scenarios to develop job-ready Mainframe skills.</li>
+                        <li><span className="icon">✓</span> Enjoy a customized learning experience tailored to your career goals.</li>
                     </ul>
                     <button className="enquiry-button" onClick={openContactModal}>Enquire Now</button>
                 </div>
                 <div className="training-image">
-                    <img src={saphomeintro1} alt="Ab Initio Training" />
+                    <img src={saphomeintro1} alt="Mainframe Admin Training" />
                 </div>
             </div>
         </div>
@@ -88,12 +88,12 @@ const SapTrainingProfile = ({ openContactModal }) => {
 
 const Corporate = () => {
     const blocksData = [
-        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from Ab Initio experts at our training center in Chennai." },
-        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking hands-on Ab Initio training with real-world applications." },
-        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose batch timings that fit your schedule." },
-        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engage in discussions focused on real-world ETL and data integration tasks." },
-        { image: onlinetest, heading: "Lifetime Access", paragraph: "Access Ab Initio course materials anytime for revision." },
-        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to enhance your learning." }
+        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from Mainframe experts at our training center in Chennai." },
+        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking hands-on Mainframe Admin training with practical skills." },
+        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose batch timings that suit your schedule." },
+        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engage in discussions focused on real-world Mainframe administration tasks." },
+        { image: onlinetest, heading: "Lifetime Access", paragraph: "Revisit Mainframe course content anytime for revision." },
+        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to strengthen your understanding." }
     ];
     return (
         <div className="corporate-section">
@@ -124,9 +124,9 @@ const PlaceholderTrainingIcon = ({ type }) => (
 
 const TrainingModesSection = ({ openContactModal }) => {
     const trainingModes = [
-        { id: 'online', iconType: 'online', title: "Online Training", description: "Join live, instructor-led Ab Initio sessions from anywhere. Includes hands-on ETL exercises, real-time projects, and interactive Q&A for practical learning.", isPopular: true },
-        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn at your convenience with pre-recorded Ab Initio video sessions, lifetime access to course materials, and periodic updates.", isPopular: false },
-        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Participate in in-person Ab Initio sessions for immersive learning with direct trainer and peer interaction.", isPopular: false },
+        { id: 'online', iconType: 'online', title: "Online Training", description: "Join live, instructor-led Mainframe Admin sessions from anywhere. Our online training includes hands-on exercises, real-time projects, and interactive Q&A for practical learning.", isPopular: true },
+        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn at your own pace with pre-recorded Mainframe Admin video sessions. Get lifetime access to course materials and periodic updates to stay current.", isPopular: false },
+        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Experience immersive in-person Mainframe Admin training in Chennai for collaborative learning with trainers and peers.", isPopular: false },
         { id: 'hybrid', iconType: 'hybrid', title: "Hybrid Training", description: "Combine online and classroom learning for flexibility, ensuring consistent progress and support.", isPopular: false }
     ];
     return (
@@ -149,9 +149,9 @@ const TrainingModesSection = ({ openContactModal }) => {
 const SAPHeroSection = ({ openContactModal }) => {
     return (
         <div className="sap-fico-expert-section">
-            <h1>Become a Skilled Ab Initio Developer with IntelliMindz</h1>
-            <p>Industry-focused Ab Initio training to master ETL processes and data integration solutions.</p>
-            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your Ab Initio Journey Today!</button>
+            <h1>Become a Skilled Mainframe Administrator with IntelliMindz</h1>
+            <p>Industry-focused Mainframe Admin training to build expertise in managing enterprise systems.</p>
+            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your Mainframe Journey Today!</button>
         </div>
     );
 };
@@ -159,15 +159,15 @@ const SAPHeroSection = ({ openContactModal }) => {
 const SAPAboutSection = () => {
     return (
         <div className="sap-fico-about-section">
-            <h2>About Our Ab Initio Training in Chennai</h2>
+            <h2>About Our Mainframe Admin Training in Chennai</h2>
             <div className="sap-fico-about-content">
                 <div className="sap-fico-about-text">
-                    <p>IntelliMindz offers comprehensive Ab Initio training in Chennai, designed to provide both theoretical knowledge and practical expertise in data integration and ETL processes. Our curriculum covers key Ab Initio components like GDE, CoOperating System, Data Profiler, ConductIt, and more.</p>
-                    <p>The course includes interactive classes, live ETL development sessions, practical exercises, and real-time projects. By working on industry-relevant scenarios, learners gain the skills to handle large-scale data integration tasks in enterprise environments.</p>
-                    <p>Whether you’re a beginner or a professional looking to upskill, our Ab Initio training equips you to excel in the competitive data management job market.</p>
+                    <p>At IntelliMindz Chennai, our Mainframe Admin training is designed to provide hands-on expertise in managing IBM Mainframe systems. Our curriculum covers essential topics like z/OS, JCL, VSAM, CICS, DB2, and system performance tuning, ensuring comprehensive technical competence.</p>
+                    <p>The course includes interactive sessions, live system access, practical exercises, and real-world scenarios to prepare you for enterprise environments. You’ll work on case studies and simulations to gain confidence in handling Mainframe administration tasks.</p>
+                    <p>Whether you're a beginner entering the IT infrastructure field or a professional seeking to specialize in Mainframe systems, our training equips you with the skills to excel in the competitive IT job market.</p>
                 </div>
                 <div className="sap-fico-about-image-container">
-                    <img src={aboutsapficoImg} alt="Ab Initio Training in Chennai" />
+                    <img src={aboutsapficoImg} alt="Mainframe Admin Training in Chennai" />
                 </div>
             </div>
         </div>
@@ -176,16 +176,16 @@ const SAPAboutSection = () => {
 
 const KeyFeaturesSection = () => {
     const features = [
-        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "Choose between in-person classroom sessions or flexible online learning, tailored for working professionals, students, and job seekers." },
-        { id: 2, image: handsonsapImg, title: "Hands-on Practical Sessions with Ab Initio Access", description: "Gain hands-on experience with Ab Initio tools like GDE and Co>Operating System, allowing you to develop and test ETL processes in a real environment." },
-        { id: 3, image: casestudyrealtimeImg, title: "Real-Time Case Studies", description: "Work on case studies based on actual data integration projects to enhance problem-solving and prepare for industry challenges." },
-        { id: 4, image: ExperiencedtrainersImg, title: "Expert Trainers", description: "Learn from industry professionals with extensive experience in Ab Initio and large-scale data integration projects." },
+        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "Choose between in-person classroom sessions or flexible online training, tailored for working professionals, students, and job seekers." },
+        { id: 2, image: handsonsapImg, title: "Hands-on Mainframe System Access", description: "Gain practical experience with dedicated access to IBM Mainframe systems, allowing you to perform real administrative tasks." },
+        { id: 3, image: casestudyrealtimeImg, title: "Real-World Case Studies", description: "Work on case studies modeled after actual Mainframe administration scenarios to enhance problem-solving skills and interview readiness." },
+        { id: 4, image: ExperiencedtrainersImg, title: "Expert Mainframe Trainers", description: "Learn from industry professionals with extensive experience in Mainframe system administration across various domains." },
         { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes", description: "Limited batch sizes ensure personalized attention and one-on-one mentoring for effective learning." },
-        { id: 6, image: interactiveImg, title: "Interactive Sessions & Assessments", description: "Engage in interactive discussions and module-wise assessments to reinforce learning and prepare for job interviews." },
+        { id: 6, image: interactiveImg, title: "Interactive Assessments", description: "Engage in module-wise discussions, quizzes, and assessments aligned with Mainframe interview topics." }
     ];
     return (
         <div className="sap-fico-features-section">
-            <h2>Ab Initio Training in Chennai Key Features</h2>
+            <h2>Mainframe Admin Training in Chennai Key Features</h2>
             <div className="sap-fico-features-grid">
                 {features.map((feature) => (
                     <div key={feature.id} className="feature-card">
@@ -204,20 +204,22 @@ const KeyFeaturesSection = () => {
 const SapFicoCourseContentSection = ({ openContactModal }) => {
     const [activeModuleId, setActiveModuleId] = useState(1);
     const allModulesData = [
-        { id: 1, title: "Module 1: Introduction to Ab Initio", topics: ["Overview of ETL and Data Integration", "Introduction to Ab Initio Architecture", "Role of Ab Initio in Data Warehousing", "Ab Initio Components Overview", "Installation and Setup Basics", "Understanding GDE (Graphical Development Environment)"] },
-        { id: 2, title: "Module 2: Ab Initio Co>Operating System", topics: ["Co>Operating System Architecture", "File Systems and Data Storage", "Parallel Processing Concepts", "Sandbox and Parameter Management", "Command Line Interface Basics", "Error Handling in Co>Operating System"] },
-        { id: 3, title: "Module 3: Ab Initio GDE", topics: ["Creating Graphs in GDE", "Components: Transform, Sort, Join, Rollup", "Data Flow and Graph Execution", "Debugging Graphs", "Parameterization in Graphs", "Performance Tuning in GDE"] },
-        { id: 4, title: "Module 4: Data Manipulation and Transformation", topics: ["Data Transformation Techniques", "Working with DML (Data Manipulation Language)", "Handling Complex Data Formats", "Partitioning and De-partitioning", "Lookup and Join Operations", "Real-Time Data Transformation Scenarios"] },
-        { id: 5, title: "Module 5: Conduct>It and Plans", topics: ["Introduction to Conduct>It", "Creating and Managing Plans", "Scheduling and Monitoring ETL Jobs", "Dependency Analysis", "Error Handling in Plans", "Real-Time Plan Implementation"] },
-        { id: 6, title: "Module 6: Data Profiler and Data Quality", topics: ["Introduction to Data Profiler", "Data Quality Rules and Validation", "Profiling Techniques for Data Analysis", "Handling Data Anomalies", "Integrating Data Quality in ETL", "Real-Time Profiling Exercises"] },
-        { id: 7, title: "Module 7: Advanced Ab Initio Concepts", topics: ["Continuous Flows and Real-Time Processing", "Ab Initio Metadata Hub", "Integration with Databases (SQL, Oracle, etc.)", "Web Services and API Integration", "Performance Optimization Techniques", "High Availability and Fault Tolerance"] },
-        { id: 8, title: "Module 8: Real-Time Project and Deployment", topics: ["End-to-End ETL Project Development", "Data Migration Scenarios", "Testing and Validation of ETL Processes", "Deployment Strategies", "Performance Monitoring and Tuning", "Project Documentation and Review"] }
+        { id: 1, title: "Module 1: Introduction to Mainframe", topics: ["Overview of Mainframe Computing", "Introduction to IBM z/OS", "Mainframe Hardware and Architecture", "Role of Mainframe Administrators", "Navigating z/OS Environment", "Mainframe Security Basics"] },
+        { id: 2, title: "Module 2: z/OS Fundamentals", topics: ["z/OS Operating System Overview", "TSO/ISPF Interface", "JCL (Job Control Language) Basics", "System Libraries and Datasets", "File Systems (PDS, PDSE, VSAM)", "z/OS Commands and Utilities"] },
+        { id: 3, title: "Module 3: Job Control Language (JCL)", topics: ["JCL Syntax and Structure", "JOB, EXEC, and DD Statements", "JCL Procedures and Catalogs", "GDG (Generation Data Groups)", "JCL Debugging and Error Handling", "Real-Time JCL Exercises"] },
+        { id: 4, title: "Module 4: VSAM and Data Management", topics: ["Introduction to VSAM", "KSDS, ESDS, RRDS File Types", "VSAM Dataset Creation and Management", "Access Method Services (IDCAMS)", "Backup and Recovery Techniques", "Performance Tuning for VSAM"] },
+        { id: 5, title: "Module 5: CICS Administration", topics: ["Overview of CICS", "CICS Regions and Transactions", "CICS Resource Definitions", "Monitoring and Managing CICS Systems", "CICS Performance Tuning", "Troubleshooting CICS Issues"] },
+        { id: 6, title: "Module 6: DB2 Administration", topics: ["Introduction to DB2 on Mainframe", "DB2 Database Structure", "Table Spaces and Indexes", "DB2 Utilities and Commands", "Backup and Recovery in DB2", "Performance Monitoring in DB2"] },
+        { id: 7, title: "Module 7: System Performance and Tuning", topics: ["Mainframe Performance Metrics", "Workload Manager (WLM)", "SMF and RMF Reports", "Capacity Planning", "System Monitoring Tools", "Performance Optimization Techniques"] },
+        { id: 8, title: "Module 8: Security and Access Control", topics: ["RACF (Resource Access Control Facility)", "User and Group Management", "Access Control Lists (ACLs)", "Security Policies and Auditing", "Mainframe Security Best Practices", "Troubleshooting Security Issues"] },
+        { id: 9, title: "Module 9: Automation and Tools", topics: ["Mainframe Automation Concepts", "Using REXX for Automation", "ISPF Macros and Customization", "Third-Party Tools Overview", "Batch Scheduling Tools", "Automating Routine Tasks"] },
+        { id: 10, title: "Module 10: Real-Time Project and Advanced Topics", topics: ["Mainframe Project: System Administration", "Disaster Recovery Planning", "Mainframe Modernization Trends", "Cloud Integration with Mainframe", "Case Studies on System Failures", "End-to-End Project Deployment"] }
     ];
     const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
     return (
         <div className="java-course-content-section">
             <h2 className="java-section-title">
-                Ab Initio Course Modules
+                Mainframe Admin Course Modules
                 <span className="java-title-underline"></span>
             </h2>
             <div className="java-course-layout-container">
@@ -293,13 +295,13 @@ const BatchDetailsSection = ({ openContactModal }) => {
 
 const CorporateTrainingModesSection = () => {
     const trainingModesData = [
-        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate Ab Initio training", title: "Onsite Training:", description: "Conducted at your company premises for tailored, collaborative learning using your data environment." },
-        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite Ab Initio training center", title: "Offsite Training:", description: "Held at professional venues for focused learning, ideal for certifications and workshops." },
-        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led Ab Initio training", title: "Virtual Instructor-Led Training (VILT):", description: "Live online training via Zoom or Teams, perfect for remote or distributed teams." }
+        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite Mainframe Admin training", title: "Onsite Training:", description: "Conducted at your premises, offering a tailored environment for upskilling teams in Mainframe administration." },
+        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite Mainframe training center", title: "Offsite Training:", description: "Held at professional training centers for focused learning, ideal for certifications and workshops." },
+        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual Mainframe training", title: "Virtual Instructor-Led Training (VILT):", description: "Live training via platforms like Zoom, perfect for remote teams with interactive sessions." }
     ];
     return (
         <div className="corporate-training-modes-section">
-            <h2 className="corporate-training-modes-title">Corporate Training Modes for Ab Initio in Chennai</h2>
+            <h2 className="corporate-training-modes-title">Corporate Training Modes for Mainframe Admin in Chennai</h2>
             <div className="modes-container-grid">
                 {trainingModesData.map(mode => (
                     <div key={mode.id} className="mode-card-item">
@@ -315,11 +317,11 @@ const CorporateTrainingModesSection = () => {
 
 const AlumniReviewsSection = () => {
     const reviewsData = [
-        { id: 1, name: "Karthik V.", designation: "ETL Developer", avatarInitial: "K", rating: 5, companyLogoText: "Intellimindz", reviewText: "The Ab Initio course at IntelliMindz was well-structured. Hands-on projects helped me master graph development and ETL processes." },
-        { id: 2, name: "Priya S.", designation: "Data Engineer", avatarInitial: "P", rating: 5, companyLogoText: "Intellimindz", reviewText: "The trainers explained complex concepts like partitioning and Conduct>It clearly. Real-time projects boosted my confidence." },
-        { id: 3, name: "Suresh K.", designation: "Data Integration Specialist", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "Flexible batches and practical training made learning Ab Initio easy. The course prepared me well for interviews." },
-        { id: 4, name: "Anitha R.", designation: "ETL Trainee", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "As a fresher, I found the course beginner-friendly. The trainers supported me throughout, and I’m now confident in ETL development." },
-        { id: 5, name: "Vijay M.", designation: "Senior ETL Developer", avatarInitial: "V", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course’s focus on real-time scenarios and performance tuning was excellent. It helped me enhance my existing ETL skills." }
+        { id: 1, name: "Karthik S.", designation: "Mainframe Administrator", avatarInitial: "K", rating: 5, companyLogoText: "Intellimindz", reviewText: "The Mainframe Admin course at IntelliMindz was exceptional. Hands-on z/OS and JCL exercises helped me master real-world tasks. The trainers were patient and knowledgeable." },
+        { id: 2, name: "Priya V.", designation: "System Administrator", avatarInitial: "P", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course structure was clear, with practical sessions on CICS and DB2. The trainers used real-time scenarios, making it easy to transition into a Mainframe role." },
+        { id: 3, name: "Suresh M.", designation: "Mainframe Consultant", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "IntelliMindz’s reputation is well-earned. The course content, interview prep, and flexible schedules were perfect for my career shift into Mainframe administration." },
+        { id: 4, name: "Anitha R.", designation: "Mainframe Trainee", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "As a fresher, I found the course beginner-friendly. The trainers explained z/OS and VSAM from scratch, and the hands-on practice was invaluable." },
+        { id: 5, name: "Vijay K.", designation: "Senior Mainframe Admin", avatarInitial: "V", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course made complex topics like performance tuning and RACF easy to understand. The practical sessions and case studies added immense value." }
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -335,7 +337,7 @@ const AlumniReviewsSection = () => {
             <div className="review-slider-layout-container">
                 <div className="reviewer-image-area">
                     <div className="reviewer-main-image-placeholder">
-                        <img src={alumniReviewImg} alt="Alumni Reviewer Ab Initio" />
+                        <img src={alumniReviewImg} alt="Alumni Reviewer Mainframe" />
                     </div>
                 </div>
                 <div className="review-content-area">
@@ -375,25 +377,25 @@ const AlumniReviewsSection = () => {
 const SapABAPFaqSection = () => {
     const [activeModule, setActiveModule] = useState(null);
     const modulesData = [
-        { id: 1, title: "What is Ab Initio used for?", description: "Ab Initio is a powerful ETL tool used for data integration, processing, and managing large-scale data in enterprise environments." },
-        { id: 2, title: "Who should take this Ab Initio training?", description: "Fresh graduates, data analysts, ETL developers, and professionals looking to specialize in data integration." },
-        { id: 3, title: "Do I need prior coding knowledge?", description: "Basic knowledge of databases or programming is helpful but not mandatory. Our course starts from the basics." },
-        { id: 4, title: "Is Ab Initio in demand in 2025?", description: "Yes, with the rise in big data and analytics, Ab Initio skills are highly sought after in industries like finance and telecom." },
-        { id: 5, title: "What’s the difference between Ab Initio and Informatica?", description: "Both are ETL tools, but Ab Initio is known for its high performance and scalability in handling complex data transformations." },
-        { id: 6, title: "Is the training available online?", description: "Yes, we offer both online and offline Ab Initio training with live, instructor-led sessions." },
-        { id: 7, title: "Will there be hands-on practice?", description: "Yes, you’ll get access to Ab Initio tools for practical ETL development and graph creation." },
-        { id: 8, title: "Do you offer interview preparation?", description: "Yes, we provide mock interviews, resume tips, and real-world ETL scenarios for job readiness." },
-        { id: 9, title: "Can I switch to Ab Initio from another field?", description: "Yes, with basic database knowledge, you can transition to Ab Initio with our structured training." },
-        { id: 10, title: "Is Ab Initio suitable for freshers?", description: "Absolutely, it’s a great entry point for a career in data integration and ETL development." }
+        { id: 1, title: "What is Mainframe Administration?", description: "Mainframe Administration involves managing IBM Mainframe systems, including z/OS, JCL, VSAM, CICS, and DB2, to ensure system performance, security, and reliability." },
+        { id: 2, title: "Who should take this Mainframe Admin training?", description: "Fresh graduates, IT professionals, and system administrators looking to specialize in Mainframe systems or transition to enterprise IT roles." },
+        { id: 3, title: "Do I need prior experience to learn Mainframe Admin?", description: "Basic IT knowledge is helpful, but our course starts from scratch, making it accessible to beginners." },
+        { id: 4, title: "Are Mainframe skills in demand in 2025?", description: "Yes, Mainframes remain critical for industries like banking, insurance, and retail, with high demand for skilled administrators." },
+        { id: 5, title: "What’s the difference between Mainframe Admin and SAP ABAP?", description: "Mainframe Admin focuses on system management (z/OS, CICS), while SAP ABAP is about programming for SAP applications." },
+        { id: 6, title: "Is the training available online?", description: "Yes, we offer both online and offline Mainframe Admin training with live instructor-led sessions and system access." },
+        { id: 7, title: "Will there be hands-on practice?", description: "Yes, you’ll get access to Mainframe systems for practical exercises in JCL, VSAM, CICS, and more." },
+        { id: 8, title: "Do you provide interview preparation?", description: "Yes, we offer mock interviews, resume guidance, and real-world scenarios to prepare you for Mainframe jobs." },
+        { id: 9, title: "Can I switch to Mainframe from another IT field?", description: "Absolutely, with basic IT skills, you can transition to Mainframe administration through our training." },
+        { id: 10, title: "Is Mainframe Admin suitable for freshers?", description: "Yes, it’s a great entry point for freshers aiming for a career in enterprise IT infrastructure." }
     ];
     return (
         <div className="sapim-syllabus">
             <div className="sap-home-syllabus-header">
                 <h1>
-                    Have a Question with Our <span className="highlighted-course-title">Ab Initio Course?</span>
+                    Have a Question with Our <span className="highlighted-course-title">Mainframe Admin Course?</span>
                 </h1>
                 <p className="syllabus-header-subtitle">
-                    Here, you can get the answer to your question about our Ab Initio course in Chennai.
+                    Get answers to your questions about our Mainframe Admin course in Chennai.
                 </p>
             </div>
             <div className="syllabus-grid">
@@ -424,13 +426,13 @@ const SapABAPFaqSection = () => {
 const CallToActionBanner = ({ openContactModal }) => {
     return (
         <div className="cta-banner-section">
-            <p className="cta-banner-text">Navigate your career ambitions with our expert guidance.</p>
+            <p className="cta-banner-text">Launch your Mainframe career with expert guidance.</p>
             <button className="cta-banner-button" onClick={openContactModal}>Contact Us</button>
         </div>
     );
 };
 
-const Abinitiomain = () => {
+const Mainframeadminmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
@@ -448,8 +450,8 @@ const Saponline = ({ openContactModal }) => {
     return (
         <>
             <Helmet>
-                <title>Ab Initio Training in Chennai | Ab Initio Course in Chennai</title>
-                <meta name="description" content="Master data integration and ETL with our Ab Initio Training in Chennai. Learn advanced data processing through our expert-led Ab Initio course." />
+                <title>Mainframe Admin Training in Chennai | Mainframe Admin Course in Chennai</title>
+                <meta name="description" content="Master enterprise system management with our Mainframe Admin Training in Chennai. Learn z/OS, JCL, CICS, and more through our expert-led course." />
             </Helmet>
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
@@ -470,7 +472,7 @@ const Saponline = ({ openContactModal }) => {
     );
 };
 
-export default Abinitiomain;
+export default Mainframeadminmain;
 
 const Onlineheader = () => {
     return <div className="online_container"></div>;

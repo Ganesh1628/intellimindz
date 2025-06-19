@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Meta from '../../components/Meta';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all your CSS files
@@ -38,9 +38,9 @@ const Intro = ({ openContactModal }) => {
         <div className="intro-container">
             <div className="overlay"></div>
             <div className="intro-content">
-                <h2 className="intro-h2">Best SAP HR Training Institute in Chennai</h2>
-                <h1 className="intro-h1">Build a successful career in Human Resource Management with hands-on SAP HR Training – master HR operations and automation in the digital era.</h1>
-                <h3 className="intro-h3"></h3>
+                <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
+                <h1 className="intro-h1">Best SAP HR Training Institute in Chennai</h1>
+                <h3 className="intro-h3">Build a successful career in Human Resource Management with hands-on SAP HR Training – master HR operations and automation in the digital era.</h3>
                 <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
             </div>
         </div>
@@ -437,23 +437,20 @@ const SAPmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
+const pageTitle = "Best SAP HR Training in Chennai | Expert-Led SAP HR Course";
+const pageDescription = "Enroll in top-rated SAP HR training in Chennai at Intellimindz. Master SAP HR concepts with real-time projects and expert guidance.";
+const pageKeywords = "sap hr training in chennai, sap hr course, sap hr certification, intellimindz";
+const ogUrl = "https://localhost:3000/sap_hr_training_in_chennai";
     return (
-        <HelmetProvider> {/* Wrap your application with HelmetProvider */}
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
-    return (
-        <>
-            <Helmet> {/* Add Helmet here */}
-                <title>SAP HR Training in Chennai | SAP Human Resource Course in Chennai</title>
-                <meta name="description" content="Enhance your HR career with our SAP HR Training in Chennai. Learn payroll, time management, and personnel administration in our SAP Human Resource course in Chennai." />
-            </Helmet>
+    <>
+      <Meta
+        title={pageTitle}
+        description={pageDescription}
+        keywords={pageKeywords}
+        ogTitle={pageTitle}
+        ogDescription={pageDescription}
+        ogUrl={ogUrl}
+      />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -469,6 +466,7 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapFicoFaqSection /> {/* Updated component name */}
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };

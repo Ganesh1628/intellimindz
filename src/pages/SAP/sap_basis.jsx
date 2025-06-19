@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Meta from '../../components/Meta';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all your CSS files
@@ -443,23 +443,20 @@ const SAPmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
+const pageTitle = "Best SAP BASIS Training in Chennai | Expert-Led SAP BASIS Course";
+const pageDescription = "Enroll in top-rated SAP BASIS training in Chennai at Intellimindz. Master SAP BASIS concepts with real-time projects and expert guidance.";
+const pageKeywords = "sap basis training in chennai, sap basis course, sap basis certification, intellimindz";
+const ogUrl = "https://localhost:3000/sap_basis_training_in_chennai";
     return (
-        <HelmetProvider> {/* Wrap your application with HelmetProvider */}
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                {ContactModal && <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />}
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
-    return (
-        <>
-            <Helmet> {/* Add Helmet here */}
-                <title>SAP Basis Training in Chennai | SAP Basis Course in Chennai</title>
-                <meta name="description" content="Gain admin and system configuration skills with our SAP Basis Training in Chennai. Learn system architecture, user management, and more in our SAP Basis course in Chennai." />
-            </Helmet>
+    <>
+      <Meta
+        title={pageTitle}
+        description={pageDescription}
+        keywords={pageKeywords}
+        ogTitle={pageTitle}
+        ogDescription={pageDescription}
+        ogUrl={ogUrl}
+      />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -475,6 +472,7 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapBASISFaqSection /> {/* Updated component name */}
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };

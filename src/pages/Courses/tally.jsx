@@ -11,7 +11,7 @@ import "../../components/SapIM/IMsyllabus.css";
 
 // Import all your image assets
 import saphomeintro1 from '../../assests/images/saphomeintro1.png';
-import homeintro from '../../assests/images/flexiblebatches.jpeg';
+import homeintro from '../../assests/images/saphomeintro1.png';
 import bestPriceIcon from '../../assests/images/ExperiencedTrainers.jpeg';
 import runningIcon from '../../assests/images/practicallearning.jpeg';
 import staffIcon from '../../assests/images/flexiblebatches.jpeg';
@@ -57,7 +57,7 @@ const SapTrainingProfile = ({ openContactModal }) => {
         <div className="sap-training-container">
             <div className="sap-training-header animate__animated animate__flipInX">
                 <h1>
-                    Learn from the Best: Ab Initio Training by <span>Industry Experts</span>
+                    Learn from the Best: Tally Training by <span>Real-Time Experts</span>
                 </h1>
                 <div className="header-divider"></div>
             </div>
@@ -65,21 +65,21 @@ const SapTrainingProfile = ({ openContactModal }) => {
                 <div className="training-details">
                     <div className="sap-training-header animate__animated animate__lightSpeedInLeft">
                         <p className="intro-text">
-                            At IntelliMindz, our Ab Initio trainers are seasoned professionals with extensive experience in data integration and ETL development. With real-world project expertise, they guide you through a comprehensive learning journey in Ab Initio.
+                            At Chennai Trainings, our Tally trainers are experienced accounting professionals with extensive expertise in Tally ERP 9. They bring real-world knowledge to guide you through mastering Tally for accounting, inventory, and GST compliance, ensuring you’re job-ready.
                         </p>
                     </div>
                     <ul className="benefits-list">
-                        <li><span className="icon">✓</span> Master core and advanced Ab Initio concepts for data processing.</li>
-                        <li><span className="icon">✓</span> Learn from industry experts with hands-on ETL project experience.</li>
-                        <li><span className="icon">✓</span> Benefit from IntelliMindz’s proven track record in data integration training.</li>
-                        <li><span className="icon">✓</span> Receive career support, including resume guidance and interview preparation.</li>
-                        <li><span className="icon">✓</span> Work on real-time ETL scenarios to build job-ready skills.</li>
-                        <li><span className="icon">✓</span> Customized learning tailored to your pace and career goals.</li>
+                        <li><span className="icon">✓</span> Build a solid foundation in Tally from basics to advanced accounting features.</li>
+                        <li><span className="icon">✓</span> Learn from expert Tally trainers with hands-on experience in financial management.</li>
+                        <li><span className="icon">✓</span> Benefit from Chennai Trainings’ proven expertise in delivering high-quality Tally training.</li>
+                        <li><span className="icon">✓</span> Receive comprehensive career support, including resume guidance and interview preparation.</li>
+                        <li><span className="icon">✓</span> Work on real-world Tally projects to develop practical accounting skills.</li>
+                        <li><span className="icon">✓</span> Enjoy a customized learning experience tailored to your pace and career goals.</li>
                     </ul>
                     <button className="enquiry-button" onClick={openContactModal}>Enquire Now</button>
                 </div>
                 <div className="training-image">
-                    <img src={saphomeintro1} alt="Ab Initio Training" />
+                    <img src={saphomeintro1} alt="Tally Training" />
                 </div>
             </div>
         </div>
@@ -88,16 +88,16 @@ const SapTrainingProfile = ({ openContactModal }) => {
 
 const Corporate = () => {
     const blocksData = [
-        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from Ab Initio experts at our training center in Chennai." },
-        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking hands-on Ab Initio training with real-world applications." },
-        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose batch timings that fit your schedule." },
-        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engage in discussions focused on real-world ETL and data integration tasks." },
-        { image: onlinetest, heading: "Lifetime Access", paragraph: "Access Ab Initio course materials anytime for revision." },
-        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to enhance your learning." }
+        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from Tally experts at our training center in Chennai." },
+        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking hands-on Tally training for accounting and GST compliance." },
+        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose batch timings that align with your schedule." },
+        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engage in discussions focused on real-world Tally tasks like ledger creation and financial reporting." },
+        { image: onlinetest, heading: "Lifetime Access", paragraph: "Access Tally course materials anytime for revision." },
+        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to reinforce your Tally knowledge." }
     ];
     return (
         <div className="corporate-section">
-            <h2 className="corporate-title">Why Choose IntelliMindz?</h2>
+            <h2 className="corporate-title">Why Choose Chennai Trainings?</h2>
             <div className="corporate-grid">
                 {blocksData.map((block, index) => (
                     <div key={index} className="corporate-block">
@@ -124,10 +124,10 @@ const PlaceholderTrainingIcon = ({ type }) => (
 
 const TrainingModesSection = ({ openContactModal }) => {
     const trainingModes = [
-        { id: 'online', iconType: 'online', title: "Online Training", description: "Join live, instructor-led Ab Initio sessions from anywhere. Includes hands-on ETL exercises, real-time projects, and interactive Q&A for practical learning.", isPopular: true },
-        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn at your convenience with pre-recorded Ab Initio video sessions, lifetime access to course materials, and periodic updates.", isPopular: false },
-        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Participate in in-person Ab Initio sessions for immersive learning with direct trainer and peer interaction.", isPopular: false },
-        { id: 'hybrid', iconType: 'hybrid', title: "Hybrid Training", description: "Combine online and classroom learning for flexibility, ensuring consistent progress and support.", isPopular: false }
+        { id: 'online', iconType: 'online', title: "Online Training", description: "Join live, instructor-led Tally sessions from anywhere. Our online training includes hands-on exercises in ledger creation, GST filing, and inventory management, with interactive Q&A.", isPopular: true },
+        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn Tally at your own pace with pre-recorded videos. Get lifetime access to course materials, practice files, and updates to stay current.", isPopular: false },
+        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Attend in-person Tally sessions for an immersive experience. Our classroom training fosters direct interaction with trainers and peers for collaborative learning.", isPopular: false },
+        { id: 'hybrid', iconType: 'hybrid', title: "Hybrid Training", description: "Combine online and classroom learning for flexibility. Our hybrid model lets you switch formats to suit your schedule and learning preferences.", isPopular: false }
     ];
     return (
         <div className="training-modes-section">
@@ -149,9 +149,9 @@ const TrainingModesSection = ({ openContactModal }) => {
 const SAPHeroSection = ({ openContactModal }) => {
     return (
         <div className="sap-fico-expert-section">
-            <h1>Become a Skilled Ab Initio Developer with IntelliMindz</h1>
-            <p>Industry-focused Ab Initio training to master ETL processes and data integration solutions.</p>
-            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your Ab Initio Journey Today!</button>
+            <h1>Become a Skilled Tally Professional with Chennai Trainings</h1>
+            <p>Master Tally ERP 9 with industry-relevant training to excel in accounting, inventory management, and GST compliance.</p>
+            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your Tally Journey Today!</button>
         </div>
     );
 };
@@ -159,15 +159,15 @@ const SAPHeroSection = ({ openContactModal }) => {
 const SAPAboutSection = () => {
     return (
         <div className="sap-fico-about-section">
-            <h2>About Our Ab Initio Training in Chennai</h2>
+            <h2>About Our Tally Training in Chennai</h2>
             <div className="sap-fico-about-content">
                 <div className="sap-fico-about-text">
-                    <p>IntelliMindz offers comprehensive Ab Initio training in Chennai, designed to provide both theoretical knowledge and practical expertise in data integration and ETL processes. Our curriculum covers key Ab Initio components like GDE, CoOperating System, Data Profiler, ConductIt, and more.</p>
-                    <p>The course includes interactive classes, live ETL development sessions, practical exercises, and real-time projects. By working on industry-relevant scenarios, learners gain the skills to handle large-scale data integration tasks in enterprise environments.</p>
-                    <p>Whether you’re a beginner or a professional looking to upskill, our Ab Initio training equips you to excel in the competitive data management job market.</p>
+                    <p>At Chennai Trainings, our Tally training is designed to provide hands-on experience and in-depth knowledge of Tally ERP 9. Our comprehensive curriculum covers accounting fundamentals, ledger creation, inventory management, GST compliance, and financial reporting, ensuring you gain practical skills for business accounting.</p>
+                    <p>The course includes live practice sessions, practical exercises, and project-based learning. By working on real-world Tally scenarios, learners develop the confidence to manage accounting tasks in industries like retail, manufacturing, and finance.</p>
+                    <p>Whether you’re a beginner or a professional looking to enhance your Tally skills, our training equips you to succeed in the competitive accounting industry with practical expertise.</p>
                 </div>
                 <div className="sap-fico-about-image-container">
-                    <img src={aboutsapficoImg} alt="Ab Initio Training in Chennai" />
+                    <img src={aboutsapficoImg} alt="Tally Training in Chennai" />
                 </div>
             </div>
         </div>
@@ -176,16 +176,16 @@ const SAPAboutSection = () => {
 
 const KeyFeaturesSection = () => {
     const features = [
-        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "Choose between in-person classroom sessions or flexible online learning, tailored for working professionals, students, and job seekers." },
-        { id: 2, image: handsonsapImg, title: "Hands-on Practical Sessions with Ab Initio Access", description: "Gain hands-on experience with Ab Initio tools like GDE and Co>Operating System, allowing you to develop and test ETL processes in a real environment." },
-        { id: 3, image: casestudyrealtimeImg, title: "Real-Time Case Studies", description: "Work on case studies based on actual data integration projects to enhance problem-solving and prepare for industry challenges." },
-        { id: 4, image: ExperiencedtrainersImg, title: "Expert Trainers", description: "Learn from industry professionals with extensive experience in Ab Initio and large-scale data integration projects." },
-        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes", description: "Limited batch sizes ensure personalized attention and one-on-one mentoring for effective learning." },
-        { id: 6, image: interactiveImg, title: "Interactive Sessions & Assessments", description: "Engage in interactive discussions and module-wise assessments to reinforce learning and prepare for job interviews." },
+        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "We offer both in-person and virtual Tally training, making it accessible for students, professionals, and job seekers. Choose the mode that fits your schedule." },
+        { id: 2, image: handsonsapImg, title: "Hands-on Tally Practice", description: "Our training provides access to Tally software for practical exercises in ledger creation, GST filing, and inventory management." },
+        { id: 3, image: casestudyrealtimeImg, title: "Real-World Case Studies", description: "Work on case studies based on actual Tally usage in businesses to enhance problem-solving skills and prepare for accounting roles." },
+        { id: 4, image: ExperiencedtrainersImg, title: "Expert Tally Trainers", description: "Learn from accounting professionals with extensive experience in Tally ERP 9 and financial management across various industries." },
+        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes for Personalized Learning", description: "Our limited batch sizes ensure individual attention, allowing trainers to address queries and provide tailored guidance." },
+        { id: 6, image: interactiveImg, title: "Interactive Sessions and Assessments", description: "Each module includes interactive discussions, quizzes, and assessments aligned with Tally job roles to prepare you for interviews." },
     ];
     return (
         <div className="sap-fico-features-section">
-            <h2>Ab Initio Training in Chennai Key Features</h2>
+            <h2>Tally Training in Chennai Key Features</h2>
             <div className="sap-fico-features-grid">
                 {features.map((feature) => (
                     <div key={feature.id} className="feature-card">
@@ -204,20 +204,21 @@ const KeyFeaturesSection = () => {
 const SapFicoCourseContentSection = ({ openContactModal }) => {
     const [activeModuleId, setActiveModuleId] = useState(1);
     const allModulesData = [
-        { id: 1, title: "Module 1: Introduction to Ab Initio", topics: ["Overview of ETL and Data Integration", "Introduction to Ab Initio Architecture", "Role of Ab Initio in Data Warehousing", "Ab Initio Components Overview", "Installation and Setup Basics", "Understanding GDE (Graphical Development Environment)"] },
-        { id: 2, title: "Module 2: Ab Initio Co>Operating System", topics: ["Co>Operating System Architecture", "File Systems and Data Storage", "Parallel Processing Concepts", "Sandbox and Parameter Management", "Command Line Interface Basics", "Error Handling in Co>Operating System"] },
-        { id: 3, title: "Module 3: Ab Initio GDE", topics: ["Creating Graphs in GDE", "Components: Transform, Sort, Join, Rollup", "Data Flow and Graph Execution", "Debugging Graphs", "Parameterization in Graphs", "Performance Tuning in GDE"] },
-        { id: 4, title: "Module 4: Data Manipulation and Transformation", topics: ["Data Transformation Techniques", "Working with DML (Data Manipulation Language)", "Handling Complex Data Formats", "Partitioning and De-partitioning", "Lookup and Join Operations", "Real-Time Data Transformation Scenarios"] },
-        { id: 5, title: "Module 5: Conduct>It and Plans", topics: ["Introduction to Conduct>It", "Creating and Managing Plans", "Scheduling and Monitoring ETL Jobs", "Dependency Analysis", "Error Handling in Plans", "Real-Time Plan Implementation"] },
-        { id: 6, title: "Module 6: Data Profiler and Data Quality", topics: ["Introduction to Data Profiler", "Data Quality Rules and Validation", "Profiling Techniques for Data Analysis", "Handling Data Anomalies", "Integrating Data Quality in ETL", "Real-Time Profiling Exercises"] },
-        { id: 7, title: "Module 7: Advanced Ab Initio Concepts", topics: ["Continuous Flows and Real-Time Processing", "Ab Initio Metadata Hub", "Integration with Databases (SQL, Oracle, etc.)", "Web Services and API Integration", "Performance Optimization Techniques", "High Availability and Fault Tolerance"] },
-        { id: 8, title: "Module 8: Real-Time Project and Deployment", topics: ["End-to-End ETL Project Development", "Data Migration Scenarios", "Testing and Validation of ETL Processes", "Deployment Strategies", "Performance Monitoring and Tuning", "Project Documentation and Review"] }
+        { id: 1, title: "Module 1: Introduction to Tally ERP 9", topics: ["Overview of Tally ERP 9", "Features and Benefits of Tally", "Tally Installation and Setup", "Navigating Tally Interface", "Company Creation and Alteration", "Basic Accounting Concepts"] },
+        { id: 2, title: "Module 2: Accounting in Tally", topics: ["Creating Ledgers and Groups", "Voucher Types and Entries", "Journal, Payment, and Receipt Vouchers", "Contra and Sales Vouchers", "Accounting for Cash and Bank Transactions", "Trial Balance and Day Book"] },
+        { id: 3, title: "Module 3: Inventory Management", topics: ["Stock Groups and Categories", "Creating Stock Items and Units", "Inventory Vouchers (Purchase and Sales)", "Stock Transfer and Adjustments", "Inventory Reports", "Batch-Wise and Godown Management"] },
+        { id: 4, title: "Module 4: GST Compliance in Tally", topics: ["Introduction to GST", "Configuring GST in Tally", "Creating GST Ledgers", "Recording GST Transactions", "Generating GST Returns (GSTR-1, GSTR-3B)", "GST Reconciliation and Reports"] },
+        { id: 5, title: "Module 5: Advanced Accounting Features", topics: ["Cost Centers and Cost Categories", "Budget Creation and Monitoring", "Interest Calculation", "Multi-Currency Transactions", "Bank Reconciliation", "Post-Dated Cheque Management"] },
+        { id: 6, title: "Module 6: Financial Reporting", topics: ["Balance Sheet Preparation", "Profit and Loss Statement", "Cash Flow and Fund Flow Reports", "Ratio Analysis", "Day Book and Ledger Reports", "Customizing Financial Reports"] },
+        { id: 7, title: "Module 7: Payroll Management in Tally", topics: ["Payroll Configuration", "Creating Employee Groups and Masters", "Salary Structure and Components", "Payroll Vouchers and Processing", "PF, ESI, and TDS Deductions", "Payroll Reports"] },
+        { id: 8, title: "Module 8: Data Management and Security", topics: ["Data Backup and Restore", "TallyVault for Data Security", "User Roles and Access Control", "Splitting Company Data", "Data Synchronization", "Exporting and Importing Data"] },
+        { id: 9, title: "Module 9: Advanced Tally Features", topics: ["Job Costing in Tally", "Point of Sale (POS) Transactions", "Manufacturing and Bill of Materials", "Order Processing and Tracking", "TDS (Tax Deducted at Source)", "Tally Customization Basics"] },
+        { id: 10, title: "Module 10: Real-World Project and Certification", topics: ["End-to-End Tally Project", "Managing Accounting and Inventory for a Business", "GST Filing and Financial Reporting", "Troubleshooting Common Tally Issues", "Best Practices in Tally", "Project Review and Certification Prep"] }
     ];
-    const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
     return (
         <div className="java-course-content-section">
             <h2 className="java-section-title">
-                Ab Initio Course Modules
+                Tally Course Modules
                 <span className="java-title-underline"></span>
             </h2>
             <div className="java-course-layout-container">
@@ -234,7 +235,7 @@ const SapFicoCourseContentSection = ({ openContactModal }) => {
                 <div className="java-topics-details-panel">
                     <h3 className="java-topics-title">Topics:</h3>
                     <ul className="java-topics-list">
-                        {activeModuleDetails.topics.map((item, index) => (<li key={index}>{item}</li>))}
+                        {allModulesData.find(module => module.id === activeModuleId).topics.map((item, index) => (<li key={index}>{item}</li>))}
                     </ul>
                     <button className="java-download-curriculum-button" onClick={openContactModal}>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style={{ marginRight: '8px', verticalAlign: 'middle' }}>
@@ -250,8 +251,8 @@ const SapFicoCourseContentSection = ({ openContactModal }) => {
 
 const BatchDetailsSection = ({ openContactModal }) => {
     const batchInfo = [
-        { id: 1, monthYear: "June 2025", type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Fresh Jobseekers", "Non IT to IT transition"] },
-        { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
+        { id: 1, monthYear: "June 2025", type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Beginners", "Career Transition to Accounting"] },
+        { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.5 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Working Professionals"] }
     ];
     return (
         <div
@@ -293,13 +294,13 @@ const BatchDetailsSection = ({ openContactModal }) => {
 
 const CorporateTrainingModesSection = () => {
     const trainingModesData = [
-        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate Ab Initio training", title: "Onsite Training:", description: "Conducted at your company premises for tailored, collaborative learning using your data environment." },
-        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite Ab Initio training center", title: "Offsite Training:", description: "Held at professional venues for focused learning, ideal for certifications and workshops." },
-        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led Ab Initio training", title: "Virtual Instructor-Led Training (VILT):", description: "Live online training via Zoom or Teams, perfect for remote or distributed teams." }
+        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate Tally training", title: "Onsite Training:", description: "Conducted at your company premises, this training offers a tailored experience using your Tally setup, ideal for upskilling teams in accounting and GST." },
+        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite Tally training center", title: "Offsite Training:", description: "Held at professional training centers, this mode provides focused Tally training without workplace distractions, perfect for certifications." },
+        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led Tally training", title: "Virtual Instructor-Led Training (VILT):", description: "Delivered live via platforms like Zoom, VILT offers flexibility for remote teams with real-time interaction and hands-on Tally practice." }
     ];
     return (
         <div className="corporate-training-modes-section">
-            <h2 className="corporate-training-modes-title">Corporate Training Modes for Ab Initio in Chennai</h2>
+            <h2 className="corporate-training-modes-title">Corporate Training Modes for Tally in Chennai</h2>
             <div className="modes-container-grid">
                 {trainingModesData.map(mode => (
                     <div key={mode.id} className="mode-card-item">
@@ -315,11 +316,11 @@ const CorporateTrainingModesSection = () => {
 
 const AlumniReviewsSection = () => {
     const reviewsData = [
-        { id: 1, name: "Karthik V.", designation: "ETL Developer", avatarInitial: "K", rating: 5, companyLogoText: "Intellimindz", reviewText: "The Ab Initio course at IntelliMindz was well-structured. Hands-on projects helped me master graph development and ETL processes." },
-        { id: 2, name: "Priya S.", designation: "Data Engineer", avatarInitial: "P", rating: 5, companyLogoText: "Intellimindz", reviewText: "The trainers explained complex concepts like partitioning and Conduct>It clearly. Real-time projects boosted my confidence." },
-        { id: 3, name: "Suresh K.", designation: "Data Integration Specialist", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "Flexible batches and practical training made learning Ab Initio easy. The course prepared me well for interviews." },
-        { id: 4, name: "Anitha R.", designation: "ETL Trainee", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "As a fresher, I found the course beginner-friendly. The trainers supported me throughout, and I’m now confident in ETL development." },
-        { id: 5, name: "Vijay M.", designation: "Senior ETL Developer", avatarInitial: "V", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course’s focus on real-time scenarios and performance tuning was excellent. It helped me enhance my existing ETL skills." }
+        { id: 1, name: "Ramesh K.", designation: "Accounts Executive", avatarInitial: "R", rating: 5, companyLogoText: "Chennai Trainings", reviewText: "The Tally course at Chennai Trainings was fantastic. The hands-on practice with GST filing and ledger creation prepared me for my accounting role." },
+        { id: 2, name: "Lakshmi S.", designation: "Accountant", avatarInitial: "L", rating: 5, companyLogoText: "Chennai Trainings", reviewText: "The trainers explained Tally’s inventory and financial reporting modules clearly. Their real-world experience made learning practical and engaging." },
+        { id: 3, name: "Vikram P.", designation: "Tally Consultant", avatarInitial: "V", rating: 5, companyLogoText: "Chennai Trainings", reviewText: "The flexible batch timings and real-world projects helped me balance work and learning. The interview preparation was key to my Tally consulting job." },
+        { id: 4, name: "Sneha R.", designation: "Tally Trainee", avatarInitial: "S", rating: 5, companyLogoText: "Chennai Trainings", reviewText: "As a beginner, I found the course very approachable. The trainers covered Tally from scratch, and the projects boosted my confidence in accounting." },
+        { id: 5, name: "Arun M.", designation: "Finance Assistant", avatarInitial: "A", rating: 5, companyLogoText: "Chennai Trainings", reviewText: "The payroll and GST modules were particularly valuable. The practical sessions and real-world scenarios helped me excel in my finance role." }
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -335,13 +336,13 @@ const AlumniReviewsSection = () => {
             <div className="review-slider-layout-container">
                 <div className="reviewer-image-area">
                     <div className="reviewer-main-image-placeholder">
-                        <img src={alumniReviewImg} alt="Alumni Reviewer Ab Initio" />
+                        <img src={alumniReviewImg} alt="Alumni Reviewer Tally" />
                     </div>
                 </div>
                 <div className="review-content-area">
                     <div className="review-card">
                         <div className="review-card-header">
-                            <span className="review-company-logo-text">{currentReview.companyLogoText || "Intellimindz"}</span>
+                            <span className="review-company-logo-text">{currentReview.companyLogoText || "Chennai Trainings"}</span>
                         </div>
                         <div className="reviewer-info-line">
                             <div className="reviewer-avatar">{currentReview.avatarInitial}</div>
@@ -375,25 +376,25 @@ const AlumniReviewsSection = () => {
 const SapABAPFaqSection = () => {
     const [activeModule, setActiveModule] = useState(null);
     const modulesData = [
-        { id: 1, title: "What is Ab Initio used for?", description: "Ab Initio is a powerful ETL tool used for data integration, processing, and managing large-scale data in enterprise environments." },
-        { id: 2, title: "Who should take this Ab Initio training?", description: "Fresh graduates, data analysts, ETL developers, and professionals looking to specialize in data integration." },
-        { id: 3, title: "Do I need prior coding knowledge?", description: "Basic knowledge of databases or programming is helpful but not mandatory. Our course starts from the basics." },
-        { id: 4, title: "Is Ab Initio in demand in 2025?", description: "Yes, with the rise in big data and analytics, Ab Initio skills are highly sought after in industries like finance and telecom." },
-        { id: 5, title: "What’s the difference between Ab Initio and Informatica?", description: "Both are ETL tools, but Ab Initio is known for its high performance and scalability in handling complex data transformations." },
-        { id: 6, title: "Is the training available online?", description: "Yes, we offer both online and offline Ab Initio training with live, instructor-led sessions." },
-        { id: 7, title: "Will there be hands-on practice?", description: "Yes, you’ll get access to Ab Initio tools for practical ETL development and graph creation." },
-        { id: 8, title: "Do you offer interview preparation?", description: "Yes, we provide mock interviews, resume tips, and real-world ETL scenarios for job readiness." },
-        { id: 9, title: "Can I switch to Ab Initio from another field?", description: "Yes, with basic database knowledge, you can transition to Ab Initio with our structured training." },
-        { id: 10, title: "Is Ab Initio suitable for freshers?", description: "Absolutely, it’s a great entry point for a career in data integration and ETL development." }
+        { id: 1, title: "What is Tally used for?", description: "Tally ERP 9 is used for accounting, inventory management, GST compliance, payroll processing, and financial reporting in businesses." },
+        { id: 2, title: "Who should take this Tally training?", description: "Students, accounting professionals, business owners, and job seekers looking to specialize in Tally for financial management roles." },
+        { id: 3, title: "Do I need prior accounting experience to learn Tally?", description: "No prior accounting experience is required. Our course covers accounting basics and Tally from scratch." },
+        { id: 4, title: "Is Tally in demand in 2025?", description: "Yes, Tally is widely used in small and medium businesses for accounting and GST compliance, with strong demand for skilled professionals." },
+        { id: 5, title: "What’s the difference between Tally and other accounting software?", description: "Tally is user-friendly, cost-effective, and tailored for Indian businesses, with robust GST and inventory management features." },
+        { id: 6, title: "Is the training available online?", description: "Yes, we offer both online and offline Tally training with live instructor-led sessions and hands-on practice." },
+        { id: 7, title: "Will there be hands-on practice?", description: "Yes, our training provides access to Tally software for practical exercises in accounting, GST, and inventory management." },
+        { id: 8, title: "Do you offer interview preparation?", description: "Yes, we provide mock interviews, resume guidance, and real-world scenarios to prepare you for Tally-related accounting roles." },
+        { id: 9, title: "Can I switch to Tally from another field?", description: "Yes, with basic computer skills, you can learn Tally and transition to accounting or financial management roles." },
+        { id: 10, title: "Is Tally suitable for beginners?", description: "Absolutely, Tally training is ideal for beginners, offering a clear path to accounting and financial management careers." }
     ];
     return (
         <div className="sapim-syllabus">
             <div className="sap-home-syllabus-header">
                 <h1>
-                    Have a Question with Our <span className="highlighted-course-title">Ab Initio Course?</span>
+                    Have a Question with Our <span className="highlighted-course-title">Tally Course?</span>
                 </h1>
                 <p className="syllabus-header-subtitle">
-                    Here, you can get the answer to your question about our Ab Initio course in Chennai.
+                    Here, you can get the answer to your question about our Tally course in Chennai.
                 </p>
             </div>
             <div className="syllabus-grid">
@@ -424,13 +425,13 @@ const SapABAPFaqSection = () => {
 const CallToActionBanner = ({ openContactModal }) => {
     return (
         <div className="cta-banner-section">
-            <p className="cta-banner-text">Navigate your career ambitions with our expert guidance.</p>
+            <p className="cta-banner-text">Launch your accounting career with our expert Tally training for business success.</p>
             <button className="cta-banner-button" onClick={openContactModal}>Contact Us</button>
         </div>
     );
 };
 
-const Abinitiomain = () => {
+const Tallymain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
@@ -448,8 +449,8 @@ const Saponline = ({ openContactModal }) => {
     return (
         <>
             <Helmet>
-                <title>Ab Initio Training in Chennai | Ab Initio Course in Chennai</title>
-                <meta name="description" content="Master data integration and ETL with our Ab Initio Training in Chennai. Learn advanced data processing through our expert-led Ab Initio course." />
+                <title>Tally Training in Chennai | Tally Course in Chennai</title>
+                <meta name="description" content="Join our Tally Training in Chennai to master Tally ERP 9 for accounting, GST, and inventory management. Expert-led Tally course with hands-on practice." />
             </Helmet>
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
@@ -470,7 +471,7 @@ const Saponline = ({ openContactModal }) => {
     );
 };
 
-export default Abinitiomain;
+export default Tallymain;
 
 const Onlineheader = () => {
     return <div className="online_container"></div>;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Meta from '../../components/Meta';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all your CSS files
@@ -432,24 +432,21 @@ const SAPmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
+const pageTitle = "Best SAP IM Training in Chennai | Expert-Led SAP IM Course";
+const pageDescription = "Enroll in top-rated SAP IM training in Chennai at Intellimindz. Master SAP IM concepts with real-time projects and expert guidance.";
+const pageKeywords = "sap im training in chennai, sap im course, sap im certification, intellimindz";
+const ogUrl = "https://localhost:3000/sap_im_training_in_chennai";
 
     return (
-        <HelmetProvider> {/* Wrap your application with HelmetProvider */}
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
-    return (
-        <>
-            <Helmet> {/* Add Helmet here */}
-                <title>SAP IM Training in Chennai | SAP Investment Management Course in Chennai</title>
-                <meta name="description" content="Join the best SAP IM Training in Chennai to specialize in investment planning and control. Our SAP Investment Management course in Chennai offers practical and project-based learning." />
-            </Helmet>
+    <>
+      <Meta
+        title={pageTitle}
+        description={pageDescription}
+        keywords={pageKeywords}
+        ogTitle={pageTitle}
+        ogDescription={pageDescription}
+        ogUrl={ogUrl}
+      />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -465,6 +462,7 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapImSyllabus />
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };
