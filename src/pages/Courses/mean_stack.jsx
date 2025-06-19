@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
-// Import all your CSS files
+// Import all your CSS files (unchanged)
 import "../../components/saponlinecom/onlineaboutus.css";
 import "../../components/saponlinecom/sapfico.css";
 import "../../components/saponlinecom/onlinecorporate.css";
 import "../../components/SAP/Header/Introsap.css";
 import "../../components/SapIM/IMsyllabus.css";
 
-// Import all your image assets
+// Import all your image assets (unchanged)
 import saphomeintro1 from '../../assests/images/saphomeintro1.png';
-import homeintro from '../../assests/images/flexiblebatches.jpeg';
+import homeintro from '../../assests/images/saphomeintro1.png';
 import bestPriceIcon from '../../assests/images/ExperiencedTrainers.jpeg';
 import runningIcon from '../../assests/images/practicallearning.jpeg';
 import staffIcon from '../../assests/images/flexiblebatches.jpeg';
@@ -57,7 +57,7 @@ const SapTrainingProfile = ({ openContactModal }) => {
         <div className="sap-training-container">
             <div className="sap-training-header animate__animated animate__flipInX">
                 <h1>
-                    Learn from the Best: Ab Initio Training by <span>Industry Experts</span>
+                    Learn from Experts: MEAN Stack Training by <span>Industry Professionals</span>
                 </h1>
                 <div className="header-divider"></div>
             </div>
@@ -65,21 +65,21 @@ const SapTrainingProfile = ({ openContactModal }) => {
                 <div className="training-details">
                     <div className="sap-training-header animate__animated animate__lightSpeedInLeft">
                         <p className="intro-text">
-                            At IntelliMindz, our Ab Initio trainers are seasoned professionals with extensive experience in data integration and ETL development. With real-world project expertise, they guide you through a comprehensive learning journey in Ab Initio.
+                            At IntelliMindz, our MEAN Stack trainers are seasoned developers with hands-on expertise in building scalable web applications. Their industry experience ensures a practical and impactful learning journey.
                         </p>
                     </div>
                     <ul className="benefits-list">
-                        <li><span className="icon">✓</span> Master core and advanced Ab Initio concepts for data processing.</li>
-                        <li><span className="icon">✓</span> Learn from industry experts with hands-on ETL project experience.</li>
-                        <li><span className="icon">✓</span> Benefit from IntelliMindz’s proven track record in data integration training.</li>
+                        <li><span className="icon">✓</span> Gain expertise in full-stack development with MEAN Stack.</li>
+                        <li><span className="icon">✓</span> Learn from developers with real-world project experience.</li>
+                        <li><span className="icon">✓</span> Benefit from IntelliMindz’s proven success in MEAN Stack training and placements.</li>
                         <li><span className="icon">✓</span> Receive career support, including resume guidance and interview preparation.</li>
-                        <li><span className="icon">✓</span> Work on real-time ETL scenarios to build job-ready skills.</li>
-                        <li><span className="icon">✓</span> Customized learning tailored to your pace and career goals.</li>
+                        <li><span className="icon">✓</span> Work on real-time web development projects to build job-ready skills.</li>
+                        <li><span className="icon">✓</span> Enjoy a customized learning experience tailored to your career goals.</li>
                     </ul>
                     <button className="enquiry-button" onClick={openContactModal}>Enquire Now</button>
                 </div>
                 <div className="training-image">
-                    <img src={saphomeintro1} alt="Ab Initio Training" />
+                    <img src={saphomeintro1} alt="MEAN Stack Training" />
                 </div>
             </div>
         </div>
@@ -88,12 +88,12 @@ const SapTrainingProfile = ({ openContactModal }) => {
 
 const Corporate = () => {
     const blocksData = [
-        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from Ab Initio experts at our training center in Chennai." },
-        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking hands-on Ab Initio training with real-world applications." },
-        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose batch timings that fit your schedule." },
-        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engage in discussions focused on real-world ETL and data integration tasks." },
-        { image: onlinetest, heading: "Lifetime Access", paragraph: "Access Ab Initio course materials anytime for revision." },
-        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to enhance your learning." }
+        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from MEAN Stack experts at our training center in Chennai." },
+        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking hands-on training with real-world web development projects." },
+        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose batch timings that suit your schedule." },
+        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engage in discussions focused on real-world MEAN Stack development tasks." },
+        { image: onlinetest, heading: "Lifetime Access", paragraph: "Revisit MEAN Stack course content anytime for revision." },
+        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to strengthen your understanding." }
     ];
     return (
         <div className="corporate-section">
@@ -124,9 +124,9 @@ const PlaceholderTrainingIcon = ({ type }) => (
 
 const TrainingModesSection = ({ openContactModal }) => {
     const trainingModes = [
-        { id: 'online', iconType: 'online', title: "Online Training", description: "Join live, instructor-led Ab Initio sessions from anywhere. Includes hands-on ETL exercises, real-time projects, and interactive Q&A for practical learning.", isPopular: true },
-        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn at your convenience with pre-recorded Ab Initio video sessions, lifetime access to course materials, and periodic updates.", isPopular: false },
-        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Participate in in-person Ab Initio sessions for immersive learning with direct trainer and peer interaction.", isPopular: false },
+        { id: 'online', iconType: 'online', title: "Online Training", description: "Join live, instructor-led MEAN Stack sessions from anywhere. Includes hands-on projects building full-stack applications.", isPopular: true },
+        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn at your own pace with pre-recorded MEAN Stack videos. Get lifetime access to course materials and updates.", isPopular: false },
+        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Experience immersive in-person MEAN Stack training in Chennai for collaborative learning with trainers and peers.", isPopular: false },
         { id: 'hybrid', iconType: 'hybrid', title: "Hybrid Training", description: "Combine online and classroom learning for flexibility, ensuring consistent progress and support.", isPopular: false }
     ];
     return (
@@ -149,9 +149,9 @@ const TrainingModesSection = ({ openContactModal }) => {
 const SAPHeroSection = ({ openContactModal }) => {
     return (
         <div className="sap-fico-expert-section">
-            <h1>Become a Skilled Ab Initio Developer with IntelliMindz</h1>
-            <p>Industry-focused Ab Initio training to master ETL processes and data integration solutions.</p>
-            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your Ab Initio Journey Today!</button>
+            <h1>Become a Skilled MEAN Stack Developer with IntelliMindz</h1>
+            <p>Industry-focused MEAN Stack training to master full-stack web development.</p>
+            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your MEAN Stack Journey Today!</button>
         </div>
     );
 };
@@ -159,15 +159,15 @@ const SAPHeroSection = ({ openContactModal }) => {
 const SAPAboutSection = () => {
     return (
         <div className="sap-fico-about-section">
-            <h2>About Our Ab Initio Training in Chennai</h2>
+            <h2>About Our MEAN Stack Training in Chennai</h2>
             <div className="sap-fico-about-content">
                 <div className="sap-fico-about-text">
-                    <p>IntelliMindz offers comprehensive Ab Initio training in Chennai, designed to provide both theoretical knowledge and practical expertise in data integration and ETL processes. Our curriculum covers key Ab Initio components like GDE, CoOperating System, Data Profiler, ConductIt, and more.</p>
-                    <p>The course includes interactive classes, live ETL development sessions, practical exercises, and real-time projects. By working on industry-relevant scenarios, learners gain the skills to handle large-scale data integration tasks in enterprise environments.</p>
-                    <p>Whether you’re a beginner or a professional looking to upskill, our Ab Initio training equips you to excel in the competitive data management job market.</p>
+                    <p>At IntelliMindz Chennai, our MEAN Stack training equips you with expertise in building modern web applications using MongoDB, Express.js, Angular, and Node.js. The curriculum covers front-end and back-end development, RESTful APIs, and database integration.</p>
+                    <p>Our course includes hands-on labs, real-time projects, and interactive sessions to ensure practical mastery. You’ll work on industry-relevant scenarios like developing e-commerce platforms and dynamic web applications.</p>
+                    <p>Whether you're a beginner or a professional aiming to specialize in full-stack development, our training prepares you for high-demand roles in web development.</p>
                 </div>
                 <div className="sap-fico-about-image-container">
-                    <img src={aboutsapficoImg} alt="Ab Initio Training in Chennai" />
+                    <img src={aboutsapficoImg} alt="MEAN Stack Training in Chennai" />
                 </div>
             </div>
         </div>
@@ -176,16 +176,16 @@ const SAPAboutSection = () => {
 
 const KeyFeaturesSection = () => {
     const features = [
-        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "Choose between in-person classroom sessions or flexible online learning, tailored for working professionals, students, and job seekers." },
-        { id: 2, image: handsonsapImg, title: "Hands-on Practical Sessions with Ab Initio Access", description: "Gain hands-on experience with Ab Initio tools like GDE and Co>Operating System, allowing you to develop and test ETL processes in a real environment." },
-        { id: 3, image: casestudyrealtimeImg, title: "Real-Time Case Studies", description: "Work on case studies based on actual data integration projects to enhance problem-solving and prepare for industry challenges." },
-        { id: 4, image: ExperiencedtrainersImg, title: "Expert Trainers", description: "Learn from industry professionals with extensive experience in Ab Initio and large-scale data integration projects." },
-        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes", description: "Limited batch sizes ensure personalized attention and one-on-one mentoring for effective learning." },
-        { id: 6, image: interactiveImg, title: "Interactive Sessions & Assessments", description: "Engage in interactive discussions and module-wise assessments to reinforce learning and prepare for job interviews." },
+        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "Choose between in-person or online MEAN Stack training, tailored for professionals, students, and job seekers." },
+        { id: 2, image: handsonsapImg, title: "Hands-on MEAN Stack Tools", description: "Gain practical experience with MongoDB, Express.js, Angular, and Node.js." },
+        { id: 3, image: casestudyrealtimeImg, title: "Real-World MEAN Stack Projects", description: "Work on live web development projects to enhance problem-solving and interview readiness." },
+        { id: 4, image: ExperiencedtrainersImg, title: "Expert MEAN Stack Trainers", description: "Learn from developers with extensive experience in full-stack projects." },
+        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes", description: "Limited batch sizes ensure personalized mentoring for effective learning." },
+        { id: 6, image: interactiveImg, title: "Interactive Assessments", description: "Engage in module-wise discussions and assessments aligned with MEAN Stack interview topics." }
     ];
     return (
         <div className="sap-fico-features-section">
-            <h2>Ab Initio Training in Chennai Key Features</h2>
+            <h2>MEAN Stack Training in Chennai Key Features</h2>
             <div className="sap-fico-features-grid">
                 {features.map((feature) => (
                     <div key={feature.id} className="feature-card">
@@ -204,20 +204,22 @@ const KeyFeaturesSection = () => {
 const SapFicoCourseContentSection = ({ openContactModal }) => {
     const [activeModuleId, setActiveModuleId] = useState(1);
     const allModulesData = [
-        { id: 1, title: "Module 1: Introduction to Ab Initio", topics: ["Overview of ETL and Data Integration", "Introduction to Ab Initio Architecture", "Role of Ab Initio in Data Warehousing", "Ab Initio Components Overview", "Installation and Setup Basics", "Understanding GDE (Graphical Development Environment)"] },
-        { id: 2, title: "Module 2: Ab Initio Co>Operating System", topics: ["Co>Operating System Architecture", "File Systems and Data Storage", "Parallel Processing Concepts", "Sandbox and Parameter Management", "Command Line Interface Basics", "Error Handling in Co>Operating System"] },
-        { id: 3, title: "Module 3: Ab Initio GDE", topics: ["Creating Graphs in GDE", "Components: Transform, Sort, Join, Rollup", "Data Flow and Graph Execution", "Debugging Graphs", "Parameterization in Graphs", "Performance Tuning in GDE"] },
-        { id: 4, title: "Module 4: Data Manipulation and Transformation", topics: ["Data Transformation Techniques", "Working with DML (Data Manipulation Language)", "Handling Complex Data Formats", "Partitioning and De-partitioning", "Lookup and Join Operations", "Real-Time Data Transformation Scenarios"] },
-        { id: 5, title: "Module 5: Conduct>It and Plans", topics: ["Introduction to Conduct>It", "Creating and Managing Plans", "Scheduling and Monitoring ETL Jobs", "Dependency Analysis", "Error Handling in Plans", "Real-Time Plan Implementation"] },
-        { id: 6, title: "Module 6: Data Profiler and Data Quality", topics: ["Introduction to Data Profiler", "Data Quality Rules and Validation", "Profiling Techniques for Data Analysis", "Handling Data Anomalies", "Integrating Data Quality in ETL", "Real-Time Profiling Exercises"] },
-        { id: 7, title: "Module 7: Advanced Ab Initio Concepts", topics: ["Continuous Flows and Real-Time Processing", "Ab Initio Metadata Hub", "Integration with Databases (SQL, Oracle, etc.)", "Web Services and API Integration", "Performance Optimization Techniques", "High Availability and Fault Tolerance"] },
-        { id: 8, title: "Module 8: Real-Time Project and Deployment", topics: ["End-to-End ETL Project Development", "Data Migration Scenarios", "Testing and Validation of ETL Processes", "Deployment Strategies", "Performance Monitoring and Tuning", "Project Documentation and Review"] }
+        { id: 1, title: "Module 1: Introduction to MEAN Stack", topics: ["Overview of MEAN Stack", "Full-Stack Development Basics", "MEAN vs. Other Stacks", "Setting Up Development Environment", "Version Control with Git", "Introduction to JavaScript and ES6"] },
+        { id: 2, title: "Module 2: MongoDB", topics: ["Introduction to NoSQL Databases", "MongoDB Installation and Setup", "CRUD Operations in MongoDB", "Schema Design and Data Modeling", "Aggregation Framework", "MongoDB with Mongoose"] },
+        { id: 3, title: "Module 3: Express.js", topics: ["Introduction to Express.js", "Setting Up Express Server", "Routing and Middleware", "RESTful API Development", "Error Handling in Express", "Integrating Express with MongoDB"] },
+        { id: 4, title: "Module 4: Angular", topics: ["Introduction to Angular", "Angular CLI and Setup", "Components and Modules", "Data Binding and Directives", "Services and Dependency Injection", "Routing and Navigation"] },
+        { id: 5, title: "Module 5: Node.js", topics: ["Introduction to Node.js", "Node.js Architecture and Event Loop", "Building APIs with Node.js", "File System and Streams", "Asynchronous Programming", "Working with npm Packages"] },
+        { id: 6, title: "Module 6: Building RESTful APIs", topics: ["REST API Design Principles", "Creating APIs with Express and Node.js", "Authentication with JWT", "API Security Best Practices", "Testing APIs with Postman", "API Documentation"] },
+        { id: 7, title: "Module 7: Front-End Development with Angular", topics: ["Angular Forms (Template and Reactive)", "HTTP Client for API Calls", "State Management in Angular", "Angular Pipes and Custom Directives", "Lazy Loading and Optimization", "Unit Testing in Angular"] },
+        { id: 8, title: "Module 8: Full-Stack Integration", topics: ["Connecting Angular with Node.js APIs", "Deploying MongoDB on Cloud", "End-to-End Data Flow in MEAN Stack", "Handling CORS Issues", "Scalability Considerations", "Performance Optimization"] },
+        { id: 9, title: "Module 9: Real-World MEAN Stack Projects", topics: ["Building an E-Commerce Platform", "Developing a Blog Application", "Creating a Task Management System", "User Authentication and Authorization", "Project Testing and Debugging", "Project Documentation"] },
+        { id: 10, title: "Module 10: Deployment and Best Practices", topics: ["Deploying MEAN Stack Apps to Heroku/AWS", "CI/CD Pipelines", "Best Practices for MEAN Development", "Code Optimization Techniques", "Career Planning in Web Development", "Preparing for MEAN Stack Interviews"] }
     ];
     const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
     return (
         <div className="java-course-content-section">
             <h2 className="java-section-title">
-                Ab Initio Course Modules
+                MEAN Stack Course Modules
                 <span className="java-title-underline"></span>
             </h2>
             <div className="java-course-layout-container">
@@ -251,7 +253,7 @@ const SapFicoCourseContentSection = ({ openContactModal }) => {
 const BatchDetailsSection = ({ openContactModal }) => {
     const batchInfo = [
         { id: 1, monthYear: "June 2025", type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Fresh Jobseekers", "Non IT to IT transition"] },
-        { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
+        { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat-Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
     ];
     return (
         <div
@@ -293,13 +295,13 @@ const BatchDetailsSection = ({ openContactModal }) => {
 
 const CorporateTrainingModesSection = () => {
     const trainingModesData = [
-        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate Ab Initio training", title: "Onsite Training:", description: "Conducted at your company premises for tailored, collaborative learning using your data environment." },
-        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite Ab Initio training center", title: "Offsite Training:", description: "Held at professional venues for focused learning, ideal for certifications and workshops." },
-        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led Ab Initio training", title: "Virtual Instructor-Led Training (VILT):", description: "Live online training via Zoom or Teams, perfect for remote or distributed teams." }
+        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite MEAN Stack training", title: "Onsite Training", description: "Conducted at your premises, offering tailored MEAN Stack training for team upskilling in full-stack development." },
+        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite MEAN Stack training center", title: "Offsite Training", description: "Held at professional training centers for focused MEAN Stack training and certifications." },
+        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual MEAN Stack training", title: "Virtual Instructor-Led Training (VILT)", description: "Live MEAN Stack training via platforms like Zoom, ideal for remote teams with hands-on web development projects." }
     ];
     return (
         <div className="corporate-training-modes-section">
-            <h2 className="corporate-training-modes-title">Corporate Training Modes for Ab Initio in Chennai</h2>
+            <h2 className="corporate-training-modes-title">Corporate Training Modes for MEAN Stack in Chennai</h2>
             <div className="modes-container-grid">
                 {trainingModesData.map(mode => (
                     <div key={mode.id} className="mode-card-item">
@@ -315,18 +317,24 @@ const CorporateTrainingModesSection = () => {
 
 const AlumniReviewsSection = () => {
     const reviewsData = [
-        { id: 1, name: "Karthik V.", designation: "ETL Developer", avatarInitial: "K", rating: 5, companyLogoText: "Intellimindz", reviewText: "The Ab Initio course at IntelliMindz was well-structured. Hands-on projects helped me master graph development and ETL processes." },
-        { id: 2, name: "Priya S.", designation: "Data Engineer", avatarInitial: "P", rating: 5, companyLogoText: "Intellimindz", reviewText: "The trainers explained complex concepts like partitioning and Conduct>It clearly. Real-time projects boosted my confidence." },
-        { id: 3, name: "Suresh K.", designation: "Data Integration Specialist", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "Flexible batches and practical training made learning Ab Initio easy. The course prepared me well for interviews." },
-        { id: 4, name: "Anitha R.", designation: "ETL Trainee", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "As a fresher, I found the course beginner-friendly. The trainers supported me throughout, and I’m now confident in ETL development." },
-        { id: 5, name: "Vijay M.", designation: "Senior ETL Developer", avatarInitial: "V", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course’s focus on real-time scenarios and performance tuning was excellent. It helped me enhance my existing ETL skills." }
+        { id: 1, name: "Rahul S.", designation: "Full-Stack Developer", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "IntelliMindz’s MEAN Stack course was outstanding. Hands-on projects with MongoDB and Angular were highly practical. The trainers were exceptional." },
+        { id: 2, name: "Sneha K.", designation: "Web Developer", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course covered full-stack development thoroughly. Real-time projects helped me secure a developer role confidently." },
+        { id: 3, name: "Vikram P.", designation: "MEAN Stack Developer", avatarInitial: "V", rating: 5, companyLogoText: "Intellimindz", reviewText: "The flexible schedules and industry-relevant projects were perfect. The MEAN Stack interview prep sessions were spot-on." },
+        { id: 4, name: "Lakshmi R.", designation: "MEAN Stack Trainee", avatarInitial: "L", rating: 5, companyLogoText: "Intellimindz", reviewText: "As a fresher, I found the course beginner-friendly. The trainers explained Node.js concepts clearly, and the labs were invaluable." },
+        { id: 5, name: "Arjun M.", designation: "Senior Full-Stack Developer", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course simplified complex topics like REST APIs. The practical projects and mentoring added immense value." }
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
     const nextSlide = () => { setCurrentSlide((prev) => (prev === reviewsData.length - 1 ? 0 : prev + 1)); };
     const prevSlide = () => { setCurrentSlide((prev) => (prev === 0 ? reviewsData.length - 1 : prev - 1)); };
     const currentReview = reviewsData[currentSlide];
-    const renderStars = (rating) => { let stars = []; for (let i = 0; i < 5; i++) { stars.push( <span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span> ); } return stars; };
+    const renderStars = (rating) => { 
+        let stars = []; 
+        for (let i = 0; i < 5; i++) { 
+            stars.push(<span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span>); 
+        } 
+        return stars; 
+    };
     const formatReviewText = (text) => { return <p>{text}</p>; };
 
     return (
@@ -335,7 +343,7 @@ const AlumniReviewsSection = () => {
             <div className="review-slider-layout-container">
                 <div className="reviewer-image-area">
                     <div className="reviewer-main-image-placeholder">
-                        <img src={alumniReviewImg} alt="Alumni Reviewer Ab Initio" />
+                        <img src={alumniReviewImg} alt="Alumni Reviewer MEAN Stack" />
                     </div>
                 </div>
                 <div className="review-content-area">
@@ -358,11 +366,15 @@ const AlumniReviewsSection = () => {
                     <div className="slider-navigation">
                         <div className="nav-controls">
                             <button onClick={prevSlide} className="nav-arrow prev-arrow" aria-label="Previous review">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+                                </svg>
                             </button>
                             <span className="slide-counter">{String(currentSlide + 1).padStart(2, '0')}/{String(reviewsData.length).padStart(2, '0')}</span>
                             <button onClick={nextSlide} className="nav-arrow next-arrow" aria-label="Next review">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+                                </svg>
                             </button>
                         </div>
                     </div>
@@ -375,25 +387,25 @@ const AlumniReviewsSection = () => {
 const SapABAPFaqSection = () => {
     const [activeModule, setActiveModule] = useState(null);
     const modulesData = [
-        { id: 1, title: "What is Ab Initio used for?", description: "Ab Initio is a powerful ETL tool used for data integration, processing, and managing large-scale data in enterprise environments." },
-        { id: 2, title: "Who should take this Ab Initio training?", description: "Fresh graduates, data analysts, ETL developers, and professionals looking to specialize in data integration." },
-        { id: 3, title: "Do I need prior coding knowledge?", description: "Basic knowledge of databases or programming is helpful but not mandatory. Our course starts from the basics." },
-        { id: 4, title: "Is Ab Initio in demand in 2025?", description: "Yes, with the rise in big data and analytics, Ab Initio skills are highly sought after in industries like finance and telecom." },
-        { id: 5, title: "What’s the difference between Ab Initio and Informatica?", description: "Both are ETL tools, but Ab Initio is known for its high performance and scalability in handling complex data transformations." },
-        { id: 6, title: "Is the training available online?", description: "Yes, we offer both online and offline Ab Initio training with live, instructor-led sessions." },
-        { id: 7, title: "Will there be hands-on practice?", description: "Yes, you’ll get access to Ab Initio tools for practical ETL development and graph creation." },
-        { id: 8, title: "Do you offer interview preparation?", description: "Yes, we provide mock interviews, resume tips, and real-world ETL scenarios for job readiness." },
-        { id: 9, title: "Can I switch to Ab Initio from another field?", description: "Yes, with basic database knowledge, you can transition to Ab Initio with our structured training." },
-        { id: 10, title: "Is Ab Initio suitable for freshers?", description: "Absolutely, it’s a great entry point for a career in data integration and ETL development." }
+        { id: 1, title: "What is the MEAN Stack used for?", description: "MEAN Stack is used for building dynamic, scalable web applications with MongoDB (database), Express.js (backend), Angular (frontend), and Node.js (runtime)." },
+        { id: 2, title: "Who should take this MEAN Stack training?", description: "Freshers, developers, and IT professionals looking to specialize in full-stack web development." },
+        { id: 3, title: "Do I need prior experience to learn MEAN Stack?", description: "Basic knowledge of JavaScript or web development is helpful, but the course is beginner-friendly." },
+        { id: 4, title: "Is MEAN Stack in demand in 2025?", description: "Yes, MEAN Stack skills are in high demand in tech industries for building modern web applications." },
+        { id: 5, title: "What’s the difference between MEAN and MERN Stack?", description: "MEAN uses Angular for the frontend; MERN uses React. Both share MongoDB, Express.js, and Node.js." },
+        { id: 6, title: "Is the training available online?", description: "Yes, we offer both online and offline MEAN Stack training with live instructor-led sessions." },
+        { id: 7, title: "Will there be hands-on practice?", description: "Yes, you’ll work on live projects using MongoDB, Express.js, Angular, and Node.js." },
+        { id: 8, title: "Do you provide interview preparation?", description: "Yes, we offer mock interviews, resume guidance, and MEAN Stack-specific scenarios." },
+        { id: 9, title: "Can I switch to MEAN Stack from another field?", description: "Yes, with basic programming skills, you can transition to MEAN Stack through our training." },
+        { id: 10, title: "Is MEAN Stack suitable for freshers?", description: "Absolutely, it’s a great entry point for freshers aiming for a career in web development." }
     ];
     return (
         <div className="sapim-syllabus">
             <div className="sap-home-syllabus-header">
                 <h1>
-                    Have a Question with Our <span className="highlighted-course-title">Ab Initio Course?</span>
+                    Have a Question with Our <span className="highlighted-course-title">MEAN Stack Course?</span>
                 </h1>
                 <p className="syllabus-header-subtitle">
-                    Here, you can get the answer to your question about our Ab Initio course in Chennai.
+                    Get answers to your questions about our MEAN Stack course in Chennai.
                 </p>
             </div>
             <div className="syllabus-grid">
@@ -424,13 +436,13 @@ const SapABAPFaqSection = () => {
 const CallToActionBanner = ({ openContactModal }) => {
     return (
         <div className="cta-banner-section">
-            <p className="cta-banner-text">Navigate your career ambitions with our expert guidance.</p>
+            <p className="cta-banner-text">Launch your MEAN Stack career with expert guidance.</p>
             <button className="cta-banner-button" onClick={openContactModal}>Contact Us</button>
         </div>
     );
 };
 
-const Abinitiomain = () => {
+const Meanstackmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
@@ -448,8 +460,8 @@ const Saponline = ({ openContactModal }) => {
     return (
         <>
             <Helmet>
-                <title>Ab Initio Training in Chennai | Ab Initio Course in Chennai</title>
-                <meta name="description" content="Master data integration and ETL with our Ab Initio Training in Chennai. Learn advanced data processing through our expert-led Ab Initio course." />
+                <title>MEAN Stack Training in Chennai | Full-Stack Web Development Course</title>
+                <meta name="description" content="Master MEAN Stack with our expert-led training in Chennai. Learn MongoDB, Express.js, Angular, and Node.js to build full-stack web applications." />
             </Helmet>
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
@@ -470,7 +482,7 @@ const Saponline = ({ openContactModal }) => {
     );
 };
 
-export default Abinitiomain;
+export default Meanstackmain;
 
 const Onlineheader = () => {
     return <div className="online_container"></div>;

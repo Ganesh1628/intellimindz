@@ -442,7 +442,7 @@ const SAPmain = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const openContactModal = () => setIsModalOpen(true);
   const closeContactModal = () => setIsModalOpen(false);
-  const pageTitle = "Best Sasfasdfsdafas Training in Chennai | Expert SAP Ariba Course";
+  const pageTitle = "Best Ariba Training in Chennai | Expert SAP Ariba Course";
   const pageDescription = "Join the best SAP Ariba training in Chennai at Intellimindz. Our expert-led course covers procurement, sourcing, and supplier management with hands-on projects.";
   const pageKeywords = "sap ariba training in chennai, sap ariba course, sap ariba certification, intellimindz, procurement training";
   const ogUrl = "https://http://localhost:3000/sap_ariba_training_in_chennai";

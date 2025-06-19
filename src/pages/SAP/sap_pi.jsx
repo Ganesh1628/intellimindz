@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Meta from '../../components/Meta';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all your CSS files
@@ -39,9 +39,9 @@ const Intro = ({ openContactModal }) => {
         <div className="intro-container">
             <div className="overlay"></div>
             <div className="intro-content">
-                <h2 className="intro-h2">Best SAP PI Training Institute in Chennai</h2>
-                <h1 className="intro-h1">Enhance your integration capabilities with expert-led SAP PI Training – your gateway to mastering enterprise application integration.</h1>
-                <h3 className="intro-h3"></h3>
+                <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
+                <h1 className="intro-h1">Best SAP PI Training Institute in Chennai.</h1>
+                <h3 className="intro-h3">Enhance your integration capabilities with expert-led SAP PI Training – your gateway to mastering enterprise application integration.</h3>
                 <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
             </div>
         </div>
@@ -438,23 +438,20 @@ const SAPmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
+const pageTitle = "Best SAP PI Training in Chennai | Expert-Led SAP PI Course";
+const pageDescription = "Enroll in top-rated SAP PI training in Chennai at Intellimindz. Master SAP PI concepts with real-time projects and expert guidance.";
+const pageKeywords = "sap pi training in chennai, sap pi course, sap pi certification, intellimindz";
+const ogUrl = "https://localhost:3000/sap_pi_training_in_chennai";
     return (
-        <HelmetProvider> {/* Wrap your application with HelmetProvider */}
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
-    return (
-        <>
-            <Helmet> {/* Add Helmet here */}
-                <title>SAP PI Training in Chennai | SAP Process Integration Course in Chennai</title>
-                <meta name="description" content="Learn end-to-end system integration with SAP PI Training in Chennai. Gain real-time project skills in SAP Process Integration through our course in Chennai." />
-            </Helmet>
+    <>
+      <Meta
+        title={pageTitle}
+        description={pageDescription}
+        keywords={pageKeywords}
+        ogTitle={pageTitle}
+        ogDescription={pageDescription}
+        ogUrl={ogUrl}
+      />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -470,6 +467,7 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapFicoFaqSection /> {/* Updated component name */}
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };

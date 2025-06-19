@@ -11,7 +11,7 @@ import "../../components/SapIM/IMsyllabus.css";
 
 // Import all your image assets
 import saphomeintro1 from '../../assests/images/saphomeintro1.png';
-import homeintro from '../../assests/images/flexiblebatches.jpeg';
+import homeintro from '../../assests/images/saphomeintro1.png';
 import bestPriceIcon from '../../assests/images/ExperiencedTrainers.jpeg';
 import runningIcon from '../../assests/images/practicallearning.jpeg';
 import staffIcon from '../../assests/images/flexiblebatches.jpeg';
@@ -57,7 +57,7 @@ const SapTrainingProfile = ({ openContactModal }) => {
         <div className="sap-training-container">
             <div className="sap-training-header animate__animated animate__flipInX">
                 <h1>
-                    Learn from the Best: Ab Initio Training by <span>Industry Experts</span>
+                    Learn from the Best: Python Training by <span>Real-Time Experts</span>
                 </h1>
                 <div className="header-divider"></div>
             </div>
@@ -65,21 +65,21 @@ const SapTrainingProfile = ({ openContactModal }) => {
                 <div className="training-details">
                     <div className="sap-training-header animate__animated animate__lightSpeedInLeft">
                         <p className="intro-text">
-                            At IntelliMindz, our Ab Initio trainers are seasoned professionals with extensive experience in data integration and ETL development. With real-world project expertise, they guide you through a comprehensive learning journey in Ab Initio.
+                            At Chennai Trainings, our Python trainers are industry professionals with extensive experience in Python development across various domains. They bring real-world expertise to guide you through your Python learning journey, ensuring you gain practical skills for a successful career.
                         </p>
                     </div>
                     <ul className="benefits-list">
-                        <li><span className="icon">✓</span> Master core and advanced Ab Initio concepts for data processing.</li>
-                        <li><span className="icon">✓</span> Learn from industry experts with hands-on ETL project experience.</li>
-                        <li><span className="icon">✓</span> Benefit from IntelliMindz’s proven track record in data integration training.</li>
-                        <li><span className="icon">✓</span> Receive career support, including resume guidance and interview preparation.</li>
-                        <li><span className="icon">✓</span> Work on real-time ETL scenarios to build job-ready skills.</li>
-                        <li><span className="icon">✓</span> Customized learning tailored to your pace and career goals.</li>
+                        <li><span className="icon">✓</span> Build a solid foundation in Python programming from basics to advanced concepts.</li>
+                        <li><span className="icon">✓</span> Learn from expert Python developers with hands-on project experience.</li>
+                        <li><span className="icon">✓</span> Benefit from Chennai Trainings’ proven track record in delivering top-quality Python training.</li>
+                        <li><span className="icon">✓</span> Receive comprehensive career support, including resume building and interview preparation.</li>
+                        <li><span className="icon">✓</span> Work on real-world Python projects to develop job-ready skills.</li>
+                        <li><span className="icon">✓</span> Enjoy a customized learning experience tailored to your pace and goals.</li>
                     </ul>
                     <button className="enquiry-button" onClick={openContactModal}>Enquire Now</button>
                 </div>
                 <div className="training-image">
-                    <img src={saphomeintro1} alt="Ab Initio Training" />
+                    <img src={saphomeintro1} alt="Python Training" />
                 </div>
             </div>
         </div>
@@ -88,16 +88,16 @@ const SapTrainingProfile = ({ openContactModal }) => {
 
 const Corporate = () => {
     const blocksData = [
-        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from Ab Initio experts at our training center in Chennai." },
-        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking hands-on Ab Initio training with real-world applications." },
-        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose batch timings that fit your schedule." },
-        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engage in discussions focused on real-world ETL and data integration tasks." },
-        { image: onlinetest, heading: "Lifetime Access", paragraph: "Access Ab Initio course materials anytime for revision." },
-        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to enhance your learning." }
+        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from Python experts at our training center in Chennai." },
+        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking a Python training center that emphasizes hands-on skills." },
+        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose batch timings that suit your schedule." },
+        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engage in discussions focused on real-world Python programming tasks." },
+        { image: onlinetest, heading: "Lifetime Access", paragraph: "Access Python course materials and resources anytime for revision." },
+        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to strengthen your Python skills." }
     ];
     return (
         <div className="corporate-section">
-            <h2 className="corporate-title">Why Choose IntelliMindz?</h2>
+            <h2 className="corporate-title">Why Choose Chennai Trainings?</h2>
             <div className="corporate-grid">
                 {blocksData.map((block, index) => (
                     <div key={index} className="corporate-block">
@@ -124,10 +124,10 @@ const PlaceholderTrainingIcon = ({ type }) => (
 
 const TrainingModesSection = ({ openContactModal }) => {
     const trainingModes = [
-        { id: 'online', iconType: 'online', title: "Online Training", description: "Join live, instructor-led Ab Initio sessions from anywhere. Includes hands-on ETL exercises, real-time projects, and interactive Q&A for practical learning.", isPopular: true },
-        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn at your convenience with pre-recorded Ab Initio video sessions, lifetime access to course materials, and periodic updates.", isPopular: false },
-        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Participate in in-person Ab Initio sessions for immersive learning with direct trainer and peer interaction.", isPopular: false },
-        { id: 'hybrid', iconType: 'hybrid', title: "Hybrid Training", description: "Combine online and classroom learning for flexibility, ensuring consistent progress and support.", isPopular: false }
+        { id: 'online', iconType: 'online', title: "Online Training", description: "Join live, instructor-led Python sessions from anywhere. Our online training includes hands-on coding exercises, real-time projects, and interactive Q&A for practical learning.", isPopular: true },
+        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn Python at your own pace with pre-recorded video lectures. Get lifetime access to course materials, downloadable resources, and regular updates to stay current.", isPopular: false },
+        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Attend in-person Python sessions for an immersive learning experience. Our classroom training fosters direct interaction with trainers and peers for collaborative learning.", isPopular: false },
+        { id: 'hybrid', iconType: 'hybrid', title: "Hybrid Training", description: "Combine the flexibility of online and classroom learning. Our hybrid model lets you switch between formats to suit your schedule and learning preferences.", isPopular: false }
     ];
     return (
         <div className="training-modes-section">
@@ -149,9 +149,9 @@ const TrainingModesSection = ({ openContactModal }) => {
 const SAPHeroSection = ({ openContactModal }) => {
     return (
         <div className="sap-fico-expert-section">
-            <h1>Become a Skilled Ab Initio Developer with IntelliMindz</h1>
-            <p>Industry-focused Ab Initio training to master ETL processes and data integration solutions.</p>
-            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your Ab Initio Journey Today!</button>
+            <h1>Become a Skilled Python Developer with Chennai Trainings</h1>
+            <p>Master Python programming with industry-relevant training to excel in software development, data science, and automation.</p>
+            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your Python Journey Today!</button>
         </div>
     );
 };
@@ -159,15 +159,15 @@ const SAPHeroSection = ({ openContactModal }) => {
 const SAPAboutSection = () => {
     return (
         <div className="sap-fico-about-section">
-            <h2>About Our Ab Initio Training in Chennai</h2>
+            <h2>About Our Python Training in Chennai</h2>
             <div className="sap-fico-about-content">
                 <div className="sap-fico-about-text">
-                    <p>IntelliMindz offers comprehensive Ab Initio training in Chennai, designed to provide both theoretical knowledge and practical expertise in data integration and ETL processes. Our curriculum covers key Ab Initio components like GDE, CoOperating System, Data Profiler, ConductIt, and more.</p>
-                    <p>The course includes interactive classes, live ETL development sessions, practical exercises, and real-time projects. By working on industry-relevant scenarios, learners gain the skills to handle large-scale data integration tasks in enterprise environments.</p>
-                    <p>Whether you’re a beginner or a professional looking to upskill, our Ab Initio training equips you to excel in the competitive data management job market.</p>
+                    <p>At Chennai Trainings, our Python training is designed to provide hands-on experience and a deep understanding of Python programming. Our comprehensive curriculum covers Python fundamentals, data structures, web development, data analysis, and more, ensuring you gain practical skills for real-world applications.</p>
+                    <p>The course includes live coding sessions, practical exercises, and project-based learning. By working on industry-relevant projects, learners develop the confidence to tackle real-world programming challenges in fields like web development, data science, and automation.</p>
+                    <p>Whether you’re a beginner or an experienced professional looking to enhance your Python skills, our training equips you to succeed in the competitive tech industry with a strong foundation and practical expertise.</p>
                 </div>
                 <div className="sap-fico-about-image-container">
-                    <img src={aboutsapficoImg} alt="Ab Initio Training in Chennai" />
+                    <img src={aboutsapficoImg} alt="Python Training in Chennai" />
                 </div>
             </div>
         </div>
@@ -176,16 +176,16 @@ const SAPAboutSection = () => {
 
 const KeyFeaturesSection = () => {
     const features = [
-        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "Choose between in-person classroom sessions or flexible online learning, tailored for working professionals, students, and job seekers." },
-        { id: 2, image: handsonsapImg, title: "Hands-on Practical Sessions with Ab Initio Access", description: "Gain hands-on experience with Ab Initio tools like GDE and Co>Operating System, allowing you to develop and test ETL processes in a real environment." },
-        { id: 3, image: casestudyrealtimeImg, title: "Real-Time Case Studies", description: "Work on case studies based on actual data integration projects to enhance problem-solving and prepare for industry challenges." },
-        { id: 4, image: ExperiencedtrainersImg, title: "Expert Trainers", description: "Learn from industry professionals with extensive experience in Ab Initio and large-scale data integration projects." },
-        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes", description: "Limited batch sizes ensure personalized attention and one-on-one mentoring for effective learning." },
-        { id: 6, image: interactiveImg, title: "Interactive Sessions & Assessments", description: "Engage in interactive discussions and module-wise assessments to reinforce learning and prepare for job interviews." },
+        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "We offer both in-person and virtual Python training, making it accessible for working professionals, students, and job seekers. Choose the mode that fits your schedule for a seamless learning experience." },
+        { id: 2, image: handsonsapImg, title: "Hands-on Coding Sessions", description: "Our training emphasizes practical learning with real-time coding exercises. Gain access to coding environments to practice Python programming and build confidence in applying concepts." },
+        { id: 3, image: casestudyrealtimeImg, title: "Real-World Project-Based Learning", description: "Work on projects modeled after real-world Python applications in web development, data analysis, and automation to enhance problem-solving skills and prepare for industry challenges." },
+        { id: 4, image: ExperiencedtrainersImg, title: "Expert Python Trainers", description: "Learn from industry professionals with extensive experience in Python development across domains like web development, data science, and machine learning, ensuring high-quality mentorship." },
+        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes for Personalized Learning", description: "Our limited batch sizes ensure individual attention, allowing trainers to address queries and provide tailored guidance to help you master Python effectively." },
+        { id: 6, image: interactiveImg, title: "Interactive Sessions and Assessments", description: "Each module includes interactive discussions, quizzes, and assessments aligned with industry requirements, helping you retain knowledge and prepare for Python-related job interviews." },
     ];
     return (
         <div className="sap-fico-features-section">
-            <h2>Ab Initio Training in Chennai Key Features</h2>
+            <h2>Python Training in Chennai Key Features</h2>
             <div className="sap-fico-features-grid">
                 {features.map((feature) => (
                     <div key={feature.id} className="feature-card">
@@ -204,20 +204,21 @@ const KeyFeaturesSection = () => {
 const SapFicoCourseContentSection = ({ openContactModal }) => {
     const [activeModuleId, setActiveModuleId] = useState(1);
     const allModulesData = [
-        { id: 1, title: "Module 1: Introduction to Ab Initio", topics: ["Overview of ETL and Data Integration", "Introduction to Ab Initio Architecture", "Role of Ab Initio in Data Warehousing", "Ab Initio Components Overview", "Installation and Setup Basics", "Understanding GDE (Graphical Development Environment)"] },
-        { id: 2, title: "Module 2: Ab Initio Co>Operating System", topics: ["Co>Operating System Architecture", "File Systems and Data Storage", "Parallel Processing Concepts", "Sandbox and Parameter Management", "Command Line Interface Basics", "Error Handling in Co>Operating System"] },
-        { id: 3, title: "Module 3: Ab Initio GDE", topics: ["Creating Graphs in GDE", "Components: Transform, Sort, Join, Rollup", "Data Flow and Graph Execution", "Debugging Graphs", "Parameterization in Graphs", "Performance Tuning in GDE"] },
-        { id: 4, title: "Module 4: Data Manipulation and Transformation", topics: ["Data Transformation Techniques", "Working with DML (Data Manipulation Language)", "Handling Complex Data Formats", "Partitioning and De-partitioning", "Lookup and Join Operations", "Real-Time Data Transformation Scenarios"] },
-        { id: 5, title: "Module 5: Conduct>It and Plans", topics: ["Introduction to Conduct>It", "Creating and Managing Plans", "Scheduling and Monitoring ETL Jobs", "Dependency Analysis", "Error Handling in Plans", "Real-Time Plan Implementation"] },
-        { id: 6, title: "Module 6: Data Profiler and Data Quality", topics: ["Introduction to Data Profiler", "Data Quality Rules and Validation", "Profiling Techniques for Data Analysis", "Handling Data Anomalies", "Integrating Data Quality in ETL", "Real-Time Profiling Exercises"] },
-        { id: 7, title: "Module 7: Advanced Ab Initio Concepts", topics: ["Continuous Flows and Real-Time Processing", "Ab Initio Metadata Hub", "Integration with Databases (SQL, Oracle, etc.)", "Web Services and API Integration", "Performance Optimization Techniques", "High Availability and Fault Tolerance"] },
-        { id: 8, title: "Module 8: Real-Time Project and Deployment", topics: ["End-to-End ETL Project Development", "Data Migration Scenarios", "Testing and Validation of ETL Processes", "Deployment Strategies", "Performance Monitoring and Tuning", "Project Documentation and Review"] }
+        { id: 1, title: "Module 1: Introduction to Python", topics: ["Overview of Python and its Applications", "Python Installation and Setup", "Python Interpreter and IDEs", "Basic Syntax and Variables", "Input/Output Operations", "Python Comments and Documentation"] },
+        { id: 2, title: "Module 2: Python Data Types and Operators", topics: ["Numeric, String, and Boolean Data Types", "Lists, Tuples, Sets, and Dictionaries", "Type Conversion", "Arithmetic, Logical, and Comparison Operators", "Conditional Statements (if, elif, else)", "Loops (for, while)", "List Comprehensions"] },
+        { id: 3, title: "Module 3: Functions and Modules", topics: ["Defining and Calling Functions", "Function Arguments and Return Values", "Lambda Functions", "Modules and Packages", "Standard Library Overview", "Importing Modules", "Creating Custom Modules"] },
+        { id: 4, title: "Module 4: Object-Oriented Programming in Python", topics: ["Classes and Objects", "Attributes and Methods", "Inheritance and Polymorphism", "Encapsulation and Abstraction", "Exception Handling", "Working with Constructors", "Method Overriding"] },
+        { id: 5, title: "Module 5: File Handling and Data Structures", topics: ["Reading and Writing Files", "Working with CSV and JSON Files", "Stacks and Queues", "Linked Lists", "Trees and Graphs (Introduction)", "File I/O Error Handling", "Context Managers"] },
+        { id: 6, title: "Module 6: Python Libraries for Data Analysis", topics: ["Introduction to NumPy", "Pandas for Data Manipulation", "Data Cleaning and Preprocessing", "Data Visualization with Matplotlib", "Seaborn for Advanced Visualization", "Working with DataFrames", "Exploratory Data Analysis"] },
+        { id: 7, title: "Module 7: Web Development with Python", topics: ["Introduction to Flask and Django", "Building a Simple Web Application", "Handling HTTP Requests", "Templates and Static Files", "Database Integration with SQLite", "REST API Basics", "Deploying a Web App"] },
+        { id: 8, title: "Module 8: Automation and Scripting", topics: ["Automating Tasks with Python", "Working with OS and Sys Modules", "File and Directory Management", "Web Scraping with BeautifulSoup", "Automating Browser Tasks with Selenium", "Scheduling Tasks", "Error Handling in Scripts"] },
+        { id: 9, title: "Module 9: Introduction to Machine Learning", topics: ["Basics of Machine Learning", "Scikit-learn Library", "Supervised vs Unsupervised Learning", "Building a Simple ML Model", "Data Preprocessing for ML", "Model Evaluation Metrics", "Hands-on ML Project"] },
+        { id: 10, title: "Module 10: Capstone Project and Advanced Topics", topics: ["Real-World Python Project Development", "Version Control with Git", "Unit Testing with PyTest", "Introduction to Cloud Deployment", "Best Practices in Python Coding", "Code Optimization Techniques", "Project Presentation and Review"] }
     ];
-    const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
     return (
         <div className="java-course-content-section">
             <h2 className="java-section-title">
-                Ab Initio Course Modules
+                Python Course Modules
                 <span className="java-title-underline"></span>
             </h2>
             <div className="java-course-layout-container">
@@ -234,7 +235,7 @@ const SapFicoCourseContentSection = ({ openContactModal }) => {
                 <div className="java-topics-details-panel">
                     <h3 className="java-topics-title">Topics:</h3>
                     <ul className="java-topics-list">
-                        {activeModuleDetails.topics.map((item, index) => (<li key={index}>{item}</li>))}
+                        {allModulesData.find(module => module.id === activeModuleId).topics.map((item, index) => (<li key={index}>{item}</li>))}
                     </ul>
                     <button className="java-download-curriculum-button" onClick={openContactModal}>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style={{ marginRight: '8px', verticalAlign: 'middle' }}>
@@ -250,8 +251,8 @@ const SapFicoCourseContentSection = ({ openContactModal }) => {
 
 const BatchDetailsSection = ({ openContactModal }) => {
     const batchInfo = [
-        { id: 1, monthYear: "June 2025", type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Fresh Jobseekers", "Non IT to IT transition"] },
-        { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
+        { id: 1, monthYear: "June 2025", type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Freshers", "Non-IT to IT Transition"] },
+        { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.5 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Working Professionals"] }
     ];
     return (
         <div
@@ -293,13 +294,13 @@ const BatchDetailsSection = ({ openContactModal }) => {
 
 const CorporateTrainingModesSection = () => {
     const trainingModesData = [
-        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate Ab Initio training", title: "Onsite Training:", description: "Conducted at your company premises for tailored, collaborative learning using your data environment." },
-        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite Ab Initio training center", title: "Offsite Training:", description: "Held at professional venues for focused learning, ideal for certifications and workshops." },
-        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led Ab Initio training", title: "Virtual Instructor-Led Training (VILT):", description: "Live online training via Zoom or Teams, perfect for remote or distributed teams." }
+        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate Python training", title: "Onsite Training:", description: "Conducted at your company premises, this training offers a tailored learning experience using your tools and workflows, ideal for upskilling teams in Python programming." },
+        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite Python training center", title: "Offsite Training:", description: "Held at professional training centers, this mode provides focused Python training without workplace distractions, perfect for certifications and workshops." },
+        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led Python training", title: "Virtual Instructor-Led Training (VILT):", description: "Delivered live via platforms like Zoom, VILT offers flexibility for remote teams with real-time instructor interaction and hands-on Python exercises." }
     ];
     return (
         <div className="corporate-training-modes-section">
-            <h2 className="corporate-training-modes-title">Corporate Training Modes for Ab Initio in Chennai</h2>
+            <h2 className="corporate-training-modes-title">Corporate Training Modes for Python in Chennai</h2>
             <div className="modes-container-grid">
                 {trainingModesData.map(mode => (
                     <div key={mode.id} className="mode-card-item">
@@ -315,11 +316,11 @@ const CorporateTrainingModesSection = () => {
 
 const AlumniReviewsSection = () => {
     const reviewsData = [
-        { id: 1, name: "Karthik V.", designation: "ETL Developer", avatarInitial: "K", rating: 5, companyLogoText: "Intellimindz", reviewText: "The Ab Initio course at IntelliMindz was well-structured. Hands-on projects helped me master graph development and ETL processes." },
-        { id: 2, name: "Priya S.", designation: "Data Engineer", avatarInitial: "P", rating: 5, companyLogoText: "Intellimindz", reviewText: "The trainers explained complex concepts like partitioning and Conduct>It clearly. Real-time projects boosted my confidence." },
-        { id: 3, name: "Suresh K.", designation: "Data Integration Specialist", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "Flexible batches and practical training made learning Ab Initio easy. The course prepared me well for interviews." },
-        { id: 4, name: "Anitha R.", designation: "ETL Trainee", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "As a fresher, I found the course beginner-friendly. The trainers supported me throughout, and I’m now confident in ETL development." },
-        { id: 5, name: "Vijay M.", designation: "Senior ETL Developer", avatarInitial: "V", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course’s focus on real-time scenarios and performance tuning was excellent. It helped me enhance my existing ETL skills." }
+        { id: 1, name: "Karthik S.", designation: "Python Developer", avatarInitial: "K", rating: 5, companyLogoText: "Chennai Trainings", reviewText: "The Python course at Chennai Trainings was exceptional. The hands-on projects helped me master real-world coding scenarios, and the trainers provided excellent guidance throughout." },
+        { id: 2, name: "Priya N.", designation: "Data Analyst", avatarInitial: "P", rating: 5, companyLogoText: "Chennai Trainings", reviewText: "The course structure was clear, and the focus on data analysis with Pandas and NumPy was invaluable. The trainers’ real-world experience made complex topics easy to understand." },
+        { id: 3, name: "Suresh V.", designation: "Software Engineer", avatarInitial: "S", rating: 5, companyLogoText: "Chennai Trainings", reviewText: "The flexible batch timings and practical approach to Python programming helped me balance work and learning. The interview preparation was a game-changer for my career." },
+        { id: 4, name: "Anitha R.", designation: "Python Trainee", avatarInitial: "A", rating: 5, companyLogoText: "Chennai Trainings", reviewText: "As a beginner, I found the course easy to follow. The trainers explained Python concepts from scratch, and the projects gave me the confidence to start my tech career." },
+        { id: 5, name: "Vikram M.", designation: "Web Developer", avatarInitial: "V", rating: 5, companyLogoText: "Chennai Trainings", reviewText: "The web development module with Flask was fantastic. The practical sessions and real-world examples helped me build and deploy my first web application successfully." }
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -335,13 +336,13 @@ const AlumniReviewsSection = () => {
             <div className="review-slider-layout-container">
                 <div className="reviewer-image-area">
                     <div className="reviewer-main-image-placeholder">
-                        <img src={alumniReviewImg} alt="Alumni Reviewer Ab Initio" />
+                        <img src={alumniReviewImg} alt="Alumni Reviewer Python" />
                     </div>
                 </div>
                 <div className="review-content-area">
                     <div className="review-card">
                         <div className="review-card-header">
-                            <span className="review-company-logo-text">{currentReview.companyLogoText || "Intellimindz"}</span>
+                            <span className="review-company-logo-text">{currentReview.companyLogoText || "Chennai Trainings"}</span>
                         </div>
                         <div className="reviewer-info-line">
                             <div className="reviewer-avatar">{currentReview.avatarInitial}</div>
@@ -375,25 +376,25 @@ const AlumniReviewsSection = () => {
 const SapABAPFaqSection = () => {
     const [activeModule, setActiveModule] = useState(null);
     const modulesData = [
-        { id: 1, title: "What is Ab Initio used for?", description: "Ab Initio is a powerful ETL tool used for data integration, processing, and managing large-scale data in enterprise environments." },
-        { id: 2, title: "Who should take this Ab Initio training?", description: "Fresh graduates, data analysts, ETL developers, and professionals looking to specialize in data integration." },
-        { id: 3, title: "Do I need prior coding knowledge?", description: "Basic knowledge of databases or programming is helpful but not mandatory. Our course starts from the basics." },
-        { id: 4, title: "Is Ab Initio in demand in 2025?", description: "Yes, with the rise in big data and analytics, Ab Initio skills are highly sought after in industries like finance and telecom." },
-        { id: 5, title: "What’s the difference between Ab Initio and Informatica?", description: "Both are ETL tools, but Ab Initio is known for its high performance and scalability in handling complex data transformations." },
-        { id: 6, title: "Is the training available online?", description: "Yes, we offer both online and offline Ab Initio training with live, instructor-led sessions." },
-        { id: 7, title: "Will there be hands-on practice?", description: "Yes, you’ll get access to Ab Initio tools for practical ETL development and graph creation." },
-        { id: 8, title: "Do you offer interview preparation?", description: "Yes, we provide mock interviews, resume tips, and real-world ETL scenarios for job readiness." },
-        { id: 9, title: "Can I switch to Ab Initio from another field?", description: "Yes, with basic database knowledge, you can transition to Ab Initio with our structured training." },
-        { id: 10, title: "Is Ab Initio suitable for freshers?", description: "Absolutely, it’s a great entry point for a career in data integration and ETL development." }
+        { id: 1, title: "What is Python used for?", description: "Python is a versatile programming language used for web development, data analysis, machine learning, automation, and more." },
+        { id: 2, title: "Who should take this Python training?", description: "Freshers, software developers, data analysts, and professionals looking to transition into tech roles like data science or web development." },
+        { id: 3, title: "Do I need prior coding experience to learn Python?", description: "No prior coding experience is required. Our course starts from basics, making it suitable for beginners." },
+        { id: 4, title: "Is Python in demand in 2025?", description: "Yes, Python is highly in demand for roles in data science, machine learning, web development, and automation due to its versatility." },
+        { id: 5, title: "What’s the difference between Python and other programming languages?", description: "Python is known for its simplicity, readability, and wide applicability across domains like data science, AI, and web development." },
+        { id: 6, title: "Is the training available online?", description: "Yes, we offer both online and offline Python training with live instructor-led sessions and hands-on practice." },
+        { id: 7, title: "Will there be hands-on practice?", description: "Yes, our training includes live coding sessions and projects to ensure practical experience in Python programming." },
+        { id: 8, title: "Do you offer interview preparation?", description: "Yes, we provide mock interviews, resume guidance, and real-world project scenarios to prepare you for Python job roles." },
+        { id: 9, title: "Can I switch to Python from another field?", description: "Absolutely. Python’s simplicity makes it an ideal choice for professionals transitioning from non-tech or other IT fields." },
+        { id: 10, title: "Is Python suitable for freshers?", description: "Yes, Python is beginner-friendly and a great starting point for freshers aiming for careers in tech." }
     ];
     return (
         <div className="sapim-syllabus">
             <div className="sap-home-syllabus-header">
                 <h1>
-                    Have a Question with Our <span className="highlighted-course-title">Ab Initio Course?</span>
+                    Have a Question with Our <span className="highlighted-course-title">Python Course?</span>
                 </h1>
                 <p className="syllabus-header-subtitle">
-                    Here, you can get the answer to your question about our Ab Initio course in Chennai.
+                    Here, you can get the answer to your question about our Python course in Chennai.
                 </p>
             </div>
             <div className="syllabus-grid">
@@ -424,13 +425,13 @@ const SapABAPFaqSection = () => {
 const CallToActionBanner = ({ openContactModal }) => {
     return (
         <div className="cta-banner-section">
-            <p className="cta-banner-text">Navigate your career ambitions with our expert guidance.</p>
+            <p className="cta-banner-text">Kickstart your tech career with our expert Python training.</p>
             <button className="cta-banner-button" onClick={openContactModal}>Contact Us</button>
         </div>
     );
 };
 
-const Abinitiomain = () => {
+const Pythonmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
@@ -448,8 +449,8 @@ const Saponline = ({ openContactModal }) => {
     return (
         <>
             <Helmet>
-                <title>Ab Initio Training in Chennai | Ab Initio Course in Chennai</title>
-                <meta name="description" content="Master data integration and ETL with our Ab Initio Training in Chennai. Learn advanced data processing through our expert-led Ab Initio course." />
+                <title>Python Training in Chennai | Python Course in Chennai</title>
+                <meta name="description" content="Join our Python Training in Chennai to master programming, data analysis, and web development. Expert-led Python course with hands-on projects." />
             </Helmet>
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
@@ -470,7 +471,7 @@ const Saponline = ({ openContactModal }) => {
     );
 };
 
-export default Abinitiomain;
+export default Pythonmain;
 
 const Onlineheader = () => {
     return <div className="online_container"></div>;
