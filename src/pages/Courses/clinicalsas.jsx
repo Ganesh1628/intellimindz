@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
 import ContactModal from "../../components/Hero-Section/ContactModal";
+import Meta from '../../components/Meta';
 
 // Import all your CSS files
 import "../../components/saponlinecom/onlineaboutus.css";
@@ -37,15 +37,11 @@ const Intro = ({ openContactModal }) => {
     return (
     <div style={{ width: "100%", height: "100vh", position: "relative", display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center", color: "white", overflow: "hidden" }}>
       <img src={homeintro} alt="Background" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: -1 }} />
-      {/* <div className="intro-container"> */}
-      {/* <div className="training-image-container" >
-          <img src={homeintro} alt="SCCM Training" />
-      </div> */}
       <div className="overlay"></div>
       <div className="intro-content">
           <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
-          <h1 className="intro-h1">Best SCCM Training Institute in Chennai</h1>
-          <h3 className="intro-h3">Master data integration and ETL processes with our expert-led SCCM Training – your gateway to a thriving career in data management.</h3>
+          <h1 className="intro-h1">Best Clinical SAS Training Institute in Chennai</h1>
+          <h3 className="intro-h3">Master clinical data analysis with our expert-led Clinical SAS Training – your pathway to a thriving career in clinical research and biostatistics.</h3>
           <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
       </div>
     </div>
@@ -57,7 +53,7 @@ const SapTrainingProfile = ({ openContactModal }) => {
         <div className="sap-training-container">
             <div className="sap-training-header animate__animated animate__flipInX">
                 <h1>
-                    Learn from the Best: SCCM Training by <span>Real-Time Experts</span>
+                    Learn from the Best: Clinical SAS Training by <span>Real-Time Experts</span>
                 </h1>
                 <div className="header-divider"></div>
             </div>
@@ -65,21 +61,21 @@ const SapTrainingProfile = ({ openContactModal }) => {
                 <div className="training-details">
                     <div className="sap-training-header animate__animated animate__lightSpeedInLeft">
                         <p className="intro-text">
-                            At Chennai Trainings, our SCCM trainers are seasoned IT professionals with extensive experience in Microsoft System Center Configuration Manager. They bring real-world expertise to guide you through mastering SCCM for enterprise IT management.
+                            At IntelliMindz, our Clinical SAS trainers are industry professionals with extensive experience in clinical data analysis and biostatistics. With hands-on expertise in real-world clinical research projects, they provide practical insights to guide your Clinical SAS learning journey.
                         </p>
                     </div>
                     <ul className="benefits-list">
-                        <li><span className="icon">✓</span> Build a solid foundation in SCCM from basics to advanced administration.</li>
-                        <li><span className="icon">✓</span> Learn from expert SCCM administrators with hands-on project experience.</li>
-                        <li><span className="icon">✓</span> Benefit from Chennai Trainings’ proven track record in delivering high-quality SCCM training.</li>
+                        <li><span className="icon">✓</span> Build a strong foundation in Clinical SAS for data analysis and reporting in clinical trials.</li>
+                        <li><span className="icon">✓</span> Learn from practicing Clinical SAS professionals with real-time project experience.</li>
+                        <li><span className="icon">✓</span> Benefit from IntelliMindz's proven expertise in delivering successful Clinical SAS training.</li>
                         <li><span className="icon">✓</span> Receive comprehensive career support, including resume guidance and interview preparation.</li>
-                        <li><span className="icon">✓</span> Work on real-world SCCM projects to develop enterprise-ready skills.</li>
+                        <li><span className="icon">✓</span> Work on real-world clinical data scenarios to gain job-ready skills.</li>
                         <li><span className="icon">✓</span> Enjoy a customized learning experience tailored to your pace and career goals.</li>
                     </ul>
                     <button className="enquiry-button" onClick={openContactModal}>Enquire Now</button>
                 </div>
                 <div className="training-image">
-                    <img src={saphomeintro1} alt="SCCM Training" />
+                    <img src={saphomeintro1} alt="Clinical SAS Training" />
                 </div>
             </div>
         </div>
@@ -88,16 +84,16 @@ const SapTrainingProfile = ({ openContactModal }) => {
 
 const Corporate = () => {
     const blocksData = [
-        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from SCCM experts at our training center in Chennai." },
-        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking hands-on SCCM training for IT administration." },
-        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose batch timings that align with your schedule." },
-        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engage in discussions focused on real-world SCCM tasks like software deployment." },
-        { image: onlinetest, heading: "Lifetime Access", paragraph: "Access SCCM course materials anytime for revision." },
-        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to reinforce your SCCM knowledge." }
+        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from Clinical SAS experts at our premier training centre in Chennai." },
+        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking a Clinical SAS training centre near you with a focus on practical data analysis skills." },
+        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose batch timings that align with your schedule for seamless learning." },
+        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engage in discussions focused on real-world Clinical SAS data analysis tasks." },
+        { image: onlinetest, heading: "Lifetime Access", paragraph: "Access Clinical SAS course materials anytime for continuous learning." },
+        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to strengthen your Clinical SAS expertise." }
     ];
     return (
         <div className="corporate-section">
-            <h2 className="corporate-title">Why Choose Chennai Trainings?</h2>
+            <h2 className="corporate-title">Why Choose IntelliMindz?</h2>
             <div className="corporate-grid">
                 {blocksData.map((block, index) => (
                     <div key={index} className="corporate-block">
@@ -124,10 +120,10 @@ const PlaceholderTrainingIcon = ({ type }) => (
 
 const TrainingModesSection = ({ openContactModal }) => {
     const trainingModes = [
-        { id: 'online', iconType: 'online', title: "Online Training", description: "Join live, instructor-led SCCM sessions from anywhere. Our online training includes hands-on labs for software deployment, patch management, and more, with interactive Q&A.", isPopular: true },
-        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn SCCM at your own pace with pre-recorded videos. Get lifetime access to course materials, labs, and updates to stay current.", isPopular: false },
-        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Attend in-person SCCM sessions for an immersive experience. Our classroom training fosters direct interaction with trainers and peers.", isPopular: false },
-        { id: 'hybrid', iconType: 'hybrid', title: "Hybrid Training", description: "Combine online and classroom learning for flexibility. Our hybrid model lets you switch formats to suit your schedule.", isPopular: false }
+        { id: 'online', iconType: 'online', title: "Online Training", description: "Join live, instructor-led Clinical SAS sessions from anywhere with hands-on data analysis exercises, real-time projects, and interactive Q&A for practical learning.", isPopular: true },
+        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn Clinical SAS at your convenience with pre-recorded videos. Get lifetime access to course materials, downloadable resources, and periodic updates.", isPopular: false },
+        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Participate in immersive in-person Clinical SAS sessions for a focused learning experience. Ideal for collaborative learning with direct trainer and peer interaction.", isPopular: false },
+        { id: 'hybrid', iconType: ' ON', title: "Hybrid Training", description: "Combine the flexibility of online and classroom learning. Switch between formats based on your needs, ensuring consistent progress and support.", isPopular: false }
     ];
     return (
         <div className="training-modes-section">
@@ -149,9 +145,9 @@ const TrainingModesSection = ({ openContactModal }) => {
 const SAPHeroSection = ({ openContactModal }) => {
     return (
         <div className="sap-fico-expert-section">
-            <h1>Become a Skilled SCCM Administrator with Chennai Trainings</h1>
-            <p>Master SCCM for enterprise IT management with industry-relevant training in software deployment, patch management, and endpoint security.</p>
-            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your SCCM Journey Today!</button>
+            <h1>Become a Skilled Clinical SAS Professional with IntelliMindz</h1>
+            <p>Master industry-relevant Clinical SAS skills for efficient clinical data analysis, statistical reporting, and regulatory compliance.</p>
+            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your Clinical SAS Journey Today!</button>
         </div>
     );
 };
@@ -159,15 +155,15 @@ const SAPHeroSection = ({ openContactModal }) => {
 const SAPAboutSection = () => {
     return (
         <div className="sap-fico-about-section">
-            <h2>About Our SCCM Training in Chennai</h2>
+            <h2>About Our Clinical SAS Training in Chennai</h2>
             <div className="sap-fico-about-content">
                 <div className="sap-fico-about-text">
-                    <p>At Chennai Trainings, our SCCM training is designed to provide hands-on experience and in-depth knowledge of Microsoft System Center Configuration Manager. Our curriculum covers installation, configuration, software deployment, patch management, and endpoint security, ensuring you gain practical skills for enterprise IT environments.</p>
-                    <p>The course includes live lab sessions, practical exercises, and project-based learning. By working on real-world SCCM scenarios, learners develop the confidence to manage enterprise systems effectively in industries like IT services and corporate IT.</p>
-                    <p>Whether you’re an IT professional looking to specialize in SCCM or a beginner entering system administration, our training equips you to succeed in the competitive IT industry.</p>
+                    <p>IntelliMindz Chennai offers comprehensive Clinical SAS training designed to provide both theoretical knowledge and hands-on expertise in clinical data analysis. Our curriculum covers key Clinical SAS topics such as data manipulation, statistical analysis, CDISC standards, and regulatory reporting for clinical trials.</p>
+                    <p>The course includes interactive classes, live data analysis sessions, practical exercises, and real-world clinical research projects. By working on industry-relevant scenarios, learners gain the skills and confidence to handle clinical data effectively.</p>
+                    <p>Whether you're a beginner in clinical research or a professional aiming to enhance your Clinical SAS skills, our training equips you with the expertise to excel in the competitive pharmaceutical and biostatistics job market.</p>
                 </div>
                 <div className="sap-fico-about-image-container">
-                    <img src={aboutsapficoImg} alt="SCCM Training in Chennai" />
+                    <img src={aboutsapficoImg} alt="Clinical SAS Training in Chennai" />
                 </div>
             </div>
         </div>
@@ -176,24 +172,24 @@ const SAPAboutSection = () => {
 
 const KeyFeaturesSection = () => {
     const features = [
-        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "We offer both in-person and virtual SCCM training, accessible for IT professionals, system administrators, and job seekers. Choose the mode that fits your schedule." },
-        { id: 2, image: handsonsapImg, title: "Hands-on SCCM Labs", description: "Our training provides access to SCCM environments for practical exercises in software deployment, patch management, and endpoint configuration." },
-        { id: 3, image: casestudyrealtimeImg, title: "Real-World Case Studies", description: "Work on case studies based on actual SCCM deployments in enterprise IT to enhance problem-solving skills and prepare for industry challenges." },
-        { id: 4, image: ExperiencedtrainersImg, title: "Expert SCCM Trainers", description: "Learn from industry professionals with extensive experience in SCCM administration across enterprise environments." },
-        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes for Personalized Learning", description: "Our limited batch sizes ensure individual attention, allowing trainers to address queries and provide tailored guidance." },
-        { id: 6, image: interactiveImg, title: "Interactive Sessions and Assessments", description: "Each module includes interactive discussions, quizzes, and assessments aligned with SCCM job roles to prepare you for interviews." },
+        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "Choose from in-person classroom sessions or flexible online learning, making Clinical SAS training accessible to working professionals, students, and job seekers." },
+        { id: 2, image: handsonsapImg, title: "Hands-on Practice with Clinical SAS", description: "Gain hands-on experience with SAS programming, data manipulation, and statistical analysis. Build job-ready skills through practical clinical trial tasks." },
+        { id: 3, image: casestudyrealtimeImg, title: "Real-Time Clinical Case Studies", description: "Work on case studies modeled after real-world Clinical SAS projects. These exercises enhance problem-solving and prepare you for clinical research challenges." },
+        { id: 4, image: ExperiencedtrainersImg, title: "Trainers with Extensive SAS Experience", description: "Learn from industry experts with years of experience in Clinical SAS projects. Our trainers provide practical insights, best practices, and mentorship." },
+        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes for Focused Learning", description: "Our limited batch sizes ensure personalized mentoring, allowing trainers to address queries and provide tailored support for effective learning." },
+        { id: 6, image: interactiveImg, title: "Interactive Sessions and Assessments", description: "Each module includes interactive discussions, quizzes, and hands-on labs aligned with Clinical SAS certification topics, helping you prepare for job interviews." }
     ];
     return (
         <div className="sap-fico-features-section">
-            <h2>SCCM Training in Chennai Key Features</h2>
+            <h2>Clinical SAS Training in Chennai Key Features</h2>
             <div className="sap-fico-features-grid">
-                {features.map((feature) => (
-                    <div key={feature.id} className="feature-card">
+                {features.map((item) => (
+                    <div key={item.id} className="feature-card">
                         <div className="feature-icon-placeholder">
-                            {feature.image ? (<img src={feature.image} alt={feature.title} />) : (feature.iconPlaceholder)}
+                            {item.image ? (<img src={item.image} alt={item.title} />) : (item.iconPlaceholder)}
                         </div>
-                        <h3>{feature.title}</h3>
-                        <p>{feature.description}</p>
+                        <h3>{item.title}</h3>
+                        <p>{item.description}</p>
                     </div>
                 ))}
             </div>
@@ -204,21 +200,22 @@ const KeyFeaturesSection = () => {
 const SapFicoCourseContentSection = ({ openContactModal }) => {
     const [activeModuleId, setActiveModuleId] = useState(1);
     const allModulesData = [
-        { id: 1, title: "Module 1: Introduction to SCCM", topics: ["Overview of Microsoft SCCM", "SCCM Architecture and Components", "Role of SCCM in IT Management", "SCCM vs. Other Management Tools", "Installation Prerequisites", "SCCM Console Navigation"] },
-        { id: 2, title: "Module 2: SCCM Installation and Configuration", topics: ["Installing SCCM Primary Site", "Configuring Site Systems and Roles", "Setting Up Boundaries and Boundary Groups", "Client Installation Methods", "Discovery Methods", "Troubleshooting Installation Issues"] },
-        { id: 3, title: "Module 3: Client Management", topics: ["Client Deployment and Settings", "Managing Client Health", "Client Push Installation", "Software Center Configuration", "Client Troubleshooting", "Client Communication Protocols"] },
-        { id: 4, title: "Module 4: Software Deployment", topics: ["Creating and Deploying Applications", "Package vs. Application Models", "Software Distribution Points", "Deployment Types and Requirements", "Monitoring Software Deployments", "Troubleshooting Deployment Failures"] },
-        { id: 5, title: "Module 5: Patch Management", topics: ["Software Update Management", "Configuring Software Update Points", "Creating Update Groups and Deployments", "Automatic Deployment Rules", "Compliance Settings", "Patch Deployment Monitoring"] },
-        { id: 6, title: "Module 6: Operating System Deployment", topics: ["Introduction to OSD in SCCM", "Creating Task Sequences", "Configuring Boot Images", "Driver Management", "PXE and WDS Integration", "Troubleshooting OSD Issues"] },
-        { id: 7, title: "Module 7: Endpoint Protection", topics: ["Configuring Endpoint Protection", "Antimalware Policies", "Managing Definition Updates", "Monitoring Endpoint Security", "Threat Detection and Response", "Integration with Windows Defender"] },
-        { id: 8, title: "Module 8: Inventory and Reporting", topics: ["Hardware and Software Inventory", "Configuring Inventory Settings", "Custom Inventory Queries", "Creating SCCM Reports", "Using SQL Server Reporting Services", "Analyzing Inventory Data"] },
-        { id: 9, title: "Module 9: Advanced SCCM Features", topics: ["Role-Based Administration", "Power Management", "Remote Control and Wake-on-LAN", "Mobile Device Management", "Cloud Management Gateway", "Co-Management with Intune"] },
-        { id: 10, title: "Module 10: Real-World Project and Administration", topics: ["End-to-End SCCM Deployment Project", "SCCM Backup and Recovery", "Performance Optimization", "Troubleshooting Common Issues", "Best Practices for SCCM Administration", "Project Review and Certification Prep"] }
+        { id: 1, title: "Module 1: Introduction to Clinical SAS", topics: ["Overview of SAS Software", "Role of SAS in Clinical Research", "SAS Architecture and Components", "Navigating SAS Environment", "Understanding Clinical Trial Data", "Key SAS Terminologies"] },
+        { id: 2, title: "Module 2: SAS Programming Basics", topics: ["SAS Program Structure", "Data Step and PROC Step", "Importing and Exporting Data", "Creating and Managing SAS Datasets", "Working with SAS Libraries", "Basic Data Manipulation Techniques"] },
+        { id: 3, title: "Module 3: Data Manipulation and Cleaning", topics: ["Data Cleaning and Validation", "Handling Missing Data", "Merging and Appending Datasets", "Creating Calculated Variables", "Using SAS Functions", "Data Sorting and Filtering"] },
+        { id: 4, title: "Module 4: Statistical Analysis with SAS", topics: ["Introduction to PROC SQL", "Descriptive Statistics with PROC MEANS", "Frequency Analysis with PROC FREQ", "Correlation and Regression Analysis", "T-Tests and ANOVA", "Reporting Statistical Results"] },
+        { id: 5, title: "Module 5: CDISC Standards", topics: ["Introduction to CDISC Standards", "SDTM (Study Data Tabulation Model)", "ADaM (Analysis Data Model)", "Creating CDISC-Compliant Datasets", "Validating CDISC Datasets", "Regulatory Submission Requirements"] },
+        { id: 6, title: "Module 6: Clinical Trial Reporting", topics: ["Creating Clinical Trial Reports", "Generating Tables, Listings, and Figures (TLF)", "Using PROC REPORT and PROC TABULATE", "Customizing Report Outputs", "Automating Report Generation", "Ensuring Regulatory Compliance"] },
+        { id: 7, title: "Module 7: Advanced SAS Programming", topics: ["Using SAS Macros", "Creating Reusable Code", "Advanced Data Manipulation Techniques", "Working with Large Datasets", "Optimizing SAS Code Performance", "Debugging SAS Programs"] },
+        { id: 8, title: "Module 8: SAS in Clinical Research Applications", topics: ["Analyzing Clinical Trial Data", "Handling Adverse Event Data", "Creating Safety and Efficacy Reports", "Integrating SAS with Other Tools", "Real-Time Data Analysis", "Case Studies in Clinical Research"] },
+        { id: 9, title: "Module 9: SAS Certification Preparation", topics: ["Overview of SAS Certifications", "Preparing for SAS Certified Clinical Trials Programmer", "Exam Strategies and Tips", "Practice Questions and Mock Exams", "Certification Path Guidance", "Hands-on Labs for Certification"] },
+        { id: 10, title: "Module 10: Real-Time Clinical SAS Project", topics: ["End-to-End Clinical Data Analysis Project", "Creating CDISC-Compliant Datasets", "Generating TLF Reports", "Performing Statistical Analysis", "Mock Interviews and Resume Building", "Project Review and Feedback"] }
     ];
+    const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
     return (
         <div className="java-course-content-section">
             <h2 className="java-section-title">
-                SCCM Course Modules
+                Clinical SAS Course Modules
                 <span className="java-title-underline"></span>
             </h2>
             <div className="java-course-layout-container">
@@ -235,7 +232,7 @@ const SapFicoCourseContentSection = ({ openContactModal }) => {
                 <div className="java-topics-details-panel">
                     <h3 className="java-topics-title">Topics:</h3>
                     <ul className="java-topics-list">
-                        {allModulesData.find(module => module.id === activeModuleId).topics.map((item, index) => (<li key={index}>{item}</li>))}
+                        {activeModuleDetails.topics.map((item, index) => (<li key={index}>{item}</li>))}
                     </ul>
                     <button className="java-download-curriculum-button" onClick={openContactModal}>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style={{ marginRight: '8px', verticalAlign: 'middle' }}>
@@ -251,8 +248,8 @@ const SapFicoCourseContentSection = ({ openContactModal }) => {
 
 const BatchDetailsSection = ({ openContactModal }) => {
     const batchInfo = [
-        { id: 1, monthYear: "June 2025", type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Freshers", "IT Professionals New to SCCM"] },
-        { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.5 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Working IT Professionals"] }
+        { id: 1, monthYear: "June 2025", type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Fresh Jobseekers", "Non IT to IT transition"] },
+        { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
     ];
     return (
         <div
@@ -294,13 +291,13 @@ const BatchDetailsSection = ({ openContactModal }) => {
 
 const CorporateTrainingModesSection = () => {
     const trainingModesData = [
-        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate SCCM training", title: "Onsite Training:", description: "Conducted at your company premises, this training offers a tailored experience using your SCCM environment, ideal for upskilling IT teams." },
-        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite SCCM training center", title: "Offsite Training:", description: "Held at professional training centers, this mode provides focused SCCM training without workplace distractions, perfect for certifications." },
-        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led SCCM training", title: "Virtual Instructor-Led Training (VILT):", description: "Delivered live via platforms like Zoom, VILT offers flexibility for remote teams with real-time interaction and hands-on SCCM labs." }
+        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate Clinical SAS training", title: "Onsite Training:", description: "Conducted at your company’s premises, this training offers a tailored learning experience using your clinical data environment for maximum relevance." },
+        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite Clinical SAS training center", title: "Offsite Training:", description: "Held at professional training centers, this mode provides focused learning without workplace distractions, ideal for certifications and workshops." },
+        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led Clinical SAS training", title: "Virtual Instructor-Led Training (VILT):", description: "Delivered live via Zoom or Teams, VILT offers flexibility for remote teams with real-time instructor interaction and collaborative tools." }
     ];
     return (
         <div className="corporate-training-modes-section">
-            <h2 className="corporate-training-modes-title">Corporate Training Modes for SCCM in Chennai</h2>
+            <h2 className="corporate-training-modes-title">Corporate Training Modes for Clinical SAS in Chennai</h2>
             <div className="modes-container-grid">
                 {trainingModesData.map(mode => (
                     <div key={mode.id} className="mode-card-item">
@@ -316,11 +313,11 @@ const CorporateTrainingModesSection = () => {
 
 const AlumniReviewsSection = () => {
     const reviewsData = [
-        { id: 1, name: "Sanjay K.", designation: "SCCM Administrator", avatarInitial: "S", rating: 5, companyLogoText: "Chennai Trainings", reviewText: "The SCCM course at Chennai Trainings was excellent. The hands-on labs for software deployment and patch management were invaluable, and the trainers were very knowledgeable." },
-        { id: 2, name: "Meena R.", designation: "IT System Engineer", avatarInitial: "M", rating: 5, companyLogoText: "Chennai Trainings", reviewText: "The course made complex SCCM topics like OSD and endpoint protection easy to understand. The real-world scenarios were a highlight." },
-        { id: 3, name: "Karthik V.", designation: "IT Administrator", avatarInitial: "K", rating: 5, companyLogoText: "Chennai Trainings", reviewText: "The flexible batch timings and practical approach helped me learn SCCM effectively. The interview preparation was key to securing my job." },
-        { id: 4, name: "Anjali S.", designation: "SCCM Trainee", avatarInitial: "A", rating: 5, companyLogoText: "Chennai Trainings", reviewText: "As a beginner, I found the course very approachable. The trainers explained SCCM concepts clearly, and the labs boosted my confidence." },
-        { id: 5, name: "Vikram P.", designation: "System Administrator", avatarInitial: "V", rating: 5, companyLogoText: "Chennai Trainings", reviewText: "The SCCM deployment project and reporting modules were fantastic. The practical sessions prepared me for real-world IT administration tasks." }
+        { id: 1, name: "Arun M.", designation: "Clinical Data Analyst", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "IntelliMindz’s Clinical SAS course was exceptional. The hands-on labs on data manipulation and CDISC standards helped me master clinical data skills. The trainers were highly supportive." },
+        { id: 2, name: "Sneha R.", designation: "SAS Programmer", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course simplified complex Clinical SAS concepts. Practical projects and lab sessions helped me transition confidently into a clinical research role." },
+        { id: 3, name: "Vignesh T.", designation: "Clinical SAS Consultant", avatarInitial: "V", rating: 5, companyLogoText: "Intellimindz", reviewText: "IntelliMindz’s practical content and flexible timings were perfect. The certification prep and real-world scenarios prepared me well for my SAS role." },
+        { id: 4, name: "Ritika S.", designation: "Clinical SAS Trainee", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "As a beginner, I found the course approachable. The trainers explained Clinical SAS from scratch, and the hands-on labs gave me a strong start in my career." },
+        { id: 5, name: "Ramesh A.", designation: "Senior Clinical Data Analyst", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course’s depth and practical approach made advanced Clinical SAS topics like CDISC and regulatory reporting easy to grasp. Highly recommend for professionals." }
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -336,13 +333,13 @@ const AlumniReviewsSection = () => {
             <div className="review-slider-layout-container">
                 <div className="reviewer-image-area">
                     <div className="reviewer-main-image-placeholder">
-                        <img src={alumniReviewImg} alt="Alumni Reviewer SCCM" />
+                        <img src={alumniReviewImg} alt="Alumni Reviewer Clinical SAS" />
                     </div>
                 </div>
                 <div className="review-content-area">
                     <div className="review-card">
                         <div className="review-card-header">
-                            <span className="review-company-logo-text">{currentReview.companyLogoText || "Chennai Trainings"}</span>
+                            <span className="review-company-logo-text">{currentReview.companyLogoText || "Intellimindz"}</span>
                         </div>
                         <div className="reviewer-info-line">
                             <div className="reviewer-avatar">{currentReview.avatarInitial}</div>
@@ -376,25 +373,25 @@ const AlumniReviewsSection = () => {
 const SapABAPFaqSection = () => {
     const [activeModule, setActiveModule] = useState(null);
     const modulesData = [
-        { id: 1, title: "What is SCCM used for?", description: "SCCM is used for managing enterprise IT environments, including software deployment, patch management, operating system deployment, and endpoint security." },
-        { id: 2, title: "Who should take this SCCM training?", description: "IT professionals, system administrators, and freshers aiming to specialize in Microsoft SCCM for enterprise IT management." },
-        { id: 3, title: "Do I need prior experience to learn SCCM?", description: "Basic IT knowledge is helpful, but our course starts from the basics, making it suitable for beginners." },
-        { id: 4, title: "Is SCCM in demand in 2025?", description: "Yes, SCCM is in high demand for managing enterprise IT systems, especially in IT services and corporate environments." },
-        { id: 5, title: "What’s the difference between SCCM and Intune?", description: "SCCM focuses on on-premises management of devices and software, while Intune is cloud-based for mobile device management. They can be integrated for co-management." },
-        { id: 6, title: "Is the training available online?", description: "Yes, we offer both online and offline SCCM training with live instructor-led sessions and hands-on labs." },
-        { id: 7, title: "Will there be hands-on practice?", description: "Yes, our training provides access to SCCM environments for practical exercises in software deployment and patch management." },
-        { id: 8, title: "Do you offer interview preparation?", description: "Yes, we provide mock interviews, resume guidance, and real-world scenarios to prepare you for SCCM job roles." },
-        { id: 9, title: "Can I switch to SCCM from another IT field?", description: "Yes, with basic IT knowledge, you can transition to SCCM administration for a career in system management." },
-        { id: 10, title: "Is SCCM suitable for freshers?", description: "Absolutely, SCCM training is ideal for freshers aiming for careers in IT system administration." }
+        { id: 1, title: "What is Clinical SAS used for?", description: "Clinical SAS is used for data analysis, statistical reporting, and regulatory submissions in clinical trials, ensuring compliance with industry standards like CDISC." },
+        { id: 2, title: "Who should take this Clinical SAS training?", description: "Clinical research professionals, data analysts, biostatisticians, and freshers looking to specialize in clinical data analysis and biostatistics." },
+        { id: 3, title: "Do I need prior experience to learn Clinical SAS?", description: "Basic knowledge of statistics or data analysis is helpful but not mandatory. Our course starts from the basics for beginners." },
+        { id: 4, title: "Is Clinical SAS in demand in 2025?", description: "Yes, with the growing pharmaceutical and clinical research industries, Clinical SAS skills are highly sought after in biostatistics and data analysis roles." },
+        { id: 5, title: "What’s the difference between Clinical SAS and Base SAS?", description: "Clinical SAS focuses on clinical trial data analysis and regulatory reporting, while Base SAS covers general-purpose data manipulation and analytics." },
+        { id: 6, title: "Is the training available online?", description: "Yes, we offer both online and offline Clinical SAS training with live instructor-led sessions and hands-on practice." },
+        { id: 7, title: "Will there be hands-on practice?", description: "Absolutely, our training includes live lab sessions with Clinical SAS for data manipulation, statistical analysis, and CDISC-compliant reporting." },
+        { id: 8, title: "Do you provide interview preparation?", description: "Yes, we offer mock interviews, resume guidance, and real-world Clinical SAS scenarios to prepare you for clinical research and biostatistics roles." },
+        { id: 9, title: "Can I switch to Clinical SAS from another field?", description: "Yes, with basic data analysis or clinical research knowledge, Clinical SAS is an excellent field to transition into for professionals." },
+        { id: 10, title: "Is Clinical SAS suitable for freshers?", description: "Definitely, Clinical SAS is beginner-friendly and a great start for freshers entering the clinical research and biostatistics field." }
     ];
     return (
         <div className="sapim-syllabus">
             <div className="sap-home-syllabus-header">
                 <h1>
-                    Have a Question with Our <span className="highlighted-course-title">SCCM Course?</span>
+                    Have a Question with Our <span className="highlighted-course-title">Clinical SAS Course?</span>
                 </h1>
                 <p className="syllabus-header-subtitle">
-                    Here, you can get the answer to your question about our SCCM course in Chennai.
+                    Here, you can get the answer to your questions about our Clinical SAS course in Chennai.
                 </p>
             </div>
             <div className="syllabus-grid">
@@ -425,33 +422,30 @@ const SapABAPFaqSection = () => {
 const CallToActionBanner = ({ openContactModal }) => {
     return (
         <div className="cta-banner-section">
-            <p className="cta-banner-text">Launch your career in IT system administration with our expert SCCM training.</p>
+            <p className="cta-banner-text">Navigate your career ambitions with our expert guidance.</p>
             <button className="cta-banner-button" onClick={openContactModal}>Contact Us</button>
         </div>
     );
 };
 
-const Cloudcomputermain = () => {
+const ClinicalSASMain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
-    return (
-        <HelmetProvider>
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                {ContactModal && <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />}
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
+    const pageTitle = "Best Clinical SAS Training in Chennai | Practical Oriented Clinical SAS Course";
+    const pageDescription = "Join the top Clinical SAS training in Chennai at IntelliMindz. Master clinical data analysis, statistical reporting, and CDISC standards with hands-on projects and expert guidance.";
+    const pageKeywords = "clinical sas training in chennai, clinical sas course, clinical data analysis training, intellimindz";
+    const ogUrl = "https://localhost:3000/clinical_sas_training_in_chennai";
     return (
         <>
-            <Helmet>
-                <title>SCCM Training in Chennai | SCCM Course in Chennai</title>
-                <meta name="description" content="Join our SCCM Training in Chennai to master Microsoft System Center Configuration Manager. Expert-led course with hands-on labs for IT administration." />
-            </Helmet>
+            <Meta
+                title={pageTitle}
+                description={pageDescription}
+                keywords={pageKeywords}
+                ogTitle={pageTitle}
+                ogDescription={pageDescription}
+                ogUrl={ogUrl}
+            />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -467,11 +461,12 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapABAPFaqSection />
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };
 
-export default Cloudcomputermain;
+export default ClinicalSASMain;
 
 const Onlineheader = () => {
     return <div className="online_container"></div>;

@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
 import ContactModal from "../../components/Hero-Section/ContactModal";
+import Meta from '../../components/Meta';
 
-// Import all your CSS files (unchanged)
+// Import all your CSS files
 import "../../components/saponlinecom/onlineaboutus.css";
 import "../../components/saponlinecom/sapfico.css";
 import "../../components/saponlinecom/onlinecorporate.css";
 import "../../components/SAP/Header/Introsap.css";
 import "../../components/SapIM/IMsyllabus.css";
 
-// Import all your image assets (unchanged)
+// Import all your image assets
 import saphomeintro1 from '../../assests/images/saphomeintro1.png';
 import homeintro from '../../assests/images/saphomeintro1.png';
 import bestPriceIcon from '../../assests/images/ExperiencedTrainers.jpeg';
@@ -39,13 +39,13 @@ const Intro = ({ openContactModal }) => {
       <img src={homeintro} alt="Background" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: -1 }} />
       {/* <div className="intro-container"> */}
       {/* <div className="training-image-container" >
-          <img src={homeintro} alt="MEAN Stack Training" />
+          <img src={homeintro} alt="Machine Learning Training" />
       </div> */}
       <div className="overlay"></div>
       <div className="intro-content">
           <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
-          <h1 className="intro-h1">Best MEAN Stack Training Institute in Chennai</h1>
-          <h3 className="intro-h3">Master data integration and ETL processes with our expert-led MEAN Stack Training – your gateway to a thriving career in data management.</h3>
+          <h1 className="intro-h1">Best Machine Learning Training Institute in Chennai</h1>
+          <h3 className="intro-h3">Master data integration and ETL processes with our expert-led Machine Learning Training – your gateway to a thriving career in data management.</h3>
           <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
       </div>
     </div>
@@ -57,7 +57,7 @@ const SapTrainingProfile = ({ openContactModal }) => {
         <div className="sap-training-container">
             <div className="sap-training-header animate__animated animate__flipInX">
                 <h1>
-                    Learn from Experts: MEAN Stack Training by <span>Industry Professionals</span>
+                    Learn from the Best: Machine Learning Training by <span>Real-Time Experts</span>
                 </h1>
                 <div className="header-divider"></div>
             </div>
@@ -65,21 +65,21 @@ const SapTrainingProfile = ({ openContactModal }) => {
                 <div className="training-details">
                     <div className="sap-training-header animate__animated animate__lightSpeedInLeft">
                         <p className="intro-text">
-                            At IntelliMindz, our MEAN Stack trainers are seasoned developers with hands-on expertise in building scalable web applications. Their industry experience ensures a practical and impactful learning journey.
+                            At IntelliMindz, our Machine Learning trainers are seasoned data scientists and AI experts with extensive industry experience. Their hands-on expertise in real-world ML projects ensures a practical, job-oriented learning experience tailored to your career goals.
                         </p>
                     </div>
                     <ul className="benefits-list">
-                        <li><span className="icon">✓</span> Gain expertise in full-stack development with MEAN Stack.</li>
-                        <li><span className="icon">✓</span> Learn from developers with real-world project experience.</li>
-                        <li><span className="icon">✓</span> Benefit from IntelliMindz’s proven success in MEAN Stack training and placements.</li>
-                        <li><span className="icon">✓</span> Receive career support, including resume guidance and interview preparation.</li>
-                        <li><span className="icon">✓</span> Work on real-time web development projects to build job-ready skills.</li>
-                        <li><span className="icon">✓</span> Enjoy a customized learning experience tailored to your career goals.</li>
+                        <li><span className="icon">✓</span> Master Machine Learning from fundamentals to advanced algorithms.</li>
+                        <li><span className="icon">✓</span> Learn from industry experts with hands-on ML project experience.</li>
+                        <li><span className="icon">✓</span> Benefit from IntelliMindz’s proven track record in ML training success.</li>
+                        <li><span className="icon">✓</span> Receive comprehensive career support with resume building and interview preparation.</li>
+                        <li><span className="icon">✓</span> Work on real-world ML projects to develop job-ready skills.</li>
+                        <li><span className="icon">✓</span> Enjoy personalized learning tailored to your pace and aspirations.</li>
                     </ul>
                     <button className="enquiry-button" onClick={openContactModal}>Enquire Now</button>
                 </div>
                 <div className="training-image">
-                    <img src={saphomeintro1} alt="MEAN Stack Training" />
+                    <img src={saphomeintro1} alt="Machine Learning Training" />
                 </div>
             </div>
         </div>
@@ -88,12 +88,12 @@ const SapTrainingProfile = ({ openContactModal }) => {
 
 const Corporate = () => {
     const blocksData = [
-        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from MEAN Stack experts at our training center in Chennai." },
-        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking hands-on training with real-world web development projects." },
-        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose batch timings that suit your schedule." },
-        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engage in discussions focused on real-world MEAN Stack development tasks." },
-        { image: onlinetest, heading: "Lifetime Access", paragraph: "Revisit MEAN Stack course content anytime for revision." },
-        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to strengthen your understanding." }
+        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from expert data scientists at our Machine Learning training center in Chennai." },
+        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking hands-on ML training with real-world applications." },
+        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose batch timings that align with your schedule for seamless learning." },
+        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engage in discussions focused on ML algorithms and their applications." },
+        { image: onlinetest, heading: "Lifetime Access", paragraph: "Access ML course materials anytime for revision and reinforcement." },
+        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to solidify your ML expertise." }
     ];
     return (
         <div className="corporate-section">
@@ -124,10 +124,10 @@ const PlaceholderTrainingIcon = ({ type }) => (
 
 const TrainingModesSection = ({ openContactModal }) => {
     const trainingModes = [
-        { id: 'online', iconType: 'online', title: "Online Training", description: "Join live, instructor-led MEAN Stack sessions from anywhere. Includes hands-on projects building full-stack applications.", isPopular: true },
-        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn at your own pace with pre-recorded MEAN Stack videos. Get lifetime access to course materials and updates.", isPopular: false },
-        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Experience immersive in-person MEAN Stack training in Chennai for collaborative learning with trainers and peers.", isPopular: false },
-        { id: 'hybrid', iconType: 'hybrid', title: "Hybrid Training", description: "Combine online and classroom learning for flexibility, ensuring consistent progress and support.", isPopular: false }
+        { id: 'online', iconType: 'online', title: "Online Training", description: "Join live, instructor-led Machine Learning sessions with hands-on projects, real-world datasets, and interactive Q&A from anywhere." },
+        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn at your own pace with pre-recorded videos, lifetime access to course materials, and regular content updates." },
+        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Experience immersive in-person ML training with direct trainer interaction and collaborative learning." },
+        { id: 'hybrid', iconType: 'hybrid', title: "Hybrid Training", description: "Combine online and classroom learning for flexibility, ensuring consistent progress and support." }
     ];
     return (
         <div className="training-modes-section">
@@ -149,9 +149,9 @@ const TrainingModesSection = ({ openContactModal }) => {
 const SAPHeroSection = ({ openContactModal }) => {
     return (
         <div className="sap-fico-expert-section">
-            <h1>Become a Skilled MEAN Stack Developer with IntelliMindz</h1>
-            <p>Industry-focused MEAN Stack training to master full-stack web development.</p>
-            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your MEAN Stack Journey Today!</button>
+            <h1>Become a Skilled Machine Learning Expert with IntelliMindz</h1>
+            <p>Gain expertise in ML algorithms and applications with industry-focused training for AI and data science roles.</p>
+            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your ML Journey Today!</button>
         </div>
     );
 };
@@ -159,15 +159,15 @@ const SAPHeroSection = ({ openContactModal }) => {
 const SAPAboutSection = () => {
     return (
         <div className="sap-fico-about-section">
-            <h2>About Our MEAN Stack Training in Chennai</h2>
+            <h2>About Our Machine Learning Training in Chennai</h2>
             <div className="sap-fico-about-content">
                 <div className="sap-fico-about-text">
-                    <p>At IntelliMindz Chennai, our MEAN Stack training equips you with expertise in building modern web applications using MongoDB, Express.js, Angular, and Node.js. The curriculum covers front-end and back-end development, RESTful APIs, and database integration.</p>
-                    <p>Our course includes hands-on labs, real-time projects, and interactive sessions to ensure practical mastery. You’ll work on industry-relevant scenarios like developing e-commerce platforms and dynamic web applications.</p>
-                    <p>Whether you're a beginner or a professional aiming to specialize in full-stack development, our training prepares you for high-demand roles in web development.</p>
+                    <p>IntelliMindz Chennai offers comprehensive Machine Learning training to equip learners with skills in AI, data analysis, and predictive modeling. Our curriculum covers core ML concepts, including supervised and unsupervised learning, deep learning, and practical applications using Python and popular libraries.</p>
+                    <p>The course includes hands-on projects, real-world datasets, and interactive sessions to build job-ready expertise. Learners work on industry-relevant applications, gaining confidence to tackle real-world ML challenges.</p>
+                    <p>Whether you're a beginner or a professional looking to upskill, our ML training provides the knowledge and hands-on experience to excel in the fast-growing AI industry.</p>
                 </div>
                 <div className="sap-fico-about-image-container">
-                    <img src={aboutsapficoImg} alt="MEAN Stack Training in Chennai" />
+                    <img src={aboutsapficoImg} alt="Machine Learning Training in Chennai" />
                 </div>
             </div>
         </div>
@@ -176,16 +176,16 @@ const SAPAboutSection = () => {
 
 const KeyFeaturesSection = () => {
     const features = [
-        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "Choose between in-person or online MEAN Stack training, tailored for professionals, students, and job seekers." },
-        { id: 2, image: handsonsapImg, title: "Hands-on MEAN Stack Tools", description: "Gain practical experience with MongoDB, Express.js, Angular, and Node.js." },
-        { id: 3, image: casestudyrealtimeImg, title: "Real-World MEAN Stack Projects", description: "Work on live web development projects to enhance problem-solving and interview readiness." },
-        { id: 4, image: ExperiencedtrainersImg, title: "Expert MEAN Stack Trainers", description: "Learn from developers with extensive experience in full-stack projects." },
-        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes", description: "Limited batch sizes ensure personalized mentoring for effective learning." },
-        { id: 6, image: interactiveImg, title: "Interactive Assessments", description: "Engage in module-wise discussions and assessments aligned with MEAN Stack interview topics." }
+        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "Choose between in-person and online ML training, tailored for students, professionals, and career switchers to suit their schedules." },
+        { id: 2, image: handsonsapImg, title: "Hands-on ML Projects", description: "Gain practical experience with real-world datasets and projects using Python, TensorFlow, and scikit-learn." },
+        { id: 3, image: casestudyrealtimeImg, title: "Real-World ML Applications", description: "Work on industry projects like predictive modeling and NLP to prepare for real-world ML challenges." },
+        { id: 4, image: ExperiencedtrainersImg, title: "Expert Data Scientists", description: "Learn from industry professionals with extensive experience in ML and AI across various domains." },
+        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes for Personalized Attention", description: "Benefit from small batches for one-on-one mentoring, ensuring personalized support and doubt resolution." },
+        { id: 6, image: interactiveImg, title: "Interactive Sessions and Assessments", description: "Engage in interactive discussions and module-wise assessments aligned with industry ML roles." }
     ];
     return (
         <div className="sap-fico-features-section">
-            <h2>MEAN Stack Training in Chennai Key Features</h2>
+            <h2>Machine Learning Training in Chennai Key Features</h2>
             <div className="sap-fico-features-grid">
                 {features.map((feature) => (
                     <div key={feature.id} className="feature-card">
@@ -204,22 +204,22 @@ const KeyFeaturesSection = () => {
 const SapFicoCourseContentSection = ({ openContactModal }) => {
     const [activeModuleId, setActiveModuleId] = useState(1);
     const allModulesData = [
-        { id: 1, title: "Module 1: Introduction to MEAN Stack", topics: ["Overview of MEAN Stack", "Full-Stack Development Basics", "MEAN vs. Other Stacks", "Setting Up Development Environment", "Version Control with Git", "Introduction to JavaScript and ES6"] },
-        { id: 2, title: "Module 2: MongoDB", topics: ["Introduction to NoSQL Databases", "MongoDB Installation and Setup", "CRUD Operations in MongoDB", "Schema Design and Data Modeling", "Aggregation Framework", "MongoDB with Mongoose"] },
-        { id: 3, title: "Module 3: Express.js", topics: ["Introduction to Express.js", "Setting Up Express Server", "Routing and Middleware", "RESTful API Development", "Error Handling in Express", "Integrating Express with MongoDB"] },
-        { id: 4, title: "Module 4: Angular", topics: ["Introduction to Angular", "Angular CLI and Setup", "Components and Modules", "Data Binding and Directives", "Services and Dependency Injection", "Routing and Navigation"] },
-        { id: 5, title: "Module 5: Node.js", topics: ["Introduction to Node.js", "Node.js Architecture and Event Loop", "Building APIs with Node.js", "File System and Streams", "Asynchronous Programming", "Working with npm Packages"] },
-        { id: 6, title: "Module 6: Building RESTful APIs", topics: ["REST API Design Principles", "Creating APIs with Express and Node.js", "Authentication with JWT", "API Security Best Practices", "Testing APIs with Postman", "API Documentation"] },
-        { id: 7, title: "Module 7: Front-End Development with Angular", topics: ["Angular Forms (Template and Reactive)", "HTTP Client for API Calls", "State Management in Angular", "Angular Pipes and Custom Directives", "Lazy Loading and Optimization", "Unit Testing in Angular"] },
-        { id: 8, title: "Module 8: Full-Stack Integration", topics: ["Connecting Angular with Node.js APIs", "Deploying MongoDB on Cloud", "End-to-End Data Flow in MEAN Stack", "Handling CORS Issues", "Scalability Considerations", "Performance Optimization"] },
-        { id: 9, title: "Module 9: Real-World MEAN Stack Projects", topics: ["Building an E-Commerce Platform", "Developing a Blog Application", "Creating a Task Management System", "User Authentication and Authorization", "Project Testing and Debugging", "Project Documentation"] },
-        { id: 10, title: "Module 10: Deployment and Best Practices", topics: ["Deploying MEAN Stack Apps to Heroku/AWS", "CI/CD Pipelines", "Best Practices for MEAN Development", "Code Optimization Techniques", "Career Planning in Web Development", "Preparing for MEAN Stack Interviews"] }
+        { id: 1, title: "Module 1: Introduction to Machine Learning", topics: ["Overview of ML and AI", "Types of Machine Learning", "Python for ML", "Setting Up ML Environment", "Data Preprocessing Basics"] },
+        { id: 2, title: "Module 2: Supervised Learning", topics: ["Linear and Logistic Regression", "Decision Trees and Random Forests", "Support Vector Machines", "K-Nearest Neighbors", "Model Evaluation Metrics"] },
+        { id: 3, title: "Module 3: Unsupervised Learning", topics: ["K-Means Clustering", "Hierarchical Clustering", "Principal Component Analysis (PCA)", "Anomaly Detection", "Association Rules"] },
+        { id: 4, title: "Module 4: Advanced ML Algorithms", topics: ["Gradient Boosting (XGBoost, LightGBM)", "Naive Bayes", "Ensemble Methods", "Hyperparameter Tuning", "Feature Engineering"] },
+        { id: 5, title: "Module 5: Deep Learning Basics", topics: ["Introduction to Neural Networks", "TensorFlow and Keras", "Convolutional Neural Networks (CNNs)", "Recurrent Neural Networks (RNNs)", "Deep Learning Applications"] },
+        { id: 6, title: "Module 6: Natural Language Processing (NLP)", topics: ["Text Preprocessing", "Bag of Words and TF-IDF", "Word Embeddings", "Sentiment Analysis", "Chatbot Development Basics"] },
+        { id: 7, title: "Module 7: ML with Big Data", topics: ["Introduction to Apache Spark", "MLlib for Machine Learning", "Handling Large Datasets", "Distributed Computing Basics", "Real-Time Data Processing"] },
+        { id: 8, title: "Module 8: Real-World ML Projects", topics: ["End-to-End ML Pipeline", "Predictive Modeling Project", "Image Classification Project", "NLP-Based Project", "Model Deployment and Monitoring"] },
+        { id: 9, title: "Module 9: ML Tools and Frameworks", topics: ["Scikit-learn for ML", "Pandas and NumPy", "Matplotlib and Seaborn", "Cloud Platforms (AWS, GCP)", "Version Control with Git"] },
+        { id: 10, title: "Module 10: ML Career and Industry Insights", topics: ["ML Interview Preparation", "Resume Building for ML Roles", "Real-World Case Studies", "Ethics in AI", "Project Capstone and Review"] }
     ];
     const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
     return (
         <div className="java-course-content-section">
             <h2 className="java-section-title">
-                MEAN Stack Course Modules
+                Machine Learning Course Modules
                 <span className="java-title-underline"></span>
             </h2>
             <div className="java-course-layout-container">
@@ -252,8 +252,8 @@ const SapFicoCourseContentSection = ({ openContactModal }) => {
 
 const BatchDetailsSection = ({ openContactModal }) => {
     const batchInfo = [
-        { id: 1, monthYear: "June 2025", type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Fresh Jobseekers", "Non IT to IT transition"] },
-        { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat-Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
+        { id: 1, monthYear: "June 2023", type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Freshers", "Non IT to IT transition"] },
+        { id: 2, monthYear: "June 2023", type: "Weekends", schedule: "Friday - Saturday", mode: "Online/Offline", duration: "1.5 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
     ];
     return (
         <div
@@ -295,13 +295,13 @@ const BatchDetailsSection = ({ openContactModal }) => {
 
 const CorporateTrainingModesSection = () => {
     const trainingModesData = [
-        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite MEAN Stack training", title: "Onsite Training", description: "Conducted at your premises, offering tailored MEAN Stack training for team upskilling in full-stack development." },
-        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite MEAN Stack training center", title: "Offsite Training", description: "Held at professional training centers for focused MEAN Stack training and certifications." },
-        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual MEAN Stack training", title: "Virtual Instructor-Led Training (VILT)", description: "Live MEAN Stack training via platforms like Zoom, ideal for remote teams with hands-on web development projects." }
+        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate Machine Learning training", title: "Onsite Training:", description: "Conducted at your company’s premises, this training offers tailored ML learning using your infrastructure for maximum relevance." },
+        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite Machine Learning training center", title: "Offsite Training:", description: "Held at professional training centers, this mode ensures focused learning for ML certifications and team upskilling." },
+        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led Machine Learning training", title: "Virtual Instructor-Led Training (VILT):", description: "Live online ML training via platforms like Zoom, ideal for remote teams with real-time interaction and hands-on projects." }
     ];
     return (
         <div className="corporate-training-modes-section">
-            <h2 className="corporate-training-modes-title">Corporate Training Modes for MEAN Stack in Chennai</h2>
+            <h2 className="corporate-training-modes-title">Corporate Training Modes for Machine Learning in Chennai</h2>
             <div className="modes-container-grid">
                 {trainingModesData.map(mode => (
                     <div key={mode.id} className="mode-card-item">
@@ -317,24 +317,18 @@ const CorporateTrainingModesSection = () => {
 
 const AlumniReviewsSection = () => {
     const reviewsData = [
-        { id: 1, name: "Rahul S.", designation: "Full-Stack Developer", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "IntelliMindz’s MEAN Stack course was outstanding. Hands-on projects with MongoDB and Angular were highly practical. The trainers were exceptional." },
-        { id: 2, name: "Sneha K.", designation: "Web Developer", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course covered full-stack development thoroughly. Real-time projects helped me secure a developer role confidently." },
-        { id: 3, name: "Vikram P.", designation: "MEAN Stack Developer", avatarInitial: "V", rating: 5, companyLogoText: "Intellimindz", reviewText: "The flexible schedules and industry-relevant projects were perfect. The MEAN Stack interview prep sessions were spot-on." },
-        { id: 4, name: "Lakshmi R.", designation: "MEAN Stack Trainee", avatarInitial: "L", rating: 5, companyLogoText: "Intellimindz", reviewText: "As a fresher, I found the course beginner-friendly. The trainers explained Node.js concepts clearly, and the labs were invaluable." },
-        { id: 5, name: "Arjun M.", designation: "Senior Full-Stack Developer", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course simplified complex topics like REST APIs. The practical projects and mentoring added immense value." }
+        { id: 1, name: "Arun M.", designation: "Data Scientist", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "IntelliMindz’s ML training was exceptional. The hands-on projects with real-world datasets were invaluable, and the trainers provided deep insights into algorithms." },
+        { id: 2, name: "Sneha R.", designation: "ML Engineer", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course’s practical approach to supervised and unsupervised learning was fantastic. It helped me transition into an ML role with confidence." },
+        { id: 3, name: "Vignesh T.", designation: "AI Developer", avatarInitial: "V", rating: 5, companyLogoText: "Intellimindz", reviewText: "The flexible schedule and comprehensive curriculum were perfect. The trainers’ expertise in deep learning and NLP was a game-changer for my career." },
+        { id: 4, name: "Ritika S.", designation: "ML Trainee", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "As a beginner, I found the course very approachable. The trainers explained complex concepts clearly, and the projects gave me a strong start in ML." },
+        { id: 5, name: "Ramesh A.", designation: "Senior Data Scientist", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course’s focus on advanced ML techniques and real-world applications was outstanding. The trainers’ industry experience made learning highly practical." }
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
     const nextSlide = () => { setCurrentSlide((prev) => (prev === reviewsData.length - 1 ? 0 : prev + 1)); };
     const prevSlide = () => { setCurrentSlide((prev) => (prev === 0 ? reviewsData.length - 1 : prev - 1)); };
     const currentReview = reviewsData[currentSlide];
-    const renderStars = (rating) => { 
-        let stars = []; 
-        for (let i = 0; i < 5; i++) { 
-            stars.push(<span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span>); 
-        } 
-        return stars; 
-    };
+    const renderStars = (rating) => { let stars = []; for (let i = 0; i < 5; i++) { stars.push( <span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span> ); } return stars; };
     const formatReviewText = (text) => { return <p>{text}</p>; };
 
     return (
@@ -343,7 +337,7 @@ const AlumniReviewsSection = () => {
             <div className="review-slider-layout-container">
                 <div className="reviewer-image-area">
                     <div className="reviewer-main-image-placeholder">
-                        <img src={alumniReviewImg} alt="Alumni Reviewer MEAN Stack" />
+                        <img src={alumniReviewImg} alt="Alumni Reviewer Machine Learning" />
                     </div>
                 </div>
                 <div className="review-content-area">
@@ -366,15 +360,11 @@ const AlumniReviewsSection = () => {
                     <div className="slider-navigation">
                         <div className="nav-controls">
                             <button onClick={prevSlide} className="nav-arrow prev-arrow" aria-label="Previous review">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-                                </svg>
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
                             </button>
                             <span className="slide-counter">{String(currentSlide + 1).padStart(2, '0')}/{String(reviewsData.length).padStart(2, '0')}</span>
                             <button onClick={nextSlide} className="nav-arrow next-arrow" aria-label="Next review">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-                                </svg>
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
                             </button>
                         </div>
                     </div>
@@ -387,25 +377,25 @@ const AlumniReviewsSection = () => {
 const SapABAPFaqSection = () => {
     const [activeModule, setActiveModule] = useState(null);
     const modulesData = [
-        { id: 1, title: "What is the MEAN Stack used for?", description: "MEAN Stack is used for building dynamic, scalable web applications with MongoDB (database), Express.js (backend), Angular (frontend), and Node.js (runtime)." },
-        { id: 2, title: "Who should take this MEAN Stack training?", description: "Freshers, developers, and IT professionals looking to specialize in full-stack web development." },
-        { id: 3, title: "Do I need prior experience to learn MEAN Stack?", description: "Basic knowledge of JavaScript or web development is helpful, but the course is beginner-friendly." },
-        { id: 4, title: "Is MEAN Stack in demand in 2025?", description: "Yes, MEAN Stack skills are in high demand in tech industries for building modern web applications." },
-        { id: 5, title: "What’s the difference between MEAN and MERN Stack?", description: "MEAN uses Angular for the frontend; MERN uses React. Both share MongoDB, Express.js, and Node.js." },
-        { id: 6, title: "Is the training available online?", description: "Yes, we offer both online and offline MEAN Stack training with live instructor-led sessions." },
-        { id: 7, title: "Will there be hands-on practice?", description: "Yes, you’ll work on live projects using MongoDB, Express.js, Angular, and Node.js." },
-        { id: 8, title: "Do you provide interview preparation?", description: "Yes, we offer mock interviews, resume guidance, and MEAN Stack-specific scenarios." },
-        { id: 9, title: "Can I switch to MEAN Stack from another field?", description: "Yes, with basic programming skills, you can transition to MEAN Stack through our training." },
-        { id: 10, title: "Is MEAN Stack suitable for freshers?", description: "Absolutely, it’s a great entry point for freshers aiming for a career in web development." }
+        { id: 1, title: "What is Machine Learning used for?", description: "Machine Learning is used for predictive analytics, AI applications, data analysis, NLP, image recognition, and automation." },
+        { id: 2, title: "Who should take this Machine Learning training?", description: "Data scientists, developers, analysts, and anyone interested in AI and predictive modeling." },
+        { id: 3, title: "Do I need prior experience for Machine Learning?", description: "Basic knowledge of Python and statistics is helpful, but our course starts with foundational concepts." },
+        { id: 4, title: "Is Machine Learning in demand in 2023?", description: "Yes, ML is highly sought-after for roles in AI, data science, and automation across industries." },
+        { id: 5, title: "What’s the difference between ML and Deep Learning?", description: "ML is a subset of AI focusing on algorithms, while Deep Learning uses neural networks for complex tasks like image and speech recognition." },
+        { id: 6, title: "Is the training available online?", description: "Yes, we offer both online and offline ML training with live instructor-led sessions and hands-on projects." },
+        { id: 7, title: "Will there be hands-on practice?", description: "Absolutely, our training includes real-world datasets, projects, and coding exercises in Python." },
+        { id: 8, title: "Do you offer job preparation support?", description: "Yes, we provide mock interviews, resume guidance, and project-based learning for ML roles." },
+        { id: 9, title: "Can I switch to Machine Learning from another field?", description: "Yes, with basic programming and math skills, ML is an excellent field to transition into." },
+        { id: 10, title: "Is Machine Learning suitable for freshers?", description: "Definitely, ML is beginner-friendly and a great starting point for a career in AI and data science." }
     ];
     return (
         <div className="sapim-syllabus">
             <div className="sap-home-syllabus-header">
                 <h1>
-                    Have a Question with Our <span className="highlighted-course-title">MEAN Stack Course?</span>
+                    Have a Question with Our <span className="highlighted-course-title">Machine Learning Course?</span>
                 </h1>
                 <p className="syllabus-header-subtitle">
-                    Get answers to your questions about our MEAN Stack course in Chennai.
+                    Here, you can get the answer to your question about our Machine Learning course in Chennai.
                 </p>
             </div>
             <div className="syllabus-grid">
@@ -436,33 +426,30 @@ const SapABAPFaqSection = () => {
 const CallToActionBanner = ({ openContactModal }) => {
     return (
         <div className="cta-banner-section">
-            <p className="cta-banner-text">Launch your MEAN Stack career with expert guidance.</p>
+            <p className="cta-banner-text">Navigate your career ambitions with our expert guidance.</p>
             <button className="cta-banner-button" onClick={openContactModal}>Contact Us</button>
         </div>
     );
 };
 
-const Meanstackmain = () => {
+const Machinelearningmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
-    return (
-        <HelmetProvider>
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                {ContactModal && <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />}
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
+    const pageTitle = "Best Machine Learning Training in Chennai | Practical Oriented ML Course";
+    const pageDescription = "Join IntelliMindz for top Machine Learning training in Chennai. Master ML algorithms with hands-on projects, real-world datasets, and expert guidance.";
+    const pageKeywords = "machine learning training in chennai, machine learning course, ai training, data science training, intellimindz";
+    const ogUrl = "https://localhost:3000/machine_learning_training_in_chennai";
     return (
         <>
-            <Helmet>
-                <title>MEAN Stack Training in Chennai | Full-Stack Web Development Course</title>
-                <meta name="description" content="Master MEAN Stack with our expert-led training in Chennai. Learn MongoDB, Express.js, Angular, and Node.js to build full-stack web applications." />
-            </Helmet>
+            <Meta
+                title={pageTitle}
+                description={pageDescription}
+                keywords={pageKeywords}
+                ogTitle={pageTitle}
+                ogDescription={pageDescription}
+                ogUrl={ogUrl}
+            />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -478,11 +465,12 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapABAPFaqSection />
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };
 
-export default Meanstackmain;
+export default Machinelearningmain;
 
 const Onlineheader = () => {
     return <div className="online_container"></div>;

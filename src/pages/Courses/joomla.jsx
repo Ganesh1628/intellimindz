@@ -1,15 +1,16 @@
+// Empty Joomla course page
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
 import ContactModal from "../../components/Hero-Section/ContactModal";
+import Meta from '../../components/Meta';
 
-// Import all your CSS files (unchanged)
+// Import all your CSS files
 import "../../components/saponlinecom/onlineaboutus.css";
 import "../../components/saponlinecom/sapfico.css";
 import "../../components/saponlinecom/onlinecorporate.css";
 import "../../components/SAP/Header/Introsap.css";
 import "../../components/SapIM/IMsyllabus.css";
 
-// Import all your image assets (unchanged)
+// Import all your image assets
 import saphomeintro1 from '../../assests/images/saphomeintro1.png';
 import homeintro from '../../assests/images/saphomeintro1.png';
 import bestPriceIcon from '../../assests/images/ExperiencedTrainers.jpeg';
@@ -37,15 +38,11 @@ const Intro = ({ openContactModal }) => {
     return (
     <div style={{ width: "100%", height: "100vh", position: "relative", display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center", color: "white", overflow: "hidden" }}>
       <img src={homeintro} alt="Background" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: -1 }} />
-      {/* <div className="intro-container"> */}
-      {/* <div className="training-image-container" >
-          <img src={homeintro} alt="MEAN Stack Training" />
-      </div> */}
       <div className="overlay"></div>
       <div className="intro-content">
           <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
-          <h1 className="intro-h1">Best MEAN Stack Training Institute in Chennai</h1>
-          <h3 className="intro-h3">Master data integration and ETL processes with our expert-led MEAN Stack Training – your gateway to a thriving career in data management.</h3>
+          <h1 className="intro-h1">Best Joomla Training Institute in Chennai</h1>
+          <h3 className="intro-h3">Master web development with our expert-led Joomla Training – your pathway to a successful career in content management and website creation.</h3>
           <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
       </div>
     </div>
@@ -57,7 +54,7 @@ const SapTrainingProfile = ({ openContactModal }) => {
         <div className="sap-training-container">
             <div className="sap-training-header animate__animated animate__flipInX">
                 <h1>
-                    Learn from Experts: MEAN Stack Training by <span>Industry Professionals</span>
+                    Learn from the Best: Joomla Training by <span>Real-Time Experts</span>
                 </h1>
                 <div className="header-divider"></div>
             </div>
@@ -65,21 +62,21 @@ const SapTrainingProfile = ({ openContactModal }) => {
                 <div className="training-details">
                     <div className="sap-training-header animate__animated animate__lightSpeedInLeft">
                         <p className="intro-text">
-                            At IntelliMindz, our MEAN Stack trainers are seasoned developers with hands-on expertise in building scalable web applications. Their industry experience ensures a practical and impactful learning journey.
+                            At IntelliMindz, our Joomla trainers are industry professionals with extensive experience in web development and content management systems. With hands-on expertise in real-world projects, they provide practical insights to guide your Joomla learning journey.
                         </p>
                     </div>
                     <ul className="benefits-list">
-                        <li><span className="icon">✓</span> Gain expertise in full-stack development with MEAN Stack.</li>
-                        <li><span className="icon">✓</span> Learn from developers with real-world project experience.</li>
-                        <li><span className="icon">✓</span> Benefit from IntelliMindz’s proven success in MEAN Stack training and placements.</li>
-                        <li><span className="icon">✓</span> Receive career support, including resume guidance and interview preparation.</li>
-                        <li><span className="icon">✓</span> Work on real-time web development projects to build job-ready skills.</li>
-                        <li><span className="icon">✓</span> Enjoy a customized learning experience tailored to your career goals.</li>
+                        <li><span className="icon">✓</span> Build a strong foundation in Joomla for creating dynamic websites.</li>
+                        <li><span className="icon">✓</span> Learn from practicing Joomla developers with real-time project experience.</li>
+                        <li><span className="icon">✓</span> Benefit from IntelliMindz's proven expertise in delivering successful Joomla training.</li>
+                        <li><span className="icon">✓</span> Receive comprehensive career support, including resume guidance and interview preparation.</li>
+                        <li><span className="icon">✓</span> Work on real-world Joomla projects to gain job-ready skills.</li>
+                        <li><span className="icon">✓</span> Enjoy a customized learning experience tailored to your pace and career goals.</li>
                     </ul>
                     <button className="enquiry-button" onClick={openContactModal}>Enquire Now</button>
                 </div>
                 <div className="training-image">
-                    <img src={saphomeintro1} alt="MEAN Stack Training" />
+                    <img src={saphomeintro1} alt="Joomla Training" />
                 </div>
             </div>
         </div>
@@ -88,12 +85,12 @@ const SapTrainingProfile = ({ openContactModal }) => {
 
 const Corporate = () => {
     const blocksData = [
-        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from MEAN Stack experts at our training center in Chennai." },
-        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking hands-on training with real-world web development projects." },
-        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose batch timings that suit your schedule." },
-        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engage in discussions focused on real-world MEAN Stack development tasks." },
-        { image: onlinetest, heading: "Lifetime Access", paragraph: "Revisit MEAN Stack course content anytime for revision." },
-        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to strengthen your understanding." }
+        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from Joomla experts at our premier training centre in Chennai." },
+        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking a Joomla training centre near you with a focus on practical web development skills." },
+        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose batch timings that align with your schedule for seamless learning." },
+        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engage in discussions focused on real-world Joomla website development tasks." },
+        { image: onlinetest, heading: "Lifetime Access", paragraph: "Access Joomla course materials anytime for continuous learning." },
+        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to strengthen your Joomla expertise." }
     ];
     return (
         <div className="corporate-section">
@@ -124,10 +121,10 @@ const PlaceholderTrainingIcon = ({ type }) => (
 
 const TrainingModesSection = ({ openContactModal }) => {
     const trainingModes = [
-        { id: 'online', iconType: 'online', title: "Online Training", description: "Join live, instructor-led MEAN Stack sessions from anywhere. Includes hands-on projects building full-stack applications.", isPopular: true },
-        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn at your own pace with pre-recorded MEAN Stack videos. Get lifetime access to course materials and updates.", isPopular: false },
-        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Experience immersive in-person MEAN Stack training in Chennai for collaborative learning with trainers and peers.", isPopular: false },
-        { id: 'hybrid', iconType: 'hybrid', title: "Hybrid Training", description: "Combine online and classroom learning for flexibility, ensuring consistent progress and support.", isPopular: false }
+        { id: 'online', iconType: 'online', title: "Online Training", description: "Join live, instructor-led Joomla sessions from anywhere with hands-on website development exercises, real-time projects, and interactive Q&A for practical learning.", isPopular: true },
+        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn Joomla at your convenience with pre-recorded videos. Get lifetime access to course materials, downloadable resources, and periodic updates.", isPopular: false },
+        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Participate in immersive in-person Joomla sessions for a focused learning experience. Ideal for collaborative learning with direct trainer and peer interaction.", isPopular: false },
+        { id: 'hybrid', iconType: 'hybrid', title: "Hybrid Training", description: "Combine the flexibility of online and classroom learning. Switch between formats based on your needs, ensuring consistent progress and support.", isPopular: false }
     ];
     return (
         <div className="training-modes-section">
@@ -149,9 +146,9 @@ const TrainingModesSection = ({ openContactModal }) => {
 const SAPHeroSection = ({ openContactModal }) => {
     return (
         <div className="sap-fico-expert-section">
-            <h1>Become a Skilled MEAN Stack Developer with IntelliMindz</h1>
-            <p>Industry-focused MEAN Stack training to master full-stack web development.</p>
-            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your MEAN Stack Journey Today!</button>
+            <h1>Become a Skilled Joomla Developer with IntelliMindz</h1>
+            <p>Master industry-relevant Joomla skills for building dynamic, user-friendly websites and content management systems.</p>
+            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your Joomla Journey Today!</button>
         </div>
     );
 };
@@ -159,15 +156,15 @@ const SAPHeroSection = ({ openContactModal }) => {
 const SAPAboutSection = () => {
     return (
         <div className="sap-fico-about-section">
-            <h2>About Our MEAN Stack Training in Chennai</h2>
+            <h2>About Our Joomla Training in Chennai</h2>
             <div className="sap-fico-about-content">
                 <div className="sap-fico-about-text">
-                    <p>At IntelliMindz Chennai, our MEAN Stack training equips you with expertise in building modern web applications using MongoDB, Express.js, Angular, and Node.js. The curriculum covers front-end and back-end development, RESTful APIs, and database integration.</p>
-                    <p>Our course includes hands-on labs, real-time projects, and interactive sessions to ensure practical mastery. You’ll work on industry-relevant scenarios like developing e-commerce platforms and dynamic web applications.</p>
-                    <p>Whether you're a beginner or a professional aiming to specialize in full-stack development, our training prepares you for high-demand roles in web development.</p>
+                    <p>IntelliMindz Chennai offers comprehensive Joomla training designed to provide both theoretical knowledge and hands-on expertise in web development and content management. Our curriculum covers key Joomla features such as site setup, template customization, module development, plugin integration, and SEO optimization.</p>
+                    <p>The course includes interactive classes, live website-building sessions, practical exercises, and real-world Joomla projects. By working on industry-relevant scenarios, learners gain the skills and confidence to create professional websites and manage content effectively.</p>
+                    <p>Whether you're a beginner in web development or a professional aiming to enhance your Joomla skills, our training equips you with the expertise to excel in the competitive web development job market.</p>
                 </div>
                 <div className="sap-fico-about-image-container">
-                    <img src={aboutsapficoImg} alt="MEAN Stack Training in Chennai" />
+                    <img src={aboutsapficoImg} alt="Joomla Training in Chennai" />
                 </div>
             </div>
         </div>
@@ -176,24 +173,24 @@ const SAPAboutSection = () => {
 
 const KeyFeaturesSection = () => {
     const features = [
-        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "Choose between in-person or online MEAN Stack training, tailored for professionals, students, and job seekers." },
-        { id: 2, image: handsonsapImg, title: "Hands-on MEAN Stack Tools", description: "Gain practical experience with MongoDB, Express.js, Angular, and Node.js." },
-        { id: 3, image: casestudyrealtimeImg, title: "Real-World MEAN Stack Projects", description: "Work on live web development projects to enhance problem-solving and interview readiness." },
-        { id: 4, image: ExperiencedtrainersImg, title: "Expert MEAN Stack Trainers", description: "Learn from developers with extensive experience in full-stack projects." },
-        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes", description: "Limited batch sizes ensure personalized mentoring for effective learning." },
-        { id: 6, image: interactiveImg, title: "Interactive Assessments", description: "Engage in module-wise discussions and assessments aligned with MEAN Stack interview topics." }
+        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "Choose from in-person classroom sessions or flexible online learning, making Joomla training accessible to working professionals, students, and job seekers." },
+        { id: 2, image: handsonsapImg, title: "Hands-on Practice with Joomla", description: "Gain hands-on experience with Joomla site creation, template customization, and plugin development. Build job-ready skills through practical exercises." },
+        { id: 3, image: casestudyrealtimeImg, title: "Real-Time Joomla Projects", description: "Work on case studies modeled after real-world Joomla projects. These exercises enhance problem-solving and prepare you for web development challenges." },
+        { id: 4, image: ExperiencedtrainersImg, title: "Trainers with Extensive Joomla Experience", description: "Learn from industry experts with years of experience in Joomla projects. Our trainers provide practical insights, best practices, and mentorship." },
+        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes for Focused Learning", description: "Our limited batch sizes ensure personalized mentoring, allowing trainers to address queries and provide tailored support for effective learning." },
+        { id: 6, image: interactiveImg, title: "Interactive Sessions and Assessments", description: "Each module includes interactive discussions, quizzes, and hands-on labs aligned with Joomla development topics, helping you prepare for job interviews." }
     ];
     return (
         <div className="sap-fico-features-section">
-            <h2>MEAN Stack Training in Chennai Key Features</h2>
+            <h2>Joomla Training in Chennai Key Features</h2>
             <div className="sap-fico-features-grid">
-                {features.map((feature) => (
-                    <div key={feature.id} className="feature-card">
+                {features.map((item) => (
+                    <div key={item.id} className="feature-card">
                         <div className="feature-icon-placeholder">
-                            {feature.image ? (<img src={feature.image} alt={feature.title} />) : (feature.iconPlaceholder)}
+                            {item.image ? (<img src={item.image} alt={item.title} />) : (item.iconPlaceholder)}
                         </div>
-                        <h3>{feature.title}</h3>
-                        <p>{feature.description}</p>
+                        <h3>{item.title}</h3>
+                        <p>{item.description}</p>
                     </div>
                 ))}
             </div>
@@ -204,22 +201,22 @@ const KeyFeaturesSection = () => {
 const SapFicoCourseContentSection = ({ openContactModal }) => {
     const [activeModuleId, setActiveModuleId] = useState(1);
     const allModulesData = [
-        { id: 1, title: "Module 1: Introduction to MEAN Stack", topics: ["Overview of MEAN Stack", "Full-Stack Development Basics", "MEAN vs. Other Stacks", "Setting Up Development Environment", "Version Control with Git", "Introduction to JavaScript and ES6"] },
-        { id: 2, title: "Module 2: MongoDB", topics: ["Introduction to NoSQL Databases", "MongoDB Installation and Setup", "CRUD Operations in MongoDB", "Schema Design and Data Modeling", "Aggregation Framework", "MongoDB with Mongoose"] },
-        { id: 3, title: "Module 3: Express.js", topics: ["Introduction to Express.js", "Setting Up Express Server", "Routing and Middleware", "RESTful API Development", "Error Handling in Express", "Integrating Express with MongoDB"] },
-        { id: 4, title: "Module 4: Angular", topics: ["Introduction to Angular", "Angular CLI and Setup", "Components and Modules", "Data Binding and Directives", "Services and Dependency Injection", "Routing and Navigation"] },
-        { id: 5, title: "Module 5: Node.js", topics: ["Introduction to Node.js", "Node.js Architecture and Event Loop", "Building APIs with Node.js", "File System and Streams", "Asynchronous Programming", "Working with npm Packages"] },
-        { id: 6, title: "Module 6: Building RESTful APIs", topics: ["REST API Design Principles", "Creating APIs with Express and Node.js", "Authentication with JWT", "API Security Best Practices", "Testing APIs with Postman", "API Documentation"] },
-        { id: 7, title: "Module 7: Front-End Development with Angular", topics: ["Angular Forms (Template and Reactive)", "HTTP Client for API Calls", "State Management in Angular", "Angular Pipes and Custom Directives", "Lazy Loading and Optimization", "Unit Testing in Angular"] },
-        { id: 8, title: "Module 8: Full-Stack Integration", topics: ["Connecting Angular with Node.js APIs", "Deploying MongoDB on Cloud", "End-to-End Data Flow in MEAN Stack", "Handling CORS Issues", "Scalability Considerations", "Performance Optimization"] },
-        { id: 9, title: "Module 9: Real-World MEAN Stack Projects", topics: ["Building an E-Commerce Platform", "Developing a Blog Application", "Creating a Task Management System", "User Authentication and Authorization", "Project Testing and Debugging", "Project Documentation"] },
-        { id: 10, title: "Module 10: Deployment and Best Practices", topics: ["Deploying MEAN Stack Apps to Heroku/AWS", "CI/CD Pipelines", "Best Practices for MEAN Development", "Code Optimization Techniques", "Career Planning in Web Development", "Preparing for MEAN Stack Interviews"] }
+        { id: 1, title: "Module 1: Introduction to Joomla", topics: ["Overview of Joomla and its Features", "Joomla Installation and Setup", "Understanding Joomla Architecture", "Navigating the Joomla Admin Panel", "Key Joomla Terminologies", "Setting Up Development Environment"] },
+        { id: 2, title: "Module 2: Joomla Site Management", topics: ["Creating and Managing Content", "Working with Articles and Categories", "Menu Creation and Navigation", "User Management and Permissions", "Global Configuration Settings", "Site Backup and Restoration"] },
+        { id: 3, title: "Module 3: Joomla Templates", topics: ["Understanding Joomla Templates", "Installing and Customizing Templates", "Creating Custom Templates", "Working with Template Frameworks", "Responsive Design in Joomla", "Template Overrides"] },
+        { id: 4, title: "Module 4: Joomla Extensions", topics: ["Overview of Joomla Extensions", "Installing Modules, Plugins, and Components", "Custom Module Development", "Creating Custom Plugins", "Managing Extension Updates", "Third-Party Extension Integration"] },
+        { id: 5, title: "Module 5: Joomla Component Development", topics: ["Introduction to Component Development", "Building Custom Components", "MVC Architecture in Joomla", "Database Integration in Components", "Creating Admin Interfaces", "Component Packaging and Deployment"] },
+        { id: 6, title: "Module 6: Joomla SEO and Performance", topics: ["SEO Best Practices for Joomla", "Configuring SEF URLs", "Metadata and Sitemap Optimization", "Performance Optimization Techniques", "Caching and Compression", "Joomla Security Best Practices"] },
+        { id: 7, title: "Module 7: Joomla Multilingual Sites", topics: ["Setting Up Multilingual Sites", "Managing Language Packs", "Content Translation in Joomla", "Multilingual Menu Setup", "Language Overrides", "SEO for Multilingual Sites"] },
+        { id: 8, title: "Module 8: Joomla in Cloud Environments", topics: ["Deploying Joomla on AWS, Azure, and GCP", "Hosting Joomla Sites", "Scalability in Cloud Deployments", "Cloud-Based Backup Solutions", "Managing Joomla in Cloud", "Security in Cloud-Based Joomla"] },
+        { id: 9, title: "Module 9: Joomla Project Development", topics: ["Planning a Joomla Website", "Building a Complete Joomla Site", "Customizing Themes and Extensions", "Integrating Third-Party Tools", "Testing and Debugging", "Site Launch and Maintenance"] },
+        { id: 10, title: "Module 10: Real-Time Joomla Project", topics: ["End-to-End Website Development", "Building a Dynamic Joomla Site", "Custom Extension Development", "SEO and Performance Optimization", "Mock Interviews and Resume Building", "Project Review and Feedback"] }
     ];
     const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
     return (
         <div className="java-course-content-section">
             <h2 className="java-section-title">
-                MEAN Stack Course Modules
+                Joomla Course Modules
                 <span className="java-title-underline"></span>
             </h2>
             <div className="java-course-layout-container">
@@ -253,7 +250,7 @@ const SapFicoCourseContentSection = ({ openContactModal }) => {
 const BatchDetailsSection = ({ openContactModal }) => {
     const batchInfo = [
         { id: 1, monthYear: "June 2025", type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Fresh Jobseekers", "Non IT to IT transition"] },
-        { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat-Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
+        { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
     ];
     return (
         <div
@@ -295,13 +292,13 @@ const BatchDetailsSection = ({ openContactModal }) => {
 
 const CorporateTrainingModesSection = () => {
     const trainingModesData = [
-        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite MEAN Stack training", title: "Onsite Training", description: "Conducted at your premises, offering tailored MEAN Stack training for team upskilling in full-stack development." },
-        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite MEAN Stack training center", title: "Offsite Training", description: "Held at professional training centers for focused MEAN Stack training and certifications." },
-        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual MEAN Stack training", title: "Virtual Instructor-Led Training (VILT)", description: "Live MEAN Stack training via platforms like Zoom, ideal for remote teams with hands-on web development projects." }
+        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate Joomla training", title: "Onsite Training:", description: "Conducted at your company’s premises, this training offers a tailored learning experience using your web development environment for maximum relevance." },
+        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite Joomla training center", title: "Offsite Training:", description: "Held at professional training centers, this mode provides focused learning without workplace distractions, ideal for certifications and workshops." },
+        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led Joomla training", title: "Virtual Instructor-Led Training (VILT):", description: "Delivered live via Zoom or Teams, VILT offers flexibility for remote teams with real-time instructor interaction and collaborative tools." }
     ];
     return (
         <div className="corporate-training-modes-section">
-            <h2 className="corporate-training-modes-title">Corporate Training Modes for MEAN Stack in Chennai</h2>
+            <h2 className="corporate-training-modes-title">Corporate Training Modes for Joomla in Chennai</h2>
             <div className="modes-container-grid">
                 {trainingModesData.map(mode => (
                     <div key={mode.id} className="mode-card-item">
@@ -317,24 +314,18 @@ const CorporateTrainingModesSection = () => {
 
 const AlumniReviewsSection = () => {
     const reviewsData = [
-        { id: 1, name: "Rahul S.", designation: "Full-Stack Developer", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "IntelliMindz’s MEAN Stack course was outstanding. Hands-on projects with MongoDB and Angular were highly practical. The trainers were exceptional." },
-        { id: 2, name: "Sneha K.", designation: "Web Developer", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course covered full-stack development thoroughly. Real-time projects helped me secure a developer role confidently." },
-        { id: 3, name: "Vikram P.", designation: "MEAN Stack Developer", avatarInitial: "V", rating: 5, companyLogoText: "Intellimindz", reviewText: "The flexible schedules and industry-relevant projects were perfect. The MEAN Stack interview prep sessions were spot-on." },
-        { id: 4, name: "Lakshmi R.", designation: "MEAN Stack Trainee", avatarInitial: "L", rating: 5, companyLogoText: "Intellimindz", reviewText: "As a fresher, I found the course beginner-friendly. The trainers explained Node.js concepts clearly, and the labs were invaluable." },
-        { id: 5, name: "Arjun M.", designation: "Senior Full-Stack Developer", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course simplified complex topics like REST APIs. The practical projects and mentoring added immense value." }
+        { id: 1, name: "Arun M.", designation: "Web Developer", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "IntelliMindz’s Joomla course was exceptional. The hands-on labs on site creation and extension development helped me master Joomla skills. The trainers were highly supportive." },
+        { id: 2, name: "Sneha R.", designation: "Frontend Developer", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course simplified complex Joomla concepts. Practical projects and lab sessions helped me transition confidently into a web development role." },
+        { id: 3, name: "Vignesh T.", designation: "Joomla Developer", avatarInitial: "V", rating: 5, companyLogoText: "Intellimindz", reviewText: "IntelliMindz’s practical content and flexible timings were perfect. The real-world projects and mentorship prepared me well for my Joomla role." },
+        { id: 4, name: "Ritika S.", designation: "Joomla Trainee", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "As a beginner, I found the course approachable. The trainers explained Joomla from scratch, and the hands-on labs gave me a strong start in my career." },
+        { id: 5, name: "Ramesh A.", designation: "Senior Web Developer", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course’s depth and practical approach made advanced Joomla topics like component development and SEO easy to grasp. Highly recommend for professionals." }
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
     const nextSlide = () => { setCurrentSlide((prev) => (prev === reviewsData.length - 1 ? 0 : prev + 1)); };
     const prevSlide = () => { setCurrentSlide((prev) => (prev === 0 ? reviewsData.length - 1 : prev - 1)); };
     const currentReview = reviewsData[currentSlide];
-    const renderStars = (rating) => { 
-        let stars = []; 
-        for (let i = 0; i < 5; i++) { 
-            stars.push(<span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span>); 
-        } 
-        return stars; 
-    };
+    const renderStars = (rating) => { let stars = []; for (let i = 0; i < 5; i++) { stars.push( <span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span> ); } return stars; };
     const formatReviewText = (text) => { return <p>{text}</p>; };
 
     return (
@@ -343,7 +334,7 @@ const AlumniReviewsSection = () => {
             <div className="review-slider-layout-container">
                 <div className="reviewer-image-area">
                     <div className="reviewer-main-image-placeholder">
-                        <img src={alumniReviewImg} alt="Alumni Reviewer MEAN Stack" />
+                        <img src={alumniReviewImg} alt="Alumni Reviewer Joomla" />
                     </div>
                 </div>
                 <div className="review-content-area">
@@ -366,15 +357,11 @@ const AlumniReviewsSection = () => {
                     <div className="slider-navigation">
                         <div className="nav-controls">
                             <button onClick={prevSlide} className="nav-arrow prev-arrow" aria-label="Previous review">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-                                </svg>
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
                             </button>
                             <span className="slide-counter">{String(currentSlide + 1).padStart(2, '0')}/{String(reviewsData.length).padStart(2, '0')}</span>
                             <button onClick={nextSlide} className="nav-arrow next-arrow" aria-label="Next review">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-                                </svg>
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
                             </button>
                         </div>
                     </div>
@@ -387,25 +374,25 @@ const AlumniReviewsSection = () => {
 const SapABAPFaqSection = () => {
     const [activeModule, setActiveModule] = useState(null);
     const modulesData = [
-        { id: 1, title: "What is the MEAN Stack used for?", description: "MEAN Stack is used for building dynamic, scalable web applications with MongoDB (database), Express.js (backend), Angular (frontend), and Node.js (runtime)." },
-        { id: 2, title: "Who should take this MEAN Stack training?", description: "Freshers, developers, and IT professionals looking to specialize in full-stack web development." },
-        { id: 3, title: "Do I need prior experience to learn MEAN Stack?", description: "Basic knowledge of JavaScript or web development is helpful, but the course is beginner-friendly." },
-        { id: 4, title: "Is MEAN Stack in demand in 2025?", description: "Yes, MEAN Stack skills are in high demand in tech industries for building modern web applications." },
-        { id: 5, title: "What’s the difference between MEAN and MERN Stack?", description: "MEAN uses Angular for the frontend; MERN uses React. Both share MongoDB, Express.js, and Node.js." },
-        { id: 6, title: "Is the training available online?", description: "Yes, we offer both online and offline MEAN Stack training with live instructor-led sessions." },
-        { id: 7, title: "Will there be hands-on practice?", description: "Yes, you’ll work on live projects using MongoDB, Express.js, Angular, and Node.js." },
-        { id: 8, title: "Do you provide interview preparation?", description: "Yes, we offer mock interviews, resume guidance, and MEAN Stack-specific scenarios." },
-        { id: 9, title: "Can I switch to MEAN Stack from another field?", description: "Yes, with basic programming skills, you can transition to MEAN Stack through our training." },
-        { id: 10, title: "Is MEAN Stack suitable for freshers?", description: "Absolutely, it’s a great entry point for freshers aiming for a career in web development." }
+        { id: 1, title: "What is Joomla used for?", description: "Joomla is used for building dynamic websites and web applications, offering robust content management and customization capabilities." },
+        { id: 2, title: "Who should take this Joomla training?", description: "Web developers, content managers, and freshers looking to specialize in website creation and content management systems." },
+        { id: 3, title: "Do I need prior experience to learn Joomla?", description: "Basic knowledge of HTML, CSS, or web development is helpful but not mandatory. Our course starts from the basics for beginners." },
+        { id: 4, title: "Is Joomla in demand in 2025?", description: "Yes, Joomla remains popular for creating customizable, user-friendly websites, particularly for businesses and organizations." },
+        { id: 5, title: "What’s the difference between Joomla and WordPress?", description: "Joomla offers more flexibility for complex sites and custom development, while WordPress is more user-friendly for beginners and content-focused sites." },
+        { id: 6, title: "Is the training available online?", description: "Yes, we offer both online and offline Joomla training with live instructor-led sessions and hands-on practice." },
+        { id: 7, title: "Will there be hands-on practice?", description: "Absolutely, our training includes live website-building sessions with Joomla for site creation, customization, and extension development." },
+        { id: 8, title: "Do you provide interview preparation?", description: "Yes, we offer mock interviews, resume guidance, and real-world Joomla project scenarios to prepare you for web development job roles." },
+        { id: 9, title: "Can I switch to Joomla from another IT field?", description: "Yes, with basic web development knowledge, Joomla is an excellent platform to transition into for IT professionals." },
+        { id: 10, title: "Is Joomla suitable for freshers?", description: "Definitely, Joomla’s intuitive interface and growing demand make it a great starting point for freshers entering web development." }
     ];
     return (
         <div className="sapim-syllabus">
             <div className="sap-home-syllabus-header">
                 <h1>
-                    Have a Question with Our <span className="highlighted-course-title">MEAN Stack Course?</span>
+                    Have a Question with Our <span className="highlighted-course-title">Joomla Course?</span>
                 </h1>
                 <p className="syllabus-header-subtitle">
-                    Get answers to your questions about our MEAN Stack course in Chennai.
+                    Here, you can get the answer to your questions about our Joomla course in Chennai.
                 </p>
             </div>
             <div className="syllabus-grid">
@@ -436,33 +423,30 @@ const SapABAPFaqSection = () => {
 const CallToActionBanner = ({ openContactModal }) => {
     return (
         <div className="cta-banner-section">
-            <p className="cta-banner-text">Launch your MEAN Stack career with expert guidance.</p>
+            <p className="cta-banner-text">Navigate your career ambitions with our expert guidance.</p>
             <button className="cta-banner-button" onClick={openContactModal}>Contact Us</button>
         </div>
     );
 };
 
-const Meanstackmain = () => {
+const Joomlamain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
-    return (
-        <HelmetProvider>
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                {ContactModal && <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />}
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
+    const pageTitle = "Best Joomla Training in Chennai | Practical Oriented Joomla Course";
+    const pageDescription = "Join the top Joomla training in Chennai at IntelliMindz. Master web development, content management, and website creation with hands-on projects and expert guidance.";
+    const pageKeywords = "joomla training in chennai, joomla course, web development training, content management training, intellimindz";
+    const ogUrl = "https://localhost:3000/joomla-training-in-chennai";
     return (
         <>
-            <Helmet>
-                <title>MEAN Stack Training in Chennai | Full-Stack Web Development Course</title>
-                <meta name="description" content="Master MEAN Stack with our expert-led training in Chennai. Learn MongoDB, Express.js, Angular, and Node.js to build full-stack web applications." />
-            </Helmet>
+            <Meta
+                title={pageTitle}
+                description={pageDescription}
+                keywords={pageKeywords}
+                ogTitle={pageTitle}
+                ogDescription={pageDescription}
+                ogUrl={ogUrl}
+            />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -478,11 +462,12 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapABAPFaqSection />
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };
 
-export default Meanstackmain;
+export default Joomlamain;
 
 const Onlineheader = () => {
     return <div className="online_container"></div>;

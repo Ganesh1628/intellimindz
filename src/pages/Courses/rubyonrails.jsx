@@ -1,15 +1,16 @@
+// Empty Ruby on Rails course page
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
 import ContactModal from "../../components/Hero-Section/ContactModal";
+import Meta from '../../components/Meta';
 
-// Import all your CSS files (unchanged)
+// Import all your CSS files
 import "../../components/saponlinecom/onlineaboutus.css";
 import "../../components/saponlinecom/sapfico.css";
 import "../../components/saponlinecom/onlinecorporate.css";
 import "../../components/SAP/Header/Introsap.css";
 import "../../components/SapIM/IMsyllabus.css";
 
-// Import all your image assets (unchanged)
+// Import all your image assets
 import saphomeintro1 from '../../assests/images/saphomeintro1.png';
 import homeintro from '../../assests/images/saphomeintro1.png';
 import bestPriceIcon from '../../assests/images/ExperiencedTrainers.jpeg';
@@ -37,15 +38,11 @@ const Intro = ({ openContactModal }) => {
     return (
     <div style={{ width: "100%", height: "100vh", position: "relative", display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center", color: "white", overflow: "hidden" }}>
       <img src={homeintro} alt="Background" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: -1 }} />
-      {/* <div className="intro-container"> */}
-      {/* <div className="training-image-container" >
-          <img src={homeintro} alt="MEAN Stack Training" />
-      </div> */}
       <div className="overlay"></div>
       <div className="intro-content">
           <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
-          <h1 className="intro-h1">Best MEAN Stack Training Institute in Chennai</h1>
-          <h3 className="intro-h3">Master data integration and ETL processes with our expert-led MEAN Stack Training – your gateway to a thriving career in data management.</h3>
+          <h1 className="intro-h1">Best Ruby on Rails Training Institute in Chennai</h1>
+          <h3 className="intro-h3">Master web development with our expert-led Ruby on Rails Training – your pathway to a successful career in building dynamic web applications.</h3>
           <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
       </div>
     </div>
@@ -57,7 +54,7 @@ const SapTrainingProfile = ({ openContactModal }) => {
         <div className="sap-training-container">
             <div className="sap-training-header animate__animated animate__flipInX">
                 <h1>
-                    Learn from Experts: MEAN Stack Training by <span>Industry Professionals</span>
+                    Learn from the Best: Ruby on Rails Training by <span>Real-Time Experts</span>
                 </h1>
                 <div className="header-divider"></div>
             </div>
@@ -65,21 +62,21 @@ const SapTrainingProfile = ({ openContactModal }) => {
                 <div className="training-details">
                     <div className="sap-training-header animate__animated animate__lightSpeedInLeft">
                         <p className="intro-text">
-                            At IntelliMindz, our MEAN Stack trainers are seasoned developers with hands-on expertise in building scalable web applications. Their industry experience ensures a practical and impactful learning journey.
+                            At IntelliMindz, our Ruby on Rails trainers are industry professionals with extensive experience in web development and building scalable applications. With hands-on expertise in real-world projects, they provide practical insights to guide your Ruby on Rails learning journey.
                         </p>
                     </div>
                     <ul className="benefits-list">
-                        <li><span className="icon">✓</span> Gain expertise in full-stack development with MEAN Stack.</li>
-                        <li><span className="icon">✓</span> Learn from developers with real-world project experience.</li>
-                        <li><span className="icon">✓</span> Benefit from IntelliMindz’s proven success in MEAN Stack training and placements.</li>
-                        <li><span className="icon">✓</span> Receive career support, including resume guidance and interview preparation.</li>
-                        <li><span className="icon">✓</span> Work on real-time web development projects to build job-ready skills.</li>
-                        <li><span className="icon">✓</span> Enjoy a customized learning experience tailored to your career goals.</li>
+                        <li><span className="icon">✓</span> Build a strong foundation in Ruby on Rails for web development.</li>
+                        <li><span className="icon">✓</span> Learn from practicing Ruby on Rails professionals with real-time project experience.</li>
+                        <li><span className="icon">✓</span> Benefit from IntelliMindz's proven expertise in delivering successful Ruby on Rails training.</li>
+                        <li><span className="icon">✓</span> Receive comprehensive career support, including resume guidance and interview preparation.</li>
+                        <li><span className="icon">✓</span> Work on real-world web development scenarios to gain job-ready skills.</li>
+                        <li><span className="icon">✓</span> Enjoy a customized learning experience tailored to your pace and career goals.</li>
                     </ul>
                     <button className="enquiry-button" onClick={openContactModal}>Enquire Now</button>
                 </div>
                 <div className="training-image">
-                    <img src={saphomeintro1} alt="MEAN Stack Training" />
+                    <img src={saphomeintro1} alt="Ruby on Rails Training" />
                 </div>
             </div>
         </div>
@@ -88,12 +85,12 @@ const SapTrainingProfile = ({ openContactModal }) => {
 
 const Corporate = () => {
     const blocksData = [
-        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from MEAN Stack experts at our training center in Chennai." },
-        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking hands-on training with real-world web development projects." },
-        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose batch timings that suit your schedule." },
-        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engage in discussions focused on real-world MEAN Stack development tasks." },
-        { image: onlinetest, heading: "Lifetime Access", paragraph: "Revisit MEAN Stack course content anytime for revision." },
-        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to strengthen your understanding." }
+        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from Ruby on Rails experts at our premier training centre in Chennai." },
+        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking a Ruby on Rails training centre near you with a focus on practical web development skills." },
+        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose batch timings that align with your schedule for seamless learning." },
+        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engage in discussions focused on real-world Ruby on Rails development tasks." },
+        { image: onlinetest, heading: "Lifetime Access", paragraph: "Access Ruby on Rails course materials anytime for continuous learning." },
+        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to strengthen your Ruby on Rails expertise." }
     ];
     return (
         <div className="corporate-section">
@@ -124,10 +121,10 @@ const PlaceholderTrainingIcon = ({ type }) => (
 
 const TrainingModesSection = ({ openContactModal }) => {
     const trainingModes = [
-        { id: 'online', iconType: 'online', title: "Online Training", description: "Join live, instructor-led MEAN Stack sessions from anywhere. Includes hands-on projects building full-stack applications.", isPopular: true },
-        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn at your own pace with pre-recorded MEAN Stack videos. Get lifetime access to course materials and updates.", isPopular: false },
-        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Experience immersive in-person MEAN Stack training in Chennai for collaborative learning with trainers and peers.", isPopular: false },
-        { id: 'hybrid', iconType: 'hybrid', title: "Hybrid Training", description: "Combine online and classroom learning for flexibility, ensuring consistent progress and support.", isPopular: false }
+        { id: 'online', iconType: 'online', title: "Online Training", description: "Join live, instructor-led Ruby on Rails sessions from anywhere with hands-on coding exercises, real-time projects, and interactive Q&A for practical learning.", isPopular: true },
+        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn Ruby on Rails at your convenience with pre-recorded videos. Get lifetime access to course materials, downloadable resources, and periodic updates.", isPopular: false },
+        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Participate in immersive in-person Ruby on Rails sessions for a focused learning experience. Ideal for collaborative learning with direct trainer and peer interaction.", isPopular: false },
+        { id: 'hybrid', iconType: 'hybrid', title: "Hybrid Training", description: "Combine the flexibility of online and classroom learning. Switch between formats based on your needs, ensuring consistent progress and support.", isPopular: false }
     ];
     return (
         <div className="training-modes-section">
@@ -149,9 +146,9 @@ const TrainingModesSection = ({ openContactModal }) => {
 const SAPHeroSection = ({ openContactModal }) => {
     return (
         <div className="sap-fico-expert-section">
-            <h1>Become a Skilled MEAN Stack Developer with IntelliMindz</h1>
-            <p>Industry-focused MEAN Stack training to master full-stack web development.</p>
-            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your MEAN Stack Journey Today!</button>
+            <h1>Become a Skilled Ruby on Rails Developer with IntelliMindz</h1>
+            <p>Master industry-relevant Ruby on Rails skills for efficient web application development.</p>
+            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your Ruby on Rails Journey Today!</button>
         </div>
     );
 };
@@ -159,15 +156,15 @@ const SAPHeroSection = ({ openContactModal }) => {
 const SAPAboutSection = () => {
     return (
         <div className="sap-fico-about-section">
-            <h2>About Our MEAN Stack Training in Chennai</h2>
+            <h2>About Our Ruby on Rails Training in Chennai</h2>
             <div className="sap-fico-about-content">
                 <div className="sap-fico-about-text">
-                    <p>At IntelliMindz Chennai, our MEAN Stack training equips you with expertise in building modern web applications using MongoDB, Express.js, Angular, and Node.js. The curriculum covers front-end and back-end development, RESTful APIs, and database integration.</p>
-                    <p>Our course includes hands-on labs, real-time projects, and interactive sessions to ensure practical mastery. You’ll work on industry-relevant scenarios like developing e-commerce platforms and dynamic web applications.</p>
-                    <p>Whether you're a beginner or a professional aiming to specialize in full-stack development, our training prepares you for high-demand roles in web development.</p>
+                    <p>IntelliMindz Chennai offers comprehensive Ruby on Rails training designed to provide both theoretical knowledge and hands-on expertise in web development. Our curriculum covers key Ruby on Rails concepts such as MVC architecture, RESTful APIs, Active Record, and deployment, along with practical coding techniques.</p>
+                    <p>The course includes interactive classes, live coding sessions, practical exercises, and real-world web development projects. By working on industry-relevant scenarios, learners gain the skills and confidence to build dynamic, scalable web applications.</p>
+                    <p>Whether you're a beginner in web development or a professional aiming to enhance your Ruby on Rails skills, our training equips you with the expertise to excel in the competitive web development job market.</p>
                 </div>
                 <div className="sap-fico-about-image-container">
-                    <img src={aboutsapficoImg} alt="MEAN Stack Training in Chennai" />
+                    <img src={aboutsapficoImg} alt="Ruby on Rails Training in Chennai" />
                 </div>
             </div>
         </div>
@@ -176,24 +173,24 @@ const SAPAboutSection = () => {
 
 const KeyFeaturesSection = () => {
     const features = [
-        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "Choose between in-person or online MEAN Stack training, tailored for professionals, students, and job seekers." },
-        { id: 2, image: handsonsapImg, title: "Hands-on MEAN Stack Tools", description: "Gain practical experience with MongoDB, Express.js, Angular, and Node.js." },
-        { id: 3, image: casestudyrealtimeImg, title: "Real-World MEAN Stack Projects", description: "Work on live web development projects to enhance problem-solving and interview readiness." },
-        { id: 4, image: ExperiencedtrainersImg, title: "Expert MEAN Stack Trainers", description: "Learn from developers with extensive experience in full-stack projects." },
-        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes", description: "Limited batch sizes ensure personalized mentoring for effective learning." },
-        { id: 6, image: interactiveImg, title: "Interactive Assessments", description: "Engage in module-wise discussions and assessments aligned with MEAN Stack interview topics." }
+        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "Choose from in-person classroom sessions or flexible online learning, making Ruby on Rails training accessible to working professionals, students, and job seekers." },
+        { id: 2, image: handsonsapImg, title: "Hands-on Practice with Ruby on Rails", description: "Gain hands-on experience with Ruby on Rails MVC, RESTful APIs, and Active Record. Build job-ready skills through practical coding tasks." },
+        { id: 3, image: casestudyrealtimeImg, title: "Real-Time Web Development Case Studies", description: "Work on case studies modeled after real-world Ruby on Rails projects. These exercises enhance problem-solving and prepare you for development challenges." },
+        { id: 4, image: ExperiencedtrainersImg, title: "Trainers with Extensive Ruby on Rails Experience", description: "Learn from industry experts with years of experience in Ruby on Rails projects. Our trainers provide practical insights, best practices, and mentorship." },
+        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes for Focused Learning", description: "Our limited batch sizes ensure personalized mentoring, allowing trainers to address queries and provide tailored support for effective learning." },
+        { id: 6, image: interactiveImg, title: "Interactive Sessions and Assessments", description: "Each module includes interactive discussions, quizzes, and hands-on labs aligned with Ruby on Rails development topics, helping you prepare for job interviews." }
     ];
     return (
         <div className="sap-fico-features-section">
-            <h2>MEAN Stack Training in Chennai Key Features</h2>
+            <h2> on Rails Training in Chennai Key Features</h2>
             <div className="sap-fico-features-grid">
-                {features.map((feature) => (
-                    <div key={feature.id} className="feature-card">
+                {features.map((item) => (
+                    <div key={item.id} className="feature-card">
                         <div className="feature-icon-placeholder">
-                            {feature.image ? (<img src={feature.image} alt={feature.title} />) : (feature.iconPlaceholder)}
+                            {item.image ? (<img src={item.image} alt={item.title} />) : (item.iconPlaceholder)}
                         </div>
-                        <h3>{feature.title}</h3>
-                        <p>{feature.description}</p>
+                        <h3>{item.title}</h3>
+                        <p>{item.description}</p>
                     </div>
                 ))}
             </div>
@@ -204,22 +201,22 @@ const KeyFeaturesSection = () => {
 const SapFicoCourseContentSection = ({ openContactModal }) => {
     const [activeModuleId, setActiveModuleId] = useState(1);
     const allModulesData = [
-        { id: 1, title: "Module 1: Introduction to MEAN Stack", topics: ["Overview of MEAN Stack", "Full-Stack Development Basics", "MEAN vs. Other Stacks", "Setting Up Development Environment", "Version Control with Git", "Introduction to JavaScript and ES6"] },
-        { id: 2, title: "Module 2: MongoDB", topics: ["Introduction to NoSQL Databases", "MongoDB Installation and Setup", "CRUD Operations in MongoDB", "Schema Design and Data Modeling", "Aggregation Framework", "MongoDB with Mongoose"] },
-        { id: 3, title: "Module 3: Express.js", topics: ["Introduction to Express.js", "Setting Up Express Server", "Routing and Middleware", "RESTful API Development", "Error Handling in Express", "Integrating Express with MongoDB"] },
-        { id: 4, title: "Module 4: Angular", topics: ["Introduction to Angular", "Angular CLI and Setup", "Components and Modules", "Data Binding and Directives", "Services and Dependency Injection", "Routing and Navigation"] },
-        { id: 5, title: "Module 5: Node.js", topics: ["Introduction to Node.js", "Node.js Architecture and Event Loop", "Building APIs with Node.js", "File System and Streams", "Asynchronous Programming", "Working with npm Packages"] },
-        { id: 6, title: "Module 6: Building RESTful APIs", topics: ["REST API Design Principles", "Creating APIs with Express and Node.js", "Authentication with JWT", "API Security Best Practices", "Testing APIs with Postman", "API Documentation"] },
-        { id: 7, title: "Module 7: Front-End Development with Angular", topics: ["Angular Forms (Template and Reactive)", "HTTP Client for API Calls", "State Management in Angular", "Angular Pipes and Custom Directives", "Lazy Loading and Optimization", "Unit Testing in Angular"] },
-        { id: 8, title: "Module 8: Full-Stack Integration", topics: ["Connecting Angular with Node.js APIs", "Deploying MongoDB on Cloud", "End-to-End Data Flow in MEAN Stack", "Handling CORS Issues", "Scalability Considerations", "Performance Optimization"] },
-        { id: 9, title: "Module 9: Real-World MEAN Stack Projects", topics: ["Building an E-Commerce Platform", "Developing a Blog Application", "Creating a Task Management System", "User Authentication and Authorization", "Project Testing and Debugging", "Project Documentation"] },
-        { id: 10, title: "Module 10: Deployment and Best Practices", topics: ["Deploying MEAN Stack Apps to Heroku/AWS", "CI/CD Pipelines", "Best Practices for MEAN Development", "Code Optimization Techniques", "Career Planning in Web Development", "Preparing for MEAN Stack Interviews"] }
+        { id: 1, title: "Module 1: Introduction to Ruby on Rails", topics: ["Overview of Ruby and Rails", "Setting Up Rails Environment", "Understanding MVC Architecture", "Rails Project Structure", "Basic Ruby Programming", "Rails CLI and Commands"] },
+        { id: 2, title: "Module 2: Ruby Fundamentals", topics: ["Ruby Syntax and Data Types", "Control Structures and Loops", "Methods and Blocks", "Classes and Objects", "Modules and Mixins", "Exception Handling"] },
+        { id: 3, title: "Module 3: Rails Core Concepts", topics: ["Creating Models with Active Record", "Building Controllers and Actions", "Designing Views with ERB", "Routing in Rails", "RESTful Resource Management", "Working with Forms"] },
+        { id: 4, title: "Module 4: Database Integration", topics: ["Configuring Databases (SQLite, PostgreSQL)", "Active Record Associations", "Writing Migrations", "Querying with Active Record", "Validations and Callbacks", "Database Optimization Techniques"] },
+        { id: 5, title: "Module 5: Building RESTful APIs", topics: ["Creating RESTful APIs in Rails", "API Authentication with JWT", "Serializing Data with Active Model Serializers", "Versioning APIs", "Testing APIs with Postman", "API Best Practices"] },
+        { id: 6, title: "Module 6: Front-End Integration", topics: ["Integrating Bootstrap and Tailwind CSS", "Using JavaScript with Rails", "Working with Action Cable for WebSockets", "Building Dynamic Interfaces", "Asset Pipeline and Webpacker", "Responsive Design Techniques"] },
+        { id: 7, title: "Module 7: Testing in Rails", topics: ["Introduction to Rails Testing", "Unit Testing with RSpec", "Integration Testing", "Testing Models and Controllers", "Mocking and Stubbing", "Continuous Integration with Rails"] },
+        { id: 8, title: "Module 8: Deployment and Scaling", topics: ["Deploying Rails Apps to Heroku", "Configuring Production Environments", "Managing Environment Variables", "Scaling Rails Applications", "Using Docker with Rails", "Monitoring and Logging"] },
+        { id: 9, title: "Module 9: Advanced Ruby on Rails", topics: ["Building Gems and Plugins", "Working with Background Jobs (Sidekiq)", "Implementing Caching Strategies", "Advanced Active Record Techniques", "Security Best Practices", "Performance Optimization"] },
+        { id: 10, title: "Module 10: Real-Time Rails Project", topics: ["End-to-End Web Application Project", "Building a Full-Stack Rails App", "Implementing Authentication and Authorization", "Integrating APIs and Front-End", "Mock Interviews and Resume Building", "Project Review and Feedback"] }
     ];
     const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
     return (
         <div className="java-course-content-section">
             <h2 className="java-section-title">
-                MEAN Stack Course Modules
+                Ruby on Rails Course Modules
                 <span className="java-title-underline"></span>
             </h2>
             <div className="java-course-layout-container">
@@ -253,7 +250,7 @@ const SapFicoCourseContentSection = ({ openContactModal }) => {
 const BatchDetailsSection = ({ openContactModal }) => {
     const batchInfo = [
         { id: 1, monthYear: "June 2025", type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Fresh Jobseekers", "Non IT to IT transition"] },
-        { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat-Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
+        { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
     ];
     return (
         <div
@@ -295,13 +292,13 @@ const BatchDetailsSection = ({ openContactModal }) => {
 
 const CorporateTrainingModesSection = () => {
     const trainingModesData = [
-        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite MEAN Stack training", title: "Onsite Training", description: "Conducted at your premises, offering tailored MEAN Stack training for team upskilling in full-stack development." },
-        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite MEAN Stack training center", title: "Offsite Training", description: "Held at professional training centers for focused MEAN Stack training and certifications." },
-        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual MEAN Stack training", title: "Virtual Instructor-Led Training (VILT)", description: "Live MEAN Stack training via platforms like Zoom, ideal for remote teams with hands-on web development projects." }
+        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate Ruby on Rails training", title: "Onsite Training:", description: "Conducted at your company’s premises, this training offers a tailored learning experience using your Ruby on Rails environment for maximum relevance." },
+        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite Ruby on Rails training center", title: "Offsite Training:", description: "Held at professional training centers, this mode provides focused learning without workplace distractions, ideal for certifications and workshops." },
+        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led Ruby on Rails training", title: "Virtual Instructor-Led Training (VILT):", description: "Delivered live via Zoom or Teams, VILT offers flexibility for remote teams with real-time instructor interaction and collaborative tools." }
     ];
     return (
         <div className="corporate-training-modes-section">
-            <h2 className="corporate-training-modes-title">Corporate Training Modes for MEAN Stack in Chennai</h2>
+            <h2 className="corporate-training-modes-title">Corporate Training Modes for Ruby on Rails in Chennai</h2>
             <div className="modes-container-grid">
                 {trainingModesData.map(mode => (
                     <div key={mode.id} className="mode-card-item">
@@ -317,24 +314,18 @@ const CorporateTrainingModesSection = () => {
 
 const AlumniReviewsSection = () => {
     const reviewsData = [
-        { id: 1, name: "Rahul S.", designation: "Full-Stack Developer", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "IntelliMindz’s MEAN Stack course was outstanding. Hands-on projects with MongoDB and Angular were highly practical. The trainers were exceptional." },
-        { id: 2, name: "Sneha K.", designation: "Web Developer", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course covered full-stack development thoroughly. Real-time projects helped me secure a developer role confidently." },
-        { id: 3, name: "Vikram P.", designation: "MEAN Stack Developer", avatarInitial: "V", rating: 5, companyLogoText: "Intellimindz", reviewText: "The flexible schedules and industry-relevant projects were perfect. The MEAN Stack interview prep sessions were spot-on." },
-        { id: 4, name: "Lakshmi R.", designation: "MEAN Stack Trainee", avatarInitial: "L", rating: 5, companyLogoText: "Intellimindz", reviewText: "As a fresher, I found the course beginner-friendly. The trainers explained Node.js concepts clearly, and the labs were invaluable." },
-        { id: 5, name: "Arjun M.", designation: "Senior Full-Stack Developer", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course simplified complex topics like REST APIs. The practical projects and mentoring added immense value." }
+        { id: 1, name: "Arun M.", designation: "Web Developer", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "IntelliMindz’s Ruby on Rails course was exceptional. The hands-on labs on MVC and API development helped me master web development skills. The trainers were highly supportive." },
+        { id: 2, name: "Sneha R.", designation: "Rails Developer", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course simplified complex Rails concepts. Practical projects and lab sessions helped me transition confidently into a web development role." },
+        { id: 3, name: "Vignesh T.", designation: "Ruby on Rails Consultant", avatarInitial: "V", rating: 5, companyLogoText: "Intellimindz", reviewText: "IntelliMindz’s practical content and flexible timings were perfect. The project work and real-world scenarios prepared me well for my Rails role." },
+        { id: 4, name: "Ritika S.", designation: "Rails Trainee", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "As a beginner, I found the course approachable. The trainers explained Ruby on Rails from scratch, and the hands-on labs gave me a strong start in my career." },
+        { id: 5, name: "Ramesh A.", designation: "Senior Rails Developer", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course’s depth and practical approach made advanced Rails topics like Active Record and deployment easy to grasp. Highly recommend for professionals." }
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
     const nextSlide = () => { setCurrentSlide((prev) => (prev === reviewsData.length - 1 ? 0 : prev + 1)); };
     const prevSlide = () => { setCurrentSlide((prev) => (prev === 0 ? reviewsData.length - 1 : prev - 1)); };
     const currentReview = reviewsData[currentSlide];
-    const renderStars = (rating) => { 
-        let stars = []; 
-        for (let i = 0; i < 5; i++) { 
-            stars.push(<span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span>); 
-        } 
-        return stars; 
-    };
+    const renderStars = (rating) => { let stars = []; for (let i = 0; i < 5; i++) { stars.push( <span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span> ); } return stars; };
     const formatReviewText = (text) => { return <p>{text}</p>; };
 
     return (
@@ -343,7 +334,7 @@ const AlumniReviewsSection = () => {
             <div className="review-slider-layout-container">
                 <div className="reviewer-image-area">
                     <div className="reviewer-main-image-placeholder">
-                        <img src={alumniReviewImg} alt="Alumni Reviewer MEAN Stack" />
+                        <img src={alumniReviewImg} alt="Alumni Reviewer Ruby on Rails" />
                     </div>
                 </div>
                 <div className="review-content-area">
@@ -366,15 +357,11 @@ const AlumniReviewsSection = () => {
                     <div className="slider-navigation">
                         <div className="nav-controls">
                             <button onClick={prevSlide} className="nav-arrow prev-arrow" aria-label="Previous review">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-                                </svg>
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
                             </button>
                             <span className="slide-counter">{String(currentSlide + 1).padStart(2, '0')}/{String(reviewsData.length).padStart(2, '0')}</span>
                             <button onClick={nextSlide} className="nav-arrow next-arrow" aria-label="Next review">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-                                </svg>
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
                             </button>
                         </div>
                     </div>
@@ -387,25 +374,25 @@ const AlumniReviewsSection = () => {
 const SapABAPFaqSection = () => {
     const [activeModule, setActiveModule] = useState(null);
     const modulesData = [
-        { id: 1, title: "What is the MEAN Stack used for?", description: "MEAN Stack is used for building dynamic, scalable web applications with MongoDB (database), Express.js (backend), Angular (frontend), and Node.js (runtime)." },
-        { id: 2, title: "Who should take this MEAN Stack training?", description: "Freshers, developers, and IT professionals looking to specialize in full-stack web development." },
-        { id: 3, title: "Do I need prior experience to learn MEAN Stack?", description: "Basic knowledge of JavaScript or web development is helpful, but the course is beginner-friendly." },
-        { id: 4, title: "Is MEAN Stack in demand in 2025?", description: "Yes, MEAN Stack skills are in high demand in tech industries for building modern web applications." },
-        { id: 5, title: "What’s the difference between MEAN and MERN Stack?", description: "MEAN uses Angular for the frontend; MERN uses React. Both share MongoDB, Express.js, and Node.js." },
-        { id: 6, title: "Is the training available online?", description: "Yes, we offer both online and offline MEAN Stack training with live instructor-led sessions." },
-        { id: 7, title: "Will there be hands-on practice?", description: "Yes, you’ll work on live projects using MongoDB, Express.js, Angular, and Node.js." },
-        { id: 8, title: "Do you provide interview preparation?", description: "Yes, we offer mock interviews, resume guidance, and MEAN Stack-specific scenarios." },
-        { id: 9, title: "Can I switch to MEAN Stack from another field?", description: "Yes, with basic programming skills, you can transition to MEAN Stack through our training." },
-        { id: 10, title: "Is MEAN Stack suitable for freshers?", description: "Absolutely, it’s a great entry point for freshers aiming for a career in web development." }
+        { id: 1, title: "What is Ruby on Rails used for?", description: "Ruby on Rails is a web development framework used to build dynamic, scalable web applications with a focus on simplicity and productivity." },
+        { id: 2, title: "Who should take this Ruby on Rails training?", description: "Aspiring web developers, software engineers, and freshers looking to specialize in building modern web applications." },
+        { id: 3, title: "Do I need prior experience to learn Ruby on Rails?", description: "Basic knowledge of programming or web development is helpful but not mandatory. Our course starts from the basics for beginners." },
+        { id: 4, title: "Is Ruby on Rails in demand in 2025?", description: "Yes, Ruby on Rails remains in demand for startups and enterprises due to its rapid development capabilities and robust ecosystem." },
+        { id: 5, title: "What’s the difference between Ruby on Rails and Django?", description: "Ruby on Rails uses Ruby and emphasizes convention over configuration, while Django uses Python and focuses on explicit configurations." },
+        { id: 6, title: "Is the training available online?", description: "Yes, we offer both online and offline Ruby on Rails training with live instructor-led sessions and hands-on practice." },
+        { id: 7, title: "Will there be hands-on practice?", description: "Absolutely, our training includes live coding sessions with Ruby on Rails for building web applications and APIs." },
+        { id: 8, title: "Do you provide interview preparation?", description: "Yes, we offer mock interviews, resume guidance, and real-world Ruby on Rails scenarios to prepare you for web development job roles." },
+        { id: 9, title: "Can I switch to Ruby on Rails from another IT field?", description: "Yes, with basic programming knowledge, Ruby on Rails is an excellent field to transition into for IT professionals." },
+        { id: 10, title: "Is Ruby on Rails suitable for freshers?", description: "Definitely, Ruby on Rails is beginner-friendly and a great start for freshers entering the web development field." }
     ];
     return (
         <div className="sapim-syllabus">
             <div className="sap-home-syllabus-header">
                 <h1>
-                    Have a Question with Our <span className="highlighted-course-title">MEAN Stack Course?</span>
+                    Have a Question with Our <span className="highlighted-course-title">Ruby on Rails Course?</span>
                 </h1>
                 <p className="syllabus-header-subtitle">
-                    Get answers to your questions about our MEAN Stack course in Chennai.
+                    Here, you can get the answer to your questions about our Ruby on Rails course in Chennai.
                 </p>
             </div>
             <div className="syllabus-grid">
@@ -436,33 +423,30 @@ const SapABAPFaqSection = () => {
 const CallToActionBanner = ({ openContactModal }) => {
     return (
         <div className="cta-banner-section">
-            <p className="cta-banner-text">Launch your MEAN Stack career with expert guidance.</p>
+            <p className="cta-banner-text">Navigate your career ambitions with our expert guidance.</p>
             <button className="cta-banner-button" onClick={openContactModal}>Contact Us</button>
         </div>
     );
 };
 
-const Meanstackmain = () => {
+const RubyOnRailsmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
-    return (
-        <HelmetProvider>
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                {ContactModal && <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />}
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
+    const pageTitle = "Best Ruby on Rails Training in Chennai | Practical Oriented Ruby on Rails Course";
+    const pageDescription = "Join the top Ruby on Rails training in Chennai at IntelliMindz. Master web development with hands-on projects and expert guidance.";
+    const pageKeywords = "ruby on rails training in chennai, ruby on rails course, web development training, rails training, intellimindz";
+    const ogUrl = "https://localhost:3000/ruby_on_rails_training_in_chennai";
     return (
         <>
-            <Helmet>
-                <title>MEAN Stack Training in Chennai | Full-Stack Web Development Course</title>
-                <meta name="description" content="Master MEAN Stack with our expert-led training in Chennai. Learn MongoDB, Express.js, Angular, and Node.js to build full-stack web applications." />
-            </Helmet>
+            <Meta
+                title={pageTitle}
+                description={pageDescription}
+                keywords={pageKeywords}
+                ogTitle={pageTitle}
+                ogDescription={pageDescription}
+                ogUrl={ogUrl}
+            />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -478,11 +462,12 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapABAPFaqSection />
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };
 
-export default Meanstackmain;
+export default RubyOnRailsmain;
 
 const Onlineheader = () => {
     return <div className="online_container"></div>;

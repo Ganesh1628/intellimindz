@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
 import ContactModal from "../../components/Hero-Section/ContactModal";
+import Meta from '../../components/Meta';
 
-// Import all your CSS files (unchanged)
+// Import all your CSS files
 import "../../components/saponlinecom/onlineaboutus.css";
 import "../../components/saponlinecom/sapfico.css";
 import "../../components/saponlinecom/onlinecorporate.css";
 import "../../components/SAP/Header/Introsap.css";
 import "../../components/SapIM/IMsyllabus.css";
 
-// Import all your image assets (unchanged)
+// Import all your image assets
 import saphomeintro1 from '../../assests/images/saphomeintro1.png';
 import homeintro from '../../assests/images/saphomeintro1.png';
 import bestPriceIcon from '../../assests/images/ExperiencedTrainers.jpeg';
@@ -39,13 +39,13 @@ const Intro = ({ openContactModal }) => {
       <img src={homeintro} alt="Background" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: -1 }} />
       {/* <div className="intro-container"> */}
       {/* <div className="training-image-container" >
-          <img src={homeintro} alt="Digital Marketing Training" />
+          <img src={homeintro} alt="Informatica BDM Training" />
       </div> */}
       <div className="overlay"></div>
       <div className="intro-content">
           <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
-          <h1 className="intro-h1">Best Digital Marketing Training Institute in Chennai</h1>
-          <h3 className="intro-h3">Master data integration and ETL processes with our expert-led Digital Marketing Training – your gateway to a thriving career in data management.</h3>
+          <h1 className="intro-h1">Best Informatica BDM Training Institute in Chennai</h1>
+          <h3 className="intro-h3">Master data integration and ETL processes with our expert-led Informatica BDM Training – your gateway to a thriving career in data management.</h3>
           <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
       </div>
     </div>
@@ -57,7 +57,7 @@ const SapTrainingProfile = ({ openContactModal }) => {
         <div className="sap-training-container">
             <div className="sap-training-header animate__animated animate__flipInX">
                 <h1>
-                    Learn from Experts: Digital Marketing Training by <span>Industry Professionals</span>
+                    Learn from the Best: Informatica BDM Training by <span>Real-Time Experts</span>
                 </h1>
                 <div className="header-divider"></div>
             </div>
@@ -65,21 +65,21 @@ const SapTrainingProfile = ({ openContactModal }) => {
                 <div className="training-details">
                     <div className="sap-training-header animate__animated animate__lightSpeedInLeft">
                         <p className="intro-text">
-                            At IntelliMindz, our Digital Marketing trainers are experienced professionals with hands-on expertise in SEO, SEM, and social media strategies. Their industry knowledge ensures a practical and impactful learning experience.
+                            At IntelliMindz, our Informatica BDM trainers are industry experts with extensive experience in big data integration and ETL processes. With hands-on expertise in real-world projects, they provide practical insights to guide your Informatica BDM learning journey.
                         </p>
                     </div>
                     <ul className="benefits-list">
-                        <li><span className="icon">✓</span> Gain expertise in Digital Marketing from SEO to analytics.</li>
-                        <li><span className="icon">✓</span> Learn from marketing professionals with real-world campaign experience.</li>
-                        <li><span className="icon">✓</span> Leverage IntelliMindz’s proven success in Digital Marketing training and placements.</li>
-                        <li><span className="icon">✓</span> Receive career support, including resume guidance and interview preparation.</li>
-                        <li><span className="icon">✓</span> Work on real-time marketing campaigns to build job-ready skills.</li>
-                        <li><span className="icon">✓</span> Enjoy a tailored learning experience aligned with your career goals.</li>
+                        <li><span className="icon">✓</span> Build a strong foundation in Informatica BDM with advanced big data integration techniques.</li>
+                        <li><span className="icon">✓</span> Learn from practicing Informatica BDM professionals with real-time project experience.</li>
+                        <li><span className="icon">✓</span> Benefit from IntelliMindz's proven expertise in delivering successful Informatica BDM training.</li>
+                        <li><span className="icon">✓</span> Receive comprehensive career support, including resume guidance and interview preparation.</li>
+                        <li><span className="icon">✓</span> Work on real-world big data ETL scenarios and practical assignments to gain job-ready skills.</li>
+                        <li><span className="icon">✓</span> Enjoy a customized learning experience tailored to your pace and career goals.</li>
                     </ul>
                     <button className="enquiry-button" onClick={openContactModal}>Enquire Now</button>
                 </div>
                 <div className="training-image">
-                    <img src={saphomeintro1} alt="Digital Marketing Training" />
+                    <img src={saphomeintro1} alt="Informatica BDM Training" />
                 </div>
             </div>
         </div>
@@ -88,12 +88,12 @@ const SapTrainingProfile = ({ openContactModal }) => {
 
 const Corporate = () => {
     const blocksData = [
-        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from Digital Marketing experts at our training center in Chennai." },
-        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking hands-on training with real-world marketing campaigns." },
-        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose batch timings that align with your schedule." },
-        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engage in discussions focused on real-world digital marketing strategies." },
-        { image: onlinetest, heading: "Lifetime Access", paragraph: "Revisit Digital Marketing course content anytime for revision." },
-        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to enhance your understanding." }
+        { image: bestPriceIcon, heading: "Experienced Trainers", paragraph: "Learn from Informatica BDM experts at our leading training centre in Chennai." },
+        { image: runningIcon, heading: "Practical Learning", paragraph: "Ideal for professionals seeking an Informatica BDM training centre near you focused on practical big data ETL skills." },
+        { image: staffIcon, heading: "Flexible Batches", paragraph: "Choose batch timings that suit your schedule for seamless learning." },
+        { image: liveclass, heading: "Interactive Sessions", paragraph: "Engage in discussions centered on real-world Informatica BDM tasks." },
+        { image: onlinetest, heading: "Lifetime Access", paragraph: "Access Informatica BDM course materials anytime for continuous learning." },
+        { image: jobopening, heading: "Continued Support", paragraph: "Ongoing doubt-clearing sessions to strengthen your Informatica BDM expertise." }
     ];
     return (
         <div className="corporate-section">
@@ -124,10 +124,10 @@ const PlaceholderTrainingIcon = ({ type }) => (
 
 const TrainingModesSection = ({ openContactModal }) => {
     const trainingModes = [
-        { id: 'online', iconType: 'online', title: "Online Training", description: "Join live, instructor-led Digital Marketing sessions from anywhere. Includes hands-on SEO, SEM, and social media projects with interactive Q&A.", isPopular: true },
-        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn at your own pace with pre-recorded Digital Marketing videos. Get lifetime access to course materials and updates.", isPopular: false },
-        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Experience immersive in-person Digital Marketing training in Chennai for collaborative learning with trainers and peers.", isPopular: false },
-        { id: 'hybrid', iconType: 'hybrid', title: "Hybrid Training", description: "Combine online and classroom learning for flexibility, ensuring consistent progress and support.", isPopular: false }
+        { id: 'online', iconType: 'online', title: "Online Training", description: "Join live, instructor-led Informatica BDM sessions from anywhere with hands-on big data ETL exercises, real-time projects, and interactive Q&A for practical learning.", isPopular: true },
+        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: "Learn Informatica BDM at your convenience with pre-recorded videos. Get lifetime access to course materials, downloadable resources, and periodic updates to stay current.", isPopular: false },
+        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: "Participate in immersive in-person Informatica BDM sessions for a focused learning experience. Ideal for collaborative learning with direct trainer and peer interaction.", isPopular: false },
+        { id: 'hybrid', iconType: 'hybrid', title: "Hybrid Training", description: "Combine the flexibility of online and classroom learning. Switch between formats based on your needs, ensuring consistent progress and support.", isPopular: false }
     ];
     return (
         <div className="training-modes-section">
@@ -149,9 +149,9 @@ const TrainingModesSection = ({ openContactModal }) => {
 const SAPHeroSection = ({ openContactModal }) => {
     return (
         <div className="sap-fico-expert-section">
-            <h1>Become a Skilled Digital Marketing Professional with IntelliMindz</h1>
-            <p>Industry-focused Digital Marketing training to master SEO, SEM, and social media strategies.</p>
-            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your Digital Marketing Journey Today!</button>
+            <h1>Become a Skilled Informatica BDM Developer with IntelliMindz</h1>
+            <p>Master industry-relevant Informatica BDM skills for efficient big data integration and ETL processes in enterprise environments.</p>
+            <button className="sap-fico-expert-button" onClick={openContactModal}>Start Your Informatica BDM Journey Today!</button>
         </div>
     );
 };
@@ -159,15 +159,15 @@ const SAPHeroSection = ({ openContactModal }) => {
 const SAPAboutSection = () => {
     return (
         <div className="sap-fico-about-section">
-            <h2>About Our Digital Marketing Training in Chennai</h2>
+            <h2>About Our Informatica BDM Training in Chennai</h2>
             <div className="sap-fico-about-content">
                 <div className="sap-fico-about-text">
-                    <p>At IntelliMindz Chennai, our Digital Marketing training equips you with expertise in creating and managing online marketing campaigns using tools like Google Ads, SEO, and social media platforms. The curriculum covers SEO, SEM, content marketing, and analytics.</p>
-                    <p>Our course includes hands-on projects, real-time campaign simulations, and interactive sessions to ensure practical mastery. You’ll work on industry-relevant scenarios like optimizing websites for search engines and running targeted ad campaigns.</p>
-                    <p>Whether you're a beginner or a professional aiming to specialize in digital marketing, our training prepares you for the dynamic online marketing job market.</p>
+                    <p>IntelliMindz Chennai offers comprehensive Informatica Big Data Management (BDM) training designed to provide both theoretical knowledge and hands-on expertise in big data integration. Our curriculum covers key Informatica BDM concepts such as data ingestion, processing large datasets, integration with Hadoop and Spark, and advanced ETL workflows.</p>
+                    <p>The course includes interactive classes, live ETL development sessions, practical exercises, and real-world big data integration projects. By working on industry-relevant scenarios, learners gain the skills and confidence to handle complex big data ETL tasks in enterprise settings.</p>
+                    <p>Whether you're a beginner in big data integration or a professional aiming to enhance your Informatica BDM skills, our training equips you with the expertise to excel in the competitive big data job market.</p>
                 </div>
                 <div className="sap-fico-about-image-container">
-                    <img src={aboutsapficoImg} alt="Digital Marketing Training in Chennai" />
+                    <img src={aboutsapficoImg} alt="Informatica BDM Training in Chennai" />
                 </div>
             </div>
         </div>
@@ -176,16 +176,16 @@ const SAPAboutSection = () => {
 
 const KeyFeaturesSection = () => {
     const features = [
-        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "Choose between in-person or online Digital Marketing training, tailored for professionals, students, and job seekers." },
-        { id: 2, image: handsonsapImg, title: "Hands-on Marketing Tools", description: "Gain practical experience with Google Ads, SEO tools, and social media platforms." },
-        { id: 3, image: casestudyrealtimeImg, title: "Real-World Marketing Projects", description: "Work on live campaigns to enhance problem-solving and interview readiness." },
-        { id: 4, image: ExperiencedtrainersImg, title: "Expert Marketing Trainers", description: "Learn from professionals with extensive experience in digital marketing campaigns." },
-        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes", description: "Limited batch sizes ensure personalized mentoring for effective learning." },
-        { id: 6, image: interactiveImg, title: "Interactive Assessments", description: "Engage in module-wise discussions and assessments aligned with digital marketing interview topics." }
+        { id: 1, image: classroomTrainingImg, title: "Classroom & Online Training Options", description: "Choose from in-person classroom sessions or flexible online learning, making Informatica BDM training accessible to working professionals, students, and job seekers. Select the mode that best fits your schedule and learning preferences." },
+        { id: 2, image: handsonsapImg, title: "Hands-on Practical Sessions with BDM Tools", description: "Gain hands-on experience with Informatica BDM and Hadoop ecosystems. Practice designing big data ETL workflows and processing large datasets to build job-ready skills." },
+        { id: 3, image: casestudyrealtimeImg, title: "Real-Time Big Data Case Studies", description: "Work on case studies modeled after real-world Informatica BDM projects. These exercises enhance problem-solving skills and prepare you for big data integration challenges." },
+        { id: 4, image: ExperiencedtrainersImg, title: "Trainers with Extensive BDM Experience", description: "Learn from industry experts with years of experience in Informatica BDM-based big data projects. Our trainers provide practical insights, best practices, and mentorship." },
+        { id: 5, image: personalizedmentorImg, title: "Small Batch Sizes for Individual Attention", description: "Our limited batch sizes ensure personalized mentoring, allowing trainers to address individual queries, clarify doubts, and provide focused support for effective learning." },
+        { id: 6, image: interactiveImg, title: "Interactive Sessions and Assessments", description: "Each module includes interactive discussions, quizzes, and assessments aligned with Informatica BDM interview topics, helping you retain knowledge and prepare for job interviews." }
     ];
     return (
         <div className="sap-fico-features-section">
-            <h2>Digital Marketing Training in Chennai Key Features</h2>
+            <h2>Informatica BDM Training in Chennai Key Features</h2>
             <div className="sap-fico-features-grid">
                 {features.map((feature) => (
                     <div key={feature.id} className="feature-card">
@@ -204,22 +204,22 @@ const KeyFeaturesSection = () => {
 const SapFicoCourseContentSection = ({ openContactModal }) => {
     const [activeModuleId, setActiveModuleId] = useState(1);
     const allModulesData = [
-        { id: 1, title: "Module 1: Introduction to Digital Marketing", topics: ["Overview of Digital Marketing", "Importance of Online Presence", "Key Digital Marketing Channels", "Digital Marketing vs. Traditional Marketing", "Career Opportunities in Digital Marketing", "Setting Marketing Goals"] },
-        { id: 2, title: "Module 2: Search Engine Optimization (SEO)", topics: ["Introduction to SEO", "On-Page and Off-Page SEO", "Keyword Research and Analysis", "Technical SEO and Site Audits", "Link Building Strategies", "SEO Tools (Ahrefs, SEMrush)"] },
-        { id: 3, title: "Module 3: Search Engine Marketing (SEM)", topics: ["Introduction to Google Ads", "Campaign Setup and Optimization", "Keyword Bidding Strategies", "Ad Copywriting and Extensions", "Conversion Tracking", "Google Ads Analytics"] },
-        { id: 4, title: "Module 4: Social Media Marketing", topics: ["Social Media Platforms Overview", "Creating Social Media Campaigns", "Content Creation for Social Media", "Paid Social Media Advertising", "Social Media Analytics", "Influencer Marketing"] },
-        { id: 5, title: "Module 5: Content Marketing", topics: ["Content Marketing Fundamentals", "Content Strategy Development", "Blog Writing and Optimization", "Video and Visual Content Creation", "Content Distribution Channels", "Measuring Content Performance"] },
-        { id: 6, title: "Module 6: Email Marketing", topics: ["Email Marketing Basics", "Building Email Lists", "Crafting Effective Email Campaigns", "Email Automation Tools (Mailchimp)", "A/B Testing in Emails", "Email Analytics and Reporting"] },
-        { id: 7, title: "Module 7: Web Analytics", topics: ["Introduction to Google Analytics", "Setting Up Analytics Accounts", "Tracking Website Performance", "User Behavior Analysis", "Conversion Rate Optimization", "Reporting and Dashboards"] },
-        { id: 8, title: "Module 8: Affiliate and Influencer Marketing", topics: ["Affiliate Marketing Basics", "Setting Up Affiliate Programs", "Influencer Marketing Strategies", "Tracking Affiliate Performance", "Partnering with Influencers", "ROI Measurement"] },
-        { id: 9, title: "Module 9: Digital Marketing Projects", topics: ["End-to-End Campaign Planning", "SEO Audit and Optimization", "Running a Google Ads Campaign", "Social Media Campaign Execution", "Email Marketing Campaign", "Project Reporting and Analysis"] },
-        { id: 10, title: "Module 10: Digital Marketing Strategy and Trends", topics: ["Building a Digital Marketing Strategy", "Emerging Trends (AI, Voice Search)", "Budgeting and ROI Analysis", "Case Studies in Digital Marketing", "Certification Preparation", "Career Planning in Digital Marketing"] }
+        { id: 1, title: "Module 1: Introduction to Informatica BDM", topics: ["Overview of Big Data and ETL", "Introduction to Informatica Big Data Management", "BDM Architecture and Components", "Setting Up Informatica BDM Environment", "Navigating BDM Interface", "Understanding Mappings and Workflows"] },
+        { id: 2, title: "Module 2: Big Data Integration Basics", topics: ["Connecting to Hadoop and HDFS", "Working with Hive and HBase", "Data Ingestion with Sqoop and Flume", "Creating BDM Mappings", "Using Basic Transformations", "Error Handling in BDM"] },
+        { id: 3, title: "Module 3: Advanced Transformations in BDM", topics: ["Complex Transformations (Aggregator, Joiner)", "Dynamic Mappings and Lookups", "Handling Slowly Changing Dimensions", "Data Quality and Profiling", "Using Expression and Filter Transformations", "Big Data Transformation Best Practices"] },
+        { id: 4, title: "Module 4: Workflow and Job Orchestration", topics: ["Creating and Managing Workflows", "Using Workflow Manager and Monitor", "Scheduling Big Data Jobs", "Managing Dependencies in Workflows", "Parallel Execution in BDM", "Session Configurations"] },
+        { id: 5, title: "Module 5: Integration with Hadoop Ecosystem", topics: ["Working with Apache Spark in BDM", "Processing Large Datasets with Spark", "Using Hive and Impala for Queries", "HDFS Input and Output Operations", "Optimizing Hadoop Jobs", "Troubleshooting Hadoop Integrations"] },
+        { id: 6, title: "Module 6: Cloud and Real-Time Integration", topics: ["Overview of Informatica Cloud", "Connecting to Cloud Platforms (AWS, Azure)", "Real-Time Data Integration with BDM", "Using REST and Kafka Connectors", "Data Synchronization in Cloud", "Cloud Security Best Practices"] },
+        { id: 7, title: "Module 7: Data Quality and Governance", topics: ["Data Quality Tools in BDM", "Profiling Big Data with Informatica", "Data Cleansing and Standardization", "Implementing Data Governance Rules", "Error Handling and Logging", "Auditing Big Data ETL Processes"] },
+        { id: 8, title: "Module 8: Advanced BDM Features", topics: ["Pushdown Optimization for Big Data", "Dynamic Partitioning in BDM", "Reusable Mappings and Mapplets", "Performance Tuning for Big Data Jobs", "Custom Transformations in BDM", "Advanced Error Handling Techniques"] },
+        { id: 9, title: "Module 9: BDM Administration and Deployment", topics: ["Informatica BDM Administrator Console", "Deploying Big Data Mappings", "Managing Users and Permissions", "Monitoring Job Execution", "Version Control in BDM", "Backup and Recovery Strategies"] },
+        { id: 10, title: "Module 10: Real-Time Project and Certification Prep", topics: ["End-to-End Big Data ETL Project", "Integration with Real-World Data Sources", "Performance Tuning for BDM Workflows", "Preparing for Informatica BDM Certification", "Mock Interviews and Resume Building", "Project Review and Feedback"] }
     ];
     const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
     return (
         <div className="java-course-content-section">
             <h2 className="java-section-title">
-                Digital Marketing Course Modules
+                Informatica BDM Course Modules
                 <span className="java-title-underline"></span>
             </h2>
             <div className="java-course-layout-container">
@@ -253,7 +253,7 @@ const SapFicoCourseContentSection = ({ openContactModal }) => {
 const BatchDetailsSection = ({ openContactModal }) => {
     const batchInfo = [
         { id: 1, monthYear: "June 2025", type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Fresh Jobseekers", "Non IT to IT transition"] },
-        { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat-Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Marketing Professionals"] }
+        { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
     ];
     return (
         <div
@@ -295,13 +295,13 @@ const BatchDetailsSection = ({ openContactModal }) => {
 
 const CorporateTrainingModesSection = () => {
     const trainingModesData = [
-        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite Digital Marketing training", title: "Onsite Training", description: "Conducted at your premises, offering tailored Digital Marketing training for team upskilling in SEO and social media." },
-        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite Digital Marketing training center", title: "Offsite Training", description: "Held at professional training centers for focused Digital Marketing training and certifications." },
-        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual Digital Marketing training", title: "Virtual Instructor-Led Training (VILT)", description: "Live Digital Marketing training via platforms like Zoom, ideal for remote teams with hands-on campaign projects." }
+        { id: 1, imageSrc: corporateOnsiteImg, altText: "Onsite corporate Informatica BDM training", title: "Onsite Training:", description: "Conducted at your company’s premises, this training offers a tailored learning experience using your big data environment for maximum relevance." },
+        { id: 2, imageSrc: corporateOffsiteImg, altText: "Offsite Informatica BDM training center", title: "Offsite Training:", description: "Held at professional training centers, this mode provides focused learning without workplace distractions, ideal for certifications and workshops." },
+        { id: 3, imageSrc: corporateVirtualImg, altText: "Virtual instructor-led Informatica BDM training", title: "Virtual Instructor-Led Training (VILT):", description: "Delivered live via Zoom or Teams, VILT offers flexibility for remote teams with real-time instructor interaction and collaborative tools." }
     ];
     return (
         <div className="corporate-training-modes-section">
-            <h2 className="corporate-training-modes-title">Corporate Training Modes for Digital Marketing in Chennai</h2>
+            <h2 className="corporate-training-modes-title">Corporate Training Modes for Informatica BDM in Chennai</h2>
             <div className="modes-container-grid">
                 {trainingModesData.map(mode => (
                     <div key={mode.id} className="mode-card-item">
@@ -317,24 +317,18 @@ const CorporateTrainingModesSection = () => {
 
 const AlumniReviewsSection = () => {
     const reviewsData = [
-        { id: 1, name: "Priya S.", designation: "Digital Marketing Specialist", avatarInitial: "P", rating: 5, companyLogoText: "Intellimindz", reviewText: "IntelliMindz’s Digital Marketing course was exceptional. Hands-on projects with SEO and Google Ads were highly practical. The trainers were outstanding." },
-        { id: 2, name: "Arun V.", designation: "Social Media Manager", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course covered social media and analytics thoroughly. Real-time campaign projects helped me secure a marketing role." },
-        { id: 3, name: "Sneha R.", designation: "SEO Analyst", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "The flexible schedules and live projects were perfect. The interview prep for digital marketing roles was spot-on." },
-        { id: 4, name: "Karthik M.", designation: "Digital Marketing Trainee", avatarInitial: "K", rating: 5, companyLogoText: "Intellimindz", reviewText: "As a fresher, I found the course beginner-friendly. The trainers explained SEO concepts clearly, and the labs were invaluable." },
-        { id: 5, name: "Divya N.", designation: "Content Marketing Specialist", avatarInitial: "D", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course simplified complex topics like content strategy. The practical projects and mentoring added immense value." }
+        { id: 1, name: "Arun M.", designation: "Informatica BDM Developer", avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: "IntelliMindz’s Informatica BDM course was exceptional. The hands-on projects on big data ETL workflows helped me master Hadoop integrations. The trainers were highly supportive." },
+        { id: 2, name: "Sneha R.", designation: "Big Data Consultant", avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course simplified complex Informatica BDM concepts. Real-world projects and practical tasks helped me transition confidently into a big data role." },
+        { id: 3, name: "Vignesh T.", designation: "Big Data ETL Developer", avatarInitial: "V", rating: 5, companyLogoText: "Intellimindz", reviewText: "IntelliMindz’s practical content and flexible batch timings were perfect. The interview prep and real-world scenarios prepared me well for my big data ETL role." },
+        { id: 4, name: "Ritika S.", designation: "Informatica BDM Trainee", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "As a beginner, I found the course easy to follow. The trainers explained Informatica BDM from scratch, and the hands-on projects gave me a strong start in my big data career." },
+        { id: 5, name: "Ramesh A.", designation: "Senior Big Data Developer", avatarInitial: "R", rating: 5, companyLogoText: "Intellimindz", reviewText: "The course’s depth and practical approach made advanced Informatica BDM topics like Spark integration and performance tuning easy to understand. Highly recommend for professionals." }
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);
     const nextSlide = () => { setCurrentSlide((prev) => (prev === reviewsData.length - 1 ? 0 : prev + 1)); };
     const prevSlide = () => { setCurrentSlide((prev) => (prev === 0 ? reviewsData.length - 1 : prev - 1)); };
     const currentReview = reviewsData[currentSlide];
-    const renderStars = (rating) => { 
-        let stars = []; 
-        for (let i = 0; i < 5; i++) { 
-            stars.push(<span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span>); 
-        } 
-        return stars; 
-    };
+    const renderStars = (rating) => { let stars = []; for (let i = 0; i < 5; i++) { stars.push( <span key={i} className={`star ${i < rating ? 'filled' : ''}`}>★</span> ); } return stars; };
     const formatReviewText = (text) => { return <p>{text}</p>; };
 
     return (
@@ -343,7 +337,7 @@ const AlumniReviewsSection = () => {
             <div className="review-slider-layout-container">
                 <div className="reviewer-image-area">
                     <div className="reviewer-main-image-placeholder">
-                        <img src={alumniReviewImg} alt="Alumni Reviewer Digital Marketing" />
+                        <img src={alumniReviewImg} alt="Alumni Reviewer Informatica BDM" />
                     </div>
                 </div>
                 <div className="review-content-area">
@@ -366,15 +360,11 @@ const AlumniReviewsSection = () => {
                     <div className="slider-navigation">
                         <div className="nav-controls">
                             <button onClick={prevSlide} className="nav-arrow prev-arrow" aria-label="Previous review">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-                                </svg>
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5371 18.4142L2.12285 10L10.5371 1.58579" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
                             </button>
                             <span className="slide-counter">{String(currentSlide + 1).padStart(2, '0')}/{String(reviewsData.length).padStart(2, '0')}</span>
                             <button onClick={nextSlide} className="nav-arrow next-arrow" aria-label="Next review">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-                                </svg>
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.46289 1.58582L9.87711 10L1.46289 18.4142" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
                             </button>
                         </div>
                     </div>
@@ -387,25 +377,25 @@ const AlumniReviewsSection = () => {
 const SapABAPFaqSection = () => {
     const [activeModule, setActiveModule] = useState(null);
     const modulesData = [
-        { id: 1, title: "What is Digital Marketing used for?", description: "Digital Marketing promotes brands, products, or services online using channels like SEO, SEM, social media, and email to reach target audiences." },
-        { id: 2, title: "Who should take this Digital Marketing training?", description: "Freshers, marketing professionals, and entrepreneurs looking to specialize in online marketing strategies." },
-        { id: 3, title: "Do I need prior experience to learn Digital Marketing?", description: "No prior experience is required; the course is designed for beginners and professionals alike." },
-        { id: 4, title: "Is Digital Marketing in demand in 2025?", description: "Yes, Digital Marketing skills are in high demand across industries like eCommerce, IT, and retail." },
-        { id: 5, title: "What’s the difference between SEO and SEM?", description: "SEO focuses on organic search rankings; SEM involves paid ads to drive traffic via platforms like Google Ads." },
-        { id: 6, title: "Is the training available online?", description: "Yes, we offer both online and offline Digital Marketing training with live instructor-led sessions." },
-        { id: 7, title: "Will there be hands-on practice?", description: "Yes, you’ll work on live campaigns using SEO tools, Google Ads, and social media platforms." },
-        { id: 8, title: "Do you provide interview preparation?", description: "Yes, we offer mock interviews, resume guidance, and Digital Marketing-specific scenarios." },
-        { id: 9, title: "Can I switch to Digital Marketing from another field?", description: "Yes, with our training, anyone can transition to Digital Marketing with basic computer skills." },
-        { id: 10, title: "Is Digital Marketing suitable for freshers?", description: "Absolutely, it’s an excellent entry point for freshers aiming for a career in online marketing." }
+        { id: 1, title: "What is Informatica BDM used for?", description: "Informatica BDM is used for big data integration, enabling ETL processes on large datasets across Hadoop, Spark, and cloud platforms." },
+        { id: 2, title: "Who should take this Informatica BDM training?", description: "Data engineers, ETL developers, and IT professionals looking to specialize in big data integration and ETL processes." },
+        { id: 3, title: "Do I need prior experience to learn Informatica BDM?", description: "Basic knowledge of Informatica PowerCenter or Hadoop is helpful but not mandatory. Our course covers the basics for beginners." },
+        { id: 4, title: "Is Informatica BDM in demand in 2025?", description: "Yes, with the rise of big data and cloud integration, Informatica BDM skills are highly sought after in data-driven industries." },
+        { id: 5, title: "What’s the difference between Informatica BDM and PowerCenter?", description: "BDM is designed for big data integration with Hadoop and Spark, while PowerCenter focuses on traditional ETL processes." },
+        { id: 6, title: "Is the training available online?", description: "Yes, we offer both online and offline Informatica BDM training with live instructor-led sessions and hands-on practice." },
+        { id: 7, title: "Will there be hands-on practice?", description: "Absolutely, our training includes live access to Informatica BDM for practical big data ETL job design and integration tasks." },
+        { id: 8, title: "Do you provide interview preparation?", description: "Yes, we offer mock interviews, resume guidance, and real-world big data scenarios to prepare you for Informatica BDM job roles." },
+        { id: 9, title: "Can I switch to Informatica BDM from another IT field?", description: "Yes, with basic data or ETL knowledge, Informatica BDM is an excellent entry point into big data integration." },
+        { id: 10, title: "Is Informatica BDM suitable for freshers?", description: "Yes, with some foundational knowledge, freshers can start their big data career with Informatica BDM training." }
     ];
     return (
         <div className="sapim-syllabus">
             <div className="sap-home-syllabus-header">
                 <h1>
-                    Have a Question with Our <span className="highlighted-course-title">Digital Marketing Course?</span>
+                    Have a Question with Our <span className="highlighted-course-title">Informatica BDM Course?</span>
                 </h1>
                 <p className="syllabus-header-subtitle">
-                    Get answers to your questions about our Digital Marketing course in Chennai.
+                    Here, you can get the answer to your question about our Informatica BDM course in Chennai.
                 </p>
             </div>
             <div className="syllabus-grid">
@@ -436,33 +426,30 @@ const SapABAPFaqSection = () => {
 const CallToActionBanner = ({ openContactModal }) => {
     return (
         <div className="cta-banner-section">
-            <p className="cta-banner-text">Launch your Digital Marketing career with expert guidance.</p>
+            <p className="cta-banner-text">Navigate your career ambitions with our expert guidance.</p>
             <button className="cta-banner-button" onClick={openContactModal}>Contact Us</button>
         </div>
     );
 };
 
-const Digitalmarketmain = () => {
+const Informaticabdmmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
-    return (
-        <HelmetProvider>
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                {ContactModal && <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />}
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
+    const pageTitle = "Best Informatica BDM Training in Chennai | Practical Oriented Informatica BDM Course";
+    const pageDescription = "Join the top Informatica BDM training in Chennai at IntelliMindz. Master big data integration and ETL processes with hands-on projects and expert guidance.";
+    const pageKeywords = "informatica bdm training in chennai, informatica bdm course, big data integration, etl training, intellimindz";
+    const ogUrl = "https://localhost:3000/informatica_bdm_training_in_chennai";
     return (
         <>
-            <Helmet>
-                <title>Digital Marketing Training in Chennai | Digital Marketing Course in Chennai</title>
-                <meta name="description" content="Master Digital Marketing with our expert-led training in Chennai. Learn SEO, SEM, social media, and analytics through our comprehensive course." />
-            </Helmet>
+            <Meta
+                title={pageTitle}
+                description={pageDescription}
+                keywords={pageKeywords}
+                ogTitle={pageTitle}
+                ogDescription={pageDescription}
+                ogUrl={ogUrl}
+            />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -478,11 +465,12 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapABAPFaqSection />
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };
 
-export default Digitalmarketmain;
+export default Informaticabdmmain;
 
 const Onlineheader = () => {
     return <div className="online_container"></div>;

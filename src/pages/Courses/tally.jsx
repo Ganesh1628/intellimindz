@@ -39,13 +39,13 @@ const Intro = ({ openContactModal }) => {
       <img src={homeintro} alt="Background" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: -1 }} />
       {/* <div className="intro-container"> */}
       {/* <div className="training-image-container" >
-          <img src={homeintro} alt="Ab Initio Training" />
+          <img src={homeintro} alt="Tally Training" />
       </div> */}
       <div className="overlay"></div>
       <div className="intro-content">
           <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
-          <h1 className="intro-h1">Best Ab Initio Training Institute in Chennai</h1>
-          <h3 className="intro-h3">Master data integration and ETL processes with our expert-led Ab Initio Training – your gateway to a thriving career in data management.</h3>
+          <h1 className="intro-h1">Best Tally Training Institute in Chennai</h1>
+          <h3 className="intro-h3">Master data integration and ETL processes with our expert-led Tally Training – your gateway to a thriving career in data management.</h3>
           <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
       </div>
     </div>
