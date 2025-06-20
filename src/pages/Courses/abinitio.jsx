@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Meta from '../../components/Meta';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all your CSS files
@@ -434,23 +434,20 @@ const Abinitiomain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
-    return (
-        <HelmetProvider>
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                {ContactModal && <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />}
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
+    const pageTitle = "Best Abinitio Training in Chennai | Practical Oriented Abinitio Course";
+const pageDescription = "Join IntelliMindz for top Abinitio training in Chennai. Master data processing with hands-on projects and expert guidance.";
+const pageKeywords = "abinitio training in chennai, abinitio course, data warehousing, intellimindz abinitio";
+const ogUrl = "https://localhost:3000/abinitio_training_in_chennai";
     return (
         <>
-            <Helmet>
-                <title>Ab Initio Training in Chennai | Ab Initio Course in Chennai</title>
-                <meta name="description" content="Master data integration and ETL with our Ab Initio Training in Chennai. Learn advanced data processing through our expert-led Ab Initio course." />
-            </Helmet>
+            <Meta
+                title={pageTitle}
+                description={pageDescription}
+                keywords={pageKeywords}
+                ogTitle={pageTitle}
+                ogDescription={pageDescription}
+                ogUrl={ogUrl}
+            />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -466,6 +463,7 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapABAPFaqSection />
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };

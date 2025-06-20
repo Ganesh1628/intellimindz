@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Meta from '../../components/Meta';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all your CSS files (unchanged)
@@ -446,23 +446,20 @@ const Informaticadatamain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
-    return (
-        <HelmetProvider>
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                {ContactModal && <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />}
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
+    const pageTitle = "Best Informatica Data Quality Training in Chennai | Practical Oriented Informatica DQ Course";
+const pageDescription = "Join IntelliMindz for Informatica Data Quality training in Chennai. Learn profiling, cleansing, and rule implementation.";
+const pageKeywords = "informatica data quality training in chennai, data quality tools, idq course, intellimindz informatica";
+const ogUrl = "https://localhost:3000/informatica_data_quality_training_in_chennai";
     return (
         <>
-            <Helmet>
-                <title>Informatica Data Quality Training in Chennai | IDQ Course in Chennai</title>
-                <meta name="description" content="Master Informatica Data Quality with our expert-led training in Chennai. Learn data profiling, cleansing, and governance through our comprehensive IDQ course." />
-            </Helmet>
+            <Meta
+                title={pageTitle}
+                description={pageDescription}
+                keywords={pageKeywords}
+                ogTitle={pageTitle}
+                ogDescription={pageDescription}
+                ogUrl={ogUrl}
+            />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -478,6 +475,7 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapABAPFaqSection />
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };

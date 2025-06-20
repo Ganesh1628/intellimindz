@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Meta from '../../components/Meta';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all your CSS files (unchanged)
@@ -446,23 +446,20 @@ const Meanstackmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
-    return (
-        <HelmetProvider>
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                {ContactModal && <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />}
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
+    const pageTitle = "Best MEAN Stack Training in Chennai | Practical Oriented MEAN Stack Course";
+const pageDescription = "Join IntelliMindz for MEAN Stack training in Chennai. Learn MongoDB, Express, Angular, and NodeJS development.";
+const pageKeywords = "mean stack training in chennai, full stack course, angular nodejs, intellimindz mean";
+const ogUrl = "https://localhost:3000/mean_stack_training_in_chennai";
     return (
         <>
-            <Helmet>
-                <title>MEAN Stack Training in Chennai | Full-Stack Web Development Course</title>
-                <meta name="description" content="Master MEAN Stack with our expert-led training in Chennai. Learn MongoDB, Express.js, Angular, and Node.js to build full-stack web applications." />
-            </Helmet>
+            <Meta
+                title={pageTitle}
+                description={pageDescription}
+                keywords={pageKeywords}
+                ogTitle={pageTitle}
+                ogDescription={pageDescription}
+                ogUrl={ogUrl}
+            />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -478,6 +475,7 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapABAPFaqSection />
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };
