@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Meta from '../../components/Meta';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all your CSS files (unchanged)
@@ -39,13 +39,13 @@ const Intro = ({ openContactModal }) => {
       <img src={homeintro} alt="Background" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: -1 }} />
       {/* <div className="intro-container"> */}
       {/* <div className="training-image-container" >
-          <img src={homeintro} alt="Ab Initio Training" />
+          <img src={homeintro} alt="Mainframe Admin Training" />
       </div> */}
       <div className="overlay"></div>
       <div className="intro-content">
           <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
-          <h1 className="intro-h1">Best Ab Initio Training Institute in Chennai</h1>
-          <h3 className="intro-h3">Master data integration and ETL processes with our expert-led Ab Initio Training – your gateway to a thriving career in data management.</h3>
+          <h1 className="intro-h1">Best Mainframe Admin Training Institute in Chennai</h1>
+          <h3 className="intro-h3">Master data integration and ETL processes with our expert-led Mainframe Admin Training – your gateway to a thriving career in data management.</h3>
           <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
       </div>
     </div>
@@ -436,23 +436,20 @@ const Mainframeadminmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
-    return (
-        <HelmetProvider>
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                {ContactModal && <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />}
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
+    const pageTitle = "Best Mainframe Admin Training in Chennai | Practical Oriented Mainframe Admin Course";
+const pageDescription = "Master mainframe administration with IntelliMindz training in Chennai. Get hands-on with RACF, SDSF, and more.";
+const pageKeywords = "mainframe admin training in chennai, mainframe support course, intellimindz admin";
+const ogUrl = "https://localhost:3000/mainframe_admin_training_in_chennai";
     return (
         <>
-            <Helmet>
-                <title>Mainframe Admin Training in Chennai | Mainframe Admin Course in Chennai</title>
-                <meta name="description" content="Master enterprise system management with our Mainframe Admin Training in Chennai. Learn z/OS, JCL, CICS, and more through our expert-led course." />
-            </Helmet>
+            <Meta
+                title={pageTitle}
+                description={pageDescription}
+                keywords={pageKeywords}
+                ogTitle={pageTitle}
+                ogDescription={pageDescription}
+                ogUrl={ogUrl}
+            />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -468,6 +465,7 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapABAPFaqSection />
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };

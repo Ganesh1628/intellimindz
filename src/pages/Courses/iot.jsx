@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Meta from '../../components/Meta';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all your CSS files (unchanged)
@@ -39,13 +39,13 @@ const Intro = ({ openContactModal }) => {
       <img src={homeintro} alt="Background" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: -1 }} />
       {/* <div className="intro-container"> */}
       {/* <div className="training-image-container" >
-          <img src={homeintro} alt="Ab Initio Training" />
+          <img src={homeintro} alt="IoT Training" />
       </div> */}
       <div className="overlay"></div>
       <div className="intro-content">
           <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
-          <h1 className="intro-h1">Best Ab Initio Training Institute in Chennai</h1>
-          <h3 className="intro-h3">Master data integration and ETL processes with our expert-led Ab Initio Training – your gateway to a thriving career in data management.</h3>
+          <h1 className="intro-h1">Best IoT Training Institute in Chennai</h1>
+          <h3 className="intro-h3">Master data integration and ETL processes with our expert-led IoT Training – your gateway to a thriving career in data management.</h3>
           <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
       </div>
     </div>
@@ -442,23 +442,20 @@ const Iotmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
-    return (
-        <HelmetProvider>
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                {ContactModal && <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />}
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
+    const pageTitle = "Best IoT Training in Chennai | Practical Oriented Internet of Things Course";
+const pageDescription = "Join IntelliMindz for IoT training in Chennai. Build smart applications with sensors, Arduino, and Raspberry Pi.";
+const pageKeywords = "iot training in chennai, internet of things course, arduino, intellimindz iot";
+const ogUrl = "https://localhost:3000/iot_training_in_chennai";
     return (
         <>
-            <Helmet>
-                <title>IoT Training in Chennai | IoT Course in Chennai</title>
-                <meta name="description" content="Master IoT with our expert-led training in Chennai. Learn sensors, protocols, and cloud integration through our comprehensive IoT course." />
-            </Helmet>
+            <Meta
+                title={pageTitle}
+                description={pageDescription}
+                keywords={pageKeywords}
+                ogTitle={pageTitle}
+                ogDescription={pageDescription}
+                ogUrl={ogUrl}
+            />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -474,6 +471,7 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapABAPFaqSection />
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };

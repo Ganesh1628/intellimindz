@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Meta from '../../components/Meta';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all your CSS files (same as original)
@@ -429,23 +429,20 @@ const Wordpressmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
-    return (
-        <HelmetProvider>
-            <div>
-                <WordPressOnline openContactModal={openContactModal} />
-                {ContactModal && <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />}
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const WordPressOnline = ({ openContactModal }) => {
+    const pageTitle = "Best WordPress Training in Chennai | Practical Oriented WordPress Course";
+const pageDescription = "Join IntelliMindz for WordPress training in Chennai. Build websites and blogs with real-time projects.";
+const pageKeywords = "wordpress training in chennai, website development, blogging course, intellimindz wordpress";
+const ogUrl = "https://localhost:3000/wordpress_training_in_chennai";
     return (
         <>
-            <Helmet>
-                <title>WordPress Training in Chennai | WordPress Course in Chennai</title>
-                <meta name="description" content="Master website development with our WordPress Training in Chennai. Learn to build dynamic websites through our expert-designed WordPress course in Chennai." />
-            </Helmet>
+            <Meta
+                title={pageTitle}
+                description={pageDescription}
+                keywords={pageKeywords}
+                ogTitle={pageTitle}
+                ogDescription={pageDescription}
+                ogUrl={ogUrl}
+            />
             <Intro openContactModal={openContactModal} />
             <WordPressTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -461,6 +458,7 @@ const WordPressOnline = ({ openContactModal }) => {
             <Onlineheader />
             <WordPressFaqSection />
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };
