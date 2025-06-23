@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Meta from '../../components/Meta';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all your CSS files
@@ -432,23 +432,20 @@ const SAPmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
+const pageTitle = "Best SAP LO Training in Chennai | Expert-Led SAP LO Course";
+const pageDescription = "Enroll in top-rated SAP LO training in Chennai at Intellimindz. Master SAP LO concepts with real-time projects and expert guidance.";
+const pageKeywords = "sap lo training in chennai, sap lo course, sap lo certification, intellimindz";
+const ogUrl = "https://localhost:3000/sap_lo_training_in_chennai";
     return (
-        <HelmetProvider> {/* Wrap your application with HelmetProvider */}
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
-    return (
-        <>
-            <Helmet> {/* Add Helmet here */}
-                <title>SAP LO Training in Chennai | SAP Logistics Course in Chennai</title>
-                <meta name="description" content="Enhance your logistics operations knowledge with our SAP LO Training in Chennai. Learn from experts and get certified through our SAP Logistics course in Chennai." />
-            </Helmet>
+    <>
+      <Meta
+        title={pageTitle}
+        description={pageDescription}
+        keywords={pageKeywords}
+        ogTitle={pageTitle}
+        ogDescription={pageDescription}
+        ogUrl={ogUrl}
+      />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -464,6 +461,7 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapLoFaqSection /> {/* Updated component name here */}
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };

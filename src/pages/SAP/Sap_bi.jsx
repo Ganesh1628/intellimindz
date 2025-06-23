@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Meta from '../../components/Meta';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all your CSS files
@@ -430,25 +430,20 @@ const SAPmain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
+const pageTitle = "Best SAP BI Training in Chennai | Expert-Led SAP BI Course";
+const pageDescription = "Enroll in top-rated SAP BI training in Chennai at Intellimindz. Master SAP BI concepts with real-time projects and expert guidance.";
+const pageKeywords = "sap bi training in chennai, sap bi course, sap bi certification, intellimindz";
+const ogUrl = "https://localhost:3000/sap_bi_training_in_chennai";
     return (
-        <HelmetProvider>
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                {ContactModal && <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />}
-            </div>
-        </HelmetProvider>
-    );
-};
-
-export default SAPmain;
-
-const Saponline = ({ openContactModal }) => {
-    return (
-        <>
-            <Helmet>
-                <title>SAP BI Training in Chennai | SAP BI Course in Chennai</title>
-                <meta name="description" content="Join the SAP BI Training in Chennai at IntelliMindz to master business intelligence and analytics tools and techniques. Enroll in our hands-on SAP BI course in Chennai, led by industry experts." />
-            </Helmet>
+    <>
+      <Meta
+        title={pageTitle}
+        description={pageDescription}
+        keywords={pageKeywords}
+        ogTitle={pageTitle}
+        ogDescription={pageDescription}
+        ogUrl={ogUrl}
+      />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -464,9 +459,12 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapBIFaqSection />
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };
+
+export default SAPmain;
 
 const Onlineheader = () => {
     return <div className="online_container"></div>;

@@ -70,6 +70,67 @@ import Abinitiomain from "./pages/Courses/abinitio.jsx";
 import Mobileappmain from "./pages/Courses/mobileapp.jsx";
 import Matlabmain from "./pages/Courses/matlab.jsx";
 import Salesforcemain from "./pages/Courses/salesforce.jsx";
+import Mainframeadminmain from "./pages/Courses/mainframeadmin.jsx";
+import Datastagemain from "./pages/Courses/datastage.jsx";
+import Iotmain from "./pages/Courses/iot.jsx";
+import Ssasmain from "./pages/Courses/ssas.jsx";
+import Qlikmain from "./pages/Courses/qliklink.jsx";
+import Bigdatamain from "./pages/Courses/bigdata.jsx";
+import Openstackmain from "./pages/Courses/openstack.jsx";
+import Digitalmarketmain from "./pages/Courses/digital_marketing.jsx";
+import Informaticadatamain from "./pages/Courses/informaticadata.jsx";
+import Ccnpmain from "./pages/Courses/ccnp.jsx";
+import Spokenengmain from "./pages/Courses/spoken_english.jsx";
+import Cognostm1main from "./pages/Courses/cognostm1.jsx";
+import Pythonmain from "./pages/Courses/python.jsx";
+import Meanstackmain from "./pages/Courses/mean_stack.jsx";
+import Mainframemain from "./pages/Courses/mainframe.jsx";
+import Nodejsmain from "./pages/Courses/nodejs.jsx";
+import Sccmmain from "./pages/Courses/sccm.jsx";
+import Msbimain from "./pages/Courses/msbi.jsx";
+import Tallymain from "./pages/Courses/tally.jsx";
+import Cloudcomputermain from "./pages/Courses/cloud_computer.jsx";
+import Mcsamain from "./pages/Courses/mcsa.jsx";
+import Talendmain from "./pages/Courses/talend.jsx";
+import ArtificialIntmain from "./pages/Courses/artifical_int.jsx";
+import Ajaxmain from "./pages/Courses/ajax.jsx";
+import Informaticabdmmain from "./pages/Courses/iformatica_bdm.jsx";
+import Machinelearningmain from "./pages/Courses/machine_learning.jsx";
+import Devopsmain from "./pages/Courses/devops.jsx";
+import Blockchainmain from "./pages/Courses/block_chain.jsx";
+import Citrixmain from "./pages/Courses/citrix.jsx";
+import Sharepointadminmain from "./pages/Courses/sharepoint_admin.jsx";
+import Loadrunnermain from "./pages/Courses/loadrunner.jsx";
+import Appiummain from "./pages/Courses/appium.jsx";
+import Sharepointmain from "./pages/Courses/sharepoint.jsx";
+import Informixmain from "./pages/Courses/informix.jsx";
+import Informaticamain from "./pages/Courses/informatica.jsx";
+import Tibcospotfiremain from "./pages/Courses/tibco_spotfire.jsx";
+import Automationanywheremain from "./pages/Courses/automationanywhere.jsx";
+import Primaveramain from "./pages/Courses/primavera.jsx";
+import Blueprismmain from "./pages/Courses/blueprism.jsx";
+import Pegamain from "./pages/Courses/pega.jsx";
+import Powerbimain from "./pages/Courses/powerbi.jsx";
+import Tableaumain from "./pages/Courses/tableau.jsx";
+import Jaspersoftmain from "./pages/Courses/jaspersoft.jsx";
+import Workdaymain from "./pages/Courses/workday.jsx";
+import Oracledbamain from "./pages/Courses/oracledba.jsx";
+import Teradatamain from "./pages/Courses/teradata.jsx";
+import Autocadmain from "./pages/Courses/autocad.jsx";
+import Clinicalsasmain from "./pages/Courses/clinicalsas.jsx";
+import Sybasemain from "./pages/Courses/sybase.jsx";
+import Mulesoftmain from "./pages/Courses/mulesoft.jsx";
+import Htmlmain from "./pages/Courses/html.jsx";
+import Googlegomain from "./pages/Courses/googlego.jsx";
+import Rubyonrailsmain from "./pages/Courses/rubyonrails.jsx";
+import Phpmain from "./pages/Courses/php.jsx";
+import Joomlamain from "./pages/Courses/joomla.jsx";
+import Microsofthybrismain from "./pages/Courses/microsofthybris.jsx";
+import Dellboomimain from "./pages/Courses/dellboomi.jsx";
+import Pmpmain from "./pages/Courses/pmp.jsx";
+import Pentahomain from "./pages/Courses/pentaho.jsx";
+import Angularjsmain from "./pages/Courses/angularjs.jsx";
+import Windowspowershellmain from "./pages/Courses/windowspowershell.jsx";
 
 const App = () => {
   return (
@@ -126,7 +187,7 @@ const App = () => {
         <Route path="/sap_hana_training_in_chennai" element={<Saphana />} /> 
         <Route path="/sap_le_training_in_chennai" element={<Saple />} /> 
 
-        {/* OTHER COURSES */}
+        {/* OTHER COURSES (18-06-2025)*/}
         <Route path="/itil_training_in_chennai" element={<Itilmain />} /> 
         <Route path="/java_training_in_chennai" element={<Javamain />} /> 
         <Route path="/mcse_training_in_chennai" element={<Mcsemain />} /> 
@@ -144,10 +205,73 @@ const App = () => {
         <Route path="/mobile_application_training_in_chennai" element={<Mobileappmain />} /> 
         <Route path="/matlab_training_in_chennai" element={<Matlabmain />} /> 
         <Route path="/sales_force_training_in_chennai" element={<Salesforcemain />} /> 
+        {/* 19-06-2025 */}
+        <Route path="/mainframe_admin_training_in_chennai" element={<Mainframeadminmain />} /> 
+        <Route path="/datastage_training_in_chennai" element={<Datastagemain />} /> 
+        <Route path="/iot_training_in_chennai" element={<Iotmain />} /> 
+        <Route path="/ssas_training_in_chennai" element={<Ssasmain />} /> 
+        <Route path="/qlikview_training_in_chennai" element={<Qlikmain />} /> 
+        <Route path="/big_data_training_in_chennai" element={<Bigdatamain />} /> 
+        <Route path="/openstack_training_in_chennai" element={<Openstackmain />} /> 
+        <Route path="/digital_marketing_training_in_chennai" element={<Digitalmarketmain />} /> 
+        <Route path="/informatica_data_quality_training_in_chennai" element={<Informaticadatamain />} /> 
+        <Route path="/ccnp_training_in_chennai" element={<Ccnpmain />} /> 
+        <Route path="/spoken_english_training_in_chennai" element={<Spokenengmain />} /> 
+        <Route path="/cognos_tm1_training_in_chennai" element={<Cognostm1main />} /> 
+        <Route path="/python_training_in_chennai" element={<Pythonmain />} /> 
+        <Route path="/mean_stack_training_in_chennai" element={<Meanstackmain />} /> 
+        <Route path="/main_frame_training_in_chennai" element={<Mainframemain />} /> 
+        <Route path="/nodejs_training_in_chennai" element={<Nodejsmain />} /> 
+        <Route path="/sccm_training_in_chennai" element={<Sccmmain />} /> 
+        <Route path="/msbi_training_in_chennai" element={<Msbimain />} /> 
+        <Route path="/tally_training_in_chennai" element={<Tallymain />} /> 
+        <Route path="/cloud_computing_training_in_chennai" element={<Cloudcomputermain />} /> 
+        {/* 20-06-2025 */}
+        <Route path="/mcsa_training_in_chennai" element={<Mcsamain />} /> 
+        <Route path="/talend_training_in_chennai" element={<Talendmain />} /> 
+        <Route path="/aritifical_intelligence_training_in_chennai" element={<ArtificialIntmain />} /> 
+        <Route path="/ajax_training_in_chennai" element={<Ajaxmain />} /> 
+        <Route path="/informatica_bdm_training_in_chennai" element={<Informaticabdmmain />} /> 
+        <Route path="/machine_learning_training_in_chennai" element={<Machinelearningmain />} /> 
+        <Route path="/devOps_training_in_chennai" element={<Devopsmain />} /> 
+        <Route path="/block_chain_training_in_chennai" element={<Blockchainmain />} /> 
+        <Route path="/citrix_training_in_chennai" element={<Citrixmain />} /> 
+        <Route path="/sharepoint_admin_training_in_chennai" element={<Sharepointadminmain />} /> 
+        <Route path="/loadrunner_training_in_chennai" element={<Loadrunnermain />} /> 
+        <Route path="/appium_training_in_chennai" element={<Appiummain />} /> 
+        <Route path="/sharepoint_training_in_chennai" element={<Sharepointmain />} /> 
+        <Route path="/informix_training_in_chennai" element={<Informixmain />} /> 
+        <Route path="/informatica_training_in_chennai" element={<Informaticamain />} /> 
+        <Route path="/tibco_spotfire_training_in_chennai" element={<Tibcospotfiremain />} /> 
+        <Route path="/automation_anywhere_training_in_chennai" element={<Automationanywheremain />} /> 
+        <Route path="/primavera_training_in_chennai" element={<Primaveramain />} /> 
+        <Route path="/blueprism_training_in_chennai" element={<Blueprismmain />} /> 
+        <Route path="/pega_training_in_chennai" element={<Pegamain />} /> 
+        <Route path="/powerbi_training_in_chennai" element={<Powerbimain />} /> 
+        <Route path="/tableau_training_in_chennai" element={<Tableaumain />} /> 
+        <Route path="/jaspersoft_training_in_chennai" element={<Jaspersoftmain />} /> 
+        <Route path="/workday_training_in_chennai" element={<Workdaymain />} /> 
+        <Route path="/oracledba_training_in_chennai" element={<Oracledbamain />} /> 
+        <Route path="/teradata_training_in_chennai" element={<Teradatamain />} /> 
+        <Route path="/autocad_training_in_chennai" element={<Autocadmain />} /> 
+        <Route path="/clinicalsas_training_in_chennai" element={<Clinicalsasmain />} /> 
+        <Route path="/sybase_training_in_chennai" element={<Sybasemain />} /> 
+        <Route path="/mulesoft_training_in_chennai" element={<Mulesoftmain />} /> 
+        <Route path="/html_training_in_chennai" element={<Htmlmain />} /> 
+        <Route path="/googlego_training_in_chennai" element={<Googlegomain />} /> 
+        <Route path="/rubyonrails_training_in_chennai" element={<Rubyonrailsmain />} /> 
+        <Route path="/php_training_in_chennai" element={<Phpmain />} /> 
+        <Route path="/joomla_training_in_chennai" element={<Joomlamain />} /> 
+        <Route path="/microsofthybris_training_in_chennai" element={<Microsofthybrismain />} /> 
+        <Route path="/dellboomi_training_in_chennai" element={<Dellboomimain />} /> 
+        <Route path="/pmp_training_in_chennai" element={<Pmpmain />} /> 
+        <Route path="/pentaho_training_in_chennai" element={<Pentahomain />} /> 
+        <Route path="/angularjs_training_in_chennai" element={<Angularjsmain />} /> 
+        <Route path="/windowspowershell_training_in_chennai" element={<Windowspowershellmain />} /> 
       </Routes>
       <Footer />
     </Router>
-        </HelmetProvider>
+  </HelmetProvider>
   );
 };
 

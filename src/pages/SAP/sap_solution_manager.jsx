@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Meta from '../../components/Meta';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all CSS files
@@ -430,23 +430,20 @@ const SAPMain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
+const pageTitle = "Best SAP Solution Manager Training in Chennai | Expert SAP SolMan Course";
+const pageDescription = "Master SAP Solution Manager with training in Chennai from Intellimindz. Learn ALM, monitoring, and system optimization.";
+const pageKeywords = "sap solution manager training in chennai, sap solman course, sap solman certification, intellimindz";
+const ogUrl = "https://localhost:3000/sap_solution_manager_training_in_chennai";
     return (
-        <HelmetProvider>
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                {ContactModal && <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />}
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
-    return (
-        <>
-            <Helmet>
-                <title>SAP Solution Manager Training in Chennai | SAP Solution Manager Course in Chennai</title>
-                <meta name="description" content="Enroll in our SAP Solution Manager Training in Chennai to master application lifecycle management skills. Get certified with our hands-on SAP Solution Manager course in Chennai, led by industry experts." />
-            </Helmet>
+    <>
+      <Meta
+        title={pageTitle}
+        description={pageDescription}
+        keywords={pageKeywords}
+        ogTitle={pageTitle}
+        ogDescription={pageDescription}
+        ogUrl={ogUrl}
+      />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -462,6 +459,7 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapSolutionManagerFaqSection />
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };

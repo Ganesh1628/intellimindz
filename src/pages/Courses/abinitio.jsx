@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Meta from '../../components/Meta';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all your CSS files
@@ -11,6 +11,7 @@ import "../../components/SapIM/IMsyllabus.css";
 
 // Import all your image assets
 import saphomeintro1 from '../../assests/images/saphomeintro1.png';
+import homeintro from '../../assests/images/flexiblebatches.jpeg';
 import bestPriceIcon from '../../assests/images/ExperiencedTrainers.jpeg';
 import runningIcon from '../../assests/images/practicallearning.jpeg';
 import staffIcon from '../../assests/images/flexiblebatches.jpeg';
@@ -34,15 +35,20 @@ import AskForDemo from "../../components/SAP/Askfordemo/askfordemo";
 
 const Intro = ({ openContactModal }) => {
     return (
-        <div className="intro-container">
-            <div className="overlay"></div>
-            <div className="intro-content">
-                <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
-                <h1 className="intro-h1">Best Ab Initio Training Institute in Chennai</h1>
-                <h3 className="intro-h3">Master data integration and ETL processes with our expert-led Ab Initio Training – your gateway to a thriving career in data management.</h3>
-                <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
-            </div>
-        </div>
+    <div style={{ width: "100%", height: "100vh", position: "relative", display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center", color: "white", overflow: "hidden" }}>
+      <img src={homeintro} alt="Background" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: -1 }} />
+      {/* <div className="intro-container"> */}
+      {/* <div className="training-image-container" >
+          <img src={homeintro} alt="Ab Initio Training" />
+      </div> */}
+      <div className="overlay"></div>
+      <div className="intro-content">
+          <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
+          <h1 className="intro-h1">Best Ab Initio Training Institute in Chennai</h1>
+          <h3 className="intro-h3">Master data integration and ETL processes with our expert-led Ab Initio Training – your gateway to a thriving career in data management.</h3>
+          <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
+      </div>
+    </div>
     );
 };
 
@@ -428,23 +434,20 @@ const Abinitiomain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
-    return (
-        <HelmetProvider>
-            <div>
-                <Saponline openContactModal={openContactModal} />
-                {ContactModal && <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />}
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const Saponline = ({ openContactModal }) => {
+    const pageTitle = "Best Abinitio Training in Chennai | Practical Oriented Abinitio Course";
+const pageDescription = "Join IntelliMindz for top Abinitio training in Chennai. Master data processing with hands-on projects and expert guidance.";
+const pageKeywords = "abinitio training in chennai, abinitio course, data warehousing, intellimindz abinitio";
+const ogUrl = "https://localhost:3000/abinitio_training_in_chennai";
     return (
         <>
-            <Helmet>
-                <title>Ab Initio Training in Chennai | Ab Initio Course in Chennai</title>
-                <meta name="description" content="Master data integration and ETL with our Ab Initio Training in Chennai. Learn advanced data processing through our expert-led Ab Initio course." />
-            </Helmet>
+            <Meta
+                title={pageTitle}
+                description={pageDescription}
+                keywords={pageKeywords}
+                ogTitle={pageTitle}
+                ogDescription={pageDescription}
+                ogUrl={ogUrl}
+            />
             <Intro openContactModal={openContactModal} />
             <SapTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -460,6 +463,7 @@ const Saponline = ({ openContactModal }) => {
             <Onlineheader />
             <SapABAPFaqSection />
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };
