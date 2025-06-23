@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Meta from '../../components/Meta';
 import ContactModal from "../../components/Hero-Section/ContactModal";
 
 // Import all your CSS files
@@ -463,23 +463,20 @@ const JavaMain = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openContactModal = () => setIsModalOpen(true);
     const closeContactModal = () => setIsModalOpen(false);
-    return (
-        <HelmetProvider>
-            <div>
-                <JavaOnline openContactModal={openContactModal} />
-                {ContactModal && <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />}
-            </div>
-        </HelmetProvider>
-    );
-};
-
-const JavaOnline = ({ openContactModal }) => {
+    const pageTitle = "Best Java Training in Chennai | Practical Oriented Java Course";
+const pageDescription = "Join IntelliMindz for Java training in Chennai. Learn Java core and advanced topics with real-time coding.";
+const pageKeywords = "java training in chennai, java course, java development, intellimindz java";
+const ogUrl = "https://localhost:3000/java_training_in_chennai";
     return (
         <>
-            <Helmet>
-                <title>Java Training in Chennai | Java Course in Chennai</title>
-                <meta name="description" content="Master Java programming with our expert-designed Java Training in Chennai. Learn to build robust applications through our comprehensive Java course." />
-            </Helmet>
+            <Meta
+                title={pageTitle}
+                description={pageDescription}
+                keywords={pageKeywords}
+                ogTitle={pageTitle}
+                ogDescription={pageDescription}
+                ogUrl={ogUrl}
+            />
             <Intro openContactModal={openContactModal} />
             <JavaTrainingProfile openContactModal={openContactModal} />
             <Corporate />
@@ -495,6 +492,7 @@ const JavaOnline = ({ openContactModal }) => {
             <Onlineheader />
             <JavaFaqSection />
             <CallToActionBanner openContactModal={openContactModal} />
+            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };
