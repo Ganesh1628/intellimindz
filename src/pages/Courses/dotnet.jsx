@@ -10,7 +10,8 @@ import "../../components/SAP/Header/Introsap.css";
 import "../../components/SapIM/IMsyllabus.css";
 
 // Import all your image assets
-import saphomeintro1 from '../../assests/images/saphomeintro1.png';
+import saphomeintro1 from '../../assests/images/dotnet_image1.jpg';
+import homeintro from '../../assests/images/dotnet_image.jpg';
 import bestPriceIcon from '../../assests/images/ExperiencedTrainers.jpeg';
 import runningIcon from '../../assests/images/practicallearning.jpeg';
 import staffIcon from '../../assests/images/flexiblebatches.jpeg';
@@ -34,15 +35,47 @@ import AskForDemo from "../../components/SAP/Askfordemo/askfordemo";
 
 const Intro = ({ openContactModal }) => {
     return (
-        <div className="intro-container">
+    <div
+      style={{
+        width: "100%",
+        height: "100vh",
+        position: "relative",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        textAlign: "center",
+        color: "white",
+        overflow: "hidden",
+      }}
+    >
+      {/* Background Image */}
+      <img
+        src={homeintro}
+        alt="Background"
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          zIndex: -1,
+        }}
+      />
+
+        {/* <div className="intro-container"> */}
+            {/* <div className="training-image-container" >
+                <img src={homeintro} alt="Ab Initio Training" />
+            </div> */}
             <div className="overlay"></div>
             <div className="intro-content">
                 <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
-                <h1 className="intro-h1">Best Dot Net Training Institute in Chennai</h1>
-                <h3 className="intro-h3">Master .NET development with our expert-led training – build dynamic web, mobile, and desktop applications with hands-on projects.</h3>
+                <h1 className="intro-h1">Best Ab Initio Training Institute in Chennai</h1>
+                <h3 className="intro-h3">Master data integration and ETL processes with our expert-led Ab Initio Training – your gateway to a thriving career in data management.</h3>
                 <button className="intro-enroll-button" onClick={openContactModal}>Enroll Now</button>
             </div>
         </div>
+        // </div>
     );
 };
 
