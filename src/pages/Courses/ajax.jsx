@@ -10,8 +10,8 @@ import "../../components/SAP/Header/Introsap.css";
 import "../../components/SapIM/IMsyllabus.css";
 
 // Import all your image assets
-import saphomeintro1 from '../../assests/images/saphomeintro1.png';
-import homeintro from '../../assests/images/saphomeintro1.png';
+// import saphomeintro1 from '../../assests/images/saphomeintro1.png';
+// import homeintro from '../../assests/images/saphomeintro1.png';
 import bestPriceIcon from '../../assests/images/ExperiencedTrainers.jpeg';
 import runningIcon from '../../assests/images/practicallearning.jpeg';
 import staffIcon from '../../assests/images/flexiblebatches.jpeg';
@@ -42,7 +42,7 @@ import { pagesData } from './pagedatas';
         title44, title45, title46, title47, title48, title49, title50, title51, title52, title53, title54,
         title55, title56,
         list1, list2, list3, list4, list5, list6,
-        image1, image2, image3, image4, image5, image6, image7, image8,
+        image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15, image16, image17, image18,
         button1, button2, button3, button4, button5, button6,
         paragraph1, paragraph2, paragraph3, paragraph4, paragraph5, paragraph6, paragraph7, paragraph8, paragraph9, paragraph10,
         desc1, desc2, desc3, desc4, desc5, desc6, desc7, desc8, desc9, desc10, desc11, desc12, desc13, desc14,
@@ -77,12 +77,12 @@ import { pagesData } from './pagedatas';
         { id: 'hybrid', iconType: 'hybrid', title: title18, description: desc4 }
     ];
     const features = [
-        { id: 1, image: classroomTrainingImg, title: title23, description: desc5 },
-        { id: 2, image: handsonsapImg, title: title24, description: desc6 },
-        { id: 3, image: casestudyrealtimeImg, title: title25, description: desc7 },
-        { id: 4, image: ExperiencedtrainersImg, title: title26, description: desc8 },
-        { id: 5, image: personalizedmentorImg, title: title27, description: desc9 },
-        { id: 6, image: interactiveImg, title: title28, description: desc10 }
+        { id: 1, image: image9, title: title23, description: desc5 },
+        { id: 2, image: image10, title: title24, description: desc6 },
+        { id: 3, image: image11, title: title25, description: desc7 },
+        { id: 4, image: image12, title: title26, description: desc8 },
+        { id: 5, image: image13, title: title27, description: desc9 },
+        { id: 6, image: image14, title: title28, description: desc10 }
     ];
     const [activeModuleId, setActiveModuleId] = useState(1);
     const allModulesData = [
@@ -99,9 +99,9 @@ import { pagesData } from './pagedatas';
         { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
     ];
     const trainingModesData = [
-        { id: 1, imageSrc: corporateOnsiteImg, altText: altext1, title: title40, description: desc11 },
-        { id: 2, imageSrc: corporateOffsiteImg, altText: altext2, title: title41, description: desc12 },
-        { id: 3, imageSrc: corporateVirtualImg, altText: altext3, title: title42, description: desc13 }
+        { id: 1, imageSrc: image15, altText: altext1, title: title40, description: desc11 },
+        { id: 2, imageSrc: image16, altText: altext2, title: title41, description: desc12 },
+        { id: 3, imageSrc: image17, altText: altext3, title: title42, description: desc13 }
     ];
     const reviewsData = [
         { id: 1, name: name1, designation: designation1, avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: review1 },
@@ -138,7 +138,7 @@ import { pagesData } from './pagedatas';
     
     return (
     <><div style={{ width: "100%", height: "100vh", position: "relative", display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center", color: "white", overflow: "hidden" }}>
-            <img src={homeintro} alt="Background" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: -1 }} />
+            <img src={image18} alt="Background" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: -1 }} />
 
             <div className="overlay"></div>
             <div className="intro-content">
