@@ -1,7 +1,61 @@
 // data/pages.ts
 
 import saphomeintro1 from '../../assests/images/saphomeintro1.png';
+import ajaximage1 from '../../assests/images/Ajax_image1.webp';
+import ajaximage from '../../assests/images/ajax_images.jpg'; 
+import abinitioimage1 from '../../assests/images/abinitio_image1.jpg'; 
+import abinitioimage from '../../assests/images/abinitio_image.jpg';
+import itilimage1 from '../../assests/images/itil_image1.jpg'; 
+import itilimage from '../../assests/images/itil_image.jpg'; 
+import javaimage1 from '../../assests/images/java_image1.jpg'; 
+import javaimage from '../../assests/images/java image.jpg'; 
+import ssrsimage1 from '../../assests/images/ssrs_image1.jpg'; 
+import ssrsimage from '../../assests/images/ssrs_image.jpg'; 
+import mcseimage1 from '../../assests/images/mcse_image1.jpg'; 
+import mcseimage from '../../assests/images/mcse_image.jpg'; 
+import datascience1 from '../../assests/images/Data Science_image1.webp'; 
+import datascience from '../../assests/images/Data Science_image.webp'; 
+import etlimage1 from '../../assests/images/etl_testing_image1.jpg'; 
+import etlimage from '../../assests/images/etl_testing_image.jpg'; 
+import ccnaimage1 from '../../assests/images/ccna_images1.jpg'; 
+import ccnaimage from '../../assests/images/ccna_image.jpg'; 
+import softskillimage1 from '../../assests/images/soft_skill_image1.png'; 
+import softskillimage from '../../assests/images/soft_skill_image.jpg'; 
+import dotnet1 from '../../assests/images/dotnet_image1.jpg'; 
+import dotnet from '../../assests/images/dotnet_image.jpg'; 
+import iosimage1 from '../../assests/images/ios_image1.jpg'; 
+import iosimage from '../../assests/images/ios_image.jpg'; 
+import androidtrainingimage1 from '../../assests/images/android_image1.jpg'; 
+import androidtrainingimage from '../../assests/images/android_image.png'; 
+import seleniumimage1 from '../../assests/images/selenium_image1.jpg'; 
+import seleniumimage from '../../assests/images/selenium_image.jpg'; 
+import WordPressimage1 from '../../assests/images/wordpress_image1.jpg'; 
+import WordPressimage from '../../assests/images/wordpress_image.png'; 
+import mobileapplicationimage1 from '../../assests/images/mobile_application_testing_image1.png'; 
+import mobileapplicationimage from '../../assests/images/mobile_application_testing_image.png'; 
 import bestPriceIcon from '../../assests/images/ExperiencedTrainers.jpeg';
+import salesforceimage1 from '../../assests/images/salesforce_admin_image1.png';
+import salesforceimage from '../../assests/images/salesforce_admin_image.png';
+import matlabimage1 from '../../assests/images/matlab_image1.jpg';
+import matlabimage from '../../assests/images/matlab_image.jpg';
+import mainframeimage1 from '../../assests/images/mainframe_image1.jpg';
+import mainframeimage from '../../assests/images/mainframe_image.jpg';
+import datastage1 from '../../assests/images/datastage_image1.png';
+import datastage from '../../assests/images/datastage_image.png';
+import iottrainingimage1 from '../../assests/images/iot_image1.jpg';
+import iottrainingimage from '../../assests/images/iot_image.jpg';
+import ssasimage1 from '../../assests/images/ssas_image1.jpg';
+import ssasimage from '../../assests/images/ssas_image.jpg';
+import QlikViewimage1 from '../../assests/images/qlikview_image1.jpg';
+import QlikViewimage from '../../assests/images/qlikview_image.jpg';
+import bigdataimage1 from '../../assests/images/big_data_image1.jpg';
+import bigdataimage from '../../assests/images/big_data_image.jpg';
+import openstackimage1 from '../../assests/images/openstack_image1.jpg';
+import openstackimage from '../../assests/images/openstack_image.jpg';
+import digitalmarketingimage1 from '../../assests/images/digital_marketing_image1.jpg';
+import digitalmarketingimage from '../../assests/images/digital_marketing_image.jpg';
+import informaticadataqualityimage1 from '../../assests/images/informatica_image1.jpg';
+import informaticadataqualityimage from '../../assests/images/informatica_image.jpg';
 import runningIcon from '../../assests/images/practicallearning.jpeg';
 import staffIcon from '../../assests/images/flexiblebatches.jpeg';
 import liveclass from '../../assests/images/interactive_sessions.jpeg';
@@ -33,7 +87,8 @@ export const pagesData = [
     list4 : "Work on real-time AJAX projects to develop practical skills.",
     list5 : "Experience personalized learning tailored to your pace and career goals.",
     list6 : "join a community of successful AJAX professionals.",
-    image1 : saphomeintro1,
+    image1 : ajaximage1,
+    image18 : ajaximage,
     button1 : "Enquire Now",
     title7 : "Why Choose IntelliMindz?",
     title8 : "Certified Trainers",
@@ -181,7 +236,8 @@ export const pagesData = [
   list4: "Work on hands-on Ab Initio projects and transformations.",
   list5: "Get lifetime access to learning material and recordings.",
   list6: "Join a network of certified data professionals.",
-  image1: saphomeintro1,
+  image1: abinitioimage1,
+  image18 : abinitioimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified ETL Experts",
@@ -309,7 +365,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our Ab Initio course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Ab Initio Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+          pagetitle: "Best Ab Initio Training in Chennai | Practical Oriented Ab Initio Course",
+        pagedescription: "Join IntelliMindz for top Ab Initio training in Chennai. Master data processing and ETL tools with hands-on projects and expert guidance.",
+        pagekeywords: "abinitio training in chennai, abinitio course, etl tools, data processing, data integration, intellimindz",
+        pageogurl: "https://localhost:3000/abinitio_training_in_chennai",
+
 },
 {
   id: "itil_training_in_chennai",
@@ -325,7 +386,8 @@ export const pagesData = [
   list4: "Participate in interactive labs and group discussions.",
   list5: "Receive lifetime access to training materials and recordings.",
   list6: "Network with IT professionals and service management peers.",
-  image1: saphomeintro1,
+  image1: itilimage1,
+  image18 : itilimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Instructors",
@@ -454,6 +516,10 @@ export const pagesData = [
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " ITIL Course?",
   button6: "Contact Us",
+  pagetitle: "Best ITIL Training in Chennai | Practical Oriented ITIL Course",
+  pagedescription: "Join IntelliMindz for top ITIL training in Chennai. Master IT service management with hands-on projects and expert guidance.",
+  pagekeywords: "itil training in chennai, itil course, itil certification, IT service management, intellimindz",
+  pageogurl: "https://localhost:3000/itil_training_in_chennai",
 },
 {
   id: "java_training_in_chennai",
@@ -469,7 +535,8 @@ export const pagesData = [
   list4: "Work on hands‑on Java projects including microservices and web apps.",
   list5: "Access learning materials and recordings anytime.",
   list6: "Become part of a community of certified Java professionals.",
-  image1: saphomeintro1,
+  image1: javaimage1,
+  image18: javaimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Senior Java Developers",
@@ -597,7 +664,12 @@ export const pagesData = [
   paragraph10: "Here, you can get your questions about our Java course in Chennai answered.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Java Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+          pagetitle: "Best Java Training in Chennai | Practical Oriented Java Course",
+        pagedescription: "Join IntelliMindz for top Java training in Chennai. Master Java programming with hands-on projects and expert guidance.",
+        pagekeywords: "java training in chennai, java course, core java, advanced java, j2ee, intellimindz",
+        pageogurl: "https://localhost:3000/java_training_in_chennai",
+
 },
 {
   id: 'mcse_training_in_chennai',
@@ -613,7 +685,8 @@ export const pagesData = [
   list4: "Get interview prep and career assistance after training.",
   list5: "Flexible learning modes to suit working professionals.",
   list6: "Learn from trainers with real-time enterprise experience.",
-  image1: saphomeintro1,
+  image1: mcseimage1,
+  image18: mcseimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -741,7 +814,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our MCSE course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " MCSE Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+  pagetitle: "Best MCSE Training in Chennai | Practical Oriented MCSE Course",
+        pagedescription: "Join IntelliMindz for top MCSE training in Chennai. Master Microsoft Certified Solutions Expert skills with hands-on projects and expert guidance.",
+        pagekeywords: "mcse training in chennai, mcse course, microsoft certification, server administration, intellimindz",
+        pageogurl: "https://localhost:3000/mcse_training_in_chennai",
+
 },
 {
   id: 'ssrs_training_in_chennai',
@@ -757,7 +835,8 @@ export const pagesData = [
   list4: "Get assistance with certification and job placement.",
   list5: "Flexible schedules to fit your availability.",
   list6: "Get trained by Microsoft-certified BI experts.",
-  image1: saphomeintro1,
+  image1: ssrsimage1,
+  image18: ssrsimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Expert Trainers",
@@ -885,7 +964,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our SSRS course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " SSRS Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+  pagetitle: "Best SSRS Training in Chennai | Practical Oriented SSRS Course",
+        pagedescription: "Join IntelliMindz for top SSRS training in Chennai. Master SQL Server Reporting Services with hands-on projects and expert guidance.",
+        pagekeywords: "ssrs training in chennai, ssrs course, sql server reporting services, business intelligence, intellimindz",
+        pageogurl: "https://localhost:3000/ssrs_training_in_chennai",
+
 },
 {
   id: 'data_science_training_in_chennai',
@@ -901,7 +985,8 @@ export const pagesData = [
   list4: "Get dedicated support for interviews and job placement.",
   list5: "Weekend and weekday batches to suit professionals.",
   list6: "Trainers with real-time experience in data-driven enterprises.",
-  image1: saphomeintro1,
+  image1: datascience1,
+  image18: datascience,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -1029,7 +1114,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our Data Science course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Data Science Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+   pagetitle: "Best Data Science Training in Chennai | Practical Oriented Data Science Course",
+        pagedescription: "Join IntelliMindz for top Data Science training in Chennai. Master data analysis, machine learning, and AI with hands-on projects and expert guidance.",
+        pagekeywords: "data science training in chennai, data science course, machine learning, artificial intelligence, data analysis, intellimindz",
+        pageogurl: "https://localhost:3000/data_science_training_in_chennai",
+
 },
 {
   id: 'etl_testing_training_in_chennai',
@@ -1045,7 +1135,8 @@ export const pagesData = [
   list4: "Receive guidance for interview and certification preparation.",
   list5: "Flexible learning formats: online, offline, and hybrid.",
   list6: "Personalized mentorship and placement assistance.",
-  image1: saphomeintro1,
+  image1: etlimage1,
+  image18: etlimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Real-Time Trainers",
@@ -1173,10 +1264,14 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our ETL Testing course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " ETL Testing Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",  pagetitle: "Best ETL Testing Training in Chennai | Practical Oriented ETL Testing Course",
+        pagedescription: "Join IntelliMindz for top ETL Testing training in Chennai. Master Extract, Transform, Load testing with hands-on projects and expert guidance.",
+        pagekeywords: "etl testing training in chennai, etl testing course, data warehousing, quality assurance, intellimindz",
+        pageogurl: "https://localhost:3000/etl_testing_training_in_chennai",
+
 },
 {
-  id: 'ccna_training_in_chennai',
+  id: 'ccnaimage1',
   title1: "Best CCNA Training in Chennai",
   title2: "Boost your networking career with expert-led CCNA Training in Chennai. Learn routing, switching, and Cisco network configuration from certified professionals.",
   button2: "Enroll Now",
@@ -1189,7 +1284,8 @@ export const pagesData = [
   list4: "Receive career guidance and interview support post-training.",
   list5: "Flexible schedules for working professionals and students.",
   list6: "Trainers with real-time enterprise networking experience.",
-  image1: saphomeintro1,
+  image1: ccnaimage1,
+  image18: ccnaimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -1317,7 +1413,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our CCNA course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " CCNA Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+  pagetitle: "Best CCNA Training in Chennai | Practical Oriented CCNA Course",
+        pagedescription: "Join IntelliMindz for top CCNA training in Chennai. Master Cisco networking with hands-on projects and expert guidance.",
+        pagekeywords: "ccna training in chennai, ccna course, cisco certification, networking, intellimindz",
+        pageogurl: "https://localhost:3000/ccna_training_in_chennai",
+
 },
 {
   id: 'soft_skill_training_in_chennai',
@@ -1333,7 +1434,8 @@ export const pagesData = [
   list4: "Build emotional intelligence and leadership traits.",
   list5: "Flexible formats including online, classroom, and hybrid modes.",
   list6: "Receive career and personal development guidance.",
-  image1: saphomeintro1,
+  image1: softskillimage1,
+  image18: softskillimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -1461,7 +1563,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our Soft Skill Training in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Soft Skill Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+      pagetitle: "Best Soft Skill Training in Chennai | Practical Oriented Soft Skills Course",
+        pagedescription: "Join IntelliMindz for top Soft Skill training in Chennai. Enhance communication, leadership, and professional skills with practical exercises.",
+        pagekeywords: "soft skill training in chennai, soft skills course, communication skills, leadership, professional development, intellimindz",
+        pageogurl: "https://localhost:3000/soft_skill_training_in_chennai",
+
 },
 {
   id: 'dotnet_training_in_chennai',
@@ -1477,7 +1584,8 @@ export const pagesData = [
   list4: "Post-training job support and interview preparation.",
   list5: "Flexible schedules with weekday/weekend options.",
   list6: "Training led by certified developers with real-time experience.",
-  image1: saphomeintro1,
+  image1: dotnet1,
+  image18: dotnet,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -1605,7 +1713,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our DotNet course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " DotNet Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+   pagetitle: "Best .NET Training in Chennai | Practical Oriented .NET Course",
+        pagedescription: "Join IntelliMindz for top .NET training in Chennai. Master Microsoft .NET framework with hands-on projects and expert guidance.",
+        pagekeywords: "dotnet training in chennai, .net course, c#, asp.net, web development, intellimindz",
+        pageogurl: "https://localhost:3000/dotnet_training_in_chennai",
+
 },
 {
   id: 'ios_training_in_chennai',
@@ -1621,7 +1734,8 @@ export const pagesData = [
   list4: "Learn App Store submission and deployment process.",
   list5: "Flexible learning modes with expert mentorship.",
   list6: "Job support with mock interviews and portfolio guidance.",
-  image1: saphomeintro1,
+  image1: iosimage1,
+  image18: iosimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -1749,7 +1863,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our iOS course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " iOS Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+   pagetitle: "Best iOS Training in Chennai | Practical Oriented iOS App Development Course",
+        pagedescription: "Join IntelliMindz for top iOS training in Chennai. Master iPhone app development with Swift and Xcode, hands-on projects, and expert guidance.",
+        pagekeywords: "ios training in chennai, ios course, swift, xcode, iphone app development, mobile app development, intellimindz",
+        pageogurl: "https://localhost:3000/ios_training_in_chennai",
+
 },
 {
   id: 'android_training_in_chennai',
@@ -1765,7 +1884,8 @@ export const pagesData = [
   list4: "Receive career support, mock interviews, and resume building.",
   list5: "Weekend and weekday classes available for all levels.",
   list6: "Training delivered by certified mobile app professionals.",
-  image1: saphomeintro1,
+  image1: androidtrainingimage1,
+  image18: androidtrainingimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -1893,7 +2013,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our Android course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Android Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+    pagetitle: "Best Android Training in Chennai | Practical Oriented Android App Development Course",
+        pagedescription: "Join IntelliMindz for top Android training in Chennai. Master Android app development with Java/Kotlin, hands-on projects, and expert guidance.",
+        pagekeywords: "android training in chennai, android course, java, kotlin, android app development, mobile app development, intellimindz",
+        pageogurl: "https://localhost:3000/android_training_in_chennai",
+
 },
 {
   id: 'selenium_training_in_chennai',
@@ -1909,7 +2034,8 @@ export const pagesData = [
   list4: "Hands-on projects and test script writing practice.",
   list5: "Flexible training schedules for working professionals.",
   list6: "Live doubt-clearing and lifetime access to materials.",
-  image1: saphomeintro1,
+  image1: seleniumimage1,
+  image18: seleniumimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Expert Trainers",
@@ -2037,7 +2163,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our Selenium course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Selenium Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+    pagetitle: "Best Selenium Training in Chennai | Practical Oriented Selenium Automation Testing Course",
+        pagedescription: "Join IntelliMindz for top Selenium training in Chennai. Master automated web testing with hands-on projects and expert guidance.",
+        pagekeywords: "selenium training in chennai, selenium course, automation testing, web testing, qa automation, intellimindz",
+        pageogurl: "https://localhost:3000/selenium_training_in_chennai",
+
 },
 {
   id: 'wordpress_training_in_chennai',
@@ -2053,7 +2184,8 @@ export const pagesData = [
   list4: "Learn SEO, security, and optimization practices.",
   list5: "Flexible class timings for students and working professionals.",
   list6: "Learn from professionals working in top web agencies.",
-  image1: saphomeintro1,
+  image1: WordPressimage1,
+  image18: WordPressimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -2181,7 +2313,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our WordPress course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " WordPress Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+   pagetitle: "Best WordPress Training in Chennai | Practical Oriented WordPress Web Design Course",
+        pagedescription: "Join IntelliMindz for top WordPress training in Chennai. Master website design and development with hands-on projects and expert guidance.",
+        pagekeywords: "wordpress training in chennai, wordpress course, website design, web development, cms, intellimindz",
+        pageogurl: "https://localhost:3000/wordpress_training_in_chennai",
+
 },
 {
   id: 'mobile_application_training_in_chennai',
@@ -2197,7 +2334,8 @@ export const pagesData = [
   list4: "Interview preparation and placement support included.",
   list5: "Flexible schedules suitable for students and working pros.",
   list6: "Trainers with live app deployment and development experience.",
-  image1: saphomeintro1,
+  image1: mobileapplicationimage1,
+  image18: mobileapplicationimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -2325,7 +2463,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our Mobile App course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Mobile Application Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+    pagetitle: "Best Mobile Application Training in Chennai | Practical Oriented Mobile App Development Course",
+        pagedescription: "Join IntelliMindz for top Mobile Application training in Chennai. Master development for iOS and Android with hands-on projects and expert guidance.",
+        pagekeywords: "mobile application training in chennai, mobile app development course, ios app development, android app development, cross-platform, intellimindz",
+        pageogurl: "https://localhost:3000/mobile_application_training_in_chennai",
+
 },
 {
   id: 'sales_force_training_in_chennai',
@@ -2341,7 +2484,8 @@ export const pagesData = [
   list4: "Post-training career support including resume and interview help.",
   list5: "Flexible training options to suit working professionals.",
   list6: "Mentorship from professionals currently working on Salesforce projects.",
-  image1: saphomeintro1,
+  image1: salesforceimage1,
+  image18: salesforceimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -2469,7 +2613,7 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our Salesforce course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Salesforce Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
 },
 {
   id: 'matlab_training_in_chennai',
@@ -2485,7 +2629,8 @@ export const pagesData = [
   list4: "Flexible schedules and access to recorded sessions.",
   list5: "Project-based learning with real-world applications.",
   list6: "Comprehensive placement support and interview training.",
-  image1: saphomeintro1,
+  image1: matlabimage1,
+  image18: matlabimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Expert Instructors",
@@ -2613,7 +2758,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our MATLAB course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " MATLAB Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+    pagetitle: "Best MATLAB Training in Chennai | Practical Oriented MATLAB Programming Course",
+        pagedescription: "Join IntelliMindz for top MATLAB training in Chennai. Master numerical computing, data analysis, and algorithm development with hands-on projects.",
+        pagekeywords: "matlab training in chennai, matlab course, numerical computing, data analysis, algorithm development, intellimindz",
+        pageogurl: "https://localhost:3000/matlab_training_in_chennai",
+
 },
 {
   id: 'mainframe_admin_training_in_chennai',
@@ -2629,7 +2779,8 @@ export const pagesData = [
   list4: "Receive certification guidance and job interview support.",
   list5: "Flexible batch options for working professionals.",
   list6: "Learn from trainers with live mainframe project exposure.",
-  image1: saphomeintro1,
+  image1: mainframeimage1,
+  image18: mainframeimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -2773,7 +2924,8 @@ export const pagesData = [
   list4: "Receive certification preparation and placement support.",
   list5: "Flexible training formats to fit your schedule.",
   list6: "Trainers with deep knowledge of enterprise data workflows.",
-  image1: saphomeintro1,
+  image1: datastage1,
+  image18: datastage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -2901,7 +3053,11 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our DataStage course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " DataStage Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+     pagetitle: "Best DataStage Training in Chennai | Practical Oriented DataStage ETL Course",
+        pagedescription: "Join IntelliMindz for top DataStage training in Chennai. Master IBM DataStage for ETL and data integration with hands-on projects and expert guidance.",
+        pagekeywords: "datastage training in chennai, datastage course, ibm datastage, etl tools, data integration, intellimindz",
+        pageogurl: "https://localhost:3000/datastage_training_in_chennai",
 },
 {
   id: 'iot_training_in_chennai',
@@ -2917,7 +3073,8 @@ export const pagesData = [
   list4: "Master communication protocols like MQTT, HTTP, and CoAP.",
   list5: "Get career assistance for IoT developer and architect roles.",
   list6: "Join a growing community of smart tech professionals.",
-  image1: saphomeintro1,
+  image1: iottrainingimage1,
+  image18: iottrainingimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Expert Mentors",
@@ -3045,7 +3202,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our IoT course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " IoT Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+     pagetitle: "Best IoT Training in Chennai | Practical Oriented Internet of Things Course",
+        pagedescription: "Join IntelliMindz for top IoT training in Chennai. Master Internet of Things concepts, development, and applications with hands-on projects.",
+        pagekeywords: "iot training in chennai, iot course, internet of things, embedded systems, smart devices, intellimindz",
+        pageogurl: "https://localhost:3000/iot_training_in_chennai",
+
 },
 {
   id: 'ssas_training_in_chennai',
@@ -3061,7 +3223,8 @@ export const pagesData = [
   list4: "Mock interviews, certification guidance, and placement support.",
   list5: "Weekday and weekend batches available.",
   list6: "Instructors with real-world BI implementation experience.",
-  image1: saphomeintro1,
+  image1: ssasimage1,
+  image18: ssasimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -3189,7 +3352,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our SSAS course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " SSAS Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+     pagetitle: "Best Salesforce Training in Chennai | Practical Oriented Salesforce CRM Course",
+        pagedescription: "Join IntelliMindz for top Salesforce training in Chennai. Master CRM administration, development, and cloud solutions with hands-on projects.",
+        pagekeywords: "salesforce training in chennai, salesforce course, salesforce crm, salesforce admin, salesforce developer, cloud computing, intellimindz",
+        pageogurl: "https://localhost:3000/sales_force_training_in_chennai",
+
 },
 {
   id: 'qlikview_training_in_chennai',
@@ -3205,7 +3373,8 @@ export const pagesData = [
   list4: "Access job support including interview preparation.",
   list5: "Flexible scheduling and modes for professionals and students.",
   list6: "Training by professionals working on live BI projects.",
-  image1: saphomeintro1,
+  image1: QlikViewimage1,
+  image18: QlikViewimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -3333,7 +3502,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our QlikView course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " QlikView Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+    pagetitle: "Best QlikView Training in Chennai | Practical Oriented QlikView Business Intelligence Course",
+        pagedescription: "Join IntelliMindz for top QlikView training in Chennai. Master data visualization and business intelligence with hands-on projects and expert guidance.",
+        pagekeywords: "qlikview training in chennai, qlikview course, business intelligence, data visualization, qlik sense, intellimindz",
+        pageogurl: "https://localhost:3000/qlikview_training_in_chennai",
+
 },
 {
   id: 'big_data_training_in_chennai',
@@ -3349,7 +3523,8 @@ export const pagesData = [
   list4: "100% placement support and resume guidance.",
   list5: "Industry-relevant curriculum and case studies.",
   list6: "Mentorship from certified Big Data engineers.",
-  image1: saphomeintro1,
+  image1: bigdataimage1,
+  image18: bigdataimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Industry-Recognized Trainers",
@@ -3477,7 +3652,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our Big Data course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Big Data Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+     pagetitle: "Best Big Data Training in Chennai | Practical Oriented Big Data Technologies Course",
+        pagedescription: "Join IntelliMindz for top Big Data training in Chennai. Master Hadoop, Spark, and other Big Data technologies with hands-on projects and expert guidance.",
+        pagekeywords: "big data training in chennai, big data course, hadoop, spark, data analytics, noSQL, intellimindz",
+        pageogurl: "https://localhost:3000/big_data_training_in_chennai",
+
 },
 {
   id: 'openstack_training_in_chennai',
@@ -3493,7 +3673,8 @@ export const pagesData = [
   list4: "Career support with interview preparation and resume building.",
   list5: "Flexible batches suited for working professionals and students.",
   list6: "Train under professionals with real-world OpenStack experience.",
-  image1: saphomeintro1,
+  image1: openstackimage1,
+  image18: openstackimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -3621,7 +3802,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our OpenStack course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " OpenStack Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+       pagetitle: "Best OpenStack Training in Chennai | Practical Oriented OpenStack Cloud Platform Course",
+        pagedescription: "Join IntelliMindz for top OpenStack training in Chennai. Master open-source cloud computing with hands-on projects and expert guidance.",
+        pagekeywords: "openstack training in chennai, openstack course, cloud computing, open source, virtualization, intellimindz",
+        pageogurl: "https://localhost:3000/openstack_training_in_chennai",
+
 },
 {
   id: 'digital_marketing_training_in_chennai',
@@ -3637,7 +3823,8 @@ export const pagesData = [
   list4: "Placement support and marketing career guidance.",
   list5: "Flexible learning options for students and working professionals.",
   list6: "Training by professionals with live project experience.",
-  image1: saphomeintro1,
+  image1: digitalmarketingimage1,
+  image18: digitalmarketingimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -3765,7 +3952,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our Digital Marketing course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Digital Marketing Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+   pagetitle: "Best Digital Marketing Training in Chennai | Practical Oriented Digital Marketing Course",
+        pagedescription: "Join IntelliMindz for top Digital Marketing training in Chennai. Master SEO, SMM, SEM, and more with hands-on projects and expert guidance.",
+        pagekeywords: "digital marketing training in chennai, digital marketing course, seo, sem, smm, content marketing, intellimindz",
+        pageogurl: "https://localhost:3000/digital_marketing_training_in_chennai",
+
 },
 {
   id: 'informatica_data_quality_training_in_chennai',
@@ -3781,7 +3973,8 @@ export const pagesData = [
   list4: "Get ready for Informatica DQ certification exams.",
   list5: "Flexible learning schedules to suit all professionals.",
   list6: "Lifetime access to resources and recorded sessions.",
-  image1: saphomeintro1,
+  image1: informaticadataqualityimage1,
+  image18: informaticadataqualityimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Experienced Trainers",
@@ -3909,7 +4102,12 @@ export const pagesData = [
   paragraph10: "Here you can get answers to all your questions about Informatica Data Quality training in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Informatica Data Quality Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+    pagetitle: "Best Informatica Data Quality Training in Chennai | Practical Oriented IDQ Course",
+        pagedescription: "Join IntelliMindz for top Informatica Data Quality training in Chennai. Master data quality management with hands-on projects and expert guidance.",
+        pagekeywords: "informatica data quality training in chennai, idq course, data quality, data governance, informatica, intellimindz",
+        pageogurl: "https://localhost:3000/informatica_data_quality_training_in_chennai",
+
 },
 {
   id: 'ccnp_training_in_chennai',
@@ -4053,7 +4251,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our CCNP course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " CCNP Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+    pagetitle: "Best CCNP Training in Chennai | Practical Oriented CCNP Course",
+        pagedescription: "Join IntelliMindz for top CCNP training in Chennai. Master Cisco professional-level networking with hands-on projects and expert guidance.",
+        pagekeywords: "ccnp training in chennai, ccnp course, cisco certification, enterprise networking, routing and switching, intellimindz",
+        pageogurl: "https://localhost:3000/ccnp_training_in_chennai",
+
 },
 {
   id: 'spoken_english_training_in_chennai',
@@ -4197,7 +4400,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our Spoken English course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Spoken English Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+     pagetitle: "Best Spoken English Training in Chennai | Practical Oriented Spoken English Course",
+        pagedescription: "Join IntelliMindz for top Spoken English training in Chennai. Improve your fluency, pronunciation, and confidence with practical exercises and expert guidance.",
+        pagekeywords: "spoken english training in chennai, spoken english course, english communication, language fluency, accent training, intellimindz",
+        pageogurl: "https://localhost:3000/spoken_english_training_in_chennai",
+
 },
 {
   id: 'cognos_tm1_training_in_chennai',
@@ -4341,7 +4549,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our Cognos TM1 course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Cognos TM1 Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+   pagetitle: "Best Cognos TM1 Training in Chennai | Practical Oriented IBM Cognos TM1 Course",
+        pagedescription: "Join IntelliMindz for top Cognos TM1 training in Chennai. Master financial planning, budgeting, and forecasting with hands-on projects and expert guidance.",
+        pagekeywords: "cognos tm1 training in chennai, cognos tm1 course, ibm cognos, financial planning, business intelligence, intellimindz",
+        pageogurl: "https://localhost:3000/cognos_tm1_training_in_chennai",
+
 },
 {
   id: 'python_training_in_chennai',
@@ -4485,7 +4698,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our Python course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Python Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+      pagetitle: "Best Python Training in Chennai | Practical Oriented Python Programming Course",
+        pagedescription: "Join IntelliMindz for top Python training in Chennai. Master Python for data science, web development, and automation with hands-on projects and expert guidance.",
+        pagekeywords: "python training in chennai, python course, python programming, data science, web development, automation, intellimindz",
+        pageogurl: "https://localhost:3000/python_training_in_chennai",
+
 },
 {
   id: 'mean_stack_training_in_chennai',
@@ -4629,7 +4847,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our MEAN Stack course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " MEAN Stack Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+  pagetitle: "Best MEAN Stack Training in Chennai | Practical Oriented MEAN Stack Development Course",
+        pagedescription: "Join IntelliMindz for top MEAN Stack training in Chennai. Master MongoDB, Express.js, Angular, and Node.js for full-stack web development with hands-on projects.",
+        pagekeywords: "mean stack training in chennai, mean stack course, mongodb, expressjs, angular, nodejs, full-stack development, intellimindz",
+        pageogurl: "https://localhost:3000/mean_stack_training_in_chennai",
+
 },
 {
   id: 'main_frame_training_in_chennai',
@@ -4773,7 +4996,13 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our Mainframe course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Mainframe Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Technologies Course",
+        pagedescription: "Join IntelliMindz for top Mainframe training in Chennai. Master mainframe concepts, JCL, COBOL, and more with hands-on projects and expert guidance.",
+        pagekeywords: "main frame training in chennai, mainframe course, jcl, cobol, vsam, mainframe technologies, intellimindz",
+        pageogurl: "https://localhost:3000/main_frame_training_in_chennai",
+
+
 },
 {
   id: 'nodejs_training_in_chennai',
@@ -4917,7 +5146,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our NodeJS course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " NodeJS Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+    pagetitle: "Best NodeJS Training in Chennai | Practical Oriented NodeJS Development Course",
+        pagedescription: "Join IntelliMindz for top NodeJS training in Chennai. Master server-side JavaScript development with hands-on projects and expert guidance.",
+        pagekeywords: "nodejs training in chennai, nodejs course, server-side javascript, web development, backend development, intellimindz",
+        pageogurl: "https://localhost:3000/nodejs_training_in_chennai",
+
 },
 {
   id: 'sccm_training_in_chennai',
@@ -5061,7 +5295,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our SCCM course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " SCCM Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+     pagetitle: "Best SCCM Training in Chennai | Practical Oriented SCCM Administration Course",
+        pagedescription: "Join IntelliMindz for top SCCM training in Chennai. Master Microsoft System Center Configuration Manager for enterprise device management with hands-on projects.",
+        pagekeywords: "sccm training in chennai, sccm course, microsoft sccm, system center configuration manager, enterprise management, intellimindz",
+        pageogurl: "https://localhost:3000/sccm_training_in_chennai",
+
 },
 {
   id: 'msbi_training_in_chennai',
@@ -5205,7 +5444,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our MSBI course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " MSBI Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+    pagetitle: "Best MSBI Training in Chennai | Practical Oriented MSBI Course",
+        pagedescription: "Join IntelliMindz for top MSBI training in Chennai. Master Microsoft Business Intelligence tools (SSIS, SSRS, SSAS) with hands-on projects and expert guidance.",
+        pagekeywords: "msbi training in chennai, msbi course, ssis, ssrs, ssas, business intelligence, microsoft bi, intellimindz",
+        pageogurl: "https://localhost:3000/msbi_training_in_chennai",
+
 },
 {
   id: 'tally_training_in_chennai',
@@ -5349,7 +5593,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our Tally course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Tally Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+    pagetitle: "Best Tally Training in Chennai | Practical Oriented Tally ERP 9 Course",
+        pagedescription: "Join IntelliMindz for top Tally training in Chennai. Master Tally ERP 9 for accounting, finance, and inventory management with hands-on projects and expert guidance.",
+        pagekeywords: "tally training in chennai, tally course, tally erp 9, accounting software, finance management, intellimindz",
+        pageogurl: "https://localhost:3000/tally_training_in_chennai",
+
 },
 {
   id: 'cloud_computing_training_in_chennai',
@@ -5493,7 +5742,12 @@ export const pagesData = [
   paragraph10: "Here, you can get the answer to your question about our Cloud Computing course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Cloud Computing Course?",
-  button6: "Contact Us"
+  button6: "Contact Us",
+    pagetitle: "Best Cloud Computing Training in Chennai | Practical Oriented Cloud Technologies Course",
+        pagedescription: "Join IntelliMindz for top Cloud Computing training in Chennai. Master AWS, Azure, Google Cloud, and other cloud platforms with hands-on projects and expert guidance.",
+        pagekeywords: "cloud computing training in chennai, cloud course, aws, azure, google cloud, cloud platforms, intellimindz",
+        pageogurl: "https://localhost:3000/cloud_computing_training_in_chennai",
+
 },
 {
   id: 'mcsa_training_in_chennai',
