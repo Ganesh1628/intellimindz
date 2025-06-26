@@ -55,16 +55,6 @@
   gap: 10px;
 }
 
-.batch-card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #f8f9fa;
-  padding: 15px;
-  border-radius: 5px;
-  width: 900px; /* Reduce width */
-  height: 70px;
-}
 
 .batch-time {
   text-align: center;
@@ -128,21 +118,6 @@
   gap: 30px; /* Reduce spacing */
   margin-top: 50px;
 }
-
-.batch-card {
-  background: #fff; /* Ensure background color */
-  border-radius: 10px; /* Smooth rounded edges */
-  padding: 15px; /* Add padding for spacing */
-  margin: 5px 0; /* Space between boxes */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
-}
-
-.batch-card:hover {
-  transform: translateY(-5px); /* Slight lift on hover */
-  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
-}
-
 
 
 .time{

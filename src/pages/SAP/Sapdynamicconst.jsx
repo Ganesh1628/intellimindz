@@ -1,17 +1,8 @@
 import React, { useState } from 'react';
-import ContactModal from "../../components/Hero-Section/ContactModal";
 import Meta from '../../components/Meta';
-
-// Import all your CSS files
-import "../../components/saponlinecom/onlineaboutus.css";
-import "../../components/saponlinecom/sapfico.css";
-import "../../components/saponlinecom/onlinecorporate.css";
-import "../../components/SAP/Header/Introsap.css";
-import "../../components/SapIM/IMsyllabus.css";
-
+import ContactModal from "../../components/Hero-Section/ContactModal";
 // Import all your image assets
-// import saphomeintro1 from '../../assests/images/saphomeintro1.png';
-import homeintro from '../../assests/images/saphomeintro1.png';
+import saphomeintro1 from '../../assests/images/saphomeintro1.png';
 import bestPriceIcon from '../../assests/images/ExperiencedTrainers.jpeg';
 import runningIcon from '../../assests/images/practicallearning.jpeg';
 import staffIcon from '../../assests/images/flexiblebatches.jpeg';
@@ -31,36 +22,41 @@ import corporateVirtualImg from '../../assests/images/virtual.jpeg';
 import alumniReviewImg from '../../assests/images/review.png';
 import Batchdt from '../../assests/images/bg.jpeg';
 
+// Import all CSS files
+import "../../components/saponlinecom/onlineaboutus.css";
+import "../../components/saponlinecom/sapfico.css";
+import "../../components/saponlinecom/onlinecorporate.css";
+import "../../components/SAP/Header/Introsap.css";
+import "../../components/SapIM/IMsyllabus.css";
 import AskForDemo from "../../components/SAP/Askfordemo/askfordemo";
-import { pagesData } from './pagedatas';
 
-// const Intro = ({ openContactModal }) => {
-    const Intro = ({ openContactModal, title1, title2, title4, title5, title6, title7, title8, title9, title10,
-        title11, title12, title13, title14, title15, title16, title17, title18, title19, title20, title21,
-        title22, title23, title24, title25, title26, title27, title28, title29, title30, title31, title32,
-        title33, title34, title35, title36, title37, title38, title39, title40, title41, title42, title43,
-        title44, title45, title46, title47, title48, title49, title50, title51, title52, title53, title54,
-        title55, title56,
-        list1, list2, list3, list4, list5, list6,
-        image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15, image16, image17,
-        button1, button2, button3, button4, button5, button6,
-        paragraph1, paragraph2, paragraph3, paragraph4, paragraph5, paragraph6, paragraph7, paragraph8, paragraph9, paragraph10,
-        desc1, desc2, desc3, desc4, desc5, desc6, desc7, desc8, desc9, desc10, desc11, desc12, desc13, desc14,
-        desc15, desc16, desc17, desc18, desc19, desc20, desc21, desc22, desc23,
-        topic1, topic2, topic3, topic4, topic5, topic6,
-        altext1, altext2, altext3,
-        name1, name2, name3, name4, name5,
-        designation1, designation2, designation3, designation4, designation5,
-        review1, review2, review3, review4, review5,
-        pagedescription, pagekeywords, pageogurl, pagetitle
-        }) => {
+const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, title5, title6, title7,
+    title8, title9, title10, title11, title12, title13, title14, title15, title16, title17, title18, title19,
+    title20, title21, title22, title23, title24, title25, title26, title27, title28, title29, title30, title31,
+    title32, title33, title34, title35, title36, title37, title38,
+    button1, button2, button3, button4,
+    paragraph1, paragraph2, paragraph3, paragraph4, paragraph5, paragraph6, paragraph7,
+    paragraph8, paragraph9, paragraph10, paragraph11, paragraph12,
+    list1, list2, list3, list4, list5, list6,
+    image1, image2, image3, image4, image5, image6, image7,
+    header1, header2, header3, header4, header5, header6,
+    description1, description2, description3, description4, description5, description6, description7, 
+    description8, description9, description10, description11, description12, description13, description14,
+    description15, description16, description17, description18, description19, description20, description21,
+    description22, description23,
+    topic1, topic2, topic3, topic4 ,topic5 ,topic6 ,topic7 ,topic8, topic9, topic10,
+    altext1, altext2, altext3,
+    name1, name2, name3, name4, name5,
+    designation1, designation2, designation3, designation4, designation5,
+    review1, review2, review3, review4, review5,
+    }) => {
     const blocksData = [
-        { image: image2, heading: title8, paragraph: paragraph1 },
-        { image: image3, heading: title9, paragraph: paragraph2 },
-        { image: image4, heading: title10, paragraph: paragraph3 },
-        { image: image5, heading: title11, paragraph: paragraph4 },
-        { image: image6, heading: title12, paragraph: paragraph5 },
-        { image: image7, heading: title13, paragraph: paragraph6 }
+        { image: image2, heading: header1, paragraph: paragraph2 },
+        { image: image3, heading: header2, paragraph: paragraph3 },
+        { image: image4, heading: header3, paragraph: paragraph4 },
+        { image: image5, heading: header4, paragraph: paragraph5 },
+        { image: image6, heading: header5, paragraph: paragraph6 },
+        { image: image7, heading: header6, paragraph: paragraph7 }
     ];
     const PlaceholderTrainingIcon = ({ type }) => (
     <div style={{ fontSize: '40px', marginBottom: '15px', color: '#d9534f' }}>
@@ -69,29 +65,33 @@ import { pagesData } from './pagedatas';
         {type === 'classroom' && '👥'}
         {type === 'hybrid' && '🔄'}
     </div>
-);
+    );
     const trainingModes = [
-        { id: 'online', iconType: 'online', title: title15, description: desc1 },
-        { id: 'self-paced', iconType: 'self-paced', title: title16, description: desc2 },
-        { id: 'classroom', iconType: 'classroom', title: title17, description: desc3 },
-        { id: 'hybrid', iconType: 'hybrid', title: title18, description: desc4 }
+        { id: 'online', iconType: 'online', title: "Online Training", description: description1, isPopular: true },
+        { id: 'self-paced', iconType: 'self-paced', title: "Self-Paced Training", description: description2, isPopular: false },
+        { id: 'classroom', iconType: 'classroom', title: "Classroom Training", description: description3, isPopular: false },
+        { id: 'hybrid', iconType: 'hybrid', title: "Hybrid Training", description: description4, isPopular: false }
     ];
     const features = [
-        { id: 1, image: image9, title: title23, description: desc5 },
-        { id: 2, image: image10, title: title24, description: desc6 },
-        { id: 3, image: image11, title: title25, description: desc7 },
-        { id: 4, image: image12, title: title26, description: desc8 },
-        { id: 5, image: image13, title: title27, description: desc9 },
-        { id: 6, image: image14, title: title28, description: desc10 }
+        { id: 1, image: classroomTrainingImg, title: title9, description: description5 },
+        { id: 2, image: handsonsapImg, title: title10, description: description6 },
+        { id: 3, image: casestudyrealtimeImg, title: title11, description: description7 },
+        { id: 4, image: ExperiencedtrainersImg, title: title12, description: description8 },
+        { id: 5, image: personalizedmentorImg, title: title13, description: description9 },
+        { id: 6, image: interactiveImg, title: title14, description: description10 },
     ];
     const [activeModuleId, setActiveModuleId] = useState(1);
     const allModulesData = [
-        { id: 1, title: title32, topics: topic1 },
-        { id: 2, title: title33, topics: topic2 },
-        { id: 3, title: title34, topics: topic3 },
-        { id: 4, title: title35, topics: topic4 },
-        { id: 5, title: title36, topics: topic5 },
-        { id: 6, title: title37, topics: topic6 }
+        { id: 1, title: title16, topics: topic1 },
+        { id: 2, title: title17, topics: topic2 },
+        { id: 3, title: title18, topics: topic3 },
+        { id: 4, title: title19, topics: topic4 },
+        { id: 5, title: title20, topics: topic5 },
+        { id: 6, title: title21, topics: topic6 },
+        { id: 7, title: title22, topics: topic7 },
+        { id: 8, title: title23, topics: topic8 },
+        { id: 9, title: title24, topics: topic9 },
+        { id: 10, title: title25, topics: topic10 }
     ];
     const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
     const batchInfo = [
@@ -99,11 +99,11 @@ import { pagesData } from './pagedatas';
         { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
     ];
     const trainingModesData = [
-        { id: 1, imageSrc: image15, altText: altext1, title: title40, description: desc11 },
-        { id: 2, imageSrc: image16, altText: altext2, title: title41, description: desc12 },
-        { id: 3, imageSrc: image17, altText: altext3, title: title42, description: desc13 }
+        { id: 1, imageSrc: corporateOnsiteImg, altText: altext1, title: "Onsite Training:", description: description11 },
+        { id: 2, imageSrc: corporateOffsiteImg, altText: altext2, title: "Offsite Training:", description: description12 },
+        { id: 3, imageSrc: corporateVirtualImg, altText: altext3, title: "Virtual Instructor-Led Training (VILT):", description: description13 }
     ];
-    const reviewsData = [
+        const reviewsData = [
         { id: 1, name: name1, designation: designation1, avatarInitial: "A", rating: 5, companyLogoText: "Intellimindz", reviewText: review1 },
         { id: 2, name: name2, designation: designation2, avatarInitial: "S", rating: 5, companyLogoText: "Intellimindz", reviewText: review2 },
         { id: 3, name: name3, designation: designation3, avatarInitial: "V", rating: 5, companyLogoText: "Intellimindz", reviewText: review3 },
@@ -119,63 +119,56 @@ import { pagesData } from './pagedatas';
 
     const [activeModule, setActiveModule] = useState(null);
     const modulesData = [
-        { id: 1, title: title44, description: desc14 },
-        { id: 2, title: title45, description: desc15 },
-        { id: 3, title: title46, description: desc16 },
-        { id: 4, title: title47, description: desc17 },
-        { id: 5, title: title48, description: desc18 },
-        { id: 6, title: title49, description: desc19},
-        { id: 7, title: title50, description: desc20 },
-        { id: 8, title: title51, description: desc21},
-        { id: 9, title: title52, description: desc22},
-        { id: 10, title: title53, description: desc23 }
+        { id: 1, title: title28, description: description14 },
+        { id: 2, title: title29, description: description15 },
+        { id: 3, title: title30, description: description16 },
+        { id: 4, title: title31, description: description17 },
+        { id: 5, title: title32, description: description18 },
+        { id: 6, title: title33, description: description19 },
+        { id: 7, title: title34, description: description20 },
+        { id: 8, title: title35, description: description21 },
+        { id: 9, title: title36, description: description22 },
+        { id: 10, title: title37, description: description23 }
     ];
-
-    const pageTitle = pagetitle;
-    const pageDescription = pagedescription;
-    const pageKeywords = pagekeywords
-    const ogUrl = pageogurl;
-    
     return (
-    <><div style={{ width: "100%", height: "100vh", position: "relative", display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center", color: "white", overflow: "hidden" }}>
-            <img src={homeintro} alt="Background" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: -1 }} />
-
+    <>
+        <div className="intro-container">
             <div className="overlay"></div>
             <div className="intro-content">
                 <h2 className="intro-h2">Welcome to Intelli<span style={{ color: "orange" }}>mindz</span></h2>
                 <h1 className="intro-h1">{title1}</h1>
                 <h3 className="intro-h3">{title2}</h3>
-                <button className="intro-enroll-button" onClick={openContactModal}>{button2}</button>
+                <button className="intro-enroll-button" onClick={openContactModal}>{button1}</button>
             </div>
-        </div><div className="sap-training-container">
-                <div className="sap-training-header animate__animated animate__flipInX">
-                    <h1>
-                      {title4}<span>{title5}</span>
-                    </h1>
-                    <div className="header-divider"></div>
-                </div>
-                <div className="sap-training-content">
-                    <div className="training-details">
-                        <div className="sap-training-header animate__animated animate__lightSpeedInLeft">
-                            <p className="intro-text">{title6}</p>
+        </div>
+        <div className="sap-training-container">
+                    <div className="sap-training-header animate__animated animate__flipInX">
+                        <h1>{title3}<span>{title4}</span>
+                        </h1>
+                        <div className="header-divider"></div>
+                    </div>
+                    <div className="sap-training-content">
+                        <div className="training-details">
+                            <div className="sap-training-header animate__animated animate__lightSpeedInLeft">
+                                <p className="intro-text">{paragraph1}</p>
+                            </div>
+                            <ul className="benefits-list">
+                                <li><span className="icon">✓</span>{list1}</li>
+                                <li><span className="icon">✓</span>{list2}</li>
+                                <li><span className="icon">✓</span>{list3}</li>
+                                <li><span className="icon">✓</span>{list4}</li>
+                                <li><span className="icon">✓</span>{list5}</li>
+                                <li><span className="icon">✓</span>{list6}</li>
+                            </ul>
+                            <button className="enquiry-button" onClick={openContactModal}>{button2}</button>
                         </div>
-                        <ul className="benefits-list">
-                            <li><span className="icon">✓</span>{list1}</li>
-                            <li><span className="icon">✓</span>{list2}</li>
-                            <li><span className="icon">✓</span>{list3}</li>
-                            <li><span className="icon">✓</span>{list4}</li>
-                            <li><span className="icon">✓</span>{list5}</li>
-                            <li><span className="icon">✓</span>{list6}</li>
-                        </ul>
-                        <button className="enquiry-button" onClick={openContactModal}>{button1}</button>
+                        <div className="training-image">
+                            <img src={image1} alt="SAP ABAP Training" />
+                        </div>
                     </div>
-                    <div className="training-image">
-                        <img src={image1} alt="AJAX Training" />
-                    </div>
-                </div>
-            </div>
-            <div className="corporate-section">
-            <h2 className="corporate-title">{title7}</h2>
+        </div>
+        <div className="corporate-section">
+            <h2 className="corporate-title">{title5}</h2>
             <div className="corporate-grid">
                 {blocksData.map((block, index) => (
                     <div key={index} className="corporate-block">
@@ -189,7 +182,7 @@ import { pagesData } from './pagedatas';
             </div>
         </div>
         <div className="training-modes-section">
-            <h2 className="training-modes-title">{title14}</h2>
+            <h2 className="training-modes-title">{title6}</h2>
             <div className="training-modes-grid">
                 {trainingModes.map(mode => (
                     <div key={mode.id} className="training-mode-card">
@@ -202,25 +195,25 @@ import { pagesData } from './pagedatas';
             </div>
         </div>
         <div className="sap-fico-expert-section">
-            <h1>{title19}</h1>
-            <p>{title20}</p>
+            <h1>{title7}</h1>
+            <p>{paragraph8}</p>
             <button className="sap-fico-expert-button" onClick={openContactModal}>{button4}</button>
         </div>
         <div className="sap-fico-about-section">
-            <h2>{title21}</h2>
-            <div className="sap-fico-about-content">
-                <div className="sap-fico-about-text">
-                    <p>{paragraph7}</p>
-                    <p>{paragraph8}</p>
-                    <p>{paragraph9}</p>
-                </div>
-                <div className="sap-fico-about-image-container">
-                    <img src={image8} alt="AJAX Training in Chennai" />
-                </div>
-            </div>
+                    <h2>{title8}</h2>
+                    <div className="sap-fico-about-content">
+                        <div className="sap-fico-about-text">
+                            <p>{paragraph9}</p>
+                            <p>{paragraph10}</p>
+                            <p>{paragraph11}</p>
+                        </div>
+                        <div className="sap-fico-about-image-container">
+                            <img src={aboutsapficoImg} alt="SAP ABAP Training in Chennai" />
+                        </div>
+                    </div>
         </div>
         <div className="sap-fico-features-section">
-            <h2>{title22}</h2>
+            <h2>{title15}</h2>
             <div className="sap-fico-features-grid">
                 {features.map((feature) => (
                     <div key={feature.id} className="feature-card">
@@ -233,12 +226,12 @@ import { pagesData } from './pagedatas';
                 ))}
             </div>
         </div>
-                <div className="java-course-content-section">
-            <h2 className="java-section-title">{title29}<span className="java-title-underline"></span>
+        <div className="java-course-content-section">
+            <h2 className="java-section-title">{title26}<span className="java-title-underline"></span>
             </h2>
             <div className="java-course-layout-container">
                 <div className="java-syllabus-modules-panel">
-                    <div className="java-syllabus-header">{title30}</div>
+                    <div className="java-syllabus-header">Course Syllabus</div>
                     <ul className="java-modules-list">
                         {allModulesData.map((module) => (
                             <li key={module.id} className={`java-module-item ${module.id === activeModuleId ? "java-active-module" : ""}`} onClick={() => setActiveModuleId(module.id)}>
@@ -248,14 +241,16 @@ import { pagesData } from './pagedatas';
                     </ul>
                 </div>
                 <div className="java-topics-details-panel">
-                    <h3 className="java-topics-title">{title31}</h3>
+                    <h3 className="java-topics-title">Topics:</h3>
                     <ul className="java-topics-list">
                         {activeModuleDetails.topics.map((item, index) => (<li key={index}>{item}</li>))}
                     </ul>
                     <button className="java-download-curriculum-button" onClick={openContactModal}>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style={{ marginRight: '8px', verticalAlign: 'middle' }}>
                             <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
-                        </svg>{button5}</button>
+                        </svg>
+                        Download Curriculum
+                    </button>
                 </div>
             </div>
         </div>
@@ -263,7 +258,7 @@ import { pagesData } from './pagedatas';
             className="batch-details-section"
             style={{ '--batch-details-bg-image': `url(${Batchdt})` }}
         >
-            <h2 className="batch-details-title">{title38}</h2>
+            <h2 className="batch-details-title">Batch Details</h2>
             <div className="batch-cards-container">
                 {batchInfo.map((batch) => (
                     <div key={batch.id} className="batch-card">
@@ -294,7 +289,7 @@ import { pagesData } from './pagedatas';
             </div>
         </div>
         <div className="corporate-training-modes-section">
-            <h2 className="corporate-training-modes-title">{title39}</h2>
+            <h2 className="corporate-training-modes-title">{title27}</h2> {/* Title updated */}
             <div className="modes-container-grid">
                 {trainingModesData.map(mode => (
                     <div key={mode.id} className="mode-card-item">
@@ -305,12 +300,12 @@ import { pagesData } from './pagedatas';
                 ))}
             </div>
         </div>
-                <div className="alumni-reviews-section">
-            <h2 className="alumni-reviews-title">{title43}</h2>
+        <div className="alumni-reviews-section">
+            <h2 className="alumni-reviews-title">Reviews from Our Alumni</h2>
             <div className="review-slider-layout-container">
                 <div className="reviewer-image-area">
                     <div className="reviewer-main-image-placeholder">
-                        <img src={alumniReviewImg} alt="Alumni Reviewer AJAX" />
+                        <img src={alumniReviewImg} alt="Alumni Reviewer ABAP" /> {/* Alt text updated */}
                     </div>
                 </div>
                 <div className="review-content-area">
@@ -344,60 +339,52 @@ import { pagesData } from './pagedatas';
                 </div>
             </div>
         </div>
-                <div className="sapim-syllabus">
+        <div className="sapim-syllabus">
             <div className="sap-home-syllabus-header">
-                <h1>{title54}<span className="highlighted-course-title">{title56}</span></h1>
-                <p className="syllabus-header-subtitle">{paragraph10}</p>
+                <h1>
+                    Have a Question with Our <span className="highlighted-course-title">{title38}</span> {/* Title updated */}
+                </h1>
+                <p className="syllabus-header-subtitle">{paragraph12}</p>
             </div>
-            <div className="syllabus-grid">
-                {modulesData.map((faqItem) => (
+            <div className="syllabus-grid"> {/* This class was used for card layout, suitable for FAQ too */}
+                {modulesData.map((faqItem) => ( // Renamed module to faqItem for clarity
                     <div
                         key={faqItem.id}
-                        className={`module-card ${activeModule === faqItem.id ? 'active' : ''}`}
+                        className={`module-card ${activeModule === faqItem.id ? 'active' : ''}`} // module-card class kept for styling
                         onMouseEnter={() => setActiveModule(faqItem.id)}
                         onMouseLeave={() => setActiveModule(null)}
                     >
-                        <div className="module-number">
+                        <div className="module-number"> {/* Kept for styling if needed */}
                             {String(faqItem.id).padStart(2, '0')}
                         </div>
-                        <div className="module-content-syllabus">
-                            <p className="module-title">{faqItem.title}</p>
-                            <div className="module-description">
-                                <p>{faqItem.description}</p>
+                        <div className="module-content-syllabus"> {/* Kept for styling */}
+                            <p className="module-title">{faqItem.title}</p> {/* Question */}
+                            <div className="module-description"> {/* Answer container */}
+                                <p>{faqItem.description}</p> {/* Answer */}
                             </div>
                         </div>
-                        <div className="module-decoration"></div>
+                        <div className="module-decoration"></div> {/* Kept for styling */}
                     </div>
                 ))}
             </div>
         </div>
         <div className="cta-banner-section">
-            <p className="cta-banner-text">{title55}</p>
-            <button className="cta-banner-button" onClick={openContactModal}>{button6}</button>
+            <p className="cta-banner-text">Navigate your career ambitions with our expert guidance.</p>
+            <button className="cta-banner-button" onClick={openContactModal}>Contact Us</button>
         </div>
-                    <Meta
-                title={pageTitle}
-                description={pageDescription}
-                keywords={pageKeywords}
-                ogTitle={pageTitle}
-                ogDescription={pageDescription}
-                ogUrl={ogUrl}
-            /></>
+    </>
     );
 };
 
-export default Intro;
+
+export default Sapdynamicconst;
 
 const Ajaxmain = ({ openContactModal }) => {
     return (
         <>
-            <Intro openContactModal={openContactModal} />
+            <Sapdynamicconst openContactModal={openContactModal} />
             <AskForDemo />
-            <Onlineheader />
+            {/* <Onlineheader /> */}
         </>
     );
-};
-
-const Onlineheader = () => {
-    return <div className="online_container"></div>;
 };
