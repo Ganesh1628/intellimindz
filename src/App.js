@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AboutUs from "./components/About_us/About_us";
 import Header from "./components/Header/Header";
@@ -8,55 +7,13 @@ import Footer from "./components/Footer/Footer";
 import { HelmetProvider } from "react-helmet-async";
 import DynamicPage from "./pages/Courses/DynamicPage.jsx";
 import AskForDemo from "./components/SAP/Askfordemo/askfordemo";
-
-// SAP PAGES
+import SapDynamicPage from "./pages/SAP/DynamicSapPage.jsx";
 import Saphome from "./pages/Saphome";
 import Saponline from "./pages/SAP/SAPmain";
-import Sapabap from "./pages/SAP/sap_abap";
-import Sappim from "./pages/sapim";
-import Sapbasis from "./pages/SAP/sap_basis";
-import Saperp from "./pages/SAP/sap_erp";
-import Sapim from "./pages/SAP/sap_im";
-import Sapmii from "./pages/SAP/sap_mii";
-import Sapep from "./pages/SAP/sap_ep";
-import Sapec from "./pages/SAP/sap_ec";
-import Sappp from "./pages/SAP/sap_pp";
-import Sappi from "./pages/SAP/sap_pi";
-import Saplo from "./pages/SAP/sap_lo";
-import Sapcs from "./pages/SAP/sap_cs";
-import Saphr from "./pages/SAP/sap_hr";
-import Sapariba from "./pages/SAP/sap_ariba";
-import Sapqm from "./pages/SAP/sap_qm";
-import Sapsrm from "./pages/SAP/sap_srm";
-import Saprem from "./pages/SAP/sap_rem";
-import Sapgrc from "./pages/SAP/sap_grc";
-import Sapcrm from "./pages/SAP/sap_crm";
-import Sappm from "./pages/SAP/sap_pm";
-import Sapre from "./pages/SAP/sap_re";
-import Sapehs from "./pages/SAP/sap_ehs";
-import Sapwebdynpro from "./pages/SAP/Sap_webdynpro";
-import Sapbi from "./pages/SAP/Sap_bi";
-import Sapbods from "./pages/SAP/sap_bods";
-import Saptrm from "./pages/SAP/sap_trm";
-import Saphcm from "./pages/SAP/sap_hcm";
-import Sapfscm from "./pages/SAP/sap_fscm";
-import Sapplm from "./pages/SAP/sap_plm";
-import Sapecm from "./pages/SAP/sap_ecm";
-import Sapscm from "./pages/SAP/sap_scm";
-import Sapsuccessfactor from "./pages/SAP/sap_success_factor";
-import Sapbo from "./pages/SAP/sap_bo";
-import Sapmm from "./pages/SAP/sap_mm";
-import Sapwf from "./pages/SAP/sap_wf";
-import Sapapo from "./pages/SAP/sap_apo";
-import Sapps from "./pages/SAP/sap_ps";
-import Sapsolutionmanager from "./pages/SAP/sap_solution_manager";
-import Saptraining from "./pages/SAP/sap_training";
-import Saphana from "./pages/SAP/sap_hana";
-import Saple from "./pages/SAP/sap_le";
 
 const App = () => {
   return (
-        <HelmetProvider>
+    <HelmetProvider>
     <Router>
       <Header />
       <Routes>
@@ -67,49 +24,8 @@ const App = () => {
         {/* SAP PAGES */}
         <Route path="/sap_course" element={<Saphome />} /> 
         <Route path="/sap_fico_training_in_chennai" element={<Saponline />} /> 
-        <Route path="/sap_im_training" element={<Sappim />} /> 
-        <Route path="/sap_abap_training_in_chennai" element={<Sapabap />} /> 
-        <Route path="/sap_erp_training_in_chennai" element={<Saperp />} /> 
-        <Route path="/sap_ep_training_in_chennai" element={<Sapep />} /> 
-        <Route path="/sap_ec_training_in_chennai" element={<Sapec />} /> 
-        <Route path="/sap_pp_training_in_chennai" element={<Sappp />} /> 
-        <Route path="/sap_pi_training_in_chennai" element={<Sappi />} /> 
-        <Route path="/sap_lo_training_in_chennai" element={<Saplo />} /> 
-        <Route path="/sap_cs_training_in_chennai" element={<Sapcs />} /> 
-        <Route path="/sap_hr_training_in_chennai" element={<Saphr />} /> 
-        <Route path="/sap_im_training_in_chennai" element={<Sapim />} /> 
-        <Route path="/sap_mii_training_in_chennai" element={<Sapmii />} /> 
-        <Route path="/sap_ariba_training_in_chennai" element={<Sapariba />} /> 
-        <Route path="/sap_basis_training_in_chennai" element={<Sapbasis />} /> 
-        <Route path="/sap_qm_training_in_chennai" element={<Sapqm />} /> 
-        <Route path="/sap_srm_training_in_chennai" element={<Sapsrm />} /> 
-        <Route path="/sap_rem_training_in_chennai" element={<Saprem />} /> 
-        <Route path="/sap_grc_training_in_chennai" element={<Sapgrc />} /> 
-        <Route path="/sap_crm_training_in_chennai" element={<Sapcrm />} /> 
-        <Route path="/sap_pm_training_in_chennai" element={<Sappm />} /> 
-        <Route path="/sap_re_training_in_chennai" element={<Sapre />} /> 
-        <Route path="/sap_ehs_training_in_chennai" element={<Sapehs />} /> 
-        <Route path="/sap_Webdynpro_training_in_chennai" element={<Sapwebdynpro />} /> 
-        <Route path="/sap_bi_training_in_chennai" element={<Sapbi />} /> 
-        <Route path="/sap_bods_training_in_chennai" element={<Sapbods />} /> 
-        <Route path="/sap_trm_training_in_chennai" element={<Saptrm />} /> 
-        <Route path="/sap_hcm_training_in_chennai" element={<Saphcm />} /> 
-        <Route path="/sap_fscm_training_in_chennai" element={<Sapfscm />} /> 
-        <Route path="/sap_plm_training_in_chennai" element={<Sapplm />} /> 
-        <Route path="/sap_ecm_training_in_chennai" element={<Sapecm />} /> 
-        <Route path="/sap_scm_training_in_chennai" element={<Sapscm />} /> 
-        <Route path="/sap_success_factor_training_in_chennai" element={<Sapsuccessfactor />} /> 
-        <Route path="/sap_bo_training_in_chennai" element={<Sapbo />} /> 
-        <Route path="/sap_mm_training_in_chennai" element={<Sapmm />} /> 
-        <Route path="/sap_wf_training_in_chennai" element={<Sapwf />} /> 
-        <Route path="/sap_apo_training_in_chennai" element={<Sapapo />} /> 
-        <Route path="/sap_ps_training_in_chennai" element={<Sapps />} /> 
-        <Route path="/sap_solution_manager_training_in_chennai" element={<Sapsolutionmanager />} /> 
-        <Route path="/sap_training_in_chennai" element={<Saptraining />} /> 
-        <Route path="/sap_hana_training_in_chennai" element={<Saphana />} /> 
-        <Route path="/sap_le_training_in_chennai" element={<Saple />} /> 
-        
         <Route path="/:pageId" element={<DynamicPage />} />
+        <Route path="/sap/:SappageId" element={<SapDynamicPage />} />
  
       </Routes>
       <Footer />

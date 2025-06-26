@@ -5,7 +5,7 @@
   transform: translateY(-20%);
   background: linear-gradient(to right, #003399, #1c67ff);
   color: white;
-  padding: 1px 10px;
+  padding: 1px 8px;
   font-size: 16px;
   font-weight: bold;
   display: flex;
@@ -15,14 +15,15 @@
 }
 
 .ask-for-demo .icon {
-  margin-right: -20px;
-  font-size: 35px;
+  margin-right: 0px;
+  font-size: 32px;
+  margin-bottom: 5px;
 }
 
 .ask-for-demo .text {
   font-size: 16px;
   margin-bottom: 3px;
-  margin-right: 5px;
+  margin-right: 2px;
 }
 
 .ask-for-demo .demo {
