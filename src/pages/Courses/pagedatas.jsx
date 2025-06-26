@@ -113,7 +113,7 @@ import corporateOffsiteImg from '../../assests/images/offsite_training.jpeg';
 import corporateVirtualImg from '../../assests/images/virtual.jpeg';
 
 export const pagesData = [
-  {
+{
     id: 'ajax_training_in_chennai',
     title1 :"Best AJAX Training in Chennai",
     title2 : "Master data integration and ETL processes with our expert-led AJAX Training – your gateway to a thriving career in data management.",
@@ -260,8 +260,8 @@ export const pagesData = [
     pagedescription : "Join IntelliMindz for top AJAX training in Chennai. Master asynchronous web development with hands-on projects and expert guidance.",
     pagekeywords : "ajax training in chennai, ajax course, ajax web development, dynamic web applications, intellimindz",
     pageogurl : "https://localhost:3000/ajax_training_in_chennai",
-  },
-  {
+},
+{
   id: "abinitio_training_in_chennai",
   title1: "Best Ab Initio Training in Chennai",
   title2: "Master enterprise data processing with our expert-led Ab Initio training – your path to success in big data integration and ETL development.",
@@ -13637,9 +13637,6 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
         pagekeywords: "ansible training in chennai, ansible course, automation, configuration management, devops, IT automation, intellimindz",
         pageogurl: "https://localhost:3000/ansible_training_in_chennai",
 },
-
-
-
 
 
 
