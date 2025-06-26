@@ -11,7 +11,7 @@ import "../../components/SapIM/IMsyllabus.css";
 
 // Import all your image assets
 // import saphomeintro1 from '../../assests/images/saphomeintro1.png';
-// import homeintro from '../../assests/images/saphomeintro1.png';
+import homeintro from '../../assests/images/saphomeintro1.png';
 import bestPriceIcon from '../../assests/images/ExperiencedTrainers.jpeg';
 import runningIcon from '../../assests/images/practicallearning.jpeg';
 import staffIcon from '../../assests/images/flexiblebatches.jpeg';
@@ -42,7 +42,7 @@ import { pagesData } from './pagedatas';
         title44, title45, title46, title47, title48, title49, title50, title51, title52, title53, title54,
         title55, title56,
         list1, list2, list3, list4, list5, list6,
-        image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15, image16, image17, image18,
+        image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15, image16, image17,
         button1, button2, button3, button4, button5, button6,
         paragraph1, paragraph2, paragraph3, paragraph4, paragraph5, paragraph6, paragraph7, paragraph8, paragraph9, paragraph10,
         desc1, desc2, desc3, desc4, desc5, desc6, desc7, desc8, desc9, desc10, desc11, desc12, desc13, desc14,
@@ -138,7 +138,7 @@ import { pagesData } from './pagedatas';
     
     return (
     <><div style={{ width: "100%", height: "100vh", position: "relative", display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center", color: "white", overflow: "hidden" }}>
-            <img src={image18} alt="Background" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: -1 }} />
+            <img src={homeintro} alt="Background" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: -1 }} />
 
             <div className="overlay"></div>
             <div className="intro-content">
@@ -388,19 +388,12 @@ import { pagesData } from './pagedatas';
 
 export default Intro;
 
-const Ajaxmain = () => {
-    // Add modal state and handlers here
-    const [isModalOpen, setIsModalOpen] = useState(false);
-    const openContactModal = () => setIsModalOpen(true);
-    const closeContactModal = () => setIsModalOpen(false);
-
+const Ajaxmain = ({ openContactModal }) => {
     return (
         <>
-            {/* Pass all AJAX course data as props */}
             <Intro openContactModal={openContactModal} />
             <AskForDemo />
             <Onlineheader />
-            <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
         </>
     );
 };

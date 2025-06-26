@@ -2,98 +2,63 @@
 
 import saphomeintro1 from '../../assests/images/saphomeintro1.png';
 import ajaximage1 from '../../assests/images/Ajax_image1.webp';
-import ajaximage from '../../assests/images/ajax_images.jpg'; 
 import abinitioimage1 from '../../assests/images/abinitio_image1.jpg'; 
-import abinitioimage from '../../assests/images/abinitio_image.jpg';
 import itilimage1 from '../../assests/images/itil_image1.jpg'; 
-import itilimage from '../../assests/images/itil_image.jpg'; 
 import javaimage1 from '../../assests/images/java_image1.jpg'; 
-import javaimage from '../../assests/images/java image.jpg'; 
 import ssrsimage1 from '../../assests/images/ssrs_image1.jpg'; 
-import ssrsimage from '../../assests/images/ssrs_image.jpg'; 
 import mcseimage1 from '../../assests/images/mcse_image1.jpg'; 
-import mcseimage from '../../assests/images/mcse_image.jpg'; 
 import datascience1 from '../../assests/images/Data Science_image1.webp'; 
-import datascience from '../../assests/images/Data Science_image.webp'; 
 import etlimage1 from '../../assests/images/etl_testing_image1.jpg'; 
-import etlimage from '../../assests/images/etl_testing_image.jpg'; 
 import ccnaimage1 from '../../assests/images/ccna_images1.jpg'; 
-import ccnaimage from '../../assests/images/ccna_image.jpg'; 
 import softskillimage1 from '../../assests/images/soft_skill_image1.png'; 
-import softskillimage from '../../assests/images/soft_skill_image.jpg'; 
 import dotnet1 from '../../assests/images/dotnet_image1.jpg'; 
-import dotnet from '../../assests/images/dotnet_image.jpg'; 
 import iosimage1 from '../../assests/images/ios_image1.jpg'; 
-import iosimage from '../../assests/images/ios_image.jpg'; 
 import androidtrainingimage1 from '../../assests/images/android_image1.jpg'; 
-import androidtrainingimage from '../../assests/images/android_image.png'; 
 import seleniumimage1 from '../../assests/images/selenium_image1.jpg'; 
-import seleniumimage from '../../assests/images/selenium_image.jpg'; 
 import WordPressimage1 from '../../assests/images/wordpress_image1.jpg'; 
-import WordPressimage from '../../assests/images/wordpress_image.png'; 
 import mobileapplicationimage1 from '../../assests/images/mobile_application_testing_image1.png'; 
-import mobileapplicationimage from '../../assests/images/mobile_application_testing_image.png'; 
 import bestPriceIcon from '../../assests/images/ExperiencedTrainers.jpeg';
 import salesforceimage1 from '../../assests/images/salesforce_admin_image1.png';
-import salesforceimage from '../../assests/images/salesforce_admin_image.png';
 import matlabimage1 from '../../assests/images/matlab_image1.jpg';
-import matlabimage from '../../assests/images/matlab_image.jpg';
 import mainframeadminimage1 from '../../assests/images/mainframe_image1.jpg';
-import mainframeadminimage from '../../assests/images/mainframe_image.jpg';
 import datastage1 from '../../assests/images/datastage_image1.png';
-import datastage from '../../assests/images/datastage_image.png';
 import iottrainingimage1 from '../../assests/images/iot_image1.jpg';
-import iottrainingimage from '../../assests/images/iot_image.jpg';
 import ssasimage1 from '../../assests/images/ssas_image1.jpg';
-import ssasimage from '../../assests/images/ssas_image.jpg';
 import QlikViewimage1 from '../../assests/images/qlikview_image1.jpg';
-import QlikViewimage from '../../assests/images/qlikview_image.jpg';
 import bigdataimage1 from '../../assests/images/big_data_image1.jpg';
-import bigdataimage from '../../assests/images/big_data_image.jpg';
 import openstackimage1 from '../../assests/images/openstack_image1.jpg';
-import openstackimage from '../../assests/images/openstack_image.jpg';
 import digitalmarketingimage1 from '../../assests/images/digital_marketing_image1.jpg';
-import digitalmarketingimage from '../../assests/images/digital_marketing_image.jpg';
 import informaticadataqualityimage1 from '../../assests/images/informatica_image1.jpg';
-import informaticadataqualityimage from '../../assests/images/informatica_image.jpg';
 import ccnpimage1 from '../../assests/images/ccnp_image1.png';
-import ccnpimage from '../../assests/images/ccnp_image.jpg';
 import spokenenglishimage1 from '../../assests/images/spoken_eng_image1.jpg';
-import spokenenglishimage from '../../assests/images/spoken_eng_image.jpg';
 import cognostm1image1 from '../../assests/images/cognos_course_image1.jpg';
-import cognostm1image from '../../assests/images/cognos-course_image.png';
 import pythonimage1 from '../../assests/images/python_image1.jpg';
-import pythonimage from '../../assests/images/python_image.jpg';
 import meanstackimage1 from '../../assests/images/mean_stack_image1.jpg';
-import meanstackimage from '../../assests/images/mean_stack_image.jpg';
 import mainframeimage1 from '../../assests/images/mainframe_image1.jpg';
-import mainframeimage from '../../assests/images/mainframe_image.jpg';
 import nodejsimage1 from '../../assests/images/nodejs_image1.png';
-import nodejsimage from '../../assests/images/nodejs_image.png';
 import sccmimage1 from '../../assests/images/sccm_image1.jpg';
-import sccmimage from '../../assests/images/sccm_image.jpg';
 import msbiimage1 from '../../assests/images/msbi_image1.png';
-import msbiimage from '../../assests/images/msbi_image.png';
 import tallyimage1 from '../../assests/images/tally_image1.jpg';
-import tallyimage from '../../assests/images/tally_image.jpg';
 import cloudimage1 from '../../assests/images/cloud_computing_image1.png';
-import cloudimage from '../../assests/images/cloud_computing_image1.png';
 import mcsaimage1 from '../../assests/images/mcsa_image1.jpg';
-import mcsaimage from '../../assests/images/mcsa_image.jpg';
 import talendimage1 from '../../assests/images/talend_images1.jpg';
-import talendimage from '../../assests/images/talend_image.png';
 import artificialimage1 from '../../assests/images/artificial_intelligence_image1.jpg';
-import artificialimage from '../../assests/images/artificial_intelligence_image.jpg';
 import informaticabdmimages1 from '../../assests/images/informatica_image1.jpg';
-import informaticabdmimages from '../../assests/images/informatica_image.jpg';
 import machinelearningimage1 from '../../assests/images/machine_learning_images1.jpg';
-import machinelearningimage from '../../assests/images/machine_learning_images.jpg';
 import devopsimage1 from '../../assests/images/devops_images1.jpg';
-import devopsimage from '../../assests/images/devops_images.jpg';
 import blockchainimage1 from '../../assests/images/blockchain_images1.jpg';
-import blockchainimage from '../../assests/images/blockchain_images.jpg';
 import citriximage1 from '../../assests/images/citrix_image1.png';
-import citriximage from '../../assests/images/citrix_image.jpg';
+import sharepointadminimage1 from '../../assests/images/sharepointadmin1.jpg';
+import loadrunnerimage1 from '../../assests/images/landrunner1.jpg';
+import appiumimage1 from '../../assests/images/appium1.jpg';
+import sharepointimage1 from '../../assests/images/sharepoint1.jpg';
+import informiximage1 from '../../assests/images/informiximage1.jpg';
+import informaticaimage1 from '../../assests/images/informaticaimage1.jpg';
+import tibcospotfireimage1 from '../../assests/images/tibcospotfireimage1.jpg';
+import automationanywhereimage1 from '../../assests/images/tibcospotfireimage1.jpg';
+
+
+
 import runningIcon from '../../assests/images/practicallearning.jpeg';
 import staffIcon from '../../assests/images/flexiblebatches.jpeg';
 import liveclass from '../../assests/images/interactive_sessions.jpeg';
@@ -126,7 +91,6 @@ export const pagesData = [
     list5 : "Experience personalized learning tailored to your pace and career goals.",
     list6 : "join a community of successful AJAX professionals.",
     image1 : ajaximage1,
-    image18 : ajaximage,
     button1 : "Enquire Now",
     title7 : "Why Choose IntelliMindz?",
     title8 : "Certified Trainers",
@@ -275,7 +239,6 @@ export const pagesData = [
   list5: "Get lifetime access to learning material and recordings.",
   list6: "Join a network of certified data professionals.",
   image1: abinitioimage1,
-  image18 : abinitioimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified ETL Experts",
@@ -425,7 +388,6 @@ export const pagesData = [
   list5: "Receive lifetime access to training materials and recordings.",
   list6: "Network with IT professionals and service management peers.",
   image1: itilimage1,
-  image18 : itilimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Instructors",
@@ -574,7 +536,6 @@ export const pagesData = [
   list5: "Access learning materials and recordings anytime.",
   list6: "Become part of a community of certified Java professionals.",
   image1: javaimage1,
-  image18: javaimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Senior Java Developers",
@@ -724,7 +685,6 @@ export const pagesData = [
   list5: "Flexible learning modes to suit working professionals.",
   list6: "Learn from trainers with real-time enterprise experience.",
   image1: mcseimage1,
-  image18: mcseimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -874,7 +834,6 @@ export const pagesData = [
   list5: "Flexible schedules to fit your availability.",
   list6: "Get trained by Microsoft-certified BI experts.",
   image1: ssrsimage1,
-  image18: ssrsimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Expert Trainers",
@@ -1024,7 +983,6 @@ export const pagesData = [
   list5: "Weekend and weekday batches to suit professionals.",
   list6: "Trainers with real-time experience in data-driven enterprises.",
   image1: datascience1,
-  image18: datascience,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -1174,7 +1132,6 @@ export const pagesData = [
   list5: "Flexible learning formats: online, offline, and hybrid.",
   list6: "Personalized mentorship and placement assistance.",
   image1: etlimage1,
-  image18: etlimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Real-Time Trainers",
@@ -1323,7 +1280,6 @@ export const pagesData = [
   list5: "Flexible schedules for working professionals and students.",
   list6: "Trainers with real-time enterprise networking experience.",
   image1: ccnaimage1,
-  image18: ccnaimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -1473,7 +1429,6 @@ export const pagesData = [
   list5: "Flexible formats including online, classroom, and hybrid modes.",
   list6: "Receive career and personal development guidance.",
   image1: softskillimage1,
-  image18: softskillimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -1623,7 +1578,6 @@ export const pagesData = [
   list5: "Flexible schedules with weekday/weekend options.",
   list6: "Training led by certified developers with real-time experience.",
   image1: dotnet1,
-  image18: dotnet,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -1773,7 +1727,6 @@ export const pagesData = [
   list5: "Flexible learning modes with expert mentorship.",
   list6: "Job support with mock interviews and portfolio guidance.",
   image1: iosimage1,
-  image18: iosimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -1923,7 +1876,6 @@ export const pagesData = [
   list5: "Weekend and weekday classes available for all levels.",
   list6: "Training delivered by certified mobile app professionals.",
   image1: androidtrainingimage1,
-  image18: androidtrainingimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -2073,7 +2025,6 @@ export const pagesData = [
   list5: "Flexible training schedules for working professionals.",
   list6: "Live doubt-clearing and lifetime access to materials.",
   image1: seleniumimage1,
-  image18: seleniumimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Expert Trainers",
@@ -2223,7 +2174,6 @@ export const pagesData = [
   list5: "Flexible class timings for students and working professionals.",
   list6: "Learn from professionals working in top web agencies.",
   image1: WordPressimage1,
-  image18: WordPressimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -2373,7 +2323,6 @@ export const pagesData = [
   list5: "Flexible schedules suitable for students and working pros.",
   list6: "Trainers with live app deployment and development experience.",
   image1: mobileapplicationimage1,
-  image18: mobileapplicationimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -2523,7 +2472,6 @@ export const pagesData = [
   list5: "Flexible training options to suit working professionals.",
   list6: "Mentorship from professionals currently working on Salesforce projects.",
   image1: salesforceimage1,
-  image18: salesforceimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -2668,7 +2616,6 @@ export const pagesData = [
   list5: "Project-based learning with real-world applications.",
   list6: "Comprehensive placement support and interview training.",
   image1: matlabimage1,
-  image18: matlabimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Expert Instructors",
@@ -2818,7 +2765,6 @@ export const pagesData = [
   list5: "Flexible batch options for working professionals.",
   list6: "Learn from trainers with live mainframe project exposure.",
   image1: mainframeadminimage1,
-  image18: mainframeadminimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -2963,7 +2909,6 @@ export const pagesData = [
   list5: "Flexible training formats to fit your schedule.",
   list6: "Trainers with deep knowledge of enterprise data workflows.",
   image1: datastage1,
-  image18: datastage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -3112,7 +3057,6 @@ export const pagesData = [
   list5: "Get career assistance for IoT developer and architect roles.",
   list6: "Join a growing community of smart tech professionals.",
   image1: iottrainingimage1,
-  image18: iottrainingimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Expert Mentors",
@@ -3262,7 +3206,6 @@ export const pagesData = [
   list5: "Weekday and weekend batches available.",
   list6: "Instructors with real-world BI implementation experience.",
   image1: ssasimage1,
-  image18: ssasimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -3412,7 +3355,6 @@ export const pagesData = [
   list5: "Flexible scheduling and modes for professionals and students.",
   list6: "Training by professionals working on live BI projects.",
   image1: QlikViewimage1,
-  image18: QlikViewimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -3562,7 +3504,6 @@ export const pagesData = [
   list5: "Industry-relevant curriculum and case studies.",
   list6: "Mentorship from certified Big Data engineers.",
   image1: bigdataimage1,
-  image18: bigdataimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Industry-Recognized Trainers",
@@ -3712,7 +3653,6 @@ export const pagesData = [
   list5: "Flexible batches suited for working professionals and students.",
   list6: "Train under professionals with real-world OpenStack experience.",
   image1: openstackimage1,
-  image18: openstackimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -3862,7 +3802,6 @@ export const pagesData = [
   list5: "Flexible learning options for students and working professionals.",
   list6: "Training by professionals with live project experience.",
   image1: digitalmarketingimage1,
-  image18: digitalmarketingimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -4012,7 +3951,6 @@ export const pagesData = [
   list5: "Flexible learning schedules to suit all professionals.",
   list6: "Lifetime access to resources and recorded sessions.",
   image1: informaticadataqualityimage1,
-  image18: informaticadataqualityimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Experienced Trainers",
@@ -4162,7 +4100,6 @@ export const pagesData = [
   list5: "Flexible batch timings and fast-track options.",
   list6: "Training by Cisco-certified network engineers.",
   image1: ccnpimage1,
-  image18: ccnpimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -4312,7 +4249,6 @@ export const pagesData = [
   list5: "Flexible training schedules for students and professionals.",
   list6: "Personalized attention with small batch sizes.",
   image1: spokenenglishimage1,
-  image18: spokenenglishimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Language Trainers",
@@ -4462,7 +4398,6 @@ export const pagesData = [
   list5: "Flexible training options—online, classroom, and hybrid.",
   list6: "Placement support with resume and interview preparation.",
   image1: cognostm1image1,
-  image18: cognostm1image,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Industry Experts",
@@ -4612,7 +4547,6 @@ export const pagesData = [
   list5: "Flexible batches for students and working professionals.",
   list6: "Experienced mentors from top tech companies.",
   image1: pythonimage1,
-  image18: pythonimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -4762,7 +4696,6 @@ export const pagesData = [
   list5: "Flexible batch schedules for students and working professionals.",
   list6: "Training from professionals with real-time MEAN Stack experience.",
   image1: meanstackimage1,
-  image18: meanstackimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -4912,7 +4845,6 @@ export const pagesData = [
   list5: "Flexible online and classroom training modes.",
   list6: "Get access to live projects and mentoring by experts.",
   image1: mainframeimage1,
-  image18: mainframeimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Experienced Mainframe Trainers",
@@ -5063,7 +4995,6 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list5: "Flexible batch timings for professionals and students.",
   list6: "Learn from developers working in enterprise projects.",
   image1: nodejsimage1,
-  image18: nodejsimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -5213,7 +5144,6 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list5: "Flexible training options for working professionals.",
   list6: "Guidance from trainers working on active SCCM projects.",
   image1: sccmimage1,
-  image18: sccmimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -5363,7 +5293,6 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list5: "Flexible batch timings for working professionals and students.",
   list6: "Placement assistance with resume prep and mock interviews.",
   image1: msbiimage1,
-  image18: msbiimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Expert Mentors",
@@ -5513,7 +5442,6 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list5: "Flexible schedules with weekend and fast-track options.",
   list6: "Trainers with real-world accounting and ERP experience.",
   image1: tallyimage1,
-  image18: tallyimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -5663,7 +5591,6 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list5: "Multiple training modes for students and professionals.",
   list6: "Training by certified architects with enterprise cloud expertise.",
   image1: cloudimage1,
-  image18: cloudimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -5813,7 +5740,6 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list5: "Access to course materials, labs, and recorded sessions.",
   list6: "Resume building and placement assistance upon course completion.",
   image1: mcsaimage1,
-  image18: mcsaimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -5962,7 +5888,6 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list5: "Weekend, weekday, and fast-track batch options available.",
   list6: "Learn from trainers with enterprise data architecture experience.",
   image1: talendimage1,
-  image18: talendimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -6111,7 +6036,6 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list5: "Flexible schedules for working professionals and students.",
   list6: "Training by professionals with active AI project experience.",
   image1: artificialimage1,
-  image18: artificialimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -6260,7 +6184,6 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list5: "Resume building and interview preparation included.",
   list6: "Placement support with leading analytics and data firms.",
   image1: informaticabdmimages1,
-  image18: informaticabdmimages,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Experienced Instructors",
@@ -6409,7 +6332,6 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list5: "Attend sessions as per your schedule with flexible options.",
   list6: "Learn from certified ML professionals working in the industry.",
   image1: machinelearningimage1,
-  image18: machinelearningimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -6558,7 +6480,6 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list5: "Flexible learning options for working professionals.",
   list6: "Training by experts with live project experience in top tech firms.",
   image1: devopsimage1,
-  image18: devopsimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -6707,7 +6628,6 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list5: "Flexible learning options: classroom, online, and hybrid.",
   list6: "Learn from certified Blockchain engineers and developers.",
   image1: blockchainimage1,
-  image18: blockchainimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Expert Blockchain Trainers",
@@ -6856,7 +6776,6 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list5: "Flexible schedules for working professionals.",
   list6: "Learn from experts with real-time Citrix project experience.",
   image1: citriximage1,
-  image18: citriximage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -7004,7 +6923,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Get career guidance, interview preparation, and resume support.",
   list5: "Flexible class timings with online and offline options.",
   list6: "Trainers with live project exposure and SharePoint certification.",
-  image1: saphomeintro1,
+  image1: sharepointadminimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -7152,7 +7071,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Industry-relevant course content updated for 2025.",
   list5: "Flexible schedules with both online and classroom options.",
   list6: "One-on-one mentorship and lifetime learning access.",
-  image1: saphomeintro1,
+  image1: loadrunnerimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Instructors",
@@ -7300,7 +7219,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Receive job-oriented training with interview and resume support.",
   list5: "Choose flexible batch timings suitable for working professionals.",
   list6: "Guidance from trainers experienced in Selenium and Appium frameworks.",
-  image1: saphomeintro1,
+  image1: appiumimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -7448,7 +7367,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Post-training job support including resume and interview guidance.",
   list5: "Flexible schedules for working professionals and corporate teams.",
   list6: "Learn from trainers with live project experience in SharePoint deployment.",
-  image1: saphomeintro1,
+  image1: sharepointimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -7596,7 +7515,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Learn Informix SQL, scripting, and data replication.",
   list5: "Get certified with confidence and industry-readiness.",
   list6: "100% placement support and expert mentorship.",
-  image1: saphomeintro1,
+  image1: informiximage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Instructors",
@@ -7744,7 +7663,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Post-training career support with interview preparation.",
   list5: "Flexible schedules for working professionals.",
   list6: "Learn from trainers with enterprise-level implementation experience.",
-  image1: saphomeintro1,
+  image1: informaticaimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -7892,7 +7811,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Post-training career support and interview guidance.",
   list5: "Choose online, classroom, or hybrid training formats.",
   list6: "Learn from certified BI consultants with real-world project experience.",
-  image1: saphomeintro1,
+  image1: tibcospotfireimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -8040,7 +7959,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Get resume and interview preparation assistance.",
   list5: "Choose flexible learning schedules: weekend/weekday/online.",
   list6: "Join our RPA learner community for ongoing support.",
-  image1: saphomeintro1,
+  image1: automationanywhereimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
