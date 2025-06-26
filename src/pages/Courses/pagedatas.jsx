@@ -93,6 +93,18 @@ import testcompleteimage1 from '../../assests/images/testcompleteimage1.jpg';
 import uipathtraininginimage1 from '../../assests/images/uipathtraininginimage1.jpg';
 import ssistraininginimage1 from '../../assests/images/ssistraininginimage1.png';
 import ansibletraininginimage1 from '../../assests/images/ansibletraininginimage1.jpg';
+import embeddedsysimage1 from '../../assests/images/embedded_systems_image1.jpg';
+import splunkimage1 from '../../assests/images/splunkimag1.jpg';
+import revit_architectureimage from '../../assests/images/revit_architectureimage.jpg';
+import full_stack_developerimage from '../../assests/images/full_stack_developerimage.png';
+import alteryximage from '../../assests/images/alteryximage.jpg';
+import soapui_testingimage from '../../assests/images/soapui_testingimage.jpg';
+import r_programmingimage from '../../assests/images/r_programmingimage.jpg';
+import bussiness_analystimage from '../../assests/images/bussiness_analystimage.jpg';
+import google_cloudimage from '../../assests/images/google_cloudimage.png';
+import catiaimage from '../../assests/images/catiaimage.jpg';
+import odi_trainingimage from '../../assests/images/odi_trainingimage.jpg';
+import oracleimage from '../../assests/images/oracleimage.jpg';
 
 
 
@@ -2041,10 +2053,10 @@ export const pagesData = [
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Android Course?",
   button6: "Contact Us",
-    pagetitle: "Best Android Training in Chennai | Practical Oriented Android App Development Course",
-        pagedescription: "Join IntelliMindz for top Android training in Chennai. Master Android app development with Java/Kotlin, hands-on projects, and expert guidance.",
-        pagekeywords: "android training in chennai, android course, java, kotlin, android app development, mobile app development, intellimindz",
-        pageogurl: "https://localhost:3000/android_training_in_chennai",
+  pagetitle: "Best Android Training in Chennai | Practical Oriented Android App Development Course",
+  pagedescription: "Join IntelliMindz for top Android training in Chennai. Master Android app development with Java/Kotlin, hands-on projects, and expert guidance.",
+  pagekeywords: "android training in chennai, android course, java, kotlin, android app development, mobile app development, intellimindz",
+  pageogurl: "https://localhost:3000/android_training_in_chennai",
 
 },
 {
@@ -13660,7 +13672,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Training aligned with industry and R&D demands.",
   list5: "Flexible schedules and multiple learning modes.",
   list6: "Personalized guidance with job placement support.",
-  image1: saphomeintro1,
+  image1: embeddedsysimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Expert Faculty",
@@ -13808,7 +13820,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Career support with resume guidance and interview prep.",
   list5: "Flexible training schedules to fit your availability.",
   list6: "Learn from trainers with enterprise-scale Splunk deployment experience.",
-  image1: saphomeintro1,
+  image1: splunkimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -13956,7 +13968,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Guidance for Autodesk Revit certification preparation.",
   list5: "Weekday, weekend, and fast-track training options.",
   list6: "Real-time mentor support with architectural use cases.",
-  image1: saphomeintro1,
+  image1: revit_architectureimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -14104,7 +14116,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Integrate databases like MongoDB and SQL.",
   list5: "Deploy full applications using CI/CD pipelines.",
   list6: "Lifetime access to learning resources and support.",
-  image1: saphomeintro1,
+  image1: full_stack_developerimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Hands‑On Projects",
@@ -14253,7 +14265,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Career support with resume prep and mock interviews.",
   list5: "Flexible training options for working professionals.",
   list6: "Trainers with live project exposure and enterprise insights.",
-  image1: saphomeintro1,
+  image1: alteryximage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -14401,7 +14413,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Get support for certification and job placement assistance.",
   list5: "Learn with flexible schedules and practical labs.",
   list6: "Trainers with real-time industry implementation experience.",
-  image1: saphomeintro1,
+  image1: soapui_testingimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -14549,7 +14561,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Understand statistical thinking and data interpretation.",
   list5: "Flexible batch timings and customized learning paths.",
   list6: "Access course recordings and practice datasets anytime.",
-  image1: saphomeintro1,
+  image1: r_programmingimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Expert Data Trainers",
@@ -14697,7 +14709,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Learn Agile, Scrum, JIRA, BRD, FRD, and use cases.",
   list5: "Flexible batches for working professionals and freshers.",
   list6: "Trainers with real-time business analysis experience.",
-  image1: saphomeintro1,
+  image1: bussiness_analystimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Experienced Mentors",
@@ -14845,7 +14857,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Post-training career support and interview preparation.",
   list5: "Weekend, weekday, and fast-track batch options available.",
   list6: "Learn from real-time cloud experts and industry practitioners.",
-  image1: saphomeintro1,
+  image1: google_cloudimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -14993,7 +15005,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Get expert support for certification and job preparation.",
   list5: "Access flexible schedules for online and classroom sessions.",
   list6: "Build a strong portfolio with project-based learning.",
-  image1: saphomeintro1,
+  image1: catiaimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -15141,7 +15153,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Resume support, mock interviews, and placement guidance.",
   list5: "Flexible online, offline, and hybrid class modes.",
   list6: "Trainers with practical expertise in Oracle-based projects.",
-  image1: saphomeintro1,
+  image1: odi_trainingimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -15290,7 +15302,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Career guidance and interview readiness post-training.",
   list5: "Choose flexible modes that fit your schedule.",
   list6: "Learn from trainers working in Oracle-powered environments.",
-  image1: saphomeintro1,
+  image1: oracleimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",

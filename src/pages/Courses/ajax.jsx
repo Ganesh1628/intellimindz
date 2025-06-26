@@ -34,7 +34,6 @@ import Batchdt from '../../assests/images/bg.jpeg';
 import AskForDemo from "../../components/SAP/Askfordemo/askfordemo";
 import { pagesData } from './pagedatas';
 
-// const Intro = ({ openContactModal }) => {
     const Intro = ({ openContactModal, title1, title2, title4, title5, title6, title7, title8, title9, title10,
         title11, title12, title13, title14, title15, title16, title17, title18, title19, title20, title21,
         title22, title23, title24, title25, title26, title27, title28, title29, title30, title31, title32,
