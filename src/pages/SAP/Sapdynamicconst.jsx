@@ -29,6 +29,7 @@ import "../../components/saponlinecom/onlinecorporate.css";
 import "../../components/SAP/Header/Introsap.css";
 import "../../components/SapIM/IMsyllabus.css";
 import AskForDemo from "../../components/SAP/Askfordemo/askfordemo";
+import { SapPagesData } from './Sappagedatas';
 
 const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, title5, title6, title7,
     title8, title9, title10, title11, title12, title13, title14, title15, title16, title17, title18, title19,
@@ -173,7 +174,7 @@ const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, tit
                             <img src={image1} alt="SAP ABAP Training" />
                         </div>
                     </div>
-        </div>  
+        </div>
         <div className="corporate-section">
             <h2 className="corporate-title">{title5}</h2>
             <div className="corporate-grid">
