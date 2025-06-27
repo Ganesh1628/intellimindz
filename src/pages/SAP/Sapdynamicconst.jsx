@@ -29,6 +29,7 @@ import "../../components/saponlinecom/onlinecorporate.css";
 import "../../components/SAP/Header/Introsap.css";
 import "../../components/SapIM/IMsyllabus.css";
 import AskForDemo from "../../components/SAP/Askfordemo/askfordemo";
+import { SapPagesData } from './Sappagedatas';
 
 const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, title5, title6, title7,
     title8, title9, title10, title11, title12, title13, title14, title15, title16, title17, title18, title19,
@@ -49,6 +50,7 @@ const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, tit
     name1, name2, name3, name4, name5,
     designation1, designation2, designation3, designation4, designation5,
     review1, review2, review3, review4, review5,
+    pagedescription, pagekeywords, pageogurl, pagetitle
     }) => {
     const blocksData = [
         { image: image2, heading: header1, paragraph: paragraph2 },
@@ -130,6 +132,12 @@ const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, tit
         { id: 9, title: title36, description: description22 },
         { id: 10, title: title37, description: description23 }
     ];
+
+    const pageTitle = pagetitle;
+    const pageDescription = pagedescription;
+    const pageKeywords = pagekeywords;
+    const ogUrl = pageogurl;
+
     return (
     <>
         <div className="intro-container">
@@ -372,6 +380,14 @@ const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, tit
             <p className="cta-banner-text">Navigate your career ambitions with our expert guidance.</p>
             <button className="cta-banner-button" onClick={openContactModal}>Contact Us</button>
         </div>
+            <Meta
+                title={pageTitle}
+                description={pageDescription}
+                keywords={pageKeywords}
+                ogTitle={pageTitle}
+                ogDescription={pageDescription}
+                ogUrl={ogUrl}
+            />
     </>
     );
 };

@@ -93,6 +93,60 @@ import testcompleteimage1 from '../../assests/images/testcompleteimage1.jpg';
 import uipathtraininginimage1 from '../../assests/images/uipathtraininginimage1.jpg';
 import ssistraininginimage1 from '../../assests/images/ssistraininginimage1.png';
 import ansibletraininginimage1 from '../../assests/images/ansibletraininginimage1.jpg';
+import embeddedsysimage1 from '../../assests/images/embedded_systems_image1.jpg';
+import splunkimage1 from '../../assests/images/splunkimag1.jpg';
+import revit_architectureimage from '../../assests/images/revit_architectureimage.jpg';
+import full_stack_developerimage from '../../assests/images/full_stack_developerimage.png';
+import alteryximage from '../../assests/images/alteryximage.jpg';
+import soapui_testingimage from '../../assests/images/soapui_testingimage.jpg';
+import r_programmingimage from '../../assests/images/r_programmingimage.jpg';
+import bussiness_analystimage from '../../assests/images/bussiness_analystimage.jpg';
+import google_cloudimage from '../../assests/images/google_cloudimage.png';
+import catiaimage from '../../assests/images/catiaimage.jpg';
+import odi_trainingimage from '../../assests/images/odi_trainingimage.jpg';
+import oracleimage from '../../assests/images/oracleimage.jpg';
+import advancedsasimage1 from '../../assests/images/advancedsasimage1.jpg';
+import oraclesoaimage1 from '../../assests/images/oraclesoaimage1.jpg';
+import qliksenseimage1 from '../../assests/images/qliksenseimage1.jpg';
+import microsoftazureimage1 from '../../assests/images/microsoftazureimage1.jpg';
+import perlimage1 from '../../assests/images/perlimage1.jpg';
+import scrummasterimage1 from '../../assests/images/scrummasterimage1.jpg';
+import ciscoucceimage1 from '../../assests/images/ciscoucceimage1.jpg';
+import tibcobwimage1 from '../../assests/images/tibcobwimage1.jpg';
+import creoimage1 from '../../assests/images/creoimage1.jpg';
+import uniximage1 from '../../assests/images/uniximage1.png';
+import rpaimage1 from '../../assests/images/rpaimage1.jpg';
+import ansysimage1 from '../../assests/images/ansysimage1.jpg'; 
+import microsoftdynamicscrmimage1 from '../../assests/images/microsoftdynamicscrmimage1.png'; 
+import sqlserverdbaimage1 from '../../assests/images/sqlserverdbaimage1.png'; 
+import hadoopimage1 from '../../assests/images/hadoopimage1.jpg'; 
+import cognosimage1 from '../../assests/images/cognosimage1.png'; 
+import phonegapimage1 from '../../assests/images/phonegapimage1.png';  
+import snowflakeimage1 from '../../assests/images/snowflakeimage1.jpg';  
+import webdesigningimage1 from '../../assests/images/webdesigningimage1.jpg';  
+import reactnativeimage1 from '../../assests/images/reactnativeimage1.jpg';  
+import ethicalhackingimage1 from '../../assests/images/ethicalhackingimage1.jpg';  
+import vmwareimage1 from '../../assests/images/vmwareimage1.jpg';  
+import staadproimage1 from '../../assests/images/staadproimage1.jpg';  
+
+
+
+import snaplogicimage1 from '../../assests/images/snaplogicimage1.jpg';  
+import sasimage1 from '../../assests/images/sasimage1.jpg';  
+import ielts from '../../assests/images/ielts.jpg';  
+import kronos from '../../assests/images/kronos.jpg';  
+import qc_training from '../../assests/images/qc_training.jpg';  
+import c_c_plus_plus from '../../assests/images/c_c_plus_plus.jpg';  
+import salesforce_developer from '../../assests/images/salesforce_developer.jpg';  
+import weblogic from '../../assests/images/weblogic.jpg';  
+import servicenow from '../../assests/images/servicenow.png';
+import xamarin from '../../assests/images/xamarin.png';  
+import informatica_iics from '../../assests/images/informatica_iics.png';  
+import final_year_ieee_iot from '../../assests/images/final_year_ieee_iot.jpg';  
+import vlsi from '../../assests/images/vlsi.jpg';  
+import building_estimation_and_costing from '../../assests/images/building_estimation_and_costing.jpg';  
+import guidewire from '../../assests/images/guidewire.jpg';  
+
 
 
 
@@ -2041,10 +2095,10 @@ export const pagesData = [
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Android Course?",
   button6: "Contact Us",
-    pagetitle: "Best Android Training in Chennai | Practical Oriented Android App Development Course",
-        pagedescription: "Join IntelliMindz for top Android training in Chennai. Master Android app development with Java/Kotlin, hands-on projects, and expert guidance.",
-        pagekeywords: "android training in chennai, android course, java, kotlin, android app development, mobile app development, intellimindz",
-        pageogurl: "https://localhost:3000/android_training_in_chennai",
+  pagetitle: "Best Android Training in Chennai | Practical Oriented Android App Development Course",
+  pagedescription: "Join IntelliMindz for top Android training in Chennai. Master Android app development with Java/Kotlin, hands-on projects, and expert guidance.",
+  pagekeywords: "android training in chennai, android course, java, kotlin, android app development, mobile app development, intellimindz",
+  pageogurl: "https://localhost:3000/android_training_in_chennai",
 
 },
 {
@@ -4116,11 +4170,10 @@ export const pagesData = [
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Informatica Data Quality Course?",
   button6: "Contact Us",
-    pagetitle: "Best Informatica Data Quality Training in Chennai | Practical Oriented IDQ Course",
-        pagedescription: "Join IntelliMindz for top Informatica Data Quality training in Chennai. Master data quality management with hands-on projects and expert guidance.",
-        pagekeywords: "informatica data quality training in chennai, idq course, data quality, data governance, informatica, intellimindz",
-        pageogurl: "https://localhost:3000/informatica_data_quality_training_in_chennai",
-
+  pagetitle: "Best Informatica Data Quality Training in Chennai | Practical Oriented IDQ Course",
+  pagedescription: "Join IntelliMindz for top Informatica Data Quality training in Chennai. Master data quality management with hands-on projects and expert guidance.",
+  pagekeywords: "informatica data quality training in chennai, idq course, data quality, data governance, informatica, intellimindz",
+  pageogurl: "https://localhost:3000/informatica_data_quality_training_in_chennai",
 },
 {
   id: 'ccnp_training_in_chennai',
@@ -13660,7 +13713,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Training aligned with industry and R&D demands.",
   list5: "Flexible schedules and multiple learning modes.",
   list6: "Personalized guidance with job placement support.",
-  image1: saphomeintro1,
+  image1: embeddedsysimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Expert Faculty",
@@ -13808,7 +13861,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Career support with resume guidance and interview prep.",
   list5: "Flexible training schedules to fit your availability.",
   list6: "Learn from trainers with enterprise-scale Splunk deployment experience.",
-  image1: saphomeintro1,
+  image1: splunkimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -13956,7 +14009,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Guidance for Autodesk Revit certification preparation.",
   list5: "Weekday, weekend, and fast-track training options.",
   list6: "Real-time mentor support with architectural use cases.",
-  image1: saphomeintro1,
+  image1: revit_architectureimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -14104,7 +14157,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Integrate databases like MongoDB and SQL.",
   list5: "Deploy full applications using CI/CD pipelines.",
   list6: "Lifetime access to learning resources and support.",
-  image1: saphomeintro1,
+  image1: full_stack_developerimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Hands‑On Projects",
@@ -14253,7 +14306,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Career support with resume prep and mock interviews.",
   list5: "Flexible training options for working professionals.",
   list6: "Trainers with live project exposure and enterprise insights.",
-  image1: saphomeintro1,
+  image1: alteryximage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -14401,7 +14454,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Get support for certification and job placement assistance.",
   list5: "Learn with flexible schedules and practical labs.",
   list6: "Trainers with real-time industry implementation experience.",
-  image1: saphomeintro1,
+  image1: soapui_testingimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -14549,7 +14602,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Understand statistical thinking and data interpretation.",
   list5: "Flexible batch timings and customized learning paths.",
   list6: "Access course recordings and practice datasets anytime.",
-  image1: saphomeintro1,
+  image1: r_programmingimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Expert Data Trainers",
@@ -14697,7 +14750,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Learn Agile, Scrum, JIRA, BRD, FRD, and use cases.",
   list5: "Flexible batches for working professionals and freshers.",
   list6: "Trainers with real-time business analysis experience.",
-  image1: saphomeintro1,
+  image1: bussiness_analystimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Experienced Mentors",
@@ -14845,7 +14898,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Post-training career support and interview preparation.",
   list5: "Weekend, weekday, and fast-track batch options available.",
   list6: "Learn from real-time cloud experts and industry practitioners.",
-  image1: saphomeintro1,
+  image1: google_cloudimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -14993,7 +15046,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Get expert support for certification and job preparation.",
   list5: "Access flexible schedules for online and classroom sessions.",
   list6: "Build a strong portfolio with project-based learning.",
-  image1: saphomeintro1,
+  image1: catiaimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -15141,7 +15194,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Resume support, mock interviews, and placement guidance.",
   list5: "Flexible online, offline, and hybrid class modes.",
   list6: "Trainers with practical expertise in Oracle-based projects.",
-  image1: saphomeintro1,
+  image1: odi_trainingimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -15290,7 +15343,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Career guidance and interview readiness post-training.",
   list5: "Choose flexible modes that fit your schedule.",
   list6: "Learn from trainers working in Oracle-powered environments.",
-  image1: saphomeintro1,
+  image1: oracleimage,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -15438,7 +15491,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Receive certification and job interview preparation support.",
   list5: "Flexible learning options: online, offline, and hybrid.",
   list6: "Access lifetime course content and mentorship support.",
-  image1: saphomeintro1,
+  image1: advancedsasimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -15586,7 +15639,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Resume building and mock interviews included in the course.",
   list5: "Flexible batches for working professionals and freshers.",
   list6: "Training by professionals experienced in enterprise-level SOA deployments.",
-  image1: saphomeintro1,
+  image1: oraclesoaimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -15734,7 +15787,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Get job preparation and career guidance post training.",
   list5: "Flexible batch schedules and self-paced options available.",
   list6: "Learn from experts currently implementing Qlik projects.",
-  image1: saphomeintro1,
+  image1: qliksenseimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -15882,7 +15935,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Flexible learning schedules with weekend and weekday batches.",
   list5: "Build a career in cloud computing with job assistance.",
   list6: "Access lifetime resources and Azure labs for practice.",
-  image1: saphomeintro1,
+  image1: microsoftazureimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Azure Certified Trainers",
@@ -16030,7 +16083,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Post-training support including interviews and job guidance.",
   list5: "Flexible learning schedules to suit professionals and students.",
   list6: "Hands-on training with real-world use cases.",
-  image1: saphomeintro1,
+  image1: perlimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -16178,7 +16231,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Receive interview coaching and job placement support.",
   list5: "Flexible training schedules for working professionals.",
   list6: "Mentors with real-world Agile project delivery background.",
-  image1: saphomeintro1,
+  image1: scrummasterimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -16326,7 +16379,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Gain practical skills in UCCE installation, reporting, and fault resolution.",
   list5: "Flexible schedules and personalized mentoring support.",
   list6: "Placement support and preparation for Cisco certification exams.",
-  image1: saphomeintro1,
+  image1: ciscoucceimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Cisco Trainers",
@@ -16474,7 +16527,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Career guidance with resume prep and mock interviews.",
   list5: "Flexible batches to suit working professionals.",
   list6: "Training led by certified TIBCO integration experts.",
-  image1: saphomeintro1,
+  image1: tibcobwimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -16622,7 +16675,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Get trained for Creo-related job roles in top companies.",
   list5: "Weekday, weekend, and fast-track options available.",
   list6: "Trainers with real-time experience in manufacturing and R&D domains.",
-  image1: saphomeintro1,
+  image1: creoimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -16770,7 +16823,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Experienced trainers with system-level knowledge.",
   list5: "Real-world scenarios and shell scripting projects.",
   list6: "Placement support and resume-building assistance.",
-  image1: saphomeintro1,
+  image1: uniximage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Experienced Trainers",
@@ -16918,7 +16971,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Job-oriented curriculum with interview support.",
   list5: "Flexible learning modes: online, classroom, and self-paced.",
   list6: "Experienced instructors from the automation industry.",
-  image1: saphomeintro1,
+  image1: rpaimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -17066,7 +17119,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Access placement support with interview and resume assistance.",
   list5: "Flexible learning schedules for students and professionals.",
   list6: "Learn with project-oriented training from real-time experts.",
-  image1: saphomeintro1,
+  image1: ansysimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -17214,7 +17267,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Learn automation using workflows, plugins, and Power Automate.",
   list5: "Get career support with certification guidance and placement assistance.",
   list6: "Join a network of successful CRM professionals.",
-  image1: saphomeintro1,
+  image1: microsoftdynamicscrmimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified CRM Trainers",
@@ -17362,7 +17415,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Prepare for Microsoft SQL Server DBA certifications.",
   list5: "Flexible training formats to suit your schedule and career goals.",
   list6: "Join a strong alumni network of database professionals.",
-  image1: saphomeintro1,
+  image1: sqlserverdbaimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Expert DBA Trainers",
@@ -17510,7 +17563,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Get support with job interviews and resume preparation.",
   list5: "Flexible batch timings and instructor-led sessions.",
   list6: "Lifetime access to course content and project resources.",
-  image1: saphomeintro1,
+  image1: hadoopimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Industry-Expert Trainers",
@@ -17658,7 +17711,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Work on real-time reporting and dashboard projects.",
   list5: "Flexible schedules and personalized mentorship.",
   list6: "Join a successful community of Cognos professionals.",
-  image1: saphomeintro1,
+  image1: cognosimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Cognos Experts",
@@ -17806,7 +17859,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Learn to integrate device features like camera, GPS, and file system.",
   list5: "Flexible learning options with weekday/weekend and online batches.",
   list6: "Become part of a community of successful hybrid app developers.",
-  image1: saphomeintro1,
+  image1: phonegapimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Experienced Trainers",
@@ -17954,7 +18007,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Get access to certification guidance and mock interviews.",
   list5: "Gain lifetime access to course materials and recordings.",
   list6: "Join a network of successful data professionals.",
-  image1: saphomeintro1,
+  image1: snowflakeimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Snowflake Experts",
@@ -18102,7 +18155,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Learn UI/UX fundamentals and design thinking approach.",
   list5: "Receive mentorship and placement support post-training.",
   list6: "Join a community of creative web designers.",
-  image1: saphomeintro1,
+  image1: webdesigningimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Expert Web Designers",
@@ -18250,7 +18303,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Access industry-level tools, libraries, and best practices.",
   list5: "Learn app deployment, debugging, and performance tuning.",
   list6: "Receive resume, portfolio, and placement support.",
-  image1: saphomeintro1,
+  image1: reactnativeimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Expert Mobile App Trainers",
@@ -18398,7 +18451,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Work on real-time cybersecurity projects and simulations.",
   list5: "Learn at your own pace with flexible schedules and guided learning.",
   list6: "Join a network of cybersecurity professionals and experts.",
-  image1: saphomeintro1,
+  image1: ethicalhackingimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -18546,7 +18599,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Work on live VMware labs and real-world use cases.",
   list5: "Flexible learning modes tailored to your availability and career path.",
   list6: "Join an expert community of virtualization professionals.",
-  image1: saphomeintro1,
+  image1: vmwareimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -18694,7 +18747,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Understand design codes and best practices in civil engineering.",
   list5: "Get support for STAAD Pro certification and interview preparation.",
   list6: "Join a network of aspiring and experienced civil engineers.",
-  image1: saphomeintro1,
+  image1: staadproimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Expert Instructors",
@@ -18842,7 +18895,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Understand SnapLogic architecture, Snaps, and data flow control.",
   list5: "Flexible schedules, weekend batches, and lifetime access.",
   list6: "Join a growing community of integration specialists.",
-  image1: saphomeintro1,
+  image1: snaplogicimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -18990,7 +19043,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Get certified and prepare for interviews with expert support.",
   list5: "Learn at your own pace with flexible training options.",
   list6: "Join a successful network of data analysts and programmers.",
-  image1: saphomeintro1,
+  image1: sasimage1,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified SAS Trainers",
@@ -19138,7 +19191,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Participate in real-time speaking practice and writing correction sessions.",
   list5: "Choose flexible batches and tailor-made preparation plans.",
   list6: "Join a successful community of IELTS achievers and global aspirants.",
-  image1: saphomeintro1,
+  image1: ielts,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -19286,7 +19339,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Work on actual case studies for deep understanding.",
   list5: "Learn Kronos modules including Workforce Ready, Workforce Central, and more.",
   list6: "Become part of the growing workforce management community.",
-  image1: saphomeintro1,
+  image1: kronos,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Expert Kronos Trainers",
@@ -19434,7 +19487,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Work on case studies and practical QC assignments.",
   list5: "Flexible learning modes with online, classroom, and hybrid options.",
   list6: "Join a growing community of QC professionals.",
-  image1: saphomeintro1,
+  image1: qc_training,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -19582,7 +19635,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Work on mini-projects to strengthen your coding logic.",
   list5: "Flexible batch timings and lifetime course access.",
   list6: "Join a large network of successful software developers.",
-  image1: saphomeintro1,
+  image1: c_c_plus_plus,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Experienced Instructors",
@@ -19730,7 +19783,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Receive certification guidance and interview preparation support.",
   list5: "Flexible training options with weekend and weekday batches.",
   list6: "Join a growing community of certified Salesforce developers.",
-  image1: saphomeintro1,
+  image1: salesforce_developer,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Salesforce Trainers",
@@ -19878,7 +19931,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Work on real-time WebLogic server projects and use cases.",
   list5: "Choose flexible learning schedules and personalized guidance.",
   list6: "Become part of a growing community of middleware professionals.",
-  image1: saphomeintro1,
+  image1: weblogic,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -20026,7 +20079,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Learn scripting, UI policies, business rules, and automation.",
   list5: "Get full career support including mock interviews and certifications.",
   list6: "Join a growing network of certified ServiceNow professionals.",
-  image1: saphomeintro1,
+  image1: servicenow,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -20174,7 +20227,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Work on real-time Xamarin projects to gain practical experience.",
   list5: "Flexible learning schedule tailored to your needs and career goals.",
   list6: "Join a growing community of successful Xamarin developers.",
-  image1: saphomeintro1,
+  image1: xamarin,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -20322,7 +20375,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Prepare for IICS certification and build your data engineering portfolio.",
   list5: "Access on-demand learning materials and expert Q&A support.",
   list6: "Get placement support with resume and interview guidance.",
-  image1: saphomeintro1,
+  image1: informatica_iics,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified IICS Trainers",
@@ -20470,7 +20523,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Hands-on training using Raspberry Pi, Arduino, and IoT platforms.",
   list5: "Flexible schedules to suit college timings and submission deadlines.",
   list6: "Build an industry-relevant project portfolio for future career growth.",
-  image1: saphomeintro1,
+  image1: final_year_ieee_iot,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -20618,7 +20671,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Prepare for careers in semiconductor design and verification.",
   list5: "Get placement support and interview preparation assistance.",
   list6: "Join the core electronics domain with confidence and skill.",
-  image1: saphomeintro1,
+  image1: vlsi,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Experienced VLSI Trainers",
@@ -20766,7 +20819,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Work on real-time estimation projects using modern tools.",
   list5: "Learn at your pace with classroom, online, and hybrid options.",
   list6: "Join a growing network of certified cost estimators.",
-  image1: saphomeintro1,
+  image1: building_estimation_and_costing,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Trainers",
@@ -20914,7 +20967,7 @@ pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Te
   list4: "Learn integration, configuration, and Guidewire DataHub.",
   list5: "Customized training paths for developers, testers, and business analysts.",
   list6: "Get trained by certified Guidewire professionals.",
-  image1: saphomeintro1,
+  image1: guidewire,
   button1: "Enquire Now",
   title7: "Why Choose IntelliMindz?",
   title8: "Certified Guidewire Trainers",
