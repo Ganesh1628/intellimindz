@@ -4128,11 +4128,10 @@ export const pagesData = [
   title55: "Navigate your career ambitions with our expert guidance.",
   title56: " Informatica Data Quality Course?",
   button6: "Contact Us",
-    pagetitle: "Best Informatica Data Quality Training in Chennai | Practical Oriented IDQ Course",
-        pagedescription: "Join IntelliMindz for top Informatica Data Quality training in Chennai. Master data quality management with hands-on projects and expert guidance.",
-        pagekeywords: "informatica data quality training in chennai, idq course, data quality, data governance, informatica, intellimindz",
-        pageogurl: "https://localhost:3000/informatica_data_quality_training_in_chennai",
-
+  pagetitle: "Best Informatica Data Quality Training in Chennai | Practical Oriented IDQ Course",
+  pagedescription: "Join IntelliMindz for top Informatica Data Quality training in Chennai. Master data quality management with hands-on projects and expert guidance.",
+  pagekeywords: "informatica data quality training in chennai, idq course, data quality, data governance, informatica, intellimindz",
+  pageogurl: "https://localhost:3000/informatica_data_quality_training_in_chennai",
 },
 {
   id: 'ccnp_training_in_chennai',

@@ -49,6 +49,7 @@ const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, tit
     name1, name2, name3, name4, name5,
     designation1, designation2, designation3, designation4, designation5,
     review1, review2, review3, review4, review5,
+    pagedescription, pagekeywords, pageogurl, pagetitle
     }) => {
     const blocksData = [
         { image: image2, heading: header1, paragraph: paragraph2 },
@@ -130,6 +131,12 @@ const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, tit
         { id: 9, title: title36, description: description22 },
         { id: 10, title: title37, description: description23 }
     ];
+
+    const pageTitle = pagetitle;
+    const pageDescription = pagedescription;
+    const pageKeywords = pagekeywords;
+    const ogUrl = pageogurl;
+
     return (
     <>
         <div className="intro-container">
@@ -166,7 +173,7 @@ const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, tit
                             <img src={image1} alt="SAP ABAP Training" />
                         </div>
                     </div>
-        </div>
+        </div>  
         <div className="corporate-section">
             <h2 className="corporate-title">{title5}</h2>
             <div className="corporate-grid">
@@ -372,6 +379,14 @@ const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, tit
             <p className="cta-banner-text">Navigate your career ambitions with our expert guidance.</p>
             <button className="cta-banner-button" onClick={openContactModal}>Contact Us</button>
         </div>
+            <Meta
+                title={pageTitle}
+                description={pageDescription}
+                keywords={pageKeywords}
+                ogTitle={pageTitle}
+                ogDescription={pageDescription}
+                ogUrl={ogUrl}
+            />
     </>
     );
 };

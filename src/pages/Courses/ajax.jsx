@@ -51,7 +51,7 @@ import { pagesData } from './pagedatas';
         name1, name2, name3, name4, name5,
         designation1, designation2, designation3, designation4, designation5,
         review1, review2, review3, review4, review5,
-        pagedescription, pagekeywords, pageogurl, pagetitle
+        pagedescription, pagekeywords, pageogurl, pagetitle,
         }) => {
     const blocksData = [
         { image: image2, heading: title8, paragraph: paragraph1 },
@@ -132,7 +132,7 @@ import { pagesData } from './pagedatas';
 
     const pageTitle = pagetitle;
     const pageDescription = pagedescription;
-    const pageKeywords = pagekeywords
+    const pageKeywords = pagekeywords;
     const ogUrl = pageogurl;
     
     return (
@@ -178,9 +178,9 @@ import { pagesData } from './pagedatas';
             <div className="corporate-grid">
                 {blocksData.map((block, index) => (
                     <div key={index} className="corporate-block">
-                        <div className="corporate-image-container">
+                        {/* <div className="corporate-image-container"> */}
                             <img src={block.image} alt={block.heading} className="corporate-image" />
-                        </div>
+                        {/* </div> */}
                         <h5 className="corporate-block-heading">{block.heading}</h5>
                         <p className="corporate-block-paragraph">{block.paragraph}</p>
                     </div>
