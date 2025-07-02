@@ -5,9 +5,9 @@ import {
   FaFacebookF,
   FaInstagram,
   FaYoutube,
-  FaTwitter, // Added Twitter icon
+  FaTwitter,
 } from "react-icons/fa";
-import "./TopHeader.css"; // Assuming your styles are here
+import "./TopHeader.css";
 
 const TopHeader = () => {
   return (
@@ -30,41 +30,40 @@ const TopHeader = () => {
         </a>
       </div>
 
-      <div className="top-header-right">
+      <div className="top-header-right-social">
         <a
-          href="https://facebook.com" // Replace with your actual Facebook page URL
+          href="https://facebook.com"
           className="topheader-link"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Facebook" // Added aria-label for accessibility
+          aria-label="Facebook"
         >
           <FaFacebookF className="topheader-icon" />
         </a>
         <a
-          href="https://instagram.com" // Replace with your actual Instagram page URL
+          href="https://instagram.com"
           className="topheader-link"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Instagram" // Added aria-label for accessibility
+          aria-label="Instagram"
         >
           <FaInstagram className="topheader-icon" />
         </a>
         <a
-          href="https://youtube.com" // Replace with your actual YouTube channel URL
+          href="https://youtube.com"
           className="topheader-link"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="YouTube" // Added aria-label for accessibility
+          aria-label="YouTube"
         >
           <FaYoutube className="topheader-icon" />
         </a>
-        {/* Added Twitter Icon Link */}
         <a
-          href="https://twitter.com" // Replace with your actual Twitter profile URL
+          href="https://twitter.com"
           className="topheader-link"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Twitter" // Added aria-label for accessibility
+          aria-label="Twitter"
         >
           <FaTwitter className="topheader-icon" />
         </a>
