@@ -45,7 +45,7 @@ const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, tit
     description8, description9, description10, description11, description12, description13, description14,
     description15, description16, description17, description18, description19, description20, description21,
     description22, description23,
-    topic1, topic2, topic3, topic4 ,topic5 ,topic6 ,topic7 ,topic8, topic9, topic10,
+    topics1, topics2, topics3, topics4 ,topics5 ,topics6 ,topics7 ,topics8, topics9, topics10,
     altext1, altext2, altext3,
     name1, name2, name3, name4, name5,
     designation1, designation2, designation3, designation4, designation5,
@@ -84,16 +84,16 @@ const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, tit
     ];
     const [activeModuleId, setActiveModuleId] = useState(1);
     const allModulesData = [
-        { id: 1, title: title16, topics: topic1 },
-        { id: 2, title: title17, topics: topic2 },
-        { id: 3, title: title18, topics: topic3 },
-        { id: 4, title: title19, topics: topic4 },
-        { id: 5, title: title20, topics: topic5 },
-        { id: 6, title: title21, topics: topic6 },
-        { id: 7, title: title22, topics: topic7 },
-        { id: 8, title: title23, topics: topic8 },
-        { id: 9, title: title24, topics: topic9 },
-        { id: 10, title: title25, topics: topic10 }
+        { id: 1, title: title16, topics: topics1 },
+        { id: 2, title: title17, topics: topics2 },
+        { id: 3, title: title18, topics: topics3 },
+        { id: 4, title: title19, topics: topics4 },
+        { id: 5, title: title20, topics: topics5 },
+        { id: 6, title: title21, topics: topics6 },
+        { id: 7, title: title22, topics: topics7 },
+        { id: 8, title: title23, topics: topics8 },
+        { id: 9, title: title24, topics: topics9 },
+        { id: 10, title: title25, topics: topics10 }
     ];
     const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
     const batchInfo = [
@@ -121,16 +121,16 @@ const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, tit
 
     const [activeModule, setActiveModule] = useState(null);
     const modulesData = [
-        { id: 1, title: title28, description: description14 },
-        { id: 2, title: title29, description: description15 },
-        { id: 3, title: title30, description: description16 },
+        { id: 1, title: title28, description: description23 },
+        { id: 2, title: title29, description: description14 },
+        { id: 3, title: title30, description: description15 },
         { id: 4, title: title31, description: description17 },
         { id: 5, title: title32, description: description18 },
         { id: 6, title: title33, description: description19 },
         { id: 7, title: title34, description: description20 },
         { id: 8, title: title35, description: description21 },
         { id: 9, title: title36, description: description22 },
-        { id: 10, title: title37, description: description23 }
+        { id: 10, title: title37, description: description16 }
     ];
 
     const pageTitle = pagetitle;
@@ -250,9 +250,15 @@ const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, tit
                 </div>
                 <div className="java-topics-details-panel">
                     <h3 className="java-topics-title">Topics:</h3>
-                    <ul className="java-topics-list">
-                        {activeModuleDetails.topics.map((item, index) => (<li key={index}>{item}</li>))}
-                    </ul>
+<ul className="java-topics-list">
+    {Array.isArray(activeModuleDetails.topics) ? (
+        activeModuleDetails.topics.map((item, index) => (
+            <li key={index}>{item}</li>
+        ))
+    ) : (
+        <li>No topics available</li> // Fallback UI
+    )}
+</ul>
                     <button className="java-download-curriculum-button" onClick={openContactModal}>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style={{ marginRight: '8px', verticalAlign: 'middle' }}>
                             <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>

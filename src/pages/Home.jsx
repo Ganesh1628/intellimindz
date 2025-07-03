@@ -171,18 +171,18 @@ function HeroSection() {
 
 function getCourses() {
   return [
-    { img: awsLogo, title: "Java Full Stack" },
-    { img: pythonLogo, title: "Python Full Stack" },
-    { img: cloudLogo, title: "Cloud Computing" },
-    { img: mobile_dev, title: "Mobile Dev" },
-    { img: databaseLogo, title: "UI Development" },
-    { img: ui, title: "Web Designing" },
-    { img: jsLogo, title: "Digital Marketing" },
-    { img: reactlogo, title: "React" },
-    { img: mysql, title: "SQL" },
-    { img: machine_learning, title: "Machine Learning" },
-    { img: software_testing, title: "Software Testing" },
-    { img: data_science, title: "Data science" },
+    { img: awsLogo, title: "Java Full Stack", url: "/java_training_in_chennai" },
+    { img: pythonLogo, title: "Python Full Stack", url: "/python_training_in_chennai" },
+    { img: cloudLogo, title: "Cloud Computing", url: "/cloud_computing_training_in_chennai" },
+    { img: mobile_dev, title: "Mobile Dev", url: "/mobile_application_training_in_chennai" },
+    { img: databaseLogo, title: "UI Development", url: "/html_training_in_chennai" },
+    { img: ui, title: "Web Designing", url: "/web_designing_training_in_chennai" },
+    { img: jsLogo, title: "Digital Marketing", url: "/digital_marketing_training_in_chennai" },
+    { img: reactlogo, title: "React", url: "/react_native_training_in_chennai" },
+    { img: mysql, title: "SQL", url: "/sql_server_dba_training_in_chennai" },
+    { img: machine_learning, title: "Machine Learning", url: "/machine_learning_training_in_chennai" },
+    { img: software_testing, title: "Software Testing", url: "/etl_testing_training_in_chennai" },
+    { img: data_science, title: "Data science", url: "/data_science_training_in_chennai" },
   ];
 }
 
@@ -203,10 +203,12 @@ function Company() {
         <Row>
           {courses.map((course, index) => (
             <Col lg="3" md="4" sm="6" xs="12" key={index} className="home-course-card">
-              <div className="home-course-box">
-                <img src={course.img} alt={course.title} className="home-course-img" />
-                <div className="home-course-title">{course.title}</div>
-              </div>
+              <a href={course.url} style={{ textDecoration: "none", color: "inherit" }}>
+                <div className="home-course-box" style={{ cursor: "pointer" }}>
+                  <img src={course.img} alt={course.title} className="home-course-img" />
+                  <div className="home-course-title">{course.title}</div>
+                </div>
+              </a>
             </Col>
           ))}
         </Row>
@@ -258,7 +260,7 @@ function TrainingOptions() {
                     >
                         <img src={icon} alt={title} className="training-icon" />
                         <h3 className="training-header" style={{ fontFamily: "DM Sans, sans-serif" }}>{title}</h3>
-                        <p className="training-content" style={{ fontFamily: "DM Sans, sans-serif" }}>{description}</p>
+                        <p className="training-content">{description}</p>
                     </motion.div>
                 ))}
             </div>
@@ -567,7 +569,6 @@ function Testimonials() {
 function Home() {
   return (
     <>
-      <Header />
       <HeroSection />
       <Company />
       <TrainingOptions />

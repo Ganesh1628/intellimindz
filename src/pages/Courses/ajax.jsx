@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import ContactModal from "../../components/Hero-Section/ContactModal";
 import Meta from '../../components/Meta';
 
 // Import all your CSS files
@@ -10,43 +9,24 @@ import "../../components/SAP/Header/Introsap.css";
 import "../../components/SapIM/IMsyllabus.css";
 
 // Import all your image assets
-// import saphomeintro1 from '../../assests/images/saphomeintro1.png';
-import homeintro from '../../assests/images/saphomeintro1.png';
-import bestPriceIcon from '../../assests/images/ExperiencedTrainers.jpeg';
-import runningIcon from '../../assests/images/practicallearning.jpeg';
-import staffIcon from '../../assests/images/flexiblebatches.jpeg';
-import jobopening from '../../assests/images/support.jpeg';
-import liveclass from '../../assests/images/interactive_sessions.jpeg';
-import onlinetest from '../../assests/images/lifetimeaccess.jpeg';
-import aboutsapficoImg from '../../assests/images/aboutsapfico.jpeg';
-import classroomTrainingImg from '../../assests/images/Classroom_training.jpeg';
-import handsonsapImg from '../../assests/images/handsonsap.jpeg';
-import casestudyrealtimeImg from '../../assests/images/casestudyrealtime.jpeg';
-import personalizedmentorImg from '../../assests/images/personalizedmentor.jpeg';
-import interactiveImg from '../../assests/images/interactivesessions.jpeg';
-import ExperiencedtrainersImg from '../../assests/images/ExperiencedTrainers.jpeg';
-import corporateOnsiteImg from '../../assests/images/onsite_training.jpeg';
-import corporateOffsiteImg from '../../assests/images/offsite_training.jpeg';
-import corporateVirtualImg from '../../assests/images/virtual.jpeg';
+import homeintro from '../../assests/images/othercoursesintro.jpg';
+import othercourseimage from '../../assests/images/saphomeintro2.jpg';
 import alumniReviewImg from '../../assests/images/review.png';
 import Batchdt from '../../assests/images/bg.jpeg';
-
-import AskForDemo from "../../components/SAP/Askfordemo/askfordemo";
-import { pagesData } from './pagedatas';
 
     const Intro = ({ openContactModal, title1, title2, title4, title5, title6, title7, title8, title9, title10,
         title11, title12, title13, title14, title15, title16, title17, title18, title19, title20, title21,
         title22, title23, title24, title25, title26, title27, title28, title29, title30, title31, title32,
         title33, title34, title35, title36, title37, title38, title39, title40, title41, title42, title43,
         title44, title45, title46, title47, title48, title49, title50, title51, title52, title53, title54,
-        title55, title56,
+        title55, title56, title57, title58, title59, title60,
         list1, list2, list3, list4, list5, list6,
-        image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15, image16, image17,
+        image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15, image16, image17,
         button1, button2, button3, button4, button5, button6,
         paragraph1, paragraph2, paragraph3, paragraph4, paragraph5, paragraph6, paragraph7, paragraph8, paragraph9, paragraph10,
         desc1, desc2, desc3, desc4, desc5, desc6, desc7, desc8, desc9, desc10, desc11, desc12, desc13, desc14,
         desc15, desc16, desc17, desc18, desc19, desc20, desc21, desc22, desc23,
-        topic1, topic2, topic3, topic4, topic5, topic6,
+        topic1, topic2, topic3, topic4, topic5, topic6, topic7, topic8, topic9, topic10,
         altext1, altext2, altext3,
         name1, name2, name3, name4, name5,
         designation1, designation2, designation3, designation4, designation5,
@@ -90,7 +70,11 @@ import { pagesData } from './pagedatas';
         { id: 3, title: title34, topics: topic3 },
         { id: 4, title: title35, topics: topic4 },
         { id: 5, title: title36, topics: topic5 },
-        { id: 6, title: title37, topics: topic6 }
+        { id: 6, title: title37, topics: topic6 },
+        { id: 7, title: title57, topics: topic7 },
+        { id: 8, title: title58, topics: topic8 },
+        { id: 9, title: title59, topics: topic9 },
+        { id: 10, title: title60, topics: topic10 }
     ];
     const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
     const batchInfo = [
@@ -169,7 +153,7 @@ import { pagesData } from './pagedatas';
                         <button className="enquiry-button" onClick={openContactModal}>{button1}</button>
                     </div>
                     <div className="training-image">
-                        <img src={image1} alt="AJAX Training" />
+                        <img src={othercourseimage} alt="AJAX Training" />
                     </div>
                 </div>
             </div>
@@ -178,9 +162,9 @@ import { pagesData } from './pagedatas';
             <div className="corporate-grid">
                 {blocksData.map((block, index) => (
                     <div key={index} className="corporate-block">
-                        {/* <div className="corporate-image-container"> */}
+                        <div className="corporate-image-container">
                             <img src={block.image} alt={block.heading} className="corporate-image" />
-                        {/* </div> */}
+                        </div>
                         <h5 className="corporate-block-heading">{block.heading}</h5>
                         <p className="corporate-block-paragraph">{block.paragraph}</p>
                     </div>
@@ -386,17 +370,3 @@ import { pagesData } from './pagedatas';
 };
 
 export default Intro;
-
-const Ajaxmain = ({ openContactModal }) => {
-    return (
-        <>
-            <Intro openContactModal={openContactModal} />
-            <AskForDemo />
-            <Onlineheader />
-        </>
-    );
-};
-
-const Onlineheader = () => {
-    return <div className="online_container"></div>;
-};

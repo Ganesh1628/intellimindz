@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
-// import { pagesData } from './pagesData';
 import { SapPagesData } from './Sappagedatas';
-// import PageTemplate from './PageTemplate';
-// import Ajaxmain from './ajax';
 import Sapdynamicconst from './Sapdynamicconst';
 import Meta from '../../components/Meta';
-import ContactModal from '../../components/Hero-Section/ContactModal'; // Adjust the path as necessary
+import ContactModal from '../../components/Hero-Section/ContactModal';
 
 const SapDynamicPage = () => {
   const { SappageId } = useParams();
@@ -21,7 +18,6 @@ const SapDynamicPage = () => {
     return <div>Page not found</div>;
   }
 
-  // Print meta values for debugging
   console.log("Meta values for page:", {
     title: pageInfo.pagetitle,
     description: pageInfo.pagedescription,

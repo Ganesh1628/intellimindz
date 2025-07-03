@@ -1,27 +1,25 @@
-/* Header Styles */
+      /* * {
+    outline: 1px solid red;
+  } */
+
 .header {
   width: 100%;
   height: 80px;
   position: fixed;
-  top: 0; /* Corrected: Was previously overridden by 'top: 37px;' */
+  top: 0;
+  margin-top: -5px;
   left: 0;
-  /* top: 37px; */ /* This was likely positioning the lower header below the top one */
   line-height: 80px;
   background: rgb(255, 255, 255);
   box-shadow: 0 4px 20px rgba(24, 23, 22, 0.6);
-  z-index: 999; /* Ensure header stays above other content, but below TopHeader if TopHeader has higher z-index */
-  /* border-bottom-left-radius: 20px; */ /* Removed as the .nav__menu curve handled shape */
-  /* border-bottom-right-radius: 20px; */ /* Removed */
+  z-index: 999;
 }
 
-/* Adjusting header position if TopHeader is fixed */
 .header {
-    top: 37px; /* Assuming TopHeader height is approx 37px. Adjust if different. */
+  top: 37px;
 }
-
 
 .nav__right {
-  /* background-color: black; */
   position: relative;
   z-index: 1;
   display: flex;
@@ -31,38 +29,36 @@
 }
 
 .nav__right p {
-  color: rgb(19, 19, 19); /* Desired text color */
-  background-color: white; /* Optional: gives it a visible background */
-  padding: 1px 8px; /* Adds spacing around text */
-  border-radius: 6px; /* Rounded corners for better appearance */
+  color: rgb(19, 19, 19);
+  background-color: white;
+  padding: 1px 8px;
+  border-radius: 6px;
   margin: -2px 0px 10px;
   font-weight: bold;
 }
 
 .nav__menu {
-  background-color: #ffffff; /* UPDATED: Was #fca12c, now white */
-  border-radius: 0 0 0 400px; /* This will create a white curve on white background, effectively hidden */
+  background-color: #ffffff;
+  border-radius: 0 0 0 400px;
   height: 80px;
-  width: 950px; /* Set a fixed width */
+  width: 950px;
   position: absolute;
-  right: 0; /* Align it to the right edge */
+  right: 0;
   top: 0;
-  z-index: 0; /* Push it behind the phone numbers if any were absolutely positioned here */
+  z-index: 0;
 }
 
-/* Add padding to the main content to avoid overlap with both headers */
 .main-content {
-  padding-top: 117px; /* Approx 80px for lower header + 37px for TopHeader. Adjust as needed. */
+  padding-top: 117px;
 }
-
 
 .nav__list {
-  margin-left: 200px;
+  margin-left: 300px;
   padding: 0;
   list-style: none;
   display: flex;
-  column-gap: 1rem; /* This will space out nav items including the enroll button container */
-  align-items: center; /* Vertically align items in the nav list */
+  column-gap: 22px;
+  align-items: center;
 }
 
 .nav__item a {
@@ -74,74 +70,26 @@
 }
 
 .nav__item a:hover {
-  color: #555555; /* Adjusted hover color for black text on white background */
+  color: #555555;
 }
 
 .nav__right {
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap: 5px; /* Adjusts spacing between phone numbers */
+  gap: 5px;
 }
 
 .mobile__menu {
   display: none;
 }
 
-@media only screen and (max-width: 991px) {
-  .nav__menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(43, 10, 10, 0.8);
-    z-index: 99;
-    display: none;
-    /* Resetting properties for mobile if they were specific to desktop curve */
-    border-radius: 0;
-    width: 100%;
-    right: auto;
-  }
-
-  .nav__list {
-    position: absolute;
-    background: #fff; /* Mobile menu background */
-    top: 0;
-    right: 0;
-    width: 250px; /* Mobile menu width */
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: 999;
-    padding-top: 80px;
-    margin-left: 0; /* Reset margin for mobile */
-  }
-
-  .mobile__menu {
-    display: block;
-  }
-  .nav__right p {
-    font-size: 16px;
-    font-weight: bold;
-    color: black;
-  }
-
-  .active__menu { /* This class is toggled on nav__menu for mobile */
-    display: flex; /* Make it flex to allow nav__list to be positioned */
-    justify-content: flex-end; /* Aligns the .nav__list (white panel) to the right */
-  }
-}
-
-/* Dropdown Styles */
 .dropdown-wrapper {
   position: relative;
   display: inline-block;
 }
 
 .dropdown-toggle {
-  /* font-size: 15px; */ /* Inherits from nav__item a now */
   text-decoration: none;
   position: relative;
   z-index: 10;
@@ -150,72 +98,125 @@
   align-items: center;
 }
 
-/* Base Dropdown Menu Style (for when it's open) */
 .dropdown-menu {
   position: absolute;
-  top: 100%; /* Position below the 'Courses' link */
+  top: 100%;
   left: 0;
-  background-color: #fd9845; /* UPDATED: Orange background for dropdown */
-  color: black; /* Default text color for items */
+  background-color: #fd9845;
+  color: rgb(0, 0, 0);
   list-style: none;
   padding: 10px 0;
-  border-radius: 15px; /* Kept your border radius */
+  border-radius: 15px;
   min-width: 220px;
-  z-index: 1000; /* Ensure dropdown is above other nav items */
-  display: none; /* Hidden by default, shown by JS/hover */
+  z-index: 1000;
+  display: none;
   max-height: 500px;
+  margin-left: -70px !important;
   overflow-y: auto;
   scrollbar-width: none;
-  /* msOverflowStyle: none; */
-  opacity: 0; /* Start transparent for transition */
-  transform: translateY(10px); /* Start slightly lower for transition */
+  opacity: 0;
+  transform: translateY(10px);
   transition: opacity 0.3s ease, transform 0.3s ease;
-  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15); /* Kept your shadow */
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Show dropdown when hovered (from JS state or CSS hover on wrapper) */
 .dropdown-wrapper:hover .dropdown-menu,
-.dropdown-wrapper .dropdown-menu.open { /* Added .open class for JS control */
+.dropdown-wrapper .dropdown-menu.open {
   display: block;
   opacity: 1;
   transform: translateY(0);
 }
 
-
-/* Dropdown Item Styling */
 .dropdown-item {
-  padding: 8px 20px; /* Adjusted padding for better spacing */
+  padding: 8px 20px;
   cursor: pointer;
-  transition: background 0.2s ease, color 0.2s ease; /* Added color transition */
-  font-size: 14px; /* Kept your font size */
-  font-weight: 500; /* Kept your font weight */
-  /* border-radius: 50px; */ /* Removed, looks better without typically */
+  transition: background 0.2s ease, color 0.2s ease;
+  font-size: 14px;
+  font-weight: 500;
   text-align: left;
   white-space: nowrap;
-  background: transparent; /* Item background transparent against menu background */
-  /* border-bottom: 1px solid rgba(255, 255, 255, 0.2); */ /* Optional: light border for separation on orange */
-  margin: 0;
-  line-height: 1.4; /* Adjusted line height */
-  color: #000000; /* Explicitly black text for dropdown items */
+  line-height: 0.8;
+  color: #000000;
 }
 
 .dropdown-item:last-child {
   border-bottom: none;
 }
 
-.dropdown-item:hover {
-  background: rgba(0, 0, 0, 0.1); /* Darker orange or subtle effect on hover */
-  color: white; /* White text on hover for better contrast if background darkens significantly */
+.dropdown-item-link {
+  font-size: 16.5px !important;
+  color: #161616 !important;
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
-/* Removed duplicate .dropdown-menu and .dropdown-item styles from the end of your original CSS */
-/* as they were conflicting. The styles above should now control the dropdown. */
-
-/* Scroll Indicator Icon - If you still need this, ensure colors contrast with new orange bg */
-.dropdown-menu::after {
-  /* Styles for scroll indicator if used */
+.dropdown-item-link:hover {
+  background: rgba(0, 0, 0, 0.1);
+  color: white;
 }
 
+.sub-dropdown-wrapper {
+  position: relative;
+  display: block;
+  z-index: 1001;
+}
+
+.left-sub-dropdown {
+  left: -360px !important;
+  transform: none !important;
+  top: 100% !important;
+  min-width: 220px;
+  position: absolute !important;
+  z-index: 2000 !important;
+}
+
+.center-sub-dropdown {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  top: 100% !important;
+  min-width: 220px;
+  position: absolute !important;
+  z-index: 2000 !important;
+}
+
+.right-sub-dropdown {
+  left: calc(100% + 90px) !important;
+  transform: none !important;
+  top: 100% !important;
+  min-width: 220px;
+  position: absolute !important;
+  z-index: 2000 !important;
+}
+
+.sub-dropdown-menu-center {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fd9845;
+  color: black;
+  list-style: none;
+  padding: 10px 0;
+  border-radius: 15px;
+  min-width: 220px;
+  z-index: 1000;
+  display: none;
+  max-height: 500px;
+  margin-left: -70px !important;
+  overflow-y: auto;
+  scrollbar-width: none;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.sub-dropdown-wrapper:hover .sub-dropdown-menu-center {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
 
 @keyframes shake {
   0%, 100% {
@@ -236,7 +237,6 @@
   animation: shake 0.5s ease-in-out;
 }
 
-/* WhatsApp Icon */
 .whatsapp-icon {
   position: fixed;
   bottom: 20px;
@@ -245,19 +245,17 @@
   background: transparent;
 }
 
-/* Targeting the first WhatsApp icon to be on the left, second on the right */
-.whatsapp-icon:nth-of-type(1) { /* This targets the first instance of .whatsapp-icon within its parent <header> */
-    right: auto;
-    left: 20px;
+.whatsapp-icon:nth-of-type(1) {
+  right: auto;
+  left: 20px;
 }
-.whatsapp-icon:nth-of-type(2) {
-    right: 20px; /* This is the default right one */
-}
-/* If you have multiple .whatsapp-icon divs for different numbers, you might need more specific selectors or pass different props/classes from JSX */
 
+.whatsapp-icon:nth-of-type(2) {
+  right: 20px;
+}
 
 .whatsapp-icon img {
-  width: 60px; /* Slightly reduced size */
+  width: 90px;
   height: auto;
   transition: transform 0.3s ease;
   background: transparent;
@@ -267,17 +265,13 @@
   transform: scale(1.1);
 }
 
-/* Contact Us and Enroll Now Section */
 .contact-enroll-container {
-  /* text-align: right; */ /* Not needed if nav__list handles alignment */
-  /* margin-top: 0px; */ /* Let flexbox handle alignment */
-  /* margin-bottom: 60px; */ /* This created too much space, should be handled by line-height or padding of parent */
-  position: relative; /* Keep if needed for pseudo-elements or specific positioning */
-  display: flex; /* To align items if there were multiple, though only button is visible */
-  align-items: center; /* To vertically center the button with other nav items */
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
-.contact-link { /* This is commented out in your JSX */
+.contact-link {
   color: inherit;
   text-decoration: none;
   transition: color 0.3s ease;
@@ -289,22 +283,387 @@
 }
 
 .enroll-button-header {
-  background-color: #fd9845; /* UPDATED to orange */
-  color: white;             /* UPDATED to white text */
-  padding: 8px 20px;      /* Adjusted padding for a slightly larger button */
+  background-color: #fd9845;
+  color: white;
+  padding: 8px 20px;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
   transition: all 0.3s ease;
   border: none;
   cursor: pointer;
-  font-size: 1rem;      /* Slightly smaller to fit better if space is tight */
-  line-height: normal; /* Ensure button text is not affected by parent's line-height */
-  display: inline-block; /* Ensure it behaves well in the flex layout */
+  font-size: 1rem;
+  line-height: normal;
+  display: inline-block;
 }
 
 .enroll-button-header:hover {
-  background-color: #e6893a; /* Darker orange on hover */
+  background-color: #e6893a;
   transform: translateY(-1px);
   box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 1024px) {
+  .header {
+    height: 80px;
+    line-height: 80px;
+    top: 0;
+    margin-top: 38px;
+    padding: 0 15px;
+  }
+
+.nav__menu {
+  background-color: #ffffff;
+  border-radius: 0 0 0 400px;
+  height: 80px;
+  margin-top: -5px;
+  width: 700px !important;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-left: 330px !important;
+  z-index: 0;
+}
+
+  .nav__right {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    width: 100%;
+  }
+
+  .nav__right p {
+    font-size: 13px;
+    margin: 0 5px;
+    padding: 2px 6px;
+  }
+
+  .nav__list {
+    margin-left: 0;
+    padding: 0;
+    column-gap: 0.8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .nav__item a {
+    font-size: 1rem;
+    padding: 6px 8px;
+  }
+
+  .dropdown-menu {
+    left: auto;
+    right: 0;
+    min-width: 180px;
+    font-size: 13px;
+  }
+
+  .enroll-button-header {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+  }
+
+  .main-content {
+    padding-top: 100px;
+  }
+
+  .contact-enroll-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .whatsapp-icon img {
+    width: 50px;
+  }
+
+  .dropdown-wrapper {
+    width: 100%;
+  }
+
+  .dropdown-toggle {
+    font-size: 0.95rem;
+  }
+
+  .dropdown-item {
+    padding: 6px 14px;
+  }
+
+    .logo img {
+    height: 60px !important;
+    margin-left: 0 !important;
+    margin-top: 13px;
+  }
+
+}
+
+@media (max-width: 768px) {
+      /* * {
+    outline: 1px solid red;
+  } */
+  .header {
+    height: 80px;
+    line-height: normal;
+    margin-top: 0px;
+  }
+
+  .nav__menu {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: #fff;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 998;
+    border-radius: 0;
+  }
+
+  .nav__menu.active__menu {
+    transform: translateX(0);
+  }
+
+  .nav__list {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    margin-left: 0;
+    gap: 15px;
+  }
+
+  .nav__item {
+    width: 100%;
+  }
+
+  .nav__item a {
+    font-size: 1.1rem;
+    display: block;
+    padding: 10px 0;
+  }
+
+  .mobile__menu {
+    display: block;
+    font-size: 1.8rem;
+    cursor: pointer;
+    z-index: 1001;
+  }
+
+  .dropdown-menu {
+    position: static;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 100%;
+    box-shadow: none;
+    transform: none;
+    opacity: 1;
+    display: none;
+  }
+
+  .dropdown-wrapper .dropdown-menu.open {
+    display: block;
+  }
+
+  .dropdown-item {
+    padding: 8px 15px;
+    font-size: 1rem;
+    color: #000000;
+  }
+
+  .dropdown-item:hover {
+    background: rgba(0, 0, 0, 0.05);
+    color: #000000;
+  }
+
+  .logo img {
+    height: 60px !important;
+    margin-left: 0 !important;
+    margin-top: 15px;
+  }
+
+  .enroll-button-header {
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+
+  .contact-enroll-container {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .header {
+  margin-top: 60px !important;
+  }
+
+  .nav__menu {
+    position: fixed;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: #ffffff;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 998;
+  }
+
+  .nav__menu.active__menu {
+    transform: translateX(0);
+  }
+
+.nav__list {
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.nav__item a {
+  font-size: 1.1rem;
+}
+
+  .nav__item {
+    width: 100%;
+  }
+
+  .mobile__menu {
+    display: block;
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+
+  .dropdown-wrapper {
+    position: relative;
+  }
+
+  .dropdown-menu {
+    position: static;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    display: none;
+    width: 100%;
+    box-shadow: none;
+    transform: none;
+    opacity: 1;
+  }
+
+  .dropdown-wrapper .dropdown-menu.open {
+    display: block;
+  }
+
+  .dropdown-item {
+    padding: 8px 15px;
+    font-size: 1.1rem;
+    color: #000000;
+  }
+
+  .dropdown-item:hover {
+    background: rgba(0, 0, 0, 0.05);
+    color: #000000;
+  }
+
+  .enroll-button-header {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+
+  .logo img {
+    margin-left: 0 !important;
+    height: 60px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .header {
+  margin-top: 50px !important;
+  }
+
+  .nav__menu {
+    position: fixed;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: #ffffff;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 998;
+  }
+
+  .nav__menu.active__menu {
+    transform: translateX(0);
+  }
+
+.nav__list {
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.nav__item a {
+  font-size: 1rem;
+}
+
+  .nav__item {
+    width: 100%;
+  }
+
+  .mobile__menu {
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .dropdown-wrapper {
+    position: relative;
+  }
+
+  .dropdown-menu {
+    position: static;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    display: none;
+    width: 100%;
+    box-shadow: none;
+    transform: none;
+    opacity: 1;
+  }
+
+  .dropdown-wrapper .dropdown-menu.open {
+    display: block;
+  }
+
+  .dropdown-item {
+    padding: 8px 15px;
+    font-size: 1rem;
+    color: #000000;
+  }
+
+  .dropdown-item:hover {
+    background: rgba(0, 0, 0, 0.05);
+    color: #000000;
+  }
+
+  .enroll-button-header {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+
+  .logo img {
+    margin-left: 0 !important;
+    height: 60px !important;
+  }
 }

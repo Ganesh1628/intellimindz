@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+    z-index: 10;
   clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
 }
 
