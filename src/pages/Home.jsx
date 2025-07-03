@@ -13,7 +13,6 @@ import "../components/Home/courses.css";
 import "../components/Home/choose-us.css";
 import "../components/Home/questions.css";
 import "../components/Home/testimonial.css";
-import Header from "../components/Header/Header";
 import ContactModal from "../components/Hero-Section/ContactModal";
 
 // Image imports
