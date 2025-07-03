@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import ContactModal from "../../components/Hero-Section/ContactModal";
 import Meta from '../../components/Meta';
 
 // Import all your CSS files
@@ -10,29 +9,10 @@ import "../../components/SAP/Header/Introsap.css";
 import "../../components/SapIM/IMsyllabus.css";
 
 // Import all your image assets
-// import saphomeintro1 from '../../assests/images/saphomeintro1.png';
-import homeintro from '../../assests/images/saphomeintro1.png';
-import bestPriceIcon from '../../assests/images/ExperiencedTrainers.jpeg';
-import runningIcon from '../../assests/images/practicallearning.jpeg';
-import staffIcon from '../../assests/images/flexiblebatches.jpeg';
-import jobopening from '../../assests/images/support.jpeg';
-import liveclass from '../../assests/images/interactive_sessions.jpeg';
-import onlinetest from '../../assests/images/lifetimeaccess.jpeg';
-import aboutsapficoImg from '../../assests/images/aboutsapfico.jpeg';
-import classroomTrainingImg from '../../assests/images/Classroom_training.jpeg';
-import handsonsapImg from '../../assests/images/handsonsap.jpeg';
-import casestudyrealtimeImg from '../../assests/images/casestudyrealtime.jpeg';
-import personalizedmentorImg from '../../assests/images/personalizedmentor.jpeg';
-import interactiveImg from '../../assests/images/interactivesessions.jpeg';
-import ExperiencedtrainersImg from '../../assests/images/ExperiencedTrainers.jpeg';
-import corporateOnsiteImg from '../../assests/images/onsite_training.jpeg';
-import corporateOffsiteImg from '../../assests/images/offsite_training.jpeg';
-import corporateVirtualImg from '../../assests/images/virtual.jpeg';
+import homeintro from '../../assests/images/othercoursesintro.jpg';
+import othercourseimage from '../../assests/images/saphomeintro2.jpg';
 import alumniReviewImg from '../../assests/images/review.png';
 import Batchdt from '../../assests/images/bg.jpeg';
-
-import AskForDemo from "../../components/SAP/Askfordemo/askfordemo";
-import { pagesData } from './pagedatas';
 
     const Intro = ({ openContactModal, title1, title2, title4, title5, title6, title7, title8, title9, title10,
         title11, title12, title13, title14, title15, title16, title17, title18, title19, title20, title21,
@@ -41,7 +21,7 @@ import { pagesData } from './pagedatas';
         title44, title45, title46, title47, title48, title49, title50, title51, title52, title53, title54,
         title55, title56, title57, title58, title59, title60,
         list1, list2, list3, list4, list5, list6,
-        image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15, image16, image17,
+        image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15, image16, image17,
         button1, button2, button3, button4, button5, button6,
         paragraph1, paragraph2, paragraph3, paragraph4, paragraph5, paragraph6, paragraph7, paragraph8, paragraph9, paragraph10,
         desc1, desc2, desc3, desc4, desc5, desc6, desc7, desc8, desc9, desc10, desc11, desc12, desc13, desc14,
@@ -173,7 +153,7 @@ import { pagesData } from './pagedatas';
                         <button className="enquiry-button" onClick={openContactModal}>{button1}</button>
                     </div>
                     <div className="training-image">
-                        <img src={image1} alt="AJAX Training" />
+                        <img src={othercourseimage} alt="AJAX Training" />
                     </div>
                 </div>
             </div>
@@ -390,17 +370,3 @@ import { pagesData } from './pagedatas';
 };
 
 export default Intro;
-
-const Ajaxmain = ({ openContactModal }) => {
-    return (
-        <>
-            <Intro openContactModal={openContactModal} />
-            <AskForDemo />
-            <Onlineheader />
-        </>
-    );
-};
-
-const Onlineheader = () => {
-    return <div className="online_container"></div>;
-};

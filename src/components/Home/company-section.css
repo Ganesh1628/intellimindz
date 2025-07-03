@@ -62,3 +62,212 @@
 .course-box:hover {
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
 }
+
+@media (max-width: 1024px) {
+  .home-courses-section {
+    padding: 45px 25px;
+  }
+
+  .home-courses-title {
+    font-size: 1.9rem;
+    margin-top: -35px;
+    margin-bottom: 35px;
+  }
+
+  .home-course-card {
+    margin-bottom: 20px;
+  }
+
+  .home-course-box {
+    width: 90%;
+    padding-bottom: 15px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-course-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .home-course-title {
+    font-size: 1rem;
+    padding: 10px;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .home-course-box:hover .home-course-img {
+    transform: translateY(-5px);
+  }
+
+  .course-box:hover {
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (max-width: 768px) {
+  .home-courses-section {
+    padding: 40px 20px;
+  }
+
+  .home-courses-title {
+    font-size: 1.8rem;
+    margin-top: -30px;
+    margin-bottom: 30px;
+  }
+
+  .home-course-card {
+    margin-bottom: 18px;
+  }
+
+  .home-course-box {
+    width: 90%;
+    padding-bottom: 12px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-course-img {
+    width: 95%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .home-course-title {
+    font-size: 0.95rem;
+    padding: 10px;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .home-course-box:hover .home-course-img {
+    transform: translateY(-4px);
+  }
+
+  .course-box:hover {
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.18);
+  }
+}
+
+@media (max-width: 425px) {
+  .home-courses-section {
+    padding: 35px 15px;
+  }
+
+  .home-courses-title {
+    font-size: 1.7rem;
+    margin-top: -25px;
+    margin-bottom: 25px;
+  }
+
+  .home-course-card {
+    margin-bottom: 18px;
+  }
+
+  .home-course-box {
+    width: 85%;
+    padding-bottom: 12px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-course-img {
+    width: 80%;
+    height: auto;
+    border-radius: 9px 9px 0 0;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .home-course-title {
+    font-size: 0.95rem;
+    padding: 9px;
+    background-color: #f8f9fa;
+    border-radius: 0 0 9px 9px;
+  }
+
+  .home-course-box:hover .home-course-img {
+    transform: translateY(-4px);
+  }
+
+  .course-box:hover {
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.18);
+  }
+}
+
+@media (max-width: 375px) {
+  .home-courses-section {
+    padding: 30px 15px; /* Reduced padding for smaller screen */
+  }
+
+  .home-courses-title {
+    font-size: 1.5rem; /* Scaled down from 2rem */
+    margin-top: -20px; /* Adjusted for less negative margin */
+    margin-bottom: 20px; /* Reduced margin */
+  }
+
+  .home-course-card {
+    margin-bottom: 15px; /* Slightly reduced margin */
+  }
+
+  .home-course-box {
+    width: 80%; /* Full width for smaller screen */
+    padding-bottom: 10px; /* Reduced padding */
+      background: #f8f9fa;
+  border-radius: 10px;
+  overflow: hidden;
+  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 15px;
+    
+  }
+
+  .home-course-img {
+    border-radius: 8px 8px 0 0; /* Slightly smaller radius */
+      width: 80%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+  transition: transform 0.3s ease-in-out;
+  }
+
+  .home-course-title {
+    font-size: 0.9rem; /* Scaled down for readability */
+    padding: 8px; /* Reduced padding */
+    background-color: #f8f9fa;
+    border-radius: 0 0 8px 8px; /* Match image radius */
+  }
+
+  .home-course-box:hover .home-course-img {
+    transform: translateY(-3px); /* Slightly smaller transform */
+  }
+
+  .course-box:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15); /* Lighter shadow for mobile */
+  }
+}

@@ -250,9 +250,15 @@ const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, tit
                 </div>
                 <div className="java-topics-details-panel">
                     <h3 className="java-topics-title">Topics:</h3>
-                    <ul className="java-topics-list">
-                        {activeModuleDetails.topics.map((item, index) => (<li key={index}>{item}</li>))}
-                    </ul>
+<ul className="java-topics-list">
+    {Array.isArray(activeModuleDetails.topics) ? (
+        activeModuleDetails.topics.map((item, index) => (
+            <li key={index}>{item}</li>
+        ))
+    ) : (
+        <li>No topics available</li> // Fallback UI
+    )}
+</ul>
                     <button className="java-download-curriculum-button" onClick={openContactModal}>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style={{ marginRight: '8px', verticalAlign: 'middle' }}>
                             <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
