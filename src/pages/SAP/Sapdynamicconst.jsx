@@ -1,14 +1,6 @@
 import React, { useState } from 'react';
 import Meta from '../../components/Meta';
-import ContactModal from "../../components/Hero-Section/ContactModal";
 // Import all your image assets
-import saphomeintro1 from '../../assests/images/saphomeintro1.png';
-import bestPriceIcon from '../../assests/images/ExperiencedTrainers.jpeg';
-import runningIcon from '../../assests/images/practicallearning.jpeg';
-import staffIcon from '../../assests/images/flexiblebatches.jpeg';
-import jobopening from '../../assests/images/support.jpeg';
-import liveclass from '../../assests/images/interactive_sessions.jpeg';
-import onlinetest from '../../assests/images/lifetimeaccess.jpeg';
 import aboutsapficoImg from '../../assests/images/aboutsapfico.jpeg';
 import classroomTrainingImg from '../../assests/images/Classroom_training.jpeg';
 import handsonsapImg from '../../assests/images/handsonsap.jpeg';
@@ -28,8 +20,6 @@ import "../../components/saponlinecom/sapfico.css";
 import "../../components/saponlinecom/onlinecorporate.css";
 import "../../components/SAP/Header/Introsap.css";
 import "../../components/SapIM/IMsyllabus.css";
-import AskForDemo from "../../components/SAP/Askfordemo/askfordemo";
-import { SapPagesData } from './Sappagedatas';
 
 const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, title5, title6, title7,
     title8, title9, title10, title11, title12, title13, title14, title15, title16, title17, title18, title19,
@@ -96,10 +86,16 @@ const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, tit
         { id: 10, title: title25, topics: topics10 }
     ];
     const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
-    const batchInfo = [
-        { id: 1, monthYear: "June 2025", type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Fresh Jobseekers", "Non IT to IT transition"] },
-        { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
-    ];
+const monthNames = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+const now = new Date();
+const currentMonthYear = `${monthNames[now.getMonth()]} ${now.getFullYear()}`;
+const batchInfo = [
+    { id: 1, monthYear: currentMonthYear, type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Fresh Jobseekers", "Non IT to IT transition"] },
+    { id: 2, monthYear: currentMonthYear, type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
+];
     const trainingModesData = [
         { id: 1, imageSrc: corporateOnsiteImg, altText: altext1, title: "Onsite Training:", description: description11 },
         { id: 2, imageSrc: corporateOffsiteImg, altText: altext2, title: "Offsite Training:", description: description12 },
@@ -151,7 +147,7 @@ const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, tit
         </div>
         <div className="sap-training-container">
                     <div className="sap-training-header animate__animated animate__flipInX">
-                        <h1>{title3}<span>{title4}</span>
+                        <h1>{title3}<span>{title4} Real-Time Experts</span>
                         </h1>
                         <div className="header-divider"></div>
                     </div>
@@ -401,12 +397,3 @@ const Sapdynamicconst = ({ openContactModal, title1, title2, title3, title4, tit
 
 export default Sapdynamicconst;
 
-const Ajaxmain = ({ openContactModal }) => {
-    return (
-        <>
-            <Sapdynamicconst openContactModal={openContactModal} />
-            <AskForDemo />
-            {/* <Onlineheader /> */}
-        </>
-    );
-};

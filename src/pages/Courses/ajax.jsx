@@ -77,10 +77,17 @@ import Batchdt from '../../assests/images/bg.jpeg';
         { id: 10, title: title60, topics: topic10 }
     ];
     const activeModuleDetails = allModulesData.find(module => module.id === activeModuleId) || allModulesData[0];
-    const batchInfo = [
-        { id: 1, monthYear: "June 2025", type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Fresh Jobseekers", "Non IT to IT transition"] },
-        { id: 2, monthYear: "June 2025", type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
-    ];
+const monthNames = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+const now = new Date();
+const currentMonthYear = `${monthNames[now.getMonth()]} ${now.getFullYear()}`;
+
+const batchInfo = [
+  { id: 1, monthYear: currentMonthYear, type: "Weekdays", schedule: "Mon-Fri", mode: "Online/Offline", duration: "1 hour", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for Fresh Jobseekers", "Non IT to IT transition"] },
+  { id: 2, monthYear: currentMonthYear, type: "Weekends", schedule: "Sat - Sun", mode: "Online/Offline", duration: "1.30 - 2 hours", trainingMethod: "Hands-on Training", feeTag: "Course Fee", suitability: ["Suitable for IT Professionals"] }
+];
     const trainingModesData = [
         { id: 1, imageSrc: image15, altText: altext1, title: title40, description: desc11 },
         { id: 2, imageSrc: image16, altText: altext2, title: title41, description: desc12 },

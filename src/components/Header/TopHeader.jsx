@@ -32,7 +32,7 @@ const TopHeader = () => {
 
       <div className="top-header-right-social">
         <a
-          href="https://facebook.com"
+          href="https://www.facebook.com/intellimindz.in"
           className="topheader-link"
           target="_blank"
           rel="noopener noreferrer"
@@ -41,7 +41,7 @@ const TopHeader = () => {
           <FaFacebookF className="topheader-icon" />
         </a>
         <a
-          href="https://instagram.com"
+          href="https://www.instagram.com/intellimindz.in/"
           className="topheader-link"
           target="_blank"
           rel="noopener noreferrer"
@@ -50,7 +50,7 @@ const TopHeader = () => {
           <FaInstagram className="topheader-icon" />
         </a>
         <a
-          href="https://youtube.com"
+          href="https://www.youtube.com/channel/UCRm53AkPibI27JxzL6jw7Uw"
           className="topheader-link"
           target="_blank"
           rel="noopener noreferrer"
@@ -59,7 +59,7 @@ const TopHeader = () => {
           <FaYoutube className="topheader-icon" />
         </a>
         <a
-          href="https://twitter.com"
+          href="twitter.com/intellimindz_in"
           className="topheader-link"
           target="_blank"
           rel="noopener noreferrer"

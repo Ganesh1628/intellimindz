@@ -30,7 +30,7 @@ const App = () => {
         <Route path="/sap/:SappageId" element={<SapDynamicPage />} />
  
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
       <AskForDemo />
     </Router>
   </HelmetProvider>

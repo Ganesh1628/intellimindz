@@ -1,4 +1,3 @@
-import HeaderSAP from "../components/SAP/Header/header";
 import FactsAndFigures from "../components/SAP/FactsAndFigures/FactsAndFigures";
 import FeesStructure from "../components/SAP/Fees/Fees";
 import Info from "../components/SAP/Info/Info";
@@ -8,20 +7,13 @@ import SapQuestions from "../components/SAP/Questions/Sapquestions";
 import Reason from "../components/SAP/Reason/Reason";
 import TeachingMethod from "../components/SAP/TeachingMethod/Teachingmethod";
 import Testimonial from "../components/SAP/Saptestimonials/Saptestimonial";
-import Footer from "../components/Footer/Footer";
-// import SearchBar from "./sapim/SearchBar";
 import "../components/SapIM/IMprofiletraining.css";
 import "../components/SapIM/IMwhyus.css";
 import "../components/SAP/Header/Introsap.css";
 import "../components/saponlinecom/onlinecoursegrid.css";
 import sapTrainingImage from '../assests/images/saptraining.png'; // Adjust path as needed
 import sapintelliaboutus from "../assests/images/sapintelliaboutus.png";
-import apache_logo from "../assests/images/apache_logo.png";
-// import euSensorLogo from './eu-sensor-logo.png';
-// import saphomeintro from "../assests/images/Saphomeintro.png";
-import React, { } from 'react'; // Add this import at the top
 import "animate.css";
-import { FaStar } from 'react-icons/fa'; // Make sure this import is correct
 
 const Intro = () => {
     return (
@@ -333,8 +325,3 @@ const Saphome = () => {
     );
 }
 export default Saphome;
-
-// Header Section
-const Onlineheader = () => {
-    return <div className="online_container"></div>;
-};

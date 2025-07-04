@@ -13,7 +13,6 @@ import "../components/Home/courses.css";
 import "../components/Home/choose-us.css";
 import "../components/Home/questions.css";
 import "../components/Home/testimonial.css";
-import Header from "../components/Header/Header";
 import ContactModal from "../components/Hero-Section/ContactModal";
 
 // Image imports
@@ -545,7 +544,7 @@ function Testimonials() {
           </Col>
 
           <Col xs="1" className="text-center">
-            <button className="nav-arrow" onClick={handleNext}>
+            <button className="nav-arrow-right" onClick={handleNext}>
               &#10095;
             </button>
           </Col>
@@ -569,13 +568,13 @@ function Testimonials() {
 function Home() {
   return (
     <>
-      <HeroSection />
-      <Company />
-      <TrainingOptions />
-      <Slide />
-      <ChooseUs />
-      <FAQ />
-      <Testimonials />
+      {/* <HeroSection /> */}
+      {/* <Company /> */}
+      {/* <TrainingOptions /> */}
+      {/* <Slide /> */}
+      {/* <ChooseUs /> */}
+      {/* <FAQ /> */}
+      {/* <Testimonials /> */}
     </>
   );
 }
