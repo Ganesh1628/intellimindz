@@ -75,22 +75,22 @@ const Footer = () => {
             <h4 className="fw-bold" style={{ color: "#fafafa" }}>Follow us on</h4>
             <div className="follows">
               <span>
-                <a href="https://facebook.com" aria-label="Visit our Facebook page"> {/* Replace with actual URL */}
+                <a href="https://www.facebook.com/intellimindz.in" aria-label="Visit our Facebook page"> {/* Replace with actual URL */}
                   <i className="ri-facebook-line"></i>
                 </a>
               </span>
               <span>
-                <a href="https://instagram.com" aria-label="Visit our Instagram page"> {/* Replace with actual URL */}
+                <a href="https://www.instagram.com/intellimindz.in/" aria-label="Visit our Instagram page"> {/* Replace with actual URL */}
                   <i className="ri-instagram-line"></i>
                 </a>
               </span>
               <span>
-                <a href="https://youtube.com" aria-label="Visit our YouTube page"> {/* Replace with actual URL */}
+                <a href="https://www.youtube.com/channel/UCRm53AkPibI27JxzL6jw7Uw" aria-label="Visit our YouTube page"> {/* Replace with actual URL */}
                   <i className="ri-youtube-line"></i> {/* YouTube icon added */}
                 </a>
               </span>
               <span>
-                <a href="https://twitter.com" aria-label="Visit our Twitter page"> {/* Replace with actual URL */}
+                <a href="twitter.com/intellimindz_in" aria-label="Visit our Twitter page"> {/* Replace with actual URL */}
                   <i className="ri-twitter-line"></i>
                 </a>
               </span>

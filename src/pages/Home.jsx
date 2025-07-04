@@ -544,7 +544,7 @@ function Testimonials() {
           </Col>
 
           <Col xs="1" className="text-center">
-            <button className="nav-arrow" onClick={handleNext}>
+            <button className="nav-arrow-right" onClick={handleNext}>
               &#10095;
             </button>
           </Col>
@@ -568,13 +568,13 @@ function Testimonials() {
 function Home() {
   return (
     <>
-      <HeroSection />
-      <Company />
-      <TrainingOptions />
-      <Slide />
-      <ChooseUs />
-      <FAQ />
-      <Testimonials />
+      {/* <HeroSection /> */}
+      {/* <Company /> */}
+      {/* <TrainingOptions /> */}
+      {/* <Slide /> */}
+      {/* <ChooseUs /> */}
+      {/* <FAQ /> */}
+      {/* <Testimonials /> */}
     </>
   );
 }
