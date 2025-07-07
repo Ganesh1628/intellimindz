@@ -13069,19 +13069,67 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   title29: "Clinical SAS Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: SAS Base Programming",
-  title33: "Module 2: Advanced SAS Techniques",
-  title34: "Module 3: Clinical Data Management Concepts",
-  title35: "Module 4: CDISC - SDTM and ADaM",
-  title36: "Module 5: TLF Programming",
-  title37: "Module 6: Real-Time Projects & Submission Practice",
-  button5: "Download Curriculum",
-  topic1: ["SAS Syntax Basics", "Data Steps", "Proc Steps", "Formats & Informats", "Reading Raw Data"],
-  topic2: ["Macro Programming", "SQL Procedures", "Arrays and Functions", "Do Loops", "Efficient Data Handling"],
-  topic3: ["Clinical Trial Phases", "CRF Design", "Data Collection & Cleaning", "Regulatory Compliance", "GCP Guidelines"],
-  topic4: ["SDTM Domains", "Mapping Raw to SDTM", "ADaM Structure", "CDASH Standards", "Define.XML Creation"],
-  topic5: ["Generating Listings", "Tables and Figures", "Statistical Outputs", "Mock Shells", "QC Programming"],
-  topic6: ["End-to-End Clinical Project", "Validation Techniques", "Submission Package", "Client Delivery Simulation", "Performance Review"],
+title32: "Module 1: Introduction to Clinical Trials & SAS",
+title33: "Module 2: SAS Base Programming Essentials",
+title34: "Module 3: Advanced SAS Programming",
+title35: "Module 4: Clinical Trial Data Structures",
+title36: "Module 5: SDTM Implementation",
+title37: "Module 6: ADaM (Analysis Data Model)",
+title57: "Module 7: TFL (Tables, Listings, Figures) Generation",
+title58: "Module 8: Validation and Quality Control",
+title59: "Module 9: Clinical Project Work",
+title60: "Module 10: Certification & Career Support",
+button5: "Download Curriculum",
+topic1: [
+  "Overview of Clinical Trials Phases (I–IV)",
+  "Regulatory Guidelines (FDA, ICH, GCP)",
+  "Role of SAS in Clinical Data Analysis"
+],
+topic2: [
+  "Data Step Processing",
+  "Input/Output Functions",
+  "SAS Procedures (PROC SORT, PRINT, MEANS)"
+],
+topic3: [
+  "Merging & Appending Datasets",
+  "Arrays and DO Loops",
+  "SAS Macros for Reusability"
+],
+topic4: [
+  "CRF (Case Report Form) to Database Mapping",
+  "Raw vs Cleaned Datasets",
+  "Understanding Clinical Domains"
+],
+topic5: [
+  "Overview of CDISC and SDTM",
+  "Domain Definitions and Dataset Mapping",
+  "Annotated CRFs and Define.XML"
+],
+topic6: [
+  "ADaM Dataset Creation",
+  "Derived Variables and Flags",
+  "Analysis-Ready Dataset Standards"
+],
+topic7: [
+  "Generating Summary Tables",
+  "Patient Listings using PROC REPORT",
+  "Creating Graphs with PROC SGPLOT"
+],
+topic8: [
+  "Double Programming Techniques",
+  "QC for SDTM/ADaM Datasets",
+  "Documentation and Audit Trails"
+],
+topic9: [
+  "End-to-End Project from Raw Data to TFLs",
+  "Using Protocols and SAPs",
+  "Case Study on Oncology Trial"
+],
+topic10: [
+  "SAS Certification Practice Tests",
+  "Resume Preparation and Interview Q&A",
+  "Clinical SAS Job Roles & Placement Guidance"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for Clinical SAS in Chennai",
   title40: "Onsite Training:",
@@ -13107,31 +13155,45 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   designation3: "Clinical Research Associate",
   designation4: "CDISC Specialist",
   designation5: "Clinical SAS Trainee",
-  review1: "The best Clinical SAS training with real-world pharma data projects.",
-  review2: "Trainers explained complex topics like SDTM and ADaM with clarity.",
-  review3: "The placement team helped me get my first job in a CRO.",
-  review4: "Great course content and highly supportive mentors.",
-  review5: "I was able to switch from non-programming to a clinical SAS role easily.",
-  title44: "What is Clinical SAS used for?",
-  title45: "Who should take this Clinical SAS training?",
-  title46: "Do I need prior SAS experience?",
-  title47: "Is Clinical SAS in demand in 2025?",
-  title48: "What is the difference between SDTM and ADaM?",
-  title49: "Is this training available online?",
-  title50: "Are real-time datasets included?",
-  title51: "Will I get job support?",
-  title52: "Can non-life science students take this course?",
-  title53: "Is Clinical SAS good for freshers?",
-  desc14: "Clinical SAS is used in analyzing, reporting, and submitting clinical trial data to regulatory bodies.",
-  desc15: "Ideal for life science graduates, medical professionals, and SAS learners aiming for the pharma industry.",
-  desc16: "No, our course covers Base SAS fundamentals from the beginning.",
-  desc17: "Yes, Clinical SAS is in high demand across pharma, biotech, and CROs.",
-  desc18: "SDTM is for raw data standardization; ADaM is for analysis-ready datasets.",
-  desc19: "Yes, live virtual classes with full interaction and lab practice are offered.",
-  desc20: "Yes, real-world datasets and case studies are included in labs.",
-  desc21: "Yes, with resume building, interview practice, and referrals.",
-  desc22: "Yes, with the right dedication, non-life science students can succeed.",
-  desc23: "Yes, we offer beginner-friendly modules and career mentorship.",
+review1: "I was searching for a career path after my pharmacy degree and found the Clinical SAS Training in Chennai perfect for breaking into the CRO industry. The trainers taught SDTM, TLF generation, and real-world datasets, which helped me land a job as a junior SAS programmer.",
+
+review2: "After comparing several training centers, I chose this institute, and it was the best decision. The Clinical SAS course in Chennai gave me complete clarity on CDISC, ADaM datasets, and FDA compliance. Great mentors and job support.",
+
+review3: "This course wasn’t just theoretical. We worked on case studies from actual clinical trials. It taught me how to use SAS macros for TFLs and validate programs. I got placed within a month after completion.",
+
+review4: "The online Clinical SAS course in Chennai was well-structured and convenient for my schedule. I got access to datasets, clinical protocols, and step-by-step guidance. The trainer was always ready to clear doubts.",
+
+review5: "Thanks to this training, I passed the SAS Clinical Trials Programmer certification and got placed as an intern in a global CRO. They also helped me build a resume tailored for the pharma domain.",
+title44: "What makes your Clinical SAS Training in Chennai unique?",
+desc14: "Our Clinical SAS Training in Chennai provides real-time exposure to clinical trial data, CDISC standards, and hands-on programming tasks. As the Best Clinical SAS Training Institute in Chennai, we focus on FDA submission-ready datasets and job-oriented skills.",
+
+title45: "Who should enroll in the Clinical SAS course in Chennai?",
+desc15: "The Clinical SAS course in Chennai is ideal for life science graduates, pharmacy students, statisticians, and professionals in the healthcare or pharma industry who want to build a career in clinical data analysis and biostatistics.",
+
+title46: "Are there any prerequisites for Clinical SAS Training in Chennai?",
+desc16: "While basic statistics or programming knowledge is helpful, it’s not mandatory. Our Clinical SAS course in Chennai starts from the fundamentals, including SAS Base and Advanced modules tailored for clinical research.",
+
+title47: "What topics are covered in the Clinical SAS course in Chennai?",
+desc17: "The course includes SAS programming, clinical trial data management, SDTM & ADaM standards, TFL generation, and FDA submission guidelines, making it highly industry-relevant.",
+
+title48: "Is your Clinical SAS Training in Chennai aligned with certifications?",
+desc18: "Yes. We prepare students for certifications like SAS Certified Clinical Trials Programmer and SAS Base Programmer, with mock tests, projects, and real-world datasets.",
+
+title49: "Will I get practical exposure in the Clinical SAS course in Chennai?",
+desc19: "Absolutely. Our training includes hands-on assignments with raw clinical data, creating SDTM datasets, generating tables and listings, and writing validation programs.",
+
+title50: "Can I attend this Clinical SAS Training in Chennai online?",
+desc20: "Yes, we offer both online and classroom Clinical SAS Training in Chennai. Online learners get live instructor-led sessions, recorded videos, and access to practice datasets and tools.",
+
+title51: "What career roles can I apply for after this Clinical SAS course in Chennai?",
+desc21: "You can become a Clinical SAS Programmer, Statistical Programmer, Clinical Data Analyst, or Biostatistician, especially in CROs, pharma companies, and research organizations.",
+
+title52: "Do you offer placement assistance after Clinical SAS Training in Chennai?",
+desc22: "As the Best Clinical SAS Training Institute in Chennai, we provide resume writing, mock interviews, and direct referrals to clinical research organizations and data analytics companies.",
+
+title53: "What tools and versions are taught in your Clinical SAS course in Chennai?",
+desc23: "We use the latest version of SAS software (9.4 or Viya) and cover essential tools like SAS Enterprise Guide, SAS Studio, and SDTM Mapping tools for regulatory compliance.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our Clinical SAS course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -13216,19 +13278,67 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   title29: "Sybase Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to Sybase ASE and IQ",
-  title33: "Module 2: Installation and Configuration",
-  title34: "Module 3: Database Administration and Security",
-  title35: "Module 4: Backup and Recovery",
-  title36: "Module 5: Performance Tuning and Optimization",
-  title37: "Module 6: Real-Time Project Work",
-  button5: "Download Curriculum",
-  topic1: ["Overview of Sybase ASE and IQ", "Architecture and Components", "Installation Requirements"],
-  topic2: ["Setting up Sybase Environment", "Configuration Best Practices", "Server Setup and Maintenance"],
-  topic3: ["User Management", "Security Policies", "Access Controls"],
-  topic4: ["Backup Strategies", "Recovery Techniques", "Disaster Recovery Planning"],
-  topic5: ["Monitoring and Tuning", "Query Optimization", "Resource Management"],
-  topic6: ["Implementing Real-Time Projects", "Troubleshooting", "Performance Testing"],
+title32: "Module 1: Introduction to Sybase ASE",
+title33: "Module 2: Database and Object Management",
+title34: "Module 3: User and Security Management",
+title35: "Module 4: Backup and Recovery",
+title36: "Module 5: Query Optimization and Tuning",
+title37: "Module 6: Stored Procedures and Triggers",
+title57: "Module 7: Data Integrity and Transactions",
+title58: "Module 8: Replication and High Availability",
+title59: "Module 9: Monitoring and Troubleshooting",
+title60: "Module 10: Capstone Project and Certification Prep",
+button5: "Download Curriculum",
+topic1: [
+  "Overview of SAP Sybase Architecture",
+  "Features of Sybase ASE 16.0",
+  "Installation and Configuration"
+],
+topic2: [
+  "Creating Databases and Tables",
+  "Datatypes and Constraints",
+  "Indexing and Views"
+],
+topic3: [
+  "Creating Users and Roles",
+  "Permissions and Grants",
+  "Login Triggers and Auditing"
+],
+topic4: [
+  "Backup Methods and Retention",
+  "Recovery Scenarios and Commands",
+  "Log Management"
+],
+topic5: [
+  "Execution Plans",
+  "Index Optimization",
+  "Performance Monitoring Tools"
+],
+topic6: [
+  "Writing Stored Procedures",
+  "Using Triggers for Audits",
+  "Error Handling and Debugging"
+],
+topic7: [
+  "Isolation Levels",
+  "Locking Mechanisms",
+  "Transaction Control"
+],
+topic8: [
+  "Replication Server Setup",
+  "Data Replication Methods",
+  "Failover and Clustering"
+],
+topic9: [
+  "Monitoring Tools (sp_monitor, sp_who)",
+  "Troubleshooting Query Slowness",
+  "Log and Event Analysis"
+],
+topic10: [
+  "End-to-End Database Administration Project",
+  "SAP Certification Preparation",
+  "Resume Building and Interview Guidance"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for Sybase in Chennai",
   title40: "Onsite Training:",
@@ -13254,31 +13364,45 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   designation3: "Database Engineer",
   designation4: "Senior DBA",
   designation5: "Database Specialist",
-  review1: "The Sybase training at IntelliMindz helped me land a DBA role with confidence. The trainers were knowledgeable and hands-on.",
-  review2: "Practical labs and real-time project experience made the course invaluable for my career growth.",
-  review3: "The flexible training schedule and personalized mentorship helped me learn effectively.",
-  review4: "I appreciated the detailed coverage of backup and recovery techniques during the training.",
-  review5: "Great course content, trainer support, and placement assistance throughout the program.",
-  title44: "What is Sybase used for?",
-  title45: "Who should take this Sybase training?",
-  title46: "Do I need prior database experience?",
-  title47: "Is Sybase still relevant in 2025?",
-  title48: "What are the key Sybase components?",
-  title49: "Is the training available online?",
-  title50: "Will I get hands-on practice?",
-  title51: "Do you provide placement assistance?",
-  title52: "Can freshers enroll in this course?",
-  title53: "Is certification provided after training?",
-  desc14: "Sybase is a relational database management system used for transaction processing and data warehousing in enterprises.",
-  desc15: "Database professionals, developers, and anyone interested in mastering Sybase database administration.",
-  desc16: "Basic knowledge of databases is helpful but not mandatory; we start with foundational concepts.",
-  desc17: "Yes, Sybase continues to be widely used in many industries for critical database operations.",
-  desc18: "Sybase ASE and IQ are the core components handling transaction processing and analytics respectively.",
-  desc19: "Yes, we offer both online and classroom training with live projects and expert guidance.",
-  desc20: "Absolutely, you will get hands-on labs, real-time projects, and troubleshooting sessions.",
-  desc21: "We provide 100% placement assistance including mock interviews and resume support.",
-  desc22: "Yes, freshers can enroll and gain strong database administration skills.",
-  desc23: "A course completion certificate is provided along with guidance for external certifications.",
+review1: "I enrolled in the Sybase Training in Chennai as a fresher with basic SQL skills. The sessions were highly practical, focusing on tasks like server tuning and user access control. Thanks to the real-world projects, I’m now working as a junior DBA.",
+
+review2: "After struggling to find quality Sybase training, I joined this institute. The Sybase course in Chennai was well-structured, covering everything from installation to replication. The trainer was patient and experienced in large-scale data operations.",
+
+review3: "The course not only taught technical skills but also helped with resume writing and interviews. The Sybase Training in Chennai covered backup strategies and disaster recovery in detail. I landed my first job through their placement support.",
+
+review4: "I joined the weekend batch of the Sybase course in Chennai, and it was perfect for my schedule. The online labs and real-time ticket simulations helped me prepare for my company’s production environment.",
+
+review5: "This is easily the Best Sybase Training Institute in Chennai if you’re looking for job-focused training. The content was industry-relevant, and the instructor explained everything from database tuning to transaction log management clearly.",
+title44: "What makes your Clinical SAS Training in Chennai unique?",
+desc14: "Our Clinical SAS Training in Chennai provides real-time exposure to clinical trial data, CDISC standards, and hands-on programming tasks. As the Best Clinical SAS Training Institute in Chennai, we focus on FDA submission-ready datasets and job-oriented skills.",
+
+title45: "Who should enroll in the Clinical SAS course in Chennai?",
+desc15: "The Clinical SAS course in Chennai is ideal for life science graduates, pharmacy students, statisticians, and professionals in the healthcare or pharma industry who want to build a career in clinical data analysis and biostatistics.",
+
+title46: "Are there any prerequisites for Clinical SAS Training in Chennai?",
+desc16: "While basic statistics or programming knowledge is helpful, it’s not mandatory. Our Clinical SAS course in Chennai starts from the fundamentals, including SAS Base and Advanced modules tailored for clinical research.",
+
+title47: "What topics are covered in the Clinical SAS course in Chennai?",
+desc17: "The course includes SAS programming, clinical trial data management, SDTM & ADaM standards, TFL generation, and FDA submission guidelines, making it highly industry-relevant.",
+
+title48: "Is your Clinical SAS Training in Chennai aligned with certifications?",
+desc18: "Yes. We prepare students for certifications like SAS Certified Clinical Trials Programmer and SAS Base Programmer, with mock tests, projects, and real-world datasets.",
+
+title49: "Will I get practical exposure in the Clinical SAS course in Chennai?",
+desc19: "Absolutely. Our training includes hands-on assignments with raw clinical data, creating SDTM datasets, generating tables and listings, and writing validation programs.",
+
+title50: "Can I attend this Clinical SAS Training in Chennai online?",
+desc20: "Yes, we offer both online and classroom Clinical SAS Training in Chennai. Online learners get live instructor-led sessions, recorded videos, and access to practice datasets and tools.",
+
+title51: "What career roles can I apply for after this Clinical SAS course in Chennai?",
+desc21: "You can become a Clinical SAS Programmer, Statistical Programmer, Clinical Data Analyst, or Biostatistician, especially in CROs, pharma companies, and research organizations.",
+
+title52: "Do you offer placement assistance after Clinical SAS Training in Chennai?",
+desc22: "As the Best Clinical SAS Training Institute in Chennai, we provide resume writing, mock interviews, and direct referrals to clinical research organizations and data analytics companies.",
+
+title53: "What tools and versions are taught in your Clinical SAS course in Chennai?",
+desc23: "We use the latest version of SAS software (9.4 or Viya) and cover essential tools like SAS Enterprise Guide, SAS Studio, and SDTM Mapping tools for regulatory compliance.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our Sybase course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -13363,19 +13487,67 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   title29: "MuleSoft Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to MuleSoft and Anypoint Platform",
-  title33: "Module 2: Mule 4 Runtime Fundamentals",
-  title34: "Module 3: API Design and Development",
-  title35: "Module 4: DataWeave Transformations",
-  title36: "Module 5: Error Handling and Debugging",
-  title37: "Module 6: Real-Time Integration Projects",
-  button5: "Download Curriculum",
-  topic1: ["MuleSoft Overview", "Anypoint Studio Setup", "API-Led Connectivity", "Anypoint Platform Components", "MuleSoft Architecture"],
-  topic2: ["Mule 4 Components", "Flows and Subflows", "Connectors", "Mule Events", "Event Processors"],
-  topic3: ["RAML and API Design", "API Manager", "API Implementation", "API Testing", "API Security"],
-  topic4: ["DataWeave Basics", "Transformations", "Functions", "Arrays and Objects", "Advanced DataWeave"],
-  topic5: ["Error Types", "Try-Catch Scope", "Error Handling Strategies", "Debugging Techniques", "Logging"],
-  topic6: ["Building Integration Solutions", "Deploying APIs", "Project Review", "Best Practices", "Certification Exam Tips"],
+title32: "Module 1: Introduction to MuleSoft and Integration",
+title33: "Module 2: MuleSoft Anypoint Platform",
+title34: "Module 3: Mule 4 Core Concepts",
+title35: "Module 4: DataWeave and Transformations",
+title36: "Module 5: API Development and RAML",
+title37: "Module 6: Error Handling and Logging",
+title57: "Module 7: Flow Control and Routing",
+title58: "Module 8: Connectivity and Integration",
+title59: "Module 9: Security and Monitoring",
+title60: "Module 10: Capstone Project and Certification Prep",
+button5: "Download Curriculum",
+topic1: [
+  "Basics of Integration and APIs",
+  "Overview of MuleSoft and its Architecture",
+  "MuleSoft Use Cases and Job Market"
+],
+topic2: [
+  "Anypoint Studio Installation",
+  "Anypoint Exchange and API Manager",
+  "Application Deployment to CloudHub"
+],
+topic3: [
+  "Event Processors and Flow Design",
+  "Connectors, Components, and Transformers",
+  "Mule Event and Message Structure"
+],
+topic4: [
+  "DataWeave Language Syntax",
+  "Transforming JSON, XML, and CSV",
+  "Mapping Complex Nested Structures"
+],
+topic5: [
+  "Designing APIs using RAML",
+  "Implementing and Testing APIs",
+  "Mocking and Sharing APIs via Exchange"
+],
+topic6: [
+  "On Error Continue vs On Error Propagate",
+  "Try-Catch Scenarios",
+  "Logger and Custom Error Messages"
+],
+topic7: [
+  "Choice, Scatter-Gather, and For-Each",
+  "Batch Jobs and Parallel Processing",
+  "Flow Variables and Session Variables"
+],
+topic8: [
+  "Connecting to Salesforce, Database, File",
+  "Using HTTP, FTP, Web Service Connectors",
+  "Integrating with SAP, AWS, and third-party APIs"
+],
+topic9: [
+  "Role-Based Access and Policies",
+  "Securing APIs using OAuth 2.0",
+  "Monitoring with Anypoint Monitoring"
+],
+topic10: [
+  "Real-Time Project on API Integration",
+  "Developer Certification Practice",
+  "Resume and Interview Preparation"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for MuleSoft in Chennai",
   title40: "Onsite Training:",
@@ -13401,31 +13573,45 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   designation3: "MuleSoft Consultant",
   designation4: "MuleSoft Trainee",
   designation5: "Senior Developer",
-  review1: "The hands-on projects helped me grasp MuleSoft concepts quickly and confidently.",
-  review2: "Great trainers who explained concepts clearly and helped with interview prep.",
-  review3: "Real-world scenarios made learning practical and job-oriented.",
-  review4: "Supportive environment and thorough coverage of certification topics.",
-  review5: "Highly recommended for anyone wanting to master MuleSoft development.",
-  title44: "What is MuleSoft used for?",
-  title45: "Who should take this MuleSoft training?",
-  title46: "Do I need prior integration experience?",
-  title47: "Is MuleSoft relevant in 2025?",
-  title48: "What certifications will I get prepared for?",
-  title49: "Is the training available online?",
-  title50: "Will I get hands-on practice?",
-  title51: "Do you offer job preparation support?",
-  title52: "Can non-developers learn MuleSoft?",
-  title53: "Is this training suitable for freshers?",
-  desc14: "MuleSoft is used for building APIs and integrating disparate systems across enterprises.",
-  desc15: "Developers, architects, and IT professionals aiming to master integration platforms.",
-  desc16: "Basic programming knowledge helps but not mandatory; we cover fundamentals.",
-  desc17: "Yes, MuleSoft is widely adopted and skills are in demand in 2025.",
-  desc18: "MuleSoft Certified Developer (Mule 4) and related certifications.",
-  desc19: "Yes, we offer live virtual and classroom training options.",
-  desc20: "Yes, practical labs and projects are part of the curriculum.",
-  desc21: "Resume guidance, mock interviews, and career support provided.",
-  desc22: "Yes, anyone committed to learning can gain the skills.",
-  desc23: "Yes, freshers can start and grow with our structured program.",
+review1: "I took the MuleSoft Training in Chennai after researching several institutes, and this one exceeded expectations. The trainer had deep experience, and the real-time projects helped me confidently create and manage APIs. I also cleared the MuleSoft Developer Certification.",
+
+review2: "The MuleSoft course in Chennai helped me switch from backend development to full-time integration work. The hands-on sessions on CloudHub deployment and API gateway setup were top-notch. I now work with global clients integrating Salesforce and SAP.",
+
+review3: "With Java experience, I wanted to move into cloud integration. This MuleSoft Training in Chennai provided everything I needed—from DataWeave scripting to RAML design. Their mock interviews and placement prep helped me secure a role at an IT firm.",
+
+review4: "The course covered all aspects of MuleSoft Anypoint Platform with practical sessions on API Manager, Runtime Manager, and error handling. I could directly apply what I learned in my current company. One of the best MuleSoft courses in Chennai for professionals.",
+
+review5: "Thanks to this training, I earned my MuleSoft Certified Developer Level 1 and was hired within 2 months. The training was interactive and covered all concepts in-depth. Highly recommended for anyone serious about MuleSoft.",
+title44: "Why choose your MuleSoft Training in Chennai?",
+desc14: "Our MuleSoft Training in Chennai provides industry-relevant content with real-time project integration, making us the Best MuleSoft Training Institute in Chennai. You'll gain practical knowledge on API-led connectivity, DataWeave, and Mule 4 architecture through hands-on labs.",
+
+title45: "What is the objective of the MuleSoft course in Chennai?",
+desc15: "The MuleSoft course in Chennai is designed to teach integration using MuleSoft Anypoint Platform, enabling learners to build, deploy, and manage APIs and integrations with enterprise systems, SaaS apps, and data lakes.",
+
+title46: "Who should enroll in this MuleSoft Training in Chennai?",
+desc16: "Our MuleSoft Training in Chennai is ideal for software developers, integration specialists, and working professionals seeking to advance their career in API integration, cloud services, or enterprise connectivity.",
+
+title47: "What are the prerequisites for the MuleSoft course in Chennai?",
+desc17: "Basic knowledge of Java, REST APIs, and XML/JSON will help, though the MuleSoft course in Chennai starts with foundational concepts and gradually progresses to advanced integration patterns.",
+
+title48: "Is your MuleSoft Training in Chennai certification-oriented?",
+desc18: "Yes. We prepare you for certifications such as MuleSoft Certified Developer - Level 1 (Mule 4) and MuleSoft Integration Architect, with mock tests, real-time use cases, and trainer-led exam preparation.",
+
+title49: "Do you provide hands-on experience in the MuleSoft course in Chennai?",
+desc19: "Definitely. Our MuleSoft Training in Chennai includes real-world projects involving API creation, deployment in CloudHub, flow orchestration, and error handling in Mule applications.",
+
+title50: "Is there an online option for this MuleSoft Training in Chennai?",
+desc20: "Yes, we provide both classroom and live online MuleSoft Training in Chennai, allowing flexible learning with access to cloud labs, session recordings, and expert Q&A sessions.",
+
+title51: "What are the career opportunities after completing the MuleSoft course in Chennai?",
+desc21: "After training, you can work as a MuleSoft Developer, Integration Consultant, API Developer, or ESB Specialist in top MNCs that use MuleSoft for enterprise integrations.",
+
+title52: "Do you offer job assistance after MuleSoft Training in Chennai?",
+desc22: "As the Best MuleSoft Training Institute in Chennai, we offer end-to-end job support including resume building, interview preparation, and direct placement assistance with integration-focused companies.",
+
+title53: "What version of MuleSoft is used in the MuleSoft course in Chennai?",
+desc23: "We use the latest MuleSoft Anypoint Platform and Mule 4.x runtime in our MuleSoft Training in Chennai, ensuring you stay updated with the newest capabilities in enterprise-grade API development.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our MuleSoft course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -13510,19 +13696,67 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   title29: "HTML Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to HTML5",
-  title33: "Module 2: Elements, Tags & Attributes",
-  title34: "Module 3: Text Formatting & Semantic HTML",
-  title35: "Module 4: Lists, Tables & Forms",
-  title36: "Module 5: Multimedia Elements",
-  title37: "Module 6: Responsive Web Design Basics",
-  button5: "Download Curriculum",
-  topic1: ["HTML History & Basics", "Doctype Declaration", "HTML Document Structure", "Web Standards Overview", "Setting up Dev Environment"],
-  topic2: ["Common Tags", "Attributes Usage", "Block vs Inline Elements", "Div & Span", "Comments in HTML"],
-  topic3: ["Headings & Paragraphs", "Text Styles & Formatting", "Semantic Tags like article, section", "Accessibility Basics", "SEO Friendly HTML"],
-  topic4: ["Ordered & Unordered Lists", "Table Elements & Attributes", "Form Controls & Validation", "Input Types", "Form Submission"],
-  topic5: ["Images & Icons", "Audio & Video Embedding", "Canvas & SVG Basics", "Multimedia Formats", "Accessibility in Media"],
-  topic6: ["Introduction to CSS for Responsiveness", "Media Queries Basics", "Flexible Layouts", "Viewport Meta Tag", "Mobile-First Design"],
+title32: "Module 1: Introduction to HTML",
+title33: "Module 2: Basic HTML Tags and Elements",
+title34: "Module 3: Tables and Forms",
+title35: "Module 4: Semantic HTML",
+title36: "Module 5: Multimedia in HTML",
+title37: "Module 6: HTML Forms – Advanced",
+title57: "Module 7: HTML5 APIs",
+title58: "Module 8: Responsive Design Basics",
+title59: "Module 9: Code Validation and Deployment",
+title60: "Module 10: Final Project and Interview Preparation",
+button5: "Download Curriculum",
+topic1: [
+  "History and Importance of HTML",
+  "Structure of an HTML Document",
+  "Setting Up Development Environment (VS Code)"
+],
+topic2: [
+  "Headings, Paragraphs, Lists",
+  "Links and Anchors",
+  "Images and Attributes"
+],
+topic3: [
+  "Creating Tables and Nested Tables",
+  "HTML Forms and Input Types",
+  "Form Validation Basics"
+],
+topic4: [
+  "Semantic Tags (header, footer, article, section)",
+  "HTML5 vs Traditional HTML",
+  "Accessibility and Best Practices"
+],
+topic5: [
+  "Audio and Video Tags",
+  "Embedding YouTube Videos and Maps",
+  "iFrames and External Media"
+],
+topic6: [
+  "Form Elements: Radio, Checkbox, Select",
+  "Fieldsets, Legends, and Labels",
+  "Handling Form Actions"
+],
+topic7: [
+  "Geolocation API",
+  "Web Storage (Local & Session Storage)",
+  "Drag and Drop API"
+],
+topic8: [
+  "Introduction to Viewports and Media Queries",
+  "Mobile-Friendly Layouts",
+  "HTML in Bootstrap and Flexbox Integration"
+],
+topic9: [
+  "Using W3C Validator",
+  "Introduction to GitHub Pages",
+  "Uploading HTML Files to a Web Server"
+],
+topic10: [
+  "Building a Portfolio Website",
+  "HTML Interview Questions and Mock Interviews",
+  "Resume Building and Job Assistance"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for HTML in Chennai",
   title40: "Onsite Training:",
@@ -13548,31 +13782,45 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   designation3: "UI Developer",
   designation4: "HTML Trainee",
   designation5: "Junior Web Developer",
-  review1: "IntelliMindz’s HTML training gave me a solid foundation to start my web career.",
-  review2: "The hands-on labs and practical projects made learning easy and fun.",
-  review3: "Excellent trainers who explained everything clearly with real-world examples.",
-  review4: "Great support during and after the course. Helped me land my first job.",
-  review5: "Flexible batch timings helped me learn while working full-time.",
-  title44: "What is HTML used for?",
-  title45: "Who should take this HTML training?",
-  title46: "Do I need prior programming experience?",
-  title47: "Is HTML relevant in 2025?",
-  title48: "Can HTML help me become a web developer?",
-  title49: "Is this training available online?",
-  title50: "Will I get hands-on coding practice?",
-  title51: "Do you provide job assistance?",
-  title52: "Can I switch careers with this HTML course?",
-  title53: "Is HTML suitable for freshers?",
-  desc14: "HTML is the foundational markup language used to create web pages and web applications.",
-  desc15: "Beginners, students, and professionals aiming for a career in web development.",
-  desc16: "No prior coding experience required; we start from the basics.",
-  desc17: "Yes, HTML remains essential for building websites and web apps.",
-  desc18: "Yes, mastering HTML is the first step toward becoming a front-end developer.",
-  desc19: "Yes, we offer live online classes with interactive sessions.",
-  desc20: "Yes, every module includes coding exercises and projects.",
-  desc21: "Yes, we assist with resume building, interview prep, and job referrals.",
-  desc22: "Definitely, this course is ideal for career switchers and freshers alike.",
-  desc23: "Absolutely, our course is designed for beginners to learn HTML effectively.",
+review1: "I started as a complete beginner and the HTML Training in Chennai helped me understand how websites are built from the ground up. The trainer was very patient, and I built my first portfolio website by the end of the course.",
+
+review2: "This was more than just a course; it was career training. The HTML course in Chennai taught me how to write clean code, build responsive layouts, and prepare for interviews. I landed an internship within two weeks of completing the program.",
+
+review3: "I attended the online batch and was impressed by how interactive and hands-on the sessions were. We built multiple projects and got real-time feedback. The institute really is the Best HTML Training Institute in Chennai for working professionals.",
+
+review4: "After finishing the HTML Training in Chennai, I stayed in touch with the trainers for interview prep and project reviews. Their continued support helped me polish my skills and get shortlisted for multiple frontend roles.",
+
+review5: "This HTML course in Chennai was the perfect launchpad into web development. After learning HTML, I continued with CSS and JavaScript here. Today, I’m working as a front-end developer, and it all started with this institute.",
+title44: "Why should I choose your HTML Training in Chennai?",
+desc14: "Our HTML Training in Chennai is designed to build a strong foundation in web development, starting from HTML5 basics to advanced semantic markup. As the Best HTML Training Institute in Chennai, we offer hands-on practice and real-world projects to help students become proficient front-end developers.",
+
+title45: "What does the HTML course in Chennai cover?",
+desc15: "The HTML course in Chennai covers topics like HTML tags, forms, tables, multimedia integration, responsive design, and SEO-friendly structure. You’ll also learn how HTML interacts with CSS and JavaScript for modern web development.",
+
+title46: "Is this HTML Training in Chennai suitable for beginners?",
+desc16: "Yes, our HTML Training in Chennai is perfect for absolute beginners. Whether you're from a non-technical background or switching careers, the course builds your skills step-by-step with structured lessons and real-world examples.",
+
+title47: "What are the prerequisites for the HTML course in Chennai?",
+desc17: "There are no specific prerequisites. A basic understanding of using a computer and browser is enough to start the HTML course in Chennai. All foundational web development concepts are covered from scratch.",
+
+title48: "Do you offer certification with your HTML Training in Chennai?",
+desc18: "Yes, upon completion of our HTML Training in Chennai, you will receive a certificate recognized by leading tech companies. This will validate your ability to build structured, responsive, and accessible websites.",
+
+title49: "Will I get practical experience during the HTML course in Chennai?",
+desc19: "Absolutely. Our HTML course in Chennai includes hands-on assignments like building personal websites, blogs, portfolios, and static business pages using clean HTML5 and responsive design principles.",
+
+title50: "Is there an online option for the HTML Training in Chennai?",
+desc20: "Yes, we offer both classroom and online HTML Training in Chennai with live sessions, recorded classes, and instructor support for those who prefer flexible learning.",
+
+title51: "What tools are used in the HTML course in Chennai?",
+desc21: "The course covers tools like VS Code, browser dev tools, W3C validation services, and GitHub for version control. You'll learn to write clean and efficient code that meets industry standards.",
+
+title52: "Do you offer job assistance after the HTML Training in Chennai?",
+desc22: "Yes, as the Best HTML Training Institute in Chennai, we provide placement support including resume building, mock interviews, and referrals to web development firms and startups.",
+
+title53: "What career paths can I take after completing the HTML course in Chennai?",
+desc23: "You can pursue roles like Front-End Developer, Web Designer, or UI Developer. Learning HTML is also a gateway to mastering full-stack web development, including CSS, JavaScript, and frameworks like React.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our HTML course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -13657,19 +13905,67 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   title29: "Google Go Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to Go",
-  title33: "Module 2: Go Syntax and Basics",
-  title34: "Module 3: Functions, Methods & Interfaces",
-  title35: "Module 4: Concurrency with Goroutines and Channels",
-  title36: "Module 5: Error Handling and Testing",
-  title37: "Module 6: Real-Time Go Projects",
-  button5: "Download Curriculum",
-  topic1: ["Overview of Go Language", "Setting Up Go Environment", "Basic Syntax and Data Types", "Control Structures", "Working with Packages"],
-  topic2: ["Variables, Constants", "Arrays, Slices, and Maps", "Loops and Conditionals", "Pointers", "Structs"],
-  topic3: ["Functions and Methods", "Interfaces and Embedding", "Type Assertions", "Reflection Basics"],
-  topic4: ["Introduction to Concurrency", "Goroutines", "Channels and Select", "Synchronization Techniques", "Best Practices"],
-  topic5: ["Error Handling Patterns", "Testing in Go", "Benchmarking", "Logging and Debugging"],
-  topic6: ["Building a Web Server", "Concurrent Data Processing", "REST API Development", "Project Optimization and Deployment"],
+title32: "Module 1: Introduction to Google Go",
+title33: "Module 2: Go Language Fundamentals",
+title34: "Module 3: Arrays, Slices, and Maps",
+title35: "Module 4: Structs and Interfaces",
+title36: "Module 5: Concurrency in Go",
+title37: "Module 6: Error Handling and Logging",
+title57: "Module 7: File and Package Management",
+title58: "Module 8: Web Development with Go",
+title59: "Module 9: Database Integration",
+title60: "Module 10: Project & Certification Preparation",
+button5: "Download Curriculum",
+topic1: [
+  "Overview of Go Programming Language",
+  "Setting Up Go Environment",
+  "Hello World and Compilation"
+],
+topic2: [
+  "Variables, Constants, and Data Types",
+  "Control Flow (if, switch, for)",
+  "Functions and Scope"
+],
+topic3: [
+  "Creating and Modifying Arrays",
+  "Working with Slices",
+  "Maps and Key-Value Storage"
+],
+topic4: [
+  "Declaring and Using Structs",
+  "Methods and Embedding",
+  "Interfaces and Polymorphism"
+],
+topic5: [
+  "Goroutines Basics",
+  "Channels and Channel Operations",
+  "Buffered vs Unbuffered Channels"
+],
+topic6: [
+  "Custom Error Types",
+  "Defer, Panic, and Recover",
+  "Logging and Debugging Tools"
+],
+topic7: [
+  "Working with Files and Directories",
+  "Creating and Importing Packages",
+  "Dependency Management with go mod"
+],
+topic8: [
+  "Building a Basic Web Server",
+  "Handling HTTP Requests and Routing",
+  "JSON Parsing and Data Binding"
+],
+topic9: [
+  "Connecting with MySQL/PostgreSQL",
+  "Executing CRUD Operations",
+  "ORM Libraries in Go (e.g., GORM)"
+],
+topic10: [
+  "Final Capstone Project (REST API or Web App)",
+  "Mock Interview and Resume Prep",
+  "Google Go Certification Support"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for Google Go in Chennai",
   title40: "Onsite Training:",
@@ -13695,31 +13991,45 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   designation3: "Go Developer",
   designation4: "Junior Developer",
   designation5: "Full Stack Developer",
-  review1: "The Go training at IntelliMindz gave me the confidence to develop scalable applications using concurrency features effectively.",
-  review2: "Great hands-on projects and excellent trainers made learning Go easy and fun.",
-  review3: "The course content was comprehensive and well structured for beginners and experienced developers alike.",
-  review4: "I appreciated the small batch size and personalized attention during the sessions.",
-  review5: "Placement support helped me land a job as a Go developer in a reputed company.",
-  title44: "What is Go programming language?",
-  title45: "Who should learn Google Go?",
-  title46: "Do I need prior programming experience?",
-  title47: "Is Go relevant in 2025?",
-  title48: "What makes Go unique?",
-  title49: "Is the training available online?",
-  title50: "Will there be practical coding sessions?",
-  title51: "Do you provide placement assistance?",
-  title52: "Can beginners join this course?",
-  title53: "Is certification provided?",
-  desc14: "Go is an open-source, statically typed programming language designed by Google for building efficient, reliable software.",
-  desc15: "Developers aiming for backend, cloud infrastructure, and microservices development should learn Go.",
-  desc16: "Basic programming knowledge is helpful but not mandatory; we start from fundamentals.",
-  desc17: "Go is gaining popularity for scalable, concurrent applications and is widely used in the industry.",
-  desc18: "Go features simple syntax, built-in concurrency, and fast compilation, making it unique.",
-  desc19: "Yes, we offer online live sessions with real-time interaction and recorded materials.",
-  desc20: "Definitely, every session includes practical coding exercises and project work.",
-  desc21: "Yes, our placement team supports you with resume prep, mock interviews, and job placement.",
-  desc22: "Absolutely, beginners can start learning Go with our step-by-step guidance.",
-  desc23: "Course completion certificate is provided, helping you showcase your skills.",
+review1: "As someone shifting from Java, I found the Google Go Training in Chennai extremely useful. The trainer explained concepts like goroutines, channels, and structs with real-time examples. I’m now working on backend microservices at my new job.",
+
+review2: "The course structure, practical exercises, and placement help were excellent. I had no prior Go experience but this Google Go course in Chennai made everything simple. I landed a job in a tech startup within a month.",
+
+review3: "I joined the Google Go Training in Chennai to upskill for cloud-native development. The hands-on project on RESTful APIs helped me get confident with Go. Great faculty and solid job assistance.",
+
+review4: "Though I joined remotely, the support was fantastic. The trainer was responsive, and we had access to labs, assignments, and interview prep. I recommend this as the Best Google Go Training Institute in Chennai for working professionals.",
+
+review5: "The practical exposure and real-time case studies were the highlight. I completed the Google Go course in Chennai, created a REST API as a final project, and got placed with a product-based company.",
+title44: "What makes your Google Go Training in Chennai unique?",
+desc14: "Our Google Go Training in Chennai offers hands-on experience in developing scalable, high-performance applications using Golang. As the Best Google Go Training Institute in Chennai, we emphasize concurrency, microservices, and real-world application building.",
+
+title45: "What is covered in the Google Go course in Chennai?",
+desc15: "The Google Go course in Chennai includes Go syntax, functions, interfaces, goroutines, channels, web APIs, and deploying Go applications. You’ll also learn how to build concurrent and networked applications using Go.",
+
+title46: "Is this Google Go Training in Chennai suitable for beginners?",
+desc16: "Yes. This Google Go course in Chennai is suitable for both beginners and experienced developers looking to master Golang. The curriculum starts with basics and gradually moves to advanced concurrency and backend development topics.",
+
+title47: "Are there any prerequisites for the Google Go course in Chennai?",
+desc17: "Basic programming knowledge in any language like C, Java, or Python is recommended. Even if you’re new to Go, our Google Go Training in Chennai will guide you step-by-step through every concept.",
+
+title48: "Do you offer certification for the Google Go Training in Chennai?",
+desc18: "Yes. Upon successful completion of the Google Go course in Chennai, you’ll receive an industry-recognized certificate which adds credibility to your resume and helps in job placement.",
+
+title49: "What career opportunities can I expect after completing this course?",
+desc19: "After finishing the Google Go Training in Chennai, you can pursue roles like Golang Developer, Backend Engineer, or Cloud-Native Developer, especially in companies working with microservices, APIs, and DevOps.",
+
+title50: "Is placement support included with your Google Go course in Chennai?",
+desc20: "Yes. As the Best Google Go Training Institute in Chennai, we provide complete placement support—resume preparation, mock interviews, and access to job openings with top startups and tech firms.",
+
+title51: "Can I take this Google Go Training in Chennai online?",
+desc21: "Yes. We offer both classroom and online Google Go Training in Chennai with live instructor sessions, interactive exercises, and recorded video lectures.",
+
+title52: "Will I work on projects in the Google Go course in Chennai?",
+desc22: "Absolutely. Projects include building REST APIs, writing concurrent services, and integrating Go with SQL and NoSQL databases. These practical tasks are a core part of our Google Go Training in Chennai.",
+
+title53: "Why is your institute considered the Best Google Go Training Institute in Chennai?",
+desc23: "We offer industry-expert trainers, job-oriented curriculum, real-time projects, and strong placement support, making us the Best Google Go Training Institute in Chennai for both freshers and professionals.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our Google Go course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -13804,19 +14114,67 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   title29: "Ruby on Rails Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to Ruby Programming",
-  title33: "Module 2: Rails Framework and MVC Architecture",
-  title34: "Module 3: Routing and Controllers",
-  title35: "Module 4: Models, Databases, and Active Record",
-  title36: "Module 5: Views, Templates, and Asset Pipeline",
-  title37: "Module 6: Testing, Deployment, and Project Work",
-  button5: "Download Curriculum",
-  topic1: ["Ruby Syntax and Basics", "Object-Oriented Programming", "Blocks and Iterators", "Exception Handling", "File I/O"],
-  topic2: ["Rails Overview", "MVC Pattern", "Rails Directory Structure", "Gems and Bundler", "Rails Console"],
-  topic3: ["RESTful Routes", "Controllers and Actions", "Filters and Callbacks", "Strong Parameters", "Sessions and Cookies"],
-  topic4: ["Active Record Basics", "Database Migrations", "Associations", "Validations and Callbacks", "Query Interface"],
-  topic5: ["ERB Templates", "Layouts and Partials", "Asset Pipeline", "JavaScript Integration", "CSS and Styling"],
-  topic6: ["RSpec and Testing", "Deployment with Heroku", "Capstone Project", "Performance Tuning", "Code Review and Best Practices"],
+title32: "Module 1: Introduction to Ruby and Rails",
+title33: "Module 2: Ruby Language Basics",
+title34: "Module 3: Working with Rails Models",
+title35: "Module 4: Controllers and Views",
+title36: "Module 5: Forms and User Input",
+title37: "Module 6: Routing in Rails",
+title57: "Module 7: Layouts and Partials",
+title58: "Module 8: User Authentication",
+title59: "Module 9: Testing and Debugging",
+title60: "Module 10: Deployment and Final Project",
+button5: "Download Curriculum",
+topic1: [
+  "Introduction to Web Development and MVC",
+  "Installing Ruby, Rails, and RVM",
+  "First Rails App: Hello Rails!"
+],
+topic2: [
+  "Variables, Data Types, and Control Flow",
+  "Methods, Blocks, and Iterators",
+  "Object-Oriented Programming in Ruby"
+],
+topic3: [
+  "ActiveRecord and ORM Basics",
+  "Database Migrations and Validations",
+  "Associations: has_many, belongs_to"
+],
+topic4: [
+  "Creating Controllers and Actions",
+  "Embedded Ruby (ERB) and View Templates",
+  "Flash Messages and Params"
+],
+topic5: [
+  "Form Helpers and Form Tags",
+  "Handling Form Submissions",
+  "Strong Parameters and Mass Assignment"
+],
+topic6: [
+  "RESTful Routes and Resources",
+  "Nested Routes and Custom Paths",
+  "Route Helpers and Constraints"
+],
+topic7: [
+  "Application Layout and Yield",
+  "Using Partials for DRY Views",
+  "Custom Helpers and Assets Pipeline"
+],
+topic8: [
+  "Sessions and Cookies",
+  "Building Login/Logout System",
+  "Using Devise for Authentication"
+],
+topic9: [
+  "Writing Unit and Functional Tests",
+  "Debugging with byebug and Logs",
+  "Test-Driven Development (TDD) in Rails"
+],
+topic10: [
+  "Deploying to Heroku or Render",
+  "Final Capstone Project (CRUD App or Blog)",
+  "Interview Questions and Certification"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for Ruby on Rails in Chennai",
   title40: "Onsite Training:",
@@ -13842,31 +14200,45 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   designation3: "Software Developer",
   designation4: "Ruby on Rails Intern",
   designation5: "Full-Stack Developer",
-  review1: "The training helped me build solid Ruby on Rails skills and land a developer role quickly.",
-  review2: "Hands-on sessions and projects gave me practical exposure to real web applications.",
-  review3: "Trainers were knowledgeable and patiently cleared all my doubts.",
-  review4: "Support and interview preparation helped me confidently face job interviews.",
-  review5: "Highly recommend IntelliMindz for anyone wanting to learn Ruby on Rails effectively.",
-  title44: "What is Ruby on Rails used for?",
-  title45: "Who should take this Ruby on Rails training?",
-  title46: "Do I need programming experience?",
-  title47: "Is Ruby on Rails relevant in 2025?",
-  title48: "What technologies are covered in this course?",
-  title49: "Is the training available online?",
-  title50: "Will there be hands-on coding practice?",
-  title51: "Do you offer job placement support?",
-  title52: "Can I learn Ruby on Rails from a non-technical background?",
-  title53: "Is this course suitable for freshers?",
-  desc14: "Ruby on Rails is used for building scalable web applications with rapid development.",
-  desc15: "Web developers, programmers, and IT professionals looking to specialize in Rails.",
-  desc16: "Basic programming knowledge is helpful but we start from fundamentals.",
-  desc17: "Yes, Rails remains widely used for startups and enterprise apps in 2025.",
-  desc18: "Ruby, Rails, PostgreSQL, JavaScript, HTML, CSS, and testing tools.",
-  desc19: "Yes, live online classes with interactive labs are available.",
-  desc20: "Yes, every module includes coding exercises and projects.",
-  desc21: "Resume building and interview coaching are part of the course.",
-  desc22: "Yes, with dedication, non-tech learners can successfully complete this training.",
-  desc23: "Yes, freshers can build career-ready skills with our guidance.",
+review1: "I joined the Ruby on Rails Training in Chennai to move from PHP to a more modern framework. The course was very hands-on, and I built a real-world blog app with CRUD operations. This institute is truly the Best Ruby on Rails Training Institute in Chennai for working professionals.",
+
+review2: "The Ruby on Rails course in Chennai was beginner-friendly. The trainer explained everything—from Ruby syntax to Rails routing and APIs. After the course, I built my portfolio site and cracked interviews easily. Highly recommended!",
+
+review3: "Though I took the online Ruby on Rails Training in Chennai, it felt just like a classroom. The instructor answered all questions during the session, and the project-based approach kept me engaged. I landed a Rails internship within a month.",
+
+review4: "I had zero programming background before joining the Ruby on Rails course in Chennai. The lessons were well-structured, and the projects helped me grasp MVC architecture. This course made my career switch into tech possible.",
+
+review5: "After completing the Ruby on Rails Training in Chennai, the institute helped me build a portfolio and prepare for job interviews. Their career guidance made all the difference, and now I’m working as a backend developer.",
+title44: "Why choose your Ruby on Rails Training in Chennai?",
+desc14: "Our Ruby on Rails Training in Chennai is hands-on, project-oriented, and taught by industry professionals. As the Best Ruby on Rails Training Institute in Chennai, we focus on real-world application building and MVC architecture using the latest Rails version.",
+
+title45: "What is included in the Ruby on Rails course in Chennai?",
+desc15: "The Ruby on Rails course in Chennai covers core Ruby programming, MVC architecture, RESTful APIs, ActiveRecord, Rails routing, testing, and deployment. We also include Git, SQL, and HTML basics for full-stack web development readiness.",
+
+title46: "Is this Ruby on Rails Training in Chennai suitable for beginners?",
+desc16: "Yes. Our Ruby on Rails course in Chennai is structured for beginners with no prior coding experience. The course gradually introduces Ruby fundamentals and progresses to advanced Rails features like asset pipeline, layouts, and custom helpers.",
+
+title47: "What are the prerequisites for the Ruby on Rails course in Chennai?",
+desc17: "No strict prerequisites are needed. Basic programming or scripting knowledge is helpful but not mandatory. The Ruby on Rails Training in Chennai begins with Ruby fundamentals before jumping into Rails development.",
+
+title48: "Is certification provided after Ruby on Rails Training in Chennai?",
+desc18: "Yes, after successful course completion, we issue a certificate that’s recognized by hiring partners. Our Ruby on Rails course in Chennai also includes interview preparation and resume building tailored for web development jobs.",
+
+title49: "Will I get hands-on experience in your Ruby on Rails Training in Chennai?",
+desc19: "Absolutely. Our Ruby on Rails course in Chennai is filled with coding exercises, capstone projects, Git versioning, and Heroku deployment. You’ll build a working CRUD application from scratch during training.",
+
+title50: "Is online Ruby on Rails Training in Chennai available?",
+desc20: "Yes. We offer both classroom and online Ruby on Rails Training in Chennai, allowing learners to choose the mode that fits their schedule. All sessions include recordings, live interaction, and trainer support.",
+
+title51: "What career opportunities are available after the Ruby on Rails course in Chennai?",
+desc21: "After completing our Ruby on Rails Training in Chennai, you can apply for roles like Ruby Developer, Full Stack Developer, and Web Application Engineer in IT firms, SaaS companies, and startups.",
+
+title52: "What makes your institute the Best Ruby on Rails Training Institute in Chennai?",
+desc22: "We’re recognized as the Best Ruby on Rails Training Institute in Chennai for our expert-led instruction, job-centric curriculum, flexible schedules, and strong placement support across major tech companies.",
+
+title53: "Do you offer job assistance after the Ruby on Rails course in Chennai?",
+desc23: "Yes. We offer end-to-end job support including job referrals, portfolio development, LinkedIn optimization, and mock interviews, making our Ruby on Rails Training in Chennai ideal for career transitions and freshers alike.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our Ruby on Rails course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -13951,19 +14323,67 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   title29: "PHP Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to PHP",
-  title33: "Module 2: PHP Syntax and Operators",
-  title34: "Module 3: Control Structures and Functions",
-  title35: "Module 4: Working with Forms and User Input",
-  title36: "Module 5: PHP and MySQL Integration",
-  title37: "Module 6: MVC Frameworks and Project Work",
-  button5: "Download Curriculum",
-  topic1: ["PHP History & Features", "Installing PHP", "PHP Tools Setup", "Basic Syntax", "Variables & Data Types"],
-  topic2: ["Operators", "Expressions", "Type Juggling", "Constants", "Error Handling"],
-  topic3: ["Conditional Statements", "Loops", "Functions", "Include & Require", "Working with Arrays"],
-  topic4: ["GET & POST Methods", "Form Validation", "Sessions & Cookies", "File Upload Handling", "Security Practices"],
-  topic5: ["Database Connection", "CRUD Operations", "Prepared Statements", "Joins & Queries", "Transactions"],
-  topic6: ["Introduction to MVC", "Using Laravel Framework", "Routing & Controllers", "Views & Blade Templates", "Final Project Deployment"],
+title32: "Module 1: Introduction to PHP",
+title33: "Module 2: PHP Basics and Syntax",
+title34: "Module 3: Functions and Error Handling",
+title35: "Module 4: Forms and User Input",
+title36: "Module 5: Working with Sessions and Cookies",
+title37: "Module 6: File Handling and Upload",
+title57: "Module 7: Object-Oriented PHP",
+title58: "Module 8: PHP and MySQL Integration",
+title59: "Module 9: Introduction to MVC and Laravel Basics",
+title60: "Module 10: Final Project and Deployment",
+button5: "Download Curriculum",
+topic1: [
+  "History and Features of PHP",
+  "Installing XAMPP/LAMP/WAMP",
+  "Writing First PHP Script"
+],
+topic2: [
+  "Variables, Data Types, and Operators",
+  "Control Statements (If, Switch, Loops)",
+  "Working with Arrays"
+],
+topic3: [
+  "Defining and Calling Functions",
+  "Built-in PHP Functions",
+  "Exception Handling and Error Reporting"
+],
+topic4: [
+  "HTML Forms and PHP Integration",
+  "GET and POST Methods",
+  "Form Validation and Sanitization"
+],
+topic5: [
+  "Introduction to Sessions",
+  "Using Cookies in PHP",
+  "Managing User Authentication"
+],
+topic6: [
+  "Reading and Writing Files",
+  "Handling File Uploads",
+  "File Permissions and Security"
+],
+topic7: [
+  "Classes and Objects",
+  "Inheritance and Polymorphism",
+  "Magic Methods and Interfaces"
+],
+topic8: [
+  "Connecting PHP with MySQL",
+  "CRUD Operations using PHP and MySQL",
+  "Using PDO and MySQLi"
+],
+topic9: [
+  "Understanding MVC Architecture",
+  "Installing and Configuring Laravel",
+  "Routing, Controllers, and Views in Laravel"
+],
+topic10: [
+  "Building a Dynamic Web Application",
+  "Debugging and Optimization",
+  "Deploying PHP Application on Live Server"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for PHP in Chennai",
   title40: "Onsite Training:",
@@ -13989,31 +14409,45 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   designation3: "Backend Engineer",
   designation4: "PHP Trainee",
   designation5: "Full Stack Developer",
-  review1: "The PHP training was well-structured and helped me land a developer job quickly.",
-  review2: "Great hands-on exercises and patient trainers made learning enjoyable.",
-  review3: "Projects and real-world examples gave me the confidence to build apps.",
-  review4: "Excellent support and career guidance throughout the course.",
-  review5: "The course helped me upgrade my skills and advance my career in web development.",
-  title44: "What is PHP used for?",
-  title45: "Who should take this PHP training?",
-  title46: "Do I need prior programming experience?",
-  title47: "Is PHP still relevant in 2025?",
-  title48: "What frameworks are covered in this training?",
-  title49: "Is the training available online?",
-  title50: "Will there be hands-on practice?",
-  title51: "Do you offer job preparation support?",
-  title52: "Can I switch to PHP from a different domain?",
-  title53: "Is PHP training suitable for freshers?",
-  desc14: "PHP is a popular server-side scripting language used to build dynamic websites and web applications.",
-  desc15: "Anyone interested in web development, from beginners to experienced developers looking to upskill.",
-  desc16: "Basic programming knowledge helps but not mandatory. We start from fundamentals.",
-  desc17: "Yes, PHP continues to be widely used and in demand across industries.",
-  desc18: "We cover popular frameworks like Laravel to build modern PHP applications.",
-  desc19: "Yes, live and self-paced online training options are available.",
-  desc20: "Hands-on coding exercises and projects are included in every module.",
-  desc21: "Placement assistance, mock interviews, and resume help are provided.",
-  desc22: "Absolutely. Our course supports career switchers and newcomers alike.",
-  desc23: "Yes, our program is designed to help freshers start their development career.",
+review1: "I enrolled in the PHP Training in Chennai to enhance my web development skills. The trainers explained PHP concepts clearly with practical examples. I developed a fully functional blog during the course and secured a job shortly after.",
+
+review2: "The PHP course in Chennai was detailed and covered both basic and advanced topics. The placement team helped me polish my resume and practice interviews. Now I work as a backend developer in a reputed IT company.",
+
+review3: "The course had plenty of projects and assignments. I built an e-commerce website as my final project. The institute’s trainers were supportive and available for doubts. Highly recommended for PHP beginners.",
+
+review4: "As a working professional, I chose their online PHP Training in Chennai. The sessions were live, interactive, and fit my schedule. The course content is industry-relevant and helped me switch careers successfully.",
+
+review5: "I had no prior coding knowledge before joining. The structured PHP course in Chennai made complex topics easy to learn. I am thankful to the institute for the excellent placement support and guidance.",
+title44: "Why should I join your PHP Training in Chennai?",
+desc14: "Our PHP Training in Chennai offers hands-on learning with real-time projects, helping you master PHP programming from basics to advanced concepts. We are recognized as the Best PHP Training Institute in Chennai for quality training and placement support.",
+
+title45: "What topics are covered in the PHP course in Chennai?",
+desc15: "The PHP course in Chennai covers variables, arrays, functions, sessions, cookies, object-oriented PHP, MySQL integration, and MVC frameworks like Laravel. We also cover PHP security and best coding practices.",
+
+title46: "Is this PHP Training in Chennai suitable for beginners?",
+desc16: "Yes. Our PHP Training in Chennai is designed for beginners and professionals alike. We start with fundamental PHP syntax and gradually progress to building dynamic, database-driven websites.",
+
+title47: "Are there any prerequisites for the PHP course in Chennai?",
+desc17: "Basic knowledge of HTML and programming logic is helpful but not mandatory. Our PHP course in Chennai covers all essential fundamentals from scratch.",
+
+title48: "Do you provide certification after PHP Training in Chennai?",
+desc18: "Yes, after completing the PHP course in Chennai, you will receive a certificate from our institute, recognized by industry partners and employers.",
+
+title49: "Will I get hands-on experience during the PHP course in Chennai?",
+desc19: "Absolutely. Our PHP Training in Chennai emphasizes practical assignments and projects like building CMS, e-commerce sites, and CRUD applications to ensure strong hands-on skills.",
+
+title50: "Is online PHP Training in Chennai available?",
+desc20: "Yes, we offer flexible online and classroom options for our PHP Training in Chennai, with live interactive sessions and lifetime access to recorded lectures.",
+
+title51: "What career opportunities are available after PHP Training in Chennai?",
+desc21: "Post-training, you can work as a PHP Developer, Full Stack Developer, or Backend Developer in IT firms, startups, and digital agencies.",
+
+title52: "Why is your institute the Best PHP Training Institute in Chennai?",
+desc22: "We provide expert trainers, industry-relevant curriculum, personalized mentorship, and job assistance, making us the Best PHP Training Institute in Chennai.",
+
+title53: "Do you offer job placement support after PHP course in Chennai?",
+desc23: "Yes, we assist with resume building, interview preparation, and connect you with top companies hiring PHP developers, ensuring strong placement support.",
+
   title54: "Have a Question with Our",
   paragraph10: "Get answers to all your questions about our PHP training in Chennai here.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -14099,19 +14533,67 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   title29: "Joomla Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to Joomla CMS",
-  title33: "Module 2: Joomla Installation and Configuration",
-  title34: "Module 3: Joomla Components and Modules",
-  title35: "Module 4: Template Development and Customization",
-  title36: "Module 5: Joomla Security and SEO",
-  title37: "Module 6: Advanced Joomla Extensions and Real-Time Projects",
-  button5: "Download Curriculum",
-  topic1: ["Overview of CMS and Joomla", "Joomla Architecture", "Content Management Basics", "User Roles and Permissions"],
-  topic2: ["Installation Process", "Global Configuration Settings", "Menu Management", "Multilingual Sites"],
-  topic3: ["Creating and Managing Components", "Module Types and Positions", "Custom Module Development"],
-  topic4: ["Template Structure", "Template Overrides", "Responsive Design in Joomla"],
-  topic5: ["Security Best Practices", "SEO Optimization Techniques", "Performance Tuning"],
-  topic6: ["Popular Joomla Extensions", "Real-Time Joomla Project Work", "Backup and Migration", "Deployment Strategies"],
+title32: "Module 1: Introduction to Joomla",
+title33: "Module 2: Joomla Basics",
+title34: "Module 3: Joomla Templates",
+title35: "Module 4: Joomla Extensions",
+title36: "Module 5: User and Access Management",
+title37: "Module 6: SEO and Performance Optimization",
+title57: "Module 7: Advanced Content Management",
+title58: "Module 8: Joomla Security",
+title59: "Module 9: Multi-language and Localization",
+title60: "Module 10: Final Project and Deployment",
+button5: "Download Curriculum",
+topic1: [
+  "Overview of Joomla CMS and Its Uses",
+  "Installing Joomla on Local and Live Servers",
+  "Understanding Joomla Architecture"
+],
+topic2: [
+  "Joomla Control Panel Overview",
+  "Creating Articles and Managing Content",
+  "Understanding Categories and Menus"
+],
+topic3: [
+  "Introduction to Joomla Templates",
+  "Installing and Customizing Templates",
+  "Template Overrides and Layouts"
+],
+topic4: [
+  "Types of Joomla Extensions (Components, Modules, Plugins)",
+  "Installing and Configuring Extensions",
+  "Managing Extensions Effectively"
+],
+topic5: [
+  "Joomla User Groups and Access Levels",
+  "Creating and Managing Users",
+  "Setting Permissions and Security"
+],
+topic6: [
+  "Joomla SEO Best Practices",
+  "URL Rewriting and Metadata",
+  "Caching and Performance Enhancements"
+],
+topic7: [
+  "Content Versioning and Workflow",
+  "Article Tags and Custom Fields",
+  "Managing Media and Files"
+],
+topic8: [
+  "Securing Joomla Sites",
+  "Backup and Restore Procedures",
+  "Managing Spam and Vulnerabilities"
+],
+topic9: [
+  "Setting up Multi-language Joomla Sites",
+  "Translating Content and Menus",
+  "Language Switcher Module"
+],
+topic10: [
+  "Building a Complete Joomla Website",
+  "Testing and Debugging",
+  "Deployment and Maintenance Best Practices"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for Joomla in Chennai",
   title40: "Onsite Training:",
@@ -14137,31 +14619,45 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   designation3: "Frontend Developer",
   designation4: "CMS Specialist",
   designation5: "Web Designer",
-  review1: "IntelliMindz Joomla training gave me practical skills to build scalable CMS websites confidently.",
-  review2: "The hands-on approach and project work made learning Joomla easy and enjoyable.",
-  review3: "Flexible timings and expert trainers helped me balance learning with my job.",
-  review4: "The course helped me transition from a designer to a Joomla developer successfully.",
-  review5: "Excellent training with detailed modules and friendly support from mentors.",
-  title44: "What is Joomla used for?",
-  title45: "Who should learn Joomla?",
-  title46: "Do I need prior web development experience?",
-  title47: "Is Joomla still relevant in 2025?",
-  title48: "How does Joomla differ from other CMS platforms?",
-  title49: "Is online training available?",
-  title50: "Will I get to build real projects?",
-  title51: "Do you provide placement support?",
-  title52: "Can beginners join this course?",
-  title53: "Is certification provided?",
-  desc14: "Joomla is a powerful CMS used to build dynamic, user-friendly websites and online applications.",
-  desc15: "Web developers, designers, and CMS enthusiasts aiming to create flexible websites.",
-  desc16: "Basic knowledge of HTML and CSS is helpful but not mandatory.",
-  desc17: "Yes, Joomla continues to be popular for business websites and online portals.",
-  desc18: "Joomla offers greater flexibility and extensibility compared to some other CMS like WordPress.",
-  desc19: "Yes, we offer live online sessions with full instructor support.",
-  desc20: "Absolutely, you will develop real Joomla websites and modules during the course.",
-  desc21: "Yes, we provide resume assistance and job placement support.",
-  desc22: "Yes, beginners are welcome with step-by-step guidance provided.",
-  desc23: "Upon completion, you will receive an IntelliMindz certification.",
+review1: "The Joomla Training in Chennai helped me understand Joomla CMS inside out. The trainers were knowledgeable and patient. The hands-on projects gave me the confidence to build client websites independently.",
+
+review2: "This is the best institute to learn Joomla. The Joomla course in Chennai was thorough and included topics like extensions and template overrides. Placement support was excellent and helped me land a good job.",
+
+review3: "I took the online batch and was impressed by the personalized attention. The Joomla Training in Chennai course materials and live sessions helped me grasp complex Joomla features easily.",
+
+review4: "I had no prior CMS experience before joining this Joomla course in Chennai. The training was beginner-friendly and project-focused, which helped me start freelancing quickly.",
+
+review5: "The course covered Joomla SEO, content management, and advanced template customization. The practical approach and placement guidance make this the Best Joomla Training Institute in Chennai.",
+title44: "Why should I enroll in your Joomla Training in Chennai?",
+desc14: "Our Joomla Training in Chennai is designed to provide hands-on experience with Joomla CMS development, template customization, and extension integration. We are known as the Best Joomla Training Institute in Chennai for delivering industry-relevant Joomla skills.",
+
+title45: "What topics are covered in the Joomla course in Chennai?",
+desc15: "The Joomla course in Chennai covers Joomla installation, template development, module management, content creation, user management, SEO optimization, and Joomla extensions, preparing you to build professional websites.",
+
+title46: "Is this Joomla Training in Chennai suitable for beginners?",
+desc16: "Yes. Our Joomla Training in Chennai is perfect for beginners and web developers who want to master Joomla CMS from scratch and develop dynamic, responsive websites with ease.",
+
+title47: "Are there any prerequisites for the Joomla course in Chennai?",
+desc17: "Basic knowledge of HTML and CSS is helpful but not mandatory. Our Joomla course in Chennai starts with fundamentals and guides you through advanced Joomla functionalities.",
+
+title48: "Do you provide certification after Joomla Training in Chennai?",
+desc18: "Yes, upon completion of the Joomla course in Chennai, you will receive a certificate that’s recognized by employers and IT companies.",
+
+title49: "Will I get hands-on projects during Joomla Training in Chennai?",
+desc19: "Absolutely. You will work on live Joomla websites, template customization, and extension installations to gain real-world experience in our Joomla Training in Chennai.",
+
+title50: "Is online Joomla Training in Chennai available?",
+desc20: "Yes, we offer both classroom and online Joomla Training in Chennai, with live interactive sessions, recorded lectures, and expert trainer support.",
+
+title51: "What career opportunities are available after completing Joomla Training in Chennai?",
+desc21: "After this course, you can work as a Joomla Developer, Web Designer, or CMS Administrator in IT companies, digital agencies, and freelance projects.",
+
+title52: "Why is your institute called the Best Joomla Training Institute in Chennai?",
+desc22: "We have experienced trainers, practical curriculum, flexible timings, and strong placement support, making us the Best Joomla Training Institute in Chennai.",
+
+title53: "Do you provide job assistance after the Joomla course in Chennai?",
+desc23: "Yes, we assist with resume preparation, interview coaching, and job referrals to help you secure a Joomla developer role.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our Joomla course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -14246,19 +14742,67 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   title29: "Microsoft Hybris Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to SAP Commerce Cloud (Hybris)",
-  title33: "Module 2: Hybris Architecture and Data Modeling",
-  title34: "Module 3: Backoffice and Accelerator Modules",
-  title35: "Module 4: Extensions and Customization",
-  title36: "Module 5: Integration and Web Services",
-  title37: "Module 6: Real-Time Project and Deployment",
-  button5: "Download Curriculum",
-  topic1: ["Overview of SAP Commerce Cloud", "Hybris Features", "System Requirements", "Installation & Setup", "Hybris Backoffice Introduction"],
-  topic2: ["Hybris Data Model", "Items and Types", "FlexibleSearch Queries", "Model Service", "Type System"],
-  topic3: ["Backoffice Configuration", "Product Catalog", "Pricing and Promotions", "Order Management", "Customer Service"],
-  topic4: ["Creating Extensions", "Customizing Widgets", "Event Handling", "Impex Scripts", "CronJobs"],
-  topic5: ["Integration with Third-party Systems", "Web Services (SOAP & REST)", "Data Import and Export", "APIs", "Security"],
-  topic6: ["Project Planning", "Implementation", "Testing & Debugging", "Deployment Strategies", "Performance Optimization"],
+title32: "Module 1: Introduction to Microsoft Hybris",
+title33: "Module 2: Product and Catalog Management",
+title34: "Module 3: Order Management and Checkout",
+title35: "Module 4: Hybris Backoffice and Administration",
+title36: "Module 5: SAP and Third-Party Integration",
+title37: "Module 6: Storefront Development and Customization",
+title57: "Module 7: Hybris Service Layer",
+title58: "Module 8: Hybris Data Modeling and Persistence",
+title59: "Module 9: Testing and Debugging Hybris Applications",
+title60: "Module 10: Deployment and Project Work",
+button5: "Download Curriculum",
+topic1: [
+  "Overview of Hybris and E-commerce",
+  "Hybris Architecture and Components",
+  "Installing and Setting up Hybris"
+],
+topic2: [
+  "Creating and Managing Product Catalogs",
+  "Classification Systems and Categories",
+  "Pricing and Inventory Management"
+],
+topic3: [
+  "Shopping Cart and Checkout Process",
+  "Payment and Delivery Management",
+  "Order Fulfillment and Tracking"
+],
+topic4: [
+  "Using Hybris Backoffice",
+  "User Roles and Permissions",
+  "Managing System Configurations"
+],
+topic5: [
+  "Integrating Hybris with SAP ERP",
+  "Web Services and APIs",
+  "Middleware and Data Synchronization"
+],
+topic6: [
+  "SmartEdit and CMS Overview",
+  "Creating and Customizing Storefronts",
+  "Responsive Design and Themes"
+],
+topic7: [
+  "Understanding Service Layer Architecture",
+  "Developing Custom Services",
+  "Transaction Management"
+],
+topic8: [
+  "Item Types and FlexibleSearch",
+  "ImpEx Data Import and Export",
+  "Database Interaction Best Practices"
+],
+topic9: [
+  "Unit and Integration Testing",
+  "Using Hybris Logs and Debugging Tools",
+  "Performance Optimization"
+],
+topic10: [
+  "Deploying Hybris Applications",
+  "Final Project: End-to-End E-commerce Solution",
+  "Interview Preparation and Certification"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for Hybris in Chennai",
   title40: "Onsite Training:",
@@ -14284,31 +14828,45 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   designation3: "SAP Hybris Specialist",
   designation4: "Hybris Trainee",
   designation5: "Technical Lead",
-  review1: "The Hybris training at IntelliMindz was comprehensive and helped me understand core concepts clearly.",
-  review2: "Hands-on labs and real-time projects made the learning practical and effective.",
-  review3: "The trainers were knowledgeable and always available to clarify doubts.",
-  review4: "Great support during and after the course with interview preparation.",
-  review5: "I highly recommend IntelliMindz for anyone serious about a career in Hybris development.",
-  title44: "What is Microsoft Hybris used for?",
-  title45: "Who should take this Hybris training?",
-  title46: "Do I need prior SAP experience?",
-  title47: "Is Hybris relevant in 2025?",
-  title48: "What programming languages are used in Hybris?",
-  title49: "Is the training available online?",
-  title50: "Will there be hands-on practice?",
-  title51: "Do you offer job preparation support?",
-  title52: "Can I switch to Hybris from a non-IT background?",
-  title53: "Is Hybris training suitable for freshers?",
-  desc14: "Microsoft Hybris (SAP Commerce Cloud) is a powerful platform for enterprise e-commerce solutions used worldwide.",
-  desc15: "Developers, consultants, and IT professionals aiming to build expertise in commerce platforms.",
-  desc16: "Basic Java knowledge helps, but foundational concepts are taught from scratch.",
-  desc17: "Yes, Hybris remains a leading platform in enterprise commerce and is in demand.",
-  desc18: "Java, Spring Framework, and SAP Commerce Cloud APIs.",
-  desc19: "Yes, we offer live virtual classes with practical sessions.",
-  desc20: "Absolutely. The course includes project work and hands-on labs.",
-  desc21: "Yes, we provide resume assistance, mock interviews, and job referrals.",
-  desc22: "Yes, with commitment, non-IT professionals can learn and succeed.",
-  desc23: "Yes, freshers can start their career in Hybris with our training.",
+review1: "The Microsoft Hybris Training in Chennai helped me master Hybris architecture and customization. The trainers were knowledgeable and supportive. The hands-on projects made me job-ready, and I got placed quickly.",
+
+review2: "The course covered everything from basics to advanced integration with SAP. The placement support was excellent, and the real-time project exposure boosted my confidence.",
+
+review3: "The Microsoft Hybris in Chennai course was well-structured. Trainers clarified all doubts and provided real-time scenarios. I recommend this institute for anyone looking to build a career in Hybris.",
+
+review4: "The online sessions for Microsoft Hybris were interactive and detailed. The course content was up-to-date with industry standards. Placement assistance helped me land a role quickly.",
+
+review5: "I started with no Hybris knowledge but the training was clear and project-based. The institute’s guidance and placement support were invaluable in securing my first job.",
+title44: "Why should I choose your Microsoft Hybris Training in Chennai?",
+desc14: "Our Microsoft Hybris Training in Chennai offers practical, industry-aligned learning delivered by certified professionals. Recognized as the Best Microsoft Hybris Training Institute in Chennai, we ensure hands-on experience with the latest Hybris modules and e-commerce solutions.",
+
+title45: "What topics are covered in the Microsoft Hybris course in Chennai?",
+desc15: "The Microsoft Hybris in Chennai course covers core Hybris architecture, product and order management, SAP integration, storefront development, and customizing Hybris commerce suites, giving you full-stack e-commerce expertise.",
+
+title46: "Is this Microsoft Hybris Training in Chennai suitable for beginners?",
+desc16: "Yes. Whether you're new to Hybris or have some background in Java or e-commerce platforms, our Microsoft Hybris Training in Chennai starts with fundamentals and advances towards complex Hybris customization.",
+
+title47: "What prerequisites are needed for the Microsoft Hybris course in Chennai?",
+desc17: "Basic knowledge of Java, web technologies, and database concepts is recommended. However, our Microsoft Hybris Training in Chennai also covers essential foundational topics for beginners.",
+
+title48: "Do you provide certification after completing Microsoft Hybris Training in Chennai?",
+desc18: "Yes, all students receive a certificate upon successful completion of the Microsoft Hybris course in Chennai, which boosts your credibility in the job market.",
+
+title49: "Will I get hands-on project experience during the Microsoft Hybris Training in Chennai?",
+desc19: "Absolutely. Our Microsoft Hybris in Chennai course includes real-time projects such as storefront customization, product catalog configuration, and integration exercises.",
+
+title50: "Is online training available for Microsoft Hybris in Chennai?",
+desc20: "Yes, we offer flexible online and classroom Microsoft Hybris Training in Chennai, featuring live sessions, recorded videos, and expert mentor support.",
+
+title51: "What career opportunities can I expect after Microsoft Hybris Training in Chennai?",
+desc21: "After this training, you can work as a Hybris Developer, Commerce Consultant, or E-commerce Specialist with leading IT and retail companies.",
+
+title52: "Why is your institute considered the Best Microsoft Hybris Training Institute in Chennai?",
+desc22: "We offer experienced trainers, a job-focused curriculum, flexible batches, and strong placement assistance, making us the Best Microsoft Hybris Training Institute in Chennai.",
+
+title53: "Do you provide job placement assistance after the Microsoft Hybris course in Chennai?",
+desc23: "Yes, our placement team offers resume building, interview preparation, and direct job referrals, ensuring you get the best start after completing the Microsoft Hybris Training in Chennai.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our Microsoft Hybris course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -14393,19 +14951,67 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   title29: "Dell Boomi Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to Dell Boomi AtomSphere",
-  title33: "Module 2: Integration Process Design",
-  title34: "Module 3: Connectors and Data Mapping",
-  title35: "Module 4: Process Routing and Error Handling",
-  title36: "Module 5: API Management and Deployment",
-  title37: "Module 6: Real-Time Projects and Certification Prep",
-  button5: "Download Curriculum",
-  topic1: ["Dell Boomi Overview", "AtomSphere Components", "Integration Architecture", "Boomi Accounts & Environments", "Platform Features"],
-  topic2: ["Creating Integration Processes", "Shapes and Connectors", "Process Properties", "Data Flow Control", "Process Testing"],
-  topic3: ["Using Connectors", "Data Mapping Concepts", "Function Libraries", "Advanced Data Processing", "Transformation Logic"],
-  topic4: ["Process Routing", "Error Handling Mechanisms", "Event Notifications", "Exception Management", "Logging & Monitoring"],
-  topic5: ["API Design", "API Gateway", "Deployment Options", "Process Scheduling", "Version Control"],
-  topic6: ["End-to-End Integration Projects", "Mock Exams & Quizzes", "Certification Tips", "Interview Preparation", "Best Practices"],
+title32: "Module 1: Introduction to Dell Boomi",
+title33: "Module 2: Boomi Platform Basics",
+title34: "Module 3: Building Integration Processes",
+title35: "Module 4: Data Mapping and Transformation",
+title36: "Module 5: API Management",
+title37: "Module 6: Workflow Automation",
+title57: "Module 7: Advanced Connectors",
+title58: "Module 8: Testing and Debugging",
+title59: "Module 9: Deployment and Management",
+title60: "Module 10: Final Project and Interview Preparation",
+button5: "Download Curriculum",
+topic1: [
+  "Overview of Dell Boomi AtomSphere",
+  "Cloud Integration Concepts",
+  "Dell Boomi Architecture"
+],
+topic2: [
+  "Understanding Atoms and Molecules",
+  "Setting Up Boomi Account",
+  "Navigating the Boomi Interface"
+],
+topic3: [
+  "Creating and Deploying Processes",
+  "Connectors and Components",
+  "Process Shapes and Flow Control"
+],
+topic4: [
+  "Profile Types and Data Mapping",
+  "Using Map Functions and Formulas",
+  "Error Handling and Data Validation"
+],
+topic5: [
+  "Designing and Publishing APIs",
+  "API Security and Rate Limiting",
+  "Monitoring API Usage"
+],
+topic6: [
+  "Workflow Design and Automation Tools",
+  "Event-driven Processes",
+  "Scheduling and Notifications"
+],
+topic7: [
+  "Cloud Connectors (Salesforce, NetSuite, etc.)",
+  "On-premise Connector Setup",
+  "Custom Connector Development"
+],
+topic8: [
+  "Debugging Integration Processes",
+  "Logging and Error Tracking",
+  "Unit Testing Best Practices"
+],
+topic9: [
+  "Process Deployment Strategies",
+  "Atom Management and Clustering",
+  "Monitoring and Alerts"
+],
+topic10: [
+  "Building End-to-End Integration Solutions",
+  "Troubleshooting Real-World Scenarios",
+  "Resume Building and Mock Interviews"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for Dell Boomi in Chennai",
   title40: "Onsite Training:",
@@ -14431,31 +15037,45 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   designation3: "Cloud Architect",
   designation4: "Dell Boomi Trainee",
   designation5: "Middleware Engineer",
-  review1: "The practical labs helped me understand Dell Boomi's real-world integration capabilities.",
-  review2: "Trainers were very knowledgeable and explained concepts clearly with examples.",
-  review3: "This course enabled me to build and deploy integration solutions confidently.",
-  review4: "Excellent support during and after training. Placement assistance was valuable.",
-  review5: "I recommend IntelliMindz for anyone looking to start a career in cloud integration.",
-  title44: "What is Dell Boomi used for?",
-  title45: "Who should take this Dell Boomi training?",
-  title46: "Do I need prior integration experience?",
-  title47: "Is Dell Boomi relevant in 2025?",
-  title48: "What certifications can I get after this training?",
-  title49: "Is the training available online?",
-  title50: "Will I get hands-on practice?",
-  title51: "Do you offer job preparation support?",
-  title52: "Can I switch to Dell Boomi from a different tech domain?",
-  title53: "Is Dell Boomi suitable for freshers?",
-  desc14: "Dell Boomi is a leading cloud-based integration platform that connects applications and data seamlessly.",
-  desc15: "Integration specialists, developers, and IT professionals looking to advance their careers.",
-  desc16: "Basic IT knowledge is helpful but not mandatory as foundational concepts are covered.",
-  desc17: "Yes, Dell Boomi continues to be a top choice for cloud integrations in enterprises worldwide.",
-  desc18: "You can achieve Dell Boomi Professional Developer and Architect certifications.",
-  desc19: "Yes, live online batches with interactive sessions and labs are available.",
-  desc20: "Hands-on labs, projects, and simulations are part of the training curriculum.",
-  desc21: "Resume help, interview prep, and placement support are provided post-training.",
-  desc22: "Absolutely. Our course is designed to facilitate career transitions and upskilling.",
-  desc23: "Yes, even beginners can learn Dell Boomi with our step-by-step guidance.",
+review1: "The Dell Boomi Training in Chennai gave me a solid understanding of cloud integration platforms. The hands-on projects were very practical, and the trainers were supportive throughout.",
+
+review2: "I chose this institute because of their expert trainers and comprehensive course. The Dell Boomi course in Chennai covered everything from basic connectors to API management. Placement support was excellent.",
+
+review3: "The online batch for Dell Boomi was well-organized with interactive sessions. I could balance work and study easily. The real-time project assignments boosted my confidence.",
+
+review4: "I had limited knowledge of integration platforms before joining. This Dell Boomi Training in Chennai was structured to help me learn from scratch and build advanced integration solutions.",
+
+review5: "The placement team was very proactive and helped me with interview preparation. I landed a job as a Dell Boomi developer shortly after completing the course.",
+title44: "Why should I join your Dell Boomi Training in Chennai?",
+desc14: "Our Dell Boomi Training in Chennai offers comprehensive learning on cloud-based integration using Dell Boomi AtomSphere. As the Best Dell Boomi Training Institute in Chennai, we provide hands-on projects and expert guidance to ensure job readiness.",
+
+title45: "What topics are covered in the Dell Boomi course in Chennai?",
+desc15: "The Dell Boomi course in Chennai covers Boomi AtomSphere fundamentals, connectors, process building, API management, workflow automation, and integration with popular cloud and on-premise applications.",
+
+title46: "Is this Dell Boomi Training in Chennai suitable for beginners?",
+desc16: "Yes. Whether you are a fresher or an experienced professional, our Dell Boomi Training in Chennai is designed to start with basics and advance to complex integration scenarios.",
+
+title47: "Are there any prerequisites for the Dell Boomi course in Chennai?",
+desc17: "Basic knowledge of cloud computing and integration concepts is helpful but not mandatory. Our Dell Boomi Training in Chennai covers foundational concepts for all learners.",
+
+title48: "Do you provide certification after completing Dell Boomi Training in Chennai?",
+desc18: "Yes, we provide a completion certificate after the Dell Boomi course in Chennai, which is valued by IT companies and recruiters.",
+
+title49: "Will I get hands-on experience during the Dell Boomi Training in Chennai?",
+desc19: "Absolutely. You will work on real-time integration projects, API management, and process automation during the training for practical exposure.",
+
+title50: "Is online Dell Boomi Training in Chennai available?",
+desc20: "Yes, we offer both online and classroom options for Dell Boomi Training in Chennai, featuring live sessions, recorded videos, and continuous mentor support.",
+
+title51: "What career opportunities are available after Dell Boomi Training in Chennai?",
+desc21: "After this course, you can pursue roles like Dell Boomi Developer, Integration Specialist, or Cloud Integration Engineer in various IT sectors.",
+
+title52: "Why is your institute the Best Dell Boomi Training Institute in Chennai?",
+desc22: "We provide expert trainers, updated curriculum, flexible batch timings, and dedicated placement assistance, making us the Best Dell Boomi Training Institute in Chennai.",
+
+title53: "Do you provide job placement support after the Dell Boomi course in Chennai?",
+desc23: "Yes, our placement team assists with resume preparation, mock interviews, and job referrals to help you secure a position as a Dell Boomi professional.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our Dell Boomi course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -14540,19 +15160,67 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   title29: "PMP Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to PMP & Project Management",
-  title33: "Module 2: Project Integration Management",
-  title34: "Module 3: Project Scope Management",
-  title35: "Module 4: Project Schedule Management",
-  title36: "Module 5: Project Cost Management",
-  title37: "Module 6: Project Quality & Risk Management",
-  button5: "Download Curriculum",
-  topic1: ["Overview of PMP Certification", "PMI & PMBOK Guide Introduction", "Project Management Basics and Terminology"],
-  topic2: ["Develop Project Charter", "Manage Project Knowledge", "Monitor and Control Project Work"],
-  topic3: ["Plan Scope Management", "Collect Requirements", "Define and Control Scope"],
-  topic4: ["Plan Schedule Management", "Define Activities", "Sequence and Control Schedule"],
-  topic5: ["Estimate Costs", "Determine Budget", "Control Costs"],
-  topic6: ["Plan Quality Management", "Identify Risks", "Perform Risk Analysis", "Plan Risk Responses"],
+title32: "Module 1: Introduction to PMP and Project Management",
+title33: "Module 2: Project Integration Management",
+title34: "Module 3: Project Scope Management",
+title35: "Module 4: Project Schedule Management",
+title36: "Module 5: Project Cost Management",
+title37: "Module 6: Project Quality Management",
+title57: "Module 7: Project Resource Management",
+title58: "Module 8: Project Communication Management",
+title59: "Module 9: Project Risk Management",
+title60: "Module 10: Agile and Hybrid Project Management",
+button5: "Download Curriculum",
+topic1: [
+  "Overview of PMP Certification",
+  "Role and Responsibilities of a Project Manager",
+  "Project Life Cycle and Organization"
+],
+topic2: [
+  "Develop Project Charter",
+  "Project Management Plan Development",
+  "Direct and Manage Project Work"
+],
+topic3: [
+  "Plan Scope Management",
+  "Collect Requirements",
+  "Define and Validate Scope"
+],
+topic4: [
+  "Plan Schedule Management",
+  "Define Activities and Sequencing",
+  "Estimate Activity Durations and Develop Schedule"
+],
+topic5: [
+  "Plan Cost Management",
+  "Estimate Costs and Budgeting",
+  "Control Costs and Earned Value Management"
+],
+topic6: [
+  "Plan Quality Management",
+  "Manage Quality",
+  "Control Quality Techniques"
+],
+topic7: [
+  "Plan Resource Management",
+  "Acquire and Develop Team",
+  "Manage and Control Resources"
+],
+topic8: [
+  "Plan Communications Management",
+  "Manage Communications",
+  "Monitor Communications"
+],
+topic9: [
+  "Plan Risk Management",
+  "Identify Risks and Perform Qualitative Analysis",
+  "Plan Risk Responses and Monitor Risks"
+],
+topic10: [
+  "Agile Principles and Mindset",
+  "Scrum Framework and Roles",
+  "Hybrid Project Management Approaches"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for PMP in Chennai",
   title40: "Onsite Training:",
@@ -14578,31 +15246,45 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   designation3: "Project Coordinator",
   designation4: "PMP Certified Professional",
   designation5: "Business Analyst",
-  review1: "The PMP training was thorough and practical. The trainers helped me understand the exam patterns and real project scenarios.",
-  review2: "Excellent course material and flexible batch timings helped me balance work and study.",
-  review3: "The mock tests and exam tips gave me the confidence to pass the PMP certification on my first attempt.",
-  review4: "Great learning experience with hands-on workshops and individual attention from trainers.",
-  review5: "IntelliMindz helped me transform my career with PMP certification and better project management skills.",
-  title44: "What is PMP Certification?",
-  title45: "Who should take PMP training?",
-  title46: "Do I need prior project management experience?",
-  title47: "Is PMP certification valuable in 2025?",
-  title48: "How is PMP different from other certifications?",
-  title49: "Is the training available online?",
-  title50: "Will I get practical training and exam prep?",
-  title51: "Do you provide placement support?",
-  title52: "Can freshers join this course?",
-  title53: "Is the certification recognized globally?",
-  desc14: "PMP is a globally recognized project management certification offered by PMI, validating your skills to lead projects successfully.",
-  desc15: "Project managers, team leads, business analysts, and aspiring professionals aiming for PMP certification.",
-  desc16: "While experience helps, our course is structured to support beginners and professionals alike.",
-  desc17: "PMP continues to be highly valued across industries for project leadership and management roles.",
-  desc18: "PMP focuses on global project management standards, unlike other specialized certifications.",
-  desc19: "Yes, we offer flexible online training with recorded and live sessions.",
-  desc20: "You will get practical workshops, case studies, and mock exams for PMP preparation.",
-  desc21: "Yes, we offer resume assistance, interview coaching, and job support.",
-  desc22: "Absolutely, freshers interested in project management can enroll and succeed.",
-  desc23: "PMP is recognized worldwide and boosts your career opportunities.",
+review1: "The PMP Training in Chennai was thorough and aligned perfectly with PMI’s exam pattern. The trainers simplified complex concepts and provided lots of practice questions, helping me pass the PMP exam on my first attempt.",
+
+review2: "This institute offers excellent training material and expert guidance. The PMP course in Chennai prepared me for the exam and practical project management, improving my career prospects significantly.",
+
+review3: "I joined the online PMP Training in Chennai while working full-time. The live sessions were interactive, and the recorded videos helped me revise anytime. The placement support was a bonus.",
+
+review4: "The course was well-structured with real-life examples and mock tests. Trainers were approachable and focused on ensuring every student understands the PMP framework clearly.",
+
+review5: "Apart from the training, the institute helped me build a strong resume and prepared me for interviews. Thanks to their support, I landed a good role after completing the PMP course in Chennai.",
+title44: "Why should I join your PMP Training in Chennai?",
+desc14: "Our PMP Training in Chennai offers comprehensive coverage of the PMI PMP exam content outline, delivered by certified instructors. Recognized as the Best PMP Training Institute in Chennai, we provide practical training, exam tips, and real-world project scenarios.",
+
+title45: "What topics are covered in the PMP course in Chennai?",
+desc15: "The PMP course in Chennai covers the five process groups, ten knowledge areas, Agile project management, risk management, and quality control aligned with the latest PMP exam standards.",
+
+title46: "Is this PMP Training in Chennai suitable for beginners?",
+desc16: "Yes, the training is designed for both beginners and experienced professionals seeking PMP certification. Our PMP Training in Chennai starts with foundational project management concepts and advances to complex exam topics.",
+
+title47: "What are the prerequisites for the PMP course in Chennai?",
+desc17: "Candidates should have a secondary degree with at least 5 years of project management experience or a four-year degree with 3 years of experience. Our PMP Training in Chennai helps you fulfill PMI’s eligibility and prepares you for the exam.",
+
+title48: "Do you provide a PMP certification after completing the training?",
+desc18: "We provide a course completion certificate for the PMP course in Chennai, and extensive guidance on applying for the PMP exam through PMI for official certification.",
+
+title49: "Will I get hands-on experience during the PMP Training in Chennai?",
+desc19: "Yes, our PMP Training in Chennai includes practical case studies, mock exams, and interactive sessions to prepare you thoroughly for real-world project management challenges.",
+
+title50: "Is online PMP Training in Chennai available?",
+desc20: "Yes, we offer flexible online and classroom PMP Training in Chennai with live sessions, recorded lectures, and continuous trainer support.",
+
+title51: "What career benefits can I expect after PMP Training in Chennai?",
+desc21: "PMP certification boosts your project management career with higher salaries, leadership roles, and global recognition in industries like IT, construction, and finance.",
+
+title52: "Why are you considered the Best PMP Training Institute in Chennai?",
+desc22: "We offer experienced PMP-certified trainers, exam-focused curriculum, flexible batches, and strong placement assistance, making us the Best PMP Training Institute in Chennai.",
+
+title53: "Do you provide job placement support after the PMP course in Chennai?",
+desc23: "Yes, our placement team helps with resume preparation, interview coaching, and job referrals to help PMP-certified professionals get placed successfully.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our PMP course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -14687,19 +15369,67 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   title29: "Pentaho Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to Pentaho BI Suite",
-  title33: "Module 2: Pentaho Data Integration (PDI) Basics",
-  title34: "Module 3: Advanced ETL Design & Transformations",
-  title35: "Module 4: Reporting and Dashboard Development",
-  title36: "Module 5: Pentaho Server Administration",
-  title37: "Module 6: Real-Time Projects and Case Studies",
-  button5: "Download Curriculum",
-  topic1: ["Pentaho Overview", "BI Architecture", "Installation & Setup", "User Interface", "Pentaho Components"],
-  topic2: ["Spoon Tool", "Creating Jobs & Transformations", "Data Sources & Steps", "Scheduling & Monitoring", "Error Handling"],
-  topic3: ["Advanced Transformations", "Performance Tuning", "Data Cleansing", "Scripting in PDI", "Repository Management"],
-  topic4: ["Creating Reports", "Interactive Dashboards", "Pentaho Report Designer", "Data Visualization", "KPI Tracking"],
-  topic5: ["Server Configuration", "Security Setup", "User Roles & Permissions", "Backup & Recovery", "Troubleshooting"],
-  topic6: ["Implementing ETL Projects", "Dashboard Use Cases", "Performance Optimization", "Project Presentation", "Deployment"],
+title32: "Module 1: Introduction to Pentaho",
+title33: "Module 2: Pentaho Data Integration (PDI) Basics",
+title34: "Module 3: Data Extraction and Loading",
+title35: "Module 4: Data Transformation Techniques",
+title36: "Module 5: Pentaho Reporting",
+title37: "Module 6: Dashboard Development",
+title57: "Module 7: Scheduling and Automation",
+title58: "Module 8: Advanced Pentaho Features",
+title59: "Module 9: Pentaho Server and Administration",
+title60: "Module 10: Project and Interview Preparation",
+button5: "Download Curriculum",
+topic1: [
+  "Overview of Pentaho BI Suite",
+  "Pentaho Architecture and Components",
+  "Installing Pentaho Data Integration"
+],
+topic2: [
+  "Understanding ETL Concepts",
+  "PDI Transformation and Jobs",
+  "Using Spoon Interface"
+],
+topic3: [
+  "Connecting to Various Data Sources",
+  "Data Extraction Techniques",
+  "Loading Data into Target Systems"
+],
+topic4: [
+  "Filtering and Sorting Data",
+  "Using Lookup and Join Steps",
+  "Aggregation and Calculations"
+],
+topic5: [
+  "Designing Reports with Pentaho Report Designer",
+  "Creating Charts and Graphs",
+  "Report Formatting and Exporting"
+],
+topic6: [
+  "Pentaho Dashboard Designer Overview",
+  "Creating Interactive Dashboards",
+  "Using Components and Widgets"
+],
+topic7: [
+  "Automating ETL Jobs",
+  "Scheduling Reports and Processes",
+  "Monitoring and Logging"
+],
+topic8: [
+  "Handling Big Data with Pentaho",
+  "Pentaho and Hadoop Integration",
+  "Custom Scripting in PDI"
+],
+topic9: [
+  "Installing and Configuring Pentaho Server",
+  "User Management and Security",
+  "Deploying BI Solutions"
+],
+topic10: [
+  "End-to-End BI Project Implementation",
+  "Troubleshooting and Best Practices",
+  "Resume Building and Mock Interviews"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for Pentaho in Chennai",
   title40: "Onsite Training:",
@@ -14725,31 +15455,45 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   designation3: "Data Engineer",
   designation4: "Pentaho Trainee",
   designation5: "Business Intelligence Manager",
-  review1: "The Pentaho training at IntelliMindz was excellent, with plenty of hands-on exercises and real projects.",
-  review2: "Trainers were very knowledgeable and helped me clear complex concepts easily.",
-  review3: "The course gave me confidence to implement ETL pipelines in my organization.",
-  review4: "Great support during and after the course with interview preparation.",
-  review5: "Highly recommend IntelliMindz for anyone serious about learning Pentaho.",
-  title44: "What is Pentaho used for?",
-  title45: "Who should take this Pentaho training?",
-  title46: "Do I need prior ETL experience?",
-  title47: "Is Pentaho relevant in 2025?",
-  title48: "What tools are covered in the course?",
-  title49: "Is the training available online?",
-  title50: "Will there be hands-on practice?",
-  title51: "Do you offer job preparation support?",
-  title52: "Can I learn Pentaho from a non-technical background?",
-  title53: "Is this course suitable for freshers?",
-  desc14: "Pentaho is a powerful open-source BI tool for ETL, reporting, data visualization, and dashboarding.",
-  desc15: "ETL developers, BI analysts, data engineers, and IT professionals aiming to specialize in Pentaho.",
-  desc16: "Basic ETL or database knowledge helps but is not mandatory.",
-  desc17: "Yes, Pentaho remains widely used for enterprise data integration and analytics.",
-  desc18: "Pentaho Data Integration (PDI), Report Designer, Dashboard Designer, and Pentaho Server.",
-  desc19: "Yes, we offer live virtual and classroom training options.",
-  desc20: "Yes, extensive hands-on labs and real-time project work are included.",
-  desc21: "Resume guidance, interview prep, and job referrals available.",
-  desc22: "Yes, beginners with a keen interest can learn through our guided program.",
-  desc23: "Definitely. Freshers have successfully completed the training and secured jobs.",
+review1: "Enrolling in Pentaho Training in Chennai was a game-changer. The hands-on PDI exercises and Spoon demos helped me master ETL quickly. Post-training, I built robust sales dashboards and got hired as a BI Developer at a leading retail firm.",
+
+review2: "I researched multiple BI courses, and this Pentaho course in Chennai stood out for its real-world projects and expert mentors. The curriculum covered PRD, Mondrian cube design, and Pentaho Server, making job interviews a breeze.",
+
+review3: "As a working professional, I opted for the online Pentaho Training in Chennai. The live labs, recorded sessions, and prompt doubt-clearing sessions were invaluable. I completed the course confidently and transitioned into a Pentaho Consultant role.",
+
+review4: "Before the course, I was a SQL developer. The Pentaho course in Chennai taught me end-to-end BI workflows—from data integration to analytics dashboards. Within two months of finishing, I secured a promotion as a Senior BI Analyst.",
+
+review5: "The trainers at this Best Pentaho Training Institute in Chennai were industry veterans who provided personalized guidance. The capstone project on customer 360 reporting helped me showcase my skills to potential employers.",
+title44: "Why should I enroll in Pentaho Training in Chennai?",
+desc14: "Our Pentaho Training in Chennai delivers hands-on expertise in open-source BI, data integration (ETL with Kettle/Spoon), and analytics. As the Best Pentaho Training Institute in Chennai, we blend real-world scenarios with expert mentorship to make you job-ready.",
+
+title45: "What does the Pentaho course in Chennai cover?",
+desc15: "The Pentaho course in Chennai includes Pentaho Data Integration (PDI), report designer (PRD), Mondrian OLAP, dashboard creation, metadata modeling, and Pentaho Server deployment—giving you end-to-end BI platform skills.",
+
+title46: "Is this Pentaho Training in Chennai suitable for beginners?",
+desc16: "Yes. Whether you’re new to BI or have basic SQL experience, our Pentaho Training in Chennai starts with fundamentals of data warehousing and ETL before advancing to complex transformations and interactive dashboards.",
+
+title47: "What prerequisites are needed for the Pentaho course in Chennai?",
+desc17: "Basic knowledge of databases, SQL, and data warehousing concepts helps. Our Pentaho Training in Chennai also includes a quick refresher on relational modeling so even freshers can start building ETL jobs confidently.",
+
+title48: "Will I get hands-on projects in the Pentaho Training in Chennai?",
+desc18: "Absolutely. You’ll work on real-time case studies like customer 360 dashboards, sales reporting, and data migrations using Pentaho Data Integration (Spoon) for practical exposure.",
+
+title49: "Do you provide Pentaho certification guidance?",
+desc19: "We guide you through the Pentaho Certified DI Developer exam objectives and best practices. As the Best Pentaho Training Institute in Chennai, we ensure you have the study materials and mock tests needed to clear certification.",
+
+title50: "Is online Pentaho Training in Chennai available?",
+desc20: "Yes, we offer both classroom and live online Pentaho Training in Chennai with interactive labs, recorded sessions, and 24/7 access to our Pentaho sandbox environment for practice.",
+
+title51: "What career roles can I pursue after Pentaho course in Chennai?",
+desc21: "Post-training, you can work as a Pentaho Developer, BI Analyst, ETL Engineer, or Data Integration Specialist in sectors like retail, finance, and healthcare.",
+
+title52: "Why is your institute the Best Pentaho Training Institute in Chennai?",
+desc22: "We combine certified trainers, small batch sizes, a job-oriented curriculum, and dedicated placement support—earning us recognition as the Best Pentaho Training Institute in Chennai.",
+
+title53: "Do you offer placement assistance after Pentaho Training in Chennai?",
+desc23: "Yes. Our placement cell provides resume building, interview preparation, and connections with top MNCs and BI consultancies seeking Pentaho experts.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our Pentaho course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -14835,19 +15579,67 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   title29: "AngularJS Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to AngularJS",
-  title33: "Module 2: AngularJS Architecture and MVC",
-  title34: "Module 3: Directives and Expressions",
-  title35: "Module 4: Controllers and Scope",
-  title36: "Module 5: Services and Dependency Injection",
-  title37: "Module 6: Routing and Single Page Application",
-  button5: "Download Curriculum",
-  topic1: ["Overview of AngularJS", "Features and Benefits", "Setup and Installation", "Understanding SPA Concept", "AngularJS vs Other Frameworks"],
-  topic2: ["MVC Architecture", "Model, View, Controller Roles", "Two-way Data Binding", "Digest Cycle", "AngularJS Life Cycle"],
-  topic3: ["Built-in Directives", "Custom Directives", "Expressions and Filters", "DOM Manipulation", "Templates"],
-  topic4: ["Controllers Overview", "Scope Object", "Event Handling", "Forms and Validation", "Data Binding Techniques"],
-  topic5: ["Services Creation", "Factory vs Service", "Dependency Injection Concepts", "Using $http and $resource", "Promises and Async Calls"],
-  topic6: ["ngRoute Module", "Configuring Routes", "Nested Views", "Handling Navigation", "Deploying SPA"],
+title32: "Module 1: Introduction to Angular JS",
+title33: "Module 2: Angular JS Directives",
+title34: "Module 3: Controllers and Modules",
+title35: "Module 4: Data Binding and Expressions",
+title36: "Module 5: Services and Factories",
+title37: "Module 6: Routing and Navigation",
+title57: "Module 7: Forms and Validation",
+title58: "Module 8: Angular JS Events and DOM Manipulation",
+title59: "Module 9: Testing Angular JS Applications",
+title60: "Module 10: Real-Time Project and Deployment",
+button5: "Download Curriculum",
+topic1: [
+  "Overview of Angular JS Framework",
+  "Features and Benefits",
+  "Setting up Development Environment"
+],
+topic2: [
+  "Built-in Directives (ng-model, ng-repeat)",
+  "Custom Directives",
+  "Directive Scope and Controllers"
+],
+topic3: [
+  "Creating and Using Controllers",
+  "Understanding Modules",
+  "Dependency Injection"
+],
+topic4: [
+  "One-way and Two-way Data Binding",
+  "Angular Expressions",
+  "Filters and Formatting Data"
+],
+topic5: [
+  "Built-in Services",
+  "Creating Custom Services",
+  "Using Factories in Angular JS"
+],
+topic6: [
+  "Configuring Routes",
+  "Using ngRoute and ui-router",
+  "Route Parameters and Nested Views"
+],
+topic7: [
+  "Template-driven Forms",
+  "Form Validation Techniques",
+  "Custom Validators"
+],
+topic8: [
+  "Handling Events",
+  "DOM Manipulation using Angular JS",
+  "Using $scope and $apply"
+],
+topic9: [
+  "Unit Testing with Jasmine",
+  "End-to-End Testing with Protractor",
+  "Debugging Techniques"
+],
+topic10: [
+  "Building a Complete Angular JS Application",
+  "Best Practices in Project Development",
+  "Deployment on Web Servers"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for AngularJS in Chennai",
   title40: "Onsite Training:",
@@ -14873,31 +15665,45 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   designation3: "UI Engineer",
   designation4: "AngularJS Trainee",
   designation5: "Software Engineer",
-  review1: "The hands-on labs and projects helped me build confidence as an AngularJS developer.",
-  review2: "Excellent trainer support and clear explanations of complex concepts.",
-  review3: "The course content was comprehensive and aligned with industry requirements.",
-  review4: "Great mentorship and career guidance post-training.",
-  review5: "Highly recommended for anyone serious about mastering AngularJS.",
-  title44: "What is AngularJS used for?",
-  title45: "Who should take this AngularJS training?",
-  title46: "Do I need prior JavaScript experience?",
-  title47: "Is AngularJS still relevant in 2025?",
-  title48: "What’s the difference between AngularJS and Angular?",
-  title49: "Is the training available online?",
-  title50: "Will there be hands-on practice?",
-  title51: "Do you offer job preparation support?",
-  title52: "Can I switch to AngularJS from another technology?",
-  title53: "Is AngularJS suitable for freshers?",
-  desc14: "AngularJS is a JavaScript-based framework used for building dynamic single-page web applications.",
-  desc15: "Front-end developers, UI designers, and freshers aspiring to enter web development.",
-  desc16: "Basic JavaScript knowledge is helpful but not mandatory. We start with fundamentals.",
-  desc17: "Yes, AngularJS still powers many legacy projects and learning it helps in understanding Angular.",
-  desc18: "AngularJS is the older version based on JavaScript, Angular (2+) is a newer TypeScript-based framework.",
-  desc19: "Yes, we offer live virtual classes with hands-on exercises.",
-  desc20: "Absolutely, each module includes practical coding assignments and projects.",
-  desc21: "Yes, resume building, mock interviews, and placement support are included.",
-  desc22: "Definitely. Our course helps you transition smoothly from other technologies.",
-  desc23: "Yes, beginners can easily learn AngularJS with our structured training program.",
+review1: "The Angular JS Training in Chennai at IntelliMindz completely changed how I build web apps. From understanding controllers and $scope to crafting custom directives, every session was packed with practical examples. The real-time task manager project I built during training landed me my first role as an AngularJS Developer.",
+
+review2: "I compared several institutes before enrolling. This Angular JS course in Chennai was by far the most comprehensive. The trainers explained two-way data binding and dependency injection clearly, and the small batch size ensured individual attention. Their placement team guided me through AngularJS interview questions and best practices.",
+
+review3: "Coming from a PHP background, I found the Angular JS Training in Chennai incredibly beginner-friendly. The initial modules on JavaScript essentials and MVC patterns built a strong foundation. By the time we tackled RESTful service integration and routing with ui-router, I was confident enough to build a complete single-page e-commerce app.",
+
+review4: "I took the online Angular JS course in Chennai alongside my job. The recorded videos and live doubt-clearing sessions made learning smooth. The institute’s post-training support helped me debug complex digest cycle issues in my production apps.",
+
+review5: "After completing the Best Angular JS Training Institute in Chennai, I cracked the interview at a major IT firm within weeks. The project I showcased—a real-time chat UI built with AngularJS and WebSocket—impressed recruiters. I saw a 30% hike in my annual package!",
+title44: "Why should I choose your Angular JS Training in Chennai?",
+desc14: "Our Angular JS Training in Chennai offers hands-on labs, real-world SPA development projects, and certified trainers. As the Best Angular JS Training Institute in Chennai, we focus on two-way data binding, MVC architecture, and performance optimization.",
+
+title45: "What will I learn in the Angular JS course in Chennai?",
+desc15: "The Angular JS course in Chennai covers controllers, directives, services, dependency injection, routing with ui-router, and RESTful API integration, enabling you to build dynamic single-page applications.",
+
+title46: "Is this Angular JS Training in Chennai suitable for beginners?",
+desc16: "Yes. Our Angular JS Training in Chennai starts with JavaScript fundamentals and CSS integration, then advances to custom directives, filters, and module organization—perfect for newcomers to front-end frameworks.",
+
+title47: "What prerequisites are required for the Angular JS course in Chennai?",
+desc17: "Basic knowledge of HTML, CSS, and core JavaScript is recommended. Our Angular JS course in Chennai bridges any gaps with introductory sessions on ES5/ES6 features and jQuery alternatives.",
+
+title48: "Do you provide certification after completing Angular JS Training in Chennai?",
+desc18: "Absolutely. You’ll receive a professional certificate from the Best Angular JS Training Institute in Chennai upon finishing the Angular JS course in Chennai, validating your skills for employers.",
+
+title49: "Will I work on real-time projects during the Angular JS Training in Chennai?",
+desc19: "Yes. You’ll build projects like a task manager SPA, e-commerce product filter, and real-time chat UI—key long-tail keywords that showcase your mastery of AngularJS directives and components.",
+
+title50: "How is the batch schedule for the Angular JS course in Chennai?",
+desc20: "We offer weekday evening and weekend batches for our Angular JS Training in Chennai, plus flexible online options with recorded sessions, ensuring you can learn without disrupting your routine.",
+
+title51: "What makes this the Best Angular JS Training Institute in Chennai?",
+desc21: "We combine small class sizes, one-on-one mentor support, up-to-date curriculum aligned with AngularJS 1.8, and robust placement assistance—earning our reputation as the Best Angular JS Training Institute in Chennai.",
+
+title52: "Do you offer post-training support after the Angular JS course in Chennai?",
+desc22: "Yes, you get three months of email support, access to our alumni forum, and weekly doubt-clearing webinars to reinforce concepts like $scope hierarchy, digest cycles, and module lazy loading.",
+
+title53: "What career roles can I pursue after Angular JS Training in Chennai?",
+desc23: "Graduates of our Angular JS course in Chennai can step into roles such as AngularJS Developer, Front-End Engineer, or UI/UX Integrator in IT services, product companies, and startups focusing on single-page application development.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our AngularJS course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -15045,31 +15851,45 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
   designation3: "IT Support Specialist",
   designation4: "DevOps Engineer",
   designation5: "PowerShell Developer",
-  review1: "The PowerShell training was very practical, and the trainers explained concepts clearly with real-world examples.",
-  review2: "I was able to automate many of my daily tasks after completing this course, which boosted my productivity.",
-  review3: "Great course for anyone looking to enhance their Windows administration skills.",
-  review4: "The hands-on labs and instructor support made all the difference in understanding PowerShell scripting.",
-  review5: "IntelliMindz’s placement assistance helped me land a great job in IT automation.",
-  title44: "What is Windows PowerShell?",
-  title45: "Who should take this PowerShell training?",
-  title46: "Do I need prior scripting experience?",
-  title47: "Is PowerShell relevant in 2025?",
-  title48: "What can I automate with PowerShell?",
-  title49: "Is the training available online?",
-  title50: "Will I get hands-on practice?",
-  title51: "Do you provide placement support?",
-  title52: "Can beginners join this course?",
-  title53: "Is certification provided?",
-  desc14: "Windows PowerShell is a powerful scripting language and automation framework for Windows system management.",
-  desc15: "Ideal for system administrators, IT professionals, and DevOps engineers seeking to automate Windows tasks.",
-  desc16: "No prior scripting knowledge is needed; the course starts with basics and builds up to advanced topics.",
-  desc17: "PowerShell remains an essential tool for Windows automation and is widely used in modern IT operations.",
-  desc18: "You can automate tasks like user management, process control, configuration, and cloud integration.",
-  desc19: "Yes, we offer both live online and classroom-based PowerShell training.",
-  desc20: "Absolutely, with practical labs and real-world scripting projects included.",
-  desc21: "Yes, we provide full placement support including mock interviews and resume assistance.",
-  desc22: "Yes, beginners are welcome and get comprehensive learning support.",
-  desc23: "Upon completion, you will receive a course completion certificate and be prepared for certification exams.",
+review1: "Enrolling in the Windows PowerShell Training in Chennai at IntelliMindz was a game-changer. The hands-on labs on Active Directory automation and scheduled scripts helped me reduce manual workload by 70%. Strongly recommend this as the Best Windows PowerShell Training Institute in Chennai!",
+
+review2: "The Windows PowerShell course in Chennai covered everything from pipelines to Desired State Configuration. I built modules for server health checks and automated backups. The trainer’s real-world tips were invaluable for our production environment.",
+
+review3: "As a working professional, the online Windows PowerShell Training in Chennai fit perfectly into my schedule. Live sessions, downloadable labs, and prompt doubt-clearing on the forum made learning seamless. I now write advanced scripts daily!",
+
+review4: "After completing the Windows PowerShell course in Chennai, I passed the Microsoft MTA exam and secured a promotion. The placement support, resume guidance, and interview prep were top-notch.",
+
+review5: "The institute’s focus on the latest PowerShell 7 features, module creation, and Azure integration set it apart. The capstone project on automated Azure VM provisioning was particularly impressive.",
+title44: "Why should I choose your Windows PowerShell Training in Chennai?",
+desc14: "Our Windows PowerShell Training in Chennai combines hands-on scripting labs with real-world automation scenarios. As the Best Windows PowerShell Training Institute in Chennai, we emphasize practical experience with cmdlets, modules, and advanced task automation.",
+
+title45: "What does the Windows PowerShell course in Chennai cover?",
+desc15: "The Windows PowerShell course in Chennai covers PowerShell basics, object-based scripting, remoting, module creation, Desired State Configuration (DSC), and integrating PowerShell with Azure and Active Directory.",
+
+title46: "Who can benefit from this Windows PowerShell Training in Chennai?",
+desc16: "System administrators, DevOps engineers, network admins, and developers eager to streamline Windows administration, automate repetitive tasks, and build configuration scripts will gain from our Windows PowerShell Training in Chennai.",
+
+title47: "Are there any prerequisites for the Windows PowerShell course in Chennai?",
+desc17: "A basic understanding of Windows OS and networking is helpful. No prior scripting experience is required—our Windows PowerShell Training in Chennai starts with commands and pipelines before moving to advanced topics like error handling and script debugging.",
+
+title48: "What hands-on projects are included in the Windows PowerShell course in Chennai?",
+desc18: "You’ll build real-world automation workflows: bulk user creation in Active Directory, automated patch-management scripts, Azure Resource provisioning with PowerShell, and log-file analysis using custom modules.",
+
+title49: "Is this Windows PowerShell Training in Chennai certification-oriented?",
+desc19: "Yes. We align our Windows PowerShell course in Chennai with Microsoft’s certification paths (such as MTA: Windows Server Administration Fundamentals and PowerShell focused exams), offering mock tests, exam tips, and study resources.",
+
+title50: "Do you provide online Windows PowerShell Training in Chennai?",
+desc20: "Absolutely. We offer both classroom and live online Windows PowerShell Training in Chennai, complete with recorded sessions, downloadable labs, and 24/7 forum access for doubt resolution.",
+
+title51: "What makes your institute the Best Windows PowerShell Training Institute in Chennai?",
+desc21: "We boast certified Microsoft trainers, small batch sizes for personalized coaching, up-to-date curriculum covering PowerShell 7+, and dedicated placement support, distinguishing us as the Best Windows PowerShell Training Institute in Chennai.",
+
+title52: "How long is the Windows PowerShell course in Chennai?",
+desc22: "The Windows PowerShell course in Chennai spans 30 hours over 4 weeks, with flexible weekend and evening batches. You’ll progress from running basic cmdlets to writing advanced automation scripts by course end.",
+
+title53: "What post-training support is available after Windows PowerShell Training in Chennai?",
+desc23: "We provide three months of email and forum support, access to updated lab exercises, monthly webinars on new PowerShell features, and career counseling to help you implement automation in your workplace.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our Windows PowerShell course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -21183,19 +22003,27 @@ desc23: "The Unix training course typically spans 30 to 40 hours, with options f
   title29: "RPA Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to RPA",
-  title33: "Module 2: UiPath Basics and Studio",
-  title34: "Module 3: Workflow and Automation Concepts",
-  title35: "Module 4: Web and Desktop Automation",
-  title36: "Module 5: Orchestrator, Queues, and Scheduling",
-  title37: "Module 6: Real-Time Automation Projects",
-  button5: "Download Curriculum",
-  topic1: ["What is RPA?", "RPA Tools Overview", "Benefits of RPA", "RPA Life Cycle", "Industry Use Cases"],
-  topic2: ["Installing UiPath Studio", "Variables and Data Types", "Control Flow Activities", "Sequences and Flowcharts"],
-  topic3: ["Selectors", "Data Scraping", "Excel & File Automation", "Email Automation", "Exception Handling"],
-  topic4: ["Web Recording", "Desktop Recording", "Application Automation", "Working with PDFs"],
-  topic5: ["Orchestrator Basics", "Assets and Queues", "Publishing and Scheduling Bots", "Logging and Monitoring"],
-  topic6: ["Building End-to-End Bots", "Automation of Business Scenarios", "Debugging Techniques", "Bot Optimization", "Final Assessment"],
+title32: "Module 1: Introduction to RPA",
+title33: "Module 2: UiPath Tool Basics",
+title34: "Module 3: Variables and Data Manipulation",
+title35: "Module 4: Recording and Automation",
+title36: "Module 5: Workflow and Error Handling",
+title37: "Module 6: Selectors and UI Interaction",
+title57: "Module 7: Excel, Email & File Automation",
+title58: "Module 8: Orchestrator and Bot Deployment",
+title59: "Module 9: Real-Time Projects and Case Studies",
+title60: "Module 10: Certification & Exam Preparation",
+button5: "Download Curriculum",
+topic1: ["What is RPA and its business benefits", "Types of automation and RPA use cases", "Popular RPA tools overview"],
+topic2: ["UiPath Studio interface", "Workflow types: Sequence, Flowchart", "Creating and managing simple bots"],
+topic3: ["Data types and variables", "Control flow: loops and decisions", "Data tables and string manipulations"],
+topic4: ["Basic and desktop recording", "Web and image automation", "Hands-on recording exercises"],
+topic5: ["Creating reusable workflows", "Exception handling and logging", "Debugging techniques"],
+topic6: ["Understanding selectors", "Dynamic selector creation", "UI automation best practices"],
+topic7: ["Automating Excel operations", "Working with email and attachments", "File system operations with bots"],
+topic8: ["Introduction to UiPath Orchestrator", "Publishing and scheduling bots", "Managing robots and assets"],
+topic9: ["End-to-end process automation", "Use case implementation (Invoice, HR, CRM)", "Process documentation and reviews"],
+topic10: ["Mock tests and certification roadmap", "UiPath and Automation Anywhere exam guidance", "Interview questions and portfolio support"],
   title38: "Batch Details",
   title39: "Corporate Training Modes for RPA in Chennai",
   title40: "Onsite Training:",
@@ -21221,31 +22049,41 @@ desc23: "The Unix training course typically spans 30 to 40 hours, with options f
   designation3: "Business Process Analyst",
   designation4: "Junior RPA Engineer",
   designation5: "Process Automation Lead",
-  review1: "Thanks to IntelliMindz, I transitioned into an RPA role with strong UiPath skills.",
-  review2: "The training was hands-on and aligned with real-world automation scenarios.",
-  review3: "Good structure and great trainers. I was able to automate tasks in my company post-training.",
-  review4: "Beginner-friendly and packed with practical insights. I highly recommend it.",
-  review5: "IntelliMindz’s placement support helped me crack my first RPA developer role.",
+review1: "IntelliMindz provided the best RPA training in Chennai with a well-structured curriculum and highly experienced trainers who delivered the sessions with great clarity. The classes were interactive, filled with real-time automation scenarios, and helped me build bots using tools like UiPath and Automation Anywhere. This training in Chennai was exactly what I needed to transition into the Robotic Process Automation field and boost my career in intelligent automation.",
+review2: "As a complete beginner in automation, I was looking for a comprehensive RPA course in Chennai that could guide me from the basics to advanced bot development. IntelliMindz exceeded my expectations with in-depth coverage of RPA tools, process design, and automation lifecycle. Their clear explanations, practical assignments, and hands-on labs gave me the confidence to start working on real-world projects. I can say without doubt this is the best training institute in Chennai for aspiring RPA professionals.",
+review3: "This is undoubtedly the best training institute in Chennai for those who want to gain strong practical knowledge of RPA concepts and tools. From understanding business process automation to deploying bots on production, I received end-to-end support including live project experience and personalized mentorship. The RPA training in Chennai helped me switch from manual operations to automation, advancing my career in a smooth and structured manner with professional guidance throughout.",
+review4: "The RPA course in Chennai offered by IntelliMindz was packed with hands-on sessions, real-time automation projects, and tool-based practice using UiPath and Blue Prism. It not only helped me understand the RPA framework and workflows but also enabled me to apply automation in my current business processes efficiently. I highly recommend this training to anyone looking for industry-relevant and practical RPA learning in Chennai with job-ready skills.",
+review5: "After enrolling in IntelliMindz’s RPA training in Chennai, I successfully cleared my UiPath certification and started working on real-time automation use cases. The trainers were industry experts and explained concepts like selectors, orchestrator, and exception handling with great clarity. Their structured learning path, combined with high-quality resources, made it easy for me to master RPA tools. I now feel highly confident in applying RPA solutions at work and exploring further career growth in intelligent automation.",
   title44: "What is RPA used for?",
+  desc14: "RPA (Robotic Process Automation) is used to automate repetitive, rule-based business processes using software bots. It enhances efficiency, reduces errors, and saves operational costs.",
+  
   title45: "Who should take this RPA training?",
+  desc15: "This RPA training in Chennai is ideal for software developers, business analysts, system administrators, fresh graduates, IT professionals, and anyone interested in automation technologies.",
+  
   title46: "Do I need coding knowledge for RPA?",
+  desc16: "No prior coding experience is required. While basic knowledge helps, RPA is largely low-code and our training is beginner-friendly, ensuring all learners can follow the tools and concepts.",
+  
   title47: "Is RPA in demand in 2025?",
+  desc17: "Yes, RPA continues to be a highly in-demand skill in 2025 as industries seek digital transformation through automation solutions.",
+  
   title48: "Which RPA tools are covered in this training?",
+  desc18: "Our RPA course in Chennai focuses on leading tools such as UiPath, Automation Anywhere, and Blue Prism with hands-on practice and real-time use cases.",
+  
   title49: "Is the training available online?",
+  desc19: "Yes, we offer live instructor-led online training sessions along with classroom and corporate workshop options to suit different learning preferences.",
+  
   title50: "Will there be hands-on practice?",
+  desc20: "Absolutely. The training includes real-time labs, hands-on projects, automation use cases, and industry-based case studies to provide practical exposure.",
+  
   title51: "Do you offer job preparation support?",
+  desc21: "Yes, our placement team offers resume assistance, mock interviews, job referrals, and career guidance to help learners secure roles in RPA.",
+  
   title52: "Can non-tech professionals learn RPA?",
+  desc22: "Yes, non-technical learners can enroll in our RPA course in Chennai. We start from the basics and gradually progress to advanced topics for easy learning.",
+  
   title53: "Is RPA training suitable for freshers?",
-  desc14: "RPA is used to automate repetitive tasks in software workflows, improving speed and accuracy.",
-  desc15: "Ideal for IT professionals, business analysts, and those exploring automation.",
-  desc16: "No, RPA is mostly low-code; beginners can learn without prior programming.",
-  desc17: "Yes, RPA continues to be in high demand for digital transformation.",
-  desc18: "We focus on UiPath primarily and touch upon Blue Prism and Automation Anywhere.",
-  desc19: "Yes, instructor-led virtual classes are available for all learners.",
-  desc20: "Yes, real-time labs and projects are integral to our training.",
-  desc21: "Absolutely. We include resume building, mock interviews, and referrals.",
-  desc22: "Yes, non-tech learners can start with our beginner-friendly modules.",
-  desc23: "Definitely. We have trained many freshers who are now working in RPA roles.",
+  desc23: "Definitely. Many freshers have successfully completed our training and started careers in RPA. The course is structured to support learners at all levels.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our RPA course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -21330,19 +22168,28 @@ desc23: "The Unix training course typically spans 30 to 40 hours, with options f
   title29: "ANSYS Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to CAE & ANSYS Interface",
-  title33: "Module 2: Static Structural Analysis",
-  title34: "Module 3: Thermal Analysis",
-  title35: "Module 4: Computational Fluid Dynamics (CFD)",
-  title36: "Module 5: Meshing, Boundary Conditions, and Solver Settings",
-  title37: "Module 6: Real-Time Projects and Simulation Case Studies",
-  button5: "Download Curriculum",
-  topic1: ["CAE Basics", "Workbench Overview", "Geometry Import", "Material Assignment", "Simulation Workflow"],
-  topic2: ["Stress-Strain Concepts", "Load Applications", "Deformation Analysis", "Result Interpretation", "Validation"],
-  topic3: ["Steady State & Transient Heat Transfer", "Thermal Loads", "Temperature Gradients", "Boundary Conditions"],
-  topic4: ["CFD Introduction", "Fluent Interface", "Flow Simulation Setup", "Turbulence Modeling", "Post Processing"],
-  topic5: ["Mesh Refinement", "Contact Conditions", "Solver Settings", "Simulation Accuracy", "Model Optimization"],
-  topic6: ["Design Problem Simulation", "Multi-Physics Coupling", "Final Project Execution", "Report Generation", "Review and Feedback"],
+title32: "Module 1: Introduction to Ansys Simulation",
+title33: "Module 2: Preprocessing and Geometry Handling",
+title34: "Module 3: Meshing Techniques",
+title35: "Module 4: Static Structural Analysis",
+title36: "Module 5: Thermal and Modal Analysis",
+title37: "Module 6: Nonlinear and Dynamic Analysis",
+title57: "Module 7: Computational Fluid Dynamics (CFD)",
+title58: "Module 8: Electromagnetic Simulations (Optional)",
+title59: "Module 9: Case Studies and Real-Time Projects",
+title60: "Module 10: Certification & Interview Preparation",
+button5: "Download Curriculum",
+topic1: ["Overview of Ansys suite and applications", "User interface and project workflow", "Understanding FEA, CFD, and EM fundamentals"],
+topic2: ["CAD import and cleanup", "2D and 3D modeling concepts", "Geometry simplification for analysis"],
+topic3: ["Types of meshing: structured and unstructured", "Mesh quality and refinement", "Mesh controls and diagnostics"],
+topic4: ["Material properties setup", "Loads and boundary conditions", "Solving and interpreting results"],
+topic5: ["Steady and transient thermal simulation", "Modal frequency and vibration analysis", "Thermal-structural coupling"],
+topic6: ["Nonlinear material behavior", "Contact and large deformation setup", "Time-dependent loading scenarios"],
+topic7: ["CFD basics and fluid setup", "Boundary conditions and flow analysis", "Post-processing fluid flow results"],
+topic8: ["Introduction to Maxwell and HFSS", "Setup of EM boundary conditions", "Magnetic field and capacitance analysis"],
+topic9: ["Industry-based design validation", "Hands-on structural/thermal projects", "Detailed report generation and presentations"],
+topic10: ["Sample certification questions", "Portfolio building and exam tips", "Technical interview preparation sessions"],
+
   title38: "Batch Details",
   title39: "Corporate Training Modes for ANSYS in Chennai",
   title40: "Onsite Training:",
@@ -21368,31 +22215,41 @@ desc23: "The Unix training course typically spans 30 to 40 hours, with options f
   designation3: "Thermal Simulation Engineer",
   designation4: "ANSYS Trainee",
   designation5: "CFD Specialist",
-  review1: "IntelliMindz’s ANSYS training helped me transition from theory to simulation-based design with confidence.",
-  review2: "Highly practical sessions with detailed project walkthroughs and case studies.",
-  review3: "The thermal and fluid modules were very relevant to my work. Trainers explained concepts with industry clarity.",
-  review4: "The hands-on lab access and support after training were excellent. Got certified and placed soon after.",
-  review5: "Structured syllabus, expert trainers, and mock projects – all helped me in mastering ANSYS.",
-  title44: "What is ANSYS used for?",
-  title45: "Who should take this ANSYS training?",
-  title46: "Do I need prior simulation experience?",
-  title47: "Is ANSYS a good career skill in 2025?",
-  title48: "What’s the difference between FEA and CFD?",
-  title49: "Is this training available online?",
-  title50: "Will I get lab access and simulation practice?",
-  title51: "Do you provide job assistance?",
-  title52: "Can beginners join this course?",
-  title53: "Is this training suitable for engineering students?",
-  desc14: "ANSYS is a leading simulation tool used for structural, thermal, and fluid engineering analysis.",
-  desc15: "Engineers, CAD designers, CAE professionals, and students aiming to enter simulation roles.",
-  desc16: "No prior experience needed; we start with fundamentals and build to advanced topics.",
-  desc17: "Yes, ANSYS remains highly relevant in mechanical, aerospace, civil, and electronics domains.",
-  desc18: "FEA focuses on structural mechanics, CFD on fluid dynamics – both covered in this course.",
-  desc19: "Yes, live virtual classes with lab access are available.",
-  desc20: "Yes, all learners get hands-on practice through guided simulation projects.",
-  desc21: "Yes, we provide resume support, interview practice, and placement guidance.",
-  desc22: "Absolutely. Beginners and freshers can enroll with no prior background.",
-  desc23: "Yes, this training is highly beneficial for final-year and postgraduate engineering students.",
+review1: "IntelliMindz provided the best Ansys training in Chennai with a well-structured curriculum and highly experienced trainers who brought deep domain knowledge in simulation and analysis. The sessions were interactive, filled with real-time FEA and CFD projects that helped me build confidence in using Ansys Workbench, Fluent, and Mechanical. This training in Chennai was exactly what I needed to gain hands-on expertise and boost my engineering design career with simulation proficiency.",
+review2: "As a complete beginner in simulation tools, I was searching for a comprehensive Ansys course in Chennai that covered core modules like meshing, thermal, structural, and fluid flow analysis. IntelliMindz exceeded my expectations with its beginner-friendly approach, detailed assignments, tool demonstrations, and guidance on industrial applications. I can confidently say it’s the best training institute in Chennai for mechanical and civil engineers looking to master Ansys.",
+review3: "This is undoubtedly the best training institute in Chennai for those wanting to gain deep technical knowledge in Ansys simulations. I received complete support, including well-paced training sessions, individual mentorship, and even resume building for job placements in design and R&D roles. The training at IntelliMindz not only sharpened my software skills but also strengthened my problem-solving approach in real-world engineering projects.",
+review4: "The Ansys course in Chennai offered by IntelliMindz was a complete package with hands-on simulation labs, live industry projects, and detailed design problem-solving. The faculty focused on both conceptual and practical aspects, making sure we understood the theory behind each analysis. I now feel equipped to handle FEA and CFD simulations with confidence in my role. Highly recommended for those looking for job-oriented Ansys training in Chennai.",
+review5: "After enrolling in IntelliMindz’s Ansys training in Chennai, I successfully completed multiple simulation projects and understood the core workflows across multiple domains. The trainers were extremely helpful, offering both technical guidance and career tips. With their structured training path and real-time examples, I now feel confident in applying Ansys for design validation and optimization in the industry. This was a career-defining step for me as an aspiring simulation engineer.",
+  title44: "What is Ansys used for?",
+  desc14: "Ansys is a powerful engineering simulation software used for finite element analysis (FEA), computational fluid dynamics (CFD), and electromagnetic simulations. It helps validate product designs and is widely used in mechanical, aerospace, and automotive industries.",
+
+  title45: "Who should take this Ansys training?",
+  desc15: "This Ansys training in Chennai is ideal for mechanical engineers, CAD professionals, aerospace and civil engineers, and engineering students looking to build expertise in simulation and analysis.",
+
+  title46: "Do I need prior experience for Ansys?",
+  desc16: "No, prior experience is not required. A basic understanding of engineering or CAD is helpful, but our beginner-friendly course ensures anyone can learn and apply Ansys effectively.",
+
+  title47: "Is Ansys still in demand in 2025?",
+  desc17: "Yes, Ansys remains in high demand in 2025 for its role in product development, testing, and innovation across multiple engineering industries.",
+
+  title48: "What tools and topics are covered in Ansys training?",
+  desc18: "Our training covers key Ansys tools including FEA, CFD, structural analysis, and thermal simulations with hands-on projects and industry case studies.",
+
+  title49: "Is the training available online?",
+  desc19: "Yes, we offer live online sessions, classroom training in Chennai, and corporate training formats—all with trainer support and software access.",
+
+  title50: "Will there be hands-on projects?",
+  desc20: "Yes, learners will work on real-time design and simulation projects, solving actual engineering problems using Ansys tools.",
+
+  title51: "Do you provide placement assistance?",
+  desc21: "Absolutely. We provide resume building, mock interviews, and job referrals. Many learners have secured roles in mechanical and aerospace sectors after training.",
+
+  title52: "Can non-mechanical background learners join?",
+  desc22: "Yes. While Ansys is commonly used in mechanical domains, learners from civil, aerospace, and other engineering fields can also benefit from our training.",
+
+  title53: "Is Ansys training suitable for freshers?",
+  desc23: "Definitely. Our course is designed for all levels and includes foundational topics, simulations, and real-time projects to support freshers in gaining practical skills.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our ANSYS course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -21477,19 +22334,28 @@ desc23: "The Unix training course typically spans 30 to 40 hours, with options f
   title29: "Microsoft Dynamics CRM Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to Microsoft Dynamics CRM",
-  title33: "Module 2: Configuration and Customization",
-  title34: "Module 3: Security Model and Entities",
-  title35: "Module 4: Workflows and Business Process Flows",
-  title36: "Module 5: Plugins and Custom Development",
-  title37: "Module 6: Reporting and Power Platform Integration",
-  button5: "Download Curriculum",
-  topic1: ["Overview of CRM and Dynamics 365", "Deployment Types", "Navigation and Interface", "Entities and Relationships", "Solutions and Apps"],
-  topic2: ["Customizing Forms and Views", "Creating Business Rules", "Configuring Dashboards", "Field-Level Security", "Using Power Automate"],
-  topic3: ["Role-Based Security", "Teams and Hierarchies", "Auditing and Logging", "Custom Entities", "Data Import/Export"],
-  topic4: ["Creating Workflows", "Business Rules vs Workflows", "Process Flows Design", "Automation Scenarios", "Real-World Use Cases"],
-  topic5: ["Introduction to Plugins", "Plugin Registration Tool", "Synchronous vs Asynchronous Plugins", "Error Handling", "Advanced Scripting"],
-  topic6: ["SSRS Reports and Dashboards", "Power BI Integration", "Custom Reports", "Email Templates", "Deployment Best Practices"],
+title32: "Module 1: Introduction to Microsoft Dynamics CRM",
+title33: "Module 2: Core Records and Data Management",
+title34: "Module 3: Sales Management in Dynamics CRM",
+title35: "Module 4: Customer Service Module",
+title36: "Module 5: Marketing and Campaign Management",
+title37: "Module 6: Business Process Flows and Workflows",
+title57: "Module 7: Customization and Configuration",
+title58: "Module 8: Reporting and Dashboards",
+title59: "Module 9: Real-Time Projects and Case Studies",
+title60: "Module 10: Certification & Exam Preparation",
+button5: "Download Curriculum",
+topic1: ["Overview of Dynamics 365 and CRM concepts", "Understanding CRM modules: Sales, Marketing, Service", "Introduction to Power Platform and CDS"],
+topic2: ["Working with entities, fields, and relationships", "Creating and managing records", "Using views, forms, and charts"],
+topic3: ["Lead and opportunity management", "Sales process automation", "Product catalog and price lists"],
+topic4: ["Cases and queues", "Knowledge base and SLAs", "Customer service dashboards"],
+topic5: ["Campaign creation and tracking", "Marketing lists and segmentation", "Email templates and customer journeys"],
+topic6: ["Creating business process flows", "Designing workflows and automation", "Approvals and rule-based logic"],
+topic7: ["Customizing entities, views, and forms", "Security roles and user management", "Solution export/import"],
+topic8: ["Using system and custom reports", "Creating dashboards and KPIs", "Using Power BI with Dynamics CRM"],
+topic9: ["CRM implementation project", "Role-based configurations and workflows", "Use-case driven assignments"],
+topic10: ["Sample Microsoft certification questions", "Time management and exam strategies", "Resume and interview prep for CRM roles"],
+
   title38: "Batch Details",
   title39: "Corporate Training Modes for Microsoft Dynamics CRM in Chennai",
   title40: "Onsite Training:",
@@ -21515,31 +22381,41 @@ desc23: "The Unix training course typically spans 30 to 40 hours, with options f
   designation3: "CRM Developer",
   designation4: "Functional Consultant",
   designation5: "Dynamics 365 Specialist",
-  review1: "The Dynamics CRM training helped me gain confidence in real-world CRM scenarios and customization.",
-  review2: "Excellent training and support. The course was very practical with great real-time exposure.",
-  review3: "I was able to apply my learning immediately at work. Highly recommended for CRM beginners.",
-  review4: "Clear explanations, great projects, and awesome trainers. A complete package.",
-  review5: "This course made me job-ready in less than 2 months. Appreciate the guidance and placement support.",
+review1: "IntelliMindz provided the best Microsoft Dynamics CRM training in Chennai with a highly organized curriculum and trainers who brought deep industry expertise. The sessions were engaging, filled with real-time CRM implementation examples, and helped me confidently work on both Sales and Service modules. This training in Chennai gave me the practical exposure and hands-on experience I needed to boost my IT career in customer relationship management and enterprise solution design.",
+review2: "As someone new to CRM tools, I was looking for a detailed Microsoft Dynamics CRM course in Chennai that started from the fundamentals. IntelliMindz went beyond my expectations with step-by-step guidance, real-time dashboards, customized workflows, and expert support throughout. The learning environment was professional yet beginner-friendly. I can honestly say this is the best training institute in Chennai for those aspiring to build careers in Microsoft CRM technology.",
+review3: "This is undoubtedly the best training institute in Chennai for those wanting to master Microsoft Dynamics CRM. From in-depth module-wise coverage of sales, marketing, and customer service to hands-on lab sessions and job-oriented tips, everything was incredibly helpful. I also received personalized mentoring, resume assistance, and placement support, which made my career switch into CRM systems smooth and successful. IntelliMindz delivered exactly what I was hoping for.",
+review4: "The Microsoft Dynamics CRM course in Chennai offered by IntelliMindz was structured around real-time industry applications. The training included use-case discussions, hands-on customization of entities and fields, and process automation using Power Platform. I was also taught how to integrate CRM with other Microsoft services like Power BI and Outlook. The trainers were very supportive and ensured every learner understood the concepts thoroughly. I highly recommend this CRM course to working professionals and freshers alike.",
+review5: "After enrolling in IntelliMindz’s Microsoft Dynamics CRM training in Chennai, I became well-versed in both functional and technical aspects of the platform. I was able to confidently clear my certification and start applying CRM strategies in my workplace. The trainers were patient, the course material was up-to-date, and the practical assignments simulated real-world projects. With this training, I now feel more confident in automating business processes and improving customer engagement using Dynamics CRM.",
   title44: "What is Microsoft Dynamics CRM used for?",
-  title45: "Who should take this CRM training?",
-  title46: "Do I need coding experience for CRM?",
-  title47: "Is CRM still in demand in 2025?",
-  title48: "How is Dynamics CRM different from Salesforce?",
-  title49: "Is training available remotely?",
-  title50: "Are there hands-on sessions?",
-  title51: "Do you offer placement help?",
-  title52: "Can I switch to CRM from a different field?",
-  title53: "Is Dynamics CRM suitable for beginners?",
-  desc14: "It’s used to manage sales, service, marketing, and customer interactions in businesses across industries.",
-  desc15: "IT professionals, freshers, business analysts, or consultants looking to enter the CRM domain.",
-  desc16: "No coding is required to start. We cover customization with or without code.",
-  desc17: "Absolutely. CRM consultants are in high demand across industries for digital transformation.",
-  desc18: "Dynamics CRM is tightly integrated with Microsoft products, while Salesforce is a separate cloud platform.",
-  desc19: "Yes, we provide instructor-led online sessions for your convenience.",
-  desc20: "Definitely. Each module has tasks, case studies, and hands-on implementation.",
-  desc21: "We assist with job prep, mock interviews, and connecting with hiring partners.",
-  desc22: "Yes, CRM is suitable for career switchers and offers functional and technical paths.",
-  desc23: "Yes. It's beginner-friendly and ideal for those seeking roles in client management and business solutions.",
+  desc14: "Microsoft Dynamics CRM is a customer relationship management solution that streamlines sales, marketing, and service operations. It improves customer engagement, automates business processes, and supports data-driven decision-making.",
+
+  title45: "Who should take this Microsoft Dynamics CRM training?",
+  desc15: "Ideal for CRM consultants, business analysts, sales and marketing professionals, IT admins, and freshers looking to gain skills in CRM tools and strategies.",
+
+  title46: "Are there any prerequisites for Microsoft Dynamics CRM?",
+  desc16: "There are no strict prerequisites. However, basic knowledge of business processes or software systems is helpful. The course is designed for both beginners and experienced learners.",
+
+  title47: "Is Microsoft Dynamics CRM in demand in 2025?",
+  desc17: "Yes, Dynamics CRM remains highly relevant in 2025 due to its enterprise adoption and integration with Microsoft’s ecosystem for managing customer relationships.",
+
+  title48: "What topics are covered in this Dynamics CRM training?",
+  desc18: "The course covers CRM fundamentals, customization, workflows, dashboards, business process flows, data management, and hands-on project implementation.",
+
+  title49: "Is the training available online?",
+  desc19: "Yes, we offer live instructor-led online sessions, in-person classroom training in Chennai, and custom corporate workshops with access to sandbox environments.",
+
+  title50: "Does the course include hands-on practice?",
+  desc20: "Absolutely. Learners work on real-time projects, case studies, and guided labs using Dynamics CRM to apply concepts in real business scenarios.",
+
+  title51: "Do you offer job preparation support?",
+  desc21: "Yes, our training includes resume writing, mock interviews, job referrals, and placement assistance through our dedicated placement cell.",
+
+  title52: "Can non-technical professionals learn Microsoft Dynamics CRM?",
+  desc22: "Yes, professionals from business, sales, and marketing backgrounds can easily learn Dynamics CRM through our step-by-step practical training.",
+
+  title53: "Is Microsoft Dynamics CRM training suitable for freshers?",
+  desc23: "Definitely. The course is beginner-friendly and helps freshers understand CRM concepts and tools, leading to job opportunities in customer management roles.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our Microsoft Dynamics CRM course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -21624,19 +22500,28 @@ desc23: "The Unix training course typically spans 30 to 40 hours, with options f
   title29: "SQL Server DBA Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: SQL Server Architecture & Installation",
-  title33: "Module 2: Database Security & Maintenance",
-  title34: "Module 3: Backup and Recovery",
-  title35: "Module 4: Performance Tuning & Monitoring",
-  title36: "Module 5: Replication & High Availability",
-  title37: "Module 6: Real-Time Administration Projects",
-  button5: "Download Curriculum",
-  topic1: ["Understanding SQL Server architecture", "Installing SQL Server", "Managing SQL Server services", "SQL Server Management Studio (SSMS)", "Creating and Managing Databases"],
-  topic2: ["Authentication Modes", "Login/User Creation", "Roles and Permissions", "Database Maintenance Plans", "Automation via Jobs"],
-  topic3: ["Types of Backups", "Backup Strategies", "Database Restore", "Point-in-Time Recovery", "Recovery Models"],
-  topic4: ["Index Optimization", "Query Tuning", "Deadlocks and Blocking", "Monitoring Tools", "SQL Profiler and Extended Events"],
-  topic5: ["Snapshot Replication", "Transactional Replication", "AlwaysOn Availability Groups", "Clustering", "Log Shipping"],
-  topic6: ["Database Migration", "Disaster Recovery Drill", "Patching and Upgrades", "Real-Time DBA Project", "Documentation & Reporting"],
+title32: "Module 1: Introduction to SQL Server and DBA Concepts",
+title33: "Module 2: Installation and Configuration",
+title34: "Module 3: Database Creation and Management",
+title35: "Module 4: Backup and Recovery",
+title36: "Module 5: Security Management",
+title37: "Module 6: Performance Tuning and Monitoring",
+title57: "Module 7: Automation and Jobs",
+title58: "Module 8: High Availability and Replication",
+title59: "Module 9: Real-Time Projects and Case Studies",
+title60: "Module 10: Certification & Exam Preparation",
+button5: "Download Curriculum",
+topic1: ["Overview of SQL Server architecture", "Roles and responsibilities of a DBA", "SQL Server editions and features"],
+topic2: ["Installing SQL Server and Management Studio", "Server configuration and database setup", "Authentication and instance management"],
+topic3: ["Creating and managing databases", "Filegroups and transaction logs", "Tables, views, and indexing basics"],
+topic4: ["Backup strategies and types", "Restoring databases and recovery models", "Point-in-time recovery and log shipping"],
+topic5: ["User roles and permissions", "Authentication and authorization", "Auditing and compliance"],
+topic6: ["Query performance analysis", "Index optimization and statistics", "Monitoring tools and troubleshooting"],
+topic7: ["SQL Server Agent configuration", "Creating and scheduling jobs", "Alerts and operators for automation"],
+topic8: ["Clustering, Always On, and Mirroring", "Log shipping and replication setup", "Disaster recovery planning"],
+topic9: ["SQL Server setup for enterprise", "Database migration and tuning tasks", "Real-time troubleshooting scenarios"],
+topic10: ["Sample Microsoft exam questions", "Preparation techniques and time management", "Interview questions and career guidance"],
+
   title38: "Batch Details",
   title39: "Corporate Training Modes for SQL Server DBA in Chennai",
   title40: "Onsite Training:",
@@ -21662,31 +22547,41 @@ desc23: "The Unix training course typically spans 30 to 40 hours, with options f
   designation3: "Senior DBA",
   designation4: "IT Analyst",
   designation5: "Junior Database Engineer",
-  review1: "Best SQL Server DBA training I’ve attended. Trainers explained everything from real projects.",
-  review2: "Practical and job-oriented. I got placed as a fresher right after this course.",
-  review3: "Crisp and clear sessions. Learned HA, backups, replication and much more.",
-  review4: "This course helped me transition into a full-time DBA role at an MNC.",
-  review5: "Thank you IntelliMindz! I cleared my Microsoft DBA certification with your support.",
-  title44: "What does a SQL Server DBA do?",
-  title45: "Who should take this training?",
-  title46: "Do I need prior SQL knowledge?",
-  title47: "Is SQL Server still in demand in 2025?",
-  title48: "What is the difference between SQL Developer and DBA?",
-  title49: "Is the course available online?",
-  title50: "Will I get practical lab access?",
-  title51: "Do you offer job support?",
-  title52: "Can I switch to DBA from another role?",
-  title53: "Is this course suitable for beginners?",
-  desc14: "A DBA installs, configures, monitors, secures, and backs up SQL Server databases to ensure smooth operations.",
-  desc15: "IT professionals, system admins, support engineers, and graduates interested in database careers.",
-  desc16: "Basic SQL is helpful, but the course covers SQL concepts from the ground up.",
-  desc17: "Yes, SQL Server DBAs are in high demand for managing enterprise data systems.",
-  desc18: "A SQL Developer writes queries; a DBA manages database servers and ensures high availability.",
-  desc19: "Yes, our instructor-led online training offers complete flexibility and lab support.",
-  desc20: "Yes, every topic includes lab exercises and scenario-based simulations.",
-  desc21: "We provide resume prep, mock interviews, and connect with hiring partners.",
-  desc22: "Yes, many of our students switch from testing, support, or development roles to DBA.",
-  desc23: "Absolutely, our training is beginner-friendly and builds expertise from fundamentals.",
+review1: "IntelliMindz provided the best SQL Server DBA training in Chennai with a well-organized curriculum and top-notch trainers who had real-time database administration experience. The sessions were highly interactive, packed with practical lab exercises, backup-recovery scenarios, and performance tuning tips. I was able to confidently clear my DBA certification and take on production-level responsibilities. This training in Chennai was exactly what I needed to build my career in database management and enterprise IT infrastructure.",
+review2: "As a complete beginner in database administration, I was searching for a comprehensive SQL Server DBA course in Chennai that would start from basics and progress to advanced topics. IntelliMindz not only delivered clear and structured explanations but also provided hands-on lab sessions covering installation, maintenance, security, and monitoring. The trainers made even complex concepts easy to understand. It’s definitely the best training institute in Chennai for aspiring SQL Server DBAs.",
+review3: "This is undoubtedly the best training institute in Chennai for those aiming to master SQL Server DBA skills. I received full support throughout the course—from understanding core architecture and replication to high availability concepts and troubleshooting real-time issues. The one-on-one mentorship, interview preparation, and resume assistance were incredibly helpful. IntelliMindz’s SQL Server DBA training in Chennai helped me transition from a developer role to a full-fledged DBA smoothly and confidently.",
+review4: "The SQL Server DBA course in Chennai offered by IntelliMindz was rich in practical knowledge. The training included real-time projects, server migration exercises, and case studies covering SQL jobs, indexing, and performance tuning. I appreciated the detailed walkthroughs on security, automation scripts, and monitoring tools. The course gave me the hands-on expertise I needed to implement DBA solutions effectively at my workplace. I highly recommend this training for serious database professionals in Chennai.",
+review5: "After enrolling in IntelliMindz’s SQL Server DBA training in Chennai, I gained the knowledge and confidence needed to manage complex database environments. I passed my certification on the first attempt thanks to the well-paced course, dedicated trainers, and access to real-world practice labs. The team was always responsive to doubts and provided a structured learning experience. I now feel well-prepared to handle DBA responsibilities including disaster recovery, database optimization, and server maintenance.",
+  title44: "What is SQL Server DBA used for?",
+  desc14: "SQL Server DBA involves managing, maintaining, and securing Microsoft SQL Server databases. It ensures high availability, performance, and data integrity in enterprise environments.",
+
+  title45: "Who should take this SQL Server DBA training?",
+  desc15: "Ideal for IT professionals, system administrators, database developers, and fresh graduates aiming to become skilled Database Administrators.",
+
+  title46: "Are there any prerequisites for SQL Server DBA?",
+  desc16: "No specific prerequisites are required. However, basic knowledge of databases or SQL is helpful. The course is designed to support both beginners and experienced professionals.",
+
+  title47: "Is SQL Server DBA in demand in 2025?",
+  desc17: "Yes, SQL Server DBA continues to be in demand for data security, performance tuning, and enterprise database management across various industries.",
+
+  title48: "What topics are covered in SQL Server DBA training?",
+  desc18: "The course includes database installation, configuration, backups, performance tuning, security, user roles, high availability, and disaster recovery practices.",
+
+  title49: "Is the training available online?",
+  desc19: "Yes, we offer live instructor-led online classes, classroom training in Chennai, and corporate workshops with full trainer support and lab access.",
+
+  title50: "Does the course include hands-on projects?",
+  desc20: "Yes, learners will work on real-time database projects, case studies, server configurations, and performance optimization tasks.",
+
+  title51: "Do you provide job preparation support?",
+  desc21: "Absolutely. We offer resume building, mock interviews, certification guidance, and job referrals through our dedicated placement cell.",
+
+  title52: "Can non-programmers learn SQL Server DBA?",
+  desc22: "Yes. Whether you're from programming, networking, or support background, this beginner-friendly course covers everything step by step.",
+
+  title53: "Is SQL Server DBA training suitable for freshers?",
+  desc23: "Definitely. Many freshers have launched successful DBA careers after completing this course through foundational training and hands-on experience.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our SQL Server DBA course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -21771,19 +22666,68 @@ desc23: "The Unix training course typically spans 30 to 40 hours, with options f
   title29: "Hadoop Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to Big Data & Hadoop",
-  title33: "Module 2: HDFS and MapReduce",
-  title34: "Module 3: Hive and Pig",
-  title35: "Module 4: HBase and Sqoop",
-  title36: "Module 5: Apache Spark Overview",
-  title37: "Module 6: Final Projects and Case Studies",
-  button5: "Download Curriculum",
-  topic1: ["What is Big Data?", "Hadoop Architecture", "Setup and Configuration", "HDFS Concepts", "MapReduce Programming"],
-  topic2: ["Input/Output Formats", "Combiner, Partitioner", "Hadoop Streaming", "Joins and Sorting", "Optimization Techniques"],
-  topic3: ["Hive Data Models", "HiveQL Queries", "Partitioning & Bucketing", "Pig Latin", "Data Transformations"],
-  topic4: ["HBase Basics", "CRUD Operations", "Data Import with Sqoop", "Flume Introduction", "ETL with Hadoop"],
-  topic5: ["Intro to Apache Spark", "Spark Core vs Spark SQL", "RDDs vs DataFrames", "Streaming and MLlib Basics"],
-  topic6: ["Retail Sales Analytics", "Log File Processing", "Sensor Data Stream Analysis", "Healthcare Data Warehouse", "Capstone Deployment Project"],
+title32: "Module 1: Introduction to Big Data and Hadoop",
+title33: "Module 2: HDFS – Hadoop Distributed File System",
+title34: "Module 3: MapReduce Programming",
+title35: "Module 4: Apache Pig",
+title36: "Module 5: Apache Hive",
+title37: "Module 6: Sqoop and Flume",
+title57: "Module 7: Apache HBase",
+title58: "Module 8: Apache Spark Basics",
+title59: "Module 9: Real-Time Projects and Case Studies",
+title60: "Module 10: Certification & Exam Preparation",
+button5: "Download Curriculum",
+topic1: [
+  "What is Big Data and its challenges",
+  "Hadoop architecture and ecosystem overview",
+  "Understanding HDFS and MapReduce fundamentals"
+],
+topic2: [
+  "Working with HDFS commands",
+  "Data replication and fault tolerance",
+  "HDFS architecture and block concepts"
+],
+topic3: [
+  "MapReduce job flow and lifecycle",
+  "Writing custom Map and Reduce functions",
+  "Job scheduling and optimization techniques"
+],
+topic4: [
+  "Data flow and scripting using Pig Latin",
+  "Pig execution modes and operators",
+  "Integration with HDFS and UDFs"
+],
+topic5: [
+  "Data warehousing with Hive",
+  "HiveQL for querying structured data",
+  "Partitions, Buckets, and optimization"
+],
+topic6: [
+  "Importing/exporting data with Sqoop",
+  "Flume for streaming data ingestion",
+  "Integration with HDFS and Hive"
+],
+topic7: [
+  "NoSQL concepts and HBase architecture",
+  "HBase tables and data model",
+  "Integrating HBase with Hive and MapReduce"
+],
+topic8: [
+  "Understanding Spark components",
+  "RDDs and DataFrames",
+  "Spark with Python (PySpark) introduction"
+],
+topic9: [
+  "Implementing end-to-end Hadoop solutions",
+  "Retail, healthcare, and telecom data projects",
+  "Handling large datasets with Hive and Spark"
+],
+topic10: [
+  "Mock questions and certification guidance",
+  "Big data interview preparation",
+  "Hadoop certification roadmap: Cloudera, Hortonworks, Apache"
+],
+
   title38: "Batch Details",
   title39: "Corporate Training Modes for Hadoop in Chennai",
   title40: "Onsite Training:",
@@ -21809,31 +22753,41 @@ desc23: "The Unix training course typically spans 30 to 40 hours, with options f
   designation3: "Data Analyst",
   designation4: "Software Developer",
   designation5: "Hadoop Trainee",
-  review1: "This training helped me transition from manual testing to big data. The hands-on practice with real Hadoop tools was invaluable.",
-  review2: "The trainers explained Hadoop concepts clearly and tied them to real business cases. I gained so much confidence.",
-  review3: "Perfect balance of theory and practice. The project on e-commerce data analytics was my favorite.",
-  review4: "Great value for money. I cracked a data engineering role right after completing the course.",
-  review5: "I was new to big data, but IntelliMindz made it easy. The examples were practical and the support was continuous.",
+review1: "IntelliMindz provided the best Hadoop training in Chennai with a robust curriculum and highly experienced trainers who were hands-on with real-time Big Data tools. The sessions were interactive, included complex real-world data processing examples, and helped me gain strong confidence in handling Hadoop ecosystem tools like HDFS, MapReduce, Hive, Pig, and Spark. This training in Chennai was exactly what I needed to transition into a data engineering role with confidence and practical knowledge.",
+review2: "As a complete beginner in Big Data technologies, I was looking for a Hadoop course in Chennai that could simplify complex topics and offer practical exposure. IntelliMindz exceeded my expectations by offering in-depth training with step-by-step explanations, hands-on cluster setup experience, and real-time project support. I can confidently say that IntelliMindz is the best Hadoop training institute in Chennai for anyone aiming to enter the Big Data and analytics domain with confidence.",
+review3: "This is definitely the best training institute in Chennai for professionals who want to build strong technical expertise in Hadoop and its related components. I received comprehensive support, from mastering core concepts like HDFS and YARN to advanced hands-on tasks in Spark and HBase. The one-on-one mentorship and career guidance sessions provided by IntelliMindz made a huge impact in helping me crack interviews and transition into a Hadoop developer role successfully.",
+review4: "The Hadoop training course in Chennai offered by IntelliMindz was loaded with practical assignments, real-time project use cases, and deep dives into Hadoop architecture and data processing frameworks. I learned not only the theoretical aspects but also how to implement Big Data solutions in enterprise environments using tools like Sqoop, Flume, and Oozie. I highly recommend this training to anyone looking for real-world Hadoop expertise and hands-on experience in Chennai.",
+review5: "After enrolling in IntelliMindz’s Hadoop training in Chennai, I was able to pass my certification on the first attempt and land a job as a junior data engineer. The trainers were extremely knowledgeable, supportive, and always available to clarify technical doubts. Their structured learning approach, combined with labs and mock interviews, helped me gain a competitive edge in the job market. I now feel fully prepared to work on real-time Big Data projects using the Hadoop ecosystem.",
   title44: "What is Hadoop used for?",
-  title45: "Who can attend this Hadoop training?",
-  title46: "Is coding necessary for Hadoop?",
-  title47: "Is Hadoop still relevant in 2025?",
-  title48: "How is Hadoop different from traditional databases?",
-  title49: "Can I take this training online?",
-  title50: "Are real projects included?",
-  title51: "Do you help with job placement?",
-  title52: "Can a fresher learn Hadoop?",
-  title53: "Is this course suitable for working professionals?",
-  desc14: "Hadoop helps store and process large-scale data using distributed computing. It powers analytics, recommendations, and real-time apps.",
-  desc15: "Anyone interested in data engineering – freshers, IT professionals, developers, analysts, or testers.",
-  desc16: "Basic Java knowledge is helpful, but many modules use Hive/Pig which don’t require deep coding.",
-  desc17: "Yes! Hadoop is still widely used in large-scale data processing pipelines and cloud data platforms.",
-  desc18: "Traditional databases are limited in storage and speed. Hadoop handles huge datasets efficiently using clusters.",
-  desc19: "Yes, online instructor-led batches are available with full interactivity.",
-  desc20: "Yes, projects are part of the syllabus – log processing, analytics, ETL pipelines, and more.",
-  desc21: "We provide resume building, mock interviews, and placement referrals to hiring partners.",
-  desc22: "Absolutely. Our course starts from basics and builds up to advanced project work.",
-  desc23: "Yes. Weekday/weekend batches make it ideal for professionals upskilling in data technologies.",
+  desc14: "Hadoop is an open-source framework for distributed processing of large data sets across clusters. It plays a crucial role in big data analysis, engineering, and real-time data processing.",
+
+  title45: "Who should take this Hadoop training?",
+  desc15: "This training is ideal for data analysts, software engineers, system admins, ETL developers, database professionals, and freshers looking to start a career in big data and analytics.",
+
+  title46: "Are there any prerequisites for learning Hadoop?",
+  desc16: "No mandatory prerequisites. However, basic knowledge of Java, Linux, or SQL can be beneficial. The course is structured for both beginners and experienced learners.",
+
+  title47: "Is Hadoop still in demand in 2025?",
+  desc17: "Yes, Hadoop continues to be relevant in 2025 for processing and analyzing large-scale data across industries like finance, healthcare, and e-commerce.",
+
+  title48: "What tools are covered in the Hadoop training?",
+  desc18: "The course covers HDFS, MapReduce, Hive, Pig, HBase, Spark, and other core tools from the Hadoop ecosystem through hands-on sessions and real-time projects.",
+
+  title49: "Is the training available online?",
+  desc19: "Yes, we offer instructor-led online training, classroom sessions in Chennai, and corporate workshops—all with lab access and expert mentorship.",
+
+  title50: "Does the course include live projects?",
+  desc20: "Yes, learners work on live big data projects, real-time case studies, and scenarios using tools like Spark, Hive, and HDFS to gain practical experience.",
+
+  title51: "Do you provide placement assistance?",
+  desc21: "Absolutely. We offer resume preparation, mock interviews, job referrals, and HR coordination to support successful job placement after training.",
+
+  title52: "Can non-programmers learn Hadoop?",
+  desc22: "Yes. Our beginner-friendly course structure makes it accessible for learners from non-programming and business backgrounds interested in data careers.",
+
+  title53: "Is Hadoop training suitable for freshers?",
+  desc23: "Definitely. Our Hadoop training is designed for all levels and helps freshers gain the technical and practical skills needed for big data roles.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our Hadoop course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -22083,19 +23037,28 @@ desc23: "We offer practical training, experienced instructors, real-time project
   title29: "PhoneGap Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to PhoneGap & Hybrid Apps",
-  title33: "Module 2: Web Technologies for PhoneGap",
-  title34: "Module 3: Working with Plugins",
-  title35: "Module 4: UI Design and Navigation",
-  title36: "Module 5: Real-Time Project Implementation",
-  title37: "Module 6: Testing and Deployment",
-  button5: "Download Curriculum",
-  topic1: ["Understanding Hybrid vs Native vs Web Apps", "PhoneGap & Cordova Basics", "Installing Development Tools", "Project Structure", "Emulators & Device Testing"],
-  topic2: ["HTML5/CSS3/JS Overview", "Responsive Design for Mobile", "jQuery Mobile/Bootstrap", "Debugging Mobile UIs", "Web-to-Device Communication"],
-  topic3: ["Installing and Using Plugins", "Camera, GPS, Contacts Access", "Accelerometer and File API", "Building Custom Plugins", "Plugin Marketplace"],
-  topic4: ["Single Page App Navigation", "UI/UX Guidelines for Mobile", "Form Handling & Validation", "Media Embedding", "Offline Storage"],
-  topic5: ["E-commerce App", "To-Do List with Notifications", "Geo-Location Based App", "Media Sharing App", "Chat App with Local DB"],
-  topic6: ["Testing on Emulators & Devices", "Bug Fixing & Optimization", "PhoneGap Build Service", "App Store/Play Store Deployment", "Best Practices & Security"],
+title32: "Module 1: Introduction to Hybrid App Development",
+title33: "Module 2: PhoneGap CLI and Project Structure",
+title34: "Module 3: HTML, CSS & JS for Mobile UI",
+title35: "Module 4: PhoneGap APIs and Plugins",
+title36: "Module 5: Device Access and Hardware Integration",
+title37: "Module 6: Data Handling and Storage",
+title57: "Module 7: App Testing and Debugging",
+title58: "Module 8: Building and Deploying Apps",
+title59: "Module 9: Real-Time Projects and Case Studies",
+title60: "Module 10: Certification & Interview Preparation",
+button5: "Download Curriculum",
+topic1: ["Understanding hybrid vs native apps", "Overview of PhoneGap and its architecture", "Installing and setting up development environment"],
+topic2: ["Creating PhoneGap projects", "Working with CLI and project folders", "Running apps on Android/iOS emulators"],
+topic3: ["Mobile UI best practices using HTML5", "Responsive layout design with CSS3", "DOM manipulation with JavaScript"],
+topic4: ["Using core APIs: camera, contacts, geolocation", "Adding and managing PhoneGap plugins", "Plugin customization and configuration"],
+topic5: ["Accessing native device features", "Accelerometer, compass, vibration, notifications", "Secure API usage for hardware features"],
+topic6: ["Local storage and SQLite integration", "Data synchronization strategies", "Offline-first application techniques"],
+topic7: ["Using PhoneGap developer app", "Debugging using Chrome and Safari tools", "Performance testing and optimization"],
+topic8: ["Compiling apps for Android and iOS", "App signing and packaging", "Deployment to Google Play Store and App Store"],
+topic9: ["End-to-end app development", "Industry-specific project assignments", "Code documentation and walkthroughs"],
+topic10: ["Sample certification questions and answers", "Hybrid mobile developer interview tips", "Resume preparation and project portfolio"],
+
   title38: "Batch Details",
   title39: "Corporate Training Modes for PhoneGap in Chennai",
   title40: "Onsite Training:",
@@ -22121,11 +23084,11 @@ desc23: "We offer practical training, experienced instructors, real-time project
   designation3: "Mobile Developer",
   designation4: "PhoneGap Trainee",
   designation5: "Full Stack Developer",
-  review1: "I was able to build and deploy my first hybrid app thanks to IntelliMindz's amazing PhoneGap course.",
-  review2: "The trainer explained each concept clearly and helped me understand how to connect with native device APIs.",
-  review3: "The course structure, hands-on labs, and real project guidance helped me confidently apply PhoneGap at work.",
-  review4: "PhoneGap training helped me switch from web development to mobile apps. A great learning journey!",
-  review5: "Highly recommended! The team support even after the training helped me with my job interviews.",
+review1: "IntelliMindz provided the best PhoneGap training in Chennai with a highly structured mobile development curriculum and experienced trainers who guided us through every phase of hybrid app creation. The sessions were interactive, loaded with practical tasks, and included real-time app development scenarios using HTML, CSS, and JavaScript. This training in Chennai was exactly what I needed to build cross-platform apps and boost my career in mobile application development.",
+review2: "As a complete beginner in mobile app frameworks, I was searching for a well-rounded PhoneGap course in Chennai that would teach me everything from scratch. IntelliMindz exceeded my expectations by offering detailed concept explanations, hands-on project guidance, and personalized mentoring throughout the course. I can confidently say it's the best training institute in Chennai for aspiring hybrid mobile app developers using PhoneGap and Cordova.",
+review3: "This is without a doubt the best training institute in Chennai for those who want to gain a deep and practical understanding of PhoneGap development. I received complete guidance, from fundamental design principles to deployment of real-time mobile applications. Their mentorship, structured sessions, and placement support helped me make a successful shift to mobile app development. The training gave me the confidence to build multi-platform apps with ease.",
+review4: "The PhoneGap course in Chennai offered by IntelliMindz was rich in practical exposure, live project implementation, and real-world app case studies. The instructors explained how to integrate native device features and debug effectively across different platforms. This helped me not just learn the theory but also implement the mobile development skills directly into freelance and client projects. I strongly recommend this course to anyone aiming to become a hybrid mobile app developer.",
+review5: "After enrolling in IntelliMindz’s PhoneGap training in Chennai, I successfully built and deployed hybrid applications across Android and iOS platforms. The trainers were not only technically sound but also highly supportive in resolving even the smallest doubts. Their structured teaching approach, project-based learning, and constant encouragement gave me the confidence to pursue client-based mobile app projects and freelance opportunities in this fast-growing field.",
   title44: "What is PhoneGap used for?",
   title45: "Who should take this PhoneGap training?",
   title46: "Do I need Java or Swift for this course?",
@@ -23980,19 +24943,77 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   title29: "QC Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to Quality Control",
-  title33: "Module 2: QC Tools and Techniques",
-  title34: "Module 3: Inspection & Testing Methods",
-  title35: "Module 4: Documentation and Reporting",
-  title36: "Module 5: Industry Standards & Compliance",
-  title37: "Module 6: Real-Time QC Projects",
-  button5: "Download Curriculum",
-  topic1: ["Basics of Quality Management", "Role of QC in Industry", "Quality Assurance vs Quality Control", "Key Metrics and KPIs"],
-  topic2: ["7 QC Tools", "Cause & Effect Analysis", "Histogram, Pareto, Scatter Diagrams", "Control Charts", "Check Sheets"],
-  topic3: ["Visual & Dimensional Inspection", "Sampling Techniques", "Destructive vs Non-Destructive Testing", "Calibration & Measurement Tools"],
-  topic4: ["Creating Inspection Reports", "Non-Conformance Reports (NCRs)", "Corrective & Preventive Actions (CAPA)", "Audit Trails"],
-  topic5: ["GMP, ISO 9001, Six Sigma", "Regulatory Compliance", "Industry Case Studies", "Standard Operating Procedures (SOPs)"],
-  topic6: ["QC Documentation Simulation", "Mock Audit Practice", "Root Cause Analysis", "Final Project Presentation"],
+title32: "Module 1: Introduction to Quality Control",
+title33: "Module 2: Quality Standards and ISO Guidelines",
+title34: "Module 3: Measurement Tools and Instrumentation",
+title35: "Module 4: Material Inspection and Quality Checking",
+title36: "Module 5: Visual and Dimensional Inspection Techniques",
+title37: "Module 6: Non-Destructive Testing (NDT) Introduction",
+title57: "Module 7: Statistical Quality Control (SQC)",
+title58: "Module 8: Calibration and Equipment Maintenance",
+title59: "Module 9: Quality Documentation & Reporting",
+title60: "Module 10: Industrial Project + Job Preparation",
+button5: "Download Curriculum",
+topic1: [
+  "Definition and importance of quality",
+  "Difference between QA and QC",
+  "Roles and responsibilities in QC departments",
+  "Industrial applications and objectives"
+],
+topic2: [
+  "Overview of ISO 9001",
+  "Introduction to Six Sigma and 5S",
+  "Quality documentation procedures",
+  "Preparing for internal and external audits"
+],
+topic3: [
+  "Hands-on with Vernier calipers, micrometers",
+  "Use of height gauges and bore gauges",
+  "Instrument care and calibration",
+  "Understanding measurement tolerances"
+],
+topic4: [
+  "Raw material vs. finished goods inspection",
+  "Sampling techniques and frequency",
+  "Acceptance and rejection criteria",
+  "Defect analysis and reporting"
+],
+topic5: [
+  "Surface and weld inspection basics",
+  "Color, shape, and appearance checks",
+  "Geometric dimensioning and tolerancing (GD&T)",
+  "Flatness, roundness, and alignment inspection"
+],
+topic6: [
+  "Overview of NDT methods (UT, PT, RT, MPT)",
+  "Advantages over destructive testing",
+  "When and where to use NDT",
+  "NDT documentation and reports"
+],
+topic7: [
+  "Control charts and process capability",
+  "Mean, variance, and standard deviation",
+  "Data-driven quality decisions",
+  "Root cause analysis with Pareto and Fishbone"
+],
+topic8: [
+  "Importance of calibration",
+  "Calibration schedules and logs",
+  "National and international measurement standards",
+  "Maintaining traceability and compliance"
+],
+topic9: [
+  "Preparing inspection reports",
+  "Rework, repair, and deviation handling",
+  "ISO-compliant recordkeeping",
+  "Final quality audit procedures"
+],
+topic10: [
+  "Mini-project: Real-time quality inspection task",
+  "Resume development for QC roles",
+  "Interview Q&A preparation",
+  "Mock interviews and job referrals"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for QC in Chennai",
   title40: "Onsite Training:",
@@ -24018,31 +25039,45 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   designation3: "Production Quality Engineer",
   designation4: "Manufacturing Supervisor",
   designation5: "QA/QC Trainee",
-  review1: "The QC training from IntelliMindz was practical and easy to follow. The trainers were very experienced in manufacturing quality.",
-  review2: "I learned how to conduct inspections and write professional QC reports. Highly recommend it to freshers.",
-  review3: "Great course with real-world examples. Helped me crack interviews and land a QC job.",
-  review4: "Live demos and lab exercises made learning fun. Good experience overall.",
-  review5: "The training helped me understand ISO standards and prepare for audits. Very useful for quality professionals.",
-  title44: "What is QC used for?",
-  title45: "Who should take this QC training?",
-  title46: "Do I need experience in manufacturing?",
-  title47: "Is QC still in demand in 2025?",
-  title48: "What’s the difference between QC and QA?",
-  title49: "Is the training available online?",
-  title50: "Will there be hands-on practice?",
-  title51: "Do you offer job preparation support?",
-  title52: "Can I move to QC from another field?",
-  title53: "Is this course beginner-friendly?",
-  desc14: "QC ensures that products and processes meet specified standards, reducing defects and improving consistency.",
-  desc15: "This course is ideal for students, engineers, supervisors, or professionals looking to grow in quality-focused roles.",
-  desc16: "Not necessary. We cover all QC fundamentals from scratch – suitable for freshers and non-technical backgrounds.",
-  desc17: "Yes! Quality Control remains essential in manufacturing, pharma, and other regulated sectors.",
-  desc18: "QA focuses on processes; QC focuses on detecting product defects through testing and inspection.",
-  desc19: "Yes, the QC course is available in both live online and classroom formats.",
-  desc20: "Yes. Every module includes practical assignments, templates, and inspection tools.",
-  desc21: "Yes, we offer placement assistance, mock interviews, and career guidance.",
-  desc22: "Absolutely. Professionals from admin, logistics, or production roles can transition into QC with proper training.",
-  desc23: "Yes. The course is designed for beginners and progresses to advanced levels gradually.",
+review1: "I joined the QC Training in Chennai at IntelliMindz as a complete fresher with no prior industry experience. The course started from the basics and gradually introduced advanced quality inspection techniques. With hands-on training in instruments like Vernier calipers and micrometers, I quickly became job-ready. Within weeks of completing the course, I was hired as a QC Inspector by a reputed manufacturing firm.",
+
+review2: "This QC course in Chennai was very well structured, especially the practical lab sessions. I learned how to operate key measuring tools, interpret engineering drawings, and generate inspection reports independently. The real-time examples shared by the trainer helped me understand how quality control is implemented on a factory floor. I now handle inspection responsibilities with confidence in my current job.",
+
+review3: "IntelliMindz is without a doubt the Best Training Institute in Chennai for Quality Control. The faculty had years of industry experience and shared valuable tips throughout the course. Apart from technical knowledge, they provided resume guidance and interview support. Thanks to their efforts, I got placed right after training and started my career as a Quality Control Technician.",
+
+review4: "The training was very practical and aligned with current industry needs. Coming from a mechanical engineering background, I was able to relate well to the content and apply it during my interview at an automotive company. The IntelliMindz QC course in Chennai gave me both the theoretical understanding and practical skills needed for the quality domain.",
+
+review5: "What set this QC Training in Chennai apart was the personalized attention and hands-on learning experience. Each session involved live demonstrations and exercises with real tools. The trainers were friendly, answered all doubts, and helped build my confidence. The certification from IntelliMindz added great value to my resume and helped me stand out in interviews.",
+  title44: "What is the purpose of the QC Training in Chennai?",
+  desc14: "The QC Training in Chennai prepares learners for careers in quality assurance, inspection, and process control using industry tools and standards.",
+
+  title45: "Who should take this QC course in Chennai?",
+  desc15: "Ideal for students, engineers, diploma holders, production operators, and supervisors aiming to build or upgrade their skills in quality control.",
+
+  title46: "Why is IntelliMindz the Best Training Institute in Chennai for QC?",
+  desc16: "IntelliMindz offers expert-led instruction, hands-on labs, real-time tools, and career guidance, making it the top choice for QC training in Chennai.",
+
+  title47: "What topics are included in the QC training syllabus?",
+  desc17: "Topics include inspection techniques, metrology, destructive and visual testing, ISO standards, calibration, documentation, and tool handling.",
+
+  title48: "Will this course include practical sessions?",
+  desc18: "Yes. The course includes practical training using instruments like Vernier calipers, micrometers, gauges, and other quality inspection tools.",
+
+  title49: "Do I need any prior experience for this course?",
+  desc19: "No prior experience is needed. The course starts with fundamentals and advances to core QC concepts, making it beginner-friendly.",
+
+  title50: "What certifications will I receive?",
+  desc20: "You’ll receive an IntelliMindz course completion certificate recognized by QA/QC employers in manufacturing, construction, pharma, and more.",
+
+  title51: "Is placement support provided after training?",
+  desc21: "Yes. We provide resume support, mock interviews, job referrals, and complete placement assistance to help you land roles in QA/QC.",
+
+  title52: "Can I take the QC training online?",
+  desc22: "Yes. While practicals are in person, we also offer online theory and hybrid options for learners who are located remotely.",
+
+  title53: "What job roles can I expect after this QC training?",
+  desc23: "You can pursue roles such as QC Inspector, Quality Engineer, QA Executive, Production Supervisor, or ISO Document Controller in various industries.",
+
   title54: "Have a Question with Our",
   paragraph10: "Find answers to common questions about our QC training in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -24127,19 +25162,78 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   title29: "C and C++ Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Basics of C Programming",
-  title33: "Module 2: Functions and Arrays",
-  title34: "Module 3: Pointers and Structures",
-  title35: "Module 4: Introduction to C++",
-  title36: "Module 5: OOPs in C++",
-  title37: "Module 6: File Handling and Mini Projects",
-  button5: "Download Curriculum",
-  topic1: ["Introduction to C", "Data Types and Variables", "Operators and Expressions", "Decision Making and Loops", "Basic Input/Output"],
-  topic2: ["Functions and Recursion", "Scope and Storage Classes", "Arrays and Strings", "Multidimensional Arrays", "Command Line Arguments"],
-  topic3: ["Pointers and Dynamic Memory", "Structures and Unions", "Passing Pointers to Functions", "Pointer Arithmetic", "Linked Lists Basics"],
-  topic4: ["Object-Oriented Concepts", "Class and Object", "Constructor & Destructor", "Operator Overloading", "Inheritance Basics"],
-  topic5: ["Polymorphism", "Virtual Functions", "Encapsulation & Abstraction", "Friend Functions", "Templates"],
-  topic6: ["File Handling in C/C++", "Building a Mini Project", "Error Handling", "Debugging Techniques", "Project Presentation"],
+title32: "Module 1: Introduction to Programming & C Language Basics",
+title33: "Module 2: Control Flow and Loops in C",
+title34: "Module 3: Arrays and Strings in C",
+title35: "Module 4: Functions and Recursion",
+title36: "Module 5: Pointers and Dynamic Memory Allocation",
+title37: "Module 6: File Handling in C",
+title57: "Module 7: Introduction to C++ Programming",
+title58: "Module 8: Object-Oriented Programming in C++",
+title59: "Module 9: Advanced Concepts in C++",
+title60: "Module 10: Project Work & Interview Preparation",
+button5: "Download Curriculum",
+topic1: [
+  "History of C and programming evolution",
+  "Data types, variables, and operators",
+  "Input/Output functions (printf, scanf)",
+  "Program structure and syntax rules"
+],
+topic2: [
+  "Conditional statements (if, else, switch)",
+  "Looping (for, while, do-while)",
+  "Nested loops and break/continue",
+  "Practical coding exercises"
+],
+topic3: [
+  "1D and 2D arrays",
+  "String manipulation functions",
+  "Memory representation",
+  "Real-time examples"
+],
+topic4: [
+  "Function declaration and definition",
+  "Call by value vs call by reference",
+  "Recursion principles",
+  "Modular programming practice"
+],
+topic5: [
+  "Introduction to pointers",
+  "Pointers and arrays",
+  "malloc, calloc, realloc, and free",
+  "Pointer arithmetic and best practices"
+],
+topic6: [
+  "File opening, reading, writing",
+  "File modes and types",
+  "File operations using pointers",
+  "Mini project: Student record system"
+],
+topic7: [
+  "Differences between C and C++",
+  "Classes and objects",
+  "Input/output using cin and cout",
+  "Basic C++ syntax"
+],
+topic8: [
+  "Constructors and destructors",
+  "Inheritance (single, multiple, multilevel)",
+  "Polymorphism (function and operator overloading)",
+  "Encapsulation and abstraction"
+],
+topic9: [
+  "Virtual functions",
+  "Friend functions and static members",
+  "File I/O in C++",
+  "Templates and exception handling"
+],
+topic10: [
+  "Build a real-world console application",
+  "Debugging and code optimization",
+  "Resume & GitHub portfolio tips",
+  "Mock coding tests and interview Q&A"
+],
+
   title38: "Batch Details",
   title39: "Corporate Training Modes for C/C++ in Chennai",
   title40: "Onsite Training:",
@@ -24165,31 +25259,41 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   designation3: "Trainee Developer",
   designation4: "C++ Programmer",
   designation5: "Tech Intern",
-  review1: "This course gave me a solid start in programming. The logic sessions were super helpful.",
-  review2: "Great learning experience. The trainer made C++ concepts very simple and fun.",
-  review3: "I cracked my interview with the mini project I built here. Highly recommended!",
-  review4: "Good for beginners and those preparing for placement coding rounds.",
-  review5: "The hands-on exercises and mentorship helped me gain real confidence in programming.",
-  title44: "What is C and C++ used for?",
-  title45: "Who should join this course?",
-  title46: "Do I need prior coding knowledge?",
-  title47: "Are C/C++ still relevant in 2025?",
-  title48: "What is the difference between C and C++?",
-  title49: "Is online training available?",
-  title50: "Will I do real coding?",
-  title51: "Is job support provided?",
-  title52: "Can I switch to IT after learning C/C++?",
-  title53: "Is this course beginner-friendly?",
-  desc14: "C and C++ are foundational programming languages used in systems, embedded, and high-performance applications.",
-  desc15: "Students, freshers, and professionals interested in programming, software, or embedded development.",
-  desc16: "No prior coding is needed. We start from scratch with full explanations.",
-  desc17: "Yes, many companies still use C/C++ for systems, drivers, gaming, and embedded applications.",
-  desc18: "C is procedural, while C++ is object-oriented with features like classes and inheritance.",
-  desc19: "Yes, we provide live instructor-led and self-paced online training options.",
-  desc20: "You will write programs, solve problems, and build small projects in class.",
-  desc21: "Resume building, mock tests, and placement assistance are included.",
-  desc22: "Yes. It’s perfect to transition into tech roles by learning core programming.",
-  desc23: "Absolutely. It’s designed for beginners and college students.",
+review1: "This C C++ Training in Chennai helped me build a rock-solid foundation in programming logic and syntax. The trainer’s detailed explanations of data types, control structures, and OOP concepts were outstanding. I was able to crack my first technical interview within weeks of completing the course. Thanks to IntelliMindz, I now work as a junior programmer in a software development company.",
+review2: "The C C++ course at IntelliMindz in Chennai was extremely beginner-friendly and hands-on. The trainers used real-life examples to explain loops, arrays, structures, and object-oriented concepts. I especially loved the live coding sessions and regular assessments, which kept me motivated. This course made learning programming easy and interesting, even for someone without a computer science background.",
+review3: "IntelliMindz is truly the Best Training Institute in Chennai for learning C and C++. The faculty is experienced and ensures that each student understands the topic before moving on. The course covered both procedural and object-oriented programming thoroughly. Their support in preparing for job interviews and coding tests was very helpful. I’d recommend this course to all aspiring developers.",
+review4: "Before joining this training in Chennai, I was struggling with key concepts like pointers, recursion, and memory management. The IntelliMindz trainers broke down these topics in a way that finally made sense to me. By the end of the course, I was able to write efficient C++ programs, solve algorithmic problems, and confidently participate in coding interviews.",
+review5: "The best part of this C C++ Training in Chennai was the real-world mini projects and mock interview sessions. The trainer not only focused on theory but also guided us through writing reusable and optimized code. After completing this program at IntelliMindz, I got placed in an MNC as a junior software developer. This course truly set the stage for my IT career.",
+  title44: "What is the objective of this C C++ course in Chennai?",
+  desc14: "The objective is to master both procedural (C) and object-oriented (C++) programming by learning to write efficient, optimized, and reusable code.",
+
+  title45: "Who should enroll in this C C++ training?",
+  desc15: "Anyone interested in software development—students, freshers, job seekers, or professionals—especially those preparing for placements or programming interviews.",
+
+  title46: "Are there any prerequisites for this course?",
+  desc16: "No prior coding experience is needed. The course starts from scratch and is suitable for beginners, while also covering advanced C++ topics.",
+
+  title47: "What topics are covered in the C C++ syllabus?",
+  desc17: "Topics include C syntax, loops, arrays, pointers, functions, and C++ features like classes, inheritance, constructors, destructors, and file handling.",
+
+  title48: "Is this course helpful for interviews and placements?",
+  desc18: "Yes, the course includes coding challenges, problem-solving sessions, and mock technical interviews to prepare for placements and software roles.",
+
+  title49: "Will I get hands-on practice during training?",
+  desc19: "Absolutely. You'll practice coding exercises, debug real-world problems, and build mini-projects using an IDE-based learning environment.",
+
+  title50: "Is C C++ still relevant in 2025?",
+  desc20: "Yes, C and C++ are still essential for embedded systems, OS development, competitive programming, game dev, and performance-critical applications.",
+
+  title51: "Do you provide certification for this training?",
+  desc21: "Yes, learners will receive a course completion certificate from IntelliMindz, which is recognized by companies hiring C/C++ developers.",
+
+  title52: "Can I take this course online?",
+  desc22: "Yes, we offer both classroom and live instructor-led online training with flexible scheduling options for students and professionals.",
+
+  title53: "Why choose IntelliMindz for C C++ training?",
+  desc23: "IntelliMindz is rated the Best Training Institute in Chennai for C C++ due to expert faculty, hands-on labs, and placement-focused curriculum.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our C and C++ course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -24274,19 +25378,77 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   title29: "Salesforce Developer Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Salesforce Fundamentals & Architecture",
-  title33: "Module 2: Apex Programming",
-  title34: "Module 3: Visualforce & Lightning Components",
-  title35: "Module 4: Triggers, SOQL, and DML",
-  title36: "Module 5: Integrations & REST APIs",
-  title37: "Module 6: Real-Time Development Projects",
-  button5: "Download Curriculum",
-  topic1: ["CRM Concepts", "Salesforce Cloud Offerings", "MVC Architecture", "AppExchange & Environments", "Developer Console"],
-  topic2: ["Apex Syntax", "Control Flow Statements", "Data Types & Collections", "Classes & Interfaces", "Exception Handling"],
-  topic3: ["Visualforce Pages", "Standard vs Custom Controllers", "Aura vs LWC", "LWC Syntax", "Data Binding"],
-  topic4: ["SOQL Queries", "SOSL Basics", "DML Operations", "Writing Triggers", "Governor Limits"],
-  topic5: ["Callouts & Integration Patterns", "REST & SOAP APIs", "Named Credentials", "OAuth in Salesforce", "Web-to-Lead"],
-  topic6: ["Build Custom UI with LWC", "Create Triggers & Batch Apex", "Salesforce CI/CD Overview", "Use of Scratch Orgs", "Deployment & Release"],
+title32: "Module 1: Introduction to Salesforce Platform",
+title33: "Module 2: Salesforce Object Model and Data Model",
+title34: "Module 3: Apex Programming Basics",
+title35: "Module 4: Advanced Apex Concepts",
+title36: "Module 5: Visualforce Development",
+title37: "Module 6: Salesforce Lightning Basics",
+title57: "Module 7: Lightning Web Components (LWC)",
+title58: "Module 8: Integration and APIs",
+title59: "Module 9: Deployment and Change Sets",
+title60: "Module 10: Project & Certification Prep",
+button5: "Download Curriculum",
+topic1: [
+  "What is CRM and Salesforce?",
+  "Salesforce architecture and MVC pattern",
+  "Cloud types: Sales, Service, Marketing",
+  "Environment setup and navigation"
+],
+topic2: [
+  "Standard and Custom Objects",
+  "Fields, Relationships, and Schema Builder",
+  "Lookup vs Master-Detail relationships",
+  "Roll-up summary and formula fields"
+],
+topic3: [
+  "Apex data types and variables",
+  "SOQL and SOSL queries",
+  "Control flow statements and loops",
+  "Collections and exception handling"
+],
+topic4: [
+  "Triggers (before and after)",
+  "Apex classes and methods",
+  "Governor limits and bulkification",
+  "Test classes and deployment tools"
+],
+topic5: [
+  "Creating VF pages",
+  "Standard controllers and extensions",
+  "Custom controller development",
+  "Visualforce with Apex integration"
+],
+topic6: [
+  "Introduction to Lightning Experience",
+  "Aura Components overview",
+  "Component Bundles",
+  "Events and data binding"
+],
+topic7: [
+  "Setting up Salesforce CLI",
+  "LWC vs Aura",
+  "JS, HTML, Meta file usage",
+  "LWC with Apex and Data Services"
+],
+topic8: [
+  "REST and SOAP APIs",
+  "JSON and XML parsing",
+  "External app integration",
+  "Named credentials and callouts"
+],
+topic9: [
+  "Change sets and metadata",
+  "Salesforce DX and version control",
+  "Sandbox and production deployment",
+  "CI/CD basics in Salesforce"
+],
+topic10: [
+  "Real-time Salesforce application build",
+  "Resume guidance and interview prep",
+  "Certification mock tests",
+  "Q&A, live scenarios, and final evaluation"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for Salesforce Developer in Chennai",
   title40: "Onsite Training:",
@@ -24312,31 +25474,45 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   designation3: "Apex Programmer",
   designation4: "Junior Developer",
   designation5: "Lead Consultant",
-  review1: "This course helped me transition into a Salesforce Developer role with confidence. The projects were very realistic.",
-  review2: "The curriculum is updated and job-relevant. The trainers are knowledgeable and patient.",
-  review3: "Coming from a Java background, this training bridged the gap for Salesforce development.",
-  review4: "Highly structured course with hands-on practice and doubt clearing sessions.",
-  review5: "Perfect for anyone preparing for Salesforce certifications and interviews.",
-  title44: "What does a Salesforce Developer do?",
-  title45: "Who is this training meant for?",
-  title46: "Do I need prior coding experience?",
-  title47: "Is Salesforce still in demand?",
-  title48: "How is Apex different from Java?",
-  title49: "Is online training effective?",
-  title50: "Do you provide hands-on development practice?",
-  title51: "Will there be job assistance?",
-  title52: "Can I learn Salesforce as a fresher?",
-  title53: "Is this course certification-oriented?",
-  desc14: "A Salesforce Developer customizes CRM functionality using code, builds logic, integrates APIs, and designs Lightning components.",
-  desc15: "IT professionals, Java developers, admins, or freshers aspiring to become Salesforce Developers.",
-  desc16: "Basic programming knowledge helps, but our course includes fundamentals before advanced topics.",
-  desc17: "Salesforce remains a top CRM platform and offers high-paying roles globally.",
-  desc18: "Apex is Java-like but specific to Salesforce with built-in support for CRM data models and triggers.",
-  desc19: "Yes. Our online sessions include live code walkthroughs and query resolution.",
-  desc20: "Each module includes development tasks using the Salesforce Developer Org.",
-  desc21: "We help with resume reviews, mock interviews, and job referrals.",
-  desc22: "Yes. With consistent effort, freshers can start a successful Salesforce career.",
-  desc23: "Absolutely. The course aligns with Platform Developer I and II certifications.",
+review1: "The Salesforce Developer Training in Chennai at IntelliMindz completely transformed my career path. As a fresher, I had limited technical knowledge, but the step-by-step guidance, hands-on practice, and real-time projects helped me become a certified Salesforce Platform Developer. The training was not only practical but also tailored for job preparation. Today, I’m confidently working on Apex and Lightning projects.",
+
+review2: "This Salesforce course in Chennai was highly structured and industry-aligned. We worked on real-time projects involving Apex classes, triggers, and Lightning Web Components. The LWC module was especially helpful during my interview process—it impressed recruiters and gave me a competitive edge. I appreciate how IntelliMindz makes technical concepts easy to grasp and relevant to real-world applications.",
+
+review3: "IntelliMindz is undoubtedly the Best Training Institute in Chennai for Salesforce Developer training. The trainer brought real industry experience to the classroom, guiding us through live deployment scenarios and sandbox setups. The institute also provided additional support like resume reviews and mock interviews. Thanks to this training, I now work as a Salesforce Developer in a reputed IT company.",
+
+review4: "I came from a non-CRM background and was unsure at first, but this Salesforce Developer course in Chennai changed everything. The trainer was patient and very skilled, teaching us Apex coding, triggers, and Lightning Web Components in a way that was easy to understand. Mock tests, certification tips, and peer support made it a complete package. I passed my Salesforce Developer certification confidently.",
+
+review5: "Thanks to IntelliMindz’s Salesforce Developer Training in Chennai, I got certified and secured a job as a Junior Developer in a cloud-based tech company. The live project experience, especially working with Salesforce DX and deployment tools, was a game-changer. Within two months of completing the training, I transitioned smoothly into a developer role with great career growth opportunities.",
+  title44: "What is covered in this Salesforce Developer Training in Chennai?",
+  desc14: "This course covers Salesforce fundamentals, Apex programming, Visualforce, Lightning components, and real-time deployment practices for Salesforce Developer roles.",
+
+  title45: "Who should attend this Salesforce Developer course in Chennai?",
+  desc15: "Ideal for freshers, software developers, IT professionals, and admins looking to become Salesforce developers. A programming or computer science background is helpful.",
+
+  title46: "Do I need prior Salesforce experience to join?",
+  desc16: "No prior experience is needed. The course begins with Salesforce basics and moves toward advanced developer concepts, making it beginner-friendly.",
+
+  title47: "Will I learn both Salesforce Classic and Lightning?",
+  desc17: "Yes, the course includes Salesforce Classic and Lightning interfaces, including Lightning Web Components (LWC) development.",
+
+  title48: "Is this course aligned with Salesforce certifications?",
+  desc18: "Absolutely. The training aligns with Salesforce Platform Developer I and II certifications and includes mock tests and exam preparation resources.",
+
+  title49: "Will I get access to the Salesforce Developer Sandbox?",
+  desc19: "Yes. You’ll get individual Salesforce Developer Edition access to practice Apex, triggers, and Lightning development during the course.",
+
+  title50: "What job roles can I pursue after this course?",
+  desc20: "You can work as a Salesforce Developer, CRM Developer, Platform App Builder, Technical Consultant, or Lightning Developer.",
+
+  title51: "Do you offer placement assistance after the training?",
+  desc21: "Yes. We offer complete placement support including resume building, mock interviews, and job referrals for Salesforce-related roles.",
+
+  title52: "Can I take this Salesforce course online?",
+  desc22: "Yes. We offer instructor-led online sessions as well as classroom options, both providing hands-on practice and full trainer support.",
+
+  title53: "Why choose IntelliMindz for Salesforce Developer training?",
+  desc23: "IntelliMindz offers certified trainers, real-time projects, certification guidance, and strong placement support, making it the best institute in Chennai for Salesforce training.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our Salesforce Developer course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -24421,19 +25597,77 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   title29: "WebLogic Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to WebLogic",
-  title33: "Module 2: Installation and Configuration",
-  title34: "Module 3: Domain and Server Management",
-  title35: "Module 4: Deployment and Monitoring",
-  title36: "Module 5: Clustering, JDBC, JMS",
-  title37: "Module 6: WebLogic Security and Tuning",
-  button5: "Download Curriculum",
-  topic1: ["Overview of WebLogic Server", "WebLogic Architecture", "Features and Editions", "Java EE and WebLogic", "Administration Tools"],
-  topic2: ["Installing WebLogic Server", "Creating and Configuring Domains", "Directory Structure", "Node Manager Configuration", "Domain Templates"],
-  topic3: ["Managing Admin and Managed Servers", "Startup and Shutdown Procedures", "Monitoring Tools", "Console and WLST", "Backup and Recovery"],
-  topic4: ["Application Deployment Techniques", "Deploying WAR/EAR Files", "Monitoring Deployed Applications", "Undeployment and Versioning", "Deployment via WLST"],
-  topic5: ["Configuring Clusters", "Load Balancing and Failover", "JDBC Data Sources", "JMS Messaging Configuration", "Server Tuning"],
-  topic6: ["User and Role Configuration", "Security Realms and Providers", "SSL Setup", "Performance Monitoring Tools", "Thread and Heap Tuning"],
+title32: "Module 1: Introduction to Middleware & WebLogic",
+title33: "Module 2: WebLogic Domain Configuration",
+title34: "Module 3: Deployment and Application Management",
+title35: "Module 4: JDBC and JMS Configuration",
+title36: "Module 5: Clustering and Load Balancing",
+title37: "Module 6: Node Manager and Automation",
+title57: "Module 7: WebLogic Scripting Tool (WLST)",
+title58: "Module 8: Security and User Management",
+title59: "Module 9: Performance Tuning and Troubleshooting",
+title60: "Module 10: Real-Time Project + Certification Guidance",
+button5: "Download Curriculum",
+topic1: [
+  "Middleware overview",
+  "Java EE architecture",
+  "WebLogic Server architecture",
+  "Admin Console & installation"
+],
+topic2: [
+  "Creating domains with Configuration Wizard",
+  "Admin & Managed Servers",
+  "Directory structure and domain templates",
+  "Startup and shutdown processes"
+],
+topic3: [
+  "WAR and EAR deployment methods",
+  "Hot deployment",
+  "Exploded deployment",
+  "Deployment through WLST & Console"
+],
+topic4: [
+  "Data source creation",
+  "Connection pooling",
+  "JMS servers, modules, and queues",
+  "Integration with external DBs"
+],
+topic5: [
+  "Cluster creation and management",
+  "Load balancing concepts",
+  "Replication mechanisms",
+  "Failover configuration"
+],
+topic6: [
+  "Node Manager setup",
+  "Automating server lifecycle operations",
+  "Domain startup scripts",
+  "Server status monitoring"
+],
+topic7: [
+  "WLST introduction and syntax",
+  "Creating domains using WLST",
+  "Monitoring and automation scripts",
+  "Script-based deployments"
+],
+topic8: [
+  "User and role creation",
+  "Authentication providers",
+  "SSL configuration",
+  "Realms and policies"
+],
+topic9: [
+  "JVM tuning techniques",
+  "Thread and memory management",
+  "Log file analysis",
+  "Common issues and resolution"
+],
+topic10: [
+  "End-to-end enterprise deployment simulation",
+  "Interview prep for WebLogic Admin roles",
+  "Oracle certification Q&A",
+  "Final evaluation and mock tests"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for WebLogic in Chennai",
   title40: "Onsite Training:",
@@ -24459,31 +25693,45 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   designation3: "DevOps Consultant",
   designation4: "Oracle Trainee",
   designation5: "System Analyst",
-  review1: "The WebLogic course at IntelliMindz was extremely detailed. I got real hands-on experience with clustering and deployments.",
-  review2: "The instructor's industry knowledge made a big difference. The examples were practical and job-focused.",
-  review3: "Perfect for professionals! Flexible scheduling and advanced labs helped me balance work and learning.",
-  review4: "As someone new to middleware, I found the course easy to follow and very practical. Now I manage WebLogic servers confidently.",
-  review5: "Highly recommend this training! It helped me switch from a developer to an admin role seamlessly.",
-  title44: "What is WebLogic used for?",
-  title45: "Who should take this WebLogic training?",
-  title46: "Do I need Java knowledge for WebLogic?",
-  title47: "Is WebLogic still relevant in 2025?",
-  title48: "How does WebLogic compare to other servers?",
-  title49: "Is the training available online?",
-  title50: "Will there be hands-on practice?",
-  title51: "Do you offer job preparation support?",
-  title52: "Can I switch from development to admin?",
-  title53: "Is WebLogic suitable for freshers?",
-  desc14: "WebLogic is a Java-based application server used to deploy and manage enterprise-level applications in a secure, scalable environment.",
-  desc15: "System admins, middleware engineers, DevOps professionals, and Java developers will benefit from this course.",
-  desc16: "Basic knowledge of Java and application servers is helpful but not mandatory.",
-  desc17: "Yes, WebLogic continues to be widely used in enterprises for secure and scalable Java EE application hosting.",
-  desc18: "WebLogic provides advanced performance, clustering, and integration features compared to other Java application servers.",
-  desc19: "Yes. Online instructor-led sessions are available with labs and downloadable resources.",
-  desc20: "Definitely. The training includes hands-on labs with real scenarios and deployments.",
-  desc21: "Yes, we provide full job support including mock interviews and resume assistance.",
-  desc22: "Absolutely. Many learners transition from development or QA to WebLogic admin roles.",
-  desc23: "Yes. Freshers can take this course with a basic understanding of web applications.",
+review1: "The WebLogic Training in Chennai by IntelliMindz was a turning point in my IT career. I transitioned from a support background into a middleware administrator role with full confidence. The real-time labs and hands-on practice sessions helped me understand domain creation, server configurations, deployments, and troubleshooting. This course gave me the technical edge I needed to succeed in job interviews.",
+
+review2: "I was a Java developer looking to expand into application server administration. This WebLogic course in Chennai was perfect for me. The instructor walked us through everything step-by-step—from basic architecture and domain creation to advanced topics like WLST scripting and JDBC configuration. The practical exposure and clarity in teaching helped me gain a solid grip on WebLogic server management.",
+
+review3: "IntelliMindz truly is the Best Training Institute in Chennai for WebLogic training. The trainer had in-depth knowledge and industry experience. We covered topics like clustering, load balancing, and application deployments using real-world enterprise examples. The hands-on sessions made all the difference, and I could apply everything I learned directly in my new job role as a middleware engineer.",
+
+review4: "I was preparing for the Oracle WebLogic certification and found this course extremely helpful. The curriculum aligned well with the exam objectives, and the mock tests conducted during training boosted my confidence. With the guidance of IntelliMindz trainers, I cleared my certification on the first attempt. I now feel equipped to work on production-grade WebLogic environments.",
+
+review5: "I opted for the online version of the WebLogic course in Chennai due to my work schedule. The classes were interactive, and each module ended with practical assignments. We worked on a capstone project involving clustering and JMS setup, which was very useful during interviews. I got placed at a cloud integration firm soon after finishing the course.",
+  title44: "What is Oracle WebLogic and why should I learn it?",
+  desc14: "Oracle WebLogic is a Java EE application server used to host and deploy enterprise applications. It’s essential for middleware, enterprise architecture, and cloud migration roles.",
+
+  title45: "Who should take this WebLogic course in Chennai?",
+  desc15: "Ideal for system administrators, Java developers, DevOps engineers, and IT professionals interested in enterprise application management or Oracle certifications.",
+
+  title46: "Do I need prior experience in WebLogic?",
+  desc16: "No. The course starts from the basics and gradually moves to advanced topics like domain configuration, clustering, security, and automation.",
+
+  title47: "What tools will I work with in this course?",
+  desc17: "You’ll work with Oracle WebLogic Server 12c/14c, Oracle JDK, Admin Console, WLST, Node Manager, and deployment tools across real-world simulations.",
+
+  title48: "Is this course aligned with WebLogic certification?",
+  desc18: "Yes. It aligns with Oracle WebLogic Server certifications such as OCA and OCP and covers key concepts required to pass those exams.",
+
+  title49: "Will I get hands-on lab training?",
+  desc19: "Absolutely. The training includes hands-on labs for installation, domain setup, JDBC config, clustering, and application deployments (WAR/EAR).",
+
+  title50: "What job roles can I apply for after this course?",
+  desc20: "You can pursue roles such as WebLogic Administrator, Middleware Consultant, Java EE Deployment Specialist, or Application Support Engineer.",
+
+  title51: "Do you offer job support after the training?",
+  desc21: "Yes. We offer job placement support including resume assistance, mock interviews, job referrals, and post-training career mentoring.",
+
+  title52: "Can I attend this WebLogic training online?",
+  desc22: "Yes. We offer both classroom and live instructor-led online formats, suitable for learners both in Chennai and across the globe.",
+
+  title53: "Why choose IntelliMindz for WebLogic Training in Chennai?",
+  desc23: "Our trainers are industry professionals, and the course includes real-time projects, practical mentoring, and job-focused learning paths.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here you can find answers to common questions about our WebLogic training program in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -24568,19 +25816,77 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   title29: "ServiceNow Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: ServiceNow Introduction & Navigation",
-  title33: "Module 2: Incident, Problem & Change Management",
-  title34: "Module 3: CMDB and Asset Management",
-  title35: "Module 4: UI Policies, Business Rules & Workflows",
-  title36: "Module 5: Script Includes and Client Scripts",
-  title37: "Module 6: Real-Time ServiceNow Projects",
-  button5: "Download Curriculum",
-  topic1: ["Introduction to ServiceNow", "ServiceNow Modules Overview", "Instance Setup", "Forms & Lists", "Application Navigator"],
-  topic2: ["Incident Lifecycle", "Problem Management Process", "Change Management Planning", "Approval Workflows", "Service Catalog"],
-  topic3: ["Understanding CMDB", "CI Relationships", "Asset Lifecycle", "Data Model Customization", "Discovery Basics"],
-  topic4: ["Creating UI Policies", "Writing Business Rules", "Executing Workflows", "Notifications & Events", "Condition Builders"],
-  topic5: ["Client Scripts Overview", "Scripting Best Practices", "Glide APIs", "Script Includes and Inheritance", "Performance Optimization"],
-  topic6: ["Real-World Project Assignments", "Custom App Development", "Project Deployment", "Mock Interviews", "Resume Preparation"],
+title32: "Module 1: Introduction to ServiceNow Platform",
+title33: "Module 2: ServiceNow Administration",
+title34: "Module 3: Incident, Problem & Change Management",
+title35: "Module 4: Service Catalog & Request Management",
+title36: "Module 5: Client-Side Scripting",
+title37: "Module 6: Server-Side Scripting",
+title57: "Module 7: Workflow & Flow Designer",
+title58: "Module 8: Integration in ServiceNow",
+title59: "Module 9: Reporting and Dashboards",
+title60: "Module 10: Real-Time Projects & Certification Prep",
+button5: "Download Curriculum",
+topic1: [
+  "Overview of ServiceNow architecture",
+  "SaaS & PaaS concepts",
+  "Navigating the ServiceNow interface",
+  "Understanding tables, forms, and lists"
+],
+topic2: [
+  "User and role management",
+  "Instance configuration and settings",
+  "Form design and layout",
+  "Table relationships and dictionary"
+],
+topic3: [
+  "ITSM overview",
+  "Configuring incident workflows",
+  "Managing problems and changes",
+  "SLAs and escalation rules"
+],
+topic4: [
+  "Creating catalog items",
+  "Designing record producers",
+  "Workflow approvals and stages",
+  "Variables and scripting"
+],
+topic5: [
+  "GlideForm and GlideUser APIs",
+  "UI Policies and UI Scripts",
+  "Client scripts: onLoad, onChange, onSubmit",
+  "DOM manipulation in forms"
+],
+topic6: [
+  "Business Rules and Script Includes",
+  "GlideRecord and server-side API",
+  "Scheduled Jobs and Events",
+  "Data policy and ACLs"
+],
+topic7: [
+  "Creating custom workflows",
+  "Using Flow Designer for automation",
+  "Conditions and actions",
+  "Integration with service catalog"
+],
+topic8: [
+  "REST and SOAP web services",
+  "Import sets and data sources",
+  "MID Server configuration",
+  "External data integration"
+],
+topic9: [
+  "Performance analytics overview",
+  "Building reports and visualizations",
+  "Creating dashboards",
+  "Sharing reports with roles"
+],
+topic10: [
+  "Mini-project on ITSM configuration",
+  "Resume preparation for ServiceNow roles",
+  "Mock interview and test series",
+  "Certification tips and final Q&A"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for ServiceNow in Chennai",
   title40: "Onsite Training:",
@@ -24606,31 +25912,45 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   designation3: "Support Consultant",
   designation4: "ServiceNow Developer",
   designation5: "Platform Specialist",
-  review1: "Excellent training with a focus on hands-on practice and real use cases. Helped me transition into an admin role.",
-  review2: "The labs and projects were the highlight. I got a job within weeks of completing the course.",
-  review3: "Instructors had deep real-time experience. Loved the flexibility and quality of mentoring.",
-  review4: "From zero knowledge to configuring workflows and writing scripts – this course gave me everything I needed.",
-  review5: "The course content is very practical. I got placed in an MNC with their placement support.",
-  title44: "What is ServiceNow used for?",
-  title45: "Who should attend this training?",
-  title46: "Is coding needed for ServiceNow?",
-  title47: "Is ServiceNow worth learning in 2025?",
-  title48: "Is ServiceNow better than traditional ITSM tools?",
-  title49: "Is the training conducted online?",
-  title50: "Will there be hands-on labs?",
-  title51: "Do you help with placement?",
-  title52: "Can non-IT folks learn ServiceNow?",
-  title53: "Is this course suitable for beginners?",
-  desc14: "ServiceNow is a cloud platform used for automating IT service management (ITSM), operations, and workflows.",
-  desc15: "IT support engineers, system admins, freshers, and anyone looking to enter the ITSM domain.",
-  desc16: "Not required. We teach all configurations and scripting from scratch.",
-  desc17: "Yes! ServiceNow is in high demand globally across enterprises managing digital operations.",
-  desc18: "Yes. ServiceNow offers modern, cloud-native alternatives to legacy ITSM systems with better UX.",
-  desc19: "Yes, we offer fully interactive online training via Zoom or Teams.",
-  desc20: "Yes, with full instance access and task-based learning.",
-  desc21: "We support resume preparation, mock interviews, and connect you with recruiters.",
-  desc22: "Yes, functional roles don’t require prior IT experience, and we cover technical parts step-by-step.",
-  desc23: "Yes! Our structured modules and hands-on tasks make it easy for beginners.",
+review1: "The ServiceNow Training in Chennai at IntelliMindz helped me successfully shift from a basic IT support role to becoming a certified ServiceNow Administrator. The trainer guided us through live instances, hands-on labs, and real-time workflow setups. With practical exposure to incident, problem, and change management modules, I felt fully prepared to work in enterprise environments. Highly recommended for career switchers.",
+
+review2: "I joined IntelliMindz’s ServiceNow course in Chennai as a complete fresher. The structured learning path covered ITSM modules, catalog items, workflows, and client/server-side scripting. The hands-on lab access and regular assessments helped me build confidence quickly. I passed my ServiceNow Admin Certification on the first attempt and got placed as a junior ServiceNow admin within a few weeks.",
+
+review3: "If you’re looking to build a career in ServiceNow, IntelliMindz is without a doubt the Best Training Institute in Chennai. The trainers are certified professionals with real-time project experience. They not only explain the concepts but also mentor you through practical implementation. The resume building and interview preparation sessions were a huge plus. I highly recommend their training.",
+
+review4: "Coming from a manual testing background, I wasn’t sure if I could switch to development. But this ServiceNow training in Chennai made it possible. The scripting modules, project-based learning, and real-world examples gave me the confidence to apply for developer roles. I now work as a ServiceNow Developer, and I credit IntelliMindz for making this career shift happen.",
+
+review5: "This course at IntelliMindz stands out for its practical approach and excellent mentorship. We got access to a live ServiceNow instance and worked on real-world business cases. The trainer’s guidance on scripting, flow designer, and integration helped me become job-ready. I also benefited from the institute’s placement support and received interview calls soon after completing the training.",
+  title44: "What is ServiceNow and why is it in demand?",
+  desc14: "ServiceNow is a cloud-based ITSM and workflow automation platform used by enterprises to streamline IT, HR, and customer service operations. It’s highly sought-after for digital transformation roles.",
+
+  title45: "Who should enroll in this ServiceNow course in Chennai?",
+  desc15: "IT professionals, graduates, system admins, software testers, and anyone looking to start a career in ITSM or workflow automation can benefit from this training.",
+
+  title46: "Do I need programming experience to take this course?",
+  desc16: "No. Programming is not needed for Admin training. For Developer training, basic JavaScript knowledge is helpful but covered during the course.",
+
+  title47: "What will I learn in this ServiceNow training?",
+  desc17: "You will learn ServiceNow fundamentals, ITSM modules, scripting (client/server), workflows, UI policies, business rules, forms, tables, and system integrations.",
+
+  title48: "Will I get access to a ServiceNow instance for practice?",
+  desc18: "Yes. You'll get access to a free personal ServiceNow developer instance for hands-on practice during the training period.",
+
+  title49: "Does this course prepare me for ServiceNow certifications?",
+  desc19: "Absolutely. This course is aligned with the ServiceNow Administrator and Developer certification exams and includes mock tests and preparation resources.",
+
+  title50: "Are there real-time projects included in this course?",
+  desc20: "Yes. Projects include ITSM ticketing customization, service catalog building, workflow automation, and form/script configurations.",
+
+  title51: "Do you offer placement support after training?",
+  desc21: "Yes. IntelliMindz provides resume building, mock interviews, job referrals, and connects learners with hiring partners for ServiceNow roles.",
+
+  title52: "Can I take this ServiceNow training online?",
+  desc22: "Yes. We offer instructor-led online sessions as well as classroom training in Chennai, with access to recordings and course materials.",
+
+  title53: "What job roles can I apply for after this training?",
+  desc23: "You can apply for roles like ServiceNow Admin, Developer, Technical Consultant, Workflow Analyst, or ITSM Support Engineer.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our ServiceNow course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -24715,19 +26035,77 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   title29: "Xamarin Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to Xamarin",
-  title33: "Module 2: C# Programming Basics",
-  title34: "Module 3: Xamarin Forms and UI Design",
-  title35: "Module 4: Platform-Specific APIs and Services",
-  title36: "Module 5: App Deployment and Testing",
-  title37: "Module 6: Real-Time Xamarin Projects",
-  button5: "Download Curriculum",
-  topic1: ["Overview of Xamarin", "Cross-platform Development Concepts", "Xamarin Native vs Forms", "Setting Up Xamarin Environment"],
-  topic2: ["C# Syntax and Data Types", "Object-Oriented Concepts", "LINQ and Collections", "Exception Handling", "File Handling"],
-  topic3: ["XAML Layouts", "Navigation & Data Binding", "Custom Controls", "Resource Dictionaries", "MVVM Pattern"],
-  topic4: ["Accessing Device Features", "Camera, GPS, Contacts Integration", "REST API Consumption", "Local Storage", "Push Notifications"],
-  topic5: ["Debugging Xamarin Apps", "Testing Tools and Simulators", "Play Store/App Store Deployment", "Build Configurations"],
-  topic6: ["Develop a Cross-Platform Expense Tracker", "Employee Directory App", "E-commerce Product Catalog", "Chat and Notification App", "Final Project Deployment"],
+title32: "Module 1: Introduction to Xamarin and Mobile Architecture",
+title33: "Module 2: C# Programming Essentials for Xamarin",
+title34: "Module 3: Xamarin.Forms UI Development",
+title35: "Module 4: Platform-Specific Development (Android & iOS)",
+title36: "Module 5: MVVM Architecture & Best Practices",
+title37: "Module 6: Working with Local Databases – SQLite",
+title57: "Module 7: REST API Integration in Xamarin",
+title58: "Module 8: Advanced Features and App Customization",
+title59: "Module 9: Debugging, Testing, and Deployment",
+title60: "Module 10: Final Capstone Project and Career Support",
+button5: "Download Curriculum",
+topic1: [
+  "What is Xamarin and Xamarin.Forms",
+  "Cross-platform development vs. native apps",
+  "Architecture of Xamarin.Android and Xamarin.iOS",
+  "Xamarin installation and Visual Studio setup"
+],
+topic2: [
+  "C# basics and .NET features",
+  "Classes, inheritance, interfaces",
+  "Delegates and events",
+  "Exception handling and LINQ"
+],
+topic3: [
+  "Pages, layouts, and controls",
+  "XAML syntax and styling",
+  "Data binding techniques",
+  "Navigation patterns in Xamarin"
+],
+topic4: [
+  "Custom renderers",
+  "Accessing native device features",
+  "Handling device differences",
+  "Using platform-specific APIs"
+],
+topic5: [
+  "Model-View-ViewModel overview",
+  "Observable collections",
+  "Command patterns",
+  "Separation of concerns"
+],
+topic6: [
+  "Installing SQLite packages",
+  "Creating and managing databases",
+  "CRUD operations",
+  "Using ORM (Object-Relational Mapping)"
+],
+topic7: [
+  "Using HttpClient for API calls",
+  "Parsing JSON responses",
+  "Binding data to UI",
+  "Error handling and network checks"
+],
+topic8: [
+  "Animations and transitions",
+  "Theming and styling apps",
+  "Push notifications overview",
+  "Working with device sensors"
+],
+topic9: [
+  "Debugging tools in Visual Studio",
+  "Testing on emulators and real devices",
+  "Creating APK and IPA files",
+  "App publishing overview (Play Store, App Store)"
+],
+topic10: [
+  "Building a complete app from scratch",
+  "Resume building for Xamarin developers",
+  "Interview preparation and Q&A",
+  "Microsoft certification practice tests"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for Xamarin in Chennai",
   title40: "Onsite Training:",
@@ -24753,31 +26131,45 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   designation3: "Xamarin Consultant",
   designation4: "App Development Trainee",
   designation5: "Senior Developer",
-  review1: "This course gave me hands-on exposure to building real cross-platform apps. The Xamarin projects were very relevant.",
-  review2: "The trainers were incredibly knowledgeable. The way they explained Xamarin concepts using live code made a big difference.",
-  review3: "The curriculum was well-paced and covered every essential Xamarin concept. I’m now building apps confidently!",
-  review4: "The weekend batch was perfect for me. I could continue my job while learning new app development skills.",
-  review5: "Xamarin training at IntelliMindz was a game changer for my mobile development career. Highly recommended!",
-  title44: "What is Xamarin used for?",
-  title45: "Who should take this Xamarin training?",
-  title46: "Do I need prior app development experience?",
-  title47: "Is Xamarin still relevant in 2025?",
-  title48: "What’s the difference between Xamarin and React Native?",
-  title49: "Is the training available online?",
-  title50: "Will there be hands-on practice?",
-  title51: "Do you offer job preparation support?",
-  title52: "Can I switch to Xamarin from Android/iOS development?",
-  title53: "Is Xamarin training good for freshers?",
-  desc14: "Xamarin is used to build native Android, iOS, and Windows apps with a single codebase in C# using .NET.",
-  desc15: "Ideal for software developers, mobile app enthusiasts, and IT professionals interested in cross-platform mobile development.",
-  desc16: "No, the course starts from basics. However, familiarity with C# or OOPs helps speed up learning.",
-  desc17: "Yes. Xamarin is still widely used in enterprise-level mobile solutions and supports integration with .NET MAUI.",
-  desc18: "Xamarin uses C# and .NET, while React Native uses JavaScript. Xamarin provides near-native performance and full API access.",
-  desc19: "Yes, we offer both online and classroom-based training with complete access to tools and trainers.",
-  desc20: "Definitely. The course is packed with hands-on labs, app-building exercises, and live projects.",
-  desc21: "Yes. We provide resume building, mock interviews, and placement support for Xamarin developers.",
-  desc22: "Yes. If you already know Android/iOS, you’ll find Xamarin an easy transition for cross-platform development.",
-  desc23: "Absolutely. Freshers with basic programming interest can confidently start with this course.",
+review1: "I enrolled in the Xamarin Training in Chennai to transition from .NET desktop development to cross-platform mobile apps. IntelliMindz made the shift easy with hands-on training, real-time coding sessions, and step-by-step guidance. The trainer patiently walked us through the Xamarin architecture, and I now feel confident building apps for both Android and iOS.",
+
+review2: "This course in Chennai gave me end-to-end mobile development skills. From installing Visual Studio with Xamarin extensions to deploying live apps on emulators and devices, everything was covered practically. The real-time project we built during the course helped me confidently clear two technical interviews. Great experience and excellent mentorship throughout the training.",
+
+review3: "IntelliMindz is definitely the Best Training Institute in Chennai for Xamarin. The trainers are certified professionals with deep industry experience. What impressed me most was the focus on hands-on labs, practical assignments, and continuous support—even after the sessions. I was able to understand MVVM architecture, navigation, and UI design principles with ease.",
+
+review4: "The Xamarin.Forms module, REST API integration, and local database handling with SQLite were my favorite parts of the course. I successfully created my own portfolio app during training, which I proudly showcased in interviews. IntelliMindz’s training style is clear, structured, and 100% industry-relevant. I’d recommend this course to any aspiring mobile app developer.",
+
+review5: "Thanks to IntelliMindz, I landed a role as a Junior Xamarin Developer at a reputed firm. The course didn’t just focus on theory—it included real-time scenarios, Git integration, and mock interviews. The placement assistance and resume review sessions played a key role in my success. This is the go-to institute in Chennai for Xamarin training.",
+  title44: "What is Xamarin, and how is it used in mobile development?",
+  desc14: "Xamarin is a cross-platform mobile app development framework using C# to build Android and iOS apps with native performance and a shared codebase.",
+
+  title45: "Who is this Xamarin course in Chennai designed for?",
+  desc15: "This course is ideal for .NET developers, C# programmers, freshers, and mobile enthusiasts looking to build cross-platform mobile applications.",
+
+  title46: "What tools and technologies will I learn during the training?",
+  desc16: "You’ll work with Visual Studio, Xamarin.Forms, Xamarin.Android, Xamarin.iOS, SQLite, REST APIs, XAML, and the MVVM architecture.",
+
+  title47: "Will I get to build real-time mobile apps during the course?",
+  desc17: "Yes. You'll build interactive, real-time mobile apps and test them on emulators and real devices for hands-on development experience.",
+
+  title48: "Do I need prior programming experience to join this course?",
+  desc18: "Basic C# and OOP knowledge is recommended, but we provide refresher sessions so all learners can keep up with the course content.",
+
+  title49: "Can I build both Android and iOS apps using Xamarin?",
+  desc19: "Absolutely. Xamarin enables cross-platform development, allowing you to build and deploy apps for Android and iOS using a single codebase.",
+
+  title50: "Will this training help me get certified?",
+  desc20: "Yes. The course includes preparation for Microsoft Xamarin certification exams, with guidance, practice, and exam tips included.",
+
+  title51: "Is online training available for outstation students?",
+  desc21: "Yes. We provide live instructor-led online classes as well as classroom training options with flexible timings for working professionals.",
+
+  title52: "What are the job opportunities after this training?",
+  desc22: "You can work as a Xamarin Developer, Cross-Platform App Developer, C# Mobile Developer, or Mobile App Engineer in top IT firms.",
+
+  title53: "Why choose IntelliMindz for Xamarin training?",
+  desc23: "IntelliMindz offers job-focused training, real-time projects, expert mentoring, and 100% placement support, making it the best Xamarin course in Chennai.",
+
   title54: "Have a Question with Our",
   paragraph10: "Explore all your queries related to our Xamarin training course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -24862,19 +26254,77 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   title29: "Informatica IICS Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to Informatica IICS",
-  title33: "Module 2: Cloud Data Integration",
-  title34: "Module 3: Mapping Designer & Transformations",
-  title35: "Module 4: Taskflows & Schedules",
-  title36: "Module 5: Advanced Features & Monitoring",
-  title37: "Module 6: Real-Time Project Implementation",
-  button5: "Download Curriculum",
-  topic1: ["Introduction to IICS Architecture", "Understanding IICS Services", "Creating Projects and Assets", "Navigating the IICS Console", "Cloud vs On-premise Comparison"],
-  topic2: ["Source & Target Configuration", "Data Synchronization Tasks", "Replicate and Mapping Tasks", "File Ingestion and CDC", "Parameterization"],
-  topic3: ["Expression, Filter, Router, Joiner", "Lookup and Aggregator", "Rank and Sorter", "Update Strategy", "Mapping Parameters and Variables"],
-  topic4: ["Creating Linear Taskflows", "Conditional Taskflows", "Taskflow Schedules", "Taskflow Parameters", "Monitoring Logs"],
-  topic5: ["IICS APIs and Web Services", "Secure Agent Configuration", "Integration with Snowflake, Redshift, Salesforce", "Error Handling", "Best Practices"],
-  topic6: ["Building End-to-End Data Pipelines", "Cloud to Cloud Migration", "On-Prem to Cloud Integration", "Using REST Connectors", "Performance Tuning"],
+title32: "Module 1: Introduction to IICS & Architecture",
+title33: "Module 2: Secure Agent & Cloud Setup",
+title34: "Module 3: Cloud Data Integration Basics",
+title35: "Module 4: Advanced Mappings & Taskflows",
+title36: "Module 5: Application Integration Services",
+title37: "Module 6: Synchronization & Replication Tasks",
+title57: "Module 7: IICS REST & SOAP API Integration",
+title58: "Module 8: File Handling & Cloud Repositories",
+title59: "Module 9: Performance Tuning & Monitoring",
+title60: "Module 10: Project Work & Certification Prep",
+button5: "Download Curriculum",
+topic1: [
+  "Overview of IICS",
+  "Comparison with PowerCenter",
+  "IICS architecture & services",
+  "Domain, organization & assets"
+],
+topic2: [
+  "Installing and configuring secure agent",
+  "Runtime environments",
+  "Org management",
+  "Security and roles"
+],
+topic3: [
+  "Mapping Designer",
+  "Source & Target creation",
+  "Parameterization",
+  "Expression and Lookup transformation"
+],
+topic4: [
+  "Joiner, Aggregator, Filter, Router",
+  "Reusable Mappings & Mapplets",
+  "Taskflows & Conditional Execution",
+  "Error handling and recovery"
+],
+topic5: [
+  "Service Connectors",
+  "Process Designer",
+  "Fault Handling",
+  "Real-time triggers"
+],
+topic6: [
+  "Data Sync vs Data Replication",
+  "Schedule-based automation",
+  "Incremental load logic",
+  "Monitoring sync tasks"
+],
+topic7: [
+  "API creation & deployment",
+  "Connecting external apps",
+  "Web service connectors",
+  "Authentication & tokens"
+],
+topic8: [
+  "Cloud storage & file ingestion",
+  "SFTP & FTP integration",
+  "Flat file parsing & validation",
+  "JSON/XML file processing"
+],
+topic9: [
+  "Debugging techniques",
+  "Optimization of mapping logic",
+  "IICS logs & audit trail",
+  "Secure agent monitoring"
+],
+topic10: [
+  "Capstone project with real-time scenario",
+  "Resume building & interview questions",
+  "Mock certification test",
+  "Doubt clearing session"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for Informatica IICS in Chennai",
   title40: "Onsite Training:",
@@ -24900,31 +26350,45 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   designation3: "IICS Consultant",
   designation4: "Data Integration Specialist",
   designation5: "BI Developer",
-  review1: "The course structure was excellent and covered every aspect of IICS needed for enterprise data integration.",
-  review2: "I learned cloud mapping, parameterization, and secure agent configuration practically. Trainers were excellent.",
-  review3: "Live cloud projects really helped me gain job confidence. Highly recommended!",
-  review4: "From basics to advanced, the course was taught very clearly with cloud lab access.",
-  review5: "IntelliMindz helped me transition from PowerCenter to IICS smoothly. Great support team and placement help.",
-  title44: "What is Informatica IICS used for?",
-  title45: "Who should learn IICS?",
-  title46: "Is prior ETL knowledge required?",
-  title47: "Is IICS in demand in 2025?",
-  title48: "Difference between IICS and PowerCenter?",
-  title49: "Do you offer online IICS training?",
-  title50: "Will I work on live projects?",
-  title51: "Do you provide placement support?",
-  title52: "Can I switch from another domain?",
-  title53: "Is IICS beginner-friendly?",
-  desc14: "IICS is used for building cloud-based ETL pipelines, real-time data integration, and application synchronization.",
-  desc15: "Data engineers, ETL developers, BI professionals, and anyone interested in cloud data movement.",
-  desc16: "No prior ETL background needed. The course includes beginner-to-advanced level topics.",
-  desc17: "Yes. As cloud adoption grows, IICS is a must-have skill for data professionals.",
-  desc18: "IICS is cloud-native and supports REST APIs, while PowerCenter is on-premises and legacy-based.",
-  desc19: "Yes, we offer virtual instructor-led IICS training with cloud access.",
-  desc20: "Absolutely. You’ll implement real data pipelines and cloud integration flows.",
-  desc21: "Yes. Resume building, mock interviews, and job support are included.",
-  desc22: "Yes. We support domain switchers with hands-on guidance.",
-  desc23: "Definitely. The course is designed to suit both freshers and experienced professionals.",
+review1: "The Informatica IICS Training in Chennai was exactly what I needed to level up my career in cloud data integration. The hands-on labs, clear module-wise explanations, and real-world project scenarios helped me understand the IICS platform thoroughly. I felt fully prepared and confident going into the certification exam, which I cleared on my first attempt.",
+
+review2: "This is an excellent course in Chennai, especially for professionals transitioning from Informatica PowerCenter to IICS. I gained practical experience with REST API integration, Secure Agent setup, and advanced job scheduling. The training emphasized real-time use cases, which I could immediately apply in my current data engineering role.",
+
+review3: "IntelliMindz is undoubtedly the Best Training Institute in Chennai for Informatica. The instructor was very knowledgeable and guided us through Data Integration, Application Integration, and Taskflows using real datasets. The assignments, mock tests, and system access made the learning process seamless and result-oriented.",
+
+review4: "I took the IICS course while working full-time as a BI Developer. Despite my busy schedule, the flexible classes and excellent trainer support made a huge difference. The trainer resolved all my real-time project queries, especially related to migrating on-prem ETL workflows to IICS cloud pipelines. I highly recommend it for working professionals.",
+
+review5: "The IICS certification training from IntelliMindz gave me the clarity and confidence I needed to take the next step in my career. The real-time cloud labs and one-on-one guidance made the concepts easy to grasp. I am now working as an IICS Consultant at a US-based product company. This training truly opened doors for me.",
+  title44: "What is IICS and why should I learn it?",
+  desc14: "Informatica IICS is a modern iPaaS platform for cloud data integration, API management, and app integration. It prepares you for roles in cloud ETL, data engineering, and enterprise integration.",
+
+  title45: "Who should take this IICS course in Chennai?",
+  desc15: "ETL Developers, Data Engineers, PowerCenter users, Integration Consultants, and freshers aiming for cloud-based careers can benefit from this IICS training.",
+
+  title46: "Is prior Informatica or ETL experience required?",
+  desc16: "No prior experience is needed. The course starts with basics and progresses to advanced features, suitable for both beginners and experienced professionals.",
+
+  title47: "Will I work on real-time IICS projects?",
+  desc17: "Yes. You’ll complete hands-on assignments, case studies, and a capstone project based on real-world cloud data integration scenarios.",
+
+  title48: "Does the course prepare me for IICS certification?",
+  desc18: "Yes. The training aligns with the Informatica Certified IICS Developer exam and includes mock tests, Q&A discussions, and exam tips.",
+
+  title49: "What tools or setup do I need for practice?",
+  desc19: "Just a computer with internet access. We provide IICS Developer Org access and step-by-step setup for using Secure Agents locally and on the cloud.",
+
+  title50: "Do you offer both classroom and online training options?",
+  desc20: "Yes. We provide in-person classes in Chennai and online instructor-led sessions for students and professionals across India and globally.",
+
+  title51: "What are the job opportunities after this course?",
+  desc21: "You can apply for roles like Cloud Data Integration Developer, IICS Consultant, ETL Developer, and iPaaS Architect in top tech companies.",
+
+  title52: "Will I get placement support after training?",
+  desc22: "Yes. IntelliMindz offers resume help, mock interviews, job referrals, and career counseling as part of its full placement support.",
+
+  title53: "Is job support available for working professionals?",
+  desc23: "Yes. We offer live job/project support to help working professionals handle IICS tasks, troubleshoot issues, and learn advanced concepts.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our Informatica IICS course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -25009,19 +26473,67 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   title29: "IEEE IoT Project Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to IoT & IEEE Projects",
-  title33: "Module 2: IoT Sensors, Devices, and Protocols",
-  title34: "Module 3: Microcontroller Programming",
-  title35: "Module 4: IoT Cloud Integration",
-  title36: "Module 5: IEEE Project Development",
-  title37: "Module 6: Final Review, Testing & Submission",
-  button5: "Download Curriculum",
-  topic1: ["Overview of IoT and IEEE domains", "Project selection strategies", "Project lifecycle planning", "IEEE format understanding"],
-  topic2: ["Types of sensors and actuators", "Protocols like MQTT, HTTP, CoAP", "Wired/Wireless Communication", "Power & connectivity considerations"],
-  topic3: ["Raspberry Pi basics", "Arduino coding", "NodeMCU & ESP8266 programming", "Sensor interfacing with GPIO"],
-  topic4: ["Connecting devices to Thingspeak/Firebase", "Realtime data logging", "Cloud dashboards", "IoT analytics and alerts"],
-  topic5: ["IEEE standards compliance", "Code integration", "PCB design (optional)", "Testing and optimization"],
-  topic6: ["Demo preparation", "Documentation & PPT creation", "Mock viva session", "Final Submission checklist"],
+title32: "Module 1: Introduction to IoT and IEEE Standards",
+title33: "Module 2: Hardware Components & Microcontrollers",
+title34: "Module 3: Communication Protocols",
+title35: "Module 4: IoT Software Platforms",
+title36: "Module 5: Data Acquisition and Processing",
+title37: "Module 6: IoT Security Fundamentals",
+title57: "Module 7: Project Design & Development",
+title58: "Module 8: Testing & Deployment",
+title59: "Module 9: Project Documentation",
+title60: "Module 10: Final Presentation & Career Guidance",
+button5: "Download Curriculum",
+topic1: [
+  "Basics of IoT and its applications",
+  "Overview of IEEE standards relevant to IoT",
+  "IoT architecture and protocols"
+],
+topic2: [
+  "Arduino, Raspberry Pi, ESP8266/ESP32 basics",
+  "Sensors and actuators interfacing",
+  "Power management for IoT devices"
+],
+topic3: [
+  "WiFi, Bluetooth, Zigbee, LoRaWAN",
+  "MQTT and CoAP protocols",
+  "Data transmission and security considerations"
+],
+topic4: [
+  "Node-RED, ThingsBoard, Blynk",
+  "Cloud IoT platforms: AWS IoT, Azure IoT Hub",
+  "Data visualization and dashboards"
+],
+topic5: [
+  "Sensor data collection methods",
+  "Real-time data processing",
+  "Edge vs cloud computing in IoT"
+],
+topic6: [
+  "Common IoT vulnerabilities",
+  "Encryption and authentication methods",
+  "Secure firmware updates"
+],
+topic7: [
+  "Defining project scope and objectives",
+  "Hardware-software integration",
+  "Prototype development"
+],
+topic8: [
+  "Unit and system testing",
+  "Troubleshooting hardware and software",
+  "Deployment strategies for IoT systems"
+],
+topic9: [
+  "Writing IEEE-standard reports",
+  "Preparing presentations and demos",
+  "Code and schematic documentation"
+],
+topic10: [
+  "Project demonstration and evaluation",
+  "Interview preparation based on your project",
+  "Resume and portfolio building support"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for IEEE IoT in Chennai",
   title40: "Onsite Training:",
@@ -25047,31 +26559,45 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   designation3: "IoT Project Trainee",
   designation4: "B.Tech EEE",
   designation5: "Student – IT Dept.",
-  review1: "IntelliMindz made our final year IoT project smooth and successful. We got full support from ideation to final submission.",
-  review2: "Their trainers explained complex IoT integrations in a simple way. Loved the hands-on sessions with Raspberry Pi!",
-  review3: "Highly recommend this for any student working on IEEE-based IoT projects. Excellent guidance and real-time support.",
-  review4: "Best place for IoT final year training. They helped with cloud integration, testing, and report creation too.",
-  review5: "The entire training was well-structured, and the mock viva helped me present my project confidently in college.",
-  title44: "What is an IEEE IoT project?",
-  title45: "Who should attend this training?",
-  title46: "Do I need IoT experience?",
-  title47: "Is this valid for college submissions?",
-  title48: "Do I get help with documentation?",
-  title49: "Is the training available online?",
-  title50: "Will I work on a real device?",
-  title51: "Do you help in IEEE paper writing?",
-  title52: "Can I come as a group?",
-  title53: "Is it suitable for diploma students?",
-  desc14: "An IEEE IoT project refers to final year academic work aligned with IEEE standards involving IoT technologies.",
-  desc15: "This course is ideal for final year students in B.E., B.Tech, MCA, and M.Sc who need IEEE IoT project support.",
-  desc16: "No, we teach all concepts from scratch and help you build a full project step-by-step.",
-  desc17: "Yes, the projects and documentation are aligned with academic and IEEE submission requirements.",
-  desc18: "Yes. We provide full guidance for synopsis, reports, and PPTs required by your institution.",
-  desc19: "Yes, live online classes are available with trainer interaction and cloud-based IoT simulation.",
-  desc20: "Yes, you’ll use real IoT boards and sensors during hands-on sessions.",
-  desc21: "Yes. If you need to submit an IEEE paper or journal, we provide template guidance and technical writing support.",
-  desc22: "Absolutely. We offer group-based IEEE IoT project training with collaborative development.",
-  desc23: "Yes. Diploma and polytechnic students can also benefit from our IEEE IoT project modules.",
+review1: "The Final Year Projects in Chennai by IntelliMindz helped me turn a simple idea into a fully working smart irrigation system. I learned how to connect sensors, write Arduino code, and monitor soil moisture in real-time. From hardware connections to coding and even documentation, everything was clearly explained by the trainers. The support team was available whenever I had doubts—even during late-night testing. I received appreciation during my viva for the working prototype and presentation.",
+
+review2: "I chose an IEEE IoT project on wearable health monitoring, and it was one of the best decisions I made in my final year. IntelliMindz guided me through each step—setting up the sensors, collecting real-time data, and integrating it with mobile apps. I had no idea how microcontrollers worked before, but now I can confidently explain every component in my project. Their expert mentoring made complex topics simple, and I gained a solid understanding of how real-world IoT systems work in the healthcare industry.",
+
+review3: "This is hands down the best project center in Chennai for final year IEEE IoT projects. I was completely new to Raspberry Pi, but within a week, I learned how to set up the board, connect sensors, and push data to the cloud. I even built an IoT dashboard to display temperature and humidity data in real-time. The hands-on sessions, clear explanations, and one-on-one mentoring made a huge difference. This experience not only helped me finish my project on time but also boosted my resume for core jobs.",
+
+review4: "I was in urgent need of a working project for submission, and IntelliMindz delivered beyond my expectations. Within 10 days, they helped me develop a smart home automation system using NodeMCU and mobile app integration. I could control lights and fans using my phone and show real-time control during the viva. The trainer explained the coding, Wi-Fi setup, and Blynk platform usage so clearly. They also helped me prepare my slides, report, and rehearse for the viva. I received full marks and great feedback from my internal guide.",
+
+review5: "I initially joined just for the project, but the IoT training included along with it gave me real technical exposure. I worked on sensor data logging, cloud communication, and mobile notifications. This training and project combo gave me more than just academic marks—it gave me technical confidence. I’m now interning with an IoT startup in Bangalore, and the skills I learned here are exactly what they expect in the industry. IntelliMindz helped me move beyond the textbook and gain career-ready knowledge.",
+  title44: "What makes IntelliMindz the best project training institute in Chennai?",
+  desc14: "IntelliMindz combines academic depth with industry relevance, offering expert project mentoring, live hardware training, IEEE-format documentation, and placement support.",
+
+  title45: "Can I choose a custom project idea and get it implemented?",
+  desc15: "Yes. You can propose your own IoT project idea, and our team will assist with planning, components, prototyping, and IEEE-standard implementation.",
+
+  title46: "I’m a non-CS student. Can I still pursue an IoT project?",
+  desc16: "Absolutely. We offer customized IoT projects for ECE, EEE, Mechanical, Biomedical, and other branches, based on your department needs.",
+
+  title47: "Will I receive a working prototype for submission?",
+  desc17: "Yes. You’ll get a complete working prototype with hardware, sensors, circuits, code, simulation output, and a video demo for submission.",
+
+  title48: "How long does the training and project completion take?",
+  desc18: "Typically 4 to 6 weeks, depending on project complexity. We provide flexible weekday, weekend, and evening batch options.",
+
+  title49: "Do you provide internship certificates along with the project?",
+  desc19: "Yes. You’ll receive an Internship Certificate, Project Completion Certificate, and an optional Letter of Recommendation.",
+
+  title50: "Will you help with viva and project presentations?",
+  desc20: "Yes. We offer viva practice, demo sessions, PPT preparation, and technical explanation guidance for your final presentation.",
+
+  title51: "Is the project documentation in IEEE format?",
+  desc21: "Yes. All documentation is in IEEE format, including Abstract, Literature Survey, Methodology, Results, Screenshots, and Future Scope.",
+
+  title52: "Are online training and remote project options available?",
+  desc22: "Yes. Online live training is available, and hardware kits can be shipped for remote learners with full technical support.",
+
+  title53: "What is the price range of your IoT projects?",
+  desc23: "Prices start from ₹4,000 and vary based on project complexity, hardware used, and customization. Group discounts are available.",
+
   title54: "Have a Question with Our",
   paragraph10: "We are here to guide you through your final year IEEE IoT project and training needs.",
   title55: "Navigate your final year project with our expert mentorship.",
@@ -25156,19 +26682,67 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   title29: "VLSI Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Digital Electronics & Logic Design",
-  title33: "Module 2: HDL (Verilog/VHDL)",
-  title34: "Module 3: ASIC & FPGA Design Flow",
-  title35: "Module 4: Timing Analysis & Constraints",
-  title36: "Module 5: EDA Tool Flow",
-  title37: "Module 6: Real-Time Projects",
-  button5: "Download Curriculum",
-  topic1: ["Boolean Algebra", "Combinational Circuits", "Sequential Circuits", "FSM Design", "K-Map Simplification"],
-  topic2: ["Verilog Syntax", "Data Types", "Structural & Behavioral Modeling", "Testbenches", "Simulation"],
-  topic3: ["ASIC vs FPGA", "RTL to GDS Flow", "Synthesis", "Place and Route", "Clock Tree"],
-  topic4: ["Static Timing Analysis", "Setup & Hold Timing", "Clock Skew", "Multi-Corner Multi-Mode Analysis", "Timing Reports"],
-  topic5: ["Introduction to EDA Tools", "Design Entry", "Simulation Tools", "Synthesis Tools", "Back-End Tools Overview"],
-  topic6: ["Mini Project: Counter Design", "Final Project: UART/ALU/Memory Controller", "Tool Usage Reports", "Debugging Techniques", "Project Demo"],
+title32: "Module 1: Introduction to VLSI Design",
+title33: "Module 2: Digital Logic Design",
+title34: "Module 3: HDL – Verilog & VHDL",
+title35: "Module 4: RTL Design and Simulation",
+title36: "Module 5: FPGA Architecture & Programming",
+title37: "Module 6: Synthesis & Static Timing Analysis (STA)",
+title57: "Module 7: ASIC Design & Verification",
+title58: "Module 8: Floorplanning and Physical Design Basics",
+title59: "Module 9: Industry Tools & Project Implementation",
+title60: "Module 10: Resume, Interview Prep & Certification",
+button5: "Download Curriculum",
+topic1: [
+  "VLSI evolution and applications",
+  "IC design flow",
+  "CMOS basics and technology overview"
+],
+topic2: [
+  "Logic gates, combinational and sequential circuits",
+  "Flip-flops, counters, multiplexers, etc.",
+  "Boolean algebra and Karnaugh maps"
+],
+topic3: [
+  "RTL modeling with Verilog",
+  "Behavioral, structural, and gate-level coding",
+  "VHDL syntax and examples"
+],
+topic4: [
+  "Simulation tools and testbench creation",
+  "Functional simulation and waveform analysis",
+  "Debugging RTL code"
+],
+topic5: [
+  "Introduction to FPGAs and PLDs",
+  "Hands-on with Xilinx Vivado / ISE",
+  "FPGA implementation of projects"
+],
+topic6: [
+  "Synthesis using Synopsys Design Compiler",
+  "Timing constraints and setup/hold time",
+  "Clock tree synthesis and optimization"
+],
+topic7: [
+  "ASIC flow and technology libraries",
+  "Design for Test (DFT)",
+  "Functional and formal verification"
+],
+topic8: [
+  "Physical design steps: floorplanning, placement, routing",
+  "Power planning and clock tree generation",
+  "EDA tools overview"
+],
+topic9: [
+  "Working with ModelSim, Vivado, and Synopsys",
+  "Real-world mini-projects",
+  "Chip simulation and testing"
+],
+topic10: [
+  "Resume review and technical Q&A",
+  "Certification test",
+  "VLSI career guidance and job support"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for VLSI in Chennai",
   title40: "Onsite Training:",
@@ -25194,31 +26768,45 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   designation3: "DFT Trainee",
   designation4: "Physical Design Engineer",
   designation5: "RTL Verification Engineer",
-  review1: "The VLSI training gave me a solid foundation and helped me land my first role in ASIC design.",
-  review2: "Excellent exposure to tools like Vivado and ModelSim. The hands-on projects made a big difference.",
-  review3: "The trainers were very supportive and explained everything clearly, even complex timing concepts.",
-  review4: "I highly recommend this to anyone wanting to break into the VLSI industry with real skills.",
-  review5: "Got placed through their guidance! The course is industry-aligned and practical.",
-  title44: "What is VLSI and why is it important?",
-  title45: "Who should take this VLSI course?",
-  title46: "Do I need a background in electronics?",
-  title47: "Is VLSI a good career choice in 2025?",
-  title48: "How does this course help with placements?",
-  title49: "Is this training available online?",
-  title50: "Are there lab sessions included?",
-  title51: "Do you provide interview support?",
-  title52: "Can I switch to VLSI from IT?",
-  title53: "Is this suitable for ECE freshers?",
-  desc14: "VLSI (Very-Large-Scale Integration) is crucial for designing ICs used in everything from smartphones to automotive systems.",
-  desc15: "Engineering students, ECE graduates, and professionals interested in chip design, embedded systems, and core electronics.",
-  desc16: "Yes, basic knowledge of digital electronics is helpful, but we also start with foundational concepts.",
-  desc17: "Absolutely. With demand for chip designers and layout engineers rising, VLSI remains a future-proof field.",
-  desc18: "We align course content with job roles and help prepare portfolios with real project work.",
-  desc19: "Yes, live online training is available with remote access to VLSI tools and simulators.",
-  desc20: "Yes, students get access to EDA tools and complete real-world design projects.",
-  desc21: "We offer resume prep, mock interviews, and referrals to top core companies.",
-  desc22: "Yes, career switchers from IT can enter VLSI with proper upskilling and guidance.",
-  desc23: "Definitely. This is a perfect first step for any electronics or ECE graduate.",
+review1: "This VLSI course in Chennai gave me hands-on exposure to RTL design, Verilog HDL, and FPGA programming. The trainer’s clarity in explaining concepts and real-time lab exercises helped me confidently handle complex logic design tasks in my project work.",
+
+review2: "I joined IntelliMindz for VLSI Training in Chennai to kick-start my career in chip design. The sessions were packed with practical knowledge, real-time assignments, and personalized job interview support. Within weeks of completing the course, I landed my first VLSI job in a design services company.",
+
+review3: "Definitely the Best Training Institute in Chennai for VLSI! We used industry-standard tools like Vivado, Synopsys, and ModelSim during the training. The course covered both front-end and back-end design workflows in depth, which prepared me for real-world VLSI projects.",
+
+review4: "Though I had a basic understanding of digital electronics, this VLSI course helped me master ASIC and FPGA workflows. The simulation labs and hands-on implementation of VHDL/Verilog code gave me a solid foundation for entering the semiconductor industry.",
+
+review5: "I completed the VLSI training through IntelliMindz’s online program. Despite being remote, the learning was interactive and well-structured. I received recorded sessions, live Q&A, and tool access. I now work at an embedded systems company as a Junior VLSI Engineer.",
+  title44: "What does this VLSI course in Chennai cover?",
+  desc14: "This course covers RTL design, FPGA programming, ASIC design, simulation, and verification using tools like ModelSim, Xilinx Vivado, and Synopsys.",
+
+  title45: "Who can join the VLSI Training in Chennai?",
+  desc15: "Ideal for ECE, EEE, and CSE graduates, embedded engineers, hardware developers, and anyone looking to enter the chip design or semiconductor industry.",
+
+  title46: "Do I need prior coding or hardware experience?",
+  desc16: "No prior experience is required. We teach VLSI from the basics, including Verilog, VHDL, and digital design concepts.",
+
+  title47: "What industry tools are taught in this VLSI course?",
+  desc17: "You’ll work with Xilinx Vivado for FPGA, ModelSim for simulation, and Synopsys tools for ASIC flow and logic synthesis.",
+
+  title48: "Is this a job-oriented VLSI certification course?",
+  desc18: "Yes. It includes hands-on projects, interview preparation, resume support, and career mentoring specifically for VLSI roles.",
+
+  title49: "Will I work on real-time VLSI projects?",
+  desc19: "Yes. You'll design ALUs, traffic light controllers, processor units, and more, tested on FPGA boards with simulation and testbenches.",
+
+  title50: "Is online VLSI training available at IntelliMindz?",
+  desc20: "Yes. We offer both classroom and live online training with full access to virtual labs and remote FPGA development environments.",
+
+  title51: "Do you provide placement support after the course?",
+  desc21: "Yes. We offer resume writing, mock interviews, job referrals, and domain-specific career guidance in the VLSI field.",
+
+  title52: "Will I receive a certification after completing the training?",
+  desc22: "Yes. You’ll receive an industry-recognized VLSI Certification from IntelliMindz upon completing all course modules and projects.",
+
+  title53: "What are the career opportunities after VLSI training?",
+  desc23: "You can work as an RTL Design Engineer, FPGA Developer, ASIC Designer, Verification Engineer, Layout Engineer, or Embedded Hardware Developer.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our VLSI course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -25303,19 +26891,67 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   title29: "Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Basics of Building Estimation",
-  title33: "Module 2: Quantity Take-Off and BOQ",
-  title34: "Module 3: Rate Analysis and Cost Estimation",
-  title35: "Module 4: Tendering and Contracts",
-  title36: "Module 5: Estimation Software Tools",
-  title37: "Module 6: Real-Time Project Work",
-  button5: "Download Curriculum",
-  topic1: ["Introduction to Estimation", "Types of Estimates", "Units and Measurements", "Drawing Study", "Basic Quantity Calculations"],
-  topic2: ["Quantity Take-Off from Drawings", "Preparing BOQ", "Excel for Estimation", "Plinth Area and Cube Rate Methods"],
-  topic3: ["Rate Analysis Techniques", "Material and Labor Costing", "Cost Sheet Preparation", "Budget Estimation"],
-  topic4: ["Tender Document Preparation", "Bidding Process", "Work Orders", "Contracts and Specifications"],
-  topic5: ["MS Excel for Estimation", "AutoCAD Basics for Take-Off", "Introduction to Estimation Software", "Costing Templates"],
-  topic6: ["Live Estimation Project", "Preparing Complete BOQ", "Client Budget Analysis", "Project Cost Review and Optimization"],
+title32: "Module 1: Basics of Estimation and Costing",
+title33: "Module 2: Quantity Take-Off Methods",
+title34: "Module 3: Rate Analysis",
+title35: "Module 4: Bill of Quantities (BOQ) Preparation",
+title36: "Module 5: Cost Estimation for Buildings",
+title37: "Module 6: Tendering and Contracts",
+title57: "Module 7: Software Tools in Estimation",
+title58: "Module 8: Budgeting and Cost Control",
+title59: "Module 9: Government Projects and CPWD Norms",
+title60: "Module 10: Project Work and Certification Prep",
+button5: "Download Curriculum",
+topic1: [
+  "Types of estimates: Preliminary, Detailed, Revised",
+  "Purpose and importance in project planning",
+  "Overview of estimation tools"
+],
+topic2: [
+  "Units of measurement",
+  "Measurement of quantities for RCC, brickwork, plastering, etc.",
+  "Longwall-shortwall and centerline methods"
+],
+topic3: [
+  "Understanding material, labor, and equipment rates",
+  "Labour productivity and norms",
+  "Preparing detailed rate analysis for civil works"
+],
+topic4: [
+  "Structure of BOQ",
+  "Format and item description standards",
+  "Item coding and specifications"
+],
+topic5: [
+  "Residential building cost estimation",
+  "Multi-storey and commercial buildings",
+  "Foundation, structure, and finishing works"
+],
+topic6: [
+  "Tender preparation and submission",
+  "Types of contracts (Item Rate, Lumpsum, EPC)",
+  "Bid evaluation and negotiation"
+],
+topic7: [
+  "Estimation using Excel sheets",
+  "Quantity extraction using AutoCAD",
+  "Introduction to Revit and CostX for digital BOQ"
+],
+topic8: [
+  "Cost planning vs actuals",
+  "Escalation and contingency",
+  "Cost control reports and forecasting"
+],
+topic9: [
+  "DSR (Delhi Schedule of Rates) usage",
+  "SOR codes and standard specifications",
+  "Government estimation formats"
+],
+topic10: [
+  "Real project estimation case study",
+  "Certification guidance",
+  "Resume building and interview preparation"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes",
   title40: "Onsite Training:",
@@ -25341,31 +26977,45 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   designation3: "Cost Estimator",
   designation4: "Junior Estimation Engineer",
   designation5: "Project Engineer",
-  review1: "The estimation course helped me upgrade my cost analysis skills with hands-on BOQ and tender preparation.",
-  review2: "Great support from trainers and good use of tools like Excel and AutoCAD. Highly recommended.",
-  review3: "I could apply the concepts I learned immediately in my work. Real-time project was very helpful.",
-  review4: "As a fresher, I gained solid knowledge in construction estimation. The small batches helped me learn better.",
-  review5: "The course gave me the edge to switch from site supervision to estimation. Excellent training structure.",
-  title44: "What is Building Estimation and Costing?",
-  title45: "Who should take this course?",
-  title46: "Do I need AutoCAD knowledge?",
-  title47: "Is this training suitable in 2025?",
-  title48: "What tools are covered in the course?",
-  title49: "Is the training available online?",
-  title50: "Will there be real-world practice?",
-  title51: "Do you provide placement support?",
-  title52: "Can I switch from site to estimation?",
-  title53: "Is this course beginner-friendly?",
-  desc14: "It involves calculating the materials, labor, and costs required for construction projects to ensure budget accuracy.",
-  desc15: "Ideal for civil engineers, contractors, freshers, diploma holders, and site engineers.",
-  desc16: "Not mandatory. Basic training on tools like Excel and AutoCAD is provided during the course.",
-  desc17: "Yes. Estimation and costing roles are highly in-demand across infrastructure and real estate industries.",
-  desc18: "MS Excel, AutoCAD basics, and estimation templates are used throughout the course.",
-  desc19: "Yes, online sessions with live support and practice are available.",
-  desc20: "Absolutely. You'll work on complete estimation workflows for real or sample projects.",
-  desc21: "We provide full job support with resume prep, mock interviews, and job referrals.",
-  desc22: "Yes. The course helps professionals transition smoothly into estimation roles.",
-  desc23: "Yes. Even beginners will benefit from our step-by-step training approach.",
+review1: "This Building Estimation and Costing Training in Chennai helped me successfully shift from a site engineer role to a planning and estimation profile. The real-time practice with BOQ (Bill of Quantities), rate analysis, and Excel-based estimation tools was incredibly useful in my day-to-day work.",
+
+review2: "As a fresh civil engineering graduate, I lacked practical exposure to project estimation. This course in Chennai covered quantity take-off, Excel formulas, and AutoCAD integration for measurement. The trainer was supportive and clarified all my doubts with real-life case studies.",
+
+review3: "Thanks to IntelliMindz, the Best Training Institute in Chennai, I’m now working as a junior estimator at a reputed infrastructure company. Their hands-on sessions and industry-standard templates gave me a professional edge during my job interviews.",
+
+review4: "The trainer taught with examples from actual construction projects. I learned how to prepare tender documents, estimate residential and commercial building costs, and use standard practices like DSR and CPWD formats. Highly practical and informative!",
+
+review5: "The training sessions on CPWD and DSR rate analysis were very effective. They even helped me crack my government sector interview. If you're aiming for a career in estimation and costing, this training in Chennai is a must.",
+  title44: "What does this Building Estimation and Costing course in Chennai cover?",
+  desc14: "It covers quantity take-off, rate analysis, BOQ creation, and software estimation using Excel and AutoCAD—preparing you for real-world construction roles.",
+
+  title45: "Who should take this Building Estimation and Costing training in Chennai?",
+  desc15: "Ideal for civil engineering students, diploma holders, site supervisors, and professionals seeking skills in quantity surveying and cost estimation.",
+
+  title46: "Do I need prior experience in estimation or construction to join this course?",
+  desc16: "No experience needed. The course starts with basics and progresses to advanced cost analysis, making it suitable for all levels.",
+
+  title47: "Will I learn to estimate both residential and commercial buildings in this training?",
+  desc17: "Yes. The training includes estimation for residential, commercial, and infrastructure projects using market rates and approved costing methods.",
+
+  title48: "Do you provide hands-on training in Excel, AutoCAD, and other tools?",
+  desc18: "Yes. You'll work on Excel for cost estimation, BOQ templates, and AutoCAD to extract quantities from 2D drawings and plans.",
+
+  title49: "Is this Building Estimation and Costing training aligned with CPWD and DSR norms?",
+  desc19: "Yes. We follow CPWD standards, DSR codes, and SOR documentation—beneficial for government project estimations and tenders.",
+
+  title50: "Are both classroom and online sessions available for this course in Chennai?",
+  desc20: "Yes. IntelliMindz offers in-person sessions in Chennai and live online training for remote learners.",
+
+  title51: "What job opportunities are available after completing this course?",
+  desc21: "You can apply for roles like Quantity Surveyor, Cost Estimator, Planning Engineer, or Project Coordinator in various construction sectors.",
+
+  title52: "Do you assist with resume preparation and civil engineering job interviews?",
+  desc22: "Yes. We offer resume building, mock interviews, and career guidance focused on civil estimation and project planning roles.",
+
+  title53: "Why is IntelliMindz the Best Training Institute in Chennai for this course?",
+  desc23: "Because we combine hands-on projects, certified trainers, and government-compliant tools to offer job-ready estimation training in Chennai.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our Building Estimation and Costing course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -25450,19 +27100,67 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   title29: "Guidewire Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to Insurance Domain & Guidewire",
-  title33: "Module 2: Guidewire Architecture & Components",
-  title34: "Module 3: ClaimCenter Deep Dive",
-  title35: "Module 4: PolicyCenter Configuration",
-  title36: "Module 5: BillingCenter and Integrations",
-  title37: "Module 6: Real-Time Projects & Deployment",
-  button5: "Download Curriculum",
-  topic1: ["Insurance basics", "Overview of Guidewire Suite", "Client-Server Model", "Guidewire Platform Components", "Versioning & Deployment"],
-  topic2: ["Application architecture", "Studio and Configuration", "Entity modeling", "Gosu programming", "Event Messaging"],
-  topic3: ["Claim FNOL", "Exposure & Reserves", "Claim Assignments", "Validation Rules", "Claim Financials"],
-  topic4: ["Product model", "Rate tables", "Underwriting rules", "Quoting and issuance", "Business Rules"],
-  topic5: ["Billing processes", "Billing instructions", "Account management", "Integration with external systems", "Web Services"],
-  topic6: ["Implementing end-to-end workflow", "Project deployment", "Environment setup", "Guidewire Certification guidance"],
+title32: "Module 1: Introduction to Guidewire",
+title33: "Module 2: ClaimCenter Fundamentals",
+title34: "Module 3: PolicyCenter Fundamentals",
+title35: "Module 4: BillingCenter Overview",
+title36: "Module 5: Guidewire Studio & Configuration",
+title37: "Module 6: Integration with External Systems",
+title57: "Module 7: Testing & Debugging",
+title58: "Module 8: Security and Access Control",
+title59: "Module 9: Guidewire Certification Preparation",
+title60: "Module 10: Project & Job Support",
+button5: "Download Curriculum",
+topic1: [
+  "Overview of the Guidewire InsuranceSuite",
+  "Architecture and key modules",
+  "Role in the insurance industry"
+],
+topic2: [
+  "Claims lifecycle",
+  "FNOL (First Notice of Loss)",
+  "Business rules, workflows & screens"
+],
+topic3: [
+  "Product model configuration",
+  "Rating, underwriting, and policy administration",
+  "Account and policy transactions"
+],
+topic4: [
+  "Invoicing, payments, commissions",
+  "Integration with ERP and CRM systems",
+  "Payment plans and collections"
+],
+topic5: [
+  "GOSU scripting language",
+  "Data model & typelists",
+  "UI configuration and business rules"
+],
+topic6: [
+  "Web services (SOAP/REST)",
+  "Messaging and plugins",
+  "Integration best practices"
+],
+topic7: [
+  "Unit testing in Guidewire",
+  "Configuration validation",
+  "Debugging and error handling"
+],
+topic8: [
+  "User roles and permissions",
+  "Authentication and authorization",
+  "ClaimCenter security framework"
+],
+topic9: [
+  "Certification paths (ClaimCenter, PolicyCenter)",
+  "Sample questions & mock tests",
+  "Exam guidance"
+],
+topic10: [
+  "Real-time implementation scenarios",
+  "Resume building and interview Q&A",
+  "Career and job portal assistance"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for Guidewire in Chennai",
   title40: "Onsite Training:",
@@ -25488,31 +27186,45 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   designation3: "PolicyCenter Analyst",
   designation4: "BillingCenter Tester",
   designation5: "ClaimCenter Trainee",
-  review1: "IntelliMindz helped me transition into a Guidewire project successfully. Their real-time project work was very useful.",
-  review2: "The trainers knew exactly what clients expect in a Guidewire role. It made me confident during my interviews.",
-  review3: "The course had a good balance of theory and hands-on. I was able to configure PolicyCenter on my own.",
-  review4: "Clear teaching, practical sessions, and interview prep support made all the difference. Highly recommend it!",
-  review5: "Excellent course for beginners. It helped me crack an entry-level position as a ClaimCenter analyst.",
-  title44: "What is Guidewire used for?",
-  title45: "Who should take this Guidewire training?",
-  title46: "Do I need Java experience for Guidewire?",
-  title47: "Is Guidewire in demand in 2025?",
-  title48: "Is Guidewire better than legacy systems?",
-  title49: "Is the course available online?",
-  title50: "Are real-time projects included?",
-  title51: "Do you offer placement support?",
-  title52: "Can non-IT people learn Guidewire?",
-  title53: "Is Guidewire good for freshers?",
-  desc14: "Guidewire is a core platform used by insurance companies to manage policies, claims, and billing efficiently.",
-  desc15: "IT professionals, testers, business analysts, and freshers aiming for a career in insurance tech.",
-  desc16: "Basic Java knowledge is helpful for developers, but non-coders can pursue BA or testing roles.",
-  desc17: "Yes. Guidewire is a leading platform and is widely adopted across the global insurance industry.",
-  desc18: "Guidewire offers flexibility, automation, and scalability that legacy insurance systems lack.",
-  desc19: "Yes, we offer instructor-led online batches and recorded sessions for remote learners.",
-  desc20: "Yes. Each module includes real-time scenarios and projects with live environments.",
-  desc21: "We offer resume reviews, mock interviews, and refer eligible candidates to hiring partners.",
-  desc22: "Yes. Non-IT candidates can opt for functional roles like Guidewire BA or Configuration Analyst.",
-  desc23: "Absolutely. With the right training, Guidewire opens strong career paths for freshers.",
+review1: "I joined the Guidewire Training in Chennai at IntelliMindz with no prior experience in insurance platforms. The course was hands-on and included real-time practice on ClaimCenter. With strong trainer support and access to project-based labs, I secured a job as a ClaimCenter Developer within two months of completing the course.",
+
+review2: "IntelliMindz is undoubtedly the Best Training Institute in Chennai for Guidewire learning. I enrolled in their PolicyCenter training module and was able to understand the complete policy lifecycle. Today, I’m working on live Guidewire projects with confidence, thanks to their practical teaching approach and industry-relevant examples.",
+
+review3: "The Guidewire course at IntelliMindz gave me the right tools to switch my career from core Java to the insurance technology space. The training was comprehensive, covering ClaimCenter, PolicyCenter, and BillingCenter modules, and included mock interviews, resume preparation, and real project simulations.",
+
+review4: "What made this course stand out was the trainer’s real-world experience. Every topic was backed by insurance domain use cases, which made learning engaging and relevant. Whether you're a fresher or experienced developer, this Guidewire Training in Chennai will open doors to new job opportunities.",
+
+review5: "Guidewire BillingCenter seemed intimidating at first, but the IntelliMindz team made it easy to understand through structured lessons, lab exercises, and certification-oriented mock tests. I now feel job-ready and confident in handling end-to-end billing configuration and customizations.",
+title44: "What is Guidewire and why is it in demand?",
+desc14: "Guidewire is an enterprise software suite for the property and casualty insurance sector, used to manage claims, policies, and billing systems. Our training equips you with real-time skills for this high-demand domain.",
+
+title45: "Who should take this Guidewire course in Chennai?",
+desc15: "Ideal for Java developers, business analysts, QA testers, and IT professionals aiming to enter the insurance technology industry.",
+
+title46: "Do I need programming knowledge to learn Guidewire?",
+desc16: "Basic Java is helpful but not mandatory. The course starts with fundamentals and teaches GOSU scripting and functional configurations step by step.",
+
+title47: "Will I get access to a Guidewire environment for practice?",
+desc17: "Yes, learners get simulated access to Guidewire ClaimCenter and PolicyCenter for real-time hands-on practice.",
+
+title48: "Is this course aligned with Guidewire certifications?",
+desc18: "Yes, it prepares you for official Guidewire certifications like ClaimCenter and PolicyCenter with learning paths and mock exams.",
+
+title49: "Is training available in both online and offline modes?",
+desc19: "Yes, we provide both instructor-led classroom sessions in Chennai and flexible online training for global learners.",
+
+title50: "What job roles can I expect after completing this course?",
+desc20: "You can apply for roles such as Guidewire Developer, ClaimCenter Consultant, PolicyCenter Configurator, QA Analyst, and Technical Consultant.",
+
+title51: "Do you provide resume and interview preparation?",
+desc21: "Yes, we offer resume writing, LinkedIn optimization, mock interviews, and personalized interview coaching.",
+
+title52: "What tools or languages will I learn in this course?",
+desc22: "You will learn GOSU scripting, Guidewire Studio, integration tools like REST and SOAP APIs, and system configuration techniques.",
+
+title53: "Why is IntelliMindz the Best Training Institute in Chennai for Guidewire?",
+desc23: "Because we provide expert-led training, project-based learning, certification guidance, and complete career support for aspiring Guidewire professionals.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our Guidewire course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",

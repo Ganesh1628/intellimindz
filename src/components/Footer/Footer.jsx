@@ -90,7 +90,7 @@ const Footer = () => {
                 </a>
               </span>
               <span>
-                <a href="twitter.com/intellimindz_in" aria-label="Visit our Twitter page"> {/* Replace with actual URL */}
+                <a href="http://twitter.com/intellimindz_in" aria-label="Visit our Twitter page"> {/* Replace with actual URL */}
                   <i className="ri-twitter-line"></i>
                 </a>
               </span>

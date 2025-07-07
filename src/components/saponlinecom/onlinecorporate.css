@@ -61,9 +61,186 @@ border-radius: 30px;
  line-height: 1.5;
 }
 
-/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .corporate-section {
+        margin: 35px auto;
+        padding: 18px;
+    }
+
+    .corporate-title {
+        font-size: 1.95rem;
+        margin-bottom: 65px;
+    }
+
+    .corporate-grid {
+        grid-template-columns: repeat(3, 1fr); /* Exactly three columns */
+        gap: 28px;
+        width: 100%;
+    }
+
+    .corporate-block {
+        padding: 18px;
+    }
+
+    .corporate-image-container {
+        height: 75px;
+        margin-bottom: 14px;
+    }
+
+    .corporate-image {
+        height: 190px;
+        width: 190px;
+        border-radius: 30px;
+    }
+
+    .corporate-block-heading {
+        font-size: 1.18rem;
+        margin-top: 95px;
+    }
+
+    .corporate-block-paragraph {
+        font-size: 0.98rem;
+        line-height: 1.45;
+    }
+}
+
 @media (max-width: 768px) {
- .corporate-grid {
- grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
- }
+    .corporate-section {
+        margin: 30px auto; /* Moderate margin for tablet screens */
+        padding: 15px; /* Adjusted padding */
+    }
+
+    .corporate-title {
+        font-size: 1.9rem; /* Slightly smaller than desktop */
+        margin-bottom: 60px; /* Adjusted margin */
+    }
+
+    .corporate-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Two or one column depending on width */
+        gap: 25px; /* Moderate gap */
+        width: 100%; /* Full width for flexibility */
+    }
+
+    .corporate-block {
+        padding: 18px; /* Slightly reduced padding */
+    }
+
+    .corporate-image-container {
+        height: 75px; /* Adjusted for tablet */
+        margin-bottom: 12px;
+    }
+
+    .corporate-image {
+        height: 180px; /* Slightly smaller image */
+        width: 180px;
+        border-radius: 30px;
+    }
+
+    .corporate-block-heading {
+        font-size: 1.15rem; /* Adjusted font size */
+        margin-top: 90px; /* Balanced margin */
+    }
+
+    .corporate-block-paragraph {
+        font-size: 0.95rem; /* Slightly smaller text */
+        line-height: 1.4; /* Adjusted for readability */
+    }
+}
+
+/* Media query for 425px screens */
+@media (max-width: 425px) {
+    .corporate-section {
+        margin: 25px auto; /* Slightly larger margin than 375px */
+        padding: 15px 12px; /* Slightly more padding than 375px */
+    }
+
+    .corporate-title {
+        font-size: 1.8rem; /* Slightly larger than 375px */
+        color: #2c3e50;
+        font-family: "DM Sans", sans-serif;
+        text-align: center;
+        margin-bottom: 50px; /* Slightly larger than 375px */
+        font-weight: 700;
+    }
+
+    .corporate-grid {
+        display: grid;
+        grid-template-columns: 1fr; /* Single column for 425px */
+        gap: 25px; /* Slightly larger gap than 375px */
+        width: 100%; /* Ensure full width */
+    }
+
+    .corporate-block {
+        background-color: #ffffff;
+        padding: 18px; /* Slightly more padding than 375px */
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .corporate-image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px; /* Slightly larger than 375px */
+        margin-bottom: 15px;
+    }
+
+    .corporate-image {
+        height: 160px; /* Slightly larger than 375px */
+        width: 160px;
+        border-radius: 30px;
+    }
+
+    .corporate-block-heading {
+        font-size: 1.15rem; /* Slightly larger than 375px */
+        color: #333;
+        margin-top: 80px; /* Slightly larger than 375px */
+        font-weight: 600;
+    }
+
+    .corporate-block-paragraph {
+        font-size: 0.95rem; /* Slightly larger than 375px */
+        color: #666;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 375px) {
+    .corporate-section {
+        margin: 20px auto; /* Reduced margin for smaller screens */
+        padding: 15px 10px; /* Further reduced padding */
+    }
+
+    .corporate-title {
+        font-size: 1.6rem; /* Smaller font size */
+        margin-bottom: 40px; /* Reduced margin */
+    }
+
+    .corporate-grid {
+        grid-template-columns: 1fr; /* Single column for 375px */
+        gap: 20px; /* Reduced gap */
+        width: 100%; /* Ensure full width */
+    }
+
+    .corporate-block {
+        padding: 15px; /* Reduced padding */
+    }
+
+    .corporate-image-container {
+        height: 60px; /* Smaller image container */
+    }
+
+    .corporate-image {
+        height: 150px; /* Smaller image size */
+        width: 150px;
+    }
+
+    .corporate-block-heading {
+        font-size: 1.1rem; /* Smaller font size */
+        margin-top: 70px; /* Reduced margin to balance layout */
+    }
+
+    .corporate-block-paragraph {
+        font-size: 0.9rem; /* Smaller font size */
+    }
 }

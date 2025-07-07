@@ -119,42 +119,6 @@
   object-fit: cover; /* Fills the container, may crop. Alternatives: contain, fill, scale-down */
   display: block; /* Remove extra space below image */
 }
-
-/* Media queries for responsiveness (SAPAboutSection) */
-@media (max-width: 768px) {
-  .sap-fico-about-content {
-    flex-direction: column; /* Stack columns on smaller screens */
-    align-items: center;
-  }
-  .sap-fico-about-text,
-  .sap-fico-about-image-container {
-    min-width: unset; /* Remove min-width for stacking */
-    width: 90%; /* Adjust width for stacked content */
-  }
-  .sap-fico-about-image-container {
-    height: 250px; /* Example fixed height for stacked view, adjust as needed */
-  }
-  .sap-fico-about-section h2 {
-    font-size: 2em;
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 480px) {
-  .sap-fico-about-section {
-    padding: 30px 15px;
-  }
-  .sap-fico-about-section h2 {
-    font-size: 1.8em;
-  }
-  .sap-fico-about-text {
-    font-size: 1em;
-  }
-  .sap-fico-about-image-container {
-    height: 200px; /* Example fixed height for smaller stacked view */
-  }
-}
-
 /* (KEY FEATURES TITLE SAP) */
 .sap-fico-features-section {
   padding: 60px 20px;
@@ -233,65 +197,6 @@
   line-height: 1.6;
   flex-grow: 1; /* Allows paragraphs to take available height */
   padding: 0 20px; /* Add horizontal padding for text */
-}
-
-/* Media queries for responsiveness (SAPFeaturesSection) */
-@media (max-width: 768px) {
-  .sap-fico-features-section h2 {
-    font-size: 2em;
-  }
-  .sap-fico-features-grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-  }
-  .feature-icon-placeholder {
-    height: 160px; /* Adjust height for smaller screens */
-  }
-}
-
-@media (max-width: 480px) {
-  .sap-fico-features-section {
-    padding: 30px 15px;
-  }
-  .sap-fico-features-section h2 {
-    font-size: 1.8em;
-  }
-  .feature-card {
-    padding: 0px 0px 20px 0px; /* Adjusted padding */
-  }
-  .feature-card h3 {
-    font-size: 1.2em;
-    padding: 0 15px;
-  }
-  .feature-card p {
-    font-size: 0.95em;
-    padding: 0 15px;
-  }
-  .feature-icon-placeholder {
-    height: 140px; /* Further adjust height for very small screens */
-  }
-}
-
-/* (SAP INTRO ENROLL NOW BUTTON STYLING) */
-/* Styles for the Enroll Now button in the Intro component */
-.intro-content .intro-enroll-button {
-  background-color: #ff6600;
-  color: white;
-  padding: 12px 25px;
-  margin-right: 600px; /* This might need adjustment for responsiveness */
-  border: none;
-  border-radius: 5px;
-  font-size: 1.1em;
-  font-weight: bold;
-  cursor: pointer;
-  margin-top: 20px;
-  transition: background-color 0.3s ease;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.intro-content .intro-enroll-button:hover {
-  background-color: #e05a00;
 }
 
 .intro-content {
@@ -385,39 +290,6 @@
 .training-mode-enroll-button:hover {
   background-color: #c9302c;
 }
-
-
-@media (max-width: 992px) {
-  .training-mode-card {
-    width: calc(50% - 20px); /* Adjusted for gap */
-  }
-}
-
-@media (max-width: 768px) {
-  .training-modes-title {
-    font-size: 2rem;
-  }
-  .training-modes-grid {
-    flex-direction: column;
-    align-items: center;
-  }
-  .training-mode-card {
-    width: 85%;
-    max-width: 350px;
-    margin-bottom: 20px; /* Ensure this is applied */
-  }
-  .training-mode-card:last-child {
-    margin-bottom: 0;
-  }
-  .popular-banner {
-    top: 12px;
-    right: -42px;
-    width: 150px;
-    font-size: 0.8rem;
-  }
-}
-
-
 /* --- START: Styles for Java Training Course Content Section (now SAP FICO Course Content) --- */
 .java-course-content-section {
   padding: 50px 20px;
@@ -536,25 +408,6 @@
 }
 .java-download-curriculum-button:hover { background-color: #003399; }
 
-@media (max-width: 768px) {
-  .java-course-layout-container { flex-direction: column; }
-  .java-syllabus-modules-panel, .java-topics-details-panel {
-    flex: 1 1 100%; min-width: unset; max-height: none; /* Allow to grow */
-    overflow-y: visible; /* Remove scroll for stacked view */
-    scrollbar-width: auto;
-  }
-  .java-syllabus-modules-panel::-webkit-scrollbar, .java-topics-details-panel::-webkit-scrollbar { display: none; } /* Hide scrollbar */
-
-  .java-syllabus-header, .java-topics-title { position: static; } /* Remove sticky positioning */
-  .java-section-title { font-size: 1.8em; }
-  .java-syllabus-header { clip-path: none; border-top-left-radius: 8px; border-top-right-radius: 8px; }
-  .java-download-curriculum-button { align-self: stretch; text-align: center; justify-content: center; margin-top: 20px; }
-}
-/* --- END: Styles for Java Training Course Content Section (now SAP FICO Course Content) --- */
-
-/* ... other styles ... */
-
-/* --- START: Styles for Batch Details Section --- */
 .batch-details-section {
   /* background-color: #f0ead6; */ /* This line is removed or commented out */
   background-image: var(--batch-details-bg-image); /* Use the CSS variable set in JSX */
@@ -672,60 +525,6 @@
   line-height: 1.4;
 }
 
-/* Responsive adjustments for Batch Details Section */
-@media (max-width: 992px) {
-  .batch-card {
-    flex-wrap: wrap; 
-    min-height: auto; 
-  }
-  .batch-segment {
-    flex-basis: calc(50% - 1px); 
-    padding: 15px 10px;
-  }
-  .batch-segment:nth-child(2n) { 
-    border-right: none;
-  }
-    .batch-segment:nth-child(odd):not(:last-of-type) { 
-      border-right: 1px solid #e0e0e0;
-    }
-  .batch-segment:nth-child(1), .batch-segment:nth-child(2) { 
-    border-bottom: 1px solid #e0e0e0;
-  }
-    .batch-segment:nth-child(3):nth-last-child(2) { 
-      border-right: 1px solid #e0e0e0;
-    }
-    .batch-segment:last-of-type { 
-      border-right: none;
-    }
-}
-
-@media (max-width: 600px) {
-  .batch-details-title {
-    font-size: 1.8em;
-  }
-  .batch-card {
-    flex-direction: column; 
-    min-height: auto;
-  }
-  .batch-segment {
-    flex-basis: auto; 
-    width: 100%; 
-    border-right: none !important; 
-    border-bottom: 1px solid #e0e0e0; 
-    padding: 15px;
-  }
-  .batch-segment:last-child {
-    border-bottom: none; 
-  }
-  .batch-month-year {
-    font-size: 1.3em;
-    padding: 15px; 
-  }
-}
-/* --- END: Styles for Batch Details Section --- */
-
-/* ... other styles ... */
-/* --- START: Styles for Corporate Training Modes Section --- */
 .corporate-training-modes-section {
   padding: 50px 20px;
   background-color: #f8f9fa;
@@ -781,20 +580,6 @@
   line-height: 1.6;
   padding: 0 20px 20px 20px;
 }
-
-@media (max-width: 768px) {
-  .corporate-training-modes-title {
-    font-size: 1.8em;
-  }
-  .modes-container-grid {
-    grid-template-columns: 1fr;
-  }
-  .mode-image {
-    height: 200px;
-  }
-}
-/* --- END: Styles for Corporate Training Modes Section --- */
-
 /* --- START: Styles for Alumni Reviews Section --- */
 .alumni-reviews-section {
   padding: 60px 20px;
@@ -1056,55 +841,6 @@
   text-align: center;
 }
 
-@media (max-width: 992px) {
-  .review-slider-layout-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-  }
-  .reviewer-image-area {
-    flex-basis: auto;
-    width: 60%;
-    max-width: 250px;
-    margin-bottom: 20px;
-  }
-  .floating-star-rating-bubble {
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -15px; /* Adjust to sit nicely below image */
-  }
-  .review-content-area {
-    flex-basis: 100%;
-    max-width: 100%;
-  }
-  .slider-navigation {
-    justify-content: center;
-    padding-right: 0;
-    margin-top: 10px;
-  }
-}
-
-@media (max-width: 768px) {
-  .alumni-reviews-title {
-    font-size: 1.8em;
-    margin-bottom: 30px;
-  }
-  .review-card {
-    padding: 20px 25px;
-    min-height: auto;
-  }
-  .reviewer-info-line {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .star-rating-header {
-    margin-left: 0;
-    margin-top: 8px;
-  }
-  .reviewer-name-designation {
-    margin-top: 8px; /* Space after avatar when stacked */
-  }
-}
 /* --- END: Styles for Alumni Reviews Section --- */
 
 /* --- START: Call To Action Banner Section --- */
@@ -1142,19 +878,1116 @@
   background-color: #444444; /* Slightly lighter on hover */
 }
 
-/* Responsive adjustments for CTA Banner */
-@media (max-width: 768px) {
-  .cta-banner-section {
-    flex-direction: column; /* Stack text and button */
-    padding: 30px 15px;
-  }
-  .cta-banner-text {
-    font-size: 1.1em;
-    margin-bottom: 15px; /* Add space below text when stacked */
-  }
-  .cta-banner-button {
-    font-size: 0.95em;
-    padding: 10px 20px;
-  }
+/* Media query for 1024px screens */
+@media (max-width: 1024px) {
+    /* SAP FICO Expert Section */
+    .sap-fico-expert-section {
+        padding: 50px 20px; /* Adjusted padding */
+    }
+
+    .sap-fico-expert-section h1 {
+        font-size: 2.2em; /* Slightly smaller heading */
+        margin-bottom: 12px;
+    }
+
+    .sap-fico-expert-section p {
+        font-size: 1.05em; /* Slightly smaller text */
+        margin-bottom: 25px;
+    }
+
+    .sap-fico-expert-button {
+        padding: 13px 28px; /* Slightly adjusted button */
+        font-size: 1.1em;
+    }
+
+    /* SAP FICO About Section */
+    .sap-fico-about-section {
+        padding: 50px 20px; /* Adjusted padding */
+        margin: 30px auto; /* Adjusted margin */
+        max-width: 1000px; /* Slightly smaller max-width */
+    }
+
+    .sap-fico-about-section h2 {
+        font-size: 2.2em; /* Slightly smaller heading */
+        margin-bottom: 35px;
+    }
+
+    .sap-fico-about-content {
+        gap: 30px; /* Adjusted gap */
+    }
+
+    .sap-fico-about-text {
+        font-size: 1.05em; /* Slightly smaller text */
+        line-height: 1.7;
+    }
+
+    .sap-fico-about-image-container {
+        height: 280px; /* Adjusted height for image */
+    }
+
+    /* SAP FICO Features Section */
+    .sap-fico-features-section {
+        padding: 50px 20px; /* Adjusted padding */
+        margin: 30px auto;
+        max-width: 1000px; /* Slightly smaller max-width */
+    }
+
+    .sap-fico-features-section h2 {
+        font-size: 2.2em; /* Slightly smaller heading */
+        margin-bottom: 40px;
+    }
+
+    .sap-fico-features-grid {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); /* Adjusted min width for columns */
+        gap: 25px; /* Slightly smaller gap */
+    }
+
+    .feature-icon-placeholder {
+        height: 170px; /* Slightly smaller image placeholder */
+        margin-bottom: 18px;
+    }
+
+    .feature-card h3 {
+        font-size: 1.3em; /* Slightly smaller heading */
+    }
+
+    .feature-card p {
+        font-size: 0.95em; /* Slightly smaller text */
+    }
+
+    /* Training Modes Section */
+    .training-modes-section {
+        padding: 45px 20px; /* Adjusted padding */
+    }
+
+    .training-modes-title {
+        font-size: 2.2rem; /* Slightly smaller title */
+        margin-bottom: 35px;
+    }
+
+    .training-modes-grid {
+        gap: 20px; /* Adjusted gap */
+        max-width: 1000px; /* Slightly smaller max-width */
+    }
+
+    .training-mode-card {
+        width: 280px; /* Slightly smaller card width */
+        padding: 30px 20px; /* Adjusted padding */
+    }
+
+    .training-mode-card-title {
+        font-size: 1.5rem; /* Slightly smaller title */
+    }
+
+    .training-mode-card-description {
+        font-size: 0.95rem; /* Slightly smaller description */
+        min-height: 65px;
+    }
+
+    .training-mode-enroll-button {
+        padding: 11px 32px; /* Adjusted button */
+        font-size: 0.95rem;
+    }
+
+    /* SAP FICO Course Content Section */
+    .java-course-content-section {
+        padding: 45px 20px; /* Adjusted padding */
+        margin: 30px auto;
+        max-width: 1000px; /* Slightly smaller max-width */
+    }
+
+    .java-section-title,
+    .java-course-content-section > h2 {
+        font-size: 2em; /* Slightly smaller title */
+        margin-bottom: 30px;
+    }
+
+    .java-title-underline {
+        width: 55px; /* Adjusted underline */
+    }
+
+    .java-course-layout-container {
+        gap: 25px; /* Adjusted gap */
+        padding: 18px;
+    }
+
+    .java-syllabus-modules-panel,
+    .java-topics-details-panel {
+        max-height: 400px; /* Adjusted height */
+        min-width: 260px; /* Slightly smaller min-width */
+    }
+
+    .java-syllabus-header {
+        font-size: 1.05em; /* Slightly smaller header */
+        padding: 13px 18px;
+    }
+
+    .java-module-item {
+        font-size: 0.95em; /* Slightly smaller text */
+        padding: 13px 18px;
+    }
+
+    .java-topics-title {
+        font-size: 1.25em; /* Slightly smaller title */
+    }
+
+    .java-topics-list li {
+        font-size: 0.95em; /* Slightly smaller list items */
+        margin-bottom: 11px;
+    }
+
+    .java-download-curriculum-button {
+        padding: 11px 22px; /* Adjusted button */
+        font-size: 0.95em;
+    }
+
+    /* Batch Details Section */
+    .batch-details-section {
+        padding: 50px 20px; /* Adjusted padding */
+    }
+
+    .batch-details-title {
+        font-size: 2em; /* Slightly smaller title */
+        margin-bottom: 35px;
+    }
+
+    .batch-cards-container {
+        max-width: 900px; /* Slightly smaller max-width */
+    }
+
+    .batch-card {
+        margin-bottom: 25px; /* Adjusted margin */
+    }
+
+    .batch-segment {
+        padding: 14px; /* Adjusted padding */
+    }
+
+    .batch-month-year {
+        font-size: 1.3em; /* Slightly smaller text */
+    }
+
+    .batch-schedule-mode p:first-child,
+    .batch-duration-type p:first-child {
+        font-size: 0.95em; /* Slightly smaller text */
+    }
+
+    .course-fee-tag {
+        font-size: 0.85em; /* Slightly smaller button */
+        padding: 7px 18px;
+    }
+
+    .suitability-text {
+        font-size: 0.85em; /* Slightly smaller text */
+    }
+
+    /* Corporate Training Modes Section */
+    .corporate-training-modes-section {
+        padding: 45px 20px; /* Adjusted padding */
+    }
+
+    .corporate-training-modes-title {
+        font-size: 2em; /* Slightly smaller title */
+        margin-bottom: 35px;
+    }
+
+    .modes-container-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Adjusted min width */
+        gap: 25px; /* Adjusted gap */
+        max-width: 1000px; /* Slightly smaller max-width */
+    }
+
+    .mode-image {
+        height: 200px; /* Slightly smaller image */
+    }
+
+    .mode-title {
+        font-size: 1.25em; /* Slightly smaller title */
+    }
+
+    .mode-description {
+        font-size: 0.95em; /* Slightly smaller description */
+    }
+
+    /* Alumni Reviews Section */
+    .alumni-reviews-section {
+        padding: 50px 20px; /* Adjusted padding */
+    }
+
+    .alumni-reviews-section::before {
+        width: 300px; /* Adjusted decorative circle */
+        height: 300px;
+        top: -100px;
+        right: -130px;
+    }
+
+    .alumni-reviews-section::after {
+        width: 200px; /* Adjusted decorative circle */
+        height: 200px;
+        bottom: -80px;
+        left: -100px;
+    }
+
+    .alumni-reviews-title {
+        font-size: 2em; /* Slightly smaller title */
+        margin-bottom: 40px;
+    }
+
+    .review-slider-layout-container {
+        gap: 40px; /* Adjusted gap */
+        max-width: 900px; /* Slightly smaller max-width */
+    }
+
+    .reviewer-image-area {
+        flex-basis: 35%; /* Slightly adjusted proportion */
+        max-width: 280px;
+    }
+
+    .review-content-area {
+        flex-basis: 60%; /* Slightly adjusted proportion */
+        max-width: 550px;
+    }
+
+    .reviewer-main-image-placeholder {
+        aspect-ratio: 3 / 4; /* Maintain aspect ratio */
+    }
+
+    .floating-star-rating-bubble {
+        padding: 7px 11px; /* Adjusted bubble */
+        bottom: 9px;
+        left: 9px;
+    }
+
+    .review-card {
+        padding: 22px; /* Adjusted padding */
+        margin-bottom: 22px;
+    }
+
+    .review-card-header {
+        margin-bottom: 12px;
+        padding-bottom: 9px;
+    }
+
+    .review-company-logo-text {
+        font-size: 1.05em; /* Slightly smaller text */
+    }
+
+    .reviewer-avatar {
+        width: 42px; /* Slightly smaller avatar */
+        height: 42px;
+        font-size: 1.2em;
+    }
+
+    .reviewer-name {
+        font-size: 1em; /* Slightly smaller name */
+    }
+
+    .reviewer-designation {
+        font-size: 0.85em; /* Slightly smaller designation */
+    }
+
+    .star-rating-header {
+        font-size: 0.95em; /* Slightly smaller stars */
+    }
+
+    .review-text-content {
+        font-size: 0.9em; /* Slightly smaller review text */
+    }
+
+    .slider-navigation {
+        gap: 12px; /* Adjusted gap */
+    }
+
+    .nav-arrow {
+        width: 34px; /* Adjusted buttons */
+        height: 34px;
+    }
+
+    .nav-arrow svg {
+        width: 9px; /* Adjusted arrows */
+        height: 15px;
+    }
+
+    .slide-counter {
+        font-size: 0.9em; /* Slightly smaller counter */
+    }
+
+    /* Call to Action Banner Section */
+    .cta-banner-section {
+        padding: 35px 20px; /* Adjusted padding */
+        gap: 18px; /* Adjusted gap */
+    }
+
+    .cta-banner-text {
+        font-size: 1.2em; /* Slightly smaller text */
+    }
+
+    .cta-banner-button {
+        padding: 11px 22px; /* Adjusted button */
+        font-size: 0.95em;
+    }
 }
-/* --- END: Call To Action Banner Section --- */
+
+@media (max-width: 768px) {
+  .sap-fico-about-content {
+    flex-direction: column; /* Stack columns on smaller screens */
+    align-items: center;
+  }
+  .sap-fico-about-text,
+  .sap-fico-about-image-container {
+    min-width: unset; /* Remove min-width for stacking */
+    width: 90%; /* Adjust width for stacked content */
+  }
+  .sap-fico-about-image-container {
+    height: 250px; /* Example fixed height for stacked view, adjust as needed */
+  }
+  .sap-fico-about-section h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+
+      .corporate-training-modes-section {
+        padding: 40px 15px; /* Reduced padding */
+    }
+
+    .corporate-training-modes-title {
+        font-size: 1.8em; /* Smaller title */
+        margin-bottom: 30px;
+    }
+
+    .modes-container-grid {
+        grid-template-columns: repeat(auto-fit, minmax(30px, 4fr)); /* Adjusted min width */
+        gap: 20px; /* Smaller gap */
+        max-width: 700px; /* Smaller max-width */
+    }
+
+    .mode-card-item {
+        padding: 0; /* Maintain padding */
+    }
+
+    .mode-image {
+        height: 190px; /* Smaller image height */
+        margin-bottom: 15px;
+    }
+
+    .mode-title {
+        font-size: 1.2em; /* Smaller title */
+        padding: 0 15px; /* Adjusted padding */
+    }
+
+    .mode-description {
+        font-size: 0.9em; /* Smaller description */
+        padding: 0 15px 15px 15px; /* Adjusted padding */
+    }
+}
+
+/* Media query for 425px screens */
+@media (max-width: 425px) {
+    /* SAP FICO Expert Section */
+    .sap-fico-expert-section {
+        padding: 45px 15px; /* Slightly more padding than 375px */
+    }
+
+    .sap-fico-expert-section h1 {
+        font-size: 2em; /* Slightly larger than 375px */
+        margin-bottom: 12px;
+    }
+
+    .sap-fico-expert-section p {
+        font-size: 1em; /* Slightly larger than 375px */
+        margin-bottom: 25px;
+    }
+
+    .sap-fico-expert-button {
+        padding: 13px 28px; /* Slightly larger button */
+        font-size: 1.1em;
+    }
+
+    /* SAP FICO About Section */
+    .sap-fico-about-section {
+        padding: 45px 15px; /* Slightly more padding */
+        margin: 25px auto; /* Slightly larger margin */
+    }
+
+    .sap-fico-about-section h2 {
+        font-size: 2em; /* Slightly larger than 375px */
+        margin-bottom: 30px;
+    }
+
+    .sap-fico-about-content {
+        flex-direction: column; /* Stack content vertically */
+        gap: 25px; /* Slightly larger gap */
+    }
+
+    .sap-fico-about-text,
+    .sap-fico-about-image-container {
+        width: 100%; /* Full width */
+        min-width: unset; /* Remove min-width */
+    }
+
+    .sap-fico-about-text {
+        font-size: 1em; /* Slightly larger text */
+        line-height: 1.7;
+    }
+
+    .sap-fico-about-image-container {
+        height: 220px; /* Slightly taller than 375px */
+    }
+
+    /* SAP FICO Features Section */
+    .sap-fico-features-section {
+        padding: 45px 15px; /* Slightly more padding */
+        margin: 25px auto;
+    }
+
+    .sap-fico-features-section h2 {
+        font-size: 2em; /* Slightly larger than 375px */
+        margin-bottom: 35px;
+    }
+
+    .sap-fico-features-grid {
+        grid-template-columns: 1fr; /* Single column */
+        gap: 25px; /* Slightly larger gap */
+    }
+
+    .feature-icon-placeholder {
+        height: 160px; /* Slightly larger than 375px */
+        margin-bottom: 18px;
+    }
+
+    .feature-card h3 {
+        font-size: 1.3em; /* Slightly larger heading */
+    }
+
+    .feature-card p {
+        font-size: 0.95em; /* Slightly larger text */
+    }
+
+    /* Training Modes Section */
+    .training-modes-section {
+        padding: 45px 15px; /* Slightly more padding */
+    }
+
+    .training-modes-title {
+        font-size: 2rem; /* Slightly larger than 375px */
+        margin-bottom: 30px;
+    }
+
+    .training-modes-grid {
+        gap: 20px; /* Slightly larger gap */
+    }
+
+    .training-mode-card {
+        width: 100%; /* Full width */
+        padding: 30px 20px; /* Slightly more padding */
+    }
+
+    .training-mode-card-title {
+        font-size: 1.5rem; /* Slightly larger title */
+    }
+
+    .training-mode-card-description {
+        font-size: 0.95rem; /* Slightly larger description */
+        min-height: 65px;
+    }
+
+    .training-mode-enroll-button {
+        padding: 11px 32px; /* Slightly larger button */
+        font-size: 0.95rem;
+    }
+
+    /* SAP FICO Course Content Section */
+    .java-course-content-section {
+        padding: 45px 15px; /* Slightly more padding */
+        margin: 25px auto;
+    }
+
+    .java-section-title,
+    .java-course-content-section > h2 {
+        font-size: 2em; /* Slightly larger title */
+        margin-bottom: 30px;
+    }
+
+    .java-title-underline {
+        width: 55px; /* Slightly larger underline */
+    }
+
+    .java-course-layout-container {
+        flex-direction: column; /* Stack panels */
+        gap: 25px; /* Slightly larger gap */
+        padding: 18px;
+    }
+
+    .java-syllabus-modules-panel,
+    .java-topics-details-panel {
+        max-height: 450px; /* Slightly taller than 375px */
+        min-width: unset; /* Remove min-width */
+        width: 100%; /* Full width */
+    }
+
+    .java-syllabus-header {
+        font-size: 1.05em; /* Slightly larger header */
+        padding: 13px 18px;
+    }
+
+    .java-module-item {
+        font-size: 0.95em; /* Slightly larger text */
+        padding: 13px 18px;
+    }
+
+    .java-topics-title {
+        font-size: 1.25em; /* Slightly larger title */
+    }
+
+    .java-topics-list li {
+        font-size: 0.95em; /* Slightly larger list items */
+        margin-bottom: 11px;
+    }
+
+    .java-download-curriculum-button {
+        padding: 11px 22px; /* Slightly larger button */
+        font-size: 0.95em;
+    }
+
+    /* Batch Details Section */
+    .batch-details-section {
+        padding: 45px 15px; /* Slightly more padding */
+    }
+
+    .batch-details-title {
+        font-size: 2em; /* Slightly larger title */
+        margin-bottom: 30px;
+    }
+
+    .batch-card {
+        flex-direction: column; /* Stack segments */
+        min-height: unset; /* Remove min-height */
+        margin-bottom: 25px;
+    }
+
+    .batch-segment {
+        border-right: none; /* Remove border for stacked layout */
+        border-bottom: 1px solid #e0e0e0; /* Add bottom border */
+        padding: 14px;
+    }
+
+    .batch-segment:last-child {
+        border-bottom: none; /* Remove border for last segment */
+    }
+
+    .batch-month-year {
+        font-size: 1.3em; /* Slightly larger text */
+    }
+
+    .batch-schedule-mode p:first-child,
+    .batch-duration-type p:first-child {
+        font-size: 0.95em; /* Slightly larger text */
+    }
+
+    .course-fee-tag {
+        font-size: 0.85em; /* Slightly larger button */
+        padding: 7px 18px;
+    }
+
+    .suitability-text {
+        font-size: 0.85em; /* Slightly larger text */
+    }
+
+    /* Corporate Training Modes Section */
+    .corporate-training-modes-section {
+        padding: 70px 50px; /* Slightly more padding */
+    }
+
+    .corporate-training-modes-title {
+        font-size: 2em; /* Slightly larger title */
+        margin-bottom: 30px;
+    }
+
+    .modes-container-grid {
+        grid-template-columns: 1fr; /* Single column */
+        gap: 25px; /* Slightly larger gap */
+    }
+
+    .mode-image {
+        height: 200px; /* Slightly larger image */
+    }
+
+    .mode-title {
+        font-size: 1.25em; /* Slightly larger title */
+    }
+
+    .mode-description {
+        font-size: 0.95em; /* Slightly larger description */
+    }
+
+    /* Alumni Reviews Section */
+    .alumni-reviews-section {
+        padding: 45px 15px; /* Slightly more padding */
+    }
+
+    .alumni-reviews-section::before {
+        width: 220px; /* Slightly larger decorative circle */
+        height: 220px;
+        top: -90px;
+        right: -90px;
+    }
+
+    .alumni-reviews-section::after {
+        width: 170px; /* Slightly larger decorative circle */
+        height: 170px;
+        bottom: -80px;
+        left: -80px;
+    }
+
+    .alumni-reviews-title {
+        font-size: 2em; /* Slightly larger title */
+        margin-bottom: 35px;
+    }
+
+    .review-slider-layout-container {
+        flex-direction: column; /* Stack image and review */
+        gap: 25px; /* Slightly larger gap */
+    }
+
+    .reviewer-image-area,
+    .review-content-area {
+        flex-basis: unset; /* Remove flex basis */
+        max-width: 100%; /* Full width */
+    }
+
+    .reviewer-main-image-placeholder {
+        aspect-ratio: 4 / 3; /* Adjusted for wider look */
+        max-width: 100%;
+    }
+
+    .floating-star-rating-bubble {
+        padding: 7px 11px; /* Slightly larger bubble */
+        bottom: 9px;
+        left: 9px;
+    }
+
+    .review-card {
+        padding: 22px; /* Slightly more padding */
+        margin-bottom: 22px;
+    }
+
+    .review-card-header {
+        margin-bottom: 12px;
+        padding-bottom: 9px;
+    }
+
+    .review-company-logo-text {
+        font-size: 1.05em; /* Slightly larger text */
+    }
+
+    .reviewer-avatar {
+        width: 42px; /* Slightly larger avatar */
+        height: 42px;
+        font-size: 1.2em;
+    }
+
+    .reviewer-name {
+        font-size: 1em; /* Slightly larger name */
+    }
+
+    .reviewer-designation {
+        font-size: 0.85em; /* Slightly larger designation */
+    }
+
+    .star-rating-header {
+        font-size: 0.95em; /* Slightly larger stars */
+    }
+
+    .review-text-content {
+        font-size: 0.9em; /* Slightly larger review text */
+    }
+
+    .slider-navigation {
+        justify-content: center; /* Center navigation */
+        padding-right: 0;
+    }
+
+    .nav-arrow {
+        width: 34px; /* Slightly larger buttons */
+        height: 34px;
+    }
+
+    .nav-arrow svg {
+        width: 9px; /* Slightly larger arrows */
+        height: 15px;
+    }
+
+    .slide-counter {
+        font-size: 0.9em; /* Slightly larger counter */
+    }
+
+    /* Call to Action Banner Section */
+    .cta-banner-section {
+        padding: 35px 15px; /* Slightly more padding */
+        gap: 18px; /* Slightly larger gap */
+    }
+
+    .cta-banner-text {
+        font-size: 1.2em; /* Slightly larger text */
+    }
+
+    .cta-banner-button {
+        padding: 11px 22px; /* Slightly larger button */
+        font-size: 0.95em;
+    }
+}
+/* Media query for 375px screens */
+@media (max-width: 375px) {
+    /* SAP FICO Expert Section */
+    .sap-fico-expert-section {
+        padding: 40px 15px; /* Reduced padding for smaller screens */
+    }
+
+    .sap-fico-expert-section h1 {
+        font-size: 1.8em; /* Smaller heading size */
+        margin-bottom: 10px;
+    }
+
+    .sap-fico-expert-section p {
+        font-size: 0.95em; /* Smaller paragraph text */
+        margin-bottom: 20px;
+    }
+
+    .sap-fico-expert-button {
+        padding: 12px 25px; /* Slightly smaller button */
+        font-size: 1em;
+    }
+
+    /* SAP FICO About Section */
+    .sap-fico-about-section {
+        padding: 40px 15px; /* Reduced padding */
+        margin: 20px auto; /* Reduced margin */
+    }
+
+    .sap-fico-about-section h2 {
+        font-size: 1.8em; /* Smaller heading */
+        margin-bottom: 25px;
+    }
+
+    .sap-fico-about-content {
+        flex-direction: column; /* Stack content vertically */
+        gap: 20px; /* Reduced gap */
+    }
+
+    .sap-fico-about-text,
+    .sap-fico-about-image-container {
+        width: 100%; /* Full width for stacking */
+        min-width: unset; /* Remove min-width */
+    }
+
+    .sap-fico-about-text {
+        font-size: 0.95em; /* Smaller text */
+        line-height: 1.6;
+    }
+
+    .sap-fico-about-image-container {
+        height: 200px; /* Adjusted height for image */
+    }
+
+    /* SAP FICO Features Section */
+    .sap-fico-features-section {
+        padding: 40px 15px; /* Reduced padding */
+        margin: 20px auto;
+    }
+
+    .sap-fico-features-section h2 {
+        font-size: 1.8em; /* Smaller heading */
+        margin-bottom: 30px;
+    }
+
+    .sap-fico-features-grid {
+        grid-template-columns: 1fr; /* Single column */
+        gap: 20px; /* Reduced gap */
+    }
+
+    .feature-icon-placeholder {
+        height: 150px; /* Smaller image placeholder */
+        margin-bottom: 15px;
+    }
+
+    .feature-card h3 {
+        font-size: 1.2em; /* Smaller heading */
+    }
+
+    .feature-card p {
+        font-size: 0.9em; /* Smaller text */
+    }
+
+    /* Training Modes Section */
+    .training-modes-section {
+        padding: 40px 15px; /* Reduced padding */
+    }
+
+    .training-modes-title {
+        font-size: 1.8rem; /* Smaller title */
+        margin-bottom: 25px;
+    }
+
+    .training-modes-grid {
+        gap: 15px; /* Reduced gap */
+    }
+
+    .training-mode-card {
+        width: 100%; /* Full width cards */
+        padding: 25px 20px; /* Adjusted padding */
+    }
+
+    .training-mode-card-title {
+        font-size: 1.4rem; /* Smaller title */
+    }
+
+    .training-mode-card-description {
+        font-size: 0.9rem; /* Smaller description */
+        min-height: 60px;
+    }
+
+    .training-mode-enroll-button {
+        padding: 10px 30px; /* Smaller button */
+        font-size: 0.9rem;
+    }
+
+    /* SAP FICO Course Content Section */
+    .java-course-content-section {
+        padding: 40px 15px; /* Reduced padding */
+        margin: 20px auto;
+    }
+
+    .java-section-title,
+    .java-course-content-section > h2 {
+        font-size: 1.8em; /* Smaller title */
+        margin-bottom: 25px;
+    }
+
+    .java-title-underline {
+        width: 50px; /* Slightly smaller underline */
+    }
+
+    .java-course-layout-container {
+        flex-direction: column; /* Stack panels */
+        gap: 20px; /* Reduced gap */
+        padding: 15px;
+    }
+
+    .java-syllabus-modules-panel,
+    .java-topics-details-panel {
+        max-height: 450px; /* Adjusted for smaller screens */
+        min-width: unset; /* Remove min-width */
+        width: 100%; /* Full width */
+    }
+
+    .java-syllabus-header {
+        font-size: 1em; /* Smaller header */
+        padding: 12px 15px;
+    }
+
+    .java-module-item {
+        font-size: 0.9em; /* Smaller text */
+        padding: 12px 15px;
+    }
+
+    .java-topics-title {
+        font-size: 1.2em; /* Smaller title */
+    }
+
+    .java-topics-list li {
+        font-size: 0.9em; /* Smaller list items */
+        margin-bottom: 10px;
+    }
+
+    .java-download-curriculum-button {
+        padding: 10px 20px; /* Smaller button */
+        font-size: 0.9em;
+    }
+
+    /* Batch Details Section */
+    .batch-details-section {
+        padding: 40px 15px; /* Reduced padding */
+    }
+
+    .batch-details-title {
+        font-size: 1.8em; /* Smaller title */
+        margin-bottom: 25px;
+    }
+
+    .batch-card {
+        flex-direction: column; /* Stack segments */
+        min-height: unset; /* Remove min-height */
+        margin-bottom: 20px;
+    }
+
+    .batch-segment {
+        border-right: none; /* Remove border for stacked layout */
+        border-bottom: 1px solid #e0e0e0; /* Add bottom border */
+        padding: 12px;
+    }
+
+    .batch-segment:last-child {
+        border-bottom: none; /* Remove border for last segment */
+    }
+
+    .batch-month-year {
+        font-size: 1.2em; /* Smaller text */
+    }
+
+    .batch-schedule-mode p:first-child,
+    .batch-duration-type p:first-child {
+        font-size: 0.9em; /* Smaller text */
+    }
+
+    .course-fee-tag {
+        font-size: 0.8em; /* Smaller button */
+        padding: 6px 15px;
+    }
+
+    .suitability-text {
+        font-size: 0.8em; /* Smaller text */
+    }
+
+    /* Corporate Training Modes Section */
+    .corporate-training-modes-section {
+        padding: 60px 40px; /* Reduced padding */
+    }
+
+    .corporate-training-modes-title {
+        font-size: 1.8em; /* Smaller title */
+        margin-bottom: 25px;
+    }
+
+    .modes-container-grid {
+        grid-template-columns: 1fr; /* Single column */
+        gap: 20px; /* Reduced gap */
+    }
+
+    .mode-image {
+        height: 180px; /* Smaller image */
+    }
+
+    .mode-title {
+        font-size: 1.2em; /* Smaller title */
+    }
+
+    .mode-description {
+        font-size: 0.9em; /* Smaller description */
+    }
+
+    /* Alumni Reviews Section */
+    .alumni-reviews-section {
+        padding: 40px 30px; /* Reduced padding */
+    }
+
+    .alumni-reviews-section::before {
+        width: 200px; /* Smaller decorative circle */
+        height: 200px;
+        top: -80px;
+        right: -80px;
+    }
+
+    .alumni-reviews-section::after {
+        width: 150px; /* Smaller decorative circle */
+        height: 150px;
+        bottom: -70px;
+        left: -70px;
+    }
+
+    .alumni-reviews-title {
+        font-size: 1.4em; /* Smaller title */
+        margin-bottom: 30px;
+    }
+
+    .review-slider-layout-container {
+        flex-direction: column; /* Stack image and review */
+        gap: 20px; /* Reduced gap */
+    }
+
+    .reviewer-image-area,
+    .review-content-area {
+        flex-basis: unset; /* Remove flex basis */
+        max-width: 100%; /* Full width */
+    }
+
+    .reviewer-main-image-placeholder {
+        aspect-ratio: 4 / 3; /* Adjusted for wider look */
+        max-width: 100%;
+    }
+
+    .floating-star-rating-bubble {
+        padding: 6px 10px; /* Smaller bubble */
+        bottom: 8px;
+        left: 8px;
+    }
+
+    .review-card {
+        padding: 20px; /* Reduced padding */
+        margin-bottom: 20px;
+    }
+
+    .review-card-header {
+        margin-bottom: 10px;
+        padding-bottom: 8px;
+    }
+
+    .review-company-logo-text {
+        font-size: 1em; /* Smaller text */
+    }
+
+    .reviewer-avatar {
+        width: 40px; /* Smaller avatar */
+        height: 40px;
+        font-size: 1.1em;
+    }
+
+    .reviewer-name {
+        font-size: 0.95em; /* Smaller name */
+    }
+
+    .reviewer-designation {
+        font-size: 0.8em; /* Smaller designation */
+    }
+
+    .star-rating-header {
+        font-size: 0.9em; /* Smaller stars */
+    }
+
+    .review-text-content{
+      font-size: 20px !important;
+    }
+
+    .slider-navigation {
+        justify-content: center; /* Center navigation */
+        padding-right: 0;
+    }
+
+    .nav-arrow {
+        width: 32px; /* Smaller buttons */
+        height: 32px;
+    }
+
+    .nav-arrow svg {
+        width: 8px; /* Smaller arrows */
+        height: 14px;
+    }
+
+    .slide-counter {
+        font-size: 0.85em; /* Smaller counter */
+    }
+
+    /* Call to Action Banner Section */
+    .cta-banner-section {
+        padding: 30px 15px; /* Reduced padding */
+        gap: 15px; /* Smaller gap */
+    }
+
+    .cta-banner-text {
+        font-size: 1.1em; /* Smaller text */
+    }
+
+    .cta-banner-button {
+        padding: 10px 20px; /* Smaller button */
+        font-size: 0.9em;
+    }
+}

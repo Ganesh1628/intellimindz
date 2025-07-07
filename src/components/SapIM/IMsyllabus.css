@@ -147,3 +147,153 @@ body {
 .module-card.active .module-decoration {
   transform: scaleX(1);
 }
+
+/* Media query for 425px screens */
+@media (max-width: 425px) {
+    .sapim-syllabus {
+        padding: 45px 15px; /* Slightly more padding than 375px */
+        max-width: 100%; /* Full width */
+    }
+
+    .sap-home-syllabus-header h1 {
+        font-size: 1.8rem; /* Slightly larger heading */
+        margin-bottom: 12px;
+    }
+
+    .header-accent {
+        width: 65px; /* Slightly larger accent line */
+        height: 3px; /* Consistent thickness */
+    }
+
+    .header-subtext {
+        font-size: 0.95rem; /* Slightly larger subtext */
+        margin-top: 9px;
+    }
+
+    .sap-syllabus-container {
+        padding: 18px 0; /* Slightly more padding */
+    }
+
+    .syllabus-grid {
+        grid-template-columns: 1fr; /* Single column */
+        gap: 22px; /* Slightly larger gap */
+    }
+
+    .module-card {
+        padding: 18px; /* Slightly more padding */
+        border-left: 3px solid #003366; /* Consistent border */
+        min-height: auto; /* Let content decide height */
+        align-items: flex-start; /* Align to top */
+    }
+
+    .module-number {
+        font-size: 1.7rem; /* Slightly larger module number */
+        margin-right: 18px;
+        min-width: 45px; /* Slightly larger width */
+    }
+
+    .module-content-syllabus {
+        padding: 7px; /* Slightly more padding */
+        font-size: 13px !important; /* Slightly larger font */
+        line-height: 1.45;
+    }
+
+    .module-content h3 {
+        font-size: 1.05rem; /* Slightly larger heading */
+        margin-bottom: 4px;
+    }
+
+    .module-title {
+        font-size: 0.95rem; /* Slightly larger title */
+        line-height: 1.45;
+    }
+
+    .module-description {
+        font-size: 0.9rem; /* Slightly larger description */
+        line-height: 1.55;
+    }
+
+    .module-card:hover .module-description,
+    .module-card.active .module-description {
+        max-height: 160px; /* Slightly larger max-height */
+    }
+
+    .module-decoration {
+        height: 2px; /* Consistent decoration line */
+    }
+}
+
+/* Media query for 375px screens */
+@media (max-width: 375px) {
+    .sapim-syllabus {
+        padding: 40px 15px; /* Reduced padding for smaller screens */
+        max-width: 100%; /* Full width */
+    }
+
+    .sap-home-syllabus-header h1 {
+        font-size: 1.6rem; /* Smaller heading */
+        margin-bottom: 10px;
+    }
+
+    .header-accent {
+        width: 60px; /* Smaller accent line */
+        height: 3px; /* Slightly thinner */
+    }
+
+    .header-subtext {
+        font-size: 0.9rem; /* Smaller subtext */
+        margin-top: 8px;
+    }
+
+    .sap-syllabus-container {
+        padding: 15px 0; /* Reduced padding */
+    }
+
+    .syllabus-grid {
+        grid-template-columns: 1fr; /* Single column for mobile */
+        gap: 20px; /* Smaller gap */
+    }
+
+    .module-card {
+        padding: 15px; /* Reduced padding */
+        border-left: 3px solid #003366; /* Slightly thinner border */
+        min-height: auto; /* Let content decide height */
+        align-items: flex-start; /* Align to top */
+    }
+
+    .module-number {
+        font-size: 1.5rem; /* Smaller module number */
+        margin-right: 15px;
+        min-width: 40px; /* Adjusted width */
+    }
+
+    .module-content-syllabus {
+        padding: 6px; /* Reduced padding */
+        font-size: 12px !important; /* Smaller font size */
+        line-height: 1.4;
+    }
+
+    .module-content h3 {
+        font-size: 1rem; /* Smaller heading */
+        margin-bottom: 4px;
+    }
+
+    .module-title {
+        font-size: 0.9rem; /* Smaller title */
+        line-height: 1.4;
+    }
+
+    .module-description {
+        font-size: 0.85rem; /* Smaller description */
+        line-height: 1.5;
+    }
+
+    .module-card:hover .module-description,
+    .module-card.active .module-description {
+        max-height: 150px; /* Adjusted max-height for smaller screens */
+    }
+
+    .module-decoration {
+        height: 2px; /* Thinner decoration line */
+    }
+}
