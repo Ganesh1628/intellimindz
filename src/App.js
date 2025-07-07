@@ -28,7 +28,7 @@ const App = () => {
         {/* <Route path="/sap_fico_training_in_chennai" element={<Saponline />} />  */}
         <Route path="/:pageId" element={<DynamicPage />} />
         <Route path="/sap/:SappageId" element={<SapDynamicPage />} />
- 
+
       </Routes>
       <Footer />
       <AskForDemo />

@@ -127,7 +127,8 @@ const batchInfo = [
     const ogUrl = pageogurl;
     
     return (
-    <><div style={{ width: "100%", height: "100vh", position: "relative", display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center", color: "white", overflow: "hidden" }}>
+    <>
+    <div style={{ width: "100%", height: "100vh", position: "relative", display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center", color: "white", overflow: "hidden" }}>
             <img src={homeintro} alt="Background" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: -1 }} />
 
             <div className="overlay"></div>
@@ -137,7 +138,8 @@ const batchInfo = [
                 <h3 className="intro-h3">{title2}</h3>
                 <button className="intro-enroll-button" onClick={openContactModal}>{button2}</button>
             </div>
-        </div><div className="sap-training-container">
+        </div>
+        <div className="sap-training-container">
                 <div className="sap-training-header animate__animated animate__flipInX">
                     <h1>
                       {title4}<span>{title5}</span>

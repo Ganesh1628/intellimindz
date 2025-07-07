@@ -16,7 +16,7 @@ const courseOptions = [
   { name: "AJAX Course", url: "/ajax_training_in_chennai" },
   { name: "Machine Learning Course", url: "/machine_learning_training_in_chennai" },
   { name: "DevOps Course", url: "/devOps_training_in_chennai" },
-  { name: "Java Course", url: "/java_training_in_chennai" },
+  { name: "Dot Net Course", url: "/dotnet_training_in_chennai" },
   { name: "Others", url: "#", hasSubDropdown: true },
 ];
 

@@ -568,13 +568,13 @@ function Testimonials() {
 function Home() {
   return (
     <>
-      {/* <HeroSection /> */}
-      {/* <Company /> */}
-      {/* <TrainingOptions /> */}
-      {/* <Slide /> */}
-      {/* <ChooseUs /> */}
-      {/* <FAQ /> */}
-      {/* <Testimonials /> */}
+      <HeroSection />
+      <Company />
+      <TrainingOptions />
+      <Slide />
+      <ChooseUs />
+      <FAQ />
+      <Testimonials />
     </>
   );
 }
