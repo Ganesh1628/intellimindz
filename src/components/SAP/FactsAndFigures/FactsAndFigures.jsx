@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import "./FactsAndFigures.css";
 import "./Syllabus.css"; // Importing syllabus styles
@@ -8,7 +8,7 @@ import graduationIcon from "../../../assests/images/graduation.png";
 
 const FactsAndFigures = () => {
   const [activeIndex, setActiveIndex] = useState(null);
-  const [animateSyllabus, setAnimateSyllabus] = useState(false);
+  const [animateSyllabus] = useState(false);
   const syllabusRef = useRef(null); // Reference for syllabus section
 
 

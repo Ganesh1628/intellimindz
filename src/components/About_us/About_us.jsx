@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 // Assuming Tailwind CSS is set up globally.
 // Font import comment remains as is.
