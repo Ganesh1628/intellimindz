@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Teachingmethod.css";
-import { FaChalkboardTeacher, FaLaptop, FaBookOpen, FaMapMarkerAlt } from "react-icons/fa";
+import { FaChalkboardTeacher, FaLaptop, FaBookOpen} from "react-icons/fa";
 
 const TeachingMethod = () => {
   const [animate, setAnimate] = useState(false);

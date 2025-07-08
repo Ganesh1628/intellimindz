@@ -11,26 +11,6 @@ const FactsAndFigures = () => {
   const [animateSyllabus, setAnimateSyllabus] = useState(false);
   const syllabusRef = useRef(null); // Reference for syllabus section
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setAnimateSyllabus(true);
-        }
-      },
-      { threshold: 0.3 } // Animation triggers when 30% of the section is visible
-    );
-
-    if (syllabusRef.current) {
-      observer.observe(syllabusRef.current);
-    }
-
-    return () => {
-      if (syllabusRef.current) {
-        observer.unobserve(syllabusRef.current);
-      }
-    };
-  }, []);
 
   const facts = [
     { id: 1, number: "50+", text: "Courses Running Daily", image: financialIcon },

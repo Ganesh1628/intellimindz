@@ -38,11 +38,7 @@ const ResumeBuildingIcon = () => (
 
 // Main App Component (representing your About Us page content)
 function App() { 
-    const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
 
-    useEffect(() => {
-        setCurrentYear(new Date().getFullYear());
-    }, []);
 
     const globalStyles = `
         body {
