@@ -69,7 +69,6 @@ h5 {
   color: #333;
 }
 
-/* Bounce animation */
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
@@ -82,14 +81,12 @@ h5 {
   }
 }
 
-/* Apply bounce effect on hover */
 .slide-section:hover .icon {
   animation: bounce 1s;
   color: #007bff;
   transition: color 0.3s;
 }
 
-/* Optional: Add smooth scale on hover */
 .slide-section {
   transition: transform 0.3s ease-in-out;
 }
@@ -98,8 +95,6 @@ h5 {
   cursor: pointer;
 }
 
-
-/* Media Query for 1024px */
 @media (max-width: 1024px) and (min-width: 769px) {
   .slide-container {
     padding: 15px;
@@ -134,8 +129,6 @@ h5 {
   }
 }
 
-
-/* Media Query for 768px */
 @media (max-width: 768px) {
   .slide-container {
     padding: 15px;
@@ -174,7 +167,6 @@ h5 {
   }
 }
 
-/* Media Query for 375px */
 @media (max-width: 425px) {
   .slide-container {
     padding: 10px;
@@ -186,7 +178,7 @@ h5 {
   }
 
   .color1, .color2, .color3 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin: 0 3px;
   }
 
@@ -197,22 +189,18 @@ h5 {
   }
 
   .slide-section {
-    padding: 15px;
+    padding: 30px;
   }
 
   .icon {
-    font-size: 2em;
+    font-size: 2.2em;
   }
 
   h5 {
     font-size: 1rem;
   }
-
-  /* Adjust hover scale for smaller screens */
-
 }
 
-/* Media Query for 375px */
 @media (max-width: 375px) {
   .slide-container {
     padding: 10px;

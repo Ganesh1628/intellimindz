@@ -3,20 +3,21 @@ import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import "./footer.css"; // Ensure CSS is imported
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import ContactModal from "../Hero-Section/ContactModal";
 
 const footerQuickLinks = [
   { display: "Home", url: "#" },
-  { display: "Contact us", url: "#" },
+  { display: "Contact us", url: "/contactus" },
   { display: "Refund policy", url: "#" },
   { display: "Certification policy", url: "#" },
 ];
 
 const trendingCourses = [
-  "Python Training in Chennai",
-  "Java Training in Chennai",
-  "Selenium Training in Chennai",
-  "AWS Training in Chennai",
-  "Devops Training in Chennai",
+  { name: "Python Training in Chennai", url: "/python_training_in_chennai" },
+  { name: "Java Training in Chennai", url: "/java_training_in_chennai" },
+  { name: "Selenium Training in Chennai", url: "/selenium_training_in_chennai" },
+  { name: "AWS Training in Chennai", url: "/aws_training_in_chennai" },
+  { name: "Devops Training in Chennai", url: "/devOps_training_in_chennai" },
 ];
 
 const Footer = () => {
@@ -104,11 +105,17 @@ const Footer = () => {
           <Col>
             <h4 className="text-center fw-bold" style={{ color: "#fafafa" }}>Trending Courses</h4>
             <div className="trending-courses">
-              {trendingCourses.map((course, index) => (
-                <span key={index} className="trending-course-item">
-                  {course}
-                </span>
-              ))}
+{trendingCourses.map((course, index) => (
+  <a
+    key={index}
+    href={course.url}
+    className="trending-course-item"
+    style={{ color: "#fafafa", textDecoration: "none", marginRight: "15px" }}
+  >
+    {course.name}
+  </a>
+))}
+
             </div>
           </Col>
         </Row>

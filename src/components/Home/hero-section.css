@@ -454,7 +454,8 @@ p {
   font-size: 42px;
   font-weight: 700;
   color: #222;
-  margin-bottom: 10px;
+  padding-bottom: 50px;
+  /* margin-bottom: 10px; */
   background: linear-gradient(to right, #ff6b00, #ff9e00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -464,7 +465,7 @@ p {
   color: #1a1a1a;
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 0;
+  margin-top: -50px;
 }
 
 @media (max-width: 1024px) {
@@ -745,7 +746,7 @@ p {
   }
 
   .form-box-enroll {
-    margin-top: 120px;
+    margin-top: 0px;
     margin-left: 20px;
   }
 
@@ -855,7 +856,7 @@ p {
   }
 
   .header_content {
-    margin-top: 80px;
+    margin-top: 160px;
     margin-right: 0;
     font-size: 0.9rem;
     margin-bottom: 0;
@@ -1009,8 +1010,12 @@ p {
 }
 
 @media (max-width: 375px) {
+  /* * {
+    outline: 1px solid red;
+  } */
+
   .hero-section {
-    padding: 100px 15px;
+    padding: 160px 15px;
     border-radius: 0px 0px 80px 0px;
   }
 

@@ -32,3 +32,75 @@
   font-weight: bold;
   margin-bottom: 1px;
 }
+
+@media (max-width: 768px) {
+  .ask-for-demo {
+    padding: 2px 6px;
+    font-size: 16px;
+    clip-path: polygon(0% 0%, 88% 0%, 100% 50%, 88% 100%, 0% 100%);
+  }
+
+  .ask-for-demo .icon {
+    font-size: 28px;
+    margin-bottom: 3px;
+  }
+
+  .ask-for-demo .text {
+    font-size: 14px;
+    margin-right: 1px;
+    margin-bottom: 2px;
+  }
+
+  .ask-for-demo .demo {
+    font-size: 16px;
+    margin-bottom: 1px;
+  }
+}
+
+@media (max-width: 425px) {
+  .ask-for-demo {
+    padding: 2px 5px;
+    font-size: 14px;
+    clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+  }
+
+  .ask-for-demo .icon {
+    font-size: 22px;
+    margin-bottom: 2px;
+  }
+
+  .ask-for-demo .text {
+    font-size: 12px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+  }
+
+  .ask-for-demo .demo {
+    font-size: 14px;
+    margin-bottom: 1px;
+  }
+}
+
+@media (max-width: 375px) {
+  .ask-for-demo {
+    padding: 2px 5px;
+    font-size: 12px;
+    clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+  }
+
+  .ask-for-demo .icon {
+    font-size: 20px;
+    margin-bottom: 2px;
+  }
+
+  .ask-for-demo .text {
+    font-size: 11px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+  }
+
+  .ask-for-demo .demo {
+    font-size: 13px;
+    margin-bottom: 1px;
+  }
+}
