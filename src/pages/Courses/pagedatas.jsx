@@ -1377,7 +1377,6 @@ title53: "How do I join the Data Science course in Chennai?",desc23: "You can re
         pagedescription: "Join IntelliMindz for top Data Science training in Chennai. Master data analysis, machine learning, and AI with hands-on projects and expert guidance.",
         pagekeywords: "data science training in chennai, data science course, machine learning, artificial intelligence, data analysis, intellimindz",
         pageogurl: "https://localhost:3000/data_science_training_in_chennai",
-
 },
 {
   id: 'etl_testing_training_in_chennai',

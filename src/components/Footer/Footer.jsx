@@ -3,7 +3,6 @@ import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import "./footer.css"; // Ensure CSS is imported
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import ContactModal from "../Hero-Section/ContactModal";
 
 const footerQuickLinks = [
   { display: "Home", url: "#" },
