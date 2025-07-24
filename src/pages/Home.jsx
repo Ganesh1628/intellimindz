@@ -170,18 +170,18 @@ function HeroSection() {
 
 function getCourses() {
   return [
-    { img: awsLogo, title: "Java Full Stack", url: "/java_training_in_chennai" },
-    { img: pythonLogo, title: "Python Full Stack", url: "/python_training_in_chennai" },
-    { img: cloudLogo, title: "Cloud Computing", url: "/cloud_computing_training_in_chennai" },
-    { img: mobile_dev, title: "Mobile Dev", url: "/mobile_application_training_in_chennai" },
-    { img: databaseLogo, title: "UI Development", url: "/html_training_in_chennai" },
-    { img: ui, title: "Web Designing", url: "/web_designing_training_in_chennai" },
-    { img: jsLogo, title: "Digital Marketing", url: "/digital_marketing_training_in_chennai" },
-    { img: reactlogo, title: "React", url: "/react_native_training_in_chennai" },
-    { img: mysql, title: "SQL", url: "/sql_server_dba_training_in_chennai" },
-    { img: machine_learning, title: "Machine Learning", url: "/machine_learning_training_in_chennai" },
-    { img: software_testing, title: "Software Testing", url: "/etl_testing_training_in_chennai" },
-    { img: data_science, title: "Data science", url: "/data_science_training_in_chennai" },
+    { img: awsLogo, title: "Java Full Stack", url: "/java-training-in-chennai" },
+    { img: pythonLogo, title: "Python Full Stack", url: "/python-training-in-chennai" },
+    { img: cloudLogo, title: "Cloud Computing", url: "/cloud-computing-training-in-chennai" },
+    { img: mobile_dev, title: "Mobile Dev", url: "/mobile-application-training-in-chennai" },
+    { img: databaseLogo, title: "UI Development", url: "/html-training-in-chennai" },
+    { img: ui, title: "Web Designing", url: "/web-designing-training-in-chennai" },
+    { img: jsLogo, title: "Digital Marketing", url: "/digital-marketing-training-in-chennai" },
+    { img: reactlogo, title: "React", url: "/react-native-training-in-chennai" },
+    { img: mysql, title: "SQL", url: "/sql-server-dba-training-in-chennai" },
+    { img: machine_learning, title: "Machine Learning", url: "/machine-learning-training-in-chennai" },
+    { img: software_testing, title: "Software Testing", url: "/etl-testing-training-in-chennai" },
+    { img: data_science, title: "Data science", url: "/data-science-training-in-chennai" },
   ];
 }
 

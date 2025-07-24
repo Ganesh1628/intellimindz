@@ -14,7 +14,7 @@ import onlinetest from '../../assests/images/lifetimeaccess.jpeg';
 
 export const SapPagesData = [
 {
-    id : 'sap_abap_training_in_chennai',
+    id : 'sap-abap-training-in-chennai',
     title1 : "Best SAP ABAP Training Institute in Chennai",
     title2 : "Unlock your technical potential with expert-led SAP ABAP Training – your pathway to global career success in the SAP ecosystem.",
     button1 : "Enroll Now",
@@ -142,10 +142,10 @@ export const SapPagesData = [
   pagetitle: "Best SAP ABAP Training in Chennai | Real-Time Programming & Certification",
 pagedescription: "Enroll in IntelliMindz's SAP ABAP Training in Chennai. Learn ABAP programming, SmartForms, BDC, and more with hands-on sessions and real-time projects.",
 pagekeywords: "sap abap training in chennai, abap course, sap technical training, smartforms, bdc, abap programming, intellimindz",
-pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
+pageogurl: "http://localhost:3000/sap/sap-abap-training-in-chennai",
 },
 {
-  id: 'sap_sd_training_in_chennai',
+  id: 'sap-sd-training-in-chennai',
   title1: "Best SAP SD Training Institute in Chennai",
   title2: "Learn SAP Sales and Distribution from industry experts and master customer order processing, billing, pricing, and more – with real-time implementation experience.",
   button1: "Enroll Now",
@@ -297,7 +297,7 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
   title31: "Will there be hands-on SAP access during training?",
   description16: "Yes. You will get 24/7 SAP server access for practicing sales order processing, delivery creation, billing, and more. Hands-on labs mirror real-world SAP SD tasks.",
   title32: "Is the SAP SD course aligned with certification?",
-  description17: "Yes. The course aligns with SAP SD certification exam (C_TSCM62_67 and S/4HANA SD). You’ll get certification tips, mock exams, and preparation guidance.",
+  description17: "Yes. The course aligns with SAP SD certification exam (C-TSCM62-67 and S/4HANA SD). You’ll get certification tips, mock exams, and preparation guidance.",
   title33: "Can I attend the SAP SD course online?",
   description18: "Yes. IntelliMindz offers both classroom and live online SAP SD training sessions with recordings, practice materials, and interactive support.",
   title34: "What roles can I apply for after SAP SD training?",
@@ -313,10 +313,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
   pagetitle: "Best SAP SD Training in Chennai | Hands-on SAP Sales and Distribution Course",
   pagedescription: "Join IntelliMindz for top SAP SD training in Chennai. Master SAP Sales and Distribution with real-time projects, pricing, billing, and order management.",
   pagekeywords: "sap sd training in chennai, sap sales and distribution course, sap order management, sap sd module, intellimindz",
-  pageogurl: "http://localhost:3000/sap/sap_sd_training_in_chennai"
+  pageogurl: "http://localhost:3000/sap/sap-sd-training-in-chennai"
 },
 {
-  id: "sap_erp_training_in_chennai",
+  id: "sap-erp-training-in-chennai",
   title1: "Best SAP ERP Training Institute in Chennai",
   title2: "Empower your career with expert-led SAP ERP Training – your key to mastering enterprise resource planning in the SAP ecosystem.",
   button1: "Enroll Now",
@@ -444,10 +444,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
           pagetitle: "Best SAP ERP Training in Chennai | Practical Oriented SAP ERP Course",
         pagedescription: "Join IntelliMindz for top SAP ERP training in Chennai. Master Enterprise Resource Planning concepts, modules, and applications with hands-on projects.",
         pagekeywords: "sap erp training in chennai, sap erp course, enterprise resource planning, sap modules, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_erp_training_in_chennai",
+        pageogurl: "http://localhost:3000/sap/sap-erp-training-in-chennai",
 },
 {
-    id : 'sap_ep_training_in_chennai',
+    id : 'sap-ep-training-in-chennai',
     title1 : "Best SAP EP Training Institute in Chennai",
     title2 : "Master SAP Enterprise Portal with expert-led training – your gateway to a thriving career in the SAP ecosystem.",
     button1 : "Enroll Now",
@@ -575,10 +575,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
             pagetitle: "Best SAP EP Training in Chennai | Practical Oriented SAP Enterprise Portal Course",
         pagedescription: "Join IntelliMindz for top SAP EP training in Chennai. Master SAP Enterprise Portal concepts, development, and integration with hands-on projects.",
         pagekeywords: "sap ep training in chennai, sap enterprise portal course, enterprise portal, sap NetWeaver, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_ep_training_in_chennai",
+        pageogurl: "http://localhost:3000/sap/sap-ep-training-in-chennai",
 },
 {
-    id : 'sap_ec_training_in_chennai',
+    id : 'sap-ec-training-in-chennai',
     title1 : "Best SAP EC Training Institute in Chennai",
     title2 : "Empower your career with expert-led SAP Employee Central (EC) training – your key to mastering HR processes in the SAP SuccessFactors ecosystem.",
     button1 : "Enroll Now",
@@ -706,10 +706,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
             pagetitle: "Best SAP EC Training in Chennai | Practical Oriented SAP Enterprise Controlling Course",
         pagedescription: "Join IntelliMindz for top SAP EC training in Chennai. Master SAP Enterprise Controlling concepts, financial reporting, and analysis with hands-on projects.",
         pagekeywords: "sap ec training in chennai, sap enterprise controlling course, financial controlling, enterprise performance, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_ec_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-ec-training-in-chennai"
 },
 {
-    id : 'sap_pp_training_in_chennai',
+    id : 'sap-pp-training-in-chennai',
     title1 : "Best SAP PP Training Institute in Chennai",
     title2 : "Elevate your career with expert-led SAP PP training – master production planning and unlock opportunities in the SAP ecosystem.",
     button1 : "Enroll Now",
@@ -837,10 +837,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
                 pagetitle: "Best SAP PP Training in Chennai | Practical Oriented SAP Production Planning Course",
         pagedescription: "Join IntelliMindz for top SAP PP training in Chennai. Master SAP Production Planning concepts, manufacturing processes, and logistics with hands-on projects.",
         pagekeywords: "sap pp training in chennai, sap production planning course, manufacturing, supply chain, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_pp_training_in_chennai",
+        pageogurl: "http://localhost:3000/sap/sap-pp-training-in-chennai",
 },
 {
-    id : 'sap_hr_training_in_chennai',
+    id : 'sap-hr-training-in-chennai',
     title1 : "Best SAP HR/HCM Training Institute in Chennai",
     title2 : "Elevate your HR career with expert-led SAP HR/HCM training – your key to mastering SAP’s Human Capital Management solutions.",
     button1 : "Enroll Now",
@@ -968,10 +968,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
             pagetitle: "Best SAP HR Training in Chennai | Practical Oriented SAP Human Resources Course",
         pagedescription: "Join IntelliMindz for top SAP HR training in Chennai. Master SAP Human Resources concepts, personnel administration, and payroll with hands-on projects.",
         pagekeywords: "sap hr training in chennai, sap human resources course, hr management, payroll, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_hr_training_in_chennai",
+        pageogurl: "http://localhost:3000/sap/sap-hr-training-in-chennai",
 },
 {
-  id: 'sap_lo_training_in_chennai',
+  id: 'sap-lo-training-in-chennai',
   title1: "Best SAP LO Training Institute in Chennai",
   title2: "Become proficient in SAP Logistics with expert-led SAP LO Training – your gateway to mastering SAP’s logistics modules for real-world enterprise applications.",
   button1: "Enroll Now",
@@ -1099,10 +1099,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
           pagetitle: "Best SAP LO Training in Chennai | Practical Oriented SAP Logistics Course",
         pagedescription: "Join IntelliMindz for top SAP LO training in Chennai. Master SAP Logistics concepts, supply chain management, and distribution processes with hands-on projects.",
         pagekeywords: "sap lo training in chennai, sap logistics course, supply chain, distribution, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_lo_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-lo-training-in-chennai"
 },
 {
-    id : 'sap_cs_training_in_chennai',
+    id : 'sap-cs-training-in-chennai',
     title1 : "Best SAP CS Training Institute in Chennai",
     title2 : "Elevate your career with expert-led SAP CS (Customer Service) training – your key to mastering SAP’s customer service module.",
     button1 : "Enroll Now",
@@ -1230,10 +1230,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
             pagetitle: "Best SAP CS Training in Chennai | Practical Oriented SAP Customer Service Course",
         pagedescription: "Join IntelliMindz for top SAP CS training in Chennai. Master SAP Customer Service concepts, service management, and customer support with hands-on projects.",
         pagekeywords: "sap cs training in chennai, sap customer service course, service management, customer support, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_cs_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-cs-training-in-chennai"
 },
 {
-  id: 'sap_pi_training_in_chennai',
+  id: 'sap-pi-training-in-chennai',
   title1: "Best SAP PI Training Institute in Chennai",
   title2: "Enhance your integration skills with expert-led SAP PI Training – your pathway to mastering enterprise-level process integration in SAP landscapes.",
   button1: "Enroll Now",
@@ -1361,10 +1361,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
           pagetitle: "Best SAP PI Training in Chennai | Practical Oriented SAP Process Integration Course",
         pagedescription: "Join IntelliMindz for top SAP PI training in Chennai. Master SAP Process Integration concepts, system integration, and data exchange with hands-on projects.",
         pagekeywords: "sap pi training in chennai, sap process integration course, system integration, data exchange, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_pi_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-pi-training-in-chennai"
 },
 {
-  id : 'sap_im_training_in_chennai',
+  id : 'sap-im-training-in-chennai',
   title1 : "Best SAP IM Training Institute in Chennai",
   title2 : "Boost your inventory and warehouse management expertise with our expert-led SAP IM Training – your gateway to mastering supply chain operations in the SAP ecosystem.",
   button1 : "Enroll Now",
@@ -1492,10 +1492,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
           pagetitle: "Best SAP IM Training in Chennai | Practical Oriented SAP Investment Management Course",
         pagedescription: "Join IntelliMindz for top SAP IM training in Chennai. Master SAP Investment Management concepts, project budgeting, and asset tracking with hands-on projects.",
         pagekeywords: "sap im training in chennai, sap investment management course, project budgeting, asset tracking, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_im_training_in_chennai",
+        pageogurl: "http://chennaitraining.in/sap/sap-im-training-in-chennai",
 },
 {
-  id: 'sap_mii_training_in_chennai',
+  id: 'sap-mii-training-in-chennai',
   title1: "Best SAP MII Training Institute in Chennai",
   title2: "Bridge your shop floor and enterprise systems with expert-led SAP MII Training – the gateway to real-time manufacturing integration and analytics.",
   button1: "Enroll Now",
@@ -1623,10 +1623,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
           pagetitle: "Best SAP MII Training in Chennai | Practical Oriented SAP Manufacturing Integration and Intelligence Course",
         pagedescription: "Join IntelliMindz for top SAP MII training in Chennai. Master SAP Manufacturing Integration and Intelligence concepts, plant integration, and production analytics with hands-on projects.",
         pagekeywords: "sap mii training in chennai, sap manufacturing integration and intelligence course, plant integration, production analytics, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_mii_training_in_chennai",
+        pageogurl: "http://localhost:3000/sap/sap-mii-training-in-chennai",
 },
 {
-  id : 'sap_ariba_training_in_chennai',
+  id : 'sap-ariba-training-in-chennai',
   title1 : "Best SAP Ariba Training Institute in Chennai",
   title2 : "Streamline your procurement career with expert-led SAP Ariba Training – your key to mastering cloud-based supply chain collaboration and sourcing.",
   button1 : "Enroll Now",
@@ -1754,10 +1754,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
           pagetitle: "Best SAP Ariba Training in Chennai | Practical Oriented SAP Ariba Course",
         pagedescription: "Join IntelliMindz for top SAP Ariba training in Chennai. Master SAP Ariba concepts, procurement processes, and supply chain collaboration with hands-on projects.",
         pagekeywords: "sap ariba training in chennai, sap ariba course, procurement, supply chain, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_ariba_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-ariba-training-in-chennai"
 },
 {
-  id: 'sap_basis_training_in_chennai',
+  id: 'sap-basis-training-in-chennai',
   title1: "Best SAP BASIS Training Institute in Chennai",
   title2: "Launch your SAP system administration career with hands-on SAP BASIS Training – build the backbone of enterprise SAP systems with expert guidance.",
   button1: "Enroll Now",
@@ -1885,10 +1885,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
           pagetitle: "Best SAP Basis Training in Chennai | Practical Oriented SAP Basis Administration Course",
         pagedescription: "Join IntelliMindz for top SAP Basis training in Chennai. Master SAP Basis administration concepts, system management, and performance tuning with hands-on projects.",
         pagekeywords: "sap basis training in chennai, sap basis course, sap administration, system management, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_basis_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-basis-training-in-chennai"
 },
 {
-  id : 'sap_qm_training_in_chennai',
+  id : 'sap-qm-training-in-chennai',
   title1 : "Best SAP QM Training Institute in Chennai",
   title2 : "Master quality control and compliance processes with expert-led SAP QM Training – your path to ensuring product excellence in the SAP ecosystem.",
   button1 : "Enroll Now",
@@ -2016,10 +2016,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
           pagetitle: "Best SAP QM Training in Chennai | Practical Oriented SAP Quality Management Course",
         pagedescription: "Join IntelliMindz for top SAP QM training in Chennai. Master SAP Quality Management concepts, quality planning, inspection, and control with hands-on projects.",
         pagekeywords: "sap qm training in chennai, sap quality management course, quality control, inspection, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_qm_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-qm-training-in-chennai"
 },
 {
-  id: 'sap_srm_training_in_chennai',
+  id: 'sap-srm-training-in-chennai',
   title1: "Best SAP SRM Training Institute in Chennai",
   title2: "Gain in-demand skills in SAP Supplier Relationship Management with expert-led training that prepares you for global procurement and vendor management roles.",
   button1: "Enroll Now",
@@ -2147,10 +2147,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
           pagetitle: "Best SAP SRM Training in Chennai | Practical Oriented SAP Supplier Relationship Management Course",
         pagedescription: "Join IntelliMindz for top SAP SRM training in Chennai. Master SAP Supplier Relationship Management concepts, vendor collaboration, and procurement efficiency with hands-on projects.",
         pagekeywords: "sap srm training in chennai, sap supplier relationship management course, vendor management, procurement, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_srm_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-srm-training-in-chennai"
 },
 {
-  id : 'sap_rem_training_in_chennai',
+  id : 'sap-rem-training-in-chennai',
   title1 : "Best SAP REM Training Institute in Chennai",
   title2 : "Master lean production and repetitive manufacturing processes with our expert-led SAP REM Training – your gateway to efficiency in discrete manufacturing.",
   button1 : "Enroll Now",
@@ -2278,10 +2278,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
           pagetitle: "Best SAP REM Training in Chennai | Practical Oriented SAP Real Estate Management Course",
         pagedescription: "Join IntelliMindz for top SAP REM training in Chennai. Master SAP Real Estate Management concepts, property portfolio management, and real estate processes with hands-on projects.",
         pagekeywords: "sap rem training in chennai, sap real estate management course, property management, real estate, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_rem_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-rem-training-in-chennai"
 },
 {
-  id: 'sap_grc_training_in_chennai',
+  id: 'sap-grc-training-in-chennai',
   title1: "Best SAP GRC Training Institute in Chennai",
   title2: "Master risk management and compliance with expert-led SAP GRC Training – build a career in enterprise governance and security.",
   button1: "Enroll Now",
@@ -2409,10 +2409,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
           pagetitle: "Best SAP GRC Training in Chennai | Practical Oriented SAP Governance, Risk, and Compliance Course",
         pagedescription: "Join IntelliMindz for top SAP GRC training in Chennai. Master SAP GRC concepts, risk management, compliance, and internal controls with hands-on projects.",
         pagekeywords: "sap grc training in chennai, sap governance risk and compliance course, risk management, compliance, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_grc_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-grc-training-in-chennai"
 },
 {
-  id : 'sap_crm_training_in_chennai',
+  id : 'sap-crm-training-in-chennai',
   title1 : "Best SAP CRM Training Institute in Chennai",
   title2 : "Enhance your career with our expert-led SAP CRM Training – master customer relationship strategies and tools in the SAP ecosystem.",
   button1 : "Enroll Now",
@@ -2540,10 +2540,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
           pagetitle: "Best SAP CRM Training in Chennai | Practical Oriented SAP Customer Relationship Management Course",
         pagedescription: "Join IntelliMindz for top SAP CRM training in Chennai. Master SAP Customer Relationship Management concepts, sales, service, and marketing automation with hands-on projects.",
         pagekeywords: "sap crm training in chennai, sap customer relationship management course, sales automation, marketing automation, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_crm_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-crm-training-in-chennai"
 },
 {
-  id: 'sap_pm_training_in_chennai',
+  id: 'sap-pm-training-in-chennai',
   title1: "Best SAP PM Training Institute in Chennai",
   title2: "Advance your career in maintenance and asset management with our expert-led SAP PM Training – your key to mastering plant maintenance in SAP.",
   button1: "Enroll Now",
@@ -2671,10 +2671,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
           pagetitle: "Best SAP PM Training in Chennai | Practical Oriented SAP Plant Maintenance Course",
         pagedescription: "Join IntelliMindz for top SAP PM training in Chennai. Master SAP Plant Maintenance concepts, equipment management, and preventive maintenance with hands-on projects.",
         pagekeywords: "sap pm training in chennai, sap plant maintenance course, equipment management, preventive maintenance, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_pm_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-pm-training-in-chennai"
 },
 {
-  id : 'sap_Webdynpro_training_in_chennai',
+  id : 'sap-Webdynpro-training-in-chennai',
   title1 : "Best SAP Web Dynpro Training Institute in Chennai",
   title2 : "Build enterprise-grade SAP UI applications with expert-led SAP Web Dynpro Training – your gateway to mastering model-driven development.",
   button1 : "Enroll Now",
@@ -2802,10 +2802,10 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
           pagetitle: "Best SAP Web Dynpro Training in Chennai | Practical Oriented SAP Web Dynpro Course",
         pagedescription: "Join IntelliMindz for top SAP Web Dynpro training in Chennai. Master SAP Web Dynpro concepts, web application development, and UI design with hands-on projects.",
         pagekeywords: "sap web dynpro training in chennai, sap web dynpro course, web application development, ui design, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_Webdynpro_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-Webdynpro-training-in-chennai"
 },
 {
-  id : 'sap_ehs_training_in_chennai',
+  id : 'sap-ehs-training-in-chennai',
   title1 : "Best SAP EHS Training Institute in Chennai",
   title2 : "Master compliance, safety, and sustainability processes with expert-led SAP EHS Training – your key to a career in Environment, Health, and Safety management with SAP.",
   button1 : "Enroll Now",
@@ -2933,11 +2933,11 @@ pageogurl: "http://localhost:3000/sap/sap_abap_training_in_chennai",
           pagetitle: "Best SAP EHS Training in Chennai | Practical Oriented SAP Environment, Health, and Safety Course",
         pagedescription: "Join IntelliMindz for top SAP EHS training in Chennai. Master SAP EHS concepts, environmental compliance, occupational health, and safety management with hands-on projects.",
         pagekeywords: "sap ehs training in chennai, sap environment health and safety course, environmental compliance, occupational health, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_ehs_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-ehs-training-in-chennai"
 
 },
 {
-  id : 'sap_trm_training_in_chennai',
+  id : 'sap-trm-training-in-chennai',
   title1 : "Best SAP TRM Training Institute in Chennai",
   title2 : "Advance your finance career with expert-led SAP TRM Training – master treasury operations, risk analysis, and financial instrument management.",
   button1 : "Enroll Now",
@@ -3134,10 +3134,10 @@ description22: "The SAP TRM training takes approximately 30 to 40 hours, with op
           pagetitle: "Best SAP TRM Training in Chennai | Practical Oriented SAP Treasury and Risk Management Course",
         pagedescription: "Join IntelliMindz for top SAP TRM training in Chennai. Master SAP Treasury and Risk Management concepts, financial instruments, and risk analysis with hands-on projects.",
         pagekeywords: "sap trm training in chennai, sap treasury and risk management course, financial instruments, risk analysis, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_trm_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-trm-training-in-chennai"
 },
 {
-  id : 'sap_bi_training_in_chennai',
+  id : 'sap-bi-training-in-chennai',
   title1 : "Best SAP BI Training Institute in Chennai",
   title2 : "Unlock business insights and master enterprise reporting with our expert-led SAP BI Training – your pathway to analytics-driven decision-making in the SAP ecosystem.",
   button1 : "Enroll Now",
@@ -3265,10 +3265,10 @@ description22: "The SAP TRM training takes approximately 30 to 40 hours, with op
           pagetitle: "Best SAP BI Training in Chennai | Practical Oriented SAP Business Intelligence Course",
         pagedescription: "Join IntelliMindz for top SAP BI training in Chennai. Master SAP Business Intelligence concepts, data warehousing, reporting, and analytics with hands-on projects.",
         pagekeywords: "sap bi training in chennai, sap business intelligence course, data warehousing, reporting, analytics, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_bi_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-bi-training-in-chennai"
 },
 {
-  id: 'sap_re_training_in_chennai',
+  id: 'sap-re-training-in-chennai',
   title1: "Best SAP RE Training Institute in Chennai",
   title2: "Elevate your career in property and lease management with our expert-led SAP RE-FX Training in Chennai – designed for real-world real estate business scenarios.",
   button1: "Enroll Now",
@@ -3396,10 +3396,10 @@ description22: "The SAP TRM training takes approximately 30 to 40 hours, with op
           pagetitle: "Best SAP RE Training in Chennai | Practical Oriented SAP Real Estate Course",
         pagedescription: "Join IntelliMindz for top SAP RE training in Chennai. Master SAP Real Estate concepts, property management, and financial aspects of real estate with hands-on projects.",
         pagekeywords: "sap re training in chennai, sap real estate course, property management, real estate finance, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_re_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-re-training-in-chennai"
 },
 {
-  id : 'sap_hcm_training_in_chennai',
+  id : 'sap-hcm-training-in-chennai',
   title1 : "Best SAP HCM Training Institute in Chennai",
   title2 : "Advance your HR career with expert-led SAP HCM Training – master end-to-end HR processes in the SAP ecosystem.",
   button1 : "Enroll Now",
@@ -3536,10 +3536,10 @@ description16: "We offer expert trainers, live projects, SAP server access, inte
           pagetitle: "Best SAP HCM Training in Chennai | Practical Oriented SAP Human Capital Management Course",
         pagedescription: "Join IntelliMindz for top SAP HCM training in Chennai. Master SAP Human Capital Management concepts, talent management, and HR processes with hands-on projects.",
         pagekeywords: "sap hcm training in chennai, sap human capital management course, talent management, hr processes, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_hcm_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-hcm-training-in-chennai"
 },
 {
-  id : 'sap_plm_training_in_chennai',
+  id : 'sap-plm-training-in-chennai',
   title1 : "Best SAP PLM Training Institute in Chennai",
   title2 : "Master end-to-end product lifecycle processes with our expert-led SAP PLM Training – your gateway to innovation and product excellence in the SAP ecosystem.",
   button1 : "Enroll Now",
@@ -3666,7 +3666,7 @@ title33: "Will I get access to the SAP system?",
 description19: "Yes. All trainees receive SAP PLM system access for practice and project simulation throughout the course duration.",
 
 title34: "Can this training help with SAP PLM certification?",
-description20: "Absolutely. This course in Chennai aligns with SAP certification content (C_TPLM22_67 and similar exams), and includes mock tests and certification tips.",
+description20: "Absolutely. This course in Chennai aligns with SAP certification content (C-TPLM22-67 and similar exams), and includes mock tests and certification tips.",
 
 title35: "Is this SAP PLM Training available online?",
 description21: "Yes. We offer both classroom sessions and online live training options for our SAP PLM course in Chennai, with flexible batch timings.",
@@ -3682,10 +3682,10 @@ description16: "MNCs in manufacturing, automotive, aerospace, pharmaceuticals, a
           pagetitle: "Best SAP PLM Training in Chennai | Practical Oriented SAP Product Lifecycle Management Course",
         pagedescription: "Join IntelliMindz for top SAP PLM training in Chennai. Master SAP Product Lifecycle Management concepts, product development, and innovation processes with hands-on projects.",
         pagekeywords: "sap plm training in chennai, sap product lifecycle management course, product development, innovation, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sapplm_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sapplm-training-in-chennai"
 },
 {
-  id: 'sap_bods_training_in_chennai',
+  id: 'sap-bods-training-in-chennai',
   title1: "Best SAP BODS Training Institute in Chennai",
   title2: "Master SAP BODS for efficient data integration and ETL with expert-led training – your gateway to data-driven success in the SAP ecosystem.",
   button1: "Enroll Now",
@@ -3773,7 +3773,7 @@ topics3: [
 ],
 topics4: [
   "Using Query, Merge, Case, and Validation transforms",
-  "Applying map_operations and Table Comparison",
+  "Applying map-operations and Table Comparison",
   "Working with SQL transforms"
 ],
 topics5: [
@@ -3863,10 +3863,10 @@ description22: "The course typically lasts 30 to 40 hours and includes theory, h
           pagetitle: "Best SAP BODS Training in Chennai | Practical Oriented SAP Business Objects Data Services Course",
         pagedescription: "Join IntelliMindz for top SAP BODS training in Chennai. Master SAP BODS concepts, data integration, data quality, and ETL processes with hands-on projects.",
         pagekeywords: "sap bods training in chennai, sap business objects data services course, data integration, etl, data quality, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_bods_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-bods-training-in-chennai"
 },
 {
-  id : 'sap_ecm_training_in_chennai',
+  id : 'sap-ecm-training-in-chennai',
   title1 : "Best SAP ECM Training Institute in Chennai",
   title2 : "Master enterprise document and content management with expert-led SAP ECM Training – streamline your organization's information lifecycle.",
   button1 : "Enroll Now",
@@ -4059,10 +4059,10 @@ description22: "IntelliMindz is considered the Best Training Institute in Chenna
           pagetitle: "Best SAP ECM dmkflksdmfksdfsdfndslfdsTraining in Chennai | Practical Oriented SAP Enterprise Content Management Course",
         pagedescription: "Join IntelliMindz for top SAP ECM training in Chennai. Master SAP Enterprise Content Management concepts, document management, and archiving with hands-on projects.",
         pagekeywords: "sap ecm training in chennai, sap enterprise content management course, document management, archiving, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_ecm_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-ecm-training-in-chennai"
 },
 {
-  id : 'sap_scm_training_in_chennai',
+  id : 'sap-scm-training-in-chennai',
   title1 : "Best SAP SCM Training Institute in Chennai",
   title2 : "Master end-to-end supply chain processes with our expert-led SAP SCM Training – your path to an efficient and strategic SAP career.",
   button1 : "Enroll Now",
@@ -4251,10 +4251,10 @@ description22: "Yes. We offer both classroom and live online batches of our SAP 
           pagetitle: "Best SAP SCM Training in Chennai | Practical Oriented SAP Supply Chain Management Course",
         pagedescription: "Join IntelliMindz for top SAP SCM training in Chennai. Master SAP Supply Chain Management concepts, logistics, planning, and execution with hands-on projects.",
         pagekeywords: "sap scm training in chennai, sap supply chain management course, logistics, planning, execution, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_scm_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-scm-training-in-chennai"
 },
 {
-  id : 'sap_fscm_training_in_chennai',
+  id : 'sap-fscm-training-in-chennai',
   title1 : "Best SAP FSCM Training Institute in Chennai",
   title2 : "Accelerate your career with expert-led SAP FSCM Training – master financial operations, risk, and collections management in the SAP ecosystem.",
   button1 : "Enroll Now",
@@ -4392,10 +4392,10 @@ description16: "We offer expert instructors, live server access, certification s
           pagetitle: "Best SAP FSCM Training in Chennai | Practical Oriented SAP Financial Supply Chain Management Course",
         pagedescription: "Join IntelliMindz for top SAP FSCM training in Chennai. Master SAP Financial Supply Chain Management concepts, credit management, and dispute resolution with hands-on projects.",
         pagekeywords: "sap fscm training in chennai, sap financial supply chain management course, credit management, dispute resolution, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_fscm_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-fscm-training-in-chennai"
 },
 {
-  id: 'sap_bo_training_in_chennai',
+  id: 'sap-bo-training-in-chennai',
   title1: "Best SAP BO Training Institute in Chennai",
   title2: "Master enterprise reporting and business intelligence with expert-led SAP BO Training – your gateway to data-driven decision-making in SAP environments.",
   button1: "Enroll Now",
@@ -4513,7 +4513,7 @@ topics9: [
 ],
 topics10: [
   "Project scenarios using BO tools",
-  "Certification (C_BOCR_13 & C_BOWI_14) exam guidance",
+  "Certification (C-BOCR-13 & C-BOWI-14) exam guidance",
   "Interview questions and resume support"
 ],
   title26: "SAP BO Course Modules",
@@ -4536,7 +4536,7 @@ topics10: [
   designation5: "SAP BI Trainer",
 review1: "I joined the SAP BO course in Chennai offered by IntelliMindz because I wanted to transition from a general IT support role into a more specialized Business Intelligence career. The training was well-structured and covered in-depth modules on Web Intelligence (WebI), Universe Design Tool (UDT), and Crystal Reports. What impressed me the most was the practical learning environment—every topic was backed by hands-on labs and real-time business scenarios. By the end of the course, I was confident in designing reports and querying enterprise data, which made a huge difference during interviews.",
 review2: "This was without a doubt the most job-oriented and practical training I’ve taken. The trainer had years of industry experience and explained even the most complex BusinessObjects administration tasks such as user and rights management, report scheduling, and performance tuning with absolute clarity. The training helped me build a solid foundation in SAP BO and Business Intelligence. With the help of IntelliMindz’s placement assistance and mock interview sessions, I successfully cracked an interview and am now working as a Report Analyst at a reputed multinational company.",
-review3: "IntelliMindz is truly the Best Training Institute in Chennai for SAP BO. Their trainers are not only technically sound but also passionate about teaching. The one-on-one mentoring, real-time project exposure, and detailed guidance on tools like BO CMC, WebI, and IDT helped me master the platform. The course also included complete certification support. I passed my C_BOWI_14 exam and got placed within a month of completing the training. I’m now confident in handling real-time business reporting requirements and interacting with cross-functional teams in my organization.",
+review3: "IntelliMindz is truly the Best Training Institute in Chennai for SAP BO. Their trainers are not only technically sound but also passionate about teaching. The one-on-one mentoring, real-time project exposure, and detailed guidance on tools like BO CMC, WebI, and IDT helped me master the platform. The course also included complete certification support. I passed my C-BOWI-14 exam and got placed within a month of completing the training. I’m now confident in handling real-time business reporting requirements and interacting with cross-functional teams in my organization.",
 review4: "The SAP BO training at IntelliMindz exceeded all my expectations. We didn’t just study theory—we implemented complete BI solutions including dashboards, custom queries, and report automation. I particularly benefited from the sessions on using the Central Management Console (CMC) for user management and security control. The real-time project simulations helped me build a portfolio that I could present during interviews, showcasing actual work done on tools like Web Intelligence and Universe Designer. The instructor was approachable and always ready to clear our doubts, even outside class hours.",
 review5: "Enrolling in the SAP BO Training in Chennai at IntelliMindz turned out to be a career-defining decision for me. I started the course with zero experience in Business Intelligence tools and data reporting. However, the structured curriculum, combined with hands-on sessions, mock certification exams, and real-time use cases, helped me become industry-ready. I also received resume-building support and job interview preparation, which gave me the confidence to apply for roles. I’m now successfully working as an SAP BO Developer in a top-tier consulting company, and I credit this transformation entirely to the exceptional training at IntelliMindz.",
 
@@ -4553,7 +4553,7 @@ title31: "Will I get hands-on training with real-time projects?",
 description16: "Yes, absolutely. You will work on multiple real-time scenarios using SAP BO tools such as WebI, UDT, IDT, and Crystal Reports. These projects simulate actual business reporting tasks and help you understand how SAP BO is used in enterprise environments. The hands-on labs prepare you to face real-world challenges in a job setting.",
 
 title32: "Is the training aligned with SAP BO certification exams?",
-description17: "Yes, our training is designed to help you prepare for globally recognized SAP BO certifications such as C_BOCR_13 (Crystal Reports) and C_BOWI_14 (Web Intelligence). We offer mock tests, Q&A sessions, and exam strategy guidance to help you succeed on the first attempt.",
+description17: "Yes, our training is designed to help you prepare for globally recognized SAP BO certifications such as C-BOCR-13 (Crystal Reports) and C-BOWI-14 (Web Intelligence). We offer mock tests, Q&A sessions, and exam strategy guidance to help you succeed on the first attempt.",
 
 title33: "Is training available online as well?",
 description18: "Yes. In addition to classroom-based SAP BO training in Chennai, we offer live instructor-led online sessions that include screen sharing, real-time demonstrations, virtual labs, and doubt-clearing sessions to make remote learning as effective as classroom training.",
@@ -4574,10 +4574,10 @@ description22: "IntelliMindz stands out due to its practical approach to trainin
           pagetitle: "Best SAP BO Training in Chennai | Practical Oriented SAP Business Objects Course",
         pagedescription: "Join IntelliMindz for top SAP BO training in Chennai. Master SAP Business Objects concepts, reporting, dashboards, and data visualization with hands-on projects.",
         pagekeywords: "sap bo training in chennai, sap business objects course, reporting, dashboards, data visualization, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_bo_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-bo-training-in-chennai"
 },
 {
-  id : 'sap_success_factor_training_in_chennai',
+  id : 'sap-success-factor-training-in-chennai',
   title1 : "Best SAP SuccessFactors Training Institute in Chennai",
   title2 : "Accelerate your HR technology career with expert-led SAP SuccessFactors Training – become a certified specialist in cloud-based HCM solutions.",
   button1 : "Enroll Now",
@@ -4705,11 +4705,11 @@ description22: "IntelliMindz stands out due to its practical approach to trainin
           pagetitle: "Best SAP SuccessFactors Training in Chennai | Practical Oriented SAP SuccessFactors Course",
         pagedescription: "Join IntelliMindz for top SAP SuccessFactors training in Chennai. Master SAP SuccessFactors concepts, cloud HR, and talent management solutions with hands-on projects.",
         pagekeywords: "sap successfactors training in chennai, sap successfactors course, cloud hr, talent management, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_success_factor_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-success-factor-training-in-chennai"
 
 },
 {
-  id : 'apo_training_in_chennai',
+  id : 'apo-training-in-chennai',
   title1 : "Best SAP APO Training Institute in Chennai",
   title2 : "Master supply chain planning and optimization with expert-led SAP APO Training – build real-time planning expertise for global industries.",
   button1 : "Enroll Now",
@@ -4837,10 +4837,10 @@ description22: "IntelliMindz stands out due to its practical approach to trainin
           pagetitle: "Best SAP APO Training in Chennai | Practical Oriented SAP Advanced Planning and Optimization Course",
         pagedescription: "Join IntelliMindz for top SAP APO training in Chennai. Master SAP Advanced Planning and Optimization concepts, demand planning, and supply chain optimization with hands-on projects.",
         pagekeywords: "sap apo training in chennai, sap advanced planning and optimization course, demand planning, supply chain optimization, intellimindz",
-        pageogurl: "http://localhost:3000/sap/apo_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/apo-training-in-chennai"
 },
 {
-  id: 'sap_mm_training_in_chennai',
+  id: 'sap-mm-training-in-chennai',
   title1: "Best SAP MM Training Institute in Chennai",
   title2: "Build expertise in procurement, inventory, and material management with our SAP MM Training – your key to a successful SAP functional career.",
   button1: "Enroll Now",
@@ -4957,7 +4957,7 @@ topics9: [
   "Release strategy for PO"
 ],
 topics10: [
-  "C_TSCM52_67 certification guidance",
+  "C-TSCM52-67 certification guidance",
   "Real-time project simulation",
   "Resume prep and interview Q&A"
 ],
@@ -4997,7 +4997,7 @@ title31: "Will I get access to SAP systems for hands-on practice?",
 description16: "Yes. You will get 24/7 access to live SAP MM servers where you can perform practical exercises, configuration, and transaction testing.",
 
 title32: "Is this training aligned with SAP MM certification?",
-description17: "Yes. Our SAP MM certification training in Chennai is aligned with the official C_TSCM52_67 exam, and includes mock tests and certification prep support.",
+description17: "Yes. Our SAP MM certification training in Chennai is aligned with the official C-TSCM52-67 exam, and includes mock tests and certification prep support.",
 
 title33: "Do you offer classroom and online modes?",
 description18: "Yes. We offer both instructor-led online training and classroom-based SAP MM training in Chennai, allowing you to learn at your convenience.",
@@ -5018,10 +5018,10 @@ description22: "We combine hands-on learning, real-time projects, expert instruc
           pagetitle: "Best SAP MM Training in Chennai | Practical Oriented SAP Materials Management Course",
         pagedescription: "Join IntelliMindz for top SAP MM training in Chennai. Master SAP Materials Management concepts, procurement, inventory management, and logistics with hands-on projects.",
         pagekeywords: "sap mm training in chennai, sap materials management course, procurement, inventory, logistics, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_mm_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-mm-training-in-chennai"
 },
 {
-  id : 'sap_wf_training_in_chennai',
+  id : 'sap-wf-training-in-chennai',
   title1 : "Best SAP Workflow Training Institute in Chennai",
   title2 : "Streamline business processes with our expert-led SAP Workflow Training – master automation and approvals in SAP with real-world projects and mentorship.",
   button1 : "Enroll Now",
@@ -5199,10 +5199,10 @@ description22: "Yes. IntelliMindz provides resume preparation, mock interviews, 
           pagetitle: "Best SAP WF Training in Chennai | Practical Oriented SAP Workflow Course",
         pagedescription: "Join IntelliMindz for top SAP WF training in Chennai. Master SAP Workflow concepts, business process automation, and task management with hands-on projects.",
         pagekeywords: "sap wf training in chennai, sap workflow course, business process automation, task management, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_wf_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-wf-training-in-chennai"
 },
 {
-  id : 'sap_solution_manager_training_in_chennai',
+  id : 'sap-solution-manager-training-in-chennai',
   title1 : "Best SAP Solution Manager Training Institute in Chennai",
   title2 : "Empower your IT operations and project lifecycle with expert-led SAP Solution Manager Training – your path to mastering SAP ALM and support tools.",
   button1 : "Enroll Now",
@@ -5319,7 +5319,7 @@ topics9: [
   "Integration with MS Project or Jira"
 ],
 topics10: [
-  "SAP Solution Manager Certification (C_SM100_7208) prep",
+  "SAP Solution Manager Certification (C-SM100-7208) prep",
   "Industry use cases and practical assignments",
   "Resume & interview readiness"
 ],
@@ -5360,7 +5360,7 @@ title31: "Will I get access to a live SAP SolMan system?",
 description16: "Yes. We provide 24/7 access to a live SAP Solution Manager server environment for hands-on configuration and real-time practice.",
 
 title32: "Will this training help me with SAP Solution Manager certification?",
-description17: "Absolutely. Our course aligns with SAP C_SM100_7208 certification. We provide mock tests, certification tips, and concept-focused coaching to help you clear the exam.",
+description17: "Absolutely. Our course aligns with SAP C-SM100-7208 certification. We provide mock tests, certification tips, and concept-focused coaching to help you clear the exam.",
 
 title33: "Do you offer online and offline training modes?",
 description18: "Yes. We offer instructor-led live online training as well as classroom sessions in Chennai. Both modes include SAP server access and full trainer support.",
@@ -5381,10 +5381,10 @@ description22: "We offer live SolMan access, real-time project simulation, certi
           pagetitle: "Best SAP Solution Manager Training in Chennai | Practical Oriented SAP Solution Manager Course",
         pagedescription: "Join IntelliMindz for top SAP Solution Manager training in Chennai. Master SAP Solution Manager concepts, solution implementation, and IT service management with hands-on projects.",
         pagekeywords: "sap solution manager training in chennai, sap solution manager course, solution implementation, it service management, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_solution_manager_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-solution-manager-training-in-chennai"
 },
 {
-  id: 'sap_ps_training_in_chennai',
+  id: 'sap-ps-training-in-chennai',
   title1: "Best SAP PS Training Institute in Chennai",
   title2: "Gain mastery in project planning, execution, and monitoring with expert-led SAP PS Training – build your career in project-based enterprise solutions.",
   button1: "Enroll Now",
@@ -5491,7 +5491,7 @@ topics7: [
   "Period-end processing and overhead calculation"
 ],
 topics8: [
-  "Key reports: CJI3, CN41N, S_ALR_87013558, and more",
+  "Key reports: CJI3, CN41N, S-ALR-87013558, and more",
   "Custom reports using SAP Query and ABAP lists",
   "SAP PS Info System and dashboards"
 ],
@@ -5501,7 +5501,7 @@ topics9: [
   "Troubleshooting and real-time error handling techniques"
 ],
 topics10: [
-  "C_TPLM22_67 exam syllabus and preparation",
+  "C-TPLM22-67 exam syllabus and preparation",
   "Resume building tailored for SAP PS roles",
   "Mock interviews and placement assistance"
 ],
@@ -5544,7 +5544,7 @@ title32: "Will I work on a real-time project during the training?",
 description17: "Absolutely. You’ll complete simulation-based real-time projects mimicking real business scenarios—like construction projects, IT deployments, or engineering processes.",
 
 title33: "Is this training aligned with SAP certification?",
-description18: "Yes. This course aligns with SAP certification C_TPLM22_67. We offer mock tests, exam tips, and full support for registering and preparing for the SAP Global Certification.",
+description18: "Yes. This course aligns with SAP certification C-TPLM22-67. We offer mock tests, exam tips, and full support for registering and preparing for the SAP Global Certification.",
 
 title34: "Do you provide both classroom and online modes?",
 description19: "Yes. IntelliMindz offers both classroom training in Chennai and live instructor-led online sessions, making it suitable for local and remote learners alike.",
@@ -5562,10 +5562,10 @@ description22: "We offer hands-on labs, expert trainers, real-time project simul
           pagetitle: "Best SAP PS Training in Chennai | Practical Oriented SAP Project Systems Course",
         pagedescription: "Join IntelliMindz for top SAP PS training in Chennai. Master SAP Project Systems concepts, project planning, execution, and control with hands-on projects.",
         pagekeywords: "sap ps training in chennai, sap project systems course, project management, project planning, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_ps_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-ps-training-in-chennai"
 },
 {
-  id : 'sap_training_in_chennai',
+  id : 'sap-training-in-chennai',
   title1 : "Best SAP Training Institute in Chennai",
   title2 : "Master the world’s leading ERP system with expert-led SAP Training in Chennai – build a strong foundation across SAP modules and fast-track your enterprise IT career.",
   button1 : "Enroll Now",
@@ -5743,10 +5743,10 @@ description22: "Course duration is 30–40 hours depending on the module. We off
           pagetitle: "Best SAP Training in Chennai | Practical Oriented SAP Certification Course",
         pagedescription: "Join IntelliMindz for comprehensive SAP training in Chennai. Master various SAP modules, gain practical skills, and prepare for SAP certification with hands-on projects.",
         pagekeywords: "sap training in chennai, sap course, sap certification, sap modules, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-training-in-chennai"
 },
 {
-  id : 'sap_hana_training_in_chennai',
+  id : 'sap-hana-training-in-chennai',
   title1 : "Best SAP HANA Training Institute in Chennai",
   title2 : "Accelerate your career with expert-led SAP HANA Training – master in-memory data processing and real-time analytics for the modern enterprise.",
   button1 : "Enroll Now",
@@ -5904,7 +5904,7 @@ review5: "This training exceeded my expectations in every way. The syllabus was 
   description16: "You will work with SAP HANA Studio, SAP HANA Cockpit, SAP Web IDE, SAP BW, SAP Lumira, and SAP BusinessObjects for real-world BI and modeling tasks.",
 
   title32: "Is SAP HANA certification support included?",
-  description17: "Absolutely. We offer full support for SAP Certified Application Associate – SAP HANA (C_HANAIMP_18 and C_HANATEC_18) exams, including mock exams, dumps, and guidance sessions.",
+  description17: "Absolutely. We offer full support for SAP Certified Application Associate – SAP HANA (C-HANAIMP-18 and C-HANATEC-18) exams, including mock exams, dumps, and guidance sessions.",
 
   title33: "Is this course available online?",
   description18: "Yes. IntelliMindz offers both offline classroom and live online instructor-led training, ensuring interactive and practical learning in both formats.",
@@ -5925,10 +5925,10 @@ review5: "This training exceeded my expectations in every way. The syllabus was 
           pagetitle: "Bessandjfadksfklasm HANA Training in Chennai | Practical Oriented SAP HANA Course",
     pagedescription: "Join IntelliMindz for top SAP HANA training in Chennai. Master SAP HANA concepts, in-memory computing, data modeling, and real-time analytics with hands-on projects.",
         pagekeywords: "sap hana training in chennai, sap hana course, in-memory computing, data modeling, real-time analytics, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_hana_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-hana-training-in-chennai"
 },
 {
-  id : 'sap_le_training_in_chennai',
+  id : 'sap-le-training-in-chennai',
   title1 : "Best SAP LE Training Institute in Chennai",
   title2 : "Master end-to-end logistics processes with expert-led SAP LE Training – your stepping stone to a successful career in supply chain and distribution management.",
   button1 : "Enroll Now",
@@ -6106,10 +6106,10 @@ description22: "The SAP LE course typically takes 30–40 hours with weekday and
           pagetitle: "Best SAP LE Training in Chennai | Practical Oriented SAP Logistics Execution Course",
         pagedescription: "Join IntelliMindz for top SAP LE training in Chennai. Master SAP Logistics Execution concepts, warehouse management, and transportation management with hands-on projects.",
         pagekeywords: "sap le training in chennai, sap logistics execution course, warehouse management, transportation management, intellimindz",
-        pageogurl: "http://localhost:3000/sap/sap_le_training_in_chennai"
+        pageogurl: "http://localhost:3000/sap/sap-le-training-in-chennai"
 },
 {
-  id: 'sap_apo_training_in_chennai',
+  id: 'sap-apo-training-in-chennai',
   title1: "Best SAP APO Training Institute in Chennai",
   title2: "Master supply chain planning with SAP APO – gain hands-on experience in demand forecasting, supply network planning, and PP/DS optimization.",
   button1: "Enroll Now",
@@ -6225,7 +6225,7 @@ description22: "The SAP LE course typically takes 30–40 hours with weekday and
     "DP-SNP-PP/DS planning flow"
   ],
   topics10: [
-    "C_TSCM44_65 certification tips",
+    "C-TSCM44-65 certification tips",
     "Mock interviews and questionnaire coaching",
     "Resume strengthening for APO roles"
   ],
@@ -6261,7 +6261,7 @@ description22: "The SAP LE course typically takes 30–40 hours with weekday and
   title31: "Will I get SAP system access?",
   description16: "Yes, students receive 24/7 SAP server access to configure planning areas, run heuristics, and simulate supply chain scenarios.",
   title32: "Is this training certification-aligned?",
-  description17: "Yes—designed to support SAP C_TSCM44_65 APO certification with mock exams, study guides, and practice sessions.",
+  description17: "Yes—designed to support SAP C-TSCM44-65 APO certification with mock exams, study guides, and practice sessions.",
   title33: "Is online training available?",
   description18: "Yes, we offer both in-person and live online SAP APO classes with interactive Q&A and demo sessions.",
   title34: "What job roles after APO training?",
@@ -6277,10 +6277,10 @@ description22: "The SAP LE course typically takes 30–40 hours with weekday and
   pagetitle: "Best SAP APO Training in Chennai | SAP Supply Chain Planning Course",
   pagedescription: "Join IntelliMindz for top SAP APO training in Chennai. Master demand planning, supply network strategy & production scheduling with live projects.",
   pagekeywords: "sap apo training in chennai, sap supply chain planning, demand planning, ppds, snp, intellimindz",
-  pageogurl: "http://localhost:3000/sap/sap_apo_training_in_chennai"
+  pageogurl: "http://localhost:3000/sap/sap-apo-training-in-chennai"
 },
 {
-  id: "sap_fico_training_in_chennai",
+  id: "sap-fico-training-in-chennai",
   title1: "Best SAP FICO Training Institute in Chennai",
   title2: "Unlock the power of financial management with expert-led SAP FICO Training – your gateway to global career opportunities.",
   button1: "Enroll Now",
@@ -6408,6 +6408,6 @@ description22: "The SAP LE course typically takes 30–40 hours with weekday and
   pagetitle: "Best SAP FICO Training in Chennai | Expert-Led SAP FICO Course",
   pagedescription: "Enroll in top-rated SAP FICO training in Chennai at IntelliMindz. Master SAP FICO concepts with real-time projects and expert guidance.",
   pagekeywords: "sap fico training in chennai, sap fico course, sap fico certification, intellimindz",
-  pageogurl: "http://localhost:3000/sap/sap_fico_training_in_chennai"
+  pageogurl: "http://localhost:3000/sap/sap-fico-training-in-chennai"
 },
 ];

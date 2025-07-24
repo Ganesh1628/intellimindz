@@ -12,11 +12,11 @@ const footerQuickLinks = [
 ];
 
 const trendingCourses = [
-  { name: "Python Training in Chennai", url: "/python_training_in_chennai" },
-  { name: "Java Training in Chennai", url: "/java_training_in_chennai" },
-  { name: "Selenium Training in Chennai", url: "/selenium_training_in_chennai" },
-  { name: "AWS Training in Chennai", url: "/aws_training_in_chennai" },
-  { name: "Devops Training in Chennai", url: "/devOps_training_in_chennai" },
+  { name: "Python Training in Chennai", url: "/python-training-in-chennai" },
+  { name: "Java Training in Chennai", url: "/java-training-in-chennai" },
+  { name: "Selenium Training in Chennai", url: "/selenium-training-in-chennai" },
+  { name: "AWS Training in Chennai", url: "/aws-training-in-chennai" },
+  { name: "Devops Training in Chennai", url: "/devOps-training-in-chennai" },
 ];
 
 const Footer = () => {
