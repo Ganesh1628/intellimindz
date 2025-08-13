@@ -17,7 +17,7 @@ import corporateVirtualImg from '../../assests/images/virtual.jpeg';
 
 export const pagesData = [
 {
-    id: 'ajax_training_in_chennai',
+    id: 'ajax-training-in-chennai',
     title1 :"Best AJAX Training in Chennai",
     title2 : "Master data integration and ETL processes with our expert-led AJAX Training – your gateway to a thriving career in data management.",
     button2 : "Enroll Now",
@@ -227,10 +227,10 @@ desc23: "The course is 3–4 weeks long with flexible weekend, weekday, and fast
     pagetitle: "Best AJAX Training in Chennai | Practical Oriented AJAX Course",
     pagedescription : "Join IntelliMindz for top AJAX training in Chennai. Master asynchronous web development with hands-on projects and expert guidance.",
     pagekeywords : "ajax training in chennai, ajax course, ajax web development, dynamic web applications, intellimindz",
-    pageogurl : "https://localhost:3000/ajax_training_in_chennai",
+    pageogurl : "https://localhost:3000/ajax-training-in-chennai",
 },
 {
-  id: "abinitio_training_in_chennai",
+  id: "abinitio-training-in-chennai",
   title1: "Best Ab Initio Training in Chennai",
   title2: "Master enterprise data processing with our expert-led Ab Initio training – your path to success in big data integration and ETL development.",
   button2: "Enroll Now",
@@ -422,11 +422,11 @@ title53: "How can I enroll in your Ab Initio training in Chennai?",desc23: "To j
           pagetitle: "Best Ab Initio Training in Chennai | Practical Oriented Ab Initio Course",
         pagedescription: "Join IntelliMindz for top Ab Initio training in Chennai. Master data processing and ETL tools with hands-on projects and expert guidance.",
         pagekeywords: "abinitio training in chennai, abinitio course, etl tools, data processing, data integration, intellimindz",
-        pageogurl: "https://localhost:3000/abinitio_training_in_chennai",
+        pageogurl: "https://localhost:3000/abinitio-training-in-chennai",
 
 },
 {
-  id: "itil_training_in_chennai",
+  id: "itil-training-in-chennai",
   title1: "Best ITIL Training in Chennai",
   title2: "Gain expertise in IT service management with our certified ITIL training – align IT strategy with business goals.",
   button2: "Enroll Now",
@@ -578,10 +578,10 @@ title53: "How can I enroll in your Ab Initio training in Chennai?",desc23: "To j
   pagetitle: "Best ITIL Training in Chennai | Practical Oriented ITIL Course",
   pagedescription: "Join IntelliMindz for top ITIL training in Chennai. Master IT service management with hands-on projects and expert guidance.",
   pagekeywords: "itil training in chennai, itil course, itil certification, IT service management, intellimindz",
-  pageogurl: "https://localhost:3000/itil_training_in_chennai",
+  pageogurl: "https://localhost:3000/itil-training-in-chennai",
 },
 {
-  id: "java_training_in_chennai",
+  id: "java-training-in-chennai",
   title1: "Best Java Training in Chennai",
   title2: "Become a proficient Java developer with our industry-driven training—master core and advanced Java concepts.",
   button2: "Enroll Now",
@@ -773,11 +773,11 @@ title53: "How do I enroll in the Java training course in Chennai?",desc23: "To e
           pagetitle: "Best Java Training in Chennai | Practical Oriented Java Course",
         pagedescription: "Join IntelliMindz for top Java training in Chennai. Master Java programming with hands-on projects and expert guidance.",
         pagekeywords: "java training in chennai, java course, core java, advanced java, j2ee, intellimindz",
-        pageogurl: "https://localhost:3000/java_training_in_chennai",
+        pageogurl: "https://localhost:3000/java-training-in-chennai",
 
 },
 {
-  id: 'mcse_training_in_chennai',
+  id: 'mcse-training-in-chennai',
   title1: "Best MCSE Training in Chennai",
   title2: "Advance your IT career with our expert-led MCSE Training in Chennai. Master Microsoft server technologies and become a certified systems expert.",
   button2: "Enroll Now",
@@ -978,11 +978,11 @@ title53: "How do I enroll in the MCSE course at IntelliMindz?",desc23: "To enrol
   pagetitle: "Best MCSE Training in Chennai | Practical Oriented MCSE Course",
         pagedescription: "Join IntelliMindz for top MCSE training in Chennai. Master Microsoft Certified Solutions Expert skills with hands-on projects and expert guidance.",
         pagekeywords: "mcse training in chennai, mcse course, microsoft certification, server administration, intellimindz",
-        pageogurl: "https://localhost:3000/mcse_training_in_chennai",
+        pageogurl: "https://localhost:3000/mcse-training-in-chennai",
 
 },
 {
-  id: 'ssrs_training_in_chennai',
+  id: 'ssrs-training-in-chennai',
   title1: "Best SSRS Training in Chennai",
   title2: "Master SQL Server Reporting Services (SSRS) with our expert-led training program and build robust, data-driven reports for enterprise decision-making.",
   button2: "Enroll Now",
@@ -1180,11 +1180,11 @@ title53: "How can I register for SSRS training in Chennai?",desc23: "You can reg
   pagetitle: "Best SSRS Training in Chennai | Practical Oriented SSRS Course",
         pagedescription: "Join IntelliMindz for top SSRS training in Chennai. Master SQL Server Reporting Services with hands-on projects and expert guidance.",
         pagekeywords: "ssrs training in chennai, ssrs course, sql server reporting services, business intelligence, intellimindz",
-        pageogurl: "https://localhost:3000/ssrs_training_in_chennai",
+        pageogurl: "https://localhost:3000/ssrs-training-in-chennai",
 
 },
 {
-  id: 'data_science_training_in_chennai',
+  id: 'data-science-training-in-chennai',
   title1: "Best Data Science Training in Chennai",
   title2: "Launch your analytics career with our expert-led Data Science Training in Chennai. Master data analysis, machine learning, and Python programming from industry professionals.",
   button2: "Enroll Now",
@@ -1376,11 +1376,10 @@ title53: "How do I join the Data Science course in Chennai?",desc23: "You can re
    pagetitle: "Best Data Science Training in Chennai | Practical Oriented Data Science Course",
         pagedescription: "Join IntelliMindz for top Data Science training in Chennai. Master data analysis, machine learning, and AI with hands-on projects and expert guidance.",
         pagekeywords: "data science training in chennai, data science course, machine learning, artificial intelligence, data analysis, intellimindz",
-        pageogurl: "https://localhost:3000/data_science_training_in_chennai",
-
+        pageogurl: "https://localhost:3000/data-sciencetraining-in-chennai",
 },
 {
-  id: 'etl_testing_training_in_chennai',
+  id: 'etl-testing-training-in-chennai',
   title1: "Best ETL Testing Training in Chennai",
   title2: "Become an expert in validating data pipelines and data warehousing processes with our hands-on ETL Testing training led by real-time industry professionals.",
   button2: "Enroll Now",
@@ -1571,11 +1570,11 @@ title53: "How can I register for the ETL Testing course in Chennai?",desc23: "Yo
   button6: "Contact Us",  pagetitle: "Best ETL Testing Training in Chennai | Practical Oriented ETL Testing Course",
         pagedescription: "Join IntelliMindz for top ETL Testing training in Chennai. Master Extract, Transform, Load testing with hands-on projects and expert guidance.",
         pagekeywords: "etl testing training in chennai, etl testing course, data warehousing, quality assurance, intellimindz",
-        pageogurl: "https://localhost:3000/etl_testing_training_in_chennai",
+        pageogurl: "https://localhost:3000/etl-testing-training-in-chennai",
 
 },
 {
-  id: 'ccna_training_in_chennai',
+  id: 'ccna-training-in-chennai',
   title1: "Best CCNA Training in Chennai",
   title2: "Boost your networking career with expert-led CCNA Training in Chennai. Learn routing, switching, and Cisco network configuration from certified professionals.",
   button2: "Enroll Now",
@@ -1767,11 +1766,11 @@ title53: "How can I enroll in the CCNA course in Chennai?",desc23: "To enroll in
   pagetitle: "Best CCNA Training in Chennai | Practical Oriented CCNA Course",
         pagedescription: "Join IntelliMindz for top CCNA training in Chennai. Master Cisco networking with hands-on projects and expert guidance.",
         pagekeywords: "ccna training in chennai, ccna course, cisco certification, networking, intellimindz",
-        pageogurl: "https://localhost:3000/ccna_training_in_chennai",
+        pageogurl: "https://localhost:3000/ccna-training-in-chennai",
 
 },
 {
-  id: 'soft_skill_training_in_chennai',
+  id: 'soft-skill-training-in-chennai',
   title1: "Best Soft Skill Training in Chennai",
   title2: "Elevate your professional persona with IntelliMindz's Soft Skill Training – develop confidence, communication, leadership, and emotional intelligence to thrive in any industry.",
   button2: "Enroll Now",
@@ -1962,11 +1961,11 @@ title53: "How can I enroll in your soft skill training in Chennai?",desc23: "You
       pagetitle: "Best Soft Skill Training in Chennai | Practical Oriented Soft Skills Course",
         pagedescription: "Join IntelliMindz for top Soft Skill training in Chennai. Enhance communication, leadership, and professional skills with practical exercises.",
         pagekeywords: "soft skill training in chennai, soft skills course, communication skills, leadership, professional development, intellimindz",
-        pageogurl: "https://localhost:3000/soft_skill_training_in_chennai",
+        pageogurl: "https://localhost:3000/soft-skill-training-in-chennai",
 
 },
 {
-  id: 'dotnet_training_in_chennai',
+  id: 'dotnet-training-in-chennai',
   title1: "Best DotNet Training in Chennai",
   title2: "Accelerate your software development career with our expert-led DotNet Training in Chennai. Master ASP.NET, C#, and .NET Core with real-time projects.",
   button2: "Enroll Now",
@@ -2158,11 +2157,11 @@ title53: "How do I enroll for the DotNet course at IntelliMindz?",desc23: "To jo
    pagetitle: "Best .NET Training in Chennai | Practical Oriented .NET Course",
         pagedescription: "Join IntelliMindz for top .NET training in Chennai. Master Microsoft .NET framework with hands-on projects and expert guidance.",
         pagekeywords: "dotnet training in chennai, .net course, c#, asp.net, web development, intellimindz",
-        pageogurl: "https://localhost:3000/dotnet_training_in_chennai",
+        pageogurl: "https://localhost:3000/dotnet-training-in-chennai",
 
 },
 {
-  id: 'ios_training_in_chennai',
+  id: 'ios-training-in-chennai',
   title1: "Best iOS Training in Chennai",
   title2: "Master iOS app development with Swift and Xcode through real-time, expert-led training designed for aspiring mobile developers.",
   button2: "Enroll Now",
@@ -2354,11 +2353,11 @@ title53: "How do I enroll in the iOS course at IntelliMindz?",desc23: "To enroll
    pagetitle: "Best iOS Training in Chennai | Practical Oriented iOS App Development Course",
         pagedescription: "Join IntelliMindz for top iOS training in Chennai. Master iPhone app development with Swift and Xcode, hands-on projects, and expert guidance.",
         pagekeywords: "ios training in chennai, ios course, swift, xcode, iphone app development, mobile app development, intellimindz",
-        pageogurl: "https://localhost:3000/ios_training_in_chennai",
+        pageogurl: "https://localhost:3000/ios-training-in-chennai",
 
 },
 {
-  id: 'android_training_in_chennai',
+  id: 'android-training-in-chennai',
   title1: "Best Android Training in Chennai",
   title2: "Build your mobile app development career with our Android Training in Chennai. Learn from experts and create real-world Android apps using Java and Kotlin.",
   button2: "Enroll Now",
@@ -2570,11 +2569,11 @@ desc23: "To enroll in our Android Training in Chennai, you can contact us online
   pagetitle: "Best Android Training in Chennai | Practical Oriented Android App Development Course",
   pagedescription: "Join IntelliMindz for top Android training in Chennai. Master Android app development with Java/Kotlin, hands-on projects, and expert guidance.",
   pagekeywords: "android training in chennai, android course, java, kotlin, android app development, mobile app development, intellimindz",
-  pageogurl: "https://localhost:3000/android_training_in_chennai",
+  pageogurl: "https://localhost:3000/android-training-in-chennai",
 
 },
 {
-  id: 'selenium_training_in_chennai',
+  id: 'selenium-training-in-chennai',
   title1: "Best Selenium Training in Chennai",
   title2: "Master automation testing using Selenium WebDriver, TestNG, and real-time frameworks with our industry-focused Selenium Training in Chennai.",
   button2: "Enroll Now",
@@ -2766,11 +2765,11 @@ title53: "How can I join the Selenium course in Chennai?",desc23: "To enroll in 
     pagetitle: "Best Selenium Training in Chennai | Practical Oriented Selenium Automation Testing Course",
         pagedescription: "Join IntelliMindz for top Selenium training in Chennai. Master automated web testing with hands-on projects and expert guidance.",
         pagekeywords: "selenium training in chennai, selenium course, automation testing, web testing, qa automation, intellimindz",
-        pageogurl: "https://localhost:3000/selenium_training_in_chennai",
+        pageogurl: "https://localhost:3000/selenium-training-in-chennai",
 
 },
 {
-  id: 'wordpress_training_in_chennai',
+  id: 'wordpress-training-in-chennai',
   title1: "Best WordPress Training in Chennai",
   title2: "Learn to build dynamic websites with our expert-led WordPress Training in Chennai. Get hands-on with themes, plugins, and custom development.",
   button2: "Enroll Now",
@@ -2962,11 +2961,11 @@ title53: "How do I enroll in the WordPress course at IntelliMindz?",desc23: "To 
    pagetitle: "Best WordPress Training in Chennai | Practical Oriented WordPress Web Design Course",
         pagedescription: "Join IntelliMindz for top WordPress training in Chennai. Master website design and development with hands-on projects and expert guidance.",
         pagekeywords: "wordpress training in chennai, wordpress course, website design, web development, cms, intellimindz",
-        pageogurl: "https://localhost:3000/wordpress_training_in_chennai",
+        pageogurl: "https://localhost:3000/wordpress-training-in-chennai",
 
 },
 {
-  id: 'mobile_application_training_in_chennai',
+  id: 'mobile-application-training-in-chennai',
   title1: "Best Mobile Application Training in Chennai",
   title2: "Master Android development with our expert-led Mobile Application Training in Chennai. Build real apps and kickstart your mobile development career.",
   button2: "Enroll Now",
@@ -3158,11 +3157,11 @@ title53: "How do I enroll in the mobile testing course at IntelliMindz?",desc23:
     pagetitle: "Best Mobile Application Training in Chennai | Practical Oriented Mobile App Development Course",
         pagedescription: "Join IntelliMindz for top Mobile Application training in Chennai. Master development for iOS and Android with hands-on projects and expert guidance.",
         pagekeywords: "mobile application training in chennai, mobile app development course, ios app development, android app development, cross-platform, intellimindz",
-        pageogurl: "https://localhost:3000/mobile_application_training_in_chennai",
+        pageogurl: "https://localhost:3000/mobile-application-training-in-chennai",
 
 },
 {
-  id: 'sales_force_training_in_chennai',
+  id: 'sales-force-training-in-chennai',
   title1: "Best Salesforce Training in Chennai",
   title2: "Accelerate your CRM career with our expert-led Salesforce Training in Chennai. Learn Salesforce Admin, Development, and Lightning to become a certified CRM professional.",
   button2: "Enroll Now",
@@ -3373,7 +3372,7 @@ desc23: "To enroll in our Salesforce Admin Training in Chennai, contact us via c
   button6: "Contact Us",
 },
 {
-  id: 'matlab_training_in_chennai',
+  id: 'matlab-training-in-chennai',
   title1: "Best MATLAB Training in Chennai",
   title2: "Gain in-depth knowledge in mathematical modeling, simulations, and data visualization with our industry-focused MATLAB training.",
   button2: "Enroll Now",
@@ -3585,11 +3584,11 @@ desc23: "To enroll in our MATLAB Training in Chennai, reach out via call, WhatsA
     pagetitle: "Best MATLAB Training in Chennai | Practical Oriented MATLAB Programming Course",
         pagedescription: "Join IntelliMindz for top MATLAB training in Chennai. Master numerical computing, data analysis, and algorithm development with hands-on projects.",
         pagekeywords: "matlab training in chennai, matlab course, numerical computing, data analysis, algorithm development, intellimindz",
-        pageogurl: "https://localhost:3000/matlab_training_in_chennai",
+        pageogurl: "https://localhost:3000/matlab-training-in-chennai",
 
 },
 {
-  id: 'mainframe_admin_training_in_chennai',
+  id: 'mainframe-admin-training-in-chennai',
   title1: "Best Mainframe Admin Training in Chennai",
   title2: "Build a strong foundation in mainframe systems with our expert-led Mainframe Admin Training in Chennai. Learn z/OS, JCL, SDSF, and system operations from real-time professionals.",
   button2: "Enroll Now",
@@ -3733,10 +3732,10 @@ review5: "Coming from a BPO background, I wanted to move into IT and was looking
   pagetitle: "Best Mainframe Admin Training in Chennai | Real-Time Project Based",
   pagedescription: "Join IntelliMindz Mainframe Admin Training in Chennai for hands-on experience with real-time projects, expert mentorship, and certification. Perfect for aspiring mainframe professionals.",
   pagekeywords: "mainframe admin training in chennai, mainframe internship, mainframe projects, intellimindz mainframe, mainframe certification, mainframe hands-on training",
-  pageogurl: "https://localhost:3000/mainframe_admin_training_in_chennai"
+  pageogurl: "https://localhost:3000/mainframe-admin-training-in-chennai"
 },
 {
-  id: 'datastage_training_in_chennai',
+  id: 'datastage-training-in-chennai',
   title1: "Best DataStage Training in Chennai",
   title2: "Master IBM DataStage with our expert-led DataStage Training in Chennai. Learn ETL development, job design, and real-time data integration techniques from industry professionals.",
   button2: "Enroll Now",
@@ -3880,10 +3879,10 @@ review5: "Coming from a BPO background, I wanted to move into IT and was looking
      pagetitle: "Best DataStage Training in Chennai | Practical Oriented DataStage ETL Course",
         pagedescription: "Join IntelliMindz for top DataStage training in Chennai. Master IBM DataStage for ETL and data integration with hands-on projects and expert guidance.",
         pagekeywords: "datastage training in chennai, datastage course, ibm datastage, etl tools, data integration, intellimindz",
-        pageogurl: "https://localhost:3000/datastage_training_in_chennai",
+        pageogurl: "https://localhost:3000/datastage-training-in-chennai",
 },
 {
-  id: 'internship_training_in_chennai',
+  id: 'internship-in-chennai',
   title1: "Best Internship Training in Chennai",
   title2: "Step into the corporate world with IntelliMindz’s structured Internship Training – gain hands-on project experience and industry exposure to bridge the gap between academics and employment.",
   button2: "Enroll Now",
@@ -4043,10 +4042,10 @@ desc23: "IntelliMindz is recognized as the Best Internship Provider in Chennai d
   pagetitle: "Best Internship Training in Chennai | Hands-on Project-Based Internships",
   pagedescription: "Enroll in IntelliMindz Internship Training in Chennai for real-time projects, mentorship, and certifications. Ideal for students and freshers looking to upskill.",
   pagekeywords: "internship training in chennai, student internship, project internship, intellimindz internship, hands-on internship, software internship",
-  pageogurl: "https://localhost:3000/internship_training_in_chennai"
+  pageogurl: "https://localhost:3000/internship-in-chennai"
 },
 {
-  id: 'iot_training_in_chennai',
+  id: 'iot-training-in-chennai',
   title1: "Best IoT Training in Chennai",
   title2: "Unlock the potential of connected devices with IntelliMindz’s hands-on IoT Training – ideal for building smart, sensor-driven applications for a connected world.",
   button2: "Enroll Now",
@@ -4258,11 +4257,11 @@ desc23: "You can enroll in our IoT Training in Chennai by visiting our center, c
      pagetitle: "Best IoT Training in Chennai | Practical Oriented Internet of Things Course",
         pagedescription: "Join IntelliMindz for top IoT training in Chennai. Master Internet of Things concepts, development, and applications with hands-on projects.",
         pagekeywords: "iot training in chennai, iot course, internet of things, embedded systems, smart devices, intellimindz",
-        pageogurl: "https://localhost:3000/iot_training_in_chennai",
+        pageogurl: "https://localhost:3000/iot-training-in-chennai",
 
 },
 {
-  id: 'ssas_training_in_chennai',
+  id: 'ssas-training-in-chennai',
   title1: "Best SSAS Training in Chennai",
   title2: "Become a data modeling expert with our SSAS Training in Chennai. Learn how to build multidimensional and tabular data models using Microsoft SQL Server Analysis Services.",
   button2: "Enroll Now",
@@ -4474,11 +4473,11 @@ desc23: "You can join our SSAS Training in Chennai by contacting us via call, Wh
      pagetitle: "Best Salesforce Training in Chennai | Practical Oriented Salesforce CRM Course",
         pagedescription: "Join IntelliMindz for top Salesforce training in Chennai. Master CRM administration, development, and cloud solutions with hands-on projects.",
         pagekeywords: "salesforce training in chennai, salesforce course, salesforce crm, salesforce admin, salesforce developer, cloud computing, intellimindz",
-        pageogurl: "https://localhost:3000/sales_force_training_in_chennai",
+        pageogurl: "https://localhost:3000/sales-force-training-in-chennai",
 
 },
 {
-  id: 'qlikview_training_in_chennai',
+  id: 'qlikview-training-in-chennai',
   title1: "Best QlikView Training in Chennai",
   title2: "Boost your data visualization and BI skills with our expert-led QlikView Training in Chennai. Learn to create powerful dashboards and data models with real-time use cases.",
   button2: "Enroll Now",
@@ -4690,11 +4689,11 @@ desc23: "To enroll in our QlikView Training in Chennai, call or WhatsApp us or w
     pagetitle: "Best QlikView Training in Chennai | Practical Oriented QlikView Business Intelligence Course",
         pagedescription: "Join IntelliMindz for top QlikView training in Chennai. Master data visualization and business intelligence with hands-on projects and expert guidance.",
         pagekeywords: "qlikview training in chennai, qlikview course, business intelligence, data visualization, qlik sense, intellimindz",
-        pageogurl: "https://localhost:3000/qlikview_training_in_chennai",
+        pageogurl: "https://localhost:3000/qlikview-training-in-chennai",
 
 },
 {
-  id: 'big_data_training_in_chennai',
+  id: 'big-data-training-in-chennai',
   title1: "Best Big Data Training in Chennai",
   title2: "Master Big Data technologies and analytics with our hands-on training program, designed by industry experts for real-world applications.",
   button2: "Enroll Now",
@@ -4906,11 +4905,11 @@ desc23: "You can enroll in our Big Data Training in Chennai by contacting us via
      pagetitle: "Best Big Data Training in Chennai | Practical Oriented Big Data Technologies Course",
         pagedescription: "Join IntelliMindz for top Big Data training in Chennai. Master Hadoop, Spark, and other Big Data technologies with hands-on projects and expert guidance.",
         pagekeywords: "big data training in chennai, big data course, hadoop, spark, data analytics, noSQL, intellimindz",
-        pageogurl: "https://localhost:3000/big_data_training_in_chennai",
+        pageogurl: "https://localhost:3000/big-data-training-in-chennai",
 
 },
 {
-  id: 'openstack_training_in_chennai',
+  id: 'openstack-training-in-chennai',
   title1: "Best OpenStack Training in Chennai",
   title2: "Master cloud infrastructure with our expert-led OpenStack Training in Chennai. Learn to deploy, configure, and manage OpenStack environments like a pro.",
   button2: "Enroll Now",
@@ -5122,11 +5121,11 @@ desc23: "To enroll, simply call, WhatsApp, or walk into our center. Our OpenStac
        pagetitle: "Best OpenStack Training in Chennai | Practical Oriented OpenStack Cloud Platform Course",
         pagedescription: "Join IntelliMindz for top OpenStack training in Chennai. Master open-source cloud computing with hands-on projects and expert guidance.",
         pagekeywords: "openstack training in chennai, openstack course, cloud computing, open source, virtualization, intellimindz",
-        pageogurl: "https://localhost:3000/openstack_training_in_chennai",
+        pageogurl: "https://localhost:3000/openstack-training-in-chennai",
 
 },
 {
-  id: 'digital_marketing_training_in_chennai',
+  id: 'digital-marketing-training-in-chennai',
   title1: "Best Digital Marketing Training in Chennai",
   title2: "Unlock new career opportunities with our expert-led Digital Marketing Training in Chennai. Learn SEO, SEM, SMM, Email Marketing, Analytics, and more.",
   button2: "Enroll Now",
@@ -5338,11 +5337,11 @@ desc23: "You can enroll by calling us, visiting our center, or registering onlin
    pagetitle: "Best Digital Marketing Training in Chennai | Practical Oriented Digital Marketing Course",
         pagedescription: "Join IntelliMindz for top Digital Marketing training in Chennai. Master SEO, SMM, SEM, and more with hands-on projects and expert guidance.",
         pagekeywords: "digital marketing training in chennai, digital marketing course, seo, sem, smm, content marketing, intellimindz",
-        pageogurl: "https://localhost:3000/digital_marketing_training_in_chennai",
+        pageogurl: "https://localhost:3000/digital-marketing-training-in-chennai",
 
 },
 {
-  id: 'informatica_data_quality_training_in_chennai',
+  id: 'informatica-data-quality-training-in-chennai',
   title1: "Best Informatica Data Quality Training in Chennai",
   title2: "Master enterprise-grade data cleansing and profiling with our expert-led Informatica Data Quality (IDQ) training — perfect for data governance professionals.",
   button2: "Enroll Now",
@@ -5553,10 +5552,10 @@ desc23: "You can enroll in our Informatica Data Quality Training in Chennai by c
   pagetitle: "Best Informatica Data Quality Training in Chennai | Practical Oriented IDQ Course",
   pagedescription: "Join IntelliMindz for top Informatica Data Quality training in Chennai. Master data quality management with hands-on projects and expert guidance.",
   pagekeywords: "informatica data quality training in chennai, idq course, data quality, data governance, informatica, intellimindz",
-  pageogurl: "https://localhost:3000/informatica_data_quality_training_in_chennai",
+  pageogurl: "https://localhost:3000/informatica-data-quality-training-in-chennai",
 },
 {
-  id: 'ccnp_training_in_chennai',
+  id: 'ccnp-training-in-chennai',
   title1: "Best CCNP Training in Chennai",
   title2: "Enhance your networking skills with our advanced CCNP Training in Chennai. Get certified in enterprise networking and gain hands-on experience from Cisco-certified experts.",
   button2: "Enroll Now",
@@ -5768,11 +5767,11 @@ desc23: "Call, WhatsApp, or visit our training center to enroll. We offer weekda
     pagetitle: "Best CCNP Training in Chennai | Practical Oriented CCNP Course",
         pagedescription: "Join IntelliMindz for top CCNP training in Chennai. Master Cisco professional-level networking with hands-on projects and expert guidance.",
         pagekeywords: "ccnp training in chennai, ccnp course, cisco certification, enterprise networking, routing and switching, intellimindz",
-        pageogurl: "https://localhost:3000/ccnp_training_in_chennai",
+        pageogurl: "https://localhost:3000/ccnp-training-in-chennai",
 
 },
 {
-  id: 'spoken_english_training_in_chennai',
+  id: 'spoken-english-training-in-chennai',
   title1: "Best Spoken English Training in Chennai",
   title2: "Improve your communication and fluency with our expert-led Spoken English Training in Chennai. Build confidence in speaking English for personal and professional growth.",
   button2: "Enroll Now",
@@ -5916,11 +5915,11 @@ desc23: "Call, WhatsApp, or visit our training center to enroll. We offer weekda
      pagetitle: "Best Spoken English Training in Chennai | Practical Oriented Spoken English Course",
         pagedescription: "Join IntelliMindz for top Spoken English training in Chennai. Improve your fluency, pronunciation, and confidence with practical exercises and expert guidance.",
         pagekeywords: "spoken english training in chennai, spoken english course, english communication, language fluency, accent training, intellimindz",
-        pageogurl: "https://localhost:3000/spoken_english_training_in_chennai",
+        pageogurl: "https://localhost:3000/spoken-english-training-in-chennai",
 
 },
 {
-  id: 'cognos_tm1_training_in_chennai',
+  id: 'cognos-tm1-training-in-chennai',
   title1: "Best Cognos TM1 Training in Chennai",
   title2: "Gain expertise in enterprise performance management and financial analytics with our industry-focused Cognos TM1 training program in Chennai.",
   button2: "Enroll Now",
@@ -6132,11 +6131,11 @@ desc23: "Call, WhatsApp, or register online to enroll. We offer classroom and on
    pagetitle: "Best Cognos TM1 Training in Chennai | Practical Oriented IBM Cognos TM1 Course",
         pagedescription: "Join IntelliMindz for top Cognos TM1 training in Chennai. Master financial planning, budgeting, and forecasting with hands-on projects and expert guidance.",
         pagekeywords: "cognos tm1 training in chennai, cognos tm1 course, ibm cognos, financial planning, business intelligence, intellimindz",
-        pageogurl: "https://localhost:3000/cognos_tm1_training_in_chennai",
+        pageogurl: "https://localhost:3000/cognos-tm1-training-in-chennai",
 
 },
 {
-  id: 'python_training_in_chennai',
+  id: 'python-training-in-chennai',
   title1: "Best Python Training in Chennai",
   title2: "Start your programming journey with our industry-relevant Python Training in Chennai. Learn Python from basics to advanced with hands-on practice and expert trainers.",
   button2: "Enroll Now",
@@ -6348,11 +6347,10 @@ desc23: "Enroll by calling, messaging via WhatsApp, or registering online. We of
       pagetitle: "Best Python Training in Chennai | Practical Oriented Python Programming Course",
         pagedescription: "Join IntelliMindz for top Python training in Chennai. Master Python for data science, web development, and automation with hands-on projects and expert guidance.",
         pagekeywords: "python training in chennai, python course, python programming, data science, web development, automation, intellimindz",
-        pageogurl: "https://localhost:3000/python_training_in_chennai",
-
+        pageogurl: "https://localhost:3000/python-training-in-chennai",
 },
 {
-  id: 'mean_stack_training_in_chennai',
+  id: 'mean-stack-training-in-chennai',
   title1: "Best MEAN Stack Training in Chennai",
   title2: "Accelerate your full-stack development journey with our expert-led MEAN Stack Training in Chennai. Learn MongoDB, Express.js, Angular, and Node.js with real-time projects.",
   button2: "Enroll Now",
@@ -6563,11 +6561,11 @@ desc23: "You can enroll by calling, messaging on WhatsApp, or registering via ou
   pagetitle: "Best MEAN Stack Training in Chennai | Practical Oriented MEAN Stack Development Course",
         pagedescription: "Join IntelliMindz for top MEAN Stack training in Chennai. Master MongoDB, Express.js, Angular, and Node.js for full-stack web development with hands-on projects.",
         pagekeywords: "mean stack training in chennai, mean stack course, mongodb, expressjs, angular, nodejs, full-stack development, intellimindz",
-        pageogurl: "https://localhost:3000/mean_stack_training_in_chennai",
+        pageogurl: "https://localhost:3000/mean-stack-training-in-chennai",
 
 },
 {
-  id: 'main_frame_training_in_chennai',
+  id: 'main-frame-training-in-chennai',
   title1: "Best Mainframe Training in Chennai",
   title2: "Master IBM Mainframe technologies and COBOL programming with expert-led Mainframe training designed to prepare you for high-demand enterprise roles.",
   button2: "Enroll Now",
@@ -6780,12 +6778,12 @@ desc23: "To enroll in the Mainframe Admin Training in Chennai, call or WhatsApp 
 pagetitle: "Best Mainframe Training in Chennai | Practical Oriented Mainframe Technologies Course",
         pagedescription: "Join IntelliMindz for top Mainframe training in Chennai. Master mainframe concepts, JCL, COBOL, and more with hands-on projects and expert guidance.",
         pagekeywords: "main frame training in chennai, mainframe course, jcl, cobol, vsam, mainframe technologies, intellimindz",
-        pageogurl: "https://localhost:3000/main_frame_training_in_chennai",
+        pageogurl: "https://localhost:3000/main-frame-training-in-chennai",
 
 
 },
 {
-  id: 'nodejs_training_in_chennai',
+  id: 'nodejs-training-in-chennai',
   title1: "Best NodeJS Training in Chennai",
   title2: "Build scalable backend applications with our expert-led NodeJS Training in Chennai. Master asynchronous programming, Express, APIs, and real-time apps.",
   button2: "Enroll Now",
@@ -6997,11 +6995,11 @@ desc23: "Call, WhatsApp, or register online to join. Our team will guide you thr
     pagetitle: "Best NodeJS Training in Chennai | Practical Oriented NodeJS Development Course",
         pagedescription: "Join IntelliMindz for top NodeJS training in Chennai. Master server-side JavaScript development with hands-on projects and expert guidance.",
         pagekeywords: "nodejs training in chennai, nodejs course, server-side javascript, web development, backend development, intellimindz",
-        pageogurl: "https://localhost:3000/nodejs_training_in_chennai",
+        pageogurl: "https://localhost:3000/nodejs-training-in-chennai",
 
 },
 {
-  id: 'sccm_training_in_chennai',
+  id: 'sccm-training-in-chennai',
   title1: "Best SCCM Training in Chennai",
   title2: "Master Microsoft Endpoint Configuration Manager with our expert-led SCCM Training in Chennai. Learn software deployment, patch management, and infrastructure setup from certified professionals.",
   button2: "Enroll Now",
@@ -7204,11 +7202,11 @@ desc23: "You can register via our website, call us, or walk into our center in C
      pagetitle: "Best SCCM Training in Chennai | Practical Oriented SCCM Administration Course",
         pagedescription: "Join IntelliMindz for top SCCM training in Chennai. Master Microsoft System Center Configuration Manager for enterprise device management with hands-on projects.",
         pagekeywords: "sccm training in chennai, sccm course, microsoft sccm, system center configuration manager, enterprise management, intellimindz",
-        pageogurl: "https://localhost:3000/sccm_training_in_chennai",
+        pageogurl: "https://localhost:3000/sccm-training-in-chennai",
 
 },
 {
-  id: 'msbi_training_in_chennai',
+  id: 'msbi-training-in-chennai',
   title1: "Best MSBI Training in Chennai",
   title2: "Become a Business Intelligence expert with hands-on MSBI training covering SSIS, SSRS, and SSAS tools guided by industry professionals.",
   button2: "Enroll Now",
@@ -7421,11 +7419,11 @@ desc23: "Yes, upon successful completion of the MSBI Training in Chennai, Intell
     pagetitle: "Best MSBI Training in Chennai | Practical Oriented MSBI Course",
         pagedescription: "Join IntelliMindz for top MSBI training in Chennai. Master Microsoft Business Intelligence tools (SSIS, SSRS, SSAS) with hands-on projects and expert guidance.",
         pagekeywords: "msbi training in chennai, msbi course, ssis, ssrs, ssas, business intelligence, microsoft bi, intellimindz",
-        pageogurl: "https://localhost:3000/msbi_training_in_chennai",
+        pageogurl: "https://localhost:3000/msbi-training-in-chennai",
 
 },
 {
-  id: 'tally_training_in_chennai',
+  id: 'tally-training-in-chennai',
   title1: "Best Tally Training in Chennai",
   title2: "Get hands-on Tally Training in Chennai with expert instructors. Master accounting, GST, inventory, and payroll using Tally ERP 9 & Tally Prime.",
   button2: "Enroll Now",
@@ -7637,11 +7635,11 @@ desc23: "The course typically spans 4–6 weeks, with weekday and weekend batch 
     pagetitle: "Best Tally Training in Chennai | Practical Oriented Tally ERP 9 Course",
         pagedescription: "Join IntelliMindz for top Tally training in Chennai. Master Tally ERP 9 for accounting, finance, and inventory management with hands-on projects and expert guidance.",
         pagekeywords: "tally training in chennai, tally course, tally erp 9, accounting software, finance management, intellimindz",
-        pageogurl: "https://localhost:3000/tally_training_in_chennai",
+        pageogurl: "https://localhost:3000/tally-training-in-chennai",
 
 },
 {
-  id: 'cloud_computing_training_in_chennai',
+  id: 'cloud-computing-training-in-chennai',
   title1: "Best Cloud Computing Training in Chennai",
   title2: "Unlock the power of the cloud with our expert-led Cloud Computing Training in Chennai. Gain skills in AWS, Azure, GCP, and cloud architecture for a future-ready IT career.",
   button2: "Enroll Now",
@@ -7851,11 +7849,11 @@ desc23: "Yes. You’ll receive a Cloud Computing Course Completion Certificate f
     pagetitle: "Best Cloud Computing Training in Chennai | Practical Oriented Cloud Technologies Course",
         pagedescription: "Join IntelliMindz for top Cloud Computing training in Chennai. Master AWS, Azure, Google Cloud, and other cloud platforms with hands-on projects and expert guidance.",
         pagekeywords: "cloud computing training in chennai, cloud course, aws, azure, google cloud, cloud platforms, intellimindz",
-        pageogurl: "https://localhost:3000/cloud_computing_training_in_chennai",
+        pageogurl: "https://localhost:3000/cloud-computing-training-in-chennai",
 
 },
 {
-  id: 'mcsa_training_in_chennai',
+  id: 'mcsa-training-in-chennai',
   title1: "Best MCSA Training in Chennai",
   title2: "Advance your IT career with MCSA certification. Learn Windows Server, networking, and system administration from certified professionals at IntelliMindz.",
   button2: "Enroll Now",
@@ -7999,10 +7997,10 @@ desc23: "Yes. You’ll receive a Cloud Computing Course Completion Certificate f
           pagetitle: "Best MCSA Training in Chennai | Practical Oriented MCSA Course",
         pagedescription: "Join IntelliMindz for top MCSA training in Chennai. Master Microsoft Certified Solutions Associate skills with hands-on projects and expert guidance.",
         pagekeywords: "mcsa training in chennai, mcsa course, microsoft certification, server administration, intellimindz",
-        pageogurl: "https://localhost:3000/mcsa_training_in_chennai",
+        pageogurl: "https://localhost:3000/mcsa-training-in-chennai",
 },
 {
-  id: 'talend_training_in_chennai',
+  id: 'talend-training-in-chennai',
   title1: "Best Talend Training in Chennai",
   title2: "Become an expert in data integration and ETL processes with our Talend Training in Chennai. Learn from real-time professionals and gain hands-on experience using the Talend platform.",
   button2: "Enroll Now",
@@ -8214,10 +8212,10 @@ desc23: "Our practical approach, expert instructors, real-time labs, placement a
           pagetitle: "Best Talend Training in Chennai | Practical Oriented Talend ETL Course",
         pagedescription: "Join IntelliMindz for top Talend training in Chennai. Master data integration and ETL processes with hands-on projects and expert guidance.",
         pagekeywords: "talend training in chennai, talend course, etl, data integration, big data, intellimindz",
-        pageogurl: "https://localhost:3000/talend_training_in_chennai",
+        pageogurl: "https://localhost:3000/talend-training-in-chennai",
 },
 {
-  id: 'aritifical_intelligence_training_in_chennai',
+  id: 'aritifical-intelligence-training-in-chennai',
   title1: "Best Artificial Intelligence Training in Chennai",
   title2: "Build your future with our expert-led Artificial Intelligence Training in Chennai. Learn AI concepts, machine learning, deep learning, and real-time applications from industry professionals.",
   button2: "Enroll Now",
@@ -8429,10 +8427,10 @@ desc23: "Yes. Our Artificial Intelligence course in Chennai includes resume buil
           pagetitle: "Best Artificial Intelligence Training in Chennai | Practical AI Course",
         pagedescription: "Join IntelliMindz for top Artificial Intelligence training in Chennai. Master AI concepts, machine learning, and deep learning with hands-on projects.",
         pagekeywords: "artificial intelligence training in chennai, ai course, machine learning, deep learning, neural networks, intellimindz",
-        pageogurl: "https://localhost:3000/aritifical_intelligence_training_in_chennai",
+        pageogurl: "https://localhost:3000/aritifical-intelligence-training-in-chennai",
 },
 {
-  id: 'informatica_bdm_training_in_chennai',
+  id: 'informatica-bdm-training-in-chennai',
   title1: "Best Informatica BDM Training in Chennai",
   title2: "Master big data integration with our Informatica BDM Training in Chennai – led by real-time professionals and designed for modern data engineering roles.",
   button2: "Enroll Now",
@@ -8644,10 +8642,10 @@ desc23: "No worries—our team will help you set up Informatica BDM, Hadoop, and
           pagetitle: "Best Informatica BDM Training in Chennai | Practical Oriented Big Data Management Course",
         pagedescription: "Join IntelliMindz for top Informatica BDM training in Chennai. Master big data management and processing with hands-on projects and expert guidance.",
         pagekeywords: "informatica bdm training in chennai, informatica big data management course, big data, data integration, etl, intellimindz",
-        pageogurl: "https://localhost:3000/informatica_bdm_training_in_chennai",
+        pageogurl: "https://localhost:3000/informatica-bdm-training-in-chennai",
 },
 {
-  id: 'machine_learning_training_in_chennai',
+  id: 'machine-learning-training-in-chennai',
   title1: "Best Machine Learning Training in Chennai",
   title2: "Accelerate your AI career with our Machine Learning Training in Chennai. Learn supervised and unsupervised algorithms, model building, and deployment from industry experts.",
   button2: "Enroll Now",
@@ -8850,10 +8848,10 @@ desc23: "We offer real-time projects, expert trainers, career guidance, and flex
           pagetitle: "Best Machine Learning Training in Chennai | Practical ML Course",
         pagedescription: "Join IntelliMindz for top Machine Learning training in Chennai. Master ML algorithms, predictive modeling, and data science with hands-on projects.",
         pagekeywords: "machine learning training in chennai, machine learning course, ml algorithms, data science, deep learning, intellimindz",
-        pageogurl: "https://localhost:3000/machine_learning_training_in_chennai",
+        pageogurl: "https://localhost:3000/machine-learning-training-in-chennai",
 },
 {
-  id: 'devOps_training_in_chennai',
+  id: 'devOps-training-in-chennai',
   title1: "Best DevOps Training in Chennai",
   title2: "Master modern software delivery with our hands-on DevOps Training in Chennai. Learn CI/CD, automation, Docker, Kubernetes, and cloud-native practices from industry experts.",
   button2: "Enroll Now",
@@ -9065,10 +9063,10 @@ desc23: "Yes. You will learn containerization with Docker and orchestration usin
           pagetitle: "Best DevOps Training in Chennai | Practical Oriented DevOps Course",
         pagedescription: "Join IntelliMindz for top DevOps training in Chennai. Master CI/CD, automation, and infrastructure as code with hands-on projects and expert guidance.",
         pagekeywords: "devops training in chennai, devops course, ci/cd, automation, docker, kubernetes, intellimindz",
-        pageogurl: "https://localhost:3000/devOps_training_in_chennai",
+        pageogurl: "https://localhost:3000/devOps-training-in-chennai",
 },
 {
-  id: 'block_chain_training_in_chennai',
+  id: 'block-chain-training-in-chennai',
   title1: "Best Blockchain Training in Chennai",
   title2: "Gain hands-on expertise in Blockchain development, architecture, and security with our comprehensive Blockchain training led by industry experts.",
   button2: "Enroll Now",
@@ -9280,10 +9278,10 @@ desc23: "Yes. Our Blockchain Training in Chennai includes a module on Hyperledge
           pagetitle: "Best Blockchain Training in Chennai | Practical Oriented Blockchain Course",
         pagedescription: "Join IntelliMindz for top Blockchain training in Chennai. Master decentralized ledger technologies, cryptocurrencies, and smart contracts with hands-on projects.",
         pagekeywords: "block chain training in chennai, blockchain course, cryptocurrency, smart contracts, decentralized applications, intellimindz",
-        pageogurl: "https://localhost:3000/block_chain_training_in_chennai",
+        pageogurl: "https://localhost:3000/block-chain-training-in-chennai",
 },
 {
-  id: 'citrix_training_in_chennai',
+  id: 'citrix-training-in-chennai',
   title1: "Best Citrix Training in Chennai",
   title2: "Advance your virtualization skills with expert-led Citrix Training in Chennai. Learn Citrix Virtual Apps, Desktops, and advanced infrastructure management.",
   button2: "Enroll Now",
@@ -9486,10 +9484,10 @@ desc23: "Yes. You will receive an industry-recognized Citrix Training certificat
           pagetitle: "Best Citrix Training in Chennai | Practical Oriented Citrix Virtualization Course",
         pagedescription: "Join IntelliMindz for top Citrix training in Chennai. Master virtualization, application delivery, and desktop solutions with hands-on projects and expert guidance.",
         pagekeywords: "citrix training in chennai, citrix course, virtualization, xenapp, xendesktop, intellimindz",
-        pageogurl: "https://localhost:3000/citrix_training_in_chennai",
+        pageogurl: "https://localhost:3000/citrix-training-in-chennai",
 },
 {
-  id: 'sharepoint_admin_training_in_chennai',
+  id: 'sharepoint-admin-training-in-chennai',
   title1: "Best SharePoint Admin Training in Chennai",
   title2: "Enhance your enterprise collaboration skills with our expert-led SharePoint Admin Training in Chennai. Master site management, permissions, workflows, and administration.",
   button2: "Enroll Now",
@@ -9701,10 +9699,10 @@ desc23: "We provide expert trainers, practical labs, interview prep, and certifi
           pagetitle: "Best SharePoint Admin Training in Chennai | Practical Oriented SharePoint Administration Course",
         pagedescription: "Join IntelliMindz for top SharePoint Admin training in Chennai. Master SharePoint server administration, configuration, and management with hands-on projects.",
         pagekeywords: "sharepoint admin training in chennai, sharepoint administration course, microsoft sharepoint, content management, intellimindz",
-        pageogurl: "https://localhost:3000/sharepoint_admin_training_in_chennai",
+        pageogurl: "https://localhost:3000/sharepoint-admin-training-in-chennai",
 },
 {
-  id: 'loadrunner_training_in_chennai',
+  id: 'loadrunner-training-in-chennai',
   title1: "Best LoadRunner Training in Chennai",
   title2: "Master performance testing with real-time LoadRunner training and learn to simulate, analyze, and optimize system performance like a pro.",
   button2: "Enroll Now",
@@ -9916,10 +9914,10 @@ desc23: "We offer expert trainers, real-time labs, interview prep, and placement
           pagetitle: "Best LoadRunner Training in Chennai | Practical Oriented LoadRunner Performance Testing Course",
         pagedescription: "Join IntelliMindz for top LoadRunner training in Chennai. Master performance testing and analysis with hands-on projects and expert guidance.",
         pagekeywords: "loadrunner training in chennai, loadrunner course, performance testing, web performance, software testing, intellimindz",
-        pageogurl: "https://localhost:3000/loadrunner_training_in_chennai",
+        pageogurl: "https://localhost:3000/loadrunner-training-in-chennai",
 },
 {
-  id: 'appium_training_in_chennai',
+  id: 'appium-training-in-chennai',
   title1: "Best Appium Training in Chennai",
   title2: "Automate your mobile testing with expert-led Appium Training in Chennai. Master cross-platform test automation for Android and iOS using Appium.",
   button2: "Enroll Now",
@@ -10081,10 +10079,10 @@ desc23: "Yes, most top institutes offer both online and classroom Appium Trainin
           pagetitle: "Best Appium Training in Chennai | Practical Oriented Appium Mobile Automation Testing Course",
         pagedescription: "Join IntelliMindz for top Appium training in Chennai. Master mobile app automation testing for iOS and Android with hands-on projects and expert guidance.",
         pagekeywords: "appium training in chennai, appium course, mobile automation testing, android testing, ios testing, intellimindz",
-        pageogurl: "https://localhost:3000/appium_training_in_chennai",
+        pageogurl: "https://localhost:3000/appium-training-in-chennai",
 },
 {
-  id: 'sharepoint_training_in_chennai',
+  id: 'sharepoint-training-in-chennai',
   title1: "Best SharePoint Training in Chennai",
   title2: "Enhance your collaboration and document management skills with our expert-led SharePoint Training in Chennai. Master SharePoint Online, On-Premise, and Administration.",
   button2: "Enroll Now",
@@ -10246,10 +10244,10 @@ desc23: "We are recognized as the Best SharePoint Training Institute in Chennai 
           pagetitle: "Best SharePoint Training in Chennai | Practical Oriented SharePoint Course",
         pagedescription: "Join IntelliMindz for top SharePoint training in Chennai. Master SharePoint development, customization, and collaboration with hands-on projects and expert guidance.",
         pagekeywords: "sharepoint training in chennai, sharepoint course, microsoft sharepoint, collaboration tools, document management, intellimindz",
-        pageogurl: "https://localhost:3000/sharepoint_training_in_chennai",
+        pageogurl: "https://localhost:3000/sharepoint-training-in-chennai",
 },
 {
-  id: 'informix_training_in_chennai',
+  id: 'informix-training-in-chennai',
   title1: "Best Informix Training in Chennai",
   title2: "Master IBM Informix database management and development with real-time, practical training designed for aspiring DBAs and application developers.",
   button2: "Enroll Now",
@@ -10411,10 +10409,10 @@ desc23: "Definitely! Attend a free demo session to understand our teaching appro
           pagetitle: "Best Informix Training in Chennai | Practical Oriented Informix Database Course",
         pagedescription: "Join IntelliMindz for top Informix training in Chennai. Master IBM Informix database administration and development with hands-on projects and expert guidance.",
         pagekeywords: "informix training in chennai, informix course, ibm informix, database administration, sql, intellimindz",
-        pageogurl: "https://localhost:3000/informix_training_in_chennai",
+        pageogurl: "https://localhost:3000/informix-training-in-chennai",
 },
 {
-  id: 'informatica_training_in_chennai',
+  id: 'informatica-training-in-chennai',
   title1: "Best Informatica Training in Chennai",
   title2: "Accelerate your data integration career with our expert-led Informatica Training in Chennai. Learn ETL, data warehousing, and real-time data processing from certified trainers.",
   button2: "Enroll Now",
@@ -10576,10 +10574,10 @@ desc23: "We cap each Informatica Training in Chennai batch at 12 students, ensur
           pagetitle: "Best Informatica Training in Chennai | Practical Oriented Informatica PowerCenter Course",
         pagedescription: "Join IntelliMindz for top Informatica training in Chennai. Master Informatica PowerCenter for ETL and data warehousing with hands-on projects and expert guidance.",
         pagekeywords: "informatica training in chennai, informatica course, etl, data warehousing, powercenter, intellimindz",
-        pageogurl: "https://localhost:3000/informatica_training_in_chennai",
+        pageogurl: "https://localhost:3000/informatica-training-in-chennai",
 },
 {
-  id: 'tibco_spotfire_training_in_chennai',
+  id: 'tibco-spotfire-training-in-chennai',
   title1: "Best TIBCO Spotfire Training in Chennai",
   title2: "Unlock data-driven insights with our expert-led TIBCO Spotfire Training in Chennai. Learn data visualization, dashboarding, and analytics to boost your BI career.",
   button2: "Enroll Now",
@@ -10741,10 +10739,10 @@ desc23: "To ensure personalized attention, each Tibco Spotfire course in Chennai
           pagetitle: "Best TIBCO Spotfire Training in Chennai | Practical Oriented TIBCO Spotfire Course",
         pagedescription: "Join IntelliMindz for top TIBCO Spotfire training in Chennai. Master data visualization and analytics with hands-on projects and expert guidance.",
         pagekeywords: "tibco spotfire training in chennai, tibco spotfire course, data visualization, business intelligence, analytics, intellimindz",
-        pageogurl: "https://localhost:3000/tibco_spotfire_training_in_chennai",
+        pageogurl: "https://localhost:3000/tibco-spotfire-training-in-chennai",
 },
 {
-  id: 'automation_anywhere_training_in_chennai',
+  id: 'automation-anywhere-training-in-chennai',
   title1: "Best Automation Anywhere Training in Chennai",
   title2: "Master RPA with hands-on Automation Anywhere training at IntelliMindz – guided by certified experts and real-time use cases.",
   button2: "Enroll Now",
@@ -10955,10 +10953,10 @@ desc23: "We provide 3 months of post-training support including access to record
           pagetitle: "Best Automation Anywhere Training in Chennai | Practical Oriented RPA Course",
         pagedescription: "Join IntelliMindz for top Automation Anywhere training in Chennai. Master Robotic Process Automation (RPA) with hands-on projects and expert guidance.",
         pagekeywords: "automation anywhere training in chennai, automation anywhere course, rpa, robotic process automation, bot development, intellimindz",
-        pageogurl: "https://localhost:3000/automation_anywhere_training_in_chennai",
+        pageogurl: "https://localhost:3000/automation-anywhere-training-in-chennai",
 },
 {
-  id: 'primavera_training_in_chennai',
+  id: 'primavera-training-in-chennai',
   title1: "Best Primavera Training in Chennai",
   title2: "Enhance your project management skills with our industry-aligned Primavera Training in Chennai. Learn Primavera P6 and master project planning, scheduling, and execution.",
   button2: "Enroll Now",
@@ -11170,10 +11168,10 @@ desc23: "We provide 3 months of post-training technical support through email, f
           pagetitle: "Best Primavera Training in Chennai | Practical Oriented Primavera P6 Course",
         pagedescription: "Join IntelliMindz for top Primavera training in Chennai. Master project management and scheduling with Primavera P6, hands-on projects, and expert guidance.",
         pagekeywords: "primavera training in chennai, primavera p6 course, project management, project scheduling, construction management, intellimindz",
-        pageogurl: "https://localhost:3000/primavera_training_in_chennai",
+        pageogurl: "https://localhost:3000/primavera-training-in-chennai",
 },
 {
-  id: 'blueprism_training_in_chennai',
+  id: 'blueprism-training-in-chennai',
   title1: "Best Blue Prism Training in Chennai",
   title2: "Automate business processes with our expert-led Blue Prism Training in Chennai. Learn RPA fundamentals, process design, and tool mastery to become a certified Blue Prism developer.",
   button2: "Enroll Now",
@@ -11374,10 +11372,10 @@ desc23: "As the Best Blue Prism Training Institute in Chennai, we offer resume-b
           pagetitle: "Best Blue Prism Training in Chennai | Practical Oriented RPA Course",
         pagedescription: "Join IntelliMindz for top Blue Prism training in Chennai. Master Robotic Process Automation (RPA) with hands-on projects and expert guidance.",
         pagekeywords: "blueprism training in chennai, blue prism course, rpa, robotic process automation, process automation, intellimindz",
-        pageogurl: "https://localhost:3000/blueprism_training_in_chennai",
+        pageogurl: "https://localhost:3000/blueprism-training-in-chennai",
 },
 {
-  id: 'pega_training_in_chennai',
+  id: 'pega-training-in-chennai',
   title1: "Best PEGA Training in Chennai",
   title2: "Master BPM and CRM application development with expert-led PEGA training at IntelliMindz. Gain hands-on experience in building scalable enterprise-grade applications.",
   button2: "Enroll Now",
@@ -11578,10 +11576,10 @@ desc23: "Beyond certification prep, we help with resume optimization, interview 
           pagetitle: "Best Pega Training in Chennai | Practical Oriented Pega BPM Course",
         pagedescription: "Join IntelliMindz for top Pega training in Chennai. Master Business Process Management (BPM) and case management with hands-on projects and expert guidance.",
         pagekeywords: "pega training in chennai, pega course, bpm, business process management, crm, low-code development, intellimindz",
-        pageogurl: "https://localhost:3000/pega_training_in_chennai",
+        pageogurl: "https://localhost:3000/pega-training-in-chennai",
 },
 {
-  id: 'powerbi_training_in_chennai',
+  id: 'powerbi-training-in-chennai',
   title1: "Best Power BI Training in Chennai",
   title2: "Master business intelligence with our expert-led Power BI Training in Chennai. Learn to analyze data, build dashboards, and deliver impactful reports.",
   button2: "Enroll Now",
@@ -11782,10 +11780,10 @@ desc23: "We cap each Power BI Training in Chennai batch at 10 participants, ensu
           pagetitle: "Best Power BI Training in Chennai | Practical Oriented Power BI Course",
         pagedescription: "Join IntelliMindz for top Power BI training in Chennai. Master data visualization, business intelligence, and reporting with hands-on projects and expert guidance.",
         pagekeywords: "powerbi training in chennai, power bi course, business intelligence, data visualization, microsoft power bi, intellimindz",
-        pageogurl: "https://localhost:3000/powerbi_training_in_chennai",
+        pageogurl: "https://localhost:3000/powerbi-training-in-chennai",
 },
 {
-  id: 'tableau_training_in_chennai',
+  id: 'tableau-training-in-chennai',
   title1: "Best Tableau Training in Chennai",
   title2: "Master data visualization with our expert-led Tableau Training in Chennai. Build dashboards, analyze data, and become a certified Tableau professional.",
   button2: "Enroll Now",
@@ -11986,10 +11984,10 @@ desc23: "As the Best Tableau Training Institute in Chennai, we offer resume revi
           pagetitle: "Best Tableau Training in Chennai | Practical Oriented Tableau Course",
         pagedescription: "Join IntelliMindz for top Tableau training in Chennai. Master data visualization, business intelligence, and dashboard creation with hands-on projects and expert guidance.",
         pagekeywords: "tableau training in chennai, tableau course, data visualization, business intelligence, data analytics, intellimindz",
-        pageogurl: "https://localhost:3000/tableau_training_in_chennai",
+        pageogurl: "https://localhost:3000/tableau-training-in-chennai",
 },
 {
-  id: 'jaspersoft_training_in_chennai',
+  id: 'jaspersoft-training-in-chennai',
   title1: "Best Jaspersoft Training in Chennai",
   title2: "Master BI reporting with our expert-led Jaspersoft Training in Chennai – build dashboards, integrate data, and develop interactive reports using TIBCO Jaspersoft.",
   button2: "Enroll Now",
@@ -12190,10 +12188,10 @@ desc23: "We cap each Jaspersoft Training in Chennai batch at 10 students, guaran
           pagetitle: "Best JasperReports Training in Chennai | Practical Oriented JasperReports BI Course",
         pagedescription: "Join IntelliMindz for top JasperReports training in Chennai. Master open-source business intelligence and reporting with hands-on projects and expert guidance.",
         pagekeywords: "jaspersoft training in chennai, jasperreports course, business intelligence, reporting tools, open source bi, intellimindz",
-        pageogurl: "https://localhost:3000/jaspersoft_training_in_chennai",
+        pageogurl: "https://localhost:3000/jaspersoft-training-in-chennai",
 },
 {
-  id: 'workday_training_in_chennai',
+  id: 'workday-training-in-chennai',
   title1: "Best Workday Training in Chennai",
   title2: "Gain in-demand HCM and ERP skills with our expert-led Workday Training in Chennai. Learn to manage HR, finance, and payroll on the cloud with hands-on experience.",
   button2: "Enroll Now",
@@ -12395,10 +12393,10 @@ desc23: "Mastering Workday HCM, Workday Reporting, and Workday Studio integratio
           pagetitle: "Best Workday Training in Chennai | Practical Oriented Workday HCM/Financials Course",
         pagedescription: "Join IntelliMindz for top Workday training in Chennai. Master Workday Human Capital Management (HCM) and Financials with hands-on projects and expert guidance.",
         pagekeywords: "workday training in chennai, workday course, hcm, human capital management, financials, cloud erp, intellimindz",
-        pageogurl: "https://localhost:3000/workday_training_in_chennai",
+        pageogurl: "https://localhost:3000/workday-training-in-chennai",
 },
 {
-  id: 'oracledba_training_in_chennai',
+  id: 'oracledba-training-in-chennai',
   title1: "Best Oracle DBA Training in Chennai",
   title2: "Master database administration with our expert-led Oracle DBA Training in Chennai. Learn Oracle architecture, backup, recovery, and performance tuning from certified professionals.",
   button2: "Enroll Now",
@@ -12592,10 +12590,10 @@ desc23: "Definitely. The course is designed for both freshers and working profes
           pagetitle: "Best Oracle DBA Training in Chennai | Practical Oriented Oracle Database Administration Course",
         pagedescription: "Join IntelliMindz for top Oracle DBA training in Chennai. Master Oracle database administration, backup, and recovery with hands-on projects and expert guidance.",
         pagekeywords: "oracledba training in chennai, oracle dba course, oracle database, database administration, sql, pl/sql, intellimindz",
-        pageogurl: "https://localhost:3000/oracledba_training_in_chennai",
+        pageogurl: "https://localhost:3000/oracledba-training-in-chennai",
 },
 {
-  id: 'teradata_training_in_chennai',
+  id: 'teradata-training-in-chennai',
   title1: "Best Teradata Training in Chennai",
   title2: "Master enterprise data warehousing with IntelliMindz’s Teradata training – your path to a career in high-performance analytics and large-scale data management.",
   button2: "Enroll Now",
@@ -12797,10 +12795,10 @@ desc23: "After completing the Teradata Training in Chennai, you can work as a Te
           pagetitle: "Best Teradata Training in Chennai | Practical Oriented Teradata Data Warehousing Course",
         pagedescription: "Join IntelliMindz for top Teradata training in Chennai. Master Teradata data warehousing, SQL, and database management with hands-on projects and expert guidance.",
         pagekeywords: "teradata training in chennai, teradata course, data warehousing, sql, big data analytics, intellimindz",
-        pageogurl: "https://localhost:3000/teradata_training_in_chennai",
+        pageogurl: "https://localhost:3000/teradata-training-in-chennai",
 },
 {
-  id: 'autocad_training_in_chennai',
+  id: 'autocad-training-in-chennai',
   title1: "Best AutoCAD Training in Chennai",
   title2: "Boost your design skills with expert-led AutoCAD Training in Chennai. Learn 2D drafting, 3D modeling, and real-time CAD techniques from professionals.",
   button2: "Enroll Now",
@@ -12993,10 +12991,10 @@ desc23: "Yes, we assist with resumes, mock interviews, and connect you to hiring
           pagetitle: "Best AutoCAD Training in Chennai | Practical Oriented AutoCAD Design Course",
         pagedescription: "Join IntelliMindz for top AutoCAD training in Chennai. Master 2D and 3D design, drafting, and architectural drawing with hands-on projects and expert guidance.",
         pagekeywords: "autocad training in chennai, autocad course, 2d drafting, 3d design, architectural design, engineering drawing, intellimindz",
-        pageogurl: "https://localhost:3000/autocad_training_in_chennai",
+        pageogurl: "https://localhost:3000/autocad-training-in-chennai",
 },
 {
-  id: 'clinicalsas_training_in_chennai',
+  id: 'clinicalsas-training-in-chennai',
   title1: "Best Clinical SAS Training in Chennai",
   title2: "Step into the world of clinical research and data analysis with our Clinical SAS Training in Chennai. Learn to analyze, manage, and report clinical trial data effectively.",
   button2: "Enroll Now",
@@ -13202,10 +13200,10 @@ desc23: "We use the latest version of SAS software (9.4 or Viya) and cover essen
           pagetitle: "Best Clinical SAS Training in Chennai | Practical Oriented Clinical SAS Programming Course",
         pagedescription: "Join IntelliMindz for top Clinical SAS training in Chennai. Master SAS programming for clinical trials and data analysis with hands-on projects and expert guidance.",
         pagekeywords: "clinicalsas training in chennai, clinical sas course, sas programming, clinical trials, data analysis, intellimindz",
-        pageogurl: "https://localhost:3000/clinicalsas_training_in_chennai",
+        pageogurl: "https://localhost:3000/clinicalsas-training-in-chennai",
 },
 {
-  id: 'sybase_training_in_chennai',
+  id: 'sybase-training-in-chennai',
   title1: "Best Sybase Training in Chennai",
   title2: "Master database management and transaction processing with our expert-led Sybase Training – your pathway to a successful career in database administration.",
   button2: "Enroll Now",
@@ -13330,7 +13328,7 @@ topic8: [
   "Failover and Clustering"
 ],
 topic9: [
-  "Monitoring Tools (sp_monitor, sp_who)",
+  "Monitoring Tools (sp-monitor, sp-who)",
   "Troubleshooting Query Slowness",
   "Log and Event Analysis"
 ],
@@ -13411,10 +13409,10 @@ desc23: "We use the latest version of SAS software (9.4 or Viya) and cover essen
           pagetitle: "Best Sybase Training in Chennai | Practical Oriented Sybase Database Course",
         pagedescription: "Join IntelliMindz for top Sybase training in Chennai. Master Sybase database administration and development with hands-on projects and expert guidance.",
         pagekeywords: "sybase training in chennai, sybase course, database administration, sql, data management, intellimindz",
-        pageogurl: "https://localhost:3000/sybase_training_in_chennai",
+        pageogurl: "https://localhost:3000/sybase-training-in-chennai",
 },
 {
-  id: 'mulesoft_training_in_chennai',
+  id: 'mulesoft-training-in-chennai',
   title1: "Best MuleSoft Training in Chennai",
   title2: "Enhance your integration skills with our expert-led MuleSoft Training in Chennai. Learn to design, develop, and manage APIs with MuleSoft’s Anypoint Platform.",
   button2: "Enroll Now",
@@ -13620,10 +13618,10 @@ desc23: "We use the latest MuleSoft Anypoint Platform and Mule 4.x runtime in ou
           pagetitle: "Best MuleSoft Training in Chennai | Practical Oriented MuleSoft Integration Course",
         pagedescription: "Join IntelliMindz for top MuleSoft training in Chennai. Master API-led connectivity and enterprise integration with hands-on projects and expert guidance.",
         pagekeywords: "mulesoft training in chennai, mulesoft course, api integration, enterprise integration, anypoint platform, intellimindz",
-        pageogurl: "https://localhost:3000/mulesoft_training_in_chennai",
+        pageogurl: "https://localhost:3000/mulesoft-training-in-chennai",
 },
 {
-  id: 'html_training_in_chennai',
+  id: 'html-training-in-chennai',
   title1: "Best HTML Training in Chennai",
   title2: "Enhance your web development skills with our expert-led HTML Training in Chennai. Learn the fundamentals of web design and development to build stunning websites.",
   button2: "Enroll Now",
@@ -13829,10 +13827,10 @@ desc23: "You can pursue roles like Front-End Developer, Web Designer, or UI Deve
           pagetitle: "Best HTML Training in Chennai | Practical Oriented HTML Web Development Course",
         pagedescription: "Join IntelliMindz for top HTML training in Chennai. Master fundamental web development with hands-on projects and expert guidance.",
         pagekeywords: "html training in chennai, html course, web development, html5, css, frontend development, intellimindz",
-        pageogurl: "https://localhost:3000/html_training_in_chennai",
+        pageogurl: "https://localhost:3000/html-training-in-chennai",
 },
 {
-  id: 'googlego_training_in_chennai',
+  id: 'googlego-training-in-chennai',
   title1: "Best Google Go Training in Chennai",
   title2: "Master the powerful and efficient Go programming language with expert-led training at IntelliMindz – your pathway to modern backend development.",
   button2: "Enroll Now",
@@ -14038,10 +14036,10 @@ desc23: "We offer industry-expert trainers, job-oriented curriculum, real-time p
           pagetitle: "Best Google Go Training in Chennai | Practical Oriented Go Programming Course",
         pagedescription: "Join IntelliMindz for top Google Go training in Chennai. Master Go programming for backend development and cloud applications with hands-on projects.",
         pagekeywords: "googlego training in chennai, go programming course, golang, backend development, cloud computing, intellimindz",
-        pageogurl: "https://localhost:3000/googlego_training_in_chennai",
+        pageogurl: "https://localhost:3000/googlego-training-in-chennai",
 },
 {
-  id: 'rubyonrails_training_in_chennai',
+  id: 'rubyonrails-training-in-chennai',
   title1: "Best Ruby on Rails Training in Chennai",
   title2: "Accelerate your web development career with expert-led Ruby on Rails Training in Chennai. Build scalable and efficient web apps with hands-on Rails experience.",
   button2: "Enroll Now",
@@ -14138,7 +14136,7 @@ topic2: [
 topic3: [
   "ActiveRecord and ORM Basics",
   "Database Migrations and Validations",
-  "Associations: has_many, belongs_to"
+  "Associations: has-many, belongs-to"
 ],
 topic4: [
   "Creating Controllers and Actions",
@@ -14247,10 +14245,10 @@ desc23: "Yes. We offer end-to-end job support including job referrals, portfolio
           pagetitle: "Best Ruby on Rails Training in Chennai | Practical Oriented Rails Web Development Course",
         pagedescription: "Join IntelliMindz for top Ruby on Rails training in Chennai. Master web application development with hands-on projects and expert guidance.",
         pagekeywords: "rubyonrails training in chennai, ruby on rails course, web development, ruby, rails framework, intellimindz",
-        pageogurl: "https://localhost:3000/rubyonrails_training_in_chennai",
+        pageogurl: "https://localhost:3000/rubyonrails-training-in-chennai",
 },
 {
-  id: 'php_training_in_chennai',
+  id: 'php-training-in-chennai',
   title1: "Best PHP Training in Chennai",
   title2: "Boost your web development skills with our expert-led PHP Training in Chennai. Learn PHP programming and become a proficient backend developer.",
   button2: "Enroll Now",
@@ -14456,11 +14454,11 @@ desc23: "Yes, we assist with resume building, interview preparation, and connect
           pagetitle: "Best PHP Training in Chennai | Practical Oriented PHP Web Development Course",
         pagedescription: "Join IntelliMindz for top PHP training in Chennai. Master server-side web development with hands-on projects and expert guidance.",
         pagekeywords: "php training in chennai, php course, web development, mysql, laravel, wordpress, intellimindz",
-        pageogurl: "https://localhost:3000/php_training_in_chennai",
+        pageogurl: "https://localhost:3000/php-training-in-chennai",
 
 },
 {
-  id: 'joomla_training_in_chennai',
+  id: 'joomla-training-in-chennai',
   title1: "Best Joomla Training in Chennai",
   title2: "Become a proficient Joomla developer with our hands-on training led by industry experts, designed to build dynamic and scalable websites.",
   button2: "Enroll Now",
@@ -14666,10 +14664,10 @@ desc23: "Yes, we assist with resume preparation, interview coaching, and job ref
           pagetitle: "Best Joomla Training in Chennai | Practical Oriented Joomla CMS Course",
         pagedescription: "Join IntelliMindz for top Joomla training in Chennai. Master website creation and content management with hands-on projects and expert guidance.",
         pagekeywords: "joomla training in chennai, joomla course, cms, content management system, website development, intellimindz",
-        pageogurl: "https://localhost:3000/joomla_training_in_chennai",
+        pageogurl: "https://localhost:3000/joomla-training-in-chennai",
 },
 {
-  id: 'microsofthybris_training_in_chennai',
+  id: 'microsofthybris-training-in-chennai',
   title1: "Best Microsoft Hybris Training in Chennai",
   title2: "Accelerate your e-commerce career with our expert-led Microsoft Hybris Training in Chennai. Master the leading enterprise commerce platform and become a certified Hybris developer.",
   button2: "Enroll Now",
@@ -14875,10 +14873,10 @@ desc23: "Yes, our placement team offers resume building, interview preparation, 
           pagetitle: "Best Microsoft Hybris Training in Chennai | Practical Oriented Hybris eCommerce Course",
         pagedescription: "Join IntelliMindz for top Microsoft Hybris training in Chennai. Master Hybris e-commerce platform development and customization with hands-on projects.",
         pagekeywords: "microsofthybris training in chennai, hybris course, ecommerce platform, sap hybris, omni-channel commerce, intellimindz",
-        pageogurl: "https://localhost:3000/microsofthybris_training_in_chennai",
+        pageogurl: "https://localhost:3000/microsofthybris-training-in-chennai",
 },
 {
-  id: 'dellboomi_training_in_chennai',
+  id: 'dellboomi-training-in-chennai',
   title1: "Best Dell Boomi Training in Chennai",
   title2: "Boost your integration skills with expert-led Dell Boomi Training in Chennai. Master cloud-based integration and become a certified Boomi professional.",
   button2: "Enroll Now",
@@ -15084,10 +15082,10 @@ desc23: "Yes, our placement team assists with resume preparation, mock interview
           pagetitle: "Best Dell Boomi Training in Chennai | Practical Oriented Dell Boomi Integration Course",
         pagedescription: "Join IntelliMindz for top Dell Boomi training in Chennai. Master cloud integration, EDI, and API management with hands-on projects and expert guidance.",
         pagekeywords: "dellboomi training in chennai, dell boomi course, cloud integration, api management, edi, intellimindz",
-        pageogurl: "https://localhost:3000/dellboomi_training_in_chennai",
+        pageogurl: "https://localhost:3000/dellboomi-training-in-chennai",
 },
 {
-  id: 'pmp_training_in_chennai',
+  id: 'pmp-training-in-chennai',
   title1: "Best PMP Training in Chennai",
   title2: "Master project management skills and earn your PMP certification with expert-led training designed to accelerate your career growth.",
   button2: "Enroll Now",
@@ -15293,10 +15291,10 @@ desc23: "Yes, our placement team helps with resume preparation, interview coachi
           pagetitle: "Best PMP Training in Chennai | Practical Oriented PMP Certification Course",
         pagedescription: "Join IntelliMindz for top PMP training in Chennai. Prepare for the Project Management Professional (PMP) certification with hands-on projects and expert guidance.",
         pagekeywords: "pmp training in chennai, pmp course, project management professional, pmi, project management, intellimindz",
-        pageogurl: "https://localhost:3000/pmp_training_in_chennai",
+        pageogurl: "https://localhost:3000/pmp-training-in-chennai",
 },
 {
-  id: 'pentaho_training_in_chennai',
+  id: 'pentaho-training-in-chennai',
   title1: "Best Pentaho Training in Chennai",
   title2: "Elevate your data integration and analytics skills with our expert-led Pentaho Training in Chennai. Learn to build powerful ETL workflows and dashboards using Pentaho tools.",
   button2: "Enroll Now",
@@ -15502,11 +15500,11 @@ desc23: "Yes. Our placement cell provides resume building, interview preparation
           pagetitle: "Best Pentaho Training in Chennai | Practical Oriented Pentaho BI Course",
         pagedescription: "Join IntelliMindz for top Pentaho training in Chennai. Master business intelligence, data integration, and reporting with hands-on projects and expert guidance.",
         pagekeywords: "pentaho training in chennai, pentaho course, business intelligence, data integration, etl, reporting, intellimindz",
-        pageogurl: "https://localhost:3000/pentaho_training_in_chennai",
+        pageogurl: "https://localhost:3000/pentaho-training-in-chennai",
 
 },
 {
-  id: 'angularjs_training_in_chennai',
+  id: 'angularjs-training-in-chennai',
   title1: "Best AngularJS Training in Chennai",
   title2: "Enhance your front-end development skills with our expert-led AngularJS Training in Chennai. Build dynamic, single-page applications with industry-relevant expertise.",
   button2: "Enroll Now",
@@ -15712,10 +15710,10 @@ desc23: "Graduates of our Angular JS course in Chennai can step into roles such 
           pagetitle: "Best AngularJS Training in Chennai | Practical Oriented AngularJS Web Development Course",
         pagedescription: "Join IntelliMindz for top AngularJS training in Chennai. Master single-page application development with hands-on projects and expert guidance.",
         pagekeywords: "angularjs training in chennai, angularjs course, web development, javascript framework, single-page applications, intellimindz",
-        pageogurl: "https://localhost:3000/angularjs_training_in_chennai",
+        pageogurl: "https://localhost:3000/angularjs-training-in-chennai",
 },
 {
-  id: 'windowspowershell_training_in_chennai',
+  id: 'windowspowershell-training-in-chennai',
   title1: "Best Windows PowerShell Training in Chennai",
   title2: "Master Windows automation and scripting with our expert-led PowerShell training, designed to boost your system administration and DevOps career.",
   button2: "Enroll Now",
@@ -15898,10 +15896,10 @@ desc23: "We provide three months of email and forum support, access to updated l
           pagetitle: "Best Windows PowerShell Training in Chennai | Practical Oriented PowerShell Scripting Course",
         pagedescription: "Join IntelliMindz for top Windows PowerShell training in Chennai. Master automation and administration with hands-on scripting projects and expert guidance.",
         pagekeywords: "windowspowershell training in chennai, powershell course, windows administration, scripting, automation, intellimindz",
-        pageogurl: "https://localhost:3000/windowspowershell_training_in_chennai",
+        pageogurl: "https://localhost:3000/windowspowershell-training-in-chennai",
 },
 {
-  id: 'base_sas_training_in_chennai',
+  id: 'base-sas-training-in-chennai',
   title1: "Best Base SAS Training in Chennai",
   title2: "Master data analysis and reporting with our expert-led Base SAS Training – your gateway to a successful career in analytics and data management.",
   button2: "Enroll Now",
@@ -15974,19 +15972,67 @@ desc23: "We provide three months of email and forum support, access to updated l
   title29: "Base SAS Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to SAS and Base Concepts",
-  title33: "Module 2: Data Step Processing",
-  title34: "Module 3: Procedures and Reporting",
-  title35: "Module 4: SAS Functions and Formats",
-  title36: "Module 5: Macro Programming Basics",
-  title37: "Module 6: Real-Time Project and Certification Prep",
-  button5: "Download Curriculum",
-  topic1: ["Overview of SAS Environment", "SAS Interface and Programming Basics", "Data Types and Data Sets"],
-  topic2: ["Reading and Writing Data", "Conditional Processing", "Looping and Arrays"],
-  topic3: ["Using PROC SQL and PROC REPORT", "Sorting and Summarizing Data", "Generating Reports"],
-  topic4: ["Character and Numeric Functions", "Data Formatting and Informats", "Date and Time Functions"],
-  topic5: ["Macro Variables and Macro Programs", "Conditional Macros", "Macro Debugging Techniques"],
-  topic6: ["End-to-End Data Analysis Project", "Sample Exam Questions", "Certification Guidance"],
+title32: "Module 1: Introduction to SAS and Base SAS",
+title33: "Module 2: Data Step Processing",
+title34: "Module 3: Importing and Exporting Data",
+title35: "Module 4: Data Manipulation Techniques",
+title36: "Module 5: Combining SAS Datasets",
+title37: "Module 6: Procedures in Base SAS",
+title57: "Module 7: Data Cleaning and Debugging",
+title58: "Module 8: PROC SQL",
+title59: "Module 9: Report Generation",
+title60: "Module 10: Certification and Project",
+button5: "Download Curriculum",
+topic1: [
+  "Overview of SAS System Architecture",
+  "Introduction to Base SAS Environment",
+  "Understanding Libraries and SAS Datasets"
+],
+topic2: [
+  "Reading Raw Data Files using INFILE",
+  "Input Methods: Column, Formatted, List Input",
+  "Modifying and Creating Variables"
+],
+topic3: [
+  "Importing Excel and CSV Files",
+  "Using PROC IMPORT and PROC EXPORT",
+  "Reading Data from Databases"
+],
+topic4: [
+  "Conditional Statements (IF-THEN-ELSE)",
+  "Functions in SAS (Character & Numeric)",
+  "Using Arrays and DO Loops"
+],
+topic5: [
+  "Merging Datasets with MERGE",
+  "Concatenation using SET Statement",
+  "Data Sorting and Removing Duplicates"
+],
+topic6: [
+  "Introduction to PROC PRINT, PROC SORT",
+  "Summarizing Data with PROC MEANS and PROC FREQ",
+  "Using PROC TRANSPOSE and PROC APPEND"
+],
+topic7: [
+  "Handling Missing Values",
+  "Using the Log for Debugging",
+  "Formatting Variables with FORMAT and INFORMAT"
+],
+topic8: [
+  "Introduction to SQL in SAS",
+  "Creating Tables and Joins",
+  "Subqueries and Summary Functions"
+],
+topic9: [
+  "Creating Reports with PROC REPORT",
+  "Tabular Output using PROC TABULATE",
+  "Exporting Reports to Excel/PDF"
+],
+topic10: [
+  "SAS Base Certification Exam Overview",
+  "Capstone Project on Healthcare/Finance Dataset",
+  "Resume Review and Interview Preparation"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for Base SAS in Chennai",
   title40: "Onsite Training:",
@@ -16012,31 +16058,41 @@ desc23: "We provide three months of email and forum support, access to updated l
   designation3: "Business Analyst",
   designation4: "SAS Developer",
   designation5: "Reporting Analyst",
-  review1: "The Base SAS course gave me a strong foundation in data analytics and prepared me well for my job role.",
-  review2: "Great hands-on training and supportive instructors made learning SAS enjoyable and effective.",
-  review3: "The course content was thorough and covered all essentials needed to pass the SAS certification.",
-  review4: "Flexible batch timings and online classes helped me balance work and study perfectly.",
-  review5: "Placement support and interview preparation helped me land a role in a reputed analytics firm.",
-  title44: "What is Base SAS used for?",
-  title45: "Who should take this Base SAS training?",
-  title46: "Do I need prior programming experience?",
-  title47: "Is Base SAS relevant in today’s analytics industry?",
-  title48: "What are the career prospects after this training?",
-  title49: "Is training available online?",
-  title50: "Will I get practical project experience?",
-  title51: "Do you offer placement assistance?",
-  title52: "Can beginners enroll in this course?",
-  title53: "Is certification included?",
-  desc14: "Base SAS is a powerful data analysis and reporting software widely used in industries for data management and statistical analysis.",
-  desc15: "Ideal for data analysts, business analysts, and anyone aiming to build a career in data analytics using SAS.",
-  desc16: "No prior programming is required; we start from the basics to build your skills step-by-step.",
-  desc17: "Base SAS continues to be highly relevant, especially in healthcare, finance, and research sectors.",
-  desc18: "Successful completion opens doors to roles like SAS programmer, data analyst, and reporting specialist.",
-  desc19: "Yes, we provide live online sessions with recordings and lifetime access.",
-  desc20: "Absolutely, you will work on real datasets and complete projects during the training.",
-  desc21: "Yes, we provide full placement assistance including resume help and interview prep.",
-  desc22: "Yes, beginners with a passion for data analysis are encouraged to join.",
-  desc23: "You will receive a course completion certificate and guidance for official SAS certifications.",
+review1: "I joined the Base SAS Training in Chennai to strengthen my data skills. The instructor’s expertise in clinical trial datasets and PROC SQL helped me grasp complex data manipulation. The real-time projects on patient data analysis were invaluable.",
+review2: "This institute stands out for its detailed Base SAS course in Chennai content. We covered DATA step programming, macro variable creation, and ODS reporting. Placement support guided me through SAS certification and job interviews.",
+review3: "As a working professional, I opted for online Base SAS Training in Chennai. The live sessions were interactive, and I had access to recorded labs. The doubt-clearing forums kept me on track, and I passed the SAS Base certification on my first attempt.",
+review4: "The Base SAS Training in Chennai curriculum aligned perfectly with industry needs. From proc report to macro programming, every topic was hands-on. The capstone project on analyzing sales data boosted my confidence and portfolio.",
+review5: "Joining the Best Base SAS Training Institute in Chennai was the right move. The trainers provided real-world examples, including pharma trial reporting. Their placement team conducted mock coding tests and helped me secure a role within weeks.",
+
+title44: "Why should I enroll in the Base SAS Training in Chennai?",
+desc14: "Our Base SAS Training in Chennai offers expert-led sessions on SAS programming, data step processing, and PROC SQL. Recognized as the Best Base SAS Training Institute in Chennai, we provide hands-on labs, real-world datasets, and career support.",
+
+title45: "What topics are covered in the Base SAS course in Chennai?",
+desc15: "The Base SAS course in Chennai covers data import/export, data cleansing with DATA step, PROC procedures (SORT, MEANS, FREQ), macro basics, and ODS for reporting—essential for analytics and clinical trial data.",
+
+title46: "Is this Base SAS Training in Chennai suitable for beginners?",
+desc16: "Yes. Our Base SAS Training in Chennai starts with SAS syntax and the SAS environment, then advances to data manipulation, proc report, and macro programming, making it ideal for newcomers to analytics.",
+
+title47: "Are there prerequisites for the Base SAS course in Chennai?",
+desc17: "A fundamental understanding of statistics or any scripting language is helpful. Our Base SAS Training in Chennai bridges gaps with SQL introductions and foundational programming principles.",
+
+title48: "Do I receive a certificate after the Base SAS Training in Chennai?",
+desc18: "Yes, upon completing the Base SAS course in Chennai, you’ll earn a certificate from the Best Base SAS Training Institute in Chennai, recognized by employers across pharma, finance, and healthcare.",
+
+title49: "Will I work on real-time projects during the Base SAS Training in Chennai?",
+desc19: "Absolutely. You’ll analyze sample clinical trial datasets, generate summary reports with PROC TABULATE, and automate tasks with macros—key long-tail keywords for job-ready SAS skills.",
+
+title50: "Is online Base SAS Training in Chennai available?",
+desc20: "Yes, we offer both classroom and live online Base SAS Training in Chennai, complete with recorded lectures, virtual labs, and 24/7 forum support.",
+
+title51: "What career roles can I pursue after the Base SAS course in Chennai?",
+desc21: "Completing our Base SAS course in Chennai prepares you for roles like SAS Programmer, Data Analyst, Statistical Programmer, or Clinical Data Manager in top multinational companies.",
+
+title52: "Why is your institute the Best Base SAS Training Institute in Chennai?",
+desc22: "We combine small batches, one-on-one mentorship, updated curriculum aligned with SAS Base certification objectives, and robust placement assistance—earning us the title of Best Base SAS Training Institute in Chennai.",
+
+title53: "Do you offer job placement support after Base SAS Training in Chennai?",
+desc23: "Yes, our dedicated placement cell provides resume building, mock interviews focused on SAS coding challenges, and connects you with leading employers seeking SAS talent.",
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our Base SAS course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -16045,10 +16101,10 @@ desc23: "We provide three months of email and forum support, access to updated l
           pagetitle: "Best Base SAS Training in Chennai | Practical Oriented Base SAS Programming Course",
         pagedescription: "Join IntelliMindz for top Base SAS training in Chennai. Master fundamental SAS programming for data manipulation and reporting with hands-on projects.",
         pagekeywords: "base sas training in chennai, base sas course, sas programming, data analysis, statistical analysis, intellimindz",
-        pageogurl: "https://localhost:3000/base_sas_training_in_chennai",
+        pageogurl: "https://localhost:3000/base-sas-training-in-chennai",
 },
 {
-  id: 'solidworks_training_in_chennai',
+  id: 'solidworks-training-in-chennai',
   title1: "Best SolidWorks Training in Chennai",
   title2: "Enhance your design skills with expert-led SolidWorks Training in Chennai. Learn 3D CAD modeling, assemblies, and simulation from certified trainers.",
   button2: "Enroll Now",
@@ -16121,19 +16177,67 @@ desc23: "We provide three months of email and forum support, access to updated l
   title29: "SolidWorks Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to SolidWorks Interface",
-  title33: "Module 2: Part Modeling Techniques",
-  title34: "Module 3: Assembly Modeling",
-  title35: "Module 4: Drafting and Detailing",
-  title36: "Module 5: Simulation and Analysis",
-  title37: "Module 6: Real-Time Projects and Case Studies",
-  button5: "Download Curriculum",
-  topic1: ["Navigating the Interface", "Sketching Basics", "Feature Manager", "Customization", "File Management"],
-  topic2: ["Creating 3D Parts", "Extrude & Revolve", "Fillets & Chamfers", "Shells & Drafts", "Configurations"],
-  topic3: ["Assembly Creation", "Mates and Constraints", "Sub-Assemblies", "Bill of Materials", "Exploded Views"],
-  topic4: ["Creating Drawings", "Annotations", "Dimensions", "Templates", "Revision Management"],
-  topic5: ["Static Analysis", "Motion Study", "Stress Testing", "Thermal Analysis", "Optimization"],
-  topic6: ["Design Projects", "Assembly Simulation", "Design for Manufacturing", "Industry Case Studies", "Certification Prep"],
+title32: "Module 1: Introduction to CAD and SolidWorks",
+title33: "Module 2: Sketching Fundamentals",
+title34: "Module 3: Part Modeling",
+title35: "Module 4: Assembly Modeling",
+title36: "Module 5: Drafting and Detailing",
+title37: "Module 6: Advanced Part Design",
+title57: "Module 7: Surface Modeling",
+title58: "Module 8: Sheet Metal Design",
+title59: "Module 9: Simulation and Analysis",
+title60: "Module 10: Final Project and Portfolio Building",
+button5: "Download Curriculum",
+topic1: [
+  "Overview of CAD and SolidWorks Interface",
+  "Understanding Design Intent",
+  "Customizing System Settings"
+],
+topic2: [
+  "Sketch Entities and Relations",
+  "Dimensioning and Constraints",
+  "Editing and Trimming Sketches"
+],
+topic3: [
+  "Creating Base Features",
+  "Boss, Cut, and Fillet Operations",
+  "Using Patterns and Shell"
+],
+topic4: [
+  "Inserting Components",
+  "Applying Standard Mates",
+  "Assembly Visualization and Interference Detection"
+],
+topic5: [
+  "Creating 2D Drawings from Parts/Assemblies",
+  "Adding Annotations and Dimensions",
+  "Title Blocks and Drawing Templates"
+],
+topic6: [
+  "Configurations and Design Tables",
+  "Multi-body Parts and Merge Options",
+  "Working with Equations"
+],
+topic7: [
+  "Introduction to Surface Tools",
+  "Boundary, Loft, and Sweep Surfaces",
+  "Surface Trimming and Thickening"
+],
+topic8: [
+  "Base Flange and Edge Flange",
+  "Bends, Flat Patterns, and Forming Tools",
+  "Sheet Metal Drawings"
+],
+topic9: [
+  "Introduction to SimulationXpress",
+  "Applying Loads and Fixtures",
+  "Stress and Deformation Analysis"
+],
+topic10: [
+  "Designing a Mechanical Product",
+  "Creating Assembly and Detailed Drawings",
+  "Portfolio Review and Presentation"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for SolidWorks in Chennai",
   title40: "Onsite Training:",
@@ -16159,31 +16263,42 @@ desc23: "We provide three months of email and forum support, access to updated l
   designation3: "Product Designer",
   designation4: "SolidWorks Trainee",
   designation5: "Design Engineer",
-  review1: "The SolidWorks training at IntelliMindz helped me master 3D modeling quickly and confidently.",
-  review2: "The practical assignments and expert trainers made learning smooth and effective.",
-  review3: "Real-world projects helped me understand the applications of SolidWorks in my job.",
-  review4: "Excellent support from trainers and good placement assistance.",
-  review5: "Highly recommend this course for anyone serious about CAD design skills.",
-  title44: "What is SolidWorks used for?",
-  title45: "Who should take this SolidWorks training?",
-  title46: "Do I need prior CAD experience?",
-  title47: "Is SolidWorks relevant in 2025?",
-  title48: "What certifications can I get?",
-  title49: "Is the training available online?",
-  title50: "Will there be hands-on practice?",
-  title51: "Do you offer job preparation support?",
-  title52: "Can I switch to SolidWorks from a non-engineering background?",
-  title53: "Is SolidWorks suitable for freshers?",
-  desc14: "SolidWorks is a powerful 3D CAD software used for mechanical design, simulation, and manufacturing.",
-  desc15: "Mechanical engineers, product designers, CAD operators, and hobbyists aiming to enhance design skills.",
-  desc16: "Basic CAD knowledge helps but we teach from fundamentals as well.",
-  desc17: "Yes, SolidWorks is widely used in engineering and design industries worldwide.",
-  desc18: "Certified SolidWorks Associate (CSWA) and Professional (CSWP) certifications.",
-  desc19: "Yes, live online training with expert trainers is available.",
-  desc20: "Yes, extensive lab exercises and project work included.",
-  desc21: "Placement guidance, resume help, and mock interviews are part of the course.",
-  desc22: "Yes, with dedication, even non-engineers can learn SolidWorks effectively.",
-  desc23: "Definitely, freshers can build a strong foundation with this course.",
+review1: "Joining the Solidworks Training in Chennai was a game-changer. The hands-on sessions on part design, assembly constraints, and drawing creation gave me the confidence to tackle complex mechanical projects at work. The trainers provided invaluable tips on best practices and performance optimization.",
+review2: "I researched many CAD institutes before choosing this one, and it didn’t disappoint. The Solidworks course in Chennai covered everything from basic sketches to advanced surfacing and motion analysis. Their CSWA exam preparation classes helped me pass on the first try!",
+review3: "With no prior CAD experience, I was nervous about the Solidworks Training in Chennai, but the structured curriculum made learning easy. From sheet-metal parts to weldment design, each module built on the last. Now I’m employed as a junior design engineer.",
+review4: "I opted for the online Solidworks course in Chennai. The live classes were interactive, and I could revisit recorded sessions anytime. Post-training, the support team helped me debug real-world modeling issues and offered career advice.",
+review5: "After completing the Best Solidworks Training Institute in Chennai program, I showcased a photorealistic rendering project in interviews. I secured a design role with a 25% hike. The placement assistance and mock interview sessions were particularly helpful.",
+
+title44: "Why should I enroll in Solidworks Training in Chennai?",
+desc14: "Our Solidworks Training in Chennai provides hands-on 3D CAD modeling sessions, real-world assembly exercises, and expert instructors. Recognized as the Best Solidworks Training Institute in Chennai, we ensure you master parametric design, part modeling, and drawing creation.",
+
+title45: "What topics are covered in the Solidworks course in Chennai?",
+desc15: "The Solidworks course in Chennai spans sketching, part and assembly modeling, sheet-metal design, weldments, surface modeling, and basic FEA simulation, ensuring you build a strong foundation in mechanical design.",
+
+title46: "Is this Solidworks Training in Chennai suitable for beginners?",
+desc16: "Yes. Our Solidworks Training in Chennai starts with interface navigation and simple sketch-based parts, then advances to complex surfacing and assembly constraints—ideal for freshers and professionals alike.",
+
+title47: "Are there any prerequisites for the Solidworks course in Chennai?",
+desc17: "Basic knowledge of engineering drawing and mechanical concepts is helpful, but not mandatory. Our Solidworks course in Chennai covers CAD essentials from scratch, including sketch relations and feature trees.",
+
+title48: "Do you provide certification after Solidworks Training in Chennai?",
+desc18: "Absolutely. You’ll receive an industry-recognized certificate for the Solidworks course in Chennai, validating your skills in 3D modeling, drafting, and basic static analysis for prospective employers.",
+
+title49: "Will I get hands-on projects during Solidworks Training in Chennai?",
+desc19: "Definitely. You’ll work on real-time projects like gearbox assembly modeling, sheet-metal component design, and motion studies, reinforcing skills in tutorial-based and project-driven environments.",
+
+title50: "Is online Solidworks Training in Chennai available?",
+desc20: "Yes, we offer both classroom and live online Solidworks Training in Chennai, complete with recorded lectures, remote access to CAD labs, and one-on-one mentor support.",
+
+title51: "What career opportunities follow Solidworks course in Chennai?",
+desc21: "After this Solidworks course in Chennai, you can pursue roles such as CAD Designer, Mechanical Design Engineer, or CAE Analyst in automotive, aerospace, and product design industries.",
+
+title52: "Why is your institute the Best Solidworks Training Institute in Chennai?",
+desc22: "We combine small batch sizes, personalized mentorship, up-to-date curriculum aligned with CSWA/CSWP exams, and strong placement assistance—earning us the title of Best Solidworks Training Institute in Chennai.",
+
+title53: "Do you offer post-training support after Solidworks Training in Chennai?",
+desc23: "Yes. Graduates receive three months of email support, access to our alumni forum, and periodic Q&A webinars covering advanced topics like mold design, photorealistic rendering, and CAD data management.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our SolidWorks course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -16192,10 +16307,10 @@ desc23: "We provide three months of email and forum support, access to updated l
           pagetitle: "Best SolidWorks Training in Chennai | Practical Oriented SolidWorks CAD Course",
         pagedescription: "Join IntelliMindz for top SolidWorks training in Chennai. Master 3D CAD design, simulation, and product development with hands-on projects and expert guidance.",
         pagekeywords: "solidworks training in chennai, solidworks course, cad design, 3d modeling, product design, engineering design, intellimindz",
-        pageogurl: "https://localhost:3000/solidworks_training_in_chennai",
+        pageogurl: "https://localhost:3000/solidworks-training-in-chennai",
 },
 {
-  id: 'informatica_mdm_training_in_chennai',
+  id: 'informatica-mdm-training-in-chennai',
   title1: "Best Informatica MDM Training in Chennai",
   title2: "Boost your data management career with expert-led Informatica MDM Training in Chennai. Master Master Data Management concepts and Informatica tools to become a certified MDM professional.",
   button2: "Enroll Now",
@@ -16268,19 +16383,67 @@ desc23: "We provide three months of email and forum support, access to updated l
   title29: "Informatica MDM Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to Master Data Management",
-  title33: "Module 2: Informatica MDM Hub Architecture",
-  title34: "Module 3: Data Modeling and Matching",
-  title35: "Module 4: Workflow Design and Business Rules",
-  title36: "Module 5: Data Stewardship and Governance",
-  title37: "Module 6: Real-Time Projects and Case Studies",
-  button5: "Download Curriculum",
-  topic1: ["MDM Concepts and Benefits", "MDM Lifecycle", "Types of MDM", "MDM Use Cases", "Data Governance Overview"],
-  topic2: ["Hub Architecture Components", "Data Sources and Targets", "Installation & Configuration", "Hub Console Overview", "Security & Access Controls"],
-  topic3: ["Entity Modeling", "Match Rules", "Survivorship Rules", "Hierarchy Management", "Reference Data Management"],
-  topic4: ["Workflow Concepts", "Task Design", "Event Management", "Business Rules Engine", "Notifications Setup"],
-  topic5: ["Stewardship Console", "Data Quality Management", "Issue Resolution", "Audit and Compliance", "Collaboration Tools"],
-  topic6: ["Project Setup", "Data Loading and Cleansing", "MDM Implementation Best Practices", "Performance Tuning", "Certification Prep"],
+title32: "Module 1: Introduction to MDM and Architecture",
+title33: "Module 2: Data Modeling in MDM",
+title34: "Module 3: Configuration and Setup",
+title35: "Module 4: Trust and Validation Rules",
+title36: "Module 5: Match and Merge",
+title37: "Module 6: Hierarchy Management",
+title57: "Module 7: Data Quality and Cleansing",
+title58: "Module 8: Batch Processes and Utilities",
+title59: "Module 9: SIF and API Integration",
+title60: "Module 10: Capstone Project and Certification Prep",
+button5: "Download Curriculum",
+topic1: [
+  "MDM Overview and Use Cases",
+  "Informatica MDM Hub Architecture",
+  "Data Integration with MDM"
+],
+topic2: [
+  "Base Object and Landing Tables",
+  "Relationship and Lookups",
+  "Cleanse and Transformation Layers"
+],
+topic3: [
+  "Configuration Files and ORS Setup",
+  "User Roles and Access Controls",
+  "Load Order and Batch Groups"
+],
+topic4: [
+  "Trust Framework and Trust Scores",
+  "Validation Rules Configuration",
+  "Cross-Reference Table Management"
+],
+topic5: [
+  "Match Path and Rules",
+  "Merge Settings and Survivorship",
+  "Match Audit and Manual Merge"
+],
+topic6: [
+  "Hierarchy Relationship Management (HM)",
+  "HM Tree View and Node Maintenance",
+  "Data Visibility in Hierarchies"
+],
+topic7: [
+  "Cleanse Functionality and Rules",
+  "Integration with Data Quality Tools",
+  "Audit Trail and Data Lineage"
+],
+topic8: [
+  "Load/Stage/Tokenization Batch Jobs",
+  "Utility Tools: cleanseMatch, mergeBatch",
+  "Performance Optimization"
+],
+topic9: [
+  "Introduction to Service Integration Framework (SIF)",
+  "SOAP/REST API Usage",
+  "External Application Integration"
+],
+topic10: [
+  "Building End-to-End MDM Solution",
+  "Resume and Interview Coaching",
+  "Mock Tests for Certification"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for Informatica MDM in Chennai",
   title40: "Onsite Training:",
@@ -16306,31 +16469,41 @@ desc23: "We provide three months of email and forum support, access to updated l
   designation3: "MDM Consultant",
   designation4: "Informatica MDM Trainee",
   designation5: "Data Governance Lead",
-  review1: "The training gave me practical knowledge to implement MDM solutions confidently.",
-  review2: "Excellent labs and mentor support helped me understand complex workflows easily.",
-  review3: "Real-time projects prepared me well for industry roles in MDM.",
-  review4: "Great course structure and ongoing placement assistance.",
-  review5: "Highly recommend IntelliMindz for anyone aiming to specialize in Informatica MDM.",
-  title44: "What is Informatica MDM used for?",
-  title45: "Who should take this Informatica MDM training?",
-  title46: "Do I need prior data management experience?",
-  title47: "Is Informatica MDM relevant in 2025?",
-  title48: "What certifications can I get after this training?",
-  title49: "Is the training available online?",
-  title50: "Will there be hands-on practice?",
-  title51: "Do you offer job placement support?",
-  title52: "Can I join Informatica MDM training from a non-IT background?",
-  title53: "Is Informatica MDM suitable for freshers?",
-  desc14: "Informatica MDM helps organizations maintain a single, trusted view of critical data assets.",
-  desc15: "Data analysts, database administrators, and IT professionals aiming to specialize in MDM.",
-  desc16: "Basic data concepts help, but we cover foundational topics from scratch.",
-  desc17: "Yes, MDM is crucial for enterprise data governance and will stay relevant.",
-  desc18: "Informatica MDM Developer and Administrator certifications are popular options.",
-  desc19: "Yes, live virtual and classroom batches are available.",
-  desc20: "Yes, we provide extensive hands-on labs and real-time projects.",
-  desc21: "Resume building, interview prep, and placement assistance included.",
-  desc22: "Yes, with dedication anyone can transition into MDM roles via this training.",
-  desc23: "Absolutely, our program is designed to help freshers start a career in MDM.",
+review1: "The Informatica MDM Training in Chennai at IntelliMindz was exactly what I needed. The trainers walked us through Hub setup, match-merge rules, and survivorship policies using sample customer data. The hands-on project on creating a golden customer record was invaluable.",
+review2: "I joined the Informatica MDM course in Chennai after evaluating multiple options. This institute stood out for its focus on data governance, data stewardship console, and real-time data integration use cases. The placement support helped me land a role within weeks.",
+review3: "The course began with MDM concepts—operational vs analytical, reference data management—and quickly moved to configuring entities and attributes in Hub Console. Learning how to design match rules and survivorship strategies was a game-changer for me.",
+review4: "Due to my work schedule, I opted for the online Informatica MDM Training in Chennai. Live classes, virtual labs, and recorded sessions made it easy to absorb complex topics like Hub batch data loading and real-time service configuration. Post-training doubt clearing was top-notch.",
+review5: "After completing the Informatica MDM course in Chennai, I passed the Informatica MDM Developer certification on my first try. The mock exams and focused labs on match rules and survivorship policies prepared me well. I now work as a Senior MDM Consultant.",
+
+title44: "Why should I enroll in the Informatica MDM Training in Chennai?",
+desc14: "Our Informatica MDM Training in Chennai is delivered by certified experts with real-time Master Data Management projects. Recognized as the Best Informatica MDM Training Institute in Chennai, we focus on data governance, golden record creation, and survivorship rules.",
+
+title45: "What does the Informatica MDM course in Chennai cover?",
+desc15: "The Informatica MDM course in Chennai covers Hub architecture, data modeling, integration with source systems, match-merge configuration, data stewardship console, and workflow management to build a 360-degree view of enterprise data.",
+
+title46: "Is this Informatica MDM Training in Chennai suitable for beginners?",
+desc16: "Yes. Our Informatica MDM Training in Chennai starts with fundamentals—introducing MDM concepts like reference data management—then advances to configuring business rules, data onboarding, and operational vs. analytical MDM.",
+
+title47: "What are the prerequisites for the Informatica MDM course in Chennai?",
+desc17: "Basic SQL and ETL experience help but aren’t mandatory. Our Informatica MDM Training in Chennai bridges any gaps, teaching you data integration patterns, match and merge rules, and data quality best practices.",
+
+title48: "Will I get hands-on experience during the Informatica MDM course in Chennai?",
+desc18: "Absolutely. You’ll configure clusters, author match rules, implement survivorship policies, and perform batch and real-time data onboarding—key long-tail keywords for enterprise data management scenarios.",
+
+title49: "Do you provide certification guidance in your Informatica MDM Training in Chennai?",
+desc19: "Yes. We align our Informatica MDM course in Chennai with Informatica Certified Professional exams, offering mock tests, study materials, and expert tips to help you pass the MDM Developer and Administrator certifications.",
+
+title50: "Is online Informatica MDM Training in Chennai available?",
+desc20: "Yes—we offer live instructor-led online and classroom Informatica MDM Training in Chennai, complete with virtual labs, session recordings, and ongoing post-training support.",
+
+title51: "What career roles can I pursue after this Informatica MDM course in Chennai?",
+desc21: "Graduates of our Informatica MDM Training in Chennai become MDM Developers, Data Governance Specialists, or Data Stewardship Analysts in industries like banking, telecom, and healthcare.",
+
+title52: "Why is your institute the Best Informatica MDM Training Institute in Chennai?",
+desc22: "We combine expert faculty, a project-driven curriculum, small batch sizes, and dedicated placement assistance—making us the Best Informatica MDM Training Institute in Chennai for launching your MDM career.",
+
+title53: "Do you offer placement support after the Informatica MDM course in Chennai?",
+desc23: "Yes. Our placement cell provides resume workshops, mock interviews, and direct referrals to companies implementing Master Data Management solutions.",
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our Informatica MDM course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -16339,10 +16512,10 @@ desc23: "We provide three months of email and forum support, access to updated l
           pagetitle: "Best Informatica MDM Training in Chennai | Practical Oriented Master Data Management Course",
         pagedescription: "Join IntelliMindz for top Informatica MDM training in Chennai. Master master data management, data governance, and data quality with hands-on projects.",
         pagekeywords: "informatica mdm training in chennai, informatica mdm course, master data management, data governance, data quality, intellimindz",
-        pageogurl: "https://localhost:3000/informatica_mdm_training_in_chennai",
+        pageogurl: "https://localhost:3000/informatica-mdm-training-in-chennai",
 },
 {
-  id: 'aws_training_in_chennai',
+  id: 'aws-training-in-chennai',
   title1: "Best AWS Training in Chennai",
   title2: "Master cloud computing and infrastructure automation with our expert-led AWS Training – your path to a successful cloud career.",
   button2: "Enroll Now",
@@ -16415,19 +16588,67 @@ desc23: "We provide three months of email and forum support, access to updated l
   title29: "AWS Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: AWS Cloud Fundamentals",
-  title33: "Module 2: Compute & Storage Services",
-  title34: "Module 3: Networking & Security",
-  title35: "Module 4: Serverless Computing & Automation",
-  title36: "Module 5: Monitoring & Optimization",
-  title37: "Module 6: Real-World AWS Projects",
-  button5: "Download Curriculum",
-  topic1: ["Introduction to Cloud Computing", "Overview of AWS Global Infrastructure", "AWS Shared Responsibility Model"],
-  topic2: ["Amazon EC2 Instances", "S3 Storage Service", "Elastic Load Balancers", "Amazon RDS Basics"],
-  topic3: ["Virtual Private Cloud (VPC)", "IAM and Access Management", "Network Security Groups", "AWS Firewall and VPN"],
-  topic4: ["AWS Lambda Functions", "CloudFormation Templates", "Auto Scaling & Elastic Beanstalk"],
-  topic5: ["CloudWatch Monitoring", "Cost Optimization Strategies", "Performance Tuning & Best Practices"],
-  topic6: ["Deploying a Scalable Web App", "Serverless API with Lambda", "Infrastructure as Code Projects"],
+title32: "Module 1: Introduction to AWS and Cloud Computing",
+title33: "Module 2: Amazon EC2 and Instance Management",
+title34: "Module 3: Storage Services – S3, EBS, Glacier",
+title35: "Module 4: IAM and Access Management",
+title36: "Module 5: Virtual Private Cloud (VPC)",
+title37: "Module 6: AWS Lambda and Serverless Computing",
+title57: "Module 7: AWS Databases – RDS and DynamoDB",
+title58: "Module 8: Load Balancing and Auto Scaling",
+title59: "Module 9: Monitoring and Logging",
+title60: "Module 10: Capstone Project and Certification Prep",
+button5: "Download Curriculum",
+topic1: [
+  "Basics of Cloud Computing and AWS Architecture",
+  "AWS Free Tier Account Setup",
+  "Global Infrastructure: Regions and Availability Zones"
+],
+topic2: [
+  "EC2 Instance Launch and Configuration",
+  "Security Groups and Key Pairs",
+  "Elastic IP and AMIs"
+],
+topic3: [
+  "S3 Buckets, Lifecycle Policies",
+  "EBS Volume and Snapshots",
+  "Data Archiving with Glacier"
+],
+topic4: [
+  "Users, Groups, and Roles",
+  "Policies and Permissions",
+  "Multi-Factor Authentication (MFA)"
+],
+topic5: [
+  "Subnets, Route Tables, and Internet Gateways",
+  "NAT, VPN, and Peering",
+  "Security Groups vs NACLs"
+],
+topic6: [
+  "Writing and Deploying Lambda Functions",
+  "Triggering Lambda with S3 and API Gateway",
+  "Monitoring with CloudWatch"
+],
+topic7: [
+  "Launching RDS Instances",
+  "Backup and Multi-AZ Deployment",
+  "Introduction to DynamoDB"
+],
+topic8: [
+  "Setting Up Elastic Load Balancer (ELB)",
+  "Auto Scaling Groups and Policies",
+  "Health Checks and Scaling Triggers"
+],
+topic9: [
+  "Amazon CloudWatch for Metrics and Alarms",
+  "AWS CloudTrail for Auditing",
+  "SNS and Notifications"
+],
+topic10: [
+  "Real-Time Project Deployment",
+  "Certification Exam Practice Tests",
+  "Resume and Interview Preparation"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for AWS in Chennai",
   title40: "Onsite Training:",
@@ -16453,31 +16674,41 @@ desc23: "We provide three months of email and forum support, access to updated l
   designation3: "DevOps Engineer",
   designation4: "Solutions Architect",
   designation5: "Cloud Consultant",
-  review1: "The AWS training at IntelliMindz gave me the confidence to handle cloud infrastructure at my company.",
-  review2: "Excellent trainers and real-world projects made the learning experience highly practical.",
-  review3: "The placement support helped me secure a cloud developer role quickly after course completion.",
-  review4: "Interactive sessions and hands-on labs made complex AWS concepts easy to understand.",
-  review5: "Great course for anyone wanting to build a career in cloud computing and AWS services.",
-  title44: "What is AWS Cloud Computing?",
-  title45: "Who should take this AWS training?",
-  title46: "Do I need prior cloud experience?",
-  title47: "Is AWS certification valuable in 2025?",
-  title48: "What are the core AWS services covered?",
-  title49: "Is the training available online?",
-  title50: "Will I get practical cloud experience?",
-  title51: "Do you provide placement assistance?",
-  title52: "Can freshers enroll in this course?",
-  title53: "Is AWS certification included?",
-  desc14: "AWS is a comprehensive cloud platform offering infrastructure, services, and tools for building scalable applications.",
-  desc15: "IT professionals, developers, and beginners looking to start a cloud career.",
-  desc16: "No prior cloud experience is required; we start with fundamentals and advance gradually.",
-  desc17: "Yes, AWS skills and certification are highly in demand in the current job market.",
-  desc18: "We cover compute, storage, networking, security, serverless, and automation services.",
-  desc19: "Yes, both live online and classroom training options are available.",
-  desc20: "Absolutely, hands-on labs and projects simulate real cloud environments.",
-  desc21: "Yes, we offer dedicated placement assistance and interview preparation.",
-  desc22: "Yes, freshers are welcome to join and build strong cloud computing foundations.",
-  desc23: "AWS certification preparation is integrated into the curriculum.",
+review1: "Enrolling in the AWS Training in Chennai at CloudTech Academy was transformative. The hands-on EC2 and S3 labs, combined with in-depth VPC and IAM modules, prepared me to clear the AWS Solutions Architect exam on my first try!",
+review2: "I researched many providers but chose this AWS course in Chennai because of their real-time project focus. Building serverless apps with Lambda and API Gateway in class gave me confidence, and the placement team secured multiple interviews.",
+review3: "The trainers at this institute are AWS-certified experts. The AWS Training in Chennai balanced theoretical concepts like cloud architecture best practices with practical exercises on RDS setup and CloudFormation scripting.",
+review4: "As a working professional, the online AWS Training in Chennai was ideal. The live sessions were interactive, the recordings helped in revision, and the 24×7 lab access on AWS Free Tier accelerated my learning.",
+review5: "Post-training, I received one-on-one resume coaching and mock interviews tailored for AWS roles. Within two months of completing the AWS course in Chennai, I landed a DevOps position with a 40% salary hike!",
+
+title44: "Why should I enroll in AWS Training in Chennai?",
+desc14: "Our AWS Training in Chennai offers hands-on labs on EC2, S3, RDS, and VPC configuration. Recognized as the Best AWS Training Institute in Chennai, we focus on real-world cloud computing use cases and AWS Certified Solutions Architect exam prep.",
+
+title45: "What topics does the AWS course in Chennai cover?",
+desc15: "The AWS course in Chennai covers core services like EC2, S3, IAM, and Lambda; networking with VPC; database options (RDS, DynamoDB); deployment automation with CloudFormation; and monitoring with CloudWatch.",
+
+title46: "Is this AWS Training in Chennai suitable for beginners?",
+desc16: "Yes. Our AWS Training in Chennai starts with cloud fundamentals, infrastructure as a service (IaaS), and basic CLI commands before progressing to advanced topics like serverless architecture and container orchestration.",
+
+title47: "What are the prerequisites for the AWS course in Chennai?",
+desc17: "Basic IT knowledge and familiarity with Linux commands or Windows Server is helpful. Our AWS course in Chennai also includes a refresher on virtualization, networking, and Linux basics for absolute beginners.",
+
+title48: "Do you provide certification guidance in AWS Training in Chennai?",
+desc18: "Absolutely. As the Best AWS Training Institute in Chennai, we offer dedicated sessions for AWS Certified Solutions Architect, AWS Certified Developer, and AWS Certified SysOps Administrator exams, complete with mock tests and exam tips.",
+
+title49: "Will I get hands-on experience in the AWS course in Chennai?",
+desc19: "Yes. Each module in our AWS Training in Chennai includes practical exercises on EC2 instance launch, S3 bucket configuration, IAM role management, Lambda functions, and setting up CI/CD pipelines with AWS CodePipeline.",
+
+title50: "Is online AWS Training in Chennai available?",
+desc20: "We provide both classroom and live instructor-led online AWS Training in Chennai, with recorded sessions for flexible learning and 24/7 lab access to AWS Free Tier for practice.",
+
+title51: "What career benefits can I expect after completing the AWS course in Chennai?",
+desc21: "Graduates of our AWS course in Chennai qualify for roles like Cloud Engineer, DevOps Engineer, Solutions Architect, and Cloud Consultant, commanding higher salaries and global opportunities.",
+
+title52: "Why are you the Best AWS Training Institute in Chennai?",
+desc22: "We combine expert-certified trainers, small batch sizes, up-to-date AWS curriculum, real-time project work, and dedicated placement assistance to ensure you excel in both skills and certifications.",
+
+title53: "Do you offer placement support after AWS Training in Chennai?",
+desc23: "Yes. Our placement cell helps with resume optimization, mock interviews, and connects you with top MNCs and startups hiring AWS-certified professionals in Chennai and beyond.",
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get answers to your questions about our AWS training in Chennai.",
   title55: "Navigate your cloud career ambitions with our expert guidance.",
@@ -16486,10 +16717,10 @@ desc23: "We provide three months of email and forum support, access to updated l
           pagetitle: "Best AWS Training in Chennai | Practical Oriented AWS Cloud Certification Course",
         pagedescription: "Join IntelliMindz for top AWS training in Chennai. Master Amazon Web Services cloud computing with hands-on projects and prepare for certification.",
         pagekeywords: "aws training in chennai, aws course, amazon web services, cloud computing, aws certification, intellimindz",
-        pageogurl: "https://localhost:3000/aws_training_in_chennai",
+        pageogurl: "https://localhost:3000/aws-training-in-chennai",
 },
 {
-  id: 'dell_emc_training_in_chennai',
+  id: 'dell-ems-training-in-chennai',
   title1: "Best Dell EMC Training in Chennai",
   title2: "Elevate your storage and cloud skills with expert-led Dell EMC Training in Chennai. Gain hands-on knowledge on Dell EMC technologies and solutions.",
   button2: "Enroll Now",
@@ -16562,19 +16793,67 @@ desc23: "We provide three months of email and forum support, access to updated l
   title29: "Dell EMC Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to Dell EMC Storage Solutions",
-  title33: "Module 2: Storage Networking and SAN Technologies",
-  title34: "Module 3: Data Protection and Backup Solutions",
-  title35: "Module 4: Cloud Infrastructure with Dell EMC",
-  title36: "Module 5: Storage Security and Compliance",
-  title37: "Module 6: Real-World Projects and Case Studies",
-  button5: "Download Curriculum",
-  topic1: ["Overview of Dell EMC Portfolio", "Storage Architectures", "Flash Storage Basics", "Storage Virtualization", "Storage Management Tools"],
-  topic2: ["SAN and NAS Technologies", "Fibre Channel Fundamentals", "iSCSI Configuration", "Multipathing", "Network Storage Security"],
-  topic3: ["Backup Strategies", "Replication Technologies", "Disaster Recovery Planning", "Data Deduplication", "Backup Software Tools"],
-  topic4: ["Dell EMC Cloud Storage", "Hybrid Cloud Concepts", "Cloud Deployment Models", "Cloud Backup and Recovery", "Cloud Security Essentials"],
-  topic5: ["Storage Encryption", "Access Control", "Audit and Compliance", "Data Retention Policies", "Risk Management"],
-  topic6: ["Deploying Storage Solutions", "Configuring SAN Environments", "Backup and Restore Projects", "Cloud Migration", "Performance Tuning"],
+title32: "Module 1: Introduction to Dell EMS",
+title33: "Module 2: Server Management with OpenManage",
+title34: "Module 3: Storage Monitoring with Unisphere",
+title35: "Module 4: PowerEdge Server Lifecycle Management",
+title36: "Module 5: Dell PowerProtect Data Manager",
+title37: "Module 6: Automation with Scripting Tools",
+title57: "Module 7: Network Management in EMS",
+title58: "Module 8: Role-Based Access and Compliance",
+title59: "Module 9: Integrations and APIs",
+title60: "Module 10: Capstone Project and Certification Preparation",
+button5: "Download Curriculum",
+topic1: [
+  "Overview of Dell Technologies",
+  "EMS Architecture and Benefits",
+  "Use Cases in Modern IT Infrastructure"
+],
+topic2: [
+  "Installing and Configuring OpenManage",
+  "Server Discovery and Inventory",
+  "Real-Time Monitoring and Alerts"
+],
+topic3: [
+  "EMC Storage Fundamentals",
+  "Configuring Unisphere Interfaces",
+  "Managing Storage Pools and LUNs"
+],
+topic4: [
+  "BIOS and Firmware Upgrades",
+  "iDRAC Configuration and Access",
+  "Lifecycle Controller Tasks"
+],
+topic5: [
+  "Backup Policy Setup",
+  "Data Recovery Procedures",
+  "Managing Retention and Compliance"
+],
+topic6: [
+  "Introduction to PowerShell and CLI",
+  "Automating Backup and Monitoring Tasks",
+  "Script Scheduling and Logging"
+],
+topic7: [
+  "Network Device Discovery",
+  "SNMP Monitoring and Configuration",
+  "Firewall and Connectivity Settings"
+],
+topic8: [
+  "Creating User Roles and Permissions",
+  "Audit Trails and Logs",
+  "Security and Policy Management"
+],
+topic9: [
+  "EMS Integration with Third-Party Tools",
+  "Using REST APIs in Dell EMS",
+  "Dashboard and Alert Customization"
+],
+topic10: [
+  "Live EMS Implementation Scenario",
+  "Certification Prep and Mock Test",
+  "Resume Building and Interview Q&A"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for Dell EMC in Chennai",
   title40: "Onsite Training:",
@@ -16600,31 +16879,42 @@ desc23: "We provide three months of email and forum support, access to updated l
   designation3: "Infrastructure Analyst",
   designation4: "Dell EMC Trainee",
   designation5: "Data Center Manager",
-  review1: "The practical training helped me manage real Dell EMC storage systems confidently.",
-  review2: "Trainers explained complex concepts clearly and supported all our doubts patiently.",
-  review3: "Hands-on labs with Dell EMC hardware made the learning experience exceptional.",
-  review4: "Excellent course with ongoing mentorship and career support.",
-  review5: "Highly recommended for anyone looking to specialize in Dell EMC technologies.",
-  title44: "What is Dell EMC used for?",
-  title45: "Who should take this Dell EMC training?",
-  title46: "Do I need prior experience with storage technologies?",
-  title47: "Is Dell EMC certification valuable in 2025?",
-  title48: "What certifications does this training prepare me for?",
-  title49: "Is the training available online?",
-  title50: "Will there be hands-on practice?",
-  title51: "Do you offer job preparation support?",
-  title52: "Can non-IT professionals join this course?",
-  title53: "Is this course suitable for freshers?",
-  desc14: "Dell EMC technologies are used for enterprise storage, backup, cloud, and data center infrastructure management.",
-  desc15: "Storage admins, IT infrastructure engineers, network professionals, and cloud specialists.",
-  desc16: "Basic IT knowledge is helpful; foundational concepts are covered in the course.",
-  desc17: "Yes, Dell EMC certifications remain in high demand for storage and cloud roles.",
-  desc18: "Training prepares you for Dell EMC Proven Professional certifications.",
-  desc19: "Yes, we provide live virtual and classroom training options.",
-  desc20: "Absolutely, with access to real and simulated labs throughout the course.",
-  desc21: "Placement assistance, mock interviews, and resume guidance are included.",
-  desc22: "Non-IT professionals with a keen interest in storage and cloud can enroll.",
-  desc23: "Yes, freshers with a basic IT background can benefit greatly.",
+review1: "The Dell EMS Training in Chennai at TechLabs was outstanding. We configured OpenManage Enterprise end to end, automated patch cycles, and monitored hardware health in real time. The hands-on labs prepared me for my role as an Infrastructure Engineer.",
+review2: "I chose TechLabs because of their reputation as the Best Dell EMS Training Institute in Chennai. The course content was up-to-date, covering OMSA, iDRAC, and secure remote management. Their placement team helped me land a support consultant role within weeks.",
+review3: "The weekend Dell EMS course in Chennai fit my schedule perfectly. The online labs were interactive, and the trainer was always available for doubt-clearing sessions via chat and email.",
+review4: "After completing the Dell EMS Training in Chennai, I implemented automated firmware updates and compliance reporting at my company. This certification helped me secure a promotion as Senior IT Operations Manager.",
+review5: "The instructors at TechLabs guided me through every module—from asset discovery to advanced alert configuration. Their career counseling sessions and mock interviews made a huge difference in my job search.",
+
+title44: "Why should I enroll in Dell EMS Training in Chennai?",
+desc14: "Our Dell EMS Training in Chennai provides hands-on labs with real-world endpoint management, patch deployment, and security compliance scenarios. As the Best Dell EMS Training Institute in Chennai, we ensure you master Dell’s Enterprise Management Suite and its best practices.",
+
+title45: "What topics are covered in the Dell EMS course in Chennai?",
+desc15: "The Dell EMS course in Chennai covers installation of Dell Remote Access Controller, configuration of OpenManage Enterprise, agent deployment, patch management, asset discovery, monitoring and alerting, security hardening, and integration with Active Directory.",
+
+title46: "Is this Dell EMS Training in Chennai suitable for beginners?",
+desc16: "Yes. Our Dell EMS Training in Chennai starts from foundational concepts like network discovery and system inventory, then progresses through advanced modules on automated patch workflows, role-based access control and compliance reporting.",
+
+title47: "What are the prerequisites for the Dell EMS course in Chennai?",
+desc17: "Basic knowledge of Windows/Linux administration and networking fundamentals is helpful but not mandatory. Our Dell EMS course in Chennai includes introductory sessions on server management and SNMP/WSMAN protocols to level the playing field.",
+
+title48: "Do you provide certification assistance after Dell EMS Training in Chennai?",
+desc18: "Absolutely. We assist you in preparing for Dell Certified Systems Expert (EMC) credentials and provide mock exams and study guides, making us the Best Dell EMS Training Institute in Chennai for exam readiness.",
+
+title49: "Will I get hands-on experience during the Dell EMS course in Chennai?",
+desc19: "Yes, you’ll configure live Dell PowerEdge servers, deploy OMSA agents, create patch baselines, schedule firmware updates, and build custom reports—all within our fully equipped lab environment.",
+
+title50: "Is online Dell EMS Training in Chennai available?",
+desc20: "Yes, we offer instructor-led online Dell EMS Training in Chennai with live demonstrations, downloadable virtual labs, and 24/7 access to course recordings for flexible learning.",
+
+title51: "What career roles can I pursue after Dell EMS Training in Chennai?",
+desc21: "Graduates of our Dell EMS course in Chennai often become Systems Administrators, Infrastructure Engineers, Support Consultants, and IT Operations Managers specializing in enterprise server and endpoint management.",
+
+title52: "Why is your institute the Best Dell EMS Training Institute in Chennai?",
+desc22: "We combine certified Dell instructors, small batch sizes, project-based curriculum, and dedicated placement support—ensuring you graduate job-ready with in-depth Dell EMS expertise.",
+
+title53: "Do you offer placement assistance after Dell EMS Training in Chennai?",
+desc23: "Yes, our placement cell provides resume workshops, mock interviews, and direct referrals to Dell partners and top IT firms, making us the go-to Best Dell EMS Training Institute in Chennai for career launch.",
+
   title54: "Have a Question with Our",
   paragraph10: "Get answers to your queries about our Dell EMC training in Chennai here.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -16633,11 +16923,11 @@ desc23: "We provide three months of email and forum support, access to updated l
           pagetitle: "Best Dell EMC Training in Chennai | Practical Oriented Dell EMC Storage/Data Protection Course",
         pagedescription: "Join IntelliMindz for top Dell EMC training in Chennai. Master storage solutions, data protection, and cloud infrastructure with hands-on projects and expert guidance.",
         pagekeywords: "dell emc training in chennai, dell emc course, data storage, data protection, cloud infrastructure, intellimindz",
-        pageogurl: "https://localhost:3000/dell_emc_training_in_chennai",
+        pageogurl: "https://localhost:3000/dell-ems-training-in-chennai",
 
 },
 {
-  id: 'jmeter_training_in_chennai',
+  id: 'jmeter-training-in-chennai',
   title1: "Best JMeter Training in Chennai",
   title2: "Enhance your performance testing skills with our expert-led JMeter Training in Chennai. Master load testing and automation to ensure your applications run flawlessly.",
   button2: "Enroll Now",
@@ -16710,19 +17000,67 @@ desc23: "We provide three months of email and forum support, access to updated l
   title29: "JMeter Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to Performance Testing and JMeter",
-  title33: "Module 2: JMeter Test Plan and Elements",
-  title34: "Module 3: Thread Groups and Controllers",
-  title35: "Module 4: Listeners and Reporting",
-  title36: "Module 5: Parameterization and Correlation",
-  title37: "Module 6: Real-Time Projects and Performance Analysis",
-  button5: "Download Curriculum",
-  topic1: ["Basics of Performance Testing", "JMeter Architecture", "Installation and Setup", "Use Cases of JMeter", "Understanding Test Plans"],
-  topic2: ["Test Plan Components", "Samplers and Timers", "Assertions", "Configuration Elements", "Pre-Processors & Post-Processors"],
-  topic3: ["Thread Group Configuration", "Controllers: Logic, Loop, etc.", "Scheduling & Load Profiles", "Debugging Test Plans", "Best Practices"],
-  topic4: ["Using Listeners", "Generating Reports", "Monitoring Test Results", "Analyzing Performance Metrics", "Exporting Data"],
-  topic5: ["Parameterizing Tests", "Correlation Techniques", "Data-Driven Testing", "CSV Data Set Config", "Regular Expressions"],
-  topic6: ["Load Testing Project", "Stress Testing Project", "Bottleneck Identification", "Performance Tuning", "Certification Exam Prep"],
+title32: "Module 1: Introduction to Performance Testing",
+title33: "Module 2: Installing and Configuring JMeter",
+title34: "Module 3: Building Test Plans",
+title35: "Module 4: HTTP Request and Web Testing",
+title36: "Module 5: Assertions and Timers",
+title37: "Module 6: Correlation and Session Handling",
+title57: "Module 7: Distributed and Remote Testing",
+title58: "Module 8: API and Database Testing",
+title59: "Module 9: Integration and Scripting",
+title60: "Module 10: Real-Time Project and Certification Prep",
+button5: "Download Curriculum",
+topic1: [
+  "Basics of Performance and Load Testing",
+  "Types of Performance Testing",
+  "Introduction to Apache JMeter"
+],
+topic2: [
+  "JMeter Installation and Configuration",
+  "Test Plan and Thread Groups",
+  "Elements of a JMeter Test Plan"
+],
+topic3: [
+  "Samplers and Listeners",
+  "Config Elements and Logic Controllers",
+  "Test Execution and Reporting"
+],
+topic4: [
+  "Web Application Load Testing",
+  "HTTP Request Configuration",
+  "Parameterization with CSV Data Set Config"
+],
+topic5: [
+  "Response Assertion",
+  "Duration and Constant Timers",
+  "Debug Sampler Usage"
+],
+topic6: [
+  "Handling Dynamic Values (Correlation)",
+  "Regular Expression Extractor",
+  "Debugging Techniques"
+],
+topic7: [
+  "Setting Up Remote Servers",
+  "Master-Slave Configuration",
+  "Executing Distributed Load Tests"
+],
+topic8: [
+  "REST API Load Testing",
+  "JDBC Request Configuration",
+  "Validating API Responses"
+],
+topic9: [
+  "JMeter with Jenkins Integration",
+  "BeanShell and JSR223 Scripting",
+  "Creating Custom Functions"
+],
+topic10: [
+  "Final Project: Web App Load Testing",
+  "Certification Practice Questions",
+  "Interview and Resume Preparation"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for JMeter in Chennai",
   title40: "Onsite Training:",
@@ -16748,31 +17086,41 @@ desc23: "We provide three months of email and forum support, access to updated l
   designation3: "Automation Tester",
   designation4: "JMeter Trainee",
   designation5: "Test Lead",
-  review1: "The practical labs gave me confidence to handle real load testing projects.",
-  review2: "Trainers explained complex concepts in an easy-to-understand way.",
-  review3: "Great course structure and support helped me clear my certification exam.",
-  review4: "Excellent mentorship and hands-on exercises throughout the training.",
-  review5: "Highly recommend IntelliMindz for anyone looking to build JMeter skills.",
-  title44: "What is JMeter used for?",
-  title45: "Who should take this JMeter training?",
-  title46: "Do I need prior performance testing experience?",
-  title47: "Is JMeter training relevant in 2025?",
-  title48: "What’s the difference between JMeter and other testing tools?",
-  title49: "Is the training available online?",
-  title50: "Will there be hands-on practice?",
-  title51: "Do you offer job preparation support?",
-  title52: "Can I learn JMeter without prior coding knowledge?",
-  title53: "Is JMeter suitable for freshers?",
-  desc14: "JMeter is a powerful open-source tool used for load and performance testing of web applications.",
-  desc15: "QA professionals, testers, developers, and freshers wanting to specialize in performance testing.",
-  desc16: "Basic testing knowledge helps, but we cover fundamentals from scratch.",
-  desc17: "Yes, JMeter remains one of the top tools in performance testing in 2025.",
-  desc18: "JMeter is open-source and focused on load testing; others may be commercial or focused on different testing types.",
-  desc19: "Yes, we offer live virtual classes with full interaction and lab support.",
-  desc20: "Hands-on labs and projects are included with every training module.",
-  desc21: "We provide resume help, interview preparation, and job guidance.",
-  desc22: "Absolutely. No prior coding experience is required to start this course.",
-  desc23: "Yes, freshers can learn and become job-ready through our guided program.",
+review1: "Enrolling in the JMeter Training in Chennai was a turning point in my QA journey. The hands-on load testing labs and real-time projects helped me understand thread groups, timers, and listeners deeply. Within two months, I was leading performance testing efforts at my company.",
+review2: "I researched multiple institutes before selecting this one. Their JMeter course in Chennai covered everything—distributed testing, Jenkins integration, and in-depth assertion strategies. The small batches ensured I got one-on-one attention, making it an outstanding learning experience.",
+review3: "As a working professional, I opted for the online JMeter Training in Chennai. The recorded sessions, interactive Q&A, and 24×7 lab access made it easy to upskill without disrupting my job. The placement team helped me land a role as a Performance Automation Engineer.",
+review4: "The JMeter course in Chennai included real-world scenarios, like simulating thousands of concurrent users and integrating results with Grafana dashboards. The instructor’s mentorship was invaluable—he guided me through bottleneck analysis and tuning strategies.",
+review5: "After completing the JMeter Training in Chennai, I showcased a complex API performance test in my interview and secured a 25% salary hike. The course’s focus on best practices, parameterization, and correlation gave me the edge I needed.",
+title44: "Why should I choose your JMeter Training in Chennai?",
+desc14: "Our JMeter Training in Chennai offers hands-on performance testing labs, real-world load testing projects, and certified instructors with industry experience. As the Best JMeter Training Institute in Chennai, we deliver practical Apache JMeter tutorials to prepare you for enterprise-scale performance testing.",
+
+title45: "What topics are covered in the JMeter course in Chennai?",
+desc15: "The JMeter course in Chennai covers test plan creation, thread groups, samplers, controllers, listeners, assertions, parameterization, correlation, distributed testing, and integration with CI/CD pipelines to build end-to-end performance scripts.",
+
+title46: "Is this JMeter Training in Chennai suitable for beginners?",
+desc16: "Yes! Our JMeter Training in Chennai starts with fundamentals—installing JMeter, GUI walkthrough, and basic HTTP requests—before moving on to advanced performance testing, stress testing, and real-time monitoring with Grafana and InfluxDB.",
+
+title47: "What are the prerequisites for the JMeter course in Chennai?",
+desc17: "Basic knowledge of web applications and JSON/XML helps, but isn’t mandatory. Our JMeter course in Chennai includes an introductory module on HTTP, REST APIs, and performance testing concepts, ensuring even absolute beginners master JMeter quickly.",
+
+title48: "Will I get hands-on experience during the JMeter Training in Chennai?",
+desc18: "Absolutely. You’ll execute real-time load tests against sample web applications, analyze performance metrics, generate actionable reports, and troubleshoot bottlenecks using JMeter’s listeners and external monitoring tools.",
+
+title49: "Do you provide certification assistance with the JMeter course in Chennai?",
+desc19: "Yes. Our JMeter Training in Chennai includes mock certification exams, performance testing checklists, and interview question practice to help you earn certificates like the BlazeMeter Certified JMeter Tester.",
+
+title50: "Is your JMeter Training in Chennai available online?",
+desc20: "Certainly. We offer live instructor-led online JMeter Training in Chennai with recorded sessions, interactive Q&A, and 24×7 lab access so you can learn performance and load testing tools on your schedule.",
+
+title51: "What career benefits can I expect after JMeter Training in Chennai?",
+desc21: "After completing our JMeter course in Chennai, you can take on roles like Performance Test Engineer, QA Automation Engineer, or DevOps Specialist, focusing on scalable load testing, stress tests, and continuous performance integration.",
+
+title52: "Why are you the Best JMeter Training Institute in Chennai?",
+desc22: "We offer small batch sizes, personalized mentoring, real-time projects, and post-training support—making us the Best JMeter Training Institute in Chennai for mastering Apache JMeter and performance automation.",
+
+title53: "Do you offer placement support after the JMeter course in Chennai?",
+desc23: "Yes. In addition to JMeter Training in Chennai, we provide resume workshops, mock interviews, and direct job referrals to IT and QA firms looking for skilled JMeter and performance testing professionals.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your question about our JMeter course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -16781,10 +17129,10 @@ desc23: "We provide three months of email and forum support, access to updated l
           pagetitle: "Best JMeter Training in Chennai | Practical Oriented JMeter Performance Testing Course",
         pagedescription: "Join IntelliMindz for top JMeter training in Chennai. Master open-source performance testing and load testing with hands-on projects and expert guidance.",
         pagekeywords: "jmeter training in chennai, jmeter course, performance testing, load testing, api testing, intellimindz",
-        pageogurl: "https://localhost:3000/jmeter_training_in_chennai",
+        pageogurl: "https://localhost:3000/jmeter-training-in-chennai",
 },
 {
-  id: 'hp_uft_training_in_chennai',
+  id: 'hp-uft-training-in-chennai',
   title1: "Best HP UFT Training in Chennai",
   title2: "Master automated functional and regression testing with our expert-led HP UFT Training – your pathway to quality assurance excellence.",
   button2: "Enroll Now",
@@ -16857,19 +17205,67 @@ desc23: "We provide three months of email and forum support, access to updated l
   title29: "HP UFT Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to HP UFT",
-  title33: "Module 2: VBScript Basics for Automation",
-  title34: "Module 3: Working with Object Repository",
-  title35: "Module 4: Data-Driven Testing Techniques",
-  title36: "Module 5: Integrating UFT with ALM",
-  title37: "Module 6: Advanced Automation & Frameworks",
-  button5: "Download Curriculum",
-  topic1: ["Overview of HP UFT", "Test Automation Basics", "UFT Interface and Features"],
-  topic2: ["VBScript Syntax", "Variables and Data Types", "Control Statements and Functions"],
-  topic3: ["Object Repository Management", "Dynamic Objects Handling", "Descriptive Programming"],
-  topic4: ["Parameterization", "Data Table Management", "Excel Integration"],
-  topic5: ["Integration with ALM", "Test Management", "Execution and Reporting"],
-  topic6: ["Recovery Scenarios", "Checkpoints", "Building Reusable Frameworks"],
+title32: "Module 1: Introduction to HP UFT",
+title33: "Module 2: Basics of VBScript",
+title34: "Module 3: Working with Object Repository",
+title35: "Module 4: Recording and Running Tests",
+title36: "Module 5: Parameterization and Data-Driven Testing",
+title37: "Module 6: Synchronization and Recovery Scenarios",
+title57: "Module 7: Actions and Modular Testing",
+title58: "Module 8: HP UFT Integration with ALM",
+title59: "Module 9: Advanced UFT Features",
+title60: "Module 10: Project Work and Certification Preparation",
+button5: "Download Curriculum",
+topic1: [
+  "Overview of Automation Testing",
+  "HP UFT Architecture and Features",
+  "Installing and Configuring UFT"
+],
+topic2: [
+  "Data Types and Variables",
+  "Control Statements and Loops",
+  "Functions and Arrays"
+],
+topic3: [
+  "Understanding Object Repositories",
+  "Creating and Managing Objects",
+  "Object Identification Techniques"
+],
+topic4: [
+  "Types of Recording Modes",
+  "Running and Debugging Test Scripts",
+  "Using Checkpoints and Output Values"
+],
+topic5: [
+  "Parameterizing Test Data",
+  "Using Excel and Databases for Data-Driven Tests",
+  "Environment Variables and Test Settings"
+],
+topic6: [
+  "Sync Methods and Best Practices",
+  "Handling Pop-ups and Exceptions",
+  "Recovery Scenario Manager"
+],
+topic7: [
+  "Creating and Using Actions",
+  "Modularizing Tests for Reusability",
+  "Call to Action and Test Flow Control"
+],
+topic8: [
+  "Overview of ALM and its Features",
+  "Test Management using ALM",
+  "Uploading and Managing Test Results"
+],
+topic9: [
+  "Using Descriptive Programming",
+  "Working with XML and Web Services",
+  "Parameterizing Environment Variables"
+],
+topic10: [
+  "Real-Time Project Simulation",
+  "Certification Exam Tips and Practice",
+  "Resume Building and Interview Preparation"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for HP UFT in Chennai",
   title40: "Onsite Training:",
@@ -16895,31 +17291,42 @@ desc23: "We provide three months of email and forum support, access to updated l
   designation3: "Test Automation Specialist",
   designation4: "Senior QA Analyst",
   designation5: "Software Tester",
-  review1: "IntelliMindz's HP UFT training helped me gain confidence in automating complex test scenarios.",
-  review2: "The hands-on projects and expert trainers made learning effective and fun.",
-  review3: "Flexible timings and comprehensive curriculum suited my busy schedule perfectly.",
-  review4: "I was able to switch to an automation role successfully after completing this course.",
-  review5: "Great support from placement team and career guidance throughout the program.",
-  title44: "What is HP UFT?",
-  title45: "Who should take this HP UFT training?",
-  title46: "Do I need programming experience for UFT?",
-  title47: "Is HP UFT still relevant in 2025?",
-  title48: "How does UFT compare with other automation tools?",
-  title49: "Is this training available online?",
-  title50: "Will I get practical exposure?",
-  title51: "Do you provide placement assistance?",
-  title52: "Can beginners join this course?",
-  title53: "Is certification offered?",
-  desc14: "HP UFT is a popular test automation tool for functional and regression testing of desktop, web, and mobile applications.",
-  desc15: "QA testers, manual testers looking to learn automation, and freshers interested in test automation careers.",
-  desc16: "Basic programming knowledge helps but is not mandatory; VBScript is taught from scratch.",
-  desc17: "Yes, UFT remains a leading automation tool widely used in enterprises worldwide.",
-  desc18: "UFT provides comprehensive features, integrates well with ALM, and supports a wide range of technologies.",
-  desc19: "Yes, we offer instructor-led live online and classroom sessions.",
-  desc20: "Hands-on projects, real-time scenarios, and assignments are part of the course curriculum.",
-  desc21: "We assist with resume building, mock interviews, and job placement support.",
-  desc22: "Absolutely, the course is beginner-friendly with step-by-step guidance.",
-  desc23: "A course completion certificate is provided and guidance for vendor certification is included.",
+review1: "Enrolling in the HP UFT Training in Chennai was transformative. The instructor guided us through every checkpoint, parameterization, and recovery scenario. The real-time projects on web and desktop applications made me job-ready as an Automation Test Engineer.",
+review2: "This institute truly deserves the title. The HP UFT course in Chennai covered everything from VBScript basics to integrating UFT tests with Jenkins pipelines. The small class size ensured personalized attention and doubt-clearing sessions.",
+review3: "I opted for the online HP UFT Training in Chennai batch and was impressed by the live labs and recorded tutorials. The trainers were always available on chat to answer questions about object repositories and dynamic object handling.",
+review4: "The UFT course included real-world scenarios like data-driven testing for e-commerce and API automation using UFT’s web services add-ins. This practical focus gave me confidence to implement keyword-driven and hybrid frameworks at work.",
+review5: "After completing the HP UFT Training in Chennai, I got placed by their placement cell within a month. The mock interviews and CV feedback were invaluable—helping me secure a role as a Senior Automation Tester with a salary hike.",
+
+title44: "Why should I join HP UFT Training in Chennai?",
+desc14: "Our HP UFT Training in Chennai offers hands-on automation testing labs, real-world QTP to UFT migration projects, and certified instructors. As the Best HP UFT Training Institute in Chennai, we ensure you master functional test automation using VBScript and the UFT IDE.",
+
+title45: "What topics are covered in the HP UFT course in Chennai?",
+desc15: "The HP UFT course in Chennai covers test script creation, object repository, checkpoints, parameterization, data-driven testing, recovery scenarios, API testing, and integration with ALM for end-to-end automated test cycles.",
+
+title46: "Is this HP UFT Training in Chennai suitable for beginners?",
+desc16: "Yes. Our HP UFT Training in Chennai starts with basics—installing UFT, understanding the GUI, and writing your first VBScript—before advancing to modular frameworks, keyword-driven testing, and CI/CD integration.",
+
+title47: "What prerequisites are needed for the HP UFT course in Chennai?",
+desc17: "Basic knowledge of programming logic or any scripting language helps, but isn’t mandatory. Our HP UFT course in Chennai includes an introductory module on VBScript, test automation concepts, and software testing life cycle (STLC).",
+
+title48: "Will I get hands-on practice during HP UFT Training in Chennai?",
+desc18: "Absolutely. You’ll work on real-time automation projects—web, desktop, and mobile testing—using UFT’s Object Spy, Insight, and Add-ins, ensuring you can automate complex business applications confidently.",
+
+title49: "Do you provide certification guidance with the HP UFT course in Chennai?",
+desc19: "Yes. Our HP UFT Training in Chennai includes mock exams for the Micro Focus Certified Professional – UFT exam, test strategy discussions, and resume preparation for roles like Automation Test Engineer or UFT Developer.",
+
+title50: "Is online HP UFT Training in Chennai available?",
+desc20: "Certainly. We offer live online HP UFT Training in Chennai with interactive sessions, recorded lectures, and 24×7 lab access so you can learn functional test automation flexibly alongside your job.",
+
+title51: "What career roles can I pursue after HP UFT Training in Chennai?",
+desc21: "Graduates of our HP UFT course in Chennai can step into roles such as UFT Automation Engineer, QA Automation Specialist, Test Architect, or CI/CD Pipeline Integrator in Agile and DevOps environments.",
+
+title52: "Why are you the Best HP UFT Training Institute in Chennai?",
+desc22: "We combine small batch sizes, personalized mentoring, up-to-date UFT curriculum, and robust placement assistance—earning our reputation as the Best HP UFT Training Institute in Chennai.",
+
+title53: "Do you offer placement support after HP UFT Training in Chennai?",
+desc23: "Yes. In addition to HP UFT Training in Chennai, we provide resume workshops, mock interviews, and employer introductions with companies seeking skilled UFT and automation framework experts.",
+
   title54: "Have a Question with Our",
   paragraph10: "Find answers to your queries about the HP UFT training course in Chennai here.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -16928,10 +17335,10 @@ desc23: "We provide three months of email and forum support, access to updated l
           pagetitle: "Best HP UFT Training in Chennai | Practical Oriented HP UFT Automation Testing Course",
         pagedescription: "Join IntelliMindz for top HP UFT training in Chennai. Master automated functional and regression testing with hands-on projects and expert guidance.",
         pagekeywords: "hp uft training in chennai, hp uft course, automation testing, functional testing, regression testing, intellimindz",
-        pageogurl: "https://localhost:3000/hp_uft_training_in_chennai",
+        pageogurl: "https://localhost:3000/hp-uft-training-in-chennai",
 },
 {
-  id: 'microstrategy_training_in_chennai',
+  id: 'microstrategy-training-in-chennai',
   title1: "Best MicroStrategy Training in Chennai",
   title2: "Advance your analytics career with our expert-led MicroStrategy Training in Chennai. Learn business intelligence, dashboard creation, and enterprise reporting using MicroStrategy tools.",
   button2: "Enroll Now",
@@ -17004,19 +17411,67 @@ desc23: "We provide three months of email and forum support, access to updated l
   title29: "MicroStrategy Course Modules",
   title30: "Course Syllabus",
   title31: "Topics:",
-  title32: "Module 1: Introduction to MicroStrategy Platform",
-  title33: "Module 2: Report Creation and Formatting",
-  title34: "Module 3: Dashboard and Visualization Design",
-  title35: "Module 4: Data Modeling and Integration",
-  title36: "Module 5: Advanced Analytics and Scripting",
-  title37: "Module 6: Real-Time Projects and Case Studies",
-  button5: "Download Curriculum",
-  topic1: ["MicroStrategy Overview", "Architecture", "Installation", "User Interface", "Platform Components"],
-  topic2: ["Creating Reports", "Filters and Prompts", "Formatting Options", "Subtotals and Totals", "Exporting Reports"],
-  topic3: ["Dashboard Basics", "Visualization Types", "Widgets and Layouts", "Interactivity Features", "Mobile Dashboards"],
-  topic4: ["Data Modeling Concepts", "Schema Objects", "Data Import and Export", "Joining Data", "Data Warehouse Integration"],
-  topic5: ["Advanced Metrics", "VLDB Properties", "Scripting Basics", "Custom Calculations", "Performance Optimization"],
-  topic6: ["Enterprise Reporting Projects", "Dashboard Development", "Data Governance", "Deployment", "Project Review"],
+title32: "Module 1: Introduction to MicroStrategy",
+title33: "Module 2: Data Modeling in MicroStrategy",
+title34: "Module 3: Report Building Techniques",
+title35: "Module 4: Dashboard and Visualization",
+title36: "Module 5: Advanced Analytics",
+title37: "Module 6: MicroStrategy Architect and Metadata",
+title57: "Module 7: Mobile BI and MicroStrategy Library",
+title58: "Module 8: Data Connectivity and Integration",
+title59: "Module 9: Administration and Security",
+title60: "Module 10: Real-Time Project and Certification Prep",
+button5: "Download Curriculum",
+topic1: [
+  "Overview of Business Intelligence and Analytics",
+  "MicroStrategy Platform Components",
+  "Installing and Configuring MicroStrategy"
+],
+topic2: [
+  "Creating Logical and Physical Data Models",
+  "Schema Objects: Attributes, Facts, and Tables",
+  "Handling Data Relationships"
+],
+topic3: [
+  "Creating and Customizing Reports",
+  "Using Filters and Prompts",
+  "Advanced Report Formatting"
+],
+topic4: [
+  "Designing Interactive Dashboards",
+  "Visual Analytics and Graphical Objects",
+  "KPI and Metric Creation"
+],
+topic5: [
+  "Applying Statistical Functions",
+  "Predictive Analytics Overview",
+  "Using R and Python Integration"
+],
+topic6: [
+  "Understanding Metadata and Project Configuration",
+  "Security and User Management",
+  "Performance Optimization Techniques"
+],
+topic7: [
+  "Mobile Report and Dashboard Creation",
+  "Publishing and Managing Content on Mobile",
+  "User Access and Security on Mobile"
+],
+topic8: [
+  "Connecting MicroStrategy to Various Data Sources",
+  "Using ODBC, JDBC, and APIs",
+  "Data Import and Export"
+],
+topic9: [
+  "Managing Projects and Users",
+  "Data Security and Encryption",
+  "Audit and Compliance Features"
+],
+topic10: [
+  "Live Project Execution and Troubleshooting",
+  "Exam Tips and Mock Tests",
+  "Resume Building and Interview Guidance"
+],
   title38: "Batch Details",
   title39: "Corporate Training Modes for MicroStrategy in Chennai",
   title40: "Onsite Training:",
@@ -17042,31 +17497,42 @@ desc23: "We provide three months of email and forum support, access to updated l
   designation3: "MicroStrategy Developer",
   designation4: "BI Consultant",
   designation5: "Reporting Specialist",
-  review1: "IntelliMindz MicroStrategy training gave me practical skills that helped me create dashboards for my company.",
-  review2: "The trainers were knowledgeable and very supportive throughout the course.",
-  review3: "Hands-on projects and real-life examples made learning easy and effective.",
-  review4: "The course helped me pass MicroStrategy certification and boosted my career.",
-  review5: "I recommend IntelliMindz for anyone serious about BI and MicroStrategy skills.",
-  title44: "What is MicroStrategy used for?",
-  title45: "Who should take this MicroStrategy training?",
-  title46: "Do I need prior BI experience?",
-  title47: "Is MicroStrategy relevant in 2025?",
-  title48: "What skills will I gain?",
-  title49: "Is the training available online?",
-  title50: "Will there be hands-on practice?",
-  title51: "Do you offer job preparation support?",
-  title52: "Can I switch to MicroStrategy from a non-technical background?",
-  title53: "Is this training suitable for freshers?",
-  desc14: "MicroStrategy is a leading business intelligence platform for enterprise reporting and analytics.",
-  desc15: "BI professionals, data analysts, developers, and IT specialists looking to upskill in BI tools.",
-  desc16: "Basic BI knowledge is helpful but not mandatory; we cover fundamentals.",
-  desc17: "Yes, MicroStrategy continues to be widely used in enterprise BI solutions.",
-  desc18: "You will learn report/dashboard creation, data modeling, analytics, and platform administration.",
-  desc19: "Yes, live virtual training options are available.",
-  desc20: "Yes, extensive hands-on labs and project work are part of the course.",
-  desc21: "Job support including resume help and interview prep is offered.",
-  desc22: "Yes, with commitment you can transition into MicroStrategy roles.",
-  desc23: "Yes, freshers can learn and excel with our structured training program.",
+review1: "The MicroStrategy Training in Chennai gave me the skills to design enterprise dashboards and interactive dossiers. Real-time projects on sales and finance analytics boosted my confidence and helped me clear the MicroStrategy Developer certification.",
+review2: "I compared multiple institutes before choosing this one. The MicroStrategy course in Chennai covered every feature—from schema design to Mobile Intelligence. Their placement support helped me secure a role as a BI Analyst.",
+review3: "As a working professional, I chose the online MicroStrategy Training in Chennai. The live sessions, recorded classes, and virtual labs fit my schedule perfectly. The trainers were always available to resolve doubts.",
+review4: "The course’s focus on real-world use cases—like customer segmentation and KPI dashboards—was invaluable. I passed the MicroStrategy Certified Specialist exam on my first attempt thanks to their mock tests and study materials.",
+review5: "Trainers explained advanced analytics functions and performance tuning techniques clearly. Post-training support, including Q&A webinars and community access, helped me overcome challenges while working on live projects.",
+
+title44: "Why should I enroll in MicroStrategy Training in Chennai?",
+desc14: "Our MicroStrategy Training in Chennai offers hands-on labs, real-world BI project simulations, and expert instructors. As the Best MicroStrategy Training Institute in Chennai, we focus on dashboard creation, OLAP analytics, and enterprise reporting best practices.",
+
+title45: "Who is the MicroStrategy course in Chennai designed for?",
+desc15: "The MicroStrategy course in Chennai is ideal for data analysts, BI developers, project managers, and IT professionals seeking mastery in MicroStrategy Desktop, Web, and Mobile reporting platforms.",
+
+title46: "What topics are covered in the MicroStrategy Training in Chennai?",
+desc16: "You’ll learn data modeling, schema design, attribute and metric creation, report services, visualization techniques, document designer, and security administration—all core to an effective MicroStrategy course in Chennai.",
+
+title47: "Is this MicroStrategy Training in Chennai suitable for beginners?",
+desc17: "Yes. Our MicroStrategy Training in Chennai starts with foundational BI concepts, SQL basics, and the MicroStrategy interface before advancing to complex dossier designs, real-time data connectors, and advanced analytics.",
+
+title48: "Are there any prerequisites for the MicroStrategy course in Chennai?",
+desc18: "Basic knowledge of SQL and data warehousing helps, but isn’t mandatory. The MicroStrategy course in Chennai includes an introductory module on relational databases and ETL concepts to get everyone up to speed.",
+
+title49: "Will I get hands-on experience during the MicroStrategy Training in Chennai?",
+desc19: "Absolutely. We provide live projects—creating interactive dashboards, building dossier templates, configuring Mobile Intelligence apps, and performance tuning reports in our MicroStrategy Training in Chennai.",
+
+title50: "Do you offer MicroStrategy course in Chennai online?",
+desc20: "Yes, we offer instructor-led online MicroStrategy Training in Chennai with recorded sessions, virtual labs, and dedicated Q&A forums, ensuring flexible learning for working professionals.",
+
+title51: "How is this the Best MicroStrategy Training Institute in Chennai?",
+desc21: "We combine small batch sizes, real-time enterprise scenarios, one-on-one mentoring, and post-training support, making us the Best MicroStrategy Training Institute in Chennai for career growth in BI and analytics.",
+
+title52: "What certification guidance is provided in the MicroStrategy course in Chennai?",
+desc22: "Our MicroStrategy Training in Chennai includes exam prep for MicroStrategy Certified Specialist and Developer tracks, with mock tests, certification study guides, and expert tips for success.",
+
+title53: "Do you provide placement assistance after MicroStrategy Training in Chennai?",
+desc23: "Yes. We offer resume workshops, mock interviews, and direct job referrals to top IT and analytics firms, helping you launch your career as a MicroStrategy Developer or BI Analyst.",
+
   title54: "Have a Question with Our",
   paragraph10: "Here, you can get the answer to your questions about our MicroStrategy course in Chennai.",
   title55: "Navigate your career ambitions with our expert guidance.",
@@ -17075,10 +17541,10 @@ desc23: "We provide three months of email and forum support, access to updated l
           pagetitle: "Best MicroStrategy Training in Chennai | Practical Oriented MicroStrategy BI Course",
         pagedescription: "Join IntelliMindz for top MicroStrategy training in Chennai. Master enterprise business intelligence, dashboards, and mobile analytics with hands-on projects.",
         pagekeywords: "microstrategy training in chennai, microstrategy course, business intelligence, data visualization, enterprise analytics, intellimindz",
-        pageogurl: "https://localhost:3000/microstrategy_training_in_chennai",
+        pageogurl: "https://localhost:3000/microstrategy-training-in-chennai",
 },
 {
-  id: 'final_year_ieee_python_projects_chennai',
+  id: 'final-year-ieee-python-projects-chennai',
   title1: "Final Year IEEE Python Projects in Chennai",
   title2: "Showcase your skills with cutting-edge IEEE Python projects. Get hands-on experience and prepare to excel in your final year with industry-relevant Python solutions.",
   button2: "Enroll Now",
@@ -17244,10 +17710,10 @@ desc23: "Yes. The training is beginner-friendly with live sessions, hands-on cod
           pagetitle: "Final Year IEEE Python Projects in Chennai | Project Guidance & Development",
         pagedescription: "Get expert guidance for your final year IEEE Python projects in Chennai. IntelliMindz offers hands-on project development and support for students.",
         pagekeywords: "final year ieee python projects chennai, python projects, ieee projects, project guidance, python for engineering students, intellimindz",
-        pageogurl: "https://localhost:3000/final_year_ieee_python_projects_chennai",
+        pageogurl: "https://localhost:3000/final-year-ieee-python-projects-chennai",
 },
 {
-  id: 'test_complete_training_in_chennai',
+  id: 'test-complete-training-in-chennai',
   title1: "Best TestComplete Training in Chennai",
   title2: "Master automated functional and regression testing with our comprehensive TestComplete training led by experienced QA professionals.",
   button2: "Enroll Now",
@@ -17414,10 +17880,10 @@ desc23: "The typical duration of the TestComplete course is 30 to 40 hours, deli
           pagetitle: "Best TestComplete Training in Chennai | Practical Oriented TestComplete Automation Testing Course",
         pagedescription: "Join IntelliMindz for top TestComplete training in Chennai. Master automated testing for desktop, web, and mobile applications with hands-on projects.",
         pagekeywords: "test complete training in chennai, testcomplete course, automation testing, software testing, qa automation, intellimindz",
-        pageogurl: "https://localhost:3000/test_complete_training_in_chennai",
+        pageogurl: "https://localhost:3000/test-complete-training-in-chennai",
 },
 {
-  id: 'uipath_training_in_chennai',
+  id: 'uipath-training-in-chennai',
   title1: "Best UiPath Training in Chennai",
   title2: "Master Robotic Process Automation (RPA) with our expert-led UiPath Training in Chennai and fast-track your career in intelligent automation.",
   button2: "Enroll Now",
@@ -17584,10 +18050,10 @@ desc23: "The UIPath course typically lasts 30 to 40 hours and is available in bo
           pagetitle: "Best UiPath Training in Chennai | Practical Oriented UiPath RPA Course",
         pagedescription: "Join IntelliMindz for top UiPath training in Chennai. Master Robotic Process Automation (RPA) with hands-on projects and expert guidance.",
         pagekeywords: "uipath training in chennai, uipath course, rpa, robotic process automation, ui automation, intellimindz",
-        pageogurl: "https://localhost:3000/uipath_training_in_chennai",
+        pageogurl: "https://localhost:3000/uipath-training-in-chennai",
 },
 {
-  id: 'ssis_training_in_chennai',
+  id: 'ssis-training-in-chennai',
   title1: "Best SSIS Training in Chennai",
   title2: "Master data integration and ETL with our expert-led SSIS Training in Chennai. Learn SQL Server Integration Services from industry professionals.",
   button2: "Enroll Now",
@@ -17754,10 +18220,10 @@ desc23: "The SSIS course duration is typically 30 to 40 hours, with batch option
           pagetitle: "Best SSIS Training in Chennai | Practical Oriented SSIS ETL Course",
         pagedescription: "Join IntelliMindz for top SSIS training in Chennai. Master SQL Server Integration Services for ETL and data warehousing with hands-on projects and expert guidance.",
         pagekeywords: "ssis training in chennai, ssis course, sql server integration services, etl, data warehousing, intellimindz",
-        pageogurl: "https://localhost:3000/ssis_training_in_chennai",
+        pageogurl: "https://localhost:3000/ssis-training-in-chennai",
 },
 {
-  id: 'ansible_training_in_chennai',
+  id: 'ansible-training-in-chennai',
   title1: "Best Ansible Training in Chennai",
   title2: "Streamline IT automation with our expert-led Ansible Training in Chennai. Learn configuration management, orchestration, and DevOps automation from the ground up.",
   button2: "Enroll Now",
@@ -17919,10 +18385,10 @@ desc23: "The Ansible course duration is usually 30 to 40 hours, with flexible we
           pagetitle: "Best Ansible Training in Chennai | Practical Oriented Ansible Automation Course",
         pagedescription: "Join IntelliMindz for top Ansible training in Chennai. Master IT automation, configuration management, and application deployment with hands-on projects.",
         pagekeywords: "ansible training in chennai, ansible course, automation, configuration management, devops, IT automation, intellimindz",
-        pageogurl: "https://localhost:3000/ansible_training_in_chennai",
+        pageogurl: "https://localhost:3000/ansible-training-in-chennai",
 },
 {
-  id: 'embedded_systems_training_in_chennai',
+  id: 'embedded-systems-training-in-chennai',
   title1: "Best Embedded Systems Training in Chennai",
   title2: "Build a strong foundation in hardware-software integration with our expert-led Embedded Systems training, designed for aspiring engineers and professionals.",
   button2: "Enroll Now",
@@ -18084,10 +18550,10 @@ desc23: "The Embedded System course typically spans 30 to 40 hours, depending on
           pagetitle: "Best Embedded Systems Training in Chennai | Practical Oriented Embedded Systems Course",
         pagedescription: "Join IntelliMindz for top Embedded Systems training in Chennai. Master microcontroller programming, IoT, and real-time operating systems with hands-on projects.",
         pagekeywords: "embedded systems training in chennai, embedded systems course, microcontroller, iot, rtos, hardware-software integration, intellimindz",
-        pageogurl: "https://localhost:3000/embedded_systems_training_in_chennai",
+        pageogurl: "https://localhost:3000/embedded-systems-training-in-chennai",
 },
 {
-  id: 'splunk_training_in_chennai',
+  id: 'splunk-training-in-chennai',
   title1: "Best Splunk Training in Chennai",
   title2: "Unlock the power of machine data with our expert-led Splunk Training in Chennai. Learn to monitor, analyze, and visualize data effectively.",
   button2: "Enroll Now",
@@ -18249,10 +18715,10 @@ desc23: "The Splunk course duration is typically 30 to 40 hours, conducted on we
           pagetitle: "Best Splunk Training in Chennai | Practical Oriented Splunk Data Analytics Course",
         pagedescription: "Join IntelliMindz for top Splunk training in Chennai. Master log management, data analysis, and operational intelligence with hands-on projects and expert guidance.",
         pagekeywords: "splunk training in chennai, splunk course, log management, data analytics, operational intelligence, siem, intellimindz",
-        pageogurl: "https://localhost:3000/splunk_training_in_chennai",
+        pageogurl: "https://localhost:3000/splunk-training-in-chennai",
 },
 {
-  id: 'revit_architecture_training_in_chennai',
+  id: 'revit-architecture-training-in-chennai',
   title1: "Best Revit Architecture Training in Chennai",
   title2: "Master BIM design and architectural modeling with our expert-led Revit Architecture Training in Chennai. Gain hands-on skills to work on real-world construction projects.",
   button2: "Enroll Now",
@@ -18414,10 +18880,10 @@ desc23: "The Revit course typically takes 30 to 40 hours to complete, with weekd
           pagetitle: "Best Revit Architecture Training in Chennai | Practical Oriented Revit BIM Course",
         pagedescription: "Join IntelliMindz for top Revit Architecture training in Chennai. Master Building Information Modeling (BIM) for architectural design with hands-on projects.",
         pagekeywords: "revit architecture training in chennai, revit course, bim, building information modeling, architectural design, autocad, intellimindz",
-        pageogurl: "https://localhost:3000/revit_architecture_training_in_chennai",
+        pageogurl: "https://localhost:3000/revit-architecture-training-in-chennai",
 },
 {
-  id: 'full_stack_developer_training_in_chennai',
+  id: 'full-stack-developer-training-in-chennai',
   title1: "Best Full Stack Developer Training in Chennai",
   title2: "Learn front‑end and back‑end development hands-on with our intensive Full Stack Developer training led by industry professionals.",
   button2: "Enroll Now",
@@ -18579,11 +19045,11 @@ desc23: "The Full Stack Developer course duration is typically 30 to 40 hours, o
           pagetitle: "Best Full Stack Developer Training in Chennai | Practical Oriented Full Stack Course",
         pagedescription: "Join IntelliMindz for top Full Stack Developer training in Chennai. Master frontend and backend technologies with hands-on projects and expert guidance.",
         pagekeywords: "full stack developer training in chennai, full stack course, frontend, backend, web development, mean stack, mern stack, intellimindz",
-        pageogurl: "https://localhost:3000/full_stack_developer_training_in_chennai",
+        pageogurl: "https://localhost:3000/full-stack-developer-training-in-chennai",
 
 },
 {
-  id: 'alteryx_training_in_chennai',
+  id: 'alteryx-training-in-chennai',
   title1: "Best Alteryx Training in Chennai",
   title2: "Accelerate your data career with expert-led Alteryx Training in Chennai. Learn to prepare, blend, and analyze data using Alteryx workflows.",
   button2: "Enroll Now",
@@ -18745,10 +19211,10 @@ desc23: "The Alteryx course duration is typically 30 to 40 hours, conducted over
           pagetitle: "Best Alteryx Training in Chennai | Practical Oriented Alteryx Data Analytics Course",
         pagedescription: "Join IntelliMindz for top Alteryx training in Chennai. Master data blending, data preparation, and advanced analytics with hands-on projects and expert guidance.",
         pagekeywords: "alteryx training in chennai, alteryx course, data analytics, data blending, data preparation, business intelligence, intellimindz",
-        pageogurl: "https://localhost:3000/alteryx_training_in_chennai",
+        pageogurl: "https://localhost:3000/alteryx-training-in-chennai",
 },
 {
-  id: 'soapui_testing_training_in_chennai',
+  id: 'soapui-testing-training-in-chennai',
   title1: "Best SOAPUI Testing Training in Chennai",
   title2: "Master API testing with our expert-led SOAPUI Testing Training in Chennai. Learn functional, security, and load testing using SOAPUI and enhance your testing skills.",
   button2: "Enroll Now",
@@ -18950,10 +19416,10 @@ desc23: "The SOAPUI course duration is typically 30 to 40 hours, depending on we
           pagetitle: "Best SoapUI Testing Training in Chennai | Practical Oriented SoapUI Web Services Testing Course",
         pagedescription: "Join IntelliMindz for top SoapUI Testing training in Chennai. Master web services and API testing with hands-on projects and expert guidance.",
         pagekeywords: "soapui testing training in chennai, soapui course, web services testing, api testing, soap, rest, intellimindz",
-        pageogurl: "https://localhost:3000/soapui_testing_training_in_chennai",
+        pageogurl: "https://localhost:3000/soapui-testing-training-in-chennai",
 },
 {
-  id: 'r_programming_training_in_chennai',
+  id: 'r-programming-training-in-chennai',
   title1: "Best R Programming Training in Chennai",
   title2: "Master data analysis, statistical modeling, and visualization with our hands-on R Programming training led by industry data experts.",
   button2: "Enroll Now",
@@ -19146,10 +19612,10 @@ desc23: "The course takes 30–40 hours via weekday or weekend sessions with cod
           pagetitle: "Best R Programming Training in Chennai | Practical Oriented R for Data Science Course",
         pagedescription: "Join IntelliMindz for top R Programming training in Chennai. Master statistical computing, data analysis, and visualization with hands-on projects and expert guidance.",
         pagekeywords: "r programming training in chennai, r programming course, data science, statistical analysis, data visualization, intellimindz",
-        pageogurl: "https://localhost:3000/r_programming_training_in_chennai",
+        pageogurl: "https://localhost:3000/r-programming-training-in-chennai",
 },
 {
-  id: 'business_analyst_training_in_chennai',
+  id: 'business-analyst-training-in-chennai',
   title1: "Best Business Analyst Training in Chennai",
   title2: "Launch your career in business analysis with our hands-on Business Analyst Training in Chennai. Learn tools, techniques, and real-world practices from industry experts.",
   button2: "Enroll Now",
@@ -19351,10 +19817,10 @@ desc23: "The Business Analyst course duration is typically 30 to 40 hours, deliv
           pagetitle: "Best Business Analyst Training in Chennai | Practical Oriented Business Analysis Course",
         pagedescription: "Join IntelliMindz for top Business Analyst training in Chennai. Master business analysis techniques, requirements gathering, and project management with hands-on projects.",
         pagekeywords: "bussiness analyst training in chennai, business analyst course, requirements gathering, project management, agile, scrum, intellimindz",
-        pageogurl: "https://localhost:3000/bussiness_analyst_training_in_chennai",
+        pageogurl: "https://localhost:3000/bussiness-analyst-training-in-chennai",
 },
 {
-  id: 'google_cloud_training_in_chennai',
+  id: 'google-cloud-training-in-chennai',
   title1: "Best Google Cloud Training in Chennai",
   title2: "Unlock cloud expertise with our industry-focused Google Cloud Training in Chennai. Master GCP services and become a certified cloud professional.",
   button2: "Enroll Now",
@@ -19547,10 +20013,10 @@ desc23: "Course duration is 30–40 hours via weekday or weekend sessions with h
           pagetitle: "Best Google Cloud Training in Chennai | Practical Oriented Google Cloud Platform Course",
         pagedescription: "Join IntelliMindz for top Google Cloud training in Chennai. Master Google Cloud Platform services with hands-on projects and prepare for certification.",
         pagekeywords: "google cloud training in chennai, google cloud course, gcp, cloud computing, google cloud platform, intellimindz",
-        pageogurl: "https://localhost:3000/google_cloud_training_in_chennai",
+        pageogurl: "https://localhost:3000/google-cloud-training-in-chennai",
 },
 {
-  id: 'catia_training_in_chennai',
+  id: 'catia-training-in-chennai',
   title1: "Best CATIA Training in Chennai",
   title2: "Gain hands-on expertise in 3D modeling, product design, and CAD with our comprehensive CATIA training program led by industry professionals.",
   button2: "Enroll Now",
@@ -19751,10 +20217,10 @@ desc23: "The CATIA course duration is typically 30 to 40 hours and can be schedu
           pagetitle: "Best CATIA Training in Chennai | Practical Oriented CATIA CAD/CAE Course",
         pagedescription: "Join IntelliMindz for top CATIA training in Chennai. Master CAD/CAE design, product development, and manufacturing with hands-on projects and expert guidance.",
         pagekeywords: "catia training in chennai, catia course, cad, cae, product design, mechanical design, intellimindz",
-        pageogurl: "https://localhost:3000/catia_training_in_chennai",
+        pageogurl: "https://localhost:3000/catia-training-in-chennai",
 },
 {
-  id: 'odi_training_in_chennai',
+  id: 'odi-training-in-chennai',
   title1: "Best ODI Training in Chennai",
   title2: "Gain expertise in Oracle Data Integrator with our comprehensive ODI Training in Chennai. Master ELT development and enterprise data integration techniques.",
   button2: "Enroll Now",
@@ -19908,11 +20374,11 @@ desc23: "Typically 30–40 hours via weekday or weekend sessions with full theor
           pagetitle: "Best ODI Training in Chennai | Practical Oriented Oracle Data Integrator Course",
         pagedescription: "Join IntelliMindz for top ODI training in Chennai. Master Oracle Data Integrator for ETL and data integration with hands-on projects and expert guidance.",
         pagekeywords: "odi training in chennai, odi course, oracle data integrator, etl, data integration, oracle fusion middleware, intellimindz",
-        pageogurl: "https://localhost:3000/odi_training_in_chennai",
+        pageogurl: "https://localhost:3000/odi-training-in-chennai",
 
 },
 {
-  id: 'oracle_training_in_chennai',
+  id: 'oracle-training-in-chennai',
   title1: "Best Oracle Training in Chennai",
   title2: "Advance your database career with our expert-led Oracle Training in Chennai. Learn Oracle SQL, PL/SQL, DBA, and performance tuning from certified professionals.",
   button2: "Enroll Now",
@@ -20105,10 +20571,10 @@ desc23: "Typically 30–40 hours on weekdays or weekends, covering theory, labs,
           pagetitle: "Best Oracle Training in Chennai | Practical Oriented Oracle SQL/PLSQL Course",
         pagedescription: "Join IntelliMindz for top Oracle training in Chennai. Master Oracle SQL, PL/SQL, and database concepts with hands-on projects and expert guidance.",
         pagekeywords: "oracle training in chennai, oracle course, sql, pl/sql, oracle database, database development, intellimindz",
-        pageogurl: "https://localhost:3000/oracle_training_in_chennai",
+        pageogurl: "https://localhost:3000/oracle-training-in-chennai",
 },
 {
-  id: 'advanced_sas_training_in_chennai',
+  id: 'advanced-sas-training-in-chennai',
   title1: "Best Advanced SAS Training in Chennai",
   title2: "Gain deep expertise in advanced data analytics, macros, and automation with our industry-oriented Advanced SAS training in Chennai.",
   button2: "Enroll Now",
@@ -20270,10 +20736,10 @@ desc23: "The course takes 30–40 hours and is offered in both weekday and weeke
           pagetitle: "Best Advanced SAS Training in Chennai | Practical Oriented Advanced SAS Programming Course",
         pagedescription: "Join IntelliMindz for top Advanced SAS training in Chennai. Master advanced SAS programming, macro language, and statistical procedures with hands-on projects.",
         pagekeywords: "advanced sas training in chennai, advanced sas course, sas programming, macro language, statistical modeling, intellimindz",
-        pageogurl: "https://localhost:3000/advanced_sas_training_in_chennai",
+        pageogurl: "https://localhost:3000/advanced-sas-training-in-chennai",
 },
 {
-  id: 'oracle_soa_training_in_chennai',
+  id: 'oracle-soa-training-in-chennai',
   title1: "Best Oracle SOA Training in Chennai",
   title2: "Enhance your integration skills with our Oracle SOA Training in Chennai. Learn how to build, deploy, and manage service-oriented architecture applications.",
   button2: "Enroll Now",
@@ -20466,10 +20932,10 @@ desc23: "30–40 hours total via weekday or weekend sessions, including theory, 
           pagetitle: "Best Oracle SOA Training in Chennai | Practical Oriented Oracle SOA Suite Course",
         pagedescription: "Join IntelliMindz for top Oracle SOA training in Chennai. Master Oracle Service-Oriented Architecture for enterprise integration with hands-on projects and expert guidance.",
         pagekeywords: "oracle soa training in chennai, oracle soa course, service-oriented architecture, enterprise integration, xml, intellimindz",
-        pageogurl: "https://localhost:3000/oracle_soa_training_in_chennai",
+        pageogurl: "https://localhost:3000/oracle-soa-training-in-chennai",
 },
 {
-  id: 'qliksense_training_in_chennai',
+  id: 'qliksense-training-in-chennai',
   title1: "Best Qlik Sense Training in Chennai",
   title2: "Master data visualization with our expert-led Qlik Sense Training in Chennai. Learn to build dynamic dashboards, perform data modeling, and become a certified BI professional.",
   button2: "Enroll Now",
@@ -20631,10 +21097,10 @@ desc23: "The Qlik Sense course duration is typically 30 to 40 hours, conducted o
           pagetitle: "Best Qlik Sense Training in Chennai | Practical Oriented Qlik Sense BI Course",
         pagedescription: "Join IntelliMindz for top Qlik Sense training in Chennai. Master data visualization, self-service BI, and interactive dashboards with hands-on projects and expert guidance.",
         pagekeywords: "qliksense training in chennai, qlik sense course, business intelligence, data visualization, self-service bi, intellimindz",
-        pageogurl: "https://localhost:3000/qliksense_training_in_chennai",
+        pageogurl: "https://localhost:3000/qliksense-training-in-chennai",
 },
 {
-  id: 'microsoft_azure_training_in_chennai',
+  id: 'microsoft-azure-training-in-chennai',
   title1: "Best Microsoft Azure Training in Chennai",
   title2: "Become a certified Azure professional with hands-on Microsoft Azure training in Chennai by cloud experts at IntelliMindz.",
   button2: "Enroll Now",
@@ -20827,10 +21293,10 @@ desc23: "Typically 30–40 hours via flexible weekday or weekend sessions with l
           pagetitle: "Best Microsoft Azure Training in Chennai | Practical Oriented Azure Cloud Certification Course",
         pagedescription: "Join IntelliMindz for top Microsoft Azure training in Chennai. Master Azure cloud services with hands-on projects and prepare for certification.",
         pagekeywords: "microsoft azure training in chennai, azure course, microsoft cloud, cloud computing, azure certification, intellimindz",
-        pageogurl: "https://localhost:3000/microsoft_azure_training_in_chennai",
+        pageogurl: "https://localhost:3000/microsoft-azure-training-in-chennai",
 },
 {
-  id: 'perl_training_in_chennai',
+  id: 'perl-training-in-chennai',
   title1: "Best PERL Training in Chennai",
   title2: "Boost your scripting skills with our expert-led PERL Training in Chennai. Learn to automate tasks and manage data efficiently with practical PERL programming.",
   button2: "Enroll Now",
@@ -20993,10 +21459,10 @@ desc23: "The Perl course duration is typically 30 to 40 hours, conducted on week
           pagetitle: "Best Perl Training in Chennai | Practical Oriented Perl Programming Course",
         pagedescription: "Join IntelliMindz for top Perl training in Chennai. Master Perl scripting for system administration, web development, and text processing with hands-on projects.",
         pagekeywords: "perl training in chennai, perl course, perl scripting, web development, system administration, intellimindz",
-        pageogurl: "https://localhost:3000/perl_training_in_chennai",
+        pageogurl: "https://localhost:3000/perl-training-in-chennai",
 },
 {
-  id: 'scrum_master_training_in_chennai',
+  id: 'scrum-master-training-in-chennai',
   title1: "Best Scrum Master Training in Chennai",
   title2: "Empower your Agile career with our industry-recognized Scrum Master Training in Chennai. Learn Scrum principles, frameworks, and leadership skills to become a certified Scrum Master.",
   button2: "Enroll Now",
@@ -21189,10 +21655,10 @@ desc23: "Course duration is 30–40 hours with flexible weekday or weekend optio
           pagetitle: "Best Scrum Master Training in Chennai | Practical Oriented Scrum Master Certification Course",
         pagedescription: "Join IntelliMindz for top Scrum Master training in Chennai. Master Agile principles and Scrum framework with hands-on exercises and prepare for certification.",
         pagekeywords: "scrum master training in chennai, scrum master course, agile methodology, scrum framework, project management, intellimindz",
-        pageogurl: "https://localhost:3000/scrum_master_training_in_chennai",
+        pageogurl: "https://localhost:3000/scrum-master-training-in-chennai",
 },
 {
-  id: 'cisco_ucce_training_in_chennai',
+  id: 'cisco-ucce-training-in-chennai',
   title1: "Best Cisco UCCE Training in Chennai",
   title2: "Advance your career in enterprise contact center solutions with hands-on Cisco UCCE Training led by certified professionals.",
   button2: "Enroll Now",
@@ -21350,10 +21816,10 @@ desc23: "30–40 hours on weekdays or weekends covering concepts, labs, project 
           pagetitle: "Best Cisco UCCE Training in Chennai | Practical Oriented Cisco UCCE Course",
         pagedescription: "Join IntelliMindz for top Cisco UCCE training in Chennai. Master Cisco Unified Contact Center Enterprise with hands-on projects and expert guidance.",
         pagekeywords: "cisco ucce training in chennai, cisco ucce course, contact center, call center technology, cisco voice, intellimindz",
-        pageogurl: "https://localhost:3000/cisco_ucce_training_in_chennai",
+        pageogurl: "https://localhost:3000/cisco-ucce-training-in-chennai",
 },
 {
-  id: 'tibco_bw_training_in_chennai',
+  id: 'tibco-bw-training-in-chennai',
   title1: "Best TIBCO BW Training in Chennai",
   title2: "Enhance your integration skills with expert-led TIBCO BW Training in Chennai. Learn BusinessWorks to design, develop, and deploy enterprise services and integrations.",
   button2: "Enroll Now",
@@ -21558,10 +22024,10 @@ desc23: "The TIBCO BW course is generally 30 to 40 hours long, offered in flexib
           pagetitle: "Best TIBCO BW Training in Chennai | Practical Oriented TIBCO BusinessWorks Course",
         pagedescription: "Join IntelliMindz for top TIBCO BW training in Chennai. Master enterprise application integration and process automation with hands-on projects and expert guidance.",
         pagekeywords: "tibco bw training in chennai, tibco businessworks course, enterprise integration, process automation, esb, intellimindz",
-        pageogurl: "https://localhost:3000/tibco_bw_training_in_chennai",
+        pageogurl: "https://localhost:3000/tibco-bw-training-in-chennai",
 },
 {
-  id: 'creo_training_in_chennai',
+  id: 'creo-training-in-chennai',
   title1: "Best Creo Training in Chennai",
   title2: "Gain expertise in 3D CAD modeling with our hands-on Creo Training in Chennai. Learn from industry experts and become proficient in product design and development.",
   button2: "Enroll Now",
@@ -21758,10 +22224,10 @@ desc23: "The course runs 30–40 hours, with weekday/weekend batches, hands-on l
           pagetitle: "Best Creo Training in Chennai | Practical Oriented Creo Parametric CAD Course",
         pagedescription: "Join IntelliMindz for top Creo training in Chennai. Master 3D CAD design, simulation, and manufacturing with hands-on projects and expert guidance.",
         pagekeywords: "creo training in chennai, creo course, cad, parametric design, product development, mechanical engineering, intellimindz",
-        pageogurl: "https://localhost:3000/creo_training_in_chennai",
+        pageogurl: "https://localhost:3000/creo-training-in-chennai",
 },
 {
-  id: 'unix_training_in_chennai',
+  id: 'unix-training-in-chennai',
   title1: "Best UNIX Training in Chennai",
   title2: "Master UNIX fundamentals, shell scripting, and system commands with our expert-led UNIX training program tailored for real-world applications.",
   button2: "Enroll Now",
@@ -21927,10 +22393,10 @@ desc23: "The Unix training course typically spans 30 to 40 hours, with options f
           pagetitle: "Best Unix Training in Chennai | Practical Oriented Unix/Linux Command Line Course",
         pagedescription: "Join IntelliMindz for top Unix training in Chennai. Master Unix/Linux command line, shell scripting, and system administration with hands-on exercises.",
         pagekeywords: "unix training in chennai, unix course, linux, shell scripting, system administration, command line, intellimindz",
-        pageogurl: "https://localhost:3000/unix_training_in_chennai",
+        pageogurl: "https://localhost:3000/unix-training-in-chennai",
 },
 {
-  id: 'rpa_training_in_chennai',
+  id: 'rpa-training-in-chennai',
   title1: "Best RPA Training in Chennai",
   title2: "Automate business processes and boost your career with our expert-led RPA Training in Chennai. Learn leading RPA tools with real-time use cases.",
   button2: "Enroll Now",
@@ -22092,10 +22558,10 @@ review5: "After enrolling in IntelliMindz’s RPA training in Chennai, I success
           pagetitle: "Best RPA Training in Chennai | Practical Oriented Robotic Process Automation Course",
         pagedescription: "Join IntelliMindz for top RPA training in Chennai. Master Robotic Process Automation tools and techniques with hands-on projects and expert guidance.",
         pagekeywords: "rpa training in chennai, rpa course, robotic process automation, ui automation, process automation, intellimindz",
-        pageogurl: "https://localhost:3000/rpa_training_in_chennai",
+        pageogurl: "https://localhost:3000/rpa-training-in-chennai",
 },
 {
-  id: 'ansys_training_in_chennai',
+  id: 'ansys-training-in-chennai',
   title1: "Best ANSYS Training in Chennai",
   title2: "Enhance your engineering analysis skills with our ANSYS Training in Chennai. Learn structural, thermal, and fluid simulations from certified professionals.",
   button2: "Enroll Now",
@@ -22258,10 +22724,10 @@ review5: "After enrolling in IntelliMindz’s Ansys training in Chennai, I succe
           pagetitle: "Best ANSYS Training in Chennai | Practical Oriented ANSYS CAE Course",
         pagedescription: "Join IntelliMindz for top ANSYS training in Chennai. Master finite element analysis (FEA), simulation, and product validation with hands-on projects and expert guidance.",
         pagekeywords: "ansys training in chennai, ansys course, fea, finite element analysis, simulation, product validation, engineering analysis, intellimindz",
-        pageogurl: "https://localhost:3000/ansys_training_in_chennai",
+        pageogurl: "https://localhost:3000/ansys-training-in-chennai",
 },
 {
-  id: 'microsoft_dynamics_crm_training_in_chennai',
+  id: 'microsoft-dynamics-crm-training-in-chennai',
   title1: "Best Microsoft Dynamics CRM Training in Chennai",
   title2: "Master CRM solutions with our expert-led Microsoft Dynamics CRM Training – build your career in customer relationship management with hands-on experience.",
   button2: "Enroll Now",
@@ -22424,10 +22890,10 @@ review5: "After enrolling in IntelliMindz’s Microsoft Dynamics CRM training in
   pagetitle: "Best Microsoft Dynamics CRM Training in Chennai | Certification & Project-Based",
   pagedescription: "Join IntelliMindz for comprehensive Microsoft Dynamics CRM Training in Chennai. Get hands-on experience in real-time CRM projects and industry-ready skills.",
   pagekeywords: "microsoft dynamics crm training in chennai, dynamics crm course, crm training, ms dynamics certification, intellimindz",
-  pageogurl: "https://localhost:3000/microsoft_dynamics_crm_training_in_chennai",
+  pageogurl: "https://localhost:3000/microsoft-dynamics-crm-training-in-chennai",
 },
 {
-  id: 'sql_server_dba_training_in_chennai',
+  id: 'sql-server-dba-training-in-chennai',
   title1: "Best SQL Server DBA Training in Chennai",
   title2: "Become a certified SQL Server Database Administrator with our expert-led training in Chennai. Learn installation, configuration, backup, security, and performance tuning.",
   button2: "Enroll Now",
@@ -22590,10 +23056,10 @@ review5: "After enrolling in IntelliMindz’s SQL Server DBA training in Chennai
   pagetitle: "Best SQL Server DBA Training in Chennai | Certification & Hands-on Practice",
   pagedescription: "Join IntelliMindz for top-rated SQL Server DBA Training in Chennai. Master database administration with live projects, expert mentorship, and job-ready skills.",
   pagekeywords: "sql server dba training in chennai, microsoft sql dba course, database administration, dba certification, intellimindz",
-  pageogurl: "https://localhost:3000/sql_server_dba_training_in_chennai"
+  pageogurl: "https://localhost:3000/sql-server-dba-training-in-chennai"
 },
 {
-  id: 'hadoop_training_in_chennai',
+  id: 'hadoop-training-in-chennai',
   title1: "Best Hadoop Training in Chennai",
   title2: "Master big data processing with expert-led Hadoop Training – your path to a successful data engineering career.",
   button2: "Enroll Now",
@@ -22796,10 +23262,10 @@ review5: "After enrolling in IntelliMindz’s Hadoop training in Chennai, I was 
   pagetitle: "Best Hadoop Training in Chennai | Practical Big Data Course",
   pagedescription: "Join IntelliMindz for Hadoop training in Chennai. Get hands-on experience in big data tools and become job-ready with real-time projects and expert guidance.",
   pagekeywords: "hadoop training in chennai, big data course, hdfs, hive, pig, spark, intellimindz",
-  pageogurl: "https://localhost:3000/hadoop_training_in_chennai"
+  pageogurl: "https://localhost:3000/hadoop-training-in-chennai"
 },
 {
-  id: 'cognos_training_in_chennai',
+  id: 'cognos-training-in-chennai',
   title1: "Best Cognos Training in Chennai",
   title2: "Enhance your BI skills with our expert-led Cognos Training – unlock powerful data reporting and analytics capabilities for your career success.",
   button2: "Enroll Now",
@@ -22961,10 +23427,10 @@ desc23: "We offer practical training, experienced instructors, real-time project
   pagetitle: "Best Cognos Training in Chennai | Project-Based BI Course",
   pagedescription: "Join IntelliMindz for the best Cognos training in Chennai. Learn BI, data modeling, and report creation with hands-on training and expert support.",
   pagekeywords: "cognos training in chennai, cognos bi course, report studio, cognos dashboards, intellimindz",
-  pageogurl: "https://localhost:3000/cognos_training_in_chennai",
+  pageogurl: "https://localhost:3000/cognos-training-in-chennai",
 },
 {
-  id: 'phonegap_training_in_chennai',
+  id: 'phonegap-training-in-chennai',
   title1: "Best PhoneGap Training in Chennai",
   title2: "Kickstart your hybrid mobile app development career with expert-led PhoneGap Training at IntelliMindz – master cross-platform app development in real time.",
   button2: "Enroll Now",
@@ -23117,10 +23583,10 @@ review5: "After enrolling in IntelliMindz’s PhoneGap training in Chennai, I su
   pagetitle: "Best PhoneGap Training in Chennai | Hybrid App Development Course",
   pagedescription: "Join IntelliMindz for expert-led PhoneGap Training in Chennai. Learn hybrid mobile app development with real-time projects and practical implementation.",
   pagekeywords: "phonegap training in chennai, hybrid app development, phonegap course, mobile app training, cordova training, intellimindz",
-  pageogurl: "https://localhost:3000/phonegap_training_in_chennai"
+  pageogurl: "https://localhost:3000/phonegap-training-in-chennai"
 },
 {
-  id: 'snowflake_training_in_chennai',
+  id: 'snowflake-training-in-chennai',
   title1: "Best Snowflake Training in Chennai",
   title2: "Master cloud-based data warehousing with expert-led Snowflake Training – designed to make you a skilled data engineer and architect.",
   button2: "Enroll Now",
@@ -23282,10 +23748,10 @@ desc23: "We provide certified trainers, real-world projects, resume and intervie
   pagetitle: "Best Snowflake Training in Chennai | Real-Time Projects & Certification",
   pagedescription: "Join IntelliMindz for top Snowflake training in Chennai. Learn cloud data warehousing with hands-on labs, live projects, and certification guidance.",
   pagekeywords: "snowflake training in chennai, snowflake course, data warehouse course, cloud data analytics, intellimindz",
-  pageogurl: "https://localhost:3000/snowflake_training_in_chennai"
+  pageogurl: "https://localhost:3000/snowflake-training-in-chennai"
 },
 {
-  id: 'web_designing_training_in_chennai',
+  id: 'web-designing-training-in-chennai',
   title1: "Best Web Designing Training in Chennai",
   title2: "Build modern, responsive websites with our Web Designing Training – ideal for aspiring designers and developers seeking creative careers.",
   button2: "Enroll Now",
@@ -23447,10 +23913,10 @@ desc23: "We combine creative training, coding practice, live projects, and caree
   pagetitle: "Best Web Designing Training in Chennai | UI/UX & Frontend Development",
   pagedescription: "Join IntelliMindz’s Web Designing Training in Chennai. Learn UI/UX, HTML, CSS, and JavaScript with real-world projects and expert mentoring.",
   pagekeywords: "web designing training in chennai, ui ux training, web development course, front-end design, intellimindz",
-  pageogurl: "https://localhost:3000/web_designing_training_in_chennai",
+  pageogurl: "https://localhost:3000/web-designing-training-in-chennai",
 },
 {
-  id: 'react_native_training_in_chennai',
+  id: 'react-native-training-in-chennai',
   title1: "Best React Native Training in Chennai",
   title2: "Build cross-platform mobile apps with ease using our expert-led React Native Training in Chennai. Learn by doing, and launch your mobile development career.",
   button2: "Enroll Now",
@@ -23612,10 +24078,10 @@ desc23: "Yes. You’ll get an industry-recognized certificate from IntelliMindz,
   pagetitle: "Best React Native Training in Chennai | Cross-Platform App Development Course",
   pagedescription: "Join IntelliMindz for expert React Native Training in Chennai. Learn to build mobile apps for Android and iOS with hands-on projects and live guidance.",
   pagekeywords: "react native training in chennai, mobile app development, cross-platform apps, react native course, intellimindz",
-  pageogurl: "https://localhost:3000/react_native_training_in_chennai"
+  pageogurl: "https://localhost:3000/react-native-training-in-chennai"
 },
 {
-  id: 'ethical_hacking_training_in_chennai',
+  id: 'ethical-hacking-training-in-chennai',
   title1: "Best Ethical Hacking Training in Chennai",
   title2: "Become a certified cybersecurity expert with our Ethical Hacking Training – defend against cyber threats and protect digital assets.",
   button2: "Enroll Now",
@@ -23776,10 +24242,10 @@ desc23: "Yes. Both classroom and online training modes are available for our Eth
   pagetitle: "Best Ethical Hacking Training in Chennai | CEH & Cybersecurity Course",
   pagedescription: "Join IntelliMindz’s Ethical Hacking training in Chennai. Learn penetration testing, vulnerability analysis, and secure your future in cybersecurity.",
   pagekeywords: "ethical hacking training in chennai, cybersecurity course, CEH training, penetration testing, ethical hacker certification, intellimindz",
-  pageogurl: "https://localhost:3000/ethical_hacking_training_in_chennai"
+  pageogurl: "https://localhost:3000/ethical-hacking-training-in-chennai"
 },
 {
-  id: 'vmware_training_in_chennai',
+  id: 'vmware-training-in-chennai',
   title1: "Best VMware Training in Chennai",
   title2: "Gain virtualization expertise with our industry-leading VMware Training – master vSphere, ESXi, and virtual infrastructure management.",
   button2: "Enroll Now",
@@ -23941,10 +24407,10 @@ desc23: "Yes. This VMware course in Chennai is available in both classroom and i
   pagetitle: "Best VMware Training in Chennai | Practical Virtualization Course",
   pagedescription: "Join IntelliMindz’s VMware training in Chennai. Learn virtualization, vSphere, and ESXi through hands-on labs and expert instruction.",
   pagekeywords: "vmware training in chennai, vmware course, vSphere, ESXi, virtualization training, intellimindz",
-  pageogurl: "https://localhost:3000/vmware_training_in_chennai"
+  pageogurl: "https://localhost:3000/vmware-training-in-chennai"
 },
 {
-  id: 'staad_pro_training_in_chennai',
+  id: 'staad-pro-training-in-chennai',
   title1: "Best STAAD Pro Training in Chennai",
   title2: "Master structural analysis and design with our STAAD Pro Training – guided by industry experts to build your civil engineering career.",
   button2: "Enroll Now",
@@ -24106,10 +24572,10 @@ desc23: "Absolutely. We offer both classroom and online instructor-led formats f
   pagetitle: "Best STAAD Pro Training in Chennai | Structural Design & Analysis Course",
   pagedescription: "Enroll in IntelliMindz's STAAD Pro Training in Chennai to master structural analysis, IS code design, and real-time projects in civil engineering.",
   pagekeywords: "staad pro training in chennai, staad course, structural design software, civil engineering training, intellimindz",
-  pageogurl: "https://localhost:3000/staad_pro_training_in_chennai"
+  pageogurl: "https://localhost:3000/staad-pro-training-in-chennai"
 },
 {
-  id: 'snaplogic_training_in_chennai',
+  id: 'snaplogic-training-in-chennai',
   title1: "Best SnapLogic Training in Chennai",
   title2: "Master intelligent integration with our expert-led SnapLogic Training – streamline data pipelines and unlock enterprise automation.",
   button2: "Enroll Now",
@@ -24271,10 +24737,10 @@ desc23: "Yes. We offer both classroom and instructor-led online modes for our Sn
   pagetitle: "Best SnapLogic Training in Chennai | Practical iPaaS Integration Course",
   pagedescription: "Join IntelliMindz for top SnapLogic training in Chennai. Learn to build scalable pipelines, automate processes, and master enterprise integration.",
   pagekeywords: "snaplogic training in chennai, snaplogic course, ipaas integration training, snaplogic developer course, intellimindz",
-  pageogurl: "https://localhost:3000/snaplogic_training_in_chennai"
+  pageogurl: "https://localhost:3000/snaplogic-training-in-chennai"
 },
 {
-  id: 'sas_training_in_chennai',
+  id: 'sas-training-in-chennai',
   title1: "Best SAS Training in Chennai",
   title2: "Master data analytics and business intelligence with our expert-led SAS Training – your pathway to becoming a certified SAS professional.",
   button2: "Enroll Now",
@@ -24489,10 +24955,10 @@ desc23: "Yes, SAS is an excellent choice for beginners who are new to data analy
   pagetitle: "Best SAS Training in Chennai | Certification & Real-Time Projects",
   pagedescription: "Join IntelliMindz for SAS Training in Chennai with real-time projects, expert trainers, and hands-on analytics practice. Prepare for SAS certifications and job roles.",
   pagekeywords: "sas training in chennai, sas course, data analytics training, business intelligence, intellimindz",
-  pageogurl: "https://localhost:3000/sas_training_in_chennai"
+  pageogurl: "https://localhost:3000/sas-training-in-chennai"
 },
 {
-  id: 'ielts_training_in_chennai',
+  id: 'ielts-training-in-chennai',
   title1: "Best IELTS Training in Chennai",
   title2: "Achieve your desired IELTS band score with our expert-led IELTS Training in Chennai – your gateway to global education and career opportunities.",
   button2: "Enroll Now",
@@ -24706,10 +25172,10 @@ desc23: "We’re recognized as the Best Training Institute in Chennai due to our
   pagetitle: "Best IELTS Training in Chennai | IELTS Coaching Center with Mock Tests",
   pagedescription: "Get expert IELTS coaching in Chennai with IntelliMindz. Improve your band score in Listening, Reading, Writing, and Speaking with flexible batches and mock tests.",
   pagekeywords: "ielts training in chennai, ielts coaching center, best ielts classes, academic ielts, general ielts, band score improvement, intellimindz",
-  pageogurl: "https://localhost:3000/ielts_training_in_chennai"
+  pageogurl: "https://localhost:3000/ielts-training-in-chennai"
 },
 {
-  id: 'kronos_training_in_chennai',
+  id: 'kronos-training-in-chennai',
   title1: "Best Kronos Training in Chennai",
   title2: "Accelerate your career in workforce management with our expert-led Kronos Training – master timekeeping, scheduling, and HR analytics.",
   button2: "Enroll Now",
@@ -24867,10 +25333,10 @@ desc23: "Certifications aren’t official, but our training ensures client-readi
   pagetitle: "Best Kronos Training in Chennai | Practical Workforce Management Course",
   pagedescription: "Join IntelliMindz for advanced Kronos training in Chennai. Learn timekeeping, scheduling, and labor analytics with hands-on projects and real-time trainer support.",
   pagekeywords: "kronos training in chennai, kronos course, workforce management, kronos certification, intellimindz",
-  pageogurl: "https://localhost:3000/kronos_training_in_chennai",
+  pageogurl: "https://localhost:3000/kronos-training-in-chennai",
 },
 {
-  id: 'qc_training_in_chennai',
+  id: 'qc-training-in-chennai',
   title1: "Best QC Training in Chennai",
   title2: "Gain industry-ready Quality Control skills with expert-led QC Training in Chennai – master inspection, compliance, and process control techniques.",
   button2: "Enroll Now",
@@ -25086,10 +25552,10 @@ review5: "What set this QC Training in Chennai apart was the personalized attent
   pagetitle: "Best QC Training in Chennai | Practical Quality Control Course",
   pagedescription: "Join IntelliMindz for QC Training in Chennai. Learn quality inspection, testing techniques, and compliance for career-ready skills.",
   pagekeywords: "qc training in chennai, quality control course, quality inspection, gmp, iso training, intellimindz",
-  pageogurl: "https://localhost:3000/qc_training_in_chennai"
+  pageogurl: "https://localhost:3000/qc-training-in-chennai"
 },
 {
-  id: 'c_c_plus_plus_training_in_chennai',
+  id: 'c-c-plus-plus-training-in-chennai',
   title1: "Best C and C++ Training in Chennai",
   title2: "Build a strong programming foundation with our hands-on C and C++ training – ideal for beginners and aspiring software developers.",
   button2: "Enroll Now",
@@ -25302,10 +25768,10 @@ review5: "The best part of this C C++ Training in Chennai was the real-world min
   pagetitle: "Best C and C++ Training in Chennai | Practical Oriented C/C++ Course",
   pagedescription: "Join IntelliMindz for C and C++ training in Chennai. Learn programming fundamentals with hands-on projects, real-time examples, and expert support.",
   pagekeywords: "c training in chennai, c++ course in chennai, c programming training, c++ classes, intellimindz",
-  pageogurl: "https://localhost:3000/c_c_plus_plus_training_in_chennai"
+  pageogurl: "https://localhost:3000/c-c-plus-plus-training-in-chennai"
 },
 {
-  id: 'salesforce_developer_training_in_chennai',
+  id: 'salesforce-developer-training-in-chennai',
   title1: "Best Salesforce Developer Training in Chennai",
   title2: "Become a certified Salesforce Developer with hands-on training in Apex, Visualforce, Lightning, and real-time projects.",
   button2: "Enroll Now",
@@ -25521,10 +25987,10 @@ review5: "Thanks to IntelliMindz’s Salesforce Developer Training in Chennai, I
   pagetitle: "Best Salesforce Developer Training in Chennai | Apex, Lightning, Certification",
   pagedescription: "Join IntelliMindz for Salesforce Developer training in Chennai. Master Apex, Lightning Components, and REST API integration through live projects and expert guidance.",
   pagekeywords: "salesforce developer training in chennai, apex training, lightning training, salesforce course, crm development, intellimindz",
-  pageogurl: "https://localhost:3000/salesforce_developer_training_in_chennai"
+  pageogurl: "https://localhost:3000/salesforce-developer-training-in-chennai"
 },
 {
-  id: 'weblogic_training_in_chennai',
+  id: 'weblogic-training-in-chennai',
   title1: "Best WebLogic Training in Chennai",
   title2: "Master Oracle WebLogic Server with hands-on training from experts – accelerate your career in middleware and application server management.",
   button2: "Enroll Now",
@@ -25740,10 +26206,10 @@ review5: "I opted for the online version of the WebLogic course in Chennai due t
   pagetitle: "Best WebLogic Training in Chennai | Oracle WebLogic Server Course",
   pagedescription: "Join IntelliMindz for expert-led WebLogic Training in Chennai. Learn Oracle WebLogic Server configuration, deployment, and administration with hands-on labs.",
   pagekeywords: "weblogic training in chennai, oracle weblogic server course, middleware training, application server training, weblogic admin, intellimindz",
-  pageogurl: "https://localhost:3000/weblogic_training_in_chennai"
+  pageogurl: "https://localhost:3000/weblogic-training-in-chennai"
 },
 {
-  id: 'servicenow_training_in_chennai',
+  id: 'servicenow-training-in-chennai',
   title1: "Best ServiceNow Training in Chennai",
   title2: "Kickstart your ITSM career with expert-led ServiceNow Training – learn workflow automation, IT operations, and service management tools hands-on.",
   button2: "Enroll Now",
@@ -25959,10 +26425,10 @@ review5: "This course at IntelliMindz stands out for its practical approach and 
   pagetitle: "Best ServiceNow Training in Chennai | Real-Time ITSM & Admin Course",
   pagedescription: "Enroll in IntelliMindz’s ServiceNow Training in Chennai. Master ServiceNow development, ITSM, and real-time workflows with expert trainers and placement support.",
   pagekeywords: "servicenow training in chennai, servicenow course, itsm training, servicenow admin course, intellimindz",
-  pageogurl: "https://localhost:3000/servicenow_training_in_chennai"
+  pageogurl: "https://localhost:3000/servicenow-training-in-chennai"
 },
 {
-  id: 'xamarin_training_in_chennai',
+  id: 'xamarin-training-in-chennai',
   title1: "Best Xamarin Training in Chennai",
   title2: "Build cross-platform mobile apps with expert-led Xamarin Training – master C# development for Android, iOS, and Windows applications.",
   button2: "Enroll Now",
@@ -26178,10 +26644,10 @@ review5: "Thanks to IntelliMindz, I landed a role as a Junior Xamarin Developer 
   pagetitle: "Best Xamarin Training in Chennai | Cross-Platform App Development Course",
   pagedescription: "Join IntelliMindz for expert-led Xamarin Training in Chennai. Build Android and iOS apps using C# and .NET. Get certified and job-ready with real-world mobile projects.",
   pagekeywords: "xamarin training in chennai, xamarin course, cross-platform app development, mobile app training, c# app development, intellimindz",
-  pageogurl: "https://localhost:3000/xamarin_training_in_chennai"
+  pageogurl: "https://localhost:3000/xamarin-training-in-chennai"
 },
 {
-  id: 'informatica_iics_training_in_chennai',
+  id: 'informatica-iics-training-in-chennai',
   title1: "Best Informatica IICS Training in Chennai",
   title2: "Become an expert in cloud data integration with our hands-on Informatica IICS Training in Chennai – perfect for building a future in cloud-based ETL and data engineering.",
   button2: "Enroll Now",
@@ -26397,10 +26863,10 @@ review5: "The IICS certification training from IntelliMindz gave me the clarity 
   pagetitle: "Best Informatica IICS Training in Chennai | Cloud ETL & Real-Time Projects",
   pagedescription: "Enroll in IntelliMindz Informatica IICS Training in Chennai. Master cloud-based ETL, real-time data pipelines, and automation with hands-on training and expert guidance.",
   pagekeywords: "informatica iics training in chennai, iics course, cloud etl training, intellimindz iics, iics certification course",
-  pageogurl: "https://localhost:3000/informatica_iics_training_in_chennai"
+  pageogurl: "https://localhost:3000/informatica-iics-training-in-chennai"
 },
 {
-  id: 'final_year_ieee_iot_training_in_chennai',
+  id: 'final-year-ieee-iot-training-in-chennai',
   title1: "Best Final Year IEEE IoT Training in Chennai",
   title2: "Transform your academic project into a career opportunity with our IEEE-based IoT Training in Chennai – designed for final year students.",
   button2: "Enroll Now",
@@ -26606,10 +27072,10 @@ review5: "I initially joined just for the project, but the IoT training included
   pagetitle: "Final Year IEEE IoT Training in Chennai | Project Development for Students",
   pagedescription: "Join IntelliMindz for final year IEEE IoT project training in Chennai. Get expert support in hardware, cloud, coding, and report submission.",
   pagekeywords: "final year ieee iot training in chennai, iot projects for students, ieee iot project support, final year iot project ideas, intellimindz",
-  pageogurl: "https://localhost:3000/final_year_ieee_iot_training_in_chennai"
+  pageogurl: "https://localhost:3000/final-year-ieee-iot-training-in-chennai"
 },
 {
-  id: 'vlsi_training_in_chennai',
+  id: 'vlsi-training-in-chennai',
   title1: "Best VLSI Training in Chennai",
   title2: "Gain expertise in chip design and semiconductor technologies with our hands-on VLSI Training – launch your career in core electronics and design automation.",
   button2: "Enroll Now",
@@ -26815,10 +27281,10 @@ review5: "I completed the VLSI training through IntelliMindz’s online program.
   pagetitle: "Best VLSI Training in Chennai | Chip Design & Verification Course",
   pagedescription: "Join IntelliMindz for hands-on VLSI Training in Chennai. Learn Verilog, RTL design, STA, and EDA tools with real-time chip design projects.",
   pagekeywords: "vlsi training in chennai, chip design course, verilog training, vlsi design verification, intellimindz",
-  pageogurl: "https://localhost:3000/vlsi_training_in_chennai",
+  pageogurl: "https://localhost:3000/vlsi-training-in-chennai",
 },
 {
-  id: 'building_estimation_and_costing_training_in_chennai',
+  id: 'building-estimation-and-costing-training-in-chennai',
   title1: "Best Building Estimation and Costing Training in Chennai",
   title2: "Gain expertise in construction budgeting and estimation with our industry-aligned Building Estimation and Costing Training in Chennai.",
   button2: "Enroll Now",
@@ -27024,10 +27490,10 @@ review5: "The training sessions on CPWD and DSR rate analysis were very effectiv
   pagetitle: "Best Building Estimation and Costing Training in Chennai | Practical Civil Engineering Course",
   pagedescription: "Join IntelliMindz for top Building Estimation and Costing training in Chennai. Learn BOQ, rate analysis, and budgeting with real-time projects.",
   pagekeywords: "building estimation training in chennai, construction costing course, boq preparation, civil estimation, intellimindz training",
-  pageogurl: "https://localhost:3000/building_estimation_and_costing_training_in_chennai"
+  pageogurl: "https://localhost:3000/building-estimation-and-costing-training-in-chennai"
 },
 {
-  id: 'guidewire_training_in_chennai',
+  id: 'guidewire-training-in-chennai',
   title1: "Best Guidewire Training in Chennai",
   title2: "Launch your career in insurance technology with our expert-led Guidewire Training – learn ClaimCenter, PolicyCenter, and BillingCenter with real-time project experience.",
   button2: "Enroll Now",
@@ -27233,6 +27699,6 @@ desc23: "Because we provide expert-led training, project-based learning, certifi
   pagetitle: "Best Guidewire Training in Chennai | PolicyCenter, ClaimCenter, BillingCenter",
   pagedescription: "Join IntelliMindz for top Guidewire Training in Chennai. Master insurance domain workflows, ClaimCenter, PolicyCenter, and real-time projects for career success.",
   pagekeywords: "guidewire training in chennai, guidewire course, policycenter training, claimcenter training, billingcenter training, intellimindz",
-  pageogurl: "https://localhost:3000/guidewire_training_in_chennai"
+  pageogurl: "https://localhost:3000/guidewire-training-in-chennai"
 },
 ];

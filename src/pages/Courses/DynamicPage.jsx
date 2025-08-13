@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
-// import { pagesData } from './pagesData';
 import { pagesData } from './pagedatas';
-// import PageTemplate from './PageTemplate';
-// import Ajaxmain from './ajax';
 import Intro from './ajax';
 import Meta from '../../components/Meta';
-import ContactModal from '../../components/Hero-Section/ContactModal'; // Adjust the path as necessary
+import ContactModal from '../../components/Hero-Section/ContactModal';
+import SeoStarRating from '../../components/StarRating'; // Import the SEO Star Rating component
 
 const DynamicPage = () => {
-  const { pageId } = useParams(); // get "about-us" from the URL
+  const { pageId } = useParams();
   console.log("DynamicPage pageId:", pageId);
   const pageInfo = pagesData.find((page) => page.id === pageId);
 
@@ -21,7 +19,6 @@ const DynamicPage = () => {
     return <div>Page not found</div>;
   }
 
-  // Print meta values for debugging
   console.log("Meta values for page:", {
     title: pageInfo.pagetitle,
     description: pageInfo.pagedescription,
@@ -39,6 +36,9 @@ const DynamicPage = () => {
         ogDescription={pageInfo.pagedescription}
         ogUrl={pageInfo.pageogurl}
       />
+      
+      <SeoStarRating /> {/* ✅ Add it here so it injects schema.org data */}
+
       <Intro {...pageInfo} openContactModal={openContactModal} />
       <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
     </>

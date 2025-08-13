@@ -49,7 +49,7 @@
   align-items: center;
   flex-wrap: wrap;
   z-index: 1000;
-  width: 100%;
+    width: 1130px !important;
   position: fixed;
 }
 
@@ -86,6 +86,7 @@
     align-items: flex-start;
     padding-left: 10px;
     font-size: 13px;
+    width: 770px !important;
   }
 
   .top-header-left{
@@ -98,20 +99,20 @@
   .top-header-right-social {
     display: flex;
     flex-direction: row;
-    gap: 6px;
+    gap: 4px;
     align-items: center;
-    margin-left: 650px;
+    margin-left: 620px;
     margin-top: -22px;
     margin-bottom: 13px;
     white-space: nowrap;
   }
 
   .topheader-link {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .topheader-icon {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
@@ -121,11 +122,13 @@
     align-items: flex-start;
     padding-left: 10px;
     font-size: 12px;
+    width: 430px !important;
   }
 
   .top-header-left{
     flex-direction: row;
     flex-wrap: wrap;
+        margin-left: -5px !important;
     justify-content: flex-start;
     margin: 5px 0;
   }
@@ -135,7 +138,7 @@
     flex-direction: row;
     gap: 6px;
     align-items: center;
-    margin-left: 310px;
+    margin-left: 290px;
     margin-top: -18px;
     margin-bottom: 10px;
     white-space: nowrap;
@@ -154,7 +157,8 @@
   .top-header {
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 10px;
+    padding-left: 5px;
+    /* width: 370px; */
     font-size: 11px;
   }
 
@@ -182,5 +186,6 @@
 
   .topheader-icon {
     font-size: 11px;
+    margin-left: -3px;
   }
 }

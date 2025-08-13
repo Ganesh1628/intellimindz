@@ -1236,10 +1236,7 @@
   .sap-fico-about-text,
   .sap-fico-about-image-container {
     min-width: unset; /* Remove min-width for stacking */
-    width: 90%; /* Adjust width for stacked content */
-  }
-  .sap-fico-about-image-container {
-    height: 250px; /* Example fixed height for stacked view, adjust as needed */
+    width: 75%; /* Adjust width for stacked content */
   }
   .sap-fico-about-section h2 {
     font-size: 2em;

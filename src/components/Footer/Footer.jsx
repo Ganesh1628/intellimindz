@@ -6,17 +6,17 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const footerQuickLinks = [
   { display: "Home", url: "#" },
-  { display: "Contact us", url: "#" },
+  { display: "Contact us", url: "/contactus" },
   { display: "Refund policy", url: "#" },
   { display: "Certification policy", url: "#" },
 ];
 
 const trendingCourses = [
-  "Python Training in Chennai",
-  "Java Training in Chennai",
-  "Selenium Training in Chennai",
-  "AWS Training in Chennai",
-  "Devops Training in Chennai",
+  { name: "Python Training in Chennai", url: "/python-training-in-chennai" },
+  { name: "Java Training in Chennai", url: "/java-training-in-chennai" },
+  { name: "Selenium Training in Chennai", url: "/selenium-training-in-chennai" },
+  { name: "AWS Training in Chennai", url: "/aws-training-in-chennai" },
+  { name: "Devops Training in Chennai", url: "/devOps-training-in-chennai" },
 ];
 
 const Footer = () => {
@@ -104,11 +104,17 @@ const Footer = () => {
           <Col>
             <h4 className="text-center fw-bold" style={{ color: "#fafafa" }}>Trending Courses</h4>
             <div className="trending-courses">
-              {trendingCourses.map((course, index) => (
-                <span key={index} className="trending-course-item">
-                  {course}
-                </span>
-              ))}
+{trendingCourses.map((course, index) => (
+  <a
+    key={index}
+    href={course.url}
+    className="trending-course-item"
+    style={{ color: "#fafafa", textDecoration: "none", marginRight: "15px" }}
+  >
+    {course.name}
+  </a>
+))}
+
             </div>
           </Col>
         </Row>

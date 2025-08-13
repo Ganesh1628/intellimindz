@@ -36,12 +36,13 @@
   padding-bottom: 15px;
 }
 
-.home-course-img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px 10px 0 0;
-  transition: transform 0.3s ease-in-out;
-}
+  .home-course-img {
+    width: 100%;
+    height: 120px; /* ✅ Fixed height for consistency */
+    object-fit: cover !important; /* ✅ Ensures image fills box without stretching */
+    border-radius: 8px 8px 0 0;
+    transition: transform 0.3s ease-in-out;
+  }
 
 .home-course-title {
   font-size: 1rem;
@@ -194,15 +195,19 @@
   }
 
   .home-course-img {
-    width: 80%;
-    height: auto;
-    border-radius: 9px 9px 0 0;
-    transition: transform 0.3s ease-in-out;
+    width: 290px;
+    height: 150px;
+    margin-left: 60px;
+    /* object-fit: contain; */
+    /* margin-top: 10px; */
+    /* border-radius: 9px 9px 0 0; */
+    /* transition: transform 0.3s ease-in-out; */
   }
 
   .home-course-title {
     font-size: 0.95rem;
     padding: 9px;
+    margin-left: 30px;
     background-color: #f8f9fa;
     border-radius: 0 0 9px 9px;
   }
@@ -249,11 +254,11 @@
   }
 
   .home-course-img {
-    border-radius: 8px 8px 0 0; /* Slightly smaller radius */
-      width: 80%;
-  height: auto;
-  border-radius: 10px 10px 0 0;
-  transition: transform 0.3s ease-in-out;
+    width: 100%;
+    height: 160px; /* ✅ Fixed height for consistency */
+    object-fit: cover; /* ✅ Ensures image fills box without stretching */
+    border-radius: 8px 8px 0 0;
+    transition: transform 0.3s ease-in-out;
   }
 
   .home-course-title {

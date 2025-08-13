@@ -1,0 +1,122 @@
+{
+  "python-training-in-chennai": {
+    "rating": 5.0,
+    "reviews": 79431
+  },
+  "java-training-in-chennai": {
+    "rating": 4.9,
+    "reviews": 52340
+  },
+  "data-science-training-in-chennai": {
+    "rating": 5.0,
+    "reviews": 89841
+  },
+  "nodejs-training-in-chennai": {
+    "rating": 4.9,
+    "reviews": 18456
+  },
+  "aritifical-intelligence-training-in-chennai": {
+    "rating": 4.8,
+    "reviews": 17234
+  },
+  "cloud-computing-training-in-chennai": {
+    "rating": 5.0,
+    "reviews": 21543
+  },
+  "mean-stack-training-in-chennai": {
+    "rating": 4.9,
+    "reviews": 19872
+  },
+  "ajax-training-in-chennai": {
+    "rating": 4.7,
+    "reviews": 15432
+  },
+  "machine-learning-training-in-chennai": {
+    "rating": 5.0,
+    "reviews": 23654
+  },
+  "devOps-training-in-chennai": {
+    "rating": 4.8,
+    "reviews": 19283
+  },
+  "dotnet-training-in-chennai": {
+    "rating": 4.9,
+    "reviews": 18345
+  },
+  "tally-training-in-chennai": {
+    "rating": 4.7,
+    "reviews": 14839
+  },
+  "html-training-in-chennai": {
+    "rating": 4.8,
+    "reviews": 16548
+  },
+  "oracledba-training-in-chennai": {
+    "rating": 4.9,
+    "reviews": 17743
+  },
+  "php-training-in-chennai": {
+    "rating": 4.8,
+    "reviews": 16127
+  },
+  "powerbi-training-in-chennai": {
+    "rating": 4.9,
+    "reviews": 18923
+  },
+  "teradata-training-in-chennai": {
+    "rating": 4.7,
+    "reviews": 15378
+  },
+    "sap/sap-abap-training-in-chennai": {
+    "rating": 5.0,
+    "reviews": 23874
+  },
+    "sap/sap-im-training-in-chennai": {
+    "rating": 4.9,
+    "reviews": 15230
+  },
+  "sap/sap-erp-training-in-chennai": {
+    "rating": 4.8,
+    "reviews": 17890
+  },
+  "sap/sap-sd-training-in-chennai": {
+    "rating": 4.9,
+    "reviews": 20123
+  },
+  "sap/sap-ep-training-in-chennai": {
+    "rating": 4.8,
+    "reviews": 18456
+  },
+  "sap/sap-ec-training-in-chennai": {
+    "rating": 4.9,
+    "reviews": 16540
+  },
+  "sap/sap-pp-training-in-chennai": {
+    "rating": 4.7,
+    "reviews": 15322
+  },
+  "sap/sap-hr-training-in-chennai": {
+    "rating": 4.9,
+    "reviews": 19453
+  },
+  "sap/sap-lo-training-in-chennai": {
+    "rating": 4.8,
+    "reviews": 14673
+  },
+  "sap/sap-cs-training-in-chennai": {
+    "rating": 4.9,
+    "reviews": 16782
+  },
+  "sap/sap-pi-training-in-chennai": {
+    "rating": 4.8,
+    "reviews": 15983
+  },
+  "sap/sap-mii-training-in-chennai": {
+    "rating": 4.9,
+    "reviews": 14356
+  },
+  "sap/sap-ariba-training-in-chennai": {
+    "rating": 4.9,
+    "reviews": 17841
+  }
+}
