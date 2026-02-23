@@ -1,48 +1,55 @@
-import React, { useEffect, useState } from "react";
+import React, { useMemo } from "react";
 import { Helmet } from "react-helmet-async";
 import { useLocation } from "react-router-dom";
+import ratingsData from "../data/ratings.json";
 
-const SeoStarRating = () => {
-  const [schemaMarkup, setSchemaMarkup] = useState(null);
+const normalizePathKey = (path) =>
+  decodeURIComponent(path)
+    .replace(/^\/+|\/+$/g, "")
+    .toLowerCase();
+
+const SeoStarRating = ({ name, url }) => {
   const location = useLocation();
 
-  useEffect(() => {
-    const pageKey = location.pathname.replace(/^\/+/, ""); // remove leading slash
+  const ratingsByKey = useMemo(() => {
+    const map = new Map();
+    Object.entries(ratingsData).forEach(([key, value]) => {
+      map.set(normalizePathKey(key), value);
+    });
+    return map;
+  }, []);
 
-    fetch("/ratings.json")
-      .then((res) => res.json())
-      .then((data) => {
-        if (data[pageKey]) {
-          const { rating, reviews } = data[pageKey];
+  const pageKey = normalizePathKey(location.pathname);
+  const ratingEntry = ratingsByKey.get(pageKey);
 
-          // Minimal schema for star rating only
-          const schemaData = {
-            "@context": "https://schema.org",
-            "@type": "Product", // Avoid Course type to remove required field errors
-            "name": pageKey.replace(/-/g, " "), // Pretty name for product/course
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": rating.toString(),
-              "reviewCount": reviews
-            }
-          };
+  if (!ratingEntry) {
+    if (process.env.NODE_ENV !== "production") {
+      console.warn(
+        `[SeoStarRating] No rating entry for path "${pageKey}". Add it to src/data/ratings.json.`
+      );
+    }
+    return null;
+  }
 
-          setSchemaMarkup(JSON.stringify(schemaData));
-        } else {
-          setSchemaMarkup(null);
-        }
-      })
-      .catch((err) => {
-        console.error("Error loading ratings:", err);
-        setSchemaMarkup(null);
-      });
-  }, [location.pathname]);
+  const { rating, reviews } = ratingEntry;
 
-  if (!schemaMarkup) return null;
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: name || pageKey.replace(/-/g, " "),
+    url: url || undefined,
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: Number(rating),
+      bestRating: 5,
+      worstRating: 1,
+      reviewCount: Number(reviews),
+    },
+  };
 
   return (
     <Helmet>
-      <script type="application/ld+json">{schemaMarkup}</script>
+      <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
     </Helmet>
   );
 };
