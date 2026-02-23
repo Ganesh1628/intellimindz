@@ -37,7 +37,7 @@ const DynamicPage = () => {
         ogUrl={pageInfo.pageogurl}
       />
       
-      <SeoStarRating /> {/* ✅ Add it here so it injects schema.org data */}
+      <SeoStarRating name={pageInfo.pagetitle} url={pageInfo.pageogurl} />
 
       <Intro {...pageInfo} openContactModal={openContactModal} />
       <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />

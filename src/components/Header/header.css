@@ -19,6 +19,18 @@
   top: 37px;
 }
 
+.intellimindz_img {
+  display: block;
+  filter: none;
+  opacity: 1;
+  mix-blend-mode: normal;
+}
+
+.logo {
+  position: relative;
+  z-index: 2;
+}
+
 .nav__right {
   position: relative;
   z-index: 1;

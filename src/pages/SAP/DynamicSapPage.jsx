@@ -4,6 +4,7 @@ import { SapPagesData } from './Sappagedatas';
 import Sapdynamicconst from './Sapdynamicconst';
 import Meta from '../../components/Meta';
 import ContactModal from '../../components/Hero-Section/ContactModal';
+import SeoStarRating from '../../components/StarRating';
 
 const SapDynamicPage = () => {
   const { SappageId } = useParams();
@@ -36,6 +37,10 @@ const SapDynamicPage = () => {
         ogDescription={pageInfo.pagedescription}
         ogUrl={pageInfo.pageogurl}
         canonicalUrl={`https://chennaitraining.in/sap/${normalizedSappageId}`}
+      />
+      <SeoStarRating
+        name={pageInfo.pagetitle}
+        url={`https://chennaitraining.in/sap/${normalizedSappageId}`}
       />
       <Sapdynamicconst {...pageInfo} openContactModal={openContactModal} />
       <ContactModal isOpen={isModalOpen} onClose={closeContactModal} />
